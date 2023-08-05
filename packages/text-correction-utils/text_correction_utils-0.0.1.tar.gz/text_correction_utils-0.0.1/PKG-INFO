@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: text_correction_utils
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Dist: torch>=1.8.0
+Requires-Dist: einops>=0.3.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pyyaml>=5.4.0
+Requires-Dist: tqdm>=4.49.0
+Requires-Dist: pycodestyle>=2.8.0; extra == 'test'
+Requires-Dist: pytest>=6.2.0; extra == 'test'
+Requires-Dist: pytest-xdist>=2.5.0; extra == 'test'
+Provides-Extra: test
+License-File: LICENSE
+Summary: Utilities for text correction tasks using Deep NLP
+Keywords: nlp,utilities,text,correction
+Author-email: Sebastian Walter <swalter@cs.uni-freiburg.de>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Github, https://github.com/bastiscode/text-correction-utils
+
+## Text correction utilities
+
+This repository contains Python utilities (backed by Rust) used in many Deep 
+Learning based NLP applications.
+
+It is mainly designed to be used for whitespace correction, 
+spelling correction, and similar tasks.
+
+You can install the Python package from PyPi via
+
+> pip install text-correction-utils
+
+However, we encourage you to use the native installation method. This way the 
+Rust code is compiled for your particular CPU. Installation steps:
+1. Clone the repository
+   > git clone https://github.com/bastiscode/text-correction-utils.git
+2. Install natively
+   > make -C text-correction-utils build_native
+
