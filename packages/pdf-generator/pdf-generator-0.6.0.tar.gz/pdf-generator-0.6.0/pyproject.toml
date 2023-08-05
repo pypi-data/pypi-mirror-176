@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pdf-generator"
+description = "PDF Generation utils"
+requires-python = ">=3.7"
+authors = [
+    {name = "Grégoire ROCHER", email = "grgr@grgr.fr"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+    "reportlab",
+]
+dynamic = ["version"]
