@@ -1,0 +1,10 @@
+toxicityclassifier/__init__.py,sha256=fsBIO4_6fP4Yn3oegEwKIpAYlWSDRAj8vp0CE5_RSzw,660
+toxicityclassifier/models/EnglishModel.bf,sha256=qPm68gm21w_9vtD6Z1y6ZrW4kZbzSXCOm8KuJlxdH8s,547316
+toxicityclassifier/models/EnglishVectorizer.bf,sha256=fSOSXcA500FXEfpCXuTh5rTlS1bgRbLaPptx-oNzCnQ,4867231
+toxicityclassifier/models/RussianModel.bf,sha256=g6U6I1bBXpA8jb5zHop-ORRyxNhR-PHy1A6CSheTrG8,131976
+toxicityclassifier/models/RussianVectorizer.bf,sha256=yTLms7Px2dABNXiOKbhsScoprvCxRcR5-FuCX8I0-jk,918576
+toxicityclassifier/toxicityclassifier.py,sha256=p5rI_HfYuvEA7SnP8Pt7qgCzzLGzL3QYX0PRaNTifQo,8771
+toxicityclassifier-0.1.0.dist-info/LICENSE.md,sha256=xaM8pVitDCVdfZeezXjWqpG8mlGxm1NZ8GaOXscTnrI,1104
+toxicityclassifier-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+toxicityclassifier-0.1.0.dist-info/METADATA,sha256=1FRrzyhRXKtONDhIOE_g7MIsOEEJu_hPjt_KaJz9148,409
+toxicityclassifier-0.1.0.dist-info/RECORD,,
