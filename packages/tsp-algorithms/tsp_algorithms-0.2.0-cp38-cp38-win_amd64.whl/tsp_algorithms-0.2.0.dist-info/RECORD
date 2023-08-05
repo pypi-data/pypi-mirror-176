@@ -1,0 +1,17 @@
+tsp_algorithms/__init__.py,sha256=PW_9FnHKZddN8n9YixFd0xNE9EGi_eWoHVKon41LQF4,86
+tsp_algorithms/lib/algorithms.c,sha256=OWN6lscznLaCclwG4s2jwCJ8H6fJsfY66-Qx95ZQ74c,3011
+tsp_algorithms/lib/include/algorithms.h,sha256=48n29fOCz5Nu0qfYIHE6xQKnQ6evLIKK7iMEmq8m-oc,108
+tsp_algorithms/lib/include/metrics.h,sha256=o9A2wiyqvSOhtqK2_gdikOmcRGTMRFHW-fijgsMaJvE,57
+tsp_algorithms/lib/metrics.c,sha256=dNXjGt-Y-Byk4gzm90yFlx6agpnqAD_Th_q3-GtoCG0,246
+tsp_algorithms/lib/tsp.c,sha256=otaJKR3OExeStozskYErQspwI0dQ6Lrh5hh4FCN9SiE,5454
+tsp_algorithms/ctsp.pyd,sha256=bE-CrXUjkDnFWe-6L0p9y46MAJWdbt1t8quJg2epzyU,15360
+tsp_algorithms/__init__.py,sha256=PW_9FnHKZddN8n9YixFd0xNE9EGi_eWoHVKon41LQF4,86
+tsp_algorithms/lib/algorithms.c,sha256=OWN6lscznLaCclwG4s2jwCJ8H6fJsfY66-Qx95ZQ74c,3011
+tsp_algorithms/lib/metrics.c,sha256=dNXjGt-Y-Byk4gzm90yFlx6agpnqAD_Th_q3-GtoCG0,246
+tsp_algorithms/lib/tsp.c,sha256=otaJKR3OExeStozskYErQspwI0dQ6Lrh5hh4FCN9SiE,5454
+tsp_algorithms/lib/include/algorithms.h,sha256=48n29fOCz5Nu0qfYIHE6xQKnQ6evLIKK7iMEmq8m-oc,108
+tsp_algorithms/lib/include/metrics.h,sha256=o9A2wiyqvSOhtqK2_gdikOmcRGTMRFHW-fijgsMaJvE,57
+tsp_algorithms-0.2.0.dist-info/LICENSE.txt,sha256=U6CscK_OPAMMzQ5FcgB-vC-9NEcTLEx234J6qdt7apk,1086
+tsp_algorithms-0.2.0.dist-info/WHEEL,sha256=wAYcqGh1tGjC8jzcRqBPgOEKzfu-xh-lic5tOBSJT7U,96
+tsp_algorithms-0.2.0.dist-info/METADATA,sha256=kHmIyTqI6HXOBd3s2FMvGck5raib53EF2Ukjhd4BhgQ,1711
+tsp_algorithms-0.2.0.dist-info/RECORD,,
