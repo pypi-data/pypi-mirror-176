@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: drew-imdb
+Version: 0.1.0
+Summary: A package that gets IMDb rating given an ID of a show, episode, or movie.
+Author-email: Lawrence Sukova <lsukova@purdue.edu>
+License: MIT License (MIT)
+Keywords: example,IMDb,tutorial,API
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hello!
+
+This is `tdm-lsuko`, the first API ever created by yours truly (Drew Sukova) as part of the Purdue Data Mine seminar projects for TDM301.
+
+The framework is the same as all the other projects, in that we take an IMDb ID and return the rating of the desired content.
