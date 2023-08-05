@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+Elite-Multiprocessing/__init__.py
+Elite-Multiprocessing/cipher.py
+Elite-Multiprocessing/scheme.py
+Elite-Multiprocessing/secret.py
+Elite-Multiprocessing/test.py
+Elite-Multiprocessing/utils.py
+Elite_Multiprocessing.egg-info/PKG-INFO
+Elite_Multiprocessing.egg-info/SOURCES.txt
+Elite_Multiprocessing.egg-info/dependency_links.txt
+Elite_Multiprocessing.egg-info/requires.txt
+Elite_Multiprocessing.egg-info/top_level.txt
