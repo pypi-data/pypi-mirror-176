@@ -1,0 +1,6 @@
+version = "305.*"
+[tool.stubtest]
+ignore_missing_stub = false
+# The library only works on Windows; we currently only run stubtest on Ubuntu for third-party stubs in CI.
+# See #8660
+skip = true
