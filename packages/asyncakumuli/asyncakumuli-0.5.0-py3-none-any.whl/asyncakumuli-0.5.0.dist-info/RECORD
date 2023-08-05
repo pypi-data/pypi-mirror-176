@@ -1,0 +1,13 @@
+asyncakumuli/__init__.py,sha256=tZSeJsib8_eFzrHyYOnMc3ORotzHthC28L_tXCsxeTA,178
+asyncakumuli/_impl.py,sha256=-7SD8XPc3c3JhVxF1w5FjVEVWCjh_9JQDMWdF8HWFq4,12743
+asyncakumuli/buffered.py,sha256=OLCmIt_-uiPTICO8CQMCWa7HCsHBeVvqam8IvH7RmB0,8604
+asyncakumuli/collectd.py,sha256=y51rOutyfxogVI1O1mPr3CRULrmUAGFjUwNPlF5u_aM,18845
+asyncakumuli/mock.py,sha256=P3UcFZkjMA8ntU2FGG2rIPshVSO-10YUWRBp_PUD-KE,3175
+asyncakumuli/model.py,sha256=3L-fNIdVxUFIrrBogdKEX1oIdd2gkTesFqhWv93eDSk,6814
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=AIlUxqLu20VfAXHLUJOPkavnRZF-Yd9nSVLMbuk3Xn8,110
+tests/test_basic.py,sha256=QM0Gj_mhTb0jQseRwbx6dIkc-NNJtHRI-L7shOscnVg,814
+asyncakumuli-0.5.0.dist-info/METADATA,sha256=_qoJYLQQq5ZLZ0mCfqfKuWwfN_xuzMVP31JqovCy3BI,1438
+asyncakumuli-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asyncakumuli-0.5.0.dist-info/top_level.txt,sha256=39yahhzGHOOY2Q9xKpskvS32lTDhVzCGEjBzpWtm9G0,19
+asyncakumuli-0.5.0.dist-info/RECORD,,
