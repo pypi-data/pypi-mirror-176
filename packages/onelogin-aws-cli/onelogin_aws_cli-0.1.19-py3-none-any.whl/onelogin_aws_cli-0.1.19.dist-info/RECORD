@@ -1,0 +1,12 @@
+onelogin_aws_cli/__init__.py,sha256=7LBSeUfS3pryLZ1p9KK2q48vUsH9I4VHOCggM9oUAPg,7779
+onelogin_aws_cli/argparse.py,sha256=pjdxHkE3oz5vzqGka2sh0CmPJniHbSxEjgZz0rFnszk,2734
+onelogin_aws_cli/cli.py,sha256=el-PKU8OvHYK-FjLd1odRJP07rQJ4zRolRup2AQuBQE,1533
+onelogin_aws_cli/configuration.py,sha256=n7Zlk5aa2Gmo_lCa-ISzonvVJOpDxwiN8Ju3uU9B-XQ,5221
+onelogin_aws_cli/credentials.py,sha256=9vTujUnxi_kzJyPMUY79465f_vlyUV6BgEC3lIuybkI,5177
+onelogin_aws_cli/userquery.py,sha256=5rZcUbm5UcQctaeBv1NR8KT5WpEU6sXQoJktRYHqqsU,1801
+onelogin_aws_cli-0.1.19.dist-info/LICENSE.txt,sha256=2TDYc-UtJeHTX3ifmzGAkzz9kbIt3bjjI9y-MVn60Zk,1068
+onelogin_aws_cli-0.1.19.dist-info/METADATA,sha256=rJNYwInSZqp1_IyIjJcMFeBwm-baWwI-P1_4O8frlMM,897
+onelogin_aws_cli-0.1.19.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+onelogin_aws_cli-0.1.19.dist-info/entry_points.txt,sha256=gjQxKDxaYeTX-pcXvK43NBYShEHkxNnA03iclZuPMhc,66
+onelogin_aws_cli-0.1.19.dist-info/top_level.txt,sha256=mVEJCX4ncSY_BDEpGYaNbzgoa_lduAeYJSzzUQRWvgc,17
+onelogin_aws_cli-0.1.19.dist-info/RECORD,,
