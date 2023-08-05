@@ -1,0 +1,6 @@
+biocommons.seqrepo
+cool-seq-tool>=0.1.4
+ga4gh.vrs==0.8.0dev0
+ga4gh.vrsatile.pydantic==0.0.11
+gene-normalizer==0.1.30
+pydantic
