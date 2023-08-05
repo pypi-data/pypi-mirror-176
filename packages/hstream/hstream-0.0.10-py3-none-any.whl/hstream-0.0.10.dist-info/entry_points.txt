@@ -1,0 +1,2 @@
+[console_scripts]
+hstream = hyperstream.runner:run
