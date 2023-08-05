@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: portex
+Version: 0.0.1
+Summary: Portex Python Package
+Home-page: https://github.com/Project-OpenBytes/portex
+Author: Graviti
+Author-email: pypi@graviti.com
+License: Apache License 2.0
+Keywords: portex,schema,openbytes
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+
+# Portex
+
+[![Pre-commit](https://github.com/Project-OpenBytes/portex/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/Project-OpenBytes/portex/actions/workflows/pre-commit.yaml)
+[![Documentation Status](https://readthedocs.org/projects/portex/badge/?version=latest)](https://portex.readthedocs.io/en/latest/?badge=latest)
+[![GitHub](https://img.shields.io/github/license/Project-OpenBytes/portex)](https://github.com/Project-OpenBytes/portex/blob/main/LICENSE)
+
+Portex is a schema language for describing the data structure of the objects stored in the table.
+It defines the name and the type of each table column. It also tells the data user how to access the
+data in the table.
+
+This Github project manages the source code of the Portex design document.
+
+The full design document can be found in [documentation site](https://portex.readthedocs.io/en/latest).
+
+
