@@ -1,0 +1,80 @@
+zip
+
+```
+python setup.py sdist build
+```
+
+upload
+
+```
+twine upload dist/*
+```
+
+upgrade
+
+```
+python -m pip install --upgrade lc_pytools
+```
+
+
+
+# lc_pytools
+
+## linear_algebra
+
+### 1、det
+
+
+
+
+
+
+
+## algorithm
+
+### 1、dijkstra
+
+how to use it
+
+```
+dijkstra(Map, n)
+```
+
+
+
+```
+from heapq import *
+n = 3
+INF = float('inf')
+Map = [
+    [],
+    [[2, 2], [3, 4]],
+    [[3, 1]], 
+    []
+]
+
+def dijkstra(Map, n) :
+    dist = [INF for _ in range(n + 1)]
+    mark = [0 for _ in range(n + 1)]
+    heap = []
+    dist[1] = 0
+    heappush(heap, [dist[1], 1])
+    while heap :
+        d, t = heappop(heap)
+        if mark[t] : continue
+        mark[t] = 1
+        if t == n : break
+        # new
+        for e, s in Map[t] :
+            if mark[e] : continue
+            if dist[e] > dist[t] + s :
+                dist[e] = dist[t] + s
+                heappush(heap, [dist[e], e])
+    if dist[n] == INF : return -1
+    else: return dist[n]
+    
+if __name__ == "__main__":
+    res = dijkstra(Map, n)
+    print(res)
+```
+
