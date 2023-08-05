@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: exclusionms
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: pgarrett
+Author-email: pgarrett@scripps.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: intervaltree (==3.1.0)
+Requires-Dist: requests (==2.28.1)
+
+UNKNOWN
+
