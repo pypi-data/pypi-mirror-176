@@ -1,0 +1,7 @@
+dist
+docs
+examples
+notebooks
+tests
+tweetkit
+venv
