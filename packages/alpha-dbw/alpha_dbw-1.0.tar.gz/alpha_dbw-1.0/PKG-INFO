@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: alpha_dbw
+Version: 1.0
+Summary: Python API to Alpha | OSCAR Project
+Home-page: https://gitlab.com/starline/alpha_py
+Author: Nikolay Dema
+Author-email: ndema2301@gmail.com
+License: UNKNOWN
+Description: ### Alpha_py
+        
+        Репозиторий содержит API низкоуровневой системы управления автомобилем [Alpha](alpha.starline.ru), разрабатываемой в рамках проекта [OSCAR](https://gitlab.com/starline/oscar), для беспилотных транспортных средств.
+        
+        
+        #### Установка с PyPI
+        
+        ```
+        pip3 install --user alpha_py
+        ```
+        
+        
+        #### Установка из исходников
+        
+        ```
+        git clone https://gitlab.com/starline/alpha_py.git && cd alpha_py
+        pip3 install --user -e .
+        ```
+        
+        
+        #### Использование
+        
+        ```
+        import alpha
+        vehicle = alpha.Vehicle(“/dev/ttyACM0”)
+        vehicle.drive()
+        vehicle.steer(20)
+        vehicle.move(10)
+        vehicle.manual()
+        vehicle.led_blink()
+        vehicle.emergency_stop()
+        vehicle.recover()
+        vehicle.left_turn_signal()
+        vehicle.right_turn_signal()
+        vehicle.emergency_signals()
+        vehicle.turn_off_signals()
+        vehicle.get_vehicle_speed()
+        ```
+        
+Keywords: alpha,vehicle,api,oscar,drive-by-wire
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
