@@ -1,0 +1,7 @@
+README.md
+setup.py
+kditor/__init__.py
+kditor.egg-info/PKG-INFO
+kditor.egg-info/SOURCES.txt
+kditor.egg-info/dependency_links.txt
+kditor.egg-info/top_level.txt
