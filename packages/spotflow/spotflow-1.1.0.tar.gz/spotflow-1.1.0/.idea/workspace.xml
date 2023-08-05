@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1eef065-d35a-4ac2-9296-3e3c8a5f01ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spotflow" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="2GSFl58bf1dzniPe8diOG8qowv2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/e2e" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/e2e" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_filters.py">
+    <configuration name="examples_api_monitor_unittest_testcase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spotflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/examples_api_monitor_unittest_testcase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="examples_api_spotflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spotflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/examples_api_spotflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_filters.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="spotflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit/test_filters.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="spotflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="spotflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_filters.py" />
+        <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests in unit" />
+        <item itemvalue="Python.examples_api_spotflow" />
+        <item itemvalue="Python.examples_api_monitor_unittest_testcase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1eef065-d35a-4ac2-9296-3e3c8a5f01ff" name="Default Changelist" comment="" />
+      <created>1666374225333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666374225333</updated>
+      <workItem from="1666374227119" duration="37783000" />
+    </task>
+    <task id="LOCAL-00001" summary="renaming">
+      <created>1666374371221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666374371221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated pyproject">
+      <created>1666376905230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666376905230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated readme">
+      <created>1666435295243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435295243</updated>
+    </task>
+    <task id="LOCAL-00004" summary="python 3.10">
+      <created>1666435505990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435505990</updated>
+    </task>
+    <task id="LOCAL-00005" summary="python 3.10">
+      <created>1666435563744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435563744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="python 3.10">
+      <created>1666435762927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435762927</updated>
+    </task>
+    <task id="LOCAL-00007" summary="testing on macos-latest">
+      <created>1666435884952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435884952</updated>
+    </task>
+    <task id="LOCAL-00008" summary="examples">
+      <created>1666436239311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666436239311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="examples">
+      <created>1666436371783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666436371783</updated>
+    </task>
+    <task id="LOCAL-00010" summary="readme results">
+      <created>1666448731377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666448731377</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated readme + some renaming">
+      <created>1666449837703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666449837703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated readme">
+      <created>1666450334619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666450334619</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some cleaning">
+      <created>1666608625814</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666608625814</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update readme">
+      <created>1666609068143</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666609068143</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some renaming">
+      <created>1667249370772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667249370772</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improving examples">
+      <created>1667249579743</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667249579743</updated>
+    </task>
+    <task id="LOCAL-00017" summary="improving examples">
+      <created>1667250069576</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667250069576</updated>
+    </task>
+    <task id="LOCAL-00018" summary="improving examples">
+      <created>1667250779849</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667250779849</updated>
+    </task>
+    <task id="LOCAL-00019" summary="improving examples">
+      <created>1667250990505</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667250990505</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added examples">
+      <created>1667502727149</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667502727149</updated>
+    </task>
+    <task id="LOCAL-00021" summary="testing on windows-latest">
+      <created>1667588197302</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667588197302</updated>
+    </task>
+    <task id="LOCAL-00022" summary="testing on windows-latest">
+      <created>1667588375256</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667588375256</updated>
+    </task>
+    <task id="LOCAL-00023" summary="testing on windows-latest - updated TestFilter">
+      <created>1667589501385</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667589501385</updated>
+    </task>
+    <task id="LOCAL-00024" summary="some cleaning">
+      <created>1667925308396</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667925308397</updated>
+    </task>
+    <task id="LOCAL-00025" summary="working on test polarity">
+      <created>1667928237416</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667928237416</updated>
+    </task>
+    <task id="LOCAL-00026" summary="some refactoring and cleaning">
+      <created>1667930044236</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667930044236</updated>
+    </task>
+    <task id="LOCAL-00027" summary="pprint + api tests">
+      <created>1667936892515</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667936892515</updated>
+    </task>
+    <task id="LOCAL-00028" summary="some cleaning">
+      <created>1667999696227</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667999696227</updated>
+    </task>
+    <task id="LOCAL-00029" summary="running first unit tests and next e2e tests in GitHub Actions">
+      <created>1668000042818</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000042818</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Adding support to Python 3.7 in GitHub Actions">
+      <created>1668019257121</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019257121</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adding support to Python 3.7 in GitHub Actions">
+      <created>1668019390600</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019390600</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Adding support to Python 3.7 in GitHub Actions">
+      <created>1668019846586</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019846586</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Adding support to Python 3.7 in GitHub Actions">
+      <created>1668020107152</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668020107152</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adding support to Python 3.11 in GitHub Actions">
+      <created>1668021816147</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668021816147</updated>
+    </task>
+    <task id="LOCAL-00035" summary="removing Python 3.11">
+      <created>1668022020117</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668022020117</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="renaming" />
+    <MESSAGE value="updated pyproject" />
+    <MESSAGE value="python 3.10" />
+    <MESSAGE value="testing on macos-latest" />
+    <MESSAGE value="examples" />
+    <MESSAGE value="readme results" />
+    <MESSAGE value="updated readme + some renaming" />
+    <MESSAGE value="updated readme" />
+    <MESSAGE value="update readme" />
+    <MESSAGE value="some renaming" />
+    <MESSAGE value="improving examples" />
+    <MESSAGE value="added examples" />
+    <MESSAGE value="testing on windows-latest" />
+    <MESSAGE value="testing on windows-latest - updated TestFilter" />
+    <MESSAGE value="working on test polarity" />
+    <MESSAGE value="some refactoring and cleaning" />
+    <MESSAGE value="pprint + api tests" />
+    <MESSAGE value="some cleaning" />
+    <MESSAGE value="running first unit tests and next e2e tests in GitHub Actions" />
+    <MESSAGE value="Adding support to Python 3.7 in GitHub Actions" />
+    <MESSAGE value="Adding support to Python 3.11 in GitHub Actions" />
+    <MESSAGE value="removing Python 3.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing Python 3.11" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="1080" height="575" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1668018361510">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="100" y="125" width="1080" height="575" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1280.775@0.25.1280.775" timestamp="1668018361510" />
+    <state x="1809" y="21" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1667925961970">
+      <screen x="1280" y="-255" width="1920" height="1055" />
+    </state>
+    <state x="1809" y="21" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667925961970" />
+    <state x="1280" y="-255" width="856" height="775" key="CommitChangelistDialog2" timestamp="1668022242732">
+      <screen x="1280" y="-255" width="1920" height="1055" />
+    </state>
+    <state x="1280" y="-255" key="CommitChangelistDialog2/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1668022242732" />
+    <state x="0" y="25" width="856" height="775" key="CommitChangelistDialog2/0.25.1280.775@0.25.1280.775" timestamp="1668020106865" />
+    <state x="427" y="171" key="FileChooserDialogImpl" timestamp="1668018768008">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="427" y="171" key="FileChooserDialogImpl/0.25.1280.775@0.25.1280.775" timestamp="1668018768008" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1668019839789">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1312" height="462" key="GridCell.Tab.0.bottom/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667936879437" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1668019839789" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1668019839788">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1312" height="462" key="GridCell.Tab.0.center/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667936879436" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1668019839788" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1668019839788">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1312" height="462" key="GridCell.Tab.0.left/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667936879436" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1668019839788" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1668019839788">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1312" height="462" key="GridCell.Tab.0.right/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667936879437" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1668019839788" />
+    <state x="149" y="48" key="SettingsEditor" timestamp="1668018905598">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="149" y="48" key="SettingsEditor/0.25.1280.775@0.25.1280.775" timestamp="1668018905598" />
+    <state x="1640" y="-86" key="Vcs.Push.Dialog.v2" timestamp="1668022245250">
+      <screen x="1280" y="-255" width="1920" height="1055" />
+    </state>
+    <state x="1640" y="-86" key="Vcs.Push.Dialog.v2/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1668022245250" />
+    <state x="240" y="149" key="Vcs.Push.Dialog.v2/0.25.1280.775@0.25.1280.775" timestamp="1668020108632" />
+    <state x="226" y="137" width="827" height="550" key="find.popup" timestamp="1668019373965">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="1619" y="-103" width="1241" height="749" key="find.popup/0.25.1280.775/1280.-255.1920.1055@1280.-255.1920.1055" timestamp="1667929378102" />
+    <state x="226" y="137" width="827" height="550" key="find.popup/0.25.1280.775@0.25.1280.775" timestamp="1668019373965" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spotflow$examples_api_pretty_print.coverage" NAME="examples_api_pretty_print Coverage Results" MODIFIED="1668018651508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_monitor_py.coverage" NAME="Unittests in test_monitor.py Coverage Results" MODIFIED="1667936342511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$mining_python_lib.coverage" NAME="mining_python_lib Coverage Results" MODIFIED="1667249162952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_api_pprint_TestPrettyPrintReport_test_generate_txt_report_parseparam.coverage" NAME="Unittests for test_api_pprint.TestPrettyPrintReport.test_generate_txt_report_parseparam Coverage Results" MODIFIED="1667934953481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_monitor_unittest.coverage" NAME="examples_api_monitor_unittest Coverage Results" MODIFIED="1667933919417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_filters_py.coverage" NAME="Unittests in test_filters.py Coverage Results" MODIFIED="1668019825873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unit" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_monitor_unittest_module_py.coverage" NAME="Unittests in test_monitor_unittest.py Coverage Results" MODIFIED="1667936648401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_report_html_TestHTMLReport_test_generate_html_report_from_test_class.coverage" NAME="Unittests for test_report_html.TestHTMLReport.test_generate_html_report_from_test_class Coverage Results" MODIFIED="1668018545005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_unit.coverage" NAME="Unittests in unit Coverage Results" MODIFIED="1668018699934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unit" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_api_pprint_TestPrettyPrintReport_test_generate_txt_report_count_uppercase_words.coverage" NAME="Unittests for test_api_pprint.TestPrettyPrintReport.test_generate_txt_report_count_uppercase_words Coverage Results" MODIFIED="1667934918266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_monitor_TestMonitor.coverage" NAME="Unittests for test_monitor.TestMonitor Coverage Results" MODIFIED="1667935510891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_e2e.coverage" NAME="Unittests in e2e Coverage Results" MODIFIED="1668018564301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_report_pprint_py.coverage" NAME="Unittests in test_report_pprint.py Coverage Results" MODIFIED="1667935123480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_monitor_TestMonitor_test_generate_pprint_report_count_uppercase_words_shortcut.coverage" NAME="Unittests for test_monitor.TestMonitor.test_generate_pprint_report_count_uppercase_words_shortcut Coverage Results" MODIFIED="1667935493832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_api_monitor.coverage" NAME="examples_api_monitor Coverage Results" MODIFIED="1668018655238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_live.coverage" NAME="examples_pretty_print Coverage Results" MODIFIED="1667933366294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_api_pprint_py.coverage" NAME="Unittests in test_api_pprint.py Coverage Results" MODIFIED="1667935003486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_monitor_unittest_TestMonitor.coverage" NAME="Unittests for test_monitor_unittest.TestMonitor Coverage Results" MODIFIED="1667936056134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_comparator_py.coverage" NAME="Unittests in test_comparator.py Coverage Results" MODIFIED="1667925244987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unit" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_test_report_csv_py.coverage" NAME="Unittests in test_report_csv.py Coverage Results" MODIFIED="1667936295289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_api_spotflow.coverage" NAME="examples_api_spotflow Coverage Results" MODIFIED="1668018695688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1668019136955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_api.coverage" NAME="examples_api Coverage Results" MODIFIED="1667494543141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$mining_polarity.coverage" NAME="mining_polarity Coverage Results" MODIFIED="1667933858482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab" />
+    <SUITE FILE_PATH="coverage/spotflow$Unittests_for_test_monitor_unittest_TestMonitorUnittest_test_monitor_unittest_testcase_email.coverage" NAME="Unittests for test_monitor_unittest.TestMonitorUnittest.test_monitor_unittest_testcase_email Coverage Results" MODIFIED="1667936192129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_api_monitor_unittest_module.coverage" NAME="examples_api_monitor_unittest_module Coverage Results" MODIFIED="1668018658710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/spotflow$examples_api_monitor_unittest_testcase.coverage" NAME="examples_api_monitor_unittest_testcase Coverage Results" MODIFIED="1668018679107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+  </component>
+</project>
