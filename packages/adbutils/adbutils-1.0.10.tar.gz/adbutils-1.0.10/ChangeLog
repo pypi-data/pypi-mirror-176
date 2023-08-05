@@ -1,0 +1,17 @@
+CHANGES
+=======
+
+1.0.10
+------
+
+* fix apk install when version\_name has cn name
+* remove redundant import
+* read screenshot from stream rather than temp file
+* Bugfix: Fix utf-8 encoding command sending
+* add examples of adb-reset
+* update typing
+* update doc
+* fix wheel platform tag
+* change to adb push on windows
+* fix #48
+* support linux wheel build
