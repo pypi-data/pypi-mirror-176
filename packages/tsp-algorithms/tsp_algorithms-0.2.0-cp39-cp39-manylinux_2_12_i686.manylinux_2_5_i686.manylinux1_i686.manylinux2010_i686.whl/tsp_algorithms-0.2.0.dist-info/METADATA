@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tsp-algorithms
+Version: 0.2.0
+Summary: TSP Algorithms developed as C extension for Python
+Home-page: https://www.github.com/gustavo-sf/tsp-algorithms
+License: MIT
+Keywords: tsp,algorithms,c,python
+Author: Gustavo-SF
+Author-email: gustavo.fonseca@outlook.pt
+Requires-Python: >3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Project-URL: Repository, https://www.github.com/gustavo-sf/tsp-algorithms
+Description-Content-Type: text/markdown
+
+# TSP Algorithms developed as C extensions for Python
+
+## Introduction
+
+In a VRP problem, the objective is to find the best route for a fleet of vehicles to visit a set of customers. The best route is the one that minimizes the total distance traveled by the fleet. The problem is NP-hard, and there are many heuristics to solve it. 
+
+## Install
+
+You can install via pip:
+```bash
+pip install tsp-algorithms
+```
+
+## Usage
+
+Just import the package and use one of the methods available:
+
+```python
+import tsp_algorithms as tsp
+
+tsp.nn([[0., 1.], [2., 3.]])
+```
+
+## Available methods
+
+- [Nearest Neighbour](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm) (`.nn`)
+

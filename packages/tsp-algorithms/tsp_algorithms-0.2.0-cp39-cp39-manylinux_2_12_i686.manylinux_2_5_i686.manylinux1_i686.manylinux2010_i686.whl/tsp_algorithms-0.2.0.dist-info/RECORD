@@ -1,0 +1,11 @@
+tsp_algorithms/ctsp.abi3.so,sha256=uxdul1-kQwXpIN_-8UOdtqmbaRBSk44r52omQqcaaZ0,31160
+tsp_algorithms/__init__.py,sha256=dU8S1ltGYF-t1ZqZp4yfmSl2v1cNIEktfcW4ZkaSHP0,84
+tsp_algorithms/lib/algorithms.c,sha256=payzoEkEeVrLSMxx-frTlqiytOHxWgDkmQRBIC4z3jk,2927
+tsp_algorithms/lib/tsp.c,sha256=crCFdr28_4qrp_iPf5ZkhUT5DTf2VLdgG49iL7GOuTs,5284
+tsp_algorithms/lib/metrics.c,sha256=lDQZ1oSd52xdKY9zP67CLa6lbvPopTptOQRjvt8ZIbk,239
+tsp_algorithms/lib/include/algorithms.h,sha256=HR2i2MUUmhhXaP1He7QWIJiR3QZM2xtl-bf0dWINgao,106
+tsp_algorithms/lib/include/metrics.h,sha256=o9A2wiyqvSOhtqK2_gdikOmcRGTMRFHW-fijgsMaJvE,57
+tsp_algorithms-0.2.0.dist-info/LICENSE.txt,sha256=_639neWbC0wQ4tXyGV_-z6VG342UghrnlZC9d7hUpow,1077
+tsp_algorithms-0.2.0.dist-info/WHEEL,sha256=Yxhetc5ZnQyJftBTlULw0d9_XlabkiOMJrNhxvu2hu0,206
+tsp_algorithms-0.2.0.dist-info/RECORD,,
+tsp_algorithms-0.2.0.dist-info/METADATA,sha256=kHmIyTqI6HXOBd3s2FMvGck5raib53EF2Ukjhd4BhgQ,1711
