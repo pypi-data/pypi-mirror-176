@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dailydose"
+description = "Boredom kills. Here's a package that gives you a daily dose of fun!"
+version = "0.1.1"
+authors = [
+  { name="Larry Li", email="zl2902@nyu.edu" },
+  { name="Sneheel Sarangi", email="ss14247@nyu.edu" },
+  { name="Paula Seraphim", email="pas580@nyu.edu" },
+  { name="Winston Zhang", email="shz231@nyu.edu" },
+]
+license = { text="GPL-3.0-only" }
+readme = "README.md"
+keywords = ["dailydose"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'beautifulsoup4==4.11.1',
+  'english-words==1.1.0',
+]
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-14"
+"Repository" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-14.git"
+"Bug Tracker" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-14/issues"
+
+[project.scripts]
+battleship ="battleship.__main__:main"
