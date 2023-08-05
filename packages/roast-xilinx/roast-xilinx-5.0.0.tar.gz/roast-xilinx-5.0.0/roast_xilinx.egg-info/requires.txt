@@ -1,0 +1,9 @@
+roast>=5.0.0.dev5
+
+[dev]
+pytest
+pytest-mock
+pytest-black
+pytest-freezegun
+miniver
+coverage
