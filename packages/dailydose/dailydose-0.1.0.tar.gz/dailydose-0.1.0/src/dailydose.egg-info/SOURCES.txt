@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dailydose/__init__.py
+src/dailydose/__main__.py
+src/dailydose/battleship.py
+src/dailydose/fact.py
+src/dailydose/hang.py
+src/dailydose/news.py
+src/dailydose.egg-info/PKG-INFO
+src/dailydose.egg-info/SOURCES.txt
+src/dailydose.egg-info/dependency_links.txt
+src/dailydose.egg-info/entry_points.txt
+src/dailydose.egg-info/requires.txt
+src/dailydose.egg-info/top_level.txt
