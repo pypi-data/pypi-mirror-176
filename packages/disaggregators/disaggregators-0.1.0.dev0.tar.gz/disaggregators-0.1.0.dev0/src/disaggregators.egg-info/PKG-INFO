@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: disaggregators
+Version: 0.1.0.dev0
+Summary: HuggingFace community-driven open-source library for dataset disaggregation
+Home-page: https://github.com/NimaBoscarino/disaggregators
+Download-URL: https://github.com/NimaBoscarino/disaggregators/tags
+Author: HuggingFace Inc.
+Author-email: nima@huggingface.co
+License: Apache 2.0
+Keywords: machine learning evaluate evaluation disaggregation
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: quality
+License-File: LICENSE
+
+# Disaggregators
+
+TO DO.
+
+Contact: nima@huggingface.co
