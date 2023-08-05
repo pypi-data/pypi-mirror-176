@@ -1,0 +1,9 @@
+rest_framework_vault/__init__.py,sha256=ObvxoJJwmYXk8t65hNhSAYlwB1CPB4V2YiYFzc6Nx7c,349
+rest_framework_vault/parsers.py,sha256=U4xyPSlK_yqpSBOPQEvatPNOavabk8zkL5wR5jBjnE4,1658
+rest_framework_vault/renderers.py,sha256=VHB01PvVabCKu8kL2-kuWbUISiefjiTYdoL3CuzWc74,1285
+rest_framework_vault/utils.py,sha256=VRCQE4QMnrbWxr-_rrZgyRIxhfuc72nEy_aq0VwidYA,2379
+django_rest_vault-0.0.1.dist-info/LICENSE,sha256=aENusCIOQuvIsTmD6_0AXF-y9h6pTbm-z0Og7RvnIu0,1069
+django_rest_vault-0.0.1.dist-info/METADATA,sha256=KqB439dk87rXMURjpUTA3Fd-yvWuGOO1GTDBKfu2TTc,2427
+django_rest_vault-0.0.1.dist-info/WHEEL,sha256=Ow1Agppnny4NfvfZK4t6N-TUVQfFCpnFCb5wBX-uuec,110
+django_rest_vault-0.0.1.dist-info/top_level.txt,sha256=2USVZjA_bA72aidjzPcbXwN_jcL2Eal94SryolOhGOE,21
+django_rest_vault-0.0.1.dist-info/RECORD,,
