@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+django_auditlog_with_elasticsearch_indexing.egg-info/PKG-INFO
+django_auditlog_with_elasticsearch_indexing.egg-info/SOURCES.txt
+django_auditlog_with_elasticsearch_indexing.egg-info/dependency_links.txt
+django_auditlog_with_elasticsearch_indexing.egg-info/requires.txt
+django_auditlog_with_elasticsearch_indexing.egg-info/top_level.txt

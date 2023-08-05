@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-auditlog-with-elasticsearch-indexing
+Version: 0.0.0
+Summary: Audit log app for Django with Elasticsearch indexing.
+Home-page: https://github.com/Eslamhathout/django-auditlog-with-elasticsearch-indexing
+Author: ehathout
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+django-auditlog-with-elasticsearch-indexing
+===========================================
+
+It's the same package for django-auditlog, plus adding the functionality of indexing the logs to Elasticsearch.
+
+
+
