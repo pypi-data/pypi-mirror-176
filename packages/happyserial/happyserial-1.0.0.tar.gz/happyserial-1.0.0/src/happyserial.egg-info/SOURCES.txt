@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/happyserial/BreakfastSerial.py
+src/happyserial/Crc.py
+src/happyserial/HappySerial.py
+src/happyserial/HappyVersion.py
+src/happyserial/Hdlc.py
+src/happyserial/__init__.py
+src/happyserial.egg-info/PKG-INFO
+src/happyserial.egg-info/SOURCES.txt
+src/happyserial.egg-info/dependency_links.txt
+src/happyserial.egg-info/requires.txt
+src/happyserial.egg-info/top_level.txt
