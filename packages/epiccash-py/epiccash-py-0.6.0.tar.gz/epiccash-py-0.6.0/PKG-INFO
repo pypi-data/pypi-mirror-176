@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: epiccash-py
+Version: 0.6.0
+Summary: EPIC wallet and node API wrapped in Python
+Home-page: https://github.com/blacktyger/epic-py
+Author: @blacktyg3r
+Author-email: blacktyg3r@gmail.com
+License: -
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
