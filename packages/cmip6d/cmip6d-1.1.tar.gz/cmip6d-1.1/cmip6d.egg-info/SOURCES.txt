@@ -1,0 +1,9 @@
+README.md
+setup.py
+cmip6d/__init__.py
+cmip6d/cmip6d.py
+cmip6d.egg-info/PKG-INFO
+cmip6d.egg-info/SOURCES.txt
+cmip6d.egg-info/dependency_links.txt
+cmip6d.egg-info/requires.txt
+cmip6d.egg-info/top_level.txt
