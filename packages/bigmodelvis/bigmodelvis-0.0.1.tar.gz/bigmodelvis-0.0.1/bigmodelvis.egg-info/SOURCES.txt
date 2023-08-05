@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bigmodelvis/__init__.py
+bigmodelvis/vis_logging.py
+bigmodelvis/visualization.py
+bigmodelvis.egg-info/PKG-INFO
+bigmodelvis.egg-info/SOURCES.txt
+bigmodelvis.egg-info/dependency_links.txt
+bigmodelvis.egg-info/requires.txt
+bigmodelvis.egg-info/top_level.txt
