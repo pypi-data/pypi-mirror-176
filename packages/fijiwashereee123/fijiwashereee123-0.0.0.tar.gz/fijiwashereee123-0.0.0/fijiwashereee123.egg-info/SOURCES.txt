@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+fijiwashereee123/__init__.py
+fijiwashereee123.egg-info/PKG-INFO
+fijiwashereee123.egg-info/SOURCES.txt
+fijiwashereee123.egg-info/dependency_links.txt
+fijiwashereee123.egg-info/top_level.txt
