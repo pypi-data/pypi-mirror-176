@@ -1,0 +1,42 @@
+# Package Overview
+package_name: titanic_pipeline
+
+# Data Files
+data_file: titanic.csv
+
+# Variables
+# The variable we are attempting to predict
+target: survived
+
+pipeline_name: titanic_pipeline
+pipeline_save_file: titanic_pipeline_m
+
+
+features:
+  - pclass
+  - name
+  - sex
+  - age
+  - sibsp
+  - parch
+  - ticket
+  - fare
+  - cabin
+  - embarked
+  - survived
+
+# set train/test split
+test_size: 0.25
+
+# to set the random seed
+random_state: 15111981
+
+
+numerical_vars_with_na:
+  - age
+
+drop_features:
+  - name
+  - ticket
+  - cabin
+  - embarked
