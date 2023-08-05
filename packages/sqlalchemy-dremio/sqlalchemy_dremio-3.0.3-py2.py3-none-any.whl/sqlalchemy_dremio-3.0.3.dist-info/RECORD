@@ -1,0 +1,13 @@
+sqlalchemy_dremio/__init__.py,sha256=V6Ts5MJTT1qUQP7L91uo8Nphn8C7bfurYnGXjOXU40g,220
+sqlalchemy_dremio/base.py,sha256=bsNq5cuiJQPDE0pu6y6rPK-Udo0OVykqCVYAcDXyo4w,12028
+sqlalchemy_dremio/db.py,sha256=gcdqdoJO8fiZEFUME_PJEh1okReSYBGEajXyGsrq8_Y,7273
+sqlalchemy_dremio/exceptions.py,sha256=SpgRbLSGtoCo6TmWqcu3uZMNl4CaTTSr-Iiugo_a1kY,589
+sqlalchemy_dremio/flight.py,sha256=aNBHZYtbNI2a-5dlFDMSCpdrEyj_4qjFJS4AIjs25i4,12271
+sqlalchemy_dremio/flight_middleware.py,sha256=qn6VMYL-P7A6raLXG6z9cXAD1dhTJ-vFOiQQuDD5yMQ,1310
+sqlalchemy_dremio/query.py,sha256=FcPJUfdTeDQ_vvn5yOuUmWBGLjRLd2MiA1GiS6t_JPw,1825
+sqlalchemy_dremio-3.0.3.dist-info/LICENSE,sha256=vjNvJwFC9jPSSUSQrccEd-s7VFaokVdimXUa9aRj57s,11584
+sqlalchemy_dremio-3.0.3.dist-info/METADATA,sha256=Z5HHqpkYkzuqWSYo-l0luZdUcVPbcWuDdojPHE6qVuo,1811
+sqlalchemy_dremio-3.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sqlalchemy_dremio-3.0.3.dist-info/entry_points.txt,sha256=2MCix2J6MTxeJ19KDaDut86oUL1FfSJ4xK0cVa8PU_s,84
+sqlalchemy_dremio-3.0.3.dist-info/top_level.txt,sha256=PM77pSbt6og5YukKe-BL3lRVi5Z8HfaMz_YOKjgDLys,18
+sqlalchemy_dremio-3.0.3.dist-info/RECORD,,
