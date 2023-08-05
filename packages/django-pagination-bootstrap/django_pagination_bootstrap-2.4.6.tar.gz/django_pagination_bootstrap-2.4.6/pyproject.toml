@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "django-pagination-bootstrap"
+version = "2.4.6"
+description = "Easy add pagination in Django, using Bootstrap's layout."
+authors = ["staticdev <staticdev-support@proton.me>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/staticdev/django-pagination-bootstrap"
+homepage = "https://github.com/staticdev/django-pagination-bootstrap"
+documentation = "https://django-pagination-bootstrap.readthedocs.io"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 2.0",
+    "Framework :: Django :: 2.1",
+    "Framework :: Django :: 2.2",
+    "Framework :: Django :: 3.0",
+    "Operating System :: OS Independent",
+    "Development Status :: 7 - Inactive",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/staticdev/django-pagination-bootstrap/releases"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+django = ">=2.0"
+
+[tool.poetry.dev-dependencies]
+bandit = ">=1.7.4"
+black = ">=22.1"
+coverage = {extras = ["toml"], version = ">=6.3.2"}
+darglint = ">=1.8.1"
+flake8 = ">=5.0.4"
+flake8-bugbear = ">=21.9.2"
+flake8-docstrings = ">=1.6.0"
+flake8-rst-docstrings = ">=0.2.5"
+mypy = ">=0.941"
+pep8-naming = ">=0.12.1"
+pre-commit = ">=2.17.0"
+pre-commit-hooks = ">=4.1.0"
+pytest = ">=7.0.0"
+pytest-django = ">=4.1.0"
+pygments = ">=2.11.2"
+safety = ">=2.3.1"
+sphinx = ">=4.3.2"
+sphinx-autobuild = ">=2021.3.14"
+typeguard = ">=2.13.3"
+xdoctest = ">=0.15.2"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["django_pagination_bootstrap"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
