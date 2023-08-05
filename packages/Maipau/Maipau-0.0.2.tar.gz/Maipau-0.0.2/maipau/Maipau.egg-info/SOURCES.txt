@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+maipau/Maipau.egg-info/PKG-INFO
+maipau/Maipau.egg-info/SOURCES.txt
+maipau/Maipau.egg-info/dependency_links.txt
+maipau/Maipau.egg-info/top_level.txt
