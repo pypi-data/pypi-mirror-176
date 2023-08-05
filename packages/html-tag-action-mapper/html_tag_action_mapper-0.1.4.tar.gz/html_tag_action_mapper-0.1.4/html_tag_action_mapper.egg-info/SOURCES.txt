@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+html_tag_action_mapper/__init__.py
+html_tag_action_mapper/action_mapper.py
+html_tag_action_mapper.egg-info/PKG-INFO
+html_tag_action_mapper.egg-info/SOURCES.txt
+html_tag_action_mapper.egg-info/dependency_links.txt
+html_tag_action_mapper.egg-info/top_level.txt
