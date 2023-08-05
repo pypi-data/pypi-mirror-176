@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stamox
+Version: 0.0.6
+Summary: High Performance Statistics Library
+Home-page: https://github.com/jiayaobo/sax
+Author: Jia Yaobo
+License: MIT
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: complete
+License-File: LICENCE
+
+# High Performance Stats Models in JAX
+
+A modern statistics package based on JAX, inspired by sklearn, statsmodels and tidymodels
+
+==============================================================
+
+I'd like to build a pure functional stats tools, cuz we can't do anything until we create a complex object in this oop world, which
+is sort of annoying
+
+==============================================================
+
+If u're interested in statistics and functional programming or jax, 
+we can build stamox together !!!
