@@ -1,0 +1,8 @@
+LICENCE.md
+README.md
+setup.py
+src/moralis.egg-info/PKG-INFO
+src/moralis.egg-info/SOURCES.txt
+src/moralis.egg-info/dependency_links.txt
+src/moralis.egg-info/requires.txt
+src/moralis.egg-info/top_level.txt
