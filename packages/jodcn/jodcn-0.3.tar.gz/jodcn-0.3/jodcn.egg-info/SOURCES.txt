@@ -1,0 +1,7 @@
+Licence.txt
+setup.py
+jodcn/__init__.py
+jodcn.egg-info/PKG-INFO
+jodcn.egg-info/SOURCES.txt
+jodcn.egg-info/dependency_links.txt
+jodcn.egg-info/top_level.txt
