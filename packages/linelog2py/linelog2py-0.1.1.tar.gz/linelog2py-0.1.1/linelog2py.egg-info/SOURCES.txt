@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+linelog2py/__init__.py
+linelog2py/category.py
+linelog2py/message.py
+linelog2py/reader.py
+linelog2py.egg-info/PKG-INFO
+linelog2py.egg-info/SOURCES.txt
+linelog2py.egg-info/dependency_links.txt
+linelog2py.egg-info/top_level.txt
