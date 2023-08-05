@@ -1,0 +1,28 @@
+{{ product.description_title }}
+
+{% if product.description_brand %}Бренд: {{product.description_brand}}{% endif %}
+{% if product.description_collection %}Коллекция: {{product.description_collection}}{% endif %}
+{% if product.description_size %}Размер: {{product.description_size}}{% endif %}
+{% if product.description_color %}Цвет: {{product.description_color}}{% endif %}
+{% if product.description_measurement %}Ш(Ширина)xГ(Глубина)xВ(Высота): {{product.description_measurement}}{% endif %}
+{% if product.description_weight %}Вес: {{product.description_weight}}{% endif %}
+
+{% if product.description_short %}
+{{product.description_short}}
+{% endif %}
+
+{% if product.description_materials %}
+Материалы / Состав
+{% for material in product.description_materials %}
+- {{material}}
+{% endfor %}
+
+{% endif %}
+
+{% if product.description_notes %}
+Примечания
+{% for note in product.description_notes %}
+- {{note}}
+{% endfor %}
+{% endif %}
+{% include "footer.txt" %}
