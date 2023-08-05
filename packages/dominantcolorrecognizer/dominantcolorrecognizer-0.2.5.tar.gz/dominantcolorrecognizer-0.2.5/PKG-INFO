@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: dominantcolorrecognizer
+Version: 0.2.5
+Summary: Python library created to obtain a specific number of dominant colors from an image.
+License: Bitapps
+Author: Wojciech Batorski
+Author-email: wojciech.batorski@bitapps.fi
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=22.10.0,<23.0.0)
+Requires-Dist: colormap (>=1.0.4,<2.0.0)
+Requires-Dist: easydev (>=0.12.0,<0.13.0)
+Requires-Dist: extcolors (>=1.0.0,<2.0.0)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: mypy (>=0.990,<0.991)
+Description-Content-Type: text/markdown
+
+# Dominant Color Recognizer
+
+
+
+## General info
+DCR is a Python library created to obtain a specific number of dominant colors from image.
+You can define number of colors and color model in which values will be returned.
+
+Currently supported color models:
+| Color model  | Example         |
+|--------------|-----------------|
+|    HEX       | #0040ff         |
+|    RGB       | rgb(0, 64, 255) |
+
+
+## Instalation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/getting-started/) to install DCR library:
+```commandline
+pip install dominantcolorrecognizer
+```
+
+## Usage
+
+```python
+from dominant_color_recognizer import ColorAnalyzer, RGBColorModel, HEXColorModel
+
+# RGB color model:
+print(ColorAnalyzer(RGBColorModel()).get_dominant_colors('test.jpg', 3))
+# You can also use URL
+print(ColorAnalyzer(RGBColorModel()).get_dominant_colors('https://swiatkolorow.com.pl/userdata/public/gfx/252817/1ee9698f09e987d3e9a3785167b180b0.jpg', 3))
+# Expected result:
+# ["(185, 154, 90)", "(52, 40, 24)", "(25, 18, 0)"]
+
+# HEX color model:
+print(ColorAnalyzer(HEXColorModel()).get_dominant_colors('test.jpg', 3))
+# Same as with RGB, you can also use URL
+print(ColorAnalyzer(HEXColorModel()).get_dominant_colors('https://swiatkolorow.com.pl/userdata/public/gfx/252817/1ee9698f09e987d3e9a3785167b180b0.jpg', 3))
+# Expected result:
+# ['#B99A5A', '#342818', '#191200']
+```
+
+## Tests
+
+To run a tests you have to install [pytest](https://pypi.org/project/pytest/) and run it with the command:
+```commandline
+pytest
+```
+
+## License
+
+Bittapps
