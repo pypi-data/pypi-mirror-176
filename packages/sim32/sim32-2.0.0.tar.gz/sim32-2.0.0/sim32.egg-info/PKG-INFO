@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sim32
+Version: 2.0.0
+Summary: Library to help you write games
+Home-page: https://github.com/TheArtur128/SimEngine
+Download-URL: https://github.com/TheArtur128/SimEngine/archive/refs/tags/2.0.0.zip
+Author: Arthur
+Author-email: s9339307190@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## Sim-Engine
+Helps to create games without limiting you
+
+### Advantages
+* **Speed** - You will very quickly start developing without paying attention to the infrastructure (but you can also tailor it to your needs)
+* **Connectability** - You can quickly connect the engine to an already created game
+* **Flexibility** - You are not even limited to 2 or 3 dimensions!
+* **Controllability** - You can incredibly deftly operate with the logic of your game
+* **Fullness** - Integration with pygame rendering solution
+
+### Installation
+`pip install sim32`
