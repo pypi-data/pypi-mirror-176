@@ -1,0 +1,11 @@
+Imagem_processing_chemdexx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Imagem_processing_chemdexx/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Imagem_processing_chemdexx/processing/combination.py,sha256=rHJeikg19MdNA9XHxNLoTZIerEjnOemT-SceAOEx85Q,766
+Imagem_processing_chemdexx/processing/transformation.py,sha256=enDfz9XJm9FyrQ65c_9mrm8m8CxkleULkDBEi2HkH64,345
+Imagem_processing_chemdexx/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Imagem_processing_chemdexx/utils/io.py,sha256=8roHvrOrbZh991lcHPZ3IMJdOKuPkK6VG8YWr4BAv7E,185
+Imagem_processing_chemdexx/utils/plot.py,sha256=6_nyMxyuAv9768U5MmdwpG_8NoY7SHEEYV86CNbfB4k,955
+Imagem_processing_chemdexx-0.0.1.dist-info/METADATA,sha256=SLIplJt26vEdTf4ooGCoXSiYgm9DdkFohFMJGOmePz0,863
+Imagem_processing_chemdexx-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Imagem_processing_chemdexx-0.0.1.dist-info/top_level.txt,sha256=qvriPM3YB4J9PeG4i8SFHRD8Lo2UzKaD7QzsSbfnfr4,27
+Imagem_processing_chemdexx-0.0.1.dist-info/RECORD,,
