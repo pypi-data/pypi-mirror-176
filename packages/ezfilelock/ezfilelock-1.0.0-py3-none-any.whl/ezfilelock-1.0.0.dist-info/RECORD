@@ -1,0 +1,9 @@
+ezfilelock/__init__.py,sha256=enqGlkAXTq7v5z-jlgNDI1qSPdaqFP3ksiTlrSc7IBc,220
+ezfilelock/filelock.py,sha256=ZAeomFIffAEpgEH0nr0Zvix4s92asNs5dJvKgXdhuVk,1892
+ezfilelock/rwlock.py,sha256=nDGIxg_b0am-Qy2mm-EalqA-zuhRAmUBnBsOBEbS-JY,1858
+ezfilelock/version.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+ezfilelock-1.0.0.dist-info/LICENSE,sha256=7Io7LAh6cVZSCHH8IBMf-CdPkcon1WhnXl_AYyRvoFQ,1062
+ezfilelock-1.0.0.dist-info/METADATA,sha256=uDZiBOIkKj1ZkojBvazKIofgbZec6sPuni-2RJKp05k,278
+ezfilelock-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ezfilelock-1.0.0.dist-info/top_level.txt,sha256=BsFvwUtDtwtsfIv1LDEDvGuAnkhOY_8rPlqRpw48630,11
+ezfilelock-1.0.0.dist-info/RECORD,,
