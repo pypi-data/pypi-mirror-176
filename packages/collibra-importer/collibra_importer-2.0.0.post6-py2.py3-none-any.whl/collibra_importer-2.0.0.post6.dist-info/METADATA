@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: collibra-importer
+Version: 2.0.0.post6
+Summary: Collibra Import API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Collibra Import API
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    &lt;p&gt;The Import API is an efficient way to load large volumes of data into the Collibra Data Governance Center. The API can automatically differentiate between creating and updating data.&lt;/p&gt;  # noqa: E501
+    
