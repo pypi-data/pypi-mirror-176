@@ -1,0 +1,6 @@
+typer
+jsonrpc-websocket
+netifaces
+pynvml
+py3nvml
+requests
