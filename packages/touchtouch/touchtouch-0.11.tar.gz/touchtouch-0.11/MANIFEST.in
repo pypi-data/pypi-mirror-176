@@ -1,0 +1,3 @@
+include touchtouch/requirements.txt
+include touchtouch/thirdparty.json
+include touchtouch/README.MD

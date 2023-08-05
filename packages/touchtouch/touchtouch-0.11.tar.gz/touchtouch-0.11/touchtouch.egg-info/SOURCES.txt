@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+touchtouch/README.MD
+touchtouch/__init__.py
+touchtouch/requirements.txt
+touchtouch/thirdparty.json
+touchtouch.egg-info/PKG-INFO
+touchtouch.egg-info/SOURCES.txt
+touchtouch.egg-info/dependency_links.txt
+touchtouch.egg-info/top_level.txt
