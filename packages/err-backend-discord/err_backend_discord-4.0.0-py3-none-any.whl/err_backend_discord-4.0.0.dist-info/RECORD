@@ -1,0 +1,10 @@
+err-backend-discord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+err-backend-discord/err-backend-discord.plug,sha256=mAqX-1SnWbXdbP-0REYKmCsNwECYIm_D8eE_XYX3Tew,110
+err-backend-discord/err-backend-discord.py,sha256=01bsMglOXk6fD20hPTAAJsVF9vAb_QONMXa95KGMBK8,14921
+err-backend-discord/discordlib/person.py,sha256=Me3EJC1ilpeUM_IYDXtuAp6d-u_SCKZI4OEvHlzSXBw,4107
+err-backend-discord/discordlib/room.py,sha256=wwR5XdMHItb4QbT2NFgTxwNuM5sREhMmD4hCMqVzeWU,10036
+err_backend_discord-4.0.0.dist-info/LICENSE,sha256=5newChuBGstOehQkcPpau69zUU8To3R5Y7zSsC0VcsI,35158
+err_backend_discord-4.0.0.dist-info/METADATA,sha256=2ifcFFX3C4OelhFZCCxL3y3NXccjNlK243-reBBwdvI,925
+err_backend_discord-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+err_backend_discord-4.0.0.dist-info/top_level.txt,sha256=AmBASgmtCZLLYP6AnX-et4URCsdnuPb26HONoIgz2Qo,20
+err_backend_discord-4.0.0.dist-info/RECORD,,
