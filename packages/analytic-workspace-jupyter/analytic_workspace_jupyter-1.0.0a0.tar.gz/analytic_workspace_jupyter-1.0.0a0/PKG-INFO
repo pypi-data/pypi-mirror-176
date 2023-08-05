@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: analytic_workspace_jupyter
+Version: 1.0.0a0
+Summary: Библиотека для подключения JupyterHub к Analytic Workspace
+Home-page: https://analyticworkspace.ru/
+Author: Analytic Workspace
+Author-email: aw_help@analyticworkspace.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <4

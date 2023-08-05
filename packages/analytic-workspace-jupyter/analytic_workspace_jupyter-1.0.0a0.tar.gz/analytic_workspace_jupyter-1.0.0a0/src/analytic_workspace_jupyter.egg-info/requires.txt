@@ -1,0 +1,3 @@
+dockerspawner
+oauthenticator
+python-dotenv
