@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: vyd-coala
+Version: 0.12.0.dev99999999999999
+Summary: Linting and Fixing Code for All Languages
+Home-page: https://github.com/Yashashwee/coala_project
+Author: The coala developers
+Author-email: avatsal38@gmail.com
+Maintainer: vyd
+Maintainer-email: lasse.schuirmann@gmail.com, fabian@neuschmidt.de, makman@alice.de
+License: AGPL-3.0
+Keywords: code-analysis,lint
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+Requires-Dist: appdirs (~=1.4)
+Requires-Dist: cached-property (~=1.4.3)
+Requires-Dist: cli-helpers (~=1.0.2)
+Requires-Dist: coala-utils (==0.7.0)
+Requires-Dist: colorlog (<4.0,>=2.7)
+Requires-Dist: dependency-management (>0.4.*)
+Requires-Dist: packaging (>=16.8)
+Requires-Dist: Pygments (~=2.1)
+Requires-Dist: PyPrint (~=0.2.6)
+Requires-Dist: requests (~=2.12)
+Requires-Dist: setuptools (>=21.2.2)
+Requires-Dist: unidiff (~=0.5.2)
+
