@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hotools
+Version: 0.1.0
+Summary: hotools: Tools for Python made by Hosoi.
+Home-page: https://github.com/hosson/hotools
+Download-URL: https://github.com/hosson/hotools
+Author: HOSOI Hiroyuki
+Author-email: hosoi0410@gmail.com
+Maintainer: HOSOI Hiroyuki
+Maintainer-email: hosoi0410@gmail.com
+License: MIT
+Keywords: tool
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hotools
+A python tools created by Hosoi.
+
+# History
+## v.0.1.0 2022-11-10
+### An initial release.
