@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: telegram-error-alerter
+Version: 1.0.1
+Summary: Send error to telegram group via bot
+Home-page: https://github.com/firdavsDev
+Author: Boltayev Davronbek
+Author-email: tarjimatv1@gmail.com
+Maintainer: Davronbek
+Maintainer-email: tarjimatv1@gmail.com
+License: MIT
+Keywords: sms,python,api,sending,sending message,sending message,sending message api,sending error message api python,sending error api telegram
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+==============================================================
+Handle errors and send it Telegram group!
+==============================================================
+
+import Alerter
+
+tg_alert = Alerter(bot_token='YOUR_BOT_TOKEN', chat_id='YOUR_CHAT_ID')
+#or
+tg_alert = Alerter.from_environment() #Recommend
+
+method_1: tg_alert.send_message(chat_id=111222333, text='Message text')
+#or
+method_2: as decorator
+@tg_alert
+def some_func_that_can_raise_an_exception():
+raise RuntimeError('this is an exception')
+
+We could use in except scope as:
+        except Exception as e:
+            return tg_alert.custom_alert(text=e)
+

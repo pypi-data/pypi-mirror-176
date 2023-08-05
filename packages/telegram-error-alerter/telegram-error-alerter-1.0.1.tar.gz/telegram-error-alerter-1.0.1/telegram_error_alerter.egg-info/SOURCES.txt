@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+telegram_error_alerter.egg-info/PKG-INFO
+telegram_error_alerter.egg-info/SOURCES.txt
+telegram_error_alerter.egg-info/dependency_links.txt
+telegram_error_alerter.egg-info/top_level.txt
