@@ -1,0 +1,3 @@
+git+https://github.com/coala/coala#egg=coala
+git+https://github.com/jayvdb/pytest-reqs@coala#egg=pytest-reqs
+git+https://github.com/krkd/pytest-cov-threshold#egg=pytest-cov-threshold ; python_version > '3.4'
