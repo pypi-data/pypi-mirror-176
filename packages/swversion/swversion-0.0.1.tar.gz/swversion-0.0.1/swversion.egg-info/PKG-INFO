@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: swversion
+Version: 0.0.1
+Summary: Compare software version for network devices: Cisco, HP, etc.
+Author-email: Vladimir Prusakov <vladimir.prusakovs@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/vladimirs-git/swversion
+Project-URL: Repository, https://github.com/vladimirs-git/swversion
+Project-URL: Bug Tracker, https://github.com/vladimirs-git/swversion/issues
+Project-URL: Download URL, https://github.com/vladimirs-git/swversion/archive/refs/tags/0.0.1.tar.gz
+Keywords: cisco,ios,networking,telecommunication
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+
+.. image:: https://img.shields.io/pypi/v/swversion.svg
+   :target: https://pypi.python.org/pypi/swversion
+.. image:: https://img.shields.io/pypi/pyversions/swversion.svg
+   :target: https://pypi.python.org/pypi/swversion
+
+
+swversion
+=========
+
+Parse the given version string and return *SwVersion* object who can
+compare (>, >=, <, <=) software versions of network devices: Cisco, etc.
+
+
+Requirements
+------------
+
+Python >=3.8
+
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install swversion
+
+
+Usage
+-----
+
+.. code:: python
+
+    import re
+    from swversion import SwVersion
+
+    text = "Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(4)E10, ..."
+    text = re.search(r"Version (\S+),", text)[1]
+
+    version1 = SwVersion(text)  # 15.2(4)E10
+    version2 = SwVersion("15.2(4)E11")
+
+    assert version1 < version2
+    assert version1 <= version2
+    assert version2 > version1
+    assert version2 >= version1
+    print(version1)
+    print(version2)
+    # 15.2(4)e10
+    # 15.2(4)e11

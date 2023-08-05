@@ -1,0 +1,13 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.py
+swversion/__init__.py
+swversion/helpers.py
+swversion/sw_version.py
+swversion/types_.py
+swversion.egg-info/PKG-INFO
+swversion.egg-info/SOURCES.txt
+swversion.egg-info/dependency_links.txt
+swversion.egg-info/requires.txt
+swversion.egg-info/top_level.txt
