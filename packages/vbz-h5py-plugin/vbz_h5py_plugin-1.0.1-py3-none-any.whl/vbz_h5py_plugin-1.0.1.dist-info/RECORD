@@ -1,0 +1,11 @@
+vbz_h5py_plugin/__init__.py,sha256=VXkCFIyEJjsnk6RzwtsiodyMZDEl50Suy09W4EX2DyU,1236
+vbz_h5py_plugin/lib/libvbz_hdf_plugin.dylib,sha256=aO5eON4MVVeqxwjGyJKX3VUy58SBWKpD2I2aMIdyTE8,887296
+vbz_h5py_plugin/lib/libvbz_hdf_plugin_aarch64.so,sha256=OwBBPSEwCsgUqc_ukGBdF77Zksycmy80RFHZY4vEfVw,604768
+vbz_h5py_plugin/lib/libvbz_hdf_plugin_m1.dylib,sha256=WdMMqrYp4AxGShhQ4ZX5KXfjnjZgjmhhVacoHr9IIw0,777716
+vbz_h5py_plugin/lib/libvbz_hdf_plugin_x86_64.so,sha256=clUg1San14hJk1hzdtjMA39I9pcZq2XiD2khVn7416A,774928
+vbz_h5py_plugin/lib/vbz_hdf_plugin.dll,sha256=MyGPouD4Ue48GjrC9UJfskEMz23WOU9--G-nj0J9-i4,357376
+vbz_h5py_plugin-1.0.1.dist-info/LICENSE.md,sha256=whKv75zDz2Hp71QL8daA3k1gRgAUboBWf5lv1gjIa3c,15789
+vbz_h5py_plugin-1.0.1.dist-info/METADATA,sha256=Rwzj6sFiFbEZa05tfGXOU3nOrpuVRq4Jqwi0zA7riPQ,1724
+vbz_h5py_plugin-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vbz_h5py_plugin-1.0.1.dist-info/top_level.txt,sha256=9yg59O0vRqTyfbIWyfn2b8oPHEMcnSpdhkYUZRkRwks,16
+vbz_h5py_plugin-1.0.1.dist-info/RECORD,,
