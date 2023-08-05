@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+pr2apisdk/__init__.py
+pr2apisdk.egg-info/PKG-INFO
+pr2apisdk.egg-info/SOURCES.txt
+pr2apisdk.egg-info/dependency_links.txt
+pr2apisdk.egg-info/top_level.txt
