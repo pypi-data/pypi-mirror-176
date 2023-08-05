@@ -1,0 +1,12 @@
+ulises/__main__.py,sha256=_CVkfWrw3iT2QfMqO8MLQa14KdKLYkHTpA4sfGYfo_I,489
+ulises/containerscli.py,sha256=A5WlhLUFLIx6LXktdIk5drjJiu-DOgOtBp-r9zMyGEc,5332
+ulises/imagescli.py,sha256=yaGo3WDunjrbEBP7OCPNdYUPZC7g5wehkjiGLm31fH8,2393
+ulises/maincli.py,sha256=KZm1Q-Ex0ewCmoe1nsbKbi3tk0yMKog3Bq1ZdcYl0u0,1115
+ulises/subcli.py,sha256=QCmrmgskBWLG3kL0_dtKQEGtROz-v0Usn5To_dWioXw,6327
+ulises/volumescli.py,sha256=rCjO568A93AyzIzdiF7EgujLfRizbiA28J-u2oMNTsA,1897
+ulises-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ulises-1.0.0.dist-info/METADATA,sha256=Nlvk7SbQkVo5LJ_cDCtGrm-RqoicZQbTNgoL4K8nM5A,41373
+ulises-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ulises-1.0.0.dist-info/entry_points.txt,sha256=7Ay4P3hupwKoH18mpdTugJ5DZkp4g90xusWjhw6HTag,48
+ulises-1.0.0.dist-info/top_level.txt,sha256=3EPKn_sHbCvyWHWUbP9p_8tVjnptVUUe_IH9-0CQ_Gk,7
+ulises-1.0.0.dist-info/RECORD,,
