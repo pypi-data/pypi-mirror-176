@@ -1,0 +1,63 @@
+# defaults:
+#   - dataset: [1, 2, 3, 4]
+#   - optimizer: adamax
+
+notes: ""
+seed: 42
+
+lr: 0.0005
+lr_decay_steps: 500
+lr_schedule: cosine_decay_restarts
+
+epochs: 30
+class_weights: True
+optimizer: adam
+loss: categorical_crossentropy
+metrics: ["accuracy"]
+batch_size: 32
+num_classes: 7
+custom_callback: False
+monitor: "val_accuracy"
+
+# data
+dataset_id: [1,2]
+data_path: data/3_tfds_dataset/
+sampling: None
+
+# data cleaning
+remove_bad: True
+remove_misclassified: True
+remove_duplicates: True
+remove_corrupted: True
+remove_unsupported: True
+
+train_split: 0.70
+image_size: 224
+image_channels: 3
+augmentation: keras-cv
+
+# model
+backbone: resnet
+use_pretrained_weights: True
+preprocess: True
+dropout_rate: 0.3
+save_model: False
+trainable: True
+last_layers: 30
+
+# wandb
+wandb:
+  use: True
+  project: Whats-this-rock
+  mode: offline
+
+# callback
+earlystopping:
+  use: False
+  patience: 10
+
+reduce_lr:
+  use: False
+  factor: 0.6
+  min_lr: 1e-5
+  patience: 2
