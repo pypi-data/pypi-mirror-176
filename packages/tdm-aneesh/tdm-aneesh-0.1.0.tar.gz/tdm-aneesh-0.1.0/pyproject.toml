@@ -1,0 +1,40 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdm-aneesh"
+version = "0.1.0"
+description = "Using a virtual environment, creating package"
+readme = "README.md"
+authors = [{ name = "Aneesh Chakravarthula", email = "chakra55@purdue.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI"
+]
+keywords = ["example", "achakra", "tutorial", "build"]
+dependencies = [
+    "lxml >= 4.9.1",
+    "requests >= 2.28.1",
+]
+requires-python = ">=3.10"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"achakra/__init__.py" = [
+    "{version}",
+]

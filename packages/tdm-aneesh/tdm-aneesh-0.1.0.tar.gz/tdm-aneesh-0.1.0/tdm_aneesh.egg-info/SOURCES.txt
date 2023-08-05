@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+achakra/__init__.py
+achakra/__main__.py
+achakra/achakra.py
+achakra/api.py
+tdm_aneesh.egg-info/PKG-INFO
+tdm_aneesh.egg-info/SOURCES.txt
+tdm_aneesh.egg-info/dependency_links.txt
+tdm_aneesh.egg-info/requires.txt
+tdm_aneesh.egg-info/top_level.txt
+tdm_aneesh.egg-info/.ipynb_checkpoints/SOURCES-checkpoint.txt
+tdm_aneesh.egg-info/.ipynb_checkpoints/dependency_links-checkpoint.txt
+tdm_aneesh.egg-info/.ipynb_checkpoints/requires-checkpoint.txt
+tdm_aneesh.egg-info/.ipynb_checkpoints/top_level-checkpoint.txt
