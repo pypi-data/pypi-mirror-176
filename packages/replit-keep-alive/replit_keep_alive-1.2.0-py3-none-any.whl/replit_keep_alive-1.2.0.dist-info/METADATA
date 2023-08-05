@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: replit-keep-alive
+Version: 1.2.0
+Summary: Create a simple Flask webserver to keep your Repl online using a pinger. (such as https://up.rdsl.ga/)
+Home-page: https://github.com/Raadsl/Replit-keep-alive-pypi
+Author: Raadsel
+Author-email: iraadsel@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple package to create a webserver to keep your repl online using a pinger. (such as https://up.rdsl.ga/). With the new version your console won't be spammed with useless error logs.
+
+## Usage:
+
+First you need to install the package by going to the shell and pasting: `pip install replit-keep-alive` in there. Wait until it is finished
+
+Now the actual code:
+
+--------
+Recommended version to use:
+```py
+from replit_keep_alive import WaitressStart
+WaitressStart() 
+```
+
+
+- Default
+```py
+from replit_keep_alive import start
+start() #The text argument is optional. So we didn't use it here
+```
+- Or with custom text
+
+```py
+from replit_keep_alive import start
+start("Hello world!") #The text argument is optional. 
+```
+--------
+
+- Waitress version. (Without debug/development server)
+
+```py
+from replit_keep_alive import WaitressStart
+WaitressStart() #The text argument is optional. So we didn't use it here. 
+```
+
+- Or the waitress version. With custom text 
+```py
+from replit_keep_alive import WaitressStart
+WaitressStart("Hello world!") #The text argument is optional. So we didn't use it here. 
+```
+
+---------
+
+Paste these codeblocks somewhere in your code to get it working!
+Thanks for using Replit keep alive ❤️!
