@@ -1,0 +1,13 @@
+pdf_generator/__init__.py,sha256=K53teHRO_eZBkU8AbZETRS9rp402w-CY2E0EOZTyhAk,620
+pdf_generator/angle.py,sha256=XsNWtBFDMLOvwTwTFQ0Kppe3yfDfhkK9xY5LmL7nRi0,1748
+pdf_generator/from_html.py,sha256=iaS4Bm8uQQBQ2hjz9DMo7RvJV5_2RINDUFsdpgAGWXE,7628
+pdf_generator/medias.py,sha256=_duY2rhnFAg8nNDgFtlwdGa7fVPpmavF_lJawEBQ8uY,837
+pdf_generator/page_number.py,sha256=S-ALSDJGuxgJddsS6aOL9bCrQON-S-47h0yUUwGEjos,2713
+pdf_generator/pdf_generator.py,sha256=f3Dr7P4XfKk7jyufBvTo9BqSh5HoLhlG0QSbZJJISJA,2851
+pdf_generator/styles.py,sha256=TFPQpXLNupgwArHB6plrjhTn_1BAn8jysX2KpEMCa3s,4153
+pdf_generator/table.py,sha256=4xVYhmdCW8CKoiOLBeIjo29NQoMiL2ykxMZRqN_HA1U,7980
+pdf_generator/templates.py,sha256=LDp8bW8zdz6Z2wnTwHEYb52bLm7_SkHbRpVxXa_9lb8,16449
+pdf_generator-0.6.0.dist-info/LICENSE,sha256=NfJ8ZNW3vU8IlzjGHMngGRDHjq_xNWy2mNigBs0h-cM,1053
+pdf_generator-0.6.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pdf_generator-0.6.0.dist-info/METADATA,sha256=hcWgjfTngonU4tgC3ezbg7hzLNDWxE8jTNcBu5H5PNQ,285
+pdf_generator-0.6.0.dist-info/RECORD,,
