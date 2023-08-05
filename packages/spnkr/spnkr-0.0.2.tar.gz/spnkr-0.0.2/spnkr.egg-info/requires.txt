@@ -1,0 +1,8 @@
+ms-cv
+orjson
+requests
+dataclass-wizard
+python-dateutil
+
+[dev]
+pytest
