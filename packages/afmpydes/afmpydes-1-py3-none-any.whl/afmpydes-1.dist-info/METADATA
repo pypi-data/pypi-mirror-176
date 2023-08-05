@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: afmpydes
+Version: 1
+Summary: Calculos de Suma, Resta, Multiplicacion, Division
+Home-page: https://github.com/
+Author: Alberto Fernandez Maya
+Author-email: afernandezm@gmail.com
+License: MIT
+Requires-Dist: pandas
+
