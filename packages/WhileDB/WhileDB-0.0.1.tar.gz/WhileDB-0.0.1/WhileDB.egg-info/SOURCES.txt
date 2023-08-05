@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+WhileDB/_WhileDB.pyd
+WhileDB/_WhileDB.pyi
+WhileDB/__init__.py
+WhileDB.egg-info/PKG-INFO
+WhileDB.egg-info/SOURCES.txt
+WhileDB.egg-info/dependency_links.txt
+WhileDB.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: WhileDB
+Version: 0.0.1
+Summary: WhileDB language intepreter intrduced on SJTU CS2612.
+Home-page: https://github.com/HellOwhatAs/While-DB
+Author: HellOwhatAs
+License: MIT
+Platform: windows
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ==3.8.*
+
+UNKNOWN
+
