@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: dynamax
+Version: 0.0.2
+Summary: Dynamic State Space Models in JAX.
+Home-page: https://github.com/probml/dynamax
+Author: Peter Chang, Giles Harper-Donnelly, Aleyna Kara, Xinglong Li, Scott Linderman, Kevin Murphy
+License: MIT
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax (>=0.3.15)
+Requires-Dist: jaxlib
+Requires-Dist: fastprogress
+Requires-Dist: optax
+Requires-Dist: tensorflow-probability
+Requires-Dist: scikit-learn
+Requires-Dist: jaxtyping
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: seaborn ; extra == 'dev'
+Requires-Dist: flax ; extra == 'dev'
+Requires-Dist: blackjax ; extra == 'dev'
+Requires-Dist: graphviz ; extra == 'dev'
+Requires-Dist: scikit-learn ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: myst-nb ; extra == 'dev'
+Requires-Dist: jupytext ; extra == 'dev'
+Requires-Dist: sphinx-book-theme ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest (>=3.9) ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: matplotlib ; extra == 'doc'
+Requires-Dist: seaborn ; extra == 'doc'
+Requires-Dist: flax ; extra == 'doc'
+Requires-Dist: scikit-learn ; extra == 'doc'
+Requires-Dist: blackjax ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-autobuild ; extra == 'doc'
+Requires-Dist: myst-nb ; extra == 'doc'
+Requires-Dist: jupytext ; extra == 'doc'
+Requires-Dist: sphinx-book-theme ; extra == 'doc'
+Provides-Extra: notebooks
+Requires-Dist: flax ; extra == 'notebooks'
+Requires-Dist: blackjax ; extra == 'notebooks'
+Requires-Dist: graphviz ; extra == 'notebooks'
+Provides-Extra: plotting
+Requires-Dist: matplotlib ; extra == 'plotting'
+Requires-Dist: seaborn ; extra == 'plotting'
+Provides-Extra: test
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest (>=3.9) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# dynamax
+
+![Logo](https://github.com/probml/dynamax/blob/main/logo/logo.gif)
+
+![Test Status](https://github.com/probml/dynamax/actions/workflows/run_tests.yml/badge.svg?branch=main)
+
+Dynamic State Space Models in JAX.
+
+Documentation is at https://probml.github.io/dynamax/.
+
+***Note: the code is currently under active development, and the API will soon change. Please wait for the official release
+on 11/14/22 before using.***
+
+
+Core team: Peter Chang, Giles Harper-Donnelly, Aleyna Kara, Xinglong Li, Scott Linderman, Kevin Murphy.
+
+Other contributors: Adrien Corenflos, Elizabeth DuPre, Gerardo Duran-Martin, Colin Schlager and other people [listed here](https://github.com/probml/dynamax/graphs/contributors)
+
+MIT License. 2022
+
+
+
+
+
+
