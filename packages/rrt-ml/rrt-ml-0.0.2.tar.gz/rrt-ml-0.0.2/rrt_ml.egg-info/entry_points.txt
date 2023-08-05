@@ -1,0 +1,2 @@
+[console_scripts]
+rrt_ml = rrt_ml.run:run_rrt_ml
