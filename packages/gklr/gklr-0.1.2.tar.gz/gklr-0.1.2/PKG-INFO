@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gklr
+Version: 0.1.2
+Summary: Generalized Kernel Logistic Regression
+Home-page: https://github.com/JoseAngelMartinB/gklr
+Author: José Ángel Martín Baos
+Author-email: JoseAngel.Martin@uclm.es
+License: MIT License
+Project-URL: Documentation, https://gklr.joseangelmartin.com/
+Project-URL: Source, https://github.com/JoseAngelMartinB/gklr
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Provides-Extra: testing
+License-File: LICENSE
+License-File: AUTHORS.md
+
+[](https://img.shields.io/pypi/pyversions/gklr.svg)
+[![Built Status](https://api.cirrus-ci.com/github/JoseAngelMartinB/gklr.svg?branch=main)](https://cirrus-ci.com/github/JoseAngelMartinB/gklr)
+[![Coveralls](https://img.shields.io/coveralls/github/JoseAngelMartinB/gklr/main.svg)](https://coveralls.io/r/JoseAngelMartinB/gklr)
+[![PyPI-Server](https://img.shields.io/pypi/v/gklr.svg)](https://pypi.org/project/gklr/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/gklr.svg)](https://anaconda.org/conda-forge/gklr)
+![Licence](https://img.shields.io/badge/Licence-MIT-blue)
+
+
+# GKLR
+
+Generalized Kernel Logistic Regression.
+
+
+## Description
+
+Generalized Kernel Logistic Regression.
+
+
+## Installation
+
+Under construction...
+
+
+## Authors
+
+GKLR was mainly developed by José Ángel Martín Baos from the University of
+Castilla-La Mancha (JoseAngel.Martin@uclm.es). The main authors of this
+package are listed in the [AUTHORS](AUTHORS.md) file.
+
+
+## Known Issues
+There are no known issues at this moment.
+
+
+## License
+MIT license
