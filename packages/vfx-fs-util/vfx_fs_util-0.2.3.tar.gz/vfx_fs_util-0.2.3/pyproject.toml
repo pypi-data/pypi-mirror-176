@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "vfx_fs_util"
+version = "0.2.3"
+description = "Utility package for working filesystems in the VFX industry."
+authors = ["John Andrews <john.andrews.drum@gmail.com>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scandir = "^1.10.0"
+Lucidity = "^1.6.0"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+
+[tool.poetry.scripts]
+fsu = 'vfx_fs_util.__main__:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
