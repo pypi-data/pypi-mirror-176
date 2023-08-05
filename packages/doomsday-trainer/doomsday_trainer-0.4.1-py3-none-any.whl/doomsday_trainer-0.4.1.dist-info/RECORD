@@ -1,0 +1,10 @@
+doomsday_trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doomsday_trainer/__main__.py,sha256=6cRjg10ZQH6L-TTPtayurUKpQay8cLOCBmJK4jDUnHo,72
+doomsday_trainer/dates.py,sha256=ABy2vkIwiLZ_3JQgNdoGbRVN47jjrrBArNeYo1hfAzE,3984
+doomsday_trainer/gui.py,sha256=0ON_BGssjdCoMh5d8vwvDwC5Lkm5H2XOrHggJb9YkLY,2371
+doomsday_trainer/trainer.py,sha256=p-du2CQVYS-1tRU_1RrZ5hLXRR-9mLlwJWXYl3irb0E,2297
+doomsday_trainer-0.4.1.dist-info/entry_points.txt,sha256=QEnOkL7VkimDfgw9pfokou6hX1ps_HZvN_mngzUxck0,66
+doomsday_trainer-0.4.1.dist-info/LICENSE,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+doomsday_trainer-0.4.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+doomsday_trainer-0.4.1.dist-info/METADATA,sha256=B-g-WXkkB2AZvDXeTnf5j1aDZIyRysrxYjUTtjSg8Hg,2036
+doomsday_trainer-0.4.1.dist-info/RECORD,,
