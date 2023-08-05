@@ -1,0 +1,45 @@
+
+*** Version 1.20 tested on Python 3.8.
+
+*** Windows Installer:
+- Window 10 Pro: fully tested
+- Window 10 Home: not tested
+- Windows 11 Pro: tested without "Run tests"
+- Windows 11 Home: not tested
+
+*** Mac installer:
+- Mac Intel (12.6): fully tested
+- Mac M1 (12.6): tested without "Run tests"
+
+*** Deb installer:
+- Ubuntu (22.04): fully tested
+- Ubuntu (20.04): fully tested
+
+*** AppImage:
+- Ubuntu (22.04): tested without "Run tests"
+- Ubuntu (20.04): tested without "Run tests"
+
+*** Docker:
+- Ubuntu (22.04): fully tested
+
+*** Pip:
+- Ubuntu (22.04): fully tested
+- Ubuntu (20.04): fully tested
+
+--> Pip versions detail:
+Cython                 0.29.32
+distro                 1.7.0
+fabio                  0.14.0
+h5py                   3.7.0
+hdf5plugin             3.3.1
+lmfit                  1.0.3
+matplotlib             3.6.0
+numpy                  1.23.3
+opencv-python-headless 4.6.0.66
+pandas                 1.5.0rc0
+pyFAI                  0.21.3
+PyMca5                 5.7.5
+scikit-image           0.19.3
+scikit-learn           1.1.2
+scipy                  1.9.1
+tifffile               2022.8.12
