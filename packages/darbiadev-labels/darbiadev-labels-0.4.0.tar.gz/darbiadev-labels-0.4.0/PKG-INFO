@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: darbiadev-labels
+Version: 0.4.0
+Summary: Namespace for label functions
+Author-email: Bradley Reynolds <bradley.reynolds@darbia.dev>
+License: MIT
+Project-URL: repository, https://github.com/darbiadev/darbiadev-labels/
+Project-URL: documentation, https://docs.darbia.dev/darbiadev-labels/
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+# darbiadev-labels
+
+Namespace for label functions

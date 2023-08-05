@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/darbia/labels/__init__.py
+src/darbia/labels/labels.py
+src/darbiadev_labels.egg-info/PKG-INFO
+src/darbiadev_labels.egg-info/SOURCES.txt
+src/darbiadev_labels.egg-info/dependency_links.txt
+src/darbiadev_labels.egg-info/requires.txt
+src/darbiadev_labels.egg-info/top_level.txt
