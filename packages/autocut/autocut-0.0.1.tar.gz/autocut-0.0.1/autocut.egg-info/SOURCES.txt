@@ -1,0 +1,5 @@
+setup.py
+autocut.egg-info/PKG-INFO
+autocut.egg-info/SOURCES.txt
+autocut.egg-info/dependency_links.txt
+autocut.egg-info/top_level.txt
