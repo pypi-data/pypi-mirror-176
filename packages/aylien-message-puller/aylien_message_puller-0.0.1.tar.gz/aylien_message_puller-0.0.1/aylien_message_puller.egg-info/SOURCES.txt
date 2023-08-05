@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+aylien_message_puller/__init__.py
+aylien_message_puller/example.py
+aylien_message_puller.egg-info/PKG-INFO
+aylien_message_puller.egg-info/SOURCES.txt
+aylien_message_puller.egg-info/dependency_links.txt
+aylien_message_puller.egg-info/requires.txt
+aylien_message_puller.egg-info/top_level.txt

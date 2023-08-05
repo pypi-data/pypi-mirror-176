@@ -1,0 +1,4 @@
+google-api-core==1.33.2
+google-cloud-pubsub==1.1.0
+google-cloud-core==1.1.0
+lz4==4.0.2
