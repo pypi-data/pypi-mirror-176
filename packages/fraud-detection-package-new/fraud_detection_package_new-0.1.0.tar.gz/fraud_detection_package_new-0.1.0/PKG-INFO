@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fraud_detection_package_new
+Version: 0.1.0
+Summary: A small package to parse and train an ML model. Will update the readme later
+Author-email: Vikrant Deshpande <vikdeshp@iu.edu>
+Project-URL: Homepage, https://github.com/vikrantdeshpande09876/Credit_Card_Fraud_Detection
+Project-URL: Bug Tracker, https://github.com/vikrantdeshpande09876/Credit_Card_Fraud_Detection/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Credit Card Fraud Detection
+
+Creating this package so that I can deploy this code on pip.
+
+Next, I need to import this while deploying the code as an Airflow task.
+
+All this because `PythonVirtualenvOperator()` doesn't let you access outside scripts from the virtual env.
+
+
+
+<!-- pypi-AgENdGVzdC5weXBpLm9yZwIkZGY2MTA2NDUtY2YyYS00OWQwLThhNjUtYzQwYmExODA3ZDQxAAIqWzMsImVlNjI3NWY3LTFmOTYtNDk2MC1hNDdmLWY1NDQwZjQxMTQzYiJdAAAGIKMFllh8OpDvUtg2YgGm9Ndzs8AQ5hEGb-pDU1A8oNUT -->
