@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+testingfiji1234/__init__.py
+testingfiji1234.egg-info/PKG-INFO
+testingfiji1234.egg-info/SOURCES.txt
+testingfiji1234.egg-info/dependency_links.txt
+testingfiji1234.egg-info/top_level.txt
