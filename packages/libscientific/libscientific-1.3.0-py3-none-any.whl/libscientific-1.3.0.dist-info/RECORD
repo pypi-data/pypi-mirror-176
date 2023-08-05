@@ -1,0 +1,15 @@
+libscientific/__init__.py,sha256=WjGTJ3nhMOBMm7zXsmIsTJeJWxT72vDTkyaKARoAWqk,163
+libscientific/info.py,sha256=s9UvB6gkKb0y47Vj9eRf2hLIPlDeFxChDauDBXt71aE,1133
+libscientific/interpolate.py,sha256=ZW0OKNJmTojSodRnoQBa77c_NRK_X38hl49aX7Goo2c,2924
+libscientific/loadlibrary.py,sha256=OC1-m24Iaye07vV8qRQtdYjk6ieKavwsxIonXbqW_9s,1308
+libscientific/matrix.py,sha256=Yfnu8Fy62wWmqGy7uPHQgn-Oco43pZLNBlTge5ogzZU,22655
+libscientific/misc.py,sha256=K0DJWh7T8lVq88IH6DRuBI4y5QpMOnNKUxndBz43PWM,947
+libscientific/pca.py,sha256=h9TTjonvhJ1XiJYsuUHHz0tjzcjdnX4ySodQ8AGNr9M,6312
+libscientific/pls.py,sha256=ozQ8ZgkJzRKsxy5m6ctx3OVCF8JuVsdS_xU4MzpOQRs,10496
+libscientific/tensor.py,sha256=ZAJLF9S_NGvplb06iJki-s270Kb1ImObMC_fL4fsmgo,3128
+libscientific/vector.py,sha256=73mx9cmtvlUhYl2mNosZAW83AC3QYX4PI7LWYpfnvIM,7883
+libscientific-1.3.0.dist-info/LICENSE,sha256=vvH-9YjXVo9uaqFuPqcMQ5MAEJNdVqcMGFgvSKyprsg,34554
+libscientific-1.3.0.dist-info/METADATA,sha256=qcCQj4RAsrVp87oePmEqykDcwJNhcXKqlzJIy7beCTw,1677
+libscientific-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+libscientific-1.3.0.dist-info/top_level.txt,sha256=gzYiHeiJNr8g7uBNkkWhUwUWQefh60uF8ET0UHkA7Ck,14
+libscientific-1.3.0.dist-info/RECORD,,
