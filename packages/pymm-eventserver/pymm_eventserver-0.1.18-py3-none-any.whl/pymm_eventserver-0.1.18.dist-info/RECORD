@@ -1,0 +1,10 @@
+pymm_eventserver/PythonEventServer.jar,sha256=PRoXqQtKRQJQdRwIlPsKAdeS7HkLJEWadBGsQdvKThE,13268
+pymm_eventserver/data_structures.py,sha256=QNde_iF24AQK7HbV0fKSdtVXzzt9k2IThuIXE205Krs,5478
+pymm_eventserver/event_thread.py,sha256=B-5WUnB-aA1jtcjlDbHbP0-eW10OlsjTzDU3ntm9avs,10478
+pymm_eventserver/settings.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymm_eventserver/setup.py,sha256=lihv_2bf6JKSQlXI6RHlzFEL8VXJ3Ff14OkrUqfKGh8,691
+pymm_eventserver-0.1.18.dist-info/LICENSE,sha256=ThQdxUGXUePojh8ZOAOmPCfNhJnXl6_5z-MqztCNRAo,1552
+pymm_eventserver-0.1.18.dist-info/METADATA,sha256=st1AzGMN9hhyCNAP1-y3Vvk619c4hx5c1pzZBqQP5lw,1827
+pymm_eventserver-0.1.18.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pymm_eventserver-0.1.18.dist-info/top_level.txt,sha256=FZqhN6JJ9yDOWmesRvPzH5G0wN_9Te_zCFoD0w55qes,17
+pymm_eventserver-0.1.18.dist-info/RECORD,,
