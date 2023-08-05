@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyQualitas.egg-info/PKG-INFO
+pyQualitas.egg-info/SOURCES.txt
+pyQualitas.egg-info/dependency_links.txt
+pyQualitas.egg-info/requires.txt
+pyQualitas.egg-info/top_level.txt
