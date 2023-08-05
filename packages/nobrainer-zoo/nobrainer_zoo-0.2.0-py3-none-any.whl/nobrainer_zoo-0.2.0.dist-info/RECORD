@@ -1,0 +1,11 @@
+nobrainerzoo/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+nobrainerzoo/_version.py,sha256=qJNYhQya_03-QafXXyFnNGu_fS_ctUM0fOzPbd2gPVM,497
+nobrainerzoo/cli.py,sha256=jPshVWncgJsayk6FXKvusb3Q0xXMsbIL_m-LSIL4tRE,30122
+nobrainerzoo/download.py,sha256=xj5pnwEiTCm9AWao8ubA3b9h6CZ-UMQdCBoAVc17Qf0,2035
+nobrainerzoo/utils.py,sha256=d4heUWO2L9OSLL3G-3KPU-qqs7B-1AucMBpcQ6zJ4xs,8080
+nobrainer_zoo-0.2.0.dist-info/LICENSE,sha256=Ul6UzzanCdRmB6u4X1ncoO98coNXhHEO1UBPdLRyxyA,592
+nobrainer_zoo-0.2.0.dist-info/METADATA,sha256=IpBliftE9-y1CcsVkXaULRCbC9Nl3i_w6ZpXXNJO4aI,5882
+nobrainer_zoo-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nobrainer_zoo-0.2.0.dist-info/entry_points.txt,sha256=T6BjMdyHoosfLMIUEfEC5ADCJdF9CfzOd6q24hZSOB8,55
+nobrainer_zoo-0.2.0.dist-info/top_level.txt,sha256=PfZEVs7X5GEIMmLPp5xlKrwVpSntK3yPIOWQrKJ7VGE,13
+nobrainer_zoo-0.2.0.dist-info/RECORD,,
