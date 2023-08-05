@@ -1,0 +1,5 @@
+[console_scripts]
+excel = apps.excel:main
+fillpw = apps.fillpw:main
+imm = apps.cimm:app
+prd = apps.cprdata:main
