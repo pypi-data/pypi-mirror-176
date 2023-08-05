@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+demofoo/__init__.py
+demofoo/_modidx.py
+demofoo/card.py
+demofoo.egg-info/PKG-INFO
+demofoo.egg-info/SOURCES.txt
+demofoo.egg-info/dependency_links.txt
+demofoo.egg-info/entry_points.txt
+demofoo.egg-info/not-zip-safe
+demofoo.egg-info/requires.txt
+demofoo.egg-info/top_level.txt

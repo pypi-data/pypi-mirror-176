@@ -1,0 +1,2 @@
+[nbdev]
+demofoo = demofoo._modidx:d
