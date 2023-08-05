@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: moex
+Version: 0.0.0
+Summary: MoscowExchange ISS Queries implementation
+Home-page: https://bit.ly/moex-bb
+Author: Michael R. Kisel
+Author-email: deploy-me@yandex.ru
+Maintainer: Michael R. Kisel <deploy-me@yandex.ru>
+Maintainer-email: deploy-me@yandex.ru
+License: MIT
+Download-URL: https://bit.ly/moex-dwnld
+Description: README.md
+Keywords: moex,moex iss,aiomoex,async moex,moscow,exchange,MoscowExchange,finance,stocks
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Point-Of-Sale
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
