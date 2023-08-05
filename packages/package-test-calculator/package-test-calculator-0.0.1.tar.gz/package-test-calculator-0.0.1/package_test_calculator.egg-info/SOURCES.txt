@@ -1,0 +1,11 @@
+README.md
+requirements.txt
+setup.py
+dist/package-test-calculator-0.0.1.tar.gz
+dist/package_test_calculator-0.0.1-py3-none-any.whl
+package-test-calculator_py/__init__.py
+package-test-calculator_py/calc.py
+package_test_calculator.egg-info/PKG-INFO
+package_test_calculator.egg-info/SOURCES.txt
+package_test_calculator.egg-info/dependency_links.txt
+package_test_calculator.egg-info/top_level.txt
