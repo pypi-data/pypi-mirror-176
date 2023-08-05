@@ -1,0 +1,6 @@
+ssh_agent_setup/__init__.py,sha256=-nouYNlznXZywbS2L7MdW1qVehBzhtjEGU6Wp8td4Cs,1419
+ssh_agent_setup/parse_agent_variables.py,sha256=LwUScDv6-9VOOY081jzAh96QCdxTgLfhb-UOJs4hdis,340
+ssh_agent_setup-2.0.1.dist-info/LICENSE,sha256=h3436G9qk2b7_ym-riBpViR0B5_xLefrQ2i8tBMbNxQ,1073
+ssh_agent_setup-2.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ssh_agent_setup-2.0.1.dist-info/METADATA,sha256=ke1PpMPgwMaYmyuGhrimhX1UZHYHCy0oCWNd9R-mSZ0,545
+ssh_agent_setup-2.0.1.dist-info/RECORD,,
