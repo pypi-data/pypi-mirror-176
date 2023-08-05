@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: json2img
+Version: 0.1.2
+Summary: Generate randomly colored images from Label Studio annotations
+Author-email: Ujan RoyBandyopadhyay <ujan.roybandyopadhyay@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# json2img
+
+A Python script for generating randomly colored images from Label Studio annotations
+
+## Installation
+```shell
+% pip install json2img
+```
+
+## Usage
+
+### Command line
+
+```shell
+% python -m json2img brick_annotation.json bricks.png
+% python -m json2img hand_annotation.json sign.jpg -v
+```
+
+### Module
+
+```python
+>>> from json2img import *
+>>> save_image('brick_annotation.json', 'bricks.png')
+>>> save_image('hand_annotation.json', 'sign.jpg', view=True)
+```
+## Dependencies
+
+* CPython >= 3.7
+* pygame >= 2.0.0

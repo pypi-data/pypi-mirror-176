@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json2img"
+version = "0.1.2"
+description = "Generate randomly colored images from Label Studio annotations"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    {name="Ujan RoyBandyopadhyay", email="ujan.roybandyopadhyay@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = ["pygame >= 2.0.0"]
