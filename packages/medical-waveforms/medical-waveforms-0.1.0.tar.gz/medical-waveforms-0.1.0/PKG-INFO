@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: medical-waveforms
+Version: 0.1.0
+Summary: Preprocessing and analysis of physiological waveforms
+Author: Finneas Catling
+Author-email: f.catling@imperial.ac.uk
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22,<2.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: pyampd (>=0.0.1,<0.0.2)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
+Requires-Dist: scipy (>=1.7.3,<2.0.0)
