@@ -1,0 +1,13 @@
+requests
+
+[:python_version < "3.9"]
+h5py==2.10.0
+
+[:python_version >= "3.9"]
+h5py==3.7.0
+
+[cpu]
+tensorflow!=1.7.*,!=1.8.*,>=1.4.0
+
+[gpu]
+tensorflow-gpu!=1.7.*,!=1.8.*,>=1.4.0
