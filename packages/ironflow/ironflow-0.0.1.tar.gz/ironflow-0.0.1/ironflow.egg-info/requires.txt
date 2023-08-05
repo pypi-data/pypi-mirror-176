@@ -1,0 +1,9 @@
+ipycanvas
+ipython
+ipywidgets<8,>=7
+matplotlib
+nglview
+numpy
+pyiron_base
+pyiron_atomistics
+ryvencore
