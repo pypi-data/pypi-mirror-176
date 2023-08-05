@@ -1,0 +1,3 @@
+[console_scripts]
+aprocess=cli.aprocess:app
+
