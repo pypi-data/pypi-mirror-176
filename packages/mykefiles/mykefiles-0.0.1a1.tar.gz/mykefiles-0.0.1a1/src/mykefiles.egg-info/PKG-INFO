@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mykefiles
+Version: 0.0.1a1
+Home-page: https://codeberg.org/fresh2dev/mykefiles
+Author: donald
+Author-email: hello@fresh2.dev
+Project-URL: Bug Tracker, https://codeberg.org/fresh2dev/mykefiles/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE
+
+# mykefiles
+
+alias mk='myke --myke-file src/mykefiles/python-package.py'
+
+mk set-version
+
+mk env
