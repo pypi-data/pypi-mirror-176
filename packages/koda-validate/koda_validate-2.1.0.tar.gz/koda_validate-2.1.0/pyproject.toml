@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "koda-validate"
+version = "2.1.0"
+readme = "README.md"
+description = "Typesafe, composable validation"
+authors = ["Keith Philpott"]
+license = "MIT"
+homepage = "https://github.com/keithasaurus/koda-validate"
+keywords = ["validation", "functional programming", "type hints", "asyncio"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+koda = "1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "7.2.0"
+pyright = "1.1.277"
+pytest-cov = "4.0.0"
+isort = "5.10.1"
+black = "22.10.0"
+flake8 = "5.0.4"
+pre-commit = "2.20.0"
+mypy = "0.990"
+pydantic = "1.10.2"
+pytest-asyncio = "0.20.1"
+voluptuous = "0.13.1"
+
+[tool.mypy]
+exclude = ["build", "bench"]
+allow_redefinition = false
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+# we need to wait for this to be up-to-date
+#enable_recursive_aliases = true
+ignore_errors = false
+ignore_missing_imports = false
+local_partial_types = true
+no_implicit_optional = true
+no_implicit_reexport = true
+strict_optional = true
+strict_equality = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_unreachable = true
+
+
+[tool.pytest.ini_options]
+addopts ="""
+  --cov=koda_validate
+  --cov-report=term:skip-covered
+  --cov-report=html
+  --cov-branch
+  --cov-fail-under=96
+"""
+
+[tool.coverage.run]
+omit = [
+    "koda_validate/validate_and_map.py",
+    "tests/*"
+]
+
+[tool.isort]
+line_length = 90
+profile = "black"
+
+[tool.black]
+line_length = 90
+target_version = ['py310']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
