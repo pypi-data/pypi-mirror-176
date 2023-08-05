@@ -1,0 +1,15 @@
+absl-py
+cached_property
+dataclasses
+importlib_resources
+etils
+flax
+importlib_resources
+jax
+jaxlib
+numpy
+pyyaml
+tensorstore>=0.1.20
+
+[test]
+pytest
