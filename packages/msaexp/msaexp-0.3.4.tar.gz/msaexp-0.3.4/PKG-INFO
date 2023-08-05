@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: msaexp
+Version: 0.3.4
+Summary: msaexp: Manual extraction of JWST NIRSpec MSA spectra directly from the telescope exposures
+Home-page: https://github.com/gbrammer/msaexp
+Download-URL: https://github.com/gbrammer/msaexp/tarball/0.3.4
+Author: Gabriel Brammer
+Author-email: gbrammer@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: LICENSE
