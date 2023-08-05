@@ -1,0 +1,10 @@
+pyg_encoders/__init__.py,sha256=HKbLGZMAl3PfylWVdFKUgET3jjzwh1dUGZzfDFqxO3U,516
+pyg_encoders/_encode.py,sha256=XGcGmR2fpX7tPTZzYfEtIIiF1y5SkX7rWnjDrMelGps,11610
+pyg_encoders/_encoders.py,sha256=ALWY8nDO1-Y-_c6TzhsUYE238RM3hCc4ixDDZ4YFUn4,19533
+pyg_encoders/_parquet.py,sha256=4oZW2Gm20pdWbObsowoZVUbf5WL2ak0Okj4W5UKgGDA,4812
+pyg_encoders/_writers.py,sha256=amGk_M13grluS4UhwVdsmYuQ4q3oOfKQHaOFN-hqADg,3499
+pyg_encoders-0.0.12.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+pyg_encoders-0.0.12.dist-info/METADATA,sha256=cCY9nxMHWXPOUliEz3v3e6iXsOzqpMphUKhCnaePIGs,667
+pyg_encoders-0.0.12.dist-info/WHEEL,sha256=tIy8_2ZxPExwRKcXlg4jzESby3jB9aLsFLrFCKKh88M,92
+pyg_encoders-0.0.12.dist-info/top_level.txt,sha256=zRYssS8BU-Yi7H1Jcu5xub88vc_XaMMItQuZ861timE,13
+pyg_encoders-0.0.12.dist-info/RECORD,,
