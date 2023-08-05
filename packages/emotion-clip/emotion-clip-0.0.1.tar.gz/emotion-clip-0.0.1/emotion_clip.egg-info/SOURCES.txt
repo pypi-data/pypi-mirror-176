@@ -1,0 +1,5 @@
+setup.py
+emotion_clip.egg-info/PKG-INFO
+emotion_clip.egg-info/SOURCES.txt
+emotion_clip.egg-info/dependency_links.txt
+emotion_clip.egg-info/top_level.txt
