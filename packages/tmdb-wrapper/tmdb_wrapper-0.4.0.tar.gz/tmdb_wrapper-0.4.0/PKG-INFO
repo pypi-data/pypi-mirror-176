@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tmdb_wrapper
+Version: 0.4.0
+Summary: First version of Python Wrapper TMDB API
+Home-page: https://github.com/Ollez95/tmdb_wrapper
+Author: Ollez95
+Author-email: gustalorena@hotmail.com
+License: MIT license
+Keywords: tmdb_wrapper,python,requests,dacite
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+Python Wrapper TMDB API where you can query the version 3 of this api.
