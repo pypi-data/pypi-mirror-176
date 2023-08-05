@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: trackhand
+Version: 2.0
+Summary: This is a simple Hand tracking module
+Home-page: UNKNOWN
+Author: Sudhanshu Yadav
+Author-email: sudhanshuy17@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+
+Track-Hand module is based on mediapipe & open-cv, having the landmark function inbuild so you can easily use this module in your computer vision projects for Hand Tracking purposes just simply install it using (pip install trackhand) it is having the function track_hand() just call it and you are good to go
+
+
