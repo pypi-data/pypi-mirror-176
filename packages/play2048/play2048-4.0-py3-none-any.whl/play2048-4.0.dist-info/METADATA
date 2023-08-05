@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: play2048
+Version: 4.0
+Summary: 2048 game
+Home-page: https://github.com/objectiveTM/play2048
+Download-URL: https://github.com/objectiveTM/play2048
+Author: 5-23
+Author-email: yhanbyeol6@gmail.com
+Keywords: game,2048
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: easy-pil
+
+# play2048
+this is a [2048](https://play2048.co/) game module!
+## made by
+5-23!
