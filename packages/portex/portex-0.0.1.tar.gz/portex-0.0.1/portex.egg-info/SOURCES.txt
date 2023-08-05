@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+portex/__init__.py
+portex/__version__.py
+portex.egg-info/PKG-INFO
+portex.egg-info/SOURCES.txt
+portex.egg-info/dependency_links.txt
+portex.egg-info/top_level.txt
