@@ -1,0 +1,11 @@
+drip_feed.py,sha256=7AsgXupmuNuug-qPT4kP1SWvBfLOjKIWeXHd8b31bVM,4047
+drip/__init__.py,sha256=eNPgMwiFuHqjFDNDqPzh0CebLs_wFcSMMo8w_HbIDLQ,363
+drip/dropper.py,sha256=WI6vTgkUtCbpOk-7np2K1ZWTYHNxRtYXSu6xSiS5ytQ,1054
+drip/feeder.py,sha256=w__XqYR42_GWXbMAMOEbqJbyATYA8FpS8wwNRbOEQrQ,4567
+drip/file_dropper.py,sha256=F_RQiGn-k3osc47vLM_ZDrH8gcrPS5KLKEGpFOT0XYM,3501
+drip/utils.py,sha256=QbKnUQJbF8FStBkVqP2nr5v7NXM_4JrueI2wIG2LAWk,3102
+drip_drip-0.0.6.dist-info/METADATA,sha256=QE5A5c20UzquaNnRnNE8OLto3bZGGF7J5xnMoCvDAZc,1026
+drip_drip-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drip_drip-0.0.6.dist-info/entry_points.txt,sha256=A6zCGDQP64uw7VIzobgAzqvabEn_FKDIeYYOAgCsKNY,90
+drip_drip-0.0.6.dist-info/top_level.txt,sha256=Rtw4oOruzgGQ7dyw6ZiWS37UbjnGkQG-D71PjXyX9QE,15
+drip_drip-0.0.6.dist-info/RECORD,,
