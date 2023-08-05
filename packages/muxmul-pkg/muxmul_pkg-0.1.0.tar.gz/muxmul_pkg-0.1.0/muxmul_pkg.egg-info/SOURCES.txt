@@ -1,0 +1,8 @@
+README.md
+setup.py
+muxmul_pkg.egg-info/PKG-INFO
+muxmul_pkg.egg-info/SOURCES.txt
+muxmul_pkg.egg-info/dependency_links.txt
+muxmul_pkg.egg-info/top_level.txt
+mxmul_pkg/__init__.py
+mxmul_pkg/mxmul.py
