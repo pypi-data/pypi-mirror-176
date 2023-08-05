@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: Firetail-Lambda
+Version: 0.1.0
+Summary: Firetail Lambda Package
+Home-page: https://github.com/firetail-io/firetail-py-lambda
+Author: Riley Priddle
+Author-email: riley@firetail.io
+License: LGPLv3
+Project-URL: Documentation, https://github.com/firetail-io/firetail-py-lambda
+Project-URL: Bug Reports, https://github.com/firetail-io/firetail-py-lambda/issues
+Project-URL: Source Code, https://github.com/firetail-io/firetail-py-lambda
+Keywords: pypi,package
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+# Firetail Python Lambda Middleware
+
+[![PyPI package](https://img.shields.io/badge/pip%20install-example--pypi--package-brightgreen)](https://pypi.org/project/firetail-lambda/) [![version number](https://img.shields.io/pypi/v/firetail-lambda?color=green&label=version)](https://github.com/Firetail-io/firetail-py-lambda/releases) [![Actions Status](https://github.com/Firetail-io/firetail-py-lambda/workflows/Test/badge.svg)](https://github.com/Firetail-io/firetail-py-lambda/actions) [![License](https://img.shields.io/github/license/Firetail-io/firetail-py-lambda)](https://github.com/Firetail-io/firetail-py-lambda/blob/main/LICENSE)
+
+The purpose of this module is to correctly log out the event and response payload to allow the firetail extension to then send it on to the firetail logging api
+
+```bash
+pip install firetail-lambda
+```
+
+How to implement
+
+Add Environment variables to code/lambda
+```bash
+export FIRETAIL_API_URL=https://api.logging.eu-west-1.sandbox.firetail.app/logs/bulk
+export FIRETAIL_API_TOKEN=<your-api-token>
+```
+
+
+
+Implementing Middleware in lambda function
+```python
+from firetail_lambda import firetail_handler
+
+@firetail_handler()
+def lambda_handler(event, context):
+    return {
+        "statusCode": 200,
+        "body": json.dumps({
+            "message": "Hello"
+        })
+    }
+```
+
