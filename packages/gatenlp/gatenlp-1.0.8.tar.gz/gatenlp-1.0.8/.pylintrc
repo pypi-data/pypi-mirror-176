@@ -1,0 +1,9 @@
+[MESSAGES CONTROL]
+
+# cannot be used with pylint: N802, R0201
+disable=C0413,R0801,W0613,R1705,W0212,R0914,E1120,R0903,R0913,R0902
+
+# disable=C0103
+
+[FORMAT]
+max-line-length=127

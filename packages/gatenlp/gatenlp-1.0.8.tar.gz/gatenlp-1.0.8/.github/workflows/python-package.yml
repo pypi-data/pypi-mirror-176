@@ -1,0 +1,46 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python Build/Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+        cache-dependency-path: requirements-github.txt
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements-github.txt
+    - name: Lint with pylint
+      run: |
+        # show all errors, but do not abort
+        pylint gatenlp --errors-only --exit-zero
+        # exit on unexpected errors, ignore files with known errors
+        # many of those are because we do not have dependencies installed
+        # for the github workflow and packages cannot be imported, or 
+        # we try-import
+        # pylint gatenlp --errors-only --ignore urlfileutils.py,lib_stanza.py
+        # show everything
+        # pylint gatenlp --exit-zero
+    - name: Test with pytest
+      run: |
+        python3 -m pytest tests --cov=gatenlp
+
