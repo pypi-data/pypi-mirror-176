@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dash-dict-callback
+Version: 0.0.2
+Summary: Dictionary Based Callback Plugin and Decorator for Dash
+Home-page: https://github.com/WestHealth/dash-dict-callback
+Author: Haw-minn Lu
+Author-email: hlu@westhealth.org
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: dash (>=2.0.0)
+
+UNKNOWN
+
+
