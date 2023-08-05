@@ -1,0 +1,11 @@
+guarana/__init__.py,sha256=AIlDiDfT2hYEOEuEM68IeNGEa00Y7SgZol4GGqnV2A8,912
+guarana/schemas/base.py,sha256=gKBHWAbqjZInSvfnrbyXb5XlwD3Zj7a56eRzgOOXDgA,342
+guarana/schemas/customer.py,sha256=7-djpsz2tMGaPk6mf7O6ADr8-01AVwh_Z1j_2RvtPbM,3358
+guarana/schemas/events.py,sha256=W-KZ0nXWOtHqWxUhJXduSLerAfyhgxl_Ngi8MknHuoo,99
+guarana/schemas/order.py,sha256=599jbn34MlyZqz9LdmLRR9YTKG1UZ83qCJ9p88RREwI,431
+guarana/segment_client.py,sha256=TZtB98jAxEKJxOMG2ZwYQsLWZpSAIWQyiZAKtVUbJgE,1295
+guarana/trackers/customer_tracker.py,sha256=XCm-80-P0YLi8Czr0jW7wCRO3rny02WGDZBqEbP-EO0,745
+guarana/trackers/order_tracker.py,sha256=XUagLNGpKNOWiq9DqDXug6mGYg3ovMSRPVvP9kuEMU0,2380
+guarana-2.4.3.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+guarana-2.4.3.dist-info/METADATA,sha256=xCjCfpaSKZSL8zxYEVeEDvv0na6Wv_8sgNSkMY7dQ6k,388
+guarana-2.4.3.dist-info/RECORD,,
