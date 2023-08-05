@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+source/report_tools/__init__.py
+source/report_tools/pdf_editor.cp37-win_amd64.pyd
+source/report_tools/report_pdf.cp37-win_amd64.pyd
+source/report_tools.egg-info/PKG-INFO
+source/report_tools.egg-info/SOURCES.txt
+source/report_tools.egg-info/dependency_links.txt
+source/report_tools.egg-info/top_level.txt
