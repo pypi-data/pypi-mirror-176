@@ -1,0 +1,77 @@
+#  ▄▀▀▄ ▀▀▄  ▄▀▀▀▀▄   ▄▀▀▀▀▄      ▄▀▀▄ █
+# █   ▀▄ ▄▀ █      █ █    █      █  █ ▄▀
+# ▐     █   █      █ ▐    █      ▐  █▀▄
+#       █   ▀▄    ▄▀     █         █   █
+#     ▄▀      ▀▀▀▀     ▄▀▄▄▄▄▄▄▀ ▄▀   █
+#     █                █         █    ▐
+#     ▐                ▐         ▐
+#
+
+[build-system]
+requires = ["hatchling", "hatch-requirements.txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dexie.py"
+authors = [
+    { name="Joseph Chiocchi", email="joe@yolk.cc" },
+]
+description = "A simple Dexie.Space API client"
+packages = [
+    "dexie",
+]
+dynamic = [
+    "version",
+    "dependencies",
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yyolk/dexie.py"
+"Bug Tracker" = "https://github.com/yyolk/dexie.py/issues"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["dexie.py"]
+
+[tool.hatch.version]
+path = "about.py"
+
+# required for hatch-requirements.txt
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+
+[tool.hatch.envs.default]
+dependencies = [
+    "pytest",
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest tests/dexie.py"
+
+# not using this matrix env (yet) ;)
+[tool.hatch.envs.test]
+dependencies = [
+    "pytest"
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest tests/*"
+
+[[tool.hatch.envs.test.matrix]]
+python = [
+    # keeping around for a minute, see #11
+    "39",
+    "310",
+    "311",
+]
