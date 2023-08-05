@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "setuptools<=63",
+    "versioneer",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canalysis"
+description = "This project provides a structure to integrate calcium traces and events, perform statistical analysis, make graphs and do classification problems to further understand the dataset."
+authors = [{ name = "Flynn OConnell", email = "FlynnOConnell@gmail.com" }]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["feed", "reader", "tutorial"]
+dynamic = ["version"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/NeuroPyPy/canalysis"
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+    \.git
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | build
+    | venv
+)/
+'''
+
+
