@@ -1,0 +1,5 @@
+setup.py
+ca_scribner_example_package2.egg-info/PKG-INFO
+ca_scribner_example_package2.egg-info/SOURCES.txt
+ca_scribner_example_package2.egg-info/dependency_links.txt
+ca_scribner_example_package2.egg-info/top_level.txt
