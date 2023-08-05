@@ -1,0 +1,30 @@
+#! python
+import typer
+import netifaces as ni
+from netifaces import AF_INET
+import sched, time, os
+from tomclient.lib import TOMClient
+from tomclient.gpu_profiler import gpu_measure
+
+def _watch(sc, tom_client, ip_addr):
+    gpu_stats = gpu_measure()['gpu']
+    for stat in gpu_stats:
+        gpu_util = stat['utilization']['gpu_util']
+        power_usage = stat['power_readings']['power_draw']
+        tom_client.update_status(ip_addr=ip_addr, metric='gpu_util', value=gpu_util)
+        tom_client.update_status(ip_addr=ip_addr, metric='power_usage', value=power_usage)
+    sc.enter(10, 1, _watch, (sc,tom_client, ip_addr))
+
+def join_and_watch(host: str='localhost', nic_name='access', report_interval: int=10):
+    tom_client = TOMClient(host_url=host)
+    ip_addr = ni.ifaddresses(nic_name)[AF_INET][0]['addr']
+    gpu_stats = gpu_measure()['gpu']
+    for gpu_stat in gpu_stats:
+        gpu_name = gpu_stat['product_name']
+        tom_client.join(ip_addr=ip_addr, gpu_spec=gpu_name, gpu_memory=gpu_stat['fb_memory_usage']['total'])
+        s = sched.scheduler(time.time, time.sleep)
+        s.enter(report_interval, 1, _watch, (s, tom_client, ip_addr))
+        s.run()
+
+if __name__ == "__main__":
+    typer.run(join_and_watch)
