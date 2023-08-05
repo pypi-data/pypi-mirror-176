@@ -1,0 +1,9 @@
+psycopg2-binary
+redis
+pymongo
+kafka-python
+pymysql
+psycopg2
+sqlacodegen
+sqlalchemy
+redis-py-cluster
