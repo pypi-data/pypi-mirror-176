@@ -1,0 +1,13 @@
+pymemuc/__init__.py,sha256=0GxbmlEZfFEeY8wRMzwKqkNE8ac6PSQAlS0v24xOHlk,324
+pymemuc/__main__.py,sha256=Pk2RvDMUIxEYpPCWPEklv2erD36nWFGOb6-D2cOzveQ,2093
+pymemuc/_command.py,sha256=ROwRBdNXApAvzbbACHnOphvG-X9zkPo2ijuUnI0UiI4,20641
+pymemuc/_constants.py,sha256=zmzITw7H6qTEl0-SnxCIYBkYTznScH5SHHK6S2tQ67M,492
+pymemuc/_control.py,sha256=2MyyPcFL8lYtx38SR4xiMShkHlkNOs6X7QwgKcWbNsE,4068
+pymemuc/_manage.py,sha256=Of-7UGsiKxQN8YkCgJt54cNjpdowm3xkjEulLII90Fk,11175
+pymemuc/_memuc.py,sha256=3eqGItMGHsuqyDL3CT0krp9TC1TLNbWQa5e1H5Aib7I,3355
+pymemuc/exceptions.py,sha256=YfPrip8BxGFpQokqXj7P3UGYzVyo1LyoLPDLV7y7ZKw,686
+pymemuc/vminfo.py,sha256=fv5bh4M7cMqdtU5IM4cEQUYW7MDTso6IMXJvPKk1rHc,379
+pymemuc-0.1.3.dist-info/LICENSE,sha256=ZDwrj5VKiX4KXuMnsIZgqBJrekPynbkJq_cslurW2Gk,1057
+pymemuc-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pymemuc-0.1.3.dist-info/METADATA,sha256=z9b6QCl2eo_6yUCxWdEwMjb9-hS8Hq3Er24YW1xlJls,2550
+pymemuc-0.1.3.dist-info/RECORD,,
