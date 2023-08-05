@@ -1,0 +1,103 @@
+# Davinci
+
+Software 3.0
+
+
+## Install
+```shell
+git clone https://github.com/ExpressAI/Promptware.git
+cd Promptware
+
+# Install the required dependencies and dev dependencies
+pip install -e .
+```
+
+## Quick Example
+
+```shell
+export OS_API_KEY=YOUR_OPENAI_KEY
+```
+
+```python
+from promptware import load
+promptware = load("sentiment_classifier")
+label = promptware.execute({"text": "I love this movie"})
+```
+
+or load a software locally
+
+```python
+from promptware import load
+promptware = load("./softwares/sentiment_classifier")
+label = promptware.execute({"text": "I love this movie"})
+```
+
+
+it also supports subconfig:
+
+```python
+from promptware import load
+promptware = load("./softwares/machine_translation", "enzh")
+promptware = load("./softwares/machine_translation", "zhen")
+```
+See more in this [example](./softwares/machine_translation)
+
+
+## Add More Softwares
+
+Here is one [example](./softwares/sentiment_classifier), where you need to create two files:
+* `sentiment_classifier`: declare different configs of the software
+* `sentiment_classifier_test`: a test file for your defined software
+
+you can run the test file with following script:
+
+```shell
+python -m unittest softwares.sentiment_classifier.sentiment_classifier_test
+```
+
+
+
+
+## Schema of Promptware
+
+```python
+@dataclass
+class Promptware:
+    # Name
+    name: str
+    # Describe what the promptware is designed for
+    description:str 
+    # Instruction text of promptware
+    instruction:str
+    # Demonstration of promptware
+    demonstration:Optional[list[str]]
+    # Prompt template defines how a user's input will be formatted
+    prompt_template: Callable[[Any], str]
+    # The most appropriate tasks that the promptware could be applied to
+    task:TaskType
+```
+
+
+## Feature
+* broad coverage
+    * support promptware from openai
+    * support promptwares from twitter discussion
+    * suppport promptware from latest research works
+* an integrated platform for different infrastructure supports
+    * basic kernels
+    * pipeline frameworks
+    * prompt engineering
+        - formating
+        - generation
+        - reranking
+        - human editing
+    * different platform (openai, huggingface, cohere)
+    * support fast deployment
+* Evaluation Support
+    * evaluation benchmark
+    * evaluation module
+* crowdsourable
+
+
+## Benchmark Datasets
+* [datasets](https://drive.google.com/file/d/1_LWAeVmlbBF-37wwbHm6DxEGgyj92e9P/view?usp=sharing)
