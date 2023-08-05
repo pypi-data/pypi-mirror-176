@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: package-skimage
+Version: 0.0.1
+Summary: Image Processing Package using Skimage Dio_me
+Home-page: https://github.com/Leody100/dio-bootcamp-unimedbh-projeto-pacotes-processamento-imagens-python.git
+Author: leody
+Author-email: leody@outlook.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# package_skimage
+
+Description. 
+The package image_processing is used to:
+	Processing:
+		- Histogram matching
+		- Structural similary
+		- Resize image
+	Utils:
+		- Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_skimage
+```
+
+## Author
+Leody
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
