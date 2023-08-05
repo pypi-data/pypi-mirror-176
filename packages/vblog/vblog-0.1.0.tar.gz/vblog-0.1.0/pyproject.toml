@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vblog"
+version = "0.1.0"
+description = ""
+authors = ["Vincent Berthet <vincent.berthet42@gmail.com>"]
+readme = "README.md"
+keywords = ["log"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
