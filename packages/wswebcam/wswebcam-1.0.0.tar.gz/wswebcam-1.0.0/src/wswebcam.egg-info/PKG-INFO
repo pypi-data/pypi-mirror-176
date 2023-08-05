@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: wswebcam
+Version: 1.0.0
+Summary: Access any serial device in your lan
+Author-email: Henrycke Bozza Schenberk <oschenberk@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Henrycke Schenberk - Parallax
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/HenryckeBSchenberk/wswebcam
+Keywords: webcam,opencv,streaming,websocket,localhost,image
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+
+# WSWebcam
+
+Interface de cameras via rede.
+
+(Device): Interface de comunicação com os dispositivos de imagem. 
+(Server): Servidor websocket um (Device) associado.
+(Client): Cliente websocket para troca de informações com um (Server).
+
+
+
+## Instalação
+
+Instale wswebcam com pip
+
+```bash
+  pip install wswebcam
+```

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/wswebcam/__init__.py
+src/wswebcam/__main__.py
+src/wswebcam/client.py
+src/wswebcam/device.py
+src/wswebcam/protocol.py
+src/wswebcam/server.py
+src/wswebcam.egg-info/PKG-INFO
+src/wswebcam.egg-info/SOURCES.txt
+src/wswebcam.egg-info/dependency_links.txt
+src/wswebcam.egg-info/entry_points.txt
+src/wswebcam.egg-info/requires.txt
+src/wswebcam.egg-info/top_level.txt

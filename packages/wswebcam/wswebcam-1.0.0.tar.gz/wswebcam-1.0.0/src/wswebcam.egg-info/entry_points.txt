@@ -1,0 +1,2 @@
+[console_scripts]
+wswebcam = wswebcam.__main__:main

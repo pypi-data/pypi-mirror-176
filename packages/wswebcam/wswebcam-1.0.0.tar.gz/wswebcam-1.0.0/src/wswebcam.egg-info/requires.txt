@@ -1,0 +1,9 @@
+opencv-contrib-python>=4.6
+websockets>=10.3
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+unittest
