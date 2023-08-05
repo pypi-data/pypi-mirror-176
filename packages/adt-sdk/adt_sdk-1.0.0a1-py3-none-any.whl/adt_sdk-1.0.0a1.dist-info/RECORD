@@ -1,0 +1,11 @@
+adtsdk/__init__.py,sha256=Qxle5lapMPJFxI5-hfQa-MPSwzl76T4-gVxiwGygnvk,248
+adtsdk/cli.py,sha256=eLM-x7BrOTkh-1Nz4Z1FQD5kcm2wR0GLCd5W6OHSyYk,3836
+adtsdk/constants.py,sha256=naQFzOx8RDQn0RW51ILoF11StL-adjXiPelE4Su1dUk,215
+adtsdk/core.py,sha256=uaP3fZb7mXn-MHkbOoa7UuZSqLnE_LNWDjhyDkKXEmw,8749
+adtsdk/datasource.py,sha256=SnXRtnZev0xlb2FYvbrvKKEnDV1YYj_wl-30vQvk1v8,3725
+adtsdk/exceptions.py,sha256=B3YA5X4cu3KCPPlqIQ3fp3FODROMgvzb7seo6LvuUlw,5411
+adtsdk/upload.py,sha256=l3MAjQXvfhQUNjazJq-dIFgweA085pTTfTLxIpxfnJk,9945
+adt_sdk-1.0.0a1.dist-info/entry_points.txt,sha256=LOwYA5_0e99gXbtOv1mFJbw6ZwO6HvxPBAO53qZOJM0,142
+adt_sdk-1.0.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+adt_sdk-1.0.0a1.dist-info/METADATA,sha256=V6rjHlCb93LT8g76sPcnNK8W3yi7yVgn27_6LqBRhJs,543
+adt_sdk-1.0.0a1.dist-info/RECORD,,

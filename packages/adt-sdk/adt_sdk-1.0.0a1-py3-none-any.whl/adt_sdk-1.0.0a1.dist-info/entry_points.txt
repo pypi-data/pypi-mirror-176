@@ -1,0 +1,5 @@
+[console_scripts]
+add-datasource=adtsdk.cli:add_datasource
+delete-datasource=adtsdk.cli:delete_datasource
+upload-data=adtsdk.cli:upload_data
+
