@@ -1,0 +1,6 @@
+wheel
+psycopg2-binary
+aiopg
+aiochannel
+pymssql
+datetime
