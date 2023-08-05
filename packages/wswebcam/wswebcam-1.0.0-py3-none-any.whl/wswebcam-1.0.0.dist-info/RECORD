@@ -1,0 +1,12 @@
+wswebcam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wswebcam/__main__.py,sha256=Ge7XGabXWz2aUVedH0Z1aE4vgR3zAuiEDmdf2qRG20s,1364
+wswebcam/client.py,sha256=_LizCjOR7R9rQkwBhq-p7MLVzmWjYohF4CVOGiI5e0s,3134
+wswebcam/device.py,sha256=-tBUsNQXH1M9by8dOzjEqp68Yqg9wVZy9OIu1pisC4o,2024
+wswebcam/protocol.py,sha256=sje07GUQxn2iFVVk0RC9QxD8cD7B5ayhrY9sSgCg3es,842
+wswebcam/server.py,sha256=x7UrRc6JR5jpnCDsRfypJYDLQTsrSUS8C0G0CDQsiEI,1613
+wswebcam-1.0.0.dist-info/LICENSE,sha256=uzosPqjiztrdCW7H8YmcCJ7Za-KjX6wtXDZvls9OYqE,1086
+wswebcam-1.0.0.dist-info/METADATA,sha256=OYweDxsmbwDPgtJMqfn6TJNHJwQQGy4453rmzjUAABc,2401
+wswebcam-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wswebcam-1.0.0.dist-info/entry_points.txt,sha256=hkEJ7NwCPDsbRUGIqhGVJ5IbUXSV8WocqGhRcunarPY,52
+wswebcam-1.0.0.dist-info/top_level.txt,sha256=fexQ0dbhUVlkOva9H0b9gWAnZ3NZ-POYjXOnbvhasZ4,9
+wswebcam-1.0.0.dist-info/RECORD,,
