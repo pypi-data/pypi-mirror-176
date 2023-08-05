@@ -1,0 +1,3 @@
+[console_scripts]
+bstream2pca = pca_b_stream.cmd_line:BStream2PCA
+pca2bstream = pca_b_stream.cmd_line:PCA2BStream
