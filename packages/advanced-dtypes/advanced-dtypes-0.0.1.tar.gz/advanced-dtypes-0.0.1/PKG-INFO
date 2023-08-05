@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: advanced-dtypes
+Version: 0.0.1
+Summary: Data types not found in the standard library that are cool in various different ways ;)
+Home-page: UNKNOWN
+Author: Ben Lee
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# advanced_dtypes
+ Advanced DataTypes package for Python
+
+
