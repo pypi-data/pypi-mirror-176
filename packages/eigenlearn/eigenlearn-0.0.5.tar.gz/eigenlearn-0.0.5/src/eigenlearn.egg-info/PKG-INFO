@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: eigenlearn
+Version: 0.0.5
+Summary: A package for matrix denoising and completion by learning eigen vectors
+Home-page: https://github.com/pypa/sampleproject
+Author: amir shamaei
+Author-email: amirshamaei@isibrno.cz
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EigenLearn
+EigenLearn provides a framework for matrix denoising and completion by learning eigen vectors
+|![org](https://github.com/amirshamaei/EigenLearn/blob/master/src/eigenlearn/examples/org.png?raw=true)|
+|:--:|
+||
+
+|![noisy](https://github.com/amirshamaei/EigenLearn/blob/master/src/eigenlearn/examples/noisy.png?raw=true)|
+|:--:|
+||
+
+|![denoised](https://github.com/amirshamaei/EigenLearn/blob/master/src/eigenlearn/examples/denoised.png?raw=true)|
+|:--:|
+||
+
+|![comp](https://github.com/amirshamaei/EigenLearn/blob/master/src/eigenlearn/examples/compare.png?raw=true)|
+|:--:|
+||

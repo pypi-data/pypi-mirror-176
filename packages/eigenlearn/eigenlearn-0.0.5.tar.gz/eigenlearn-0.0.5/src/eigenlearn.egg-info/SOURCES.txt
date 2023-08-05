@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/eigenlearn/__init__.py
+src/eigenlearn/eigenlearn.py
+src/eigenlearn/main.py
+src/eigenlearn/utils.py
+src/eigenlearn.egg-info/PKG-INFO
+src/eigenlearn.egg-info/SOURCES.txt
+src/eigenlearn.egg-info/dependency_links.txt
+src/eigenlearn.egg-info/top_level.txt
