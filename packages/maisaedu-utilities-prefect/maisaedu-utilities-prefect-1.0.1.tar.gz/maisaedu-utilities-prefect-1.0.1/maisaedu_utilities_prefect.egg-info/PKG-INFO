@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: maisaedu-utilities-prefect
+Version: 1.0.1
+Summary: Utilities for interaction with Prefect, for +A Education
+Author: A+ Educação
+Author-email: dataeng@maisaedu.com.br
+License: MIT License
+License-File: LICENSE
