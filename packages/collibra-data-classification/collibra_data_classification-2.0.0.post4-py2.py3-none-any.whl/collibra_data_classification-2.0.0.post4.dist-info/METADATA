@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: collibra-data-classification
+Version: 2.0.0.post4
+Summary: Collibra Catalog classification API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Collibra Catalog classification API
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    &lt;p&gt;The Catalog API offers functionality related to the catalog product.&lt;br/&gt; It is mainly focused on facilitating the ingestion of information into Catalog. The API enables users to more easily connect Catalog to sources that are not necessarily natively supported in the product. &lt;/p&gt;  # noqa: E501
+    
