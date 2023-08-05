@@ -1,0 +1,10 @@
+dillo/__init__.py,sha256=3nrDxjgG9BUkgrqJN9MwPsveyufl2bZMaYxctDcYU9Q,111
+dillo/auth.py,sha256=B0kCS2iJGH1NPLhjTFAxjQFg34qP_p4PSr08tmMQvCA,2859
+dillo/lib.py,sha256=jBMF2-URijKUpUz6tADjyFVPAQp9AA17_OtlHbgBOzE,63
+dillo/routes.py,sha256=-f6CyIX9FnDmPxrm2x5BRcptvRPFRIiAXUvsVVk2tCs,3311
+dillo/service.py,sha256=VSamss1u9C7Zt_j8ZdqYYZ9Bcdv3jc5zPjheSQkWZWM,460
+dillo/version.py,sha256=sdudXygp7apsHJlXnKr55YtuV7FHXVehQq_ZupiOBkE,1199
+pydillo-0.1.1.dist-info/METADATA,sha256=BSDcMMm77wgz19Z95wZHIS_cnv1F-EFI3c2Pq_GXdw4,795
+pydillo-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydillo-0.1.1.dist-info/top_level.txt,sha256=Xv7xBuyjUiAllLw7UZs8hbZ5BvxMbtvHVucE4oHDV-k,6
+pydillo-0.1.1.dist-info/RECORD,,
