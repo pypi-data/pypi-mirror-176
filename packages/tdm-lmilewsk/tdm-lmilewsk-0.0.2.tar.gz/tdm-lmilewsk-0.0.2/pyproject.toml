@@ -1,0 +1,40 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdm-lmilewsk"
+version = "0.0.2"
+description = "API that can be used to query information about the IMDB database for Project10 of TDM301"
+readme = "README.md"
+authors = [{ name = "Lucas Milewski", email = "lmilewsk@purdue.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+]
+keywords = ["example", "imdb", "tutorial", "VE", "Virtual", "Environment", "API"]
+dependencies = [
+    "lxml >= 4.9.1",
+    "requests >= 2.28.1",
+]
+requires-python = ">=3.10"
+[tool.bumpver]
+current_version = "0.0.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"imdb/__init__.py" = [
+    "{version}",
+]
+
