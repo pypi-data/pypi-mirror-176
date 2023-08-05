@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: uvraspy
+Version: 1.0.5
+Summary: A Python package for Raspberry Pi
+Home-page: UNKNOWN
+Author: csM5-22-25
+Author-email: n.aukes@student.utwente.nl
+License: UNKNOWN
+Keywords: python,RasPy,uvedora,pihat,fedora
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Requires-Dist: flake8
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pybluez
+Requires-Dist: adafruit-blinka
+Requires-Dist: adafruit-circuitpython-ltr390
+Requires-Dist: adafruit-circuitpython-dht
+Requires-Dist: pycryptodome
+Requires-Dist: adafruit-circuitpython-bmp280
+
+
+# UVedor Hat
+[![pipeline status](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/badges/main/pipeline.svg)](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/-/commits/main)
+[![coverage report](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/badges/main/coverage.svg)](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/-/commits/main)
+
+Software for the UVedora hat.
+# Getting started
+to install the project consult the [installation guide](INSTALL.md)
+# Installation
+## Raspberry Pi
+The python program can only be installed on the raspberry pi 
+
+> Before you install the program please install the dependencies required for the program to run. these are described below
+
+### Installing uvraspy using pip
+You can install **uvraspy** using pip by running the following command:
+```bash
+pip install uvedora
+```
+uvraspy is now installed on your raspberry pi and you can start the program by running the following command:
+```bash
+uvraspy
+```
+
+### Installing uvraspy from source
+You can also install uvraspy from source by running the following commands:
+```bash
+# Make sure you are in the desired directory
+git init
+git remote add -f origin https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments.git
+
+git config core.sparseCheckout true
+echo "RasPy/*" >> .git/info/sparse-checkout
+git pull origin main
+```
+To run the program you can run the following command:
+```bash
+cd RasPy/
+python3 -m uvraspy.main
+```
+### Dependencies
+You need to install the following dependencies before you can install the program:
+```bash
+sudo apt-get update
+sudo apt install bluetooth bluez libbluetooth-dev libudev-dev
+```
+
+When installing from source you also need to install the python dependencies, these can be installed by running the following command:
+```bash
+pip install -r RasPy/requirements.txt
+```
+
+## Sensors
+### Humidity-Temperature sensor (KY-015 DHT11)
+(front-facing, connections downwards)
+- connect left connection to GPIO 23 (pin 16)
+- connect middle connection to 3V3 power (pin 1)
+- connect right connection to Ground (pin 6)
+
+### Pressure sensor (BMP280)
+- connect GND to Ground (pin 6)
+- do not connect VCC
+- connect SCL to GPIO 3 (SCL) (pin 5)
+- connect SDA to GPIO 2 (SDA) (pin 3)
+- do not connect CSB
+- connect SDO to 3V3 power (pin 1)
+
+### UV Sensor (LTR390 ALS+UV Sensor)
+- connect VIN to 3V3 power (pin 1)
+- do not connect 3V0
+- connect GND to Ground (pin 6)
+- connect SCL to GPIO 3 (SCL) (pin 5)
+- connect SDA to GPIO 2 (SDA) (pin 3)
+- do not connect INT
+
+## Android
+The android app can be installed on any android device running android 6.0 or higher.
+
+### Installing the app
+You can install the app by downloading the apk file from the [releases page](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/-/releases) and installing it on your android device
+
+### Building the app from source (only for developers)
+To build the app from source you need to install the following tools:
+- [Android Studio (recommended)](https://developer.android.com/studio)
+- [Android SDK (v33)](https://developer.android.com/studio#downloads)
+- [Android build tools](https://developer.android.com/studio/releases/build-tools)
+- [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools)
+- [Android SDK Command-line Tools](https://developer.android.com/studio/releases/sdk-tools)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+
+After installing the tools you can clone the repository and open the MobileApplication project in the terminal or in Android Studio
+
+To build the app you can run the following command:
+```bash
+flutter build apk --release
+```
+The apk file can be found in ***build/app/outputs/flutter-apk/app-release.apk***
+
+
+
+# Usage
+## Raspberry Pi
+to run the program on the raspberry pi enter the following command:
+```bash
+uvraspy
+```
+## Android
+to run the program on android install the app from the [releases page](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/-/releases) and run the app
+
+when your hat is running you can connect to it using the app
+
+# Support and contact
+if you have any questions or problems you can contact us [by email](mailto:n.aukes@student.utwente.nl) or [by creating an issue](https://gitlab.utwente.nl/computer-systems-project/2022-2023/student-projects/cs22-25/cs-22-25-assignments/-/issues/new)
+
+# Authors and acknowledgment
+developed by:
+- [Niek Aukes](https://gitlab.utwente.nl/s2720604)
+- [Femke Weijsenfeld](https://gitlab.utwente.nl/s2792699)
+- [Bjorn Vuurens](https://gitlab.utwente.nl/s2827506)
+- [Tessa Limbeek](https://gitlab.utwente.nl/s2666723)
+- [Maxim Roșca](https://gitlab.utwente.nl/s2779307)
+
+special thanks to:
+- [Andy Lee](https://punchthrough.com/author/alee)
+
+# Contributing
+if you want to contribute to the project you can create a merge request
+
+make sure to read the [contribution guidelines](CONTRIBUTING.md) before you start contributing
+
+# License
+[Gnu General Public License v3.0](LICENSE)
+
