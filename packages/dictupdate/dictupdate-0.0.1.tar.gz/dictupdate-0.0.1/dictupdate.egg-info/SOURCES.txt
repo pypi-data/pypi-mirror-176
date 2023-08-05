@@ -1,0 +1,8 @@
+README.md
+setup.py
+dictupdate/__init__.py
+dictupdate/updater.py
+dictupdate.egg-info/PKG-INFO
+dictupdate.egg-info/SOURCES.txt
+dictupdate.egg-info/dependency_links.txt
+dictupdate.egg-info/top_level.txt
