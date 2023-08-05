@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ironflow
+Version: 0.post0.dev1
+Summary: ironflow - module extension to pyiron.
+Home-page: https://github.com/pyiron/ironflow
+Author: Max-Planck-Institut für Eisenforschung GmbH - Computational Materials Design (CM) Department
+Author-email: liamhuber@greyhavensolutions.com
+License: BSD
+Keywords: pyiron
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: ipycanvas
+Requires-Dist: ipython
+Requires-Dist: ipywidgets (<8,>=7)
+Requires-Dist: matplotlib
+Requires-Dist: nglview
+Requires-Dist: numpy
+Requires-Dist: pyiron-base
+Requires-Dist: pyiron-atomistics
+Requires-Dist: ryvencore
+
+http://pyiron.org
