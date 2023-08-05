@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: boac
+Version: 0.0.2
+Summary: Integrated suite for particle accelerator beam optics and analysis
+Project-URL: homepage, https://github.com/beamopticsanalysis/boac
+Project-URL: repository, https://github.com/beamopticsanalysis/boac
+Project-URL: documentation, https://boac.readthedocs.io
+Project-URL: Bug Tracker, https://github.com/beamopticsanalysis/boac/issues
+Author-email: Riccardo de Maria <riccardo.de.maria@cern.ch>, Felix Soubelet <felix.soubelet@cern.ch>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.0
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == 'docs'
+Requires-Dist: sphinx>=4.4; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# boac
+
+Suite of python packages for particle accelerator beam optics and analysis.
+
+Documentation is on: https://boac.readthedocs.io/en/latest/.
