@@ -1,0 +1,14 @@
+ciberedev/__init__.py,sha256=bNjDzHnxOoJCrjA2-GLJSmNXuM3PBBI9BOvkkdAQTL0,231
+ciberedev/authorization.py,sha256=7Nn27feGvdVp_TxgplvAMVKdbicMJ0qaGo1cFiwwz8A,625
+ciberedev/client.py,sha256=VbCdkjcn4tLZSNGnfF2Oy7Rwj-MFhGgZuIDVmYC5UvE,6020
+ciberedev/embeds.py,sha256=NUNlsWuF_00QdzclJtWre1sI-6-FQIkyXrCf_FoOebg,649
+ciberedev/errors.py,sha256=Q7rnenjFxCCPOUxR7U5BwmWXDLv79mIX7pPEwwh7uu0,1624
+ciberedev/pasting.py,sha256=TKWi7CXvMxOPlgi1svnvuKYjhuVjIFYgqBSrcUOg5Dc,273
+ciberedev/screenshot.py,sha256=QO0zlQfTdcsfDhaStvRf7AT_VwSSqvPPcPvuapZVRDk,221
+ciberedev/upload_file.py,sha256=kK6vpBpilb2brbsCUpf109PdBQ6mqMaB7J3lGtckNJc,470
+ciberedev/utils.py,sha256=vTT6IHFhfDET-S_9bzVxuugSTTVUUassJZ-wyEtzHtw,409
+ciberedev.py-0.2.0.dist-info/LICENSE,sha256=rBM53FKW8sWoUJMIDLcuaYULNz3OWm6XaikLYvdEfBQ,1067
+ciberedev.py-0.2.0.dist-info/METADATA,sha256=TLvb-j1_pNrermW_p365DnoQWw8q8OwLGWKo5qqHOe8,2002
+ciberedev.py-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ciberedev.py-0.2.0.dist-info/top_level.txt,sha256=Qq3wJLdKKS7RGSXleG6qX6CLwqVR8F_dxHZOjcPvXaM,10
+ciberedev.py-0.2.0.dist-info/RECORD,,
