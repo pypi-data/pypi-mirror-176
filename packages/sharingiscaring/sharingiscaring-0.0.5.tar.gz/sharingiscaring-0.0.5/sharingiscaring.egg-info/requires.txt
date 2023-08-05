@@ -1,0 +1,5 @@
+rich
+python-dateutil
+base58
+pysha3
+pytest

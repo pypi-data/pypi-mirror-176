@@ -1,0 +1,11 @@
+README.md
+setup.py
+sharingiscaring/__init__.py
+sharingiscaring/cns.py
+sharingiscaring/credential.py
+sharingiscaring/transaction.py
+sharingiscaring.egg-info/PKG-INFO
+sharingiscaring.egg-info/SOURCES.txt
+sharingiscaring.egg-info/dependency_links.txt
+sharingiscaring.egg-info/requires.txt
+sharingiscaring.egg-info/top_level.txt
