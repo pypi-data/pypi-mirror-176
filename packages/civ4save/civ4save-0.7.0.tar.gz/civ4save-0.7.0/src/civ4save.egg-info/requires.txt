@@ -1,0 +1,17 @@
+attrs
+click
+construct
+importlib-resources>=5.9.0
+Jinja2
+lazy-property
+rich
+xmltodict
+
+[dev]
+black
+flake8
+flake8-isort
+flake8-docstrings
+mypy
+pytest
+tox
