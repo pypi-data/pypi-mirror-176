@@ -1,0 +1,8 @@
+README.md
+setup.py
+package-test99/modulo.py
+package_test99.egg-info/PKG-INFO
+package_test99.egg-info/SOURCES.txt
+package_test99.egg-info/dependency_links.txt
+package_test99.egg-info/requires.txt
+package_test99.egg-info/top_level.txt
