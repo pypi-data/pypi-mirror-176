@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: drip-drip
+Version: 0.0.7
+Summary: Provides a utility to control automatic execution when conditions are met.
+Author-email: Simon Patton <sjpatton@lbl.gov>
+License: BSD-3-Clause-LBNL
+Keywords: drip,drip feed,drip-drip
+Classifier: Development Status :: 1 - Planning 
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.10.6
+Description-Content-Type: text/markdown
+
+[drip_feed](https://gitlab.com/nest.lbl.gov/drip_feed) contains the python package that provides a utility to control automatic copying of files from one directory to another such that:
+
+* the rate of copying can be throttled; and
+
+* the number of files in the destination directory can be limited, so that it does not become overly large.
+
+This utility also allows for a python class to be executed just before a file is placed in the destination directory in order to prepare for the appearance of the files to be copied.
