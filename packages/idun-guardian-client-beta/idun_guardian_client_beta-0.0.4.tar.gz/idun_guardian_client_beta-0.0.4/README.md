@@ -1,0 +1,199 @@
+# User guide and documentation
+
+## What can you do with the Python SDK?
+
+1. You can use the Python SDK to search for the device.
+2. You can use the Python SDK to connect and record data from the earbud.
+3. You can download the data to your local machine.
+
+---
+
+## Prerequisites
+
+- [Python 3.10](https://www.python.org/downloads/release/python-3100)
+- If you have conflicts whith other packages when installing the Python SDK, or you do not want to change your default python version, create a virtual environment using either:
+    -  [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) which will create an environment and configure your python version to the correct one with the following command: 
+    
+    ```bash
+    conda create -n idun_env python=3.10
+    ```
+    or
+    - [Pipenv](https://pypi.org/project/pipenv/) which will create you virtual environment and you can install [Pyenv](https://realpython.com/intro-to-pyenv/) which will configure the required python version using the following command. 
+    
+    ```bash
+    pipenv install --python 3.10
+    ```
+---
+
+## Quick installation guide
+
+1. Create a new repository or folder
+2. Open the terminal in the folder and run the following commands for the installation of the Python SDK:
+
+
+3. First activate the virtual environment if you have created one by using the following command, this command must always be run before using the python SDK:
+    ```bash
+    conda activate idun_env
+    ```
+    or
+    ```bash
+    pipenv shell
+    ```
+
+4. After the environment is activated, install the Python SDK using the following command:
+    - With a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) use the following command:
+    ```bash
+    pip install idun idun-guardian-client-beta
+    ```
+    or
+    - With a [pipenv environment](https://pypi.org/project/pipenv/) use the following command:
+    ```bash
+    pipenv install idun idun-guardian-client-beta
+    ```
+
+5. After installing the package, make sure that the dependencies are correctly installed with `pip list` while being in the virtual environment.
+6. To test, open `python` shell in terminal by running the following command:
+    ```bash
+    python
+    ```
+7. Import the package by running the following command:
+    ```python
+    from idun_guardian_client_beta import *
+    ```
+8. If successful and no errors occur, the idn-guardian-client was succesfully installed with its dependencies
+
+---
+
+## How to use the Python SDK
+
+Below you will find examples of how to use the python SDK, we recommend that you create a new file for each example and run the code in the terminal.
+
+### Example 1: Search for the device
+
+1. Create a new file and name it `search.py`
+2. Open the terminal in the folder and activate your virtual environment using the steps from the [Quick installation guide](#quick-installation-guide). Remember that you only need to create and install the virtual environment once, but you need to activate it every time you want to use the Python SDK.
+3. Open the `search.py` file and copy the code from step 1 below.
+4. Run the following command in the terminal to run the code after you have activate the enviroment:
+    ```bash
+    python search.py
+    ```
+
+#### Recommendation of steps to follow which is eleborated further below.
+
+1. Search for the device
+2. Check the battery level
+3. Check the impedance
+4. Record data from the earbud
+5. Download the data from the cloud using the recording ID
+
+
+
+**Note**: Currently you need to specify the MAC address (on Windows operating system) or the UUID (on Mac OS) of the earbud you want to connect to. This includes an initial step to find out the MAC address/UUID of the earbud. This will be changed in the future to allow automatic BLE discovery and connection of the earbud.
+
+### **1. Search the earbud manually**
+
+- To search for the earbud, you need to run the following command in your python shell or in your python script:
+
+```python
+import asyncio
+from idun_guardian_client_beta import GuardianClient
+
+bci = GuardianClient() 
+
+# start a recording session
+asyncio.run(bci.search_device())
+```
+
+- Follow the steps in the terminal to search for the earbud with the name `IGEB`
+- Copy the MAC address (windows) or UUID (mac os) of the earbud which wil be the all caps string on the left of the name `IGEB`
+
+
+### **2. Check battery level**
+
+- To read out the battery level, you need to run the following command in your python shell or in your python script:
+
+```python
+import asyncio
+from idun_guardian_client_beta import GuardianClient
+
+# (mac os)
+DEVICE_ADDRESS = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" # UUID of the earbud found with search_device
+
+# (windows)
+# DEVICE_ADDRESS = "XX:XX:XX:XX:XX:XX" # MAC address of the earbud found with search_device()
+
+bci = GuardianClient(DEVICE_ADDRESS)
+
+# start a recording session
+asyncio.run(bci.start_battery())
+```
+
+### **3. Check impedance values**
+
+- To read out the impedance values, you need to run the following command in your python shell or in your python script:
+
+```python
+import asyncio
+from idun_guardian_client_beta import GuardianClient
+
+# (mac os)
+DEVICE_ADDRESS = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" # UUID of the earbud found with search_device
+
+# (windows)
+# DEVICE_ADDRESS = "XX:XX:XX:XX:XX:XX" # MAC address of the earbud found with search_device()
+
+bci = GuardianClient(DEVICE_ADDRESS)
+# start a recording session
+asyncio.run(bci.start_impedance())
+```
+
+### **4. Start a recording**
+
+- To start a recording with a pre-defined timer (e.g. `100`), you need to run the following command in your python shell or in your python script:
+
+```python
+import asyncio
+from idun_guardian_client_beta import GuardianClient
+
+# (mac os)
+DEVICE_ADDRESS = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" # UUID of the earbud found with search_device
+
+# (windows)
+# DEVICE_ADDRESS = "XX:XX:XX:XX:XX:XX" # MAC address of the earbud found with search_device()
+
+bci = GuardianClient(DEVICE_ADDRESS)
+
+# start a recording session
+asyncio.run(bci.start_recording(recording_timer=36000, led_sleep=True)) # recording timer in seconds, led_sleep=True will turn off the LED on the earbud during recording
+```
+
+
+### **4. Find recorded data**
+
+- To download the data, you need to first get the list of all your recordings and choose the one you would like to download
+- Run the following command in your python shell or in your python script:
+
+```python
+from idun_guardian_client_beta.igeb_api import GuardianAPI
+
+api = GuardianAPI()
+
+# get a list of all recordings
+recording_list = api.get_recordings_all()
+```
+
+### **5. Download the data**
+
+- To download the data insert the device ID along with the recording ID and run the following command in your python shell or in your python script
+
+```python
+from idun_guardian_client_beta.igeb_api import GuardianAPI
+
+api = GuardianAPI()
+
+# get single recording
+api.get_recordings_by_id("deviceID", "recordingId")
+
+# download recording
+api.download_recording_by_id("deviceID", "recordingId")
+```
