@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/codeowners_lib.py
+src/github_fetch_file.py
+src/gh_codeowners.egg-info/PKG-INFO
+src/gh_codeowners.egg-info/SOURCES.txt
+src/gh_codeowners.egg-info/dependency_links.txt
+src/gh_codeowners.egg-info/top_level.txt
