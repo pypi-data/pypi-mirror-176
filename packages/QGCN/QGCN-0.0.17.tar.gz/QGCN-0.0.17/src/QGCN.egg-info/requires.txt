@@ -1,0 +1,10 @@
+scipy
+pandas
+numpy
+torch
+scikit-learn
+bokeh
+matplotlib
+bitstring
+python-louvain
+graph-measures>=0.1.44
