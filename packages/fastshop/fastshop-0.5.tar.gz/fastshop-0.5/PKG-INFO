@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fastshop
+Version: 0.5
+Summary: fastshop
+Home-page: https://github.com/fengchuan1021
+Author: fengchuan
+Author-email: fengchuanhn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+xt system user define jsonresponse
+

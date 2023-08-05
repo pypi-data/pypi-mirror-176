@@ -1,0 +1,3 @@
+[console_scripts]
+fastshop = fastshop.fastshop:main
+
