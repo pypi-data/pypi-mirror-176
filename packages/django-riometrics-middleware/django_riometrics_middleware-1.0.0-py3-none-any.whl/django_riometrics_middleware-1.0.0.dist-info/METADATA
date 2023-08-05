@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django-riometrics-middleware
+Version: 1.0.0
+Summary: Rapyuta.io Metrics Django Middleware
+Author: Rapyuta Robotics
+Author-email: opensource@rapyuta-robotics.com
+License: Apache 2.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: urllib3 (>=1.23pytelegraf==0.3.3)
+Requires-Dist: setuptools
+
+# django-riometrics-middleware
+
+Django middleware to collect HTTP metrics.
+
+## Installation
+
+``pip install django-riometrics-middleware==1.0.0``
+
+## Usage
+
+Just add ``rio_metrics.middleware.HTTPMetricsMiddleware`` to your middleware.
