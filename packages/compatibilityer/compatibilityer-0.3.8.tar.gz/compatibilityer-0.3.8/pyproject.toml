@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "compatibilityer"
+version = "0.3.8"
+description = "Tool to convert Python code to work with older versions"
+authors = ["nahco314 <nahco3_ta@yahoo.co.jp>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
