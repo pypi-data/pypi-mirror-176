@@ -1,0 +1,4 @@
+boto3
+onelogin<3.0,>=2.0
+keyring
+requests
