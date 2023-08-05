@@ -1,0 +1,2 @@
+[plover.gui.qt.tool]
+touchscreen_stenotype = plover_touchscreen_stenotype.Main:Main
