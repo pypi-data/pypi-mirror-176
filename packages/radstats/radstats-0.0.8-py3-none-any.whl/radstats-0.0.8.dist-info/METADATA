@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: radstats
+Version: 0.0.8
+Summary: Radiation effects system modeling tool
+Author-email: Stephen Lawrence <rdt249@mocs.utc.edu>
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: lxml
+Requires-Dist: schemdraw
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: Pillow
+
+Installation
+------------
+
+Python module::
+
+   pip install radstats
+
+Source code::
+
+   git clone https://github.com/rdt249/radstats
+   cd radstats
+   pip install -r requirements.txt
+
+
+Documentation
+-------------
+
+https://radstats.readthedocs.io/en/latest/
+
