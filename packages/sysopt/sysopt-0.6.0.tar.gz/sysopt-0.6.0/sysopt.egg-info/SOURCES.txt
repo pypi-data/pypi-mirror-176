@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+sysopt/__init__.py
+sysopt/exceptions.py
+sysopt/helpers.py
+sysopt/warnings.py
+sysopt.egg-info/PKG-INFO
+sysopt.egg-info/SOURCES.txt
+sysopt.egg-info/dependency_links.txt
+sysopt.egg-info/requires.txt
+sysopt.egg-info/top_level.txt
