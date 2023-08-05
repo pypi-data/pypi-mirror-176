@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: wordgen
+Version: 2022.0.0
+Summary: Word training set generator for learning typing and improving your performance
+Home-page: https://github.com/Johnystar/wordgen
+License: Unlicense
+Author: Octelly
+Author-email: eli@stefek.cz
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/Johnystar/wordgen
+Description-Content-Type: text/markdown
+
+# Word generator (for all you goddam keeb nerds 🤓)
+
+## The story
+
+I was using this funny site to learn Colemak DHm and slowly started realising that the site was (and still is) nowhere near as funny as I thought and came to the conclusion that Monkeytype is signifficantly more funny. Here's the problem: the site was able to generate to generate different level words, such as only using finger keys, or adding adjacent keys to the mix (so like only using `arst` `neio` for example), but Monkeytype has no such feature.
+
+yeah anw this exists now, use it with custom mode in Monkeytype and you can get the ultimate training experience
+
+## Configuration
+
+You can customise the script to your heart's content on the first few lines. I did not and do not plan on adding any interactive elements at this time, if I feel brave enough I might add command line arguments through Click at a later date (or maybe in just an hour or something idk).
+
+i forgor what i was typing about 💀
+
+## Project versioning
+
+`year.breaking.minor`
+
+- `year` of release
+- goes up in case there's a `breaking` change
+- `minor` goes up with each update
+
+## Credits
+
+- code by Octelly
+- top 1000 English words list source: https://gist.github.com/deekayen/4148741 (can be replaced with whatever else if script customisation for personal use like mentioned earlier :D)
+
+## have fun
+
+please have fun please this code is perfect make sure to star ⭐🌟the 🌠repo ✨💫and 🤩*sus*cribe ඞ
+
