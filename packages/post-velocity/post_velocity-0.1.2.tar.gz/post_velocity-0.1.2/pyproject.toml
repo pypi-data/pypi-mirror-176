@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0","matplotlib>=3.2.2", "numpy>=1.21.2","scipy==1.7.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "post_velocity"
+version = "0.1.2"
+authors = [
+  { name="Andrei P. Igoshev", email="ignotur@gmail.com" },
+]
+description = "Package to compute Bayesian posterior distribution for transversal velocity using parallaxes and proper motions."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ignotur/post-velocity"
+"Bug Tracker" = "https://github.com/ignotur/post-velocity/issues"
