@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pied-piper-sdwan-sdk
+Version: 1.0.51
+Summary: Cisco SD-WAN vManage API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: vmanage@cisco.com
+License: Commercial License
+Keywords: OpenAPI,OpenAPI-Generator,Cisco SD-WAN vManage API
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+    The vManage API exposes the functionality of operations maintaining devices and the overlay network  # noqa: E501
+    
