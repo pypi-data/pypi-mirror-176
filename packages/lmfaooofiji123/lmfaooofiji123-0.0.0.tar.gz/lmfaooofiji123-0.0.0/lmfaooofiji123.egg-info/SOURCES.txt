@@ -1,0 +1,6 @@
+setup.py
+lmfaooofiji123/__init__.py
+lmfaooofiji123.egg-info/PKG-INFO
+lmfaooofiji123.egg-info/SOURCES.txt
+lmfaooofiji123.egg-info/dependency_links.txt
+lmfaooofiji123.egg-info/top_level.txt
