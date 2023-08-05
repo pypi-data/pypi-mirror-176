@@ -1,0 +1,2 @@
+include cjpy/startup/*.*
+include cjpy/examples/*.*

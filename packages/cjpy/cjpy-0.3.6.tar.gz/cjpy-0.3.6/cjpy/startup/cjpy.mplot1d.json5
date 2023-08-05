@@ -1,0 +1,32 @@
+
+// only needed for function-only implmentation
+
+"-main"   : "cjpy.plottool.plottool.collect_data",
+"-logfile" : "",
+
+"title" : "",
+
+"-appkeys" : ["title"],
+"-cfg<<cfg": ["infile", "outfile"],
+
+//"-pars": ["infile", "title"],
+
+"-collect_kwpars": true,
+
+"verbose" : 1,
+"hold"    : false,
+
+"-post"  : {
+	"-main"   : "cjpy.plottool.plottool.mplot1d",
+
+//	"verbose" : "{=verbose}",
+//	"hold"    : "{=hold}",
+//	"xlabel"  : "{=xlabel}",
+//	"ylabel"  : "{=ylabel}",
+
+	"-post<<cfg ": ["verbose","hold","xlabel","ylabel","outfile",
+		"xexpr","yexpr", "xscale","yscale","display","ion"],
+//	"prep<<main": ["obsid", "name", "auxfile"],	// if the name is different, "new_name << name"
+	"-post<<main": ["xdata", "ydata", "xr", "yr","title","marker","linestyle","color"],
+
+},

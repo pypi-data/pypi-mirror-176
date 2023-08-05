@@ -1,0 +1,6 @@
+
+"-main": "example.show_new_name",
+
+"infile" : "input.json",
+"outfile": "input_json.txt",
+

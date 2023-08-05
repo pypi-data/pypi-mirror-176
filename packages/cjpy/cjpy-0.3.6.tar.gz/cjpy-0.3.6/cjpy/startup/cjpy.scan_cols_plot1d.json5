@@ -1,0 +1,24 @@
+
+"-main": "cjpy.plottool.plottool.collect_data",
+"-loop": {
+	"-main": "cjpy.plottool.plottool.scan_fits_cols",
+	"infile": "{infile}",
+	"hdu": "{hdu}",
+	"x": "{x}",
+},
+
+"linestyle" : "solid",
+"marker"   : "None",
+"display"  : true,
+"hdu": "",
+
+"title" : "{hdu}",
+
+"xlog"  : true,
+"ylog"  : true,
+"margin": 0.05,
+
+"-logfile": "",
+"-collect_kwpars": true,
+"-post:-main" : "cjpy.plottool.plottool.mplot1d",
+

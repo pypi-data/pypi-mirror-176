@@ -1,0 +1,26 @@
+
+"-main": "example.my_sum",
+"x": 5,
+"y": 7,
+"name": "answer",
+
+"-iter": ["run A", "run B", "test C"],
+
+"run A": {
+	"x": 1,
+	"y": 2,
+},
+
+"run B": {
+	"x": 10,
+	"y": 20,
+},
+
+"test C": {
+	"x": 10,
+},
+
+"-iter~=run": {
+	"name": "ANSWER",
+},
+

@@ -1,0 +1,60 @@
+
+"-indir"  : ".",
+"-logfile" : "",
+
+"--only for cjpy.cmdscript": {
+	"R": true,
+
+	"-cfg<<cfg": ["infile","-recursive << R", 
+		"after", "before","smaller","larger","basedir"],
+
+	"summary": true,
+	"overview": false,
+
+	"-post":{
+		"-main"     : "cjpy.cmdscript.summary",
+		"-post<<cfg" : ["summary", "overview"],
+		"-post<<main": "success",		
+	},
+
+//	"-exclude_kwpars": ["R","summary","overview"],
+//	"-exclude_kwpars": ["R"],
+},
+
+"--only for cjpy.plottool" : {
+
+	"-enforce_format": {
+		"xr": "float",
+		"yr": "float",
+		"rr": "float",
+		"binx": "float",
+		"biny": "float",
+		"nbin": "int",
+		"nbinx": "int",
+		"nbiny": "int",
+		"margin": "float",
+		"rmargin": "float",
+		"drawdown": "float",
+		"xlice": "float",
+		"ylice": "float",
+//		"cbar": "float",
+	},
+
+	"-cfg<<cfg": ["help << -Help"],
+
+	"-collect_kwpars": true,
+
+//	"help": false,
+//	"-Help": "{=help}",
+
+},
+
+"--only for cjpy.plottool.dplot" : {
+	".xdata": false,
+	".ydata": false,
+	".data" : false,
+},
+
+"--only for cjpy.tabletool" : {
+	"-cfg<<cfg": ["help << -Help","infile"],
+},
