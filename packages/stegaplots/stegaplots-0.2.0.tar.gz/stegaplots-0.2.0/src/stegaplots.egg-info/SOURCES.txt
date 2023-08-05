@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+assets/encoded.png
+assets/matplotlib.png
+assets/original.png
+assets/stegaplot.png
+src/stegaplots/__init__.py
+src/stegaplots/__main__.py
+src/stegaplots/stegano.py
+src/stegaplots.egg-info/PKG-INFO
+src/stegaplots.egg-info/SOURCES.txt
+src/stegaplots.egg-info/dependency_links.txt
+src/stegaplots.egg-info/entry_points.txt
+src/stegaplots.egg-info/requires.txt
+src/stegaplots.egg-info/top_level.txt
