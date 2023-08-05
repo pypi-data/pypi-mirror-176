@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cv-pose
+Version: 1.0.7
+Summary: A lightweight platform for running various computer vision and pose estimation networks. Built on Tensorflow.
+Project-URL: Homepage, https://github.com/deadblock123/CV_Final_Project
+Project-URL: Bug Tracker, https://github.com/deadblock123/CV_Final_Project/issues
+Author-email: Jacob Lopez <jacoblopez757@gmail.com>, Fausto Navarro <fnavarro0806@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# CV-pose
+
+CV-pose is a light Python library using and testing a number of pose estimation networks. Built on Tensorflow.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip3 install cv-pose
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
