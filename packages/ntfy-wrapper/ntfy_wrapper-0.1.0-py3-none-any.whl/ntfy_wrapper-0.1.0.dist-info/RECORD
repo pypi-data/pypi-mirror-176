@@ -1,0 +1,9 @@
+ntfy_wrapper/__init__.py,sha256=4BQMfcd5ZdWQySjnk291ZXTqIM2ftirpOLQbTUoufhg,45
+ntfy_wrapper/cli.py,sha256=fBFW5q7y8ToUql26MY4HiPAR7JU3Np_CjuUS9TGmAYw,7316
+ntfy_wrapper/notifier.py,sha256=qNkff8OjTcmcKT7ObI_nJ7uosR7KXOtqLzsJc0b1Jys,12661
+ntfy_wrapper/utils.py,sha256=SWd6whUfib-IRt0j68epR7A3oX1vMd8ZZ5sjY05tAHY,3973
+ntfy_wrapper-0.1.0.dist-info/entry_points.txt,sha256=FK4-PXyqFEk7117chdBgLvR--4Hy0Gw2bQKBcfb33oU,48
+ntfy_wrapper-0.1.0.dist-info/LICENSE,sha256=TtJX9w9QSf8st7V3cfsFn8dPJQwHgf2D2SJHrcBbfQs,1071
+ntfy_wrapper-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ntfy_wrapper-0.1.0.dist-info/METADATA,sha256=kTIi9JI7GXJ0LK7xPQHDPHLD-Ttioj5vnegXUJfiMDc,6432
+ntfy_wrapper-0.1.0.dist-info/RECORD,,
