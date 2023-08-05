@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: spilo
+Version: 0.0.9
+Author: Giorgi Khunashvili
+Author-email: gkhunashvili@icloud.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+# SPILO
