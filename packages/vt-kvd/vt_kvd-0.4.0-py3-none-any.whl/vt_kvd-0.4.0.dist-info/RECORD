@@ -1,0 +1,12 @@
+vt_kvd/__init__.py,sha256=7kgaM_0SNAC_FrL_FqzFMWIMZGT-w9Ra1vAwi5oVNwM,127
+vt_kvd/__main__.py,sha256=HsR5UfnmeWZFu3UF_7l5Iphovakb6RnhdKyHjqVRfLc,31453
+vt_kvd/theme.py,sha256=1P8nEJdx_FyL1oAoxH7hFcYvpGHrLJFjV5Opros7408,6868
+vt_kvd/utils.py,sha256=4mM0O6Y6YU19IY0HVaRBzVoSN9m0wFIH0FGCXBVkPa0,5448
+vt_kvd/version.py,sha256=QhjeVQtt2f6wrvpfwAe2VbsEk6NmynU62OJnO1uLApk,304
+vt_kvd/fonts/JetBrainsMono-Thin.ttf,sha256=5T5QITtgT5p6PGrKFDGGBqC6BR_ggihwz9xlmWI8yYI,169480
+vt_kvd-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vt_kvd-0.4.0.dist-info/METADATA,sha256=K74pII45vgXKiHcZ_Y4CB_Sqm5rf2U8WQPY6g1ENX_Q,5767
+vt_kvd-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vt_kvd-0.4.0.dist-info/entry_points.txt,sha256=_fvZ2Bke4QlJYd23ZeBWoYQf3F_1-1pLHZh2L5vAvdQ,48
+vt_kvd-0.4.0.dist-info/top_level.txt,sha256=F3nvxK3ZbzYgJRX-Ri84QHyI4FPtKVvU2sHfiQXDxMo,7
+vt_kvd-0.4.0.dist-info/RECORD,,
