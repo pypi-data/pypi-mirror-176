@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: versatile
+Version: 0.0.1a1
+Summary: Tool to function various tasks
+Home-page: https://github.com/gautam-shetty/versatile
+Author-email: g.shetty@outlook.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# versatile
+Python package to perform various functions.

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+versatile/__init__.py
+versatile/main.py
+versatile.egg-info/PKG-INFO
+versatile.egg-info/SOURCES.txt
+versatile.egg-info/dependency_links.txt
+versatile.egg-info/top_level.txt
