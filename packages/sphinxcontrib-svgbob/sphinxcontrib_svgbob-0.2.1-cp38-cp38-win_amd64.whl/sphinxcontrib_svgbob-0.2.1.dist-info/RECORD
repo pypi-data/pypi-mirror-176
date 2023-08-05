@@ -1,0 +1,17 @@
+sphinxcontrib/svgbob/__init__.py,sha256=MvvSWCXg36rD6IB5alZj54fidzNQmVfYQfxCr-jPAHs,420
+sphinxcontrib/svgbob/_svgbob.cp38-win_amd64.pyd,sha256=a1cw10l3HklwcAEVX--NU_1ZZP3F5uZ3k7uLrRfnYy4,1184768
+sphinxcontrib/svgbob/_svgbob.pyi,sha256=gh1GIS3QI_X2ZkT7naBZsWtS_5cRxEBHJJoCHGfYsec,541
+sphinxcontrib/svgbob/directive.py,sha256=0Km-Sh52IYe_jp0LDYLt4IarzNwcgAP4aqhhY7j-Mj4,1532
+sphinxcontrib/svgbob/node.py,sha256=ZDu5h7vucFg82szGWKr_aNgnz-VRi91wMGYb_lK4k0Q,114
+sphinxcontrib/svgbob/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinxcontrib/svgbob/transform.py,sha256=XdXr_WlLTFf6_hKi4rD_si6Kdh-trHR-3XD4XVhNi04,2547
+sphinxcontrib/svgbob/_svgbob/Cargo.lock,sha256=M1-xKJ38TQqb9ghCM8LKhp3fQgBvpm90c4YAPiluxIo,27510
+sphinxcontrib/svgbob/_svgbob/Cargo.toml,sha256=YWePlrBMqPS-My6vBWsJQii9771qxzyN62K4XlkWFrE,1042
+sphinxcontrib/svgbob/_svgbob/build.rs,sha256=4UJC0WxCniQ7bQPcvDUVOH3Nyvi1f5eoJ0PMRXoT1u4,446
+sphinxcontrib/svgbob/_svgbob/built.rs,sha256=RqNRFLTRlfyRNRCm6o6F1XghCNqN3bo0p8czxA8eIEE,115
+sphinxcontrib/svgbob/_svgbob/lib.rs,sha256=SpimJJ2eHwy2mFo6Oylngkl0WYGXzYviaq2nw0L2ONY,2529
+sphinxcontrib_svgbob-0.2.1.dist-info/COPYING,sha256=MPK-cBnsbe6v4G2A9fVoXgG_TivW63mjOQvkswwSWmo,1119
+sphinxcontrib_svgbob-0.2.1.dist-info/METADATA,sha256=9FuPjAZnxeVMZZ10ocdm8CNVYKr76HGxOFfoGAi_zV8,9400
+sphinxcontrib_svgbob-0.2.1.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+sphinxcontrib_svgbob-0.2.1.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_svgbob-0.2.1.dist-info/RECORD,,
