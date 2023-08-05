@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pynumwork
+Version: 0.1.2
+Summary: A simple Python package for simple math problems. Dedicated to Ksenia :)
+Author: spacecultengineer
+Author-email: spacecultengineer@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+Dedicated to Ksenia :)
+
+A simple Python package for simple math operations.
+
