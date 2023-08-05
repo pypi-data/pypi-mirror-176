@@ -1,0 +1,4 @@
+plover>=4.0.0.dev12
+
+[:platform_system == "Windows"]
+pywin32>=304.0.0
