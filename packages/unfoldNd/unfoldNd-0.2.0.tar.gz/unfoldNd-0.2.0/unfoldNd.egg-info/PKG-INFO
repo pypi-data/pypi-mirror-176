@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: unfoldNd
+Version: 0.2.0
+Summary: N-dimensional unfold (im2col) and fold (col2im) in PyTorch
+Home-page: https://github.com/f-dangel/unfoldNd
+Author: Felix Dangel
+Author-email: 
+License: MIT
+Keywords: PyTorch,im2col,col2im,unfold,fold
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: lint
+License-File: LICENSE
