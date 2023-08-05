@@ -1,0 +1,12 @@
+
+[dev]
+pytest
+mypy
+esbonio
+pylint
+doc8
+black
+towncrier
+
+[dev:python_version < "3.7"]
+dataclasses
