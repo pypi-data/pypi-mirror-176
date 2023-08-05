@@ -1,0 +1,3 @@
+[console_scripts]
+genolearn = genolearn.__main__:cli
+preprocess = genolearn.__main__:preprocess
