@@ -1,0 +1,9 @@
+flake8
+pytest
+pytest-cov
+pybluez
+adafruit-blinka
+adafruit-circuitpython-ltr390
+adafruit-circuitpython-dht
+pycryptodome
+adafruit-circuitpython-bmp280
