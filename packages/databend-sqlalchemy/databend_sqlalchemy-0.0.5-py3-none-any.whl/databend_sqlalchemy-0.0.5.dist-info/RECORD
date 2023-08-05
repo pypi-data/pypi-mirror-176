@@ -1,0 +1,10 @@
+databend_sqlalchemy/__init__.py,sha256=YCJhkrK1Ic9xU1BD9u6tbZGc1UPsJi_phRsQfBecjlw,91
+databend_sqlalchemy/base.py,sha256=lkdunoL9_I5b5LHQN9hI7jTFUNNbdexM9gYklswCKs0,10771
+databend_sqlalchemy/connector.py,sha256=9AHeFMfYXXztfEngkZ6kVMdYC1u296EkSbDHBfC7xXU,9931
+databend_sqlalchemy/errors.py,sha256=6It0PPNtYpE6g-4_lDMkunt0MS7GP_86OybCYoZOHK0,812
+databend_sqlalchemy/test.py,sha256=DkZh_dpZXePyjrW7CYeC-COwZmhgPY4ZtyqiHZiktHk,449
+databend_sqlalchemy-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+databend_sqlalchemy-0.0.5.dist-info/METADATA,sha256=cwVuZkdNBKP1YIpNX9cPPtP-YRjUuCa_tmmVJFM7SJo,2001
+databend_sqlalchemy-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+databend_sqlalchemy-0.0.5.dist-info/top_level.txt,sha256=oCHaamNz6UB5boxQjnKKLlc3hQysZqv1DS24Dkg3QHI,20
+databend_sqlalchemy-0.0.5.dist-info/RECORD,,
