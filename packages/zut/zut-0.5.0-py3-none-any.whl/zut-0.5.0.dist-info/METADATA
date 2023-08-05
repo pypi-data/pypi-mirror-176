@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: zut
+Version: 0.5.0
+Summary: Reusable Python, Django and PostgreSql utilities.
+Author-email: Ipamo <dev@ipamo.net>
+Project-URL: Homepage, https://github.com/ipamo/zut
+Project-URL: Bug Tracker, https://github.com/ipamo/zut/issues
+Keywords: reusable,util,utils,common,commons
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7.3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: colorlog (>=6.7.0)
+Requires-Dist: python-dotenv (>=0.20.0)
+Provides-Extra: all
+Requires-Dist: cmarkgfm (>=0.8.0) ; extra == 'all'
+Requires-Dist: django (>=4.0.4) ; extra == 'all'
+Requires-Dist: djangorestframework (>=3.13.1) ; extra == 'all'
+Requires-Dist: psycopg2 (>=2.9.3) ; extra == 'all'
+Requires-Dist: tabulate (>=0.8.10) ; extra == 'all'
+Requires-Dist: keyring (>=23.7.0) ; (sys_platform == "win32") and extra == 'all'
+Requires-Dist: pywin32 (>=304) ; (sys_platform == "win32") and extra == 'all'
+Provides-Extra: credentials
+Requires-Dist: tabulate (>=0.8.10) ; extra == 'credentials'
+Requires-Dist: keyring (>=23.7.0) ; (sys_platform == "win32") and extra == 'credentials'
+Requires-Dist: pywin32 (>=304) ; (sys_platform == "win32") and extra == 'credentials'
+Provides-Extra: django
+Requires-Dist: cmarkgfm (>=0.8.0) ; extra == 'django'
+Requires-Dist: django (>=4.0.4) ; extra == 'django'
+Requires-Dist: djangorestframework (>=3.13.1) ; extra == 'django'
+Provides-Extra: flexout
+Requires-Dist: tabulate (>=0.8.10) ; extra == 'flexout'
+Provides-Extra: postgresql
+Requires-Dist: psycopg2 (>=2.9.3) ; extra == 'postgresql'
+Provides-Extra: winhttp
+Requires-Dist: pywin32 (>=304) ; (sys_platform == "win32") and extra == 'winhttp'
+
+Zut
+===
+
+Reusable Python, Django and PostgreSql utilities.
+
+## Installation
+
+From PyPI, with optional dependencies:
+
+    pip install zut[credentials,django,flexout,postgresql,winhttp]
+
+From a Git branch or tag (using https or ssh):
+
+    pip install git+https://gitlab.com/ipamo/zut.git@main#egg=zut[credentials,django,flexout,postgresql,winhttp]
+    pip install git+ssh://git@gitlab.com/ipamo/zut.git@main#egg=zut[credentials,django,flexout,postgresql,winhttp]
+
+Note: use `zut[all]` to install all optional dependencies.
+
+
+## Usage examples
+
+As a command-line application:
+
+    zut --help
+
+As a Python library:
+
+```py
+from zut import configure_env
+BASE_DIR = configure_env()
+```
+
+
+## Quick start guide for development
+
+Create Python virtual environment (example for Windows):
+
+    python -m venv .venv      # Debian: python3 -m venv .venv
+    .\.venv\Scripts\activate  # Linux: source .venv/bin/activate
+    pip install .[all]
+
+Create test postgresql database (defined in `tests/__init__.py`). Example:
+
+    createdb test_zut --encoding UTF-8 --locale en_US.UTF8 --template "template0"
+
+Under Linux, initialize [`pass`](doc/pass.md).
+
+Run unit tests:
+
+    python -m unittest
+
+Run command-line application :
+
+    python -m zut --help
+
+
+## Publish library on PyPI
+
+Configure `~/.pypirc` (see [example](doc/pypirc-example.conf)).
+
+Install and configure Twine if necessary:
+
+    pip install twine
+    $env:HTTPS_PROXY=...
+    $env:TWINE_CERT=...ca-certificates.crt"
+
+Build and upload distribution:
+
+    python -m zut build --upload
