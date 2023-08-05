@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "team13hackertype"
+description = "An example of a package developed with pyenv, built with build using setuptools, uploaded to PyPI using twine, and distributed via pip."
+version = "1.0.4"
+authors = [
+  {name="Kedan Zha"},
+  {name="Evan Huang"},
+  {name="Bruce Wu"},
+  {name="Amaan Khwaja"}
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "hackertype"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'astroid==2.12.12',
+  'attrs==22.1.0',
+  'bleach==5.0.1',
+  'build==0.9.0',
+  'certifi==2022.9.24',
+  'charset-normalizer==2.1.1',
+  'colorama==0.4.6',
+  'commonmark==0.9.1',
+  'dill==0.3.6',
+  'distlib==0.3.6',
+  'docutils==0.19',
+  'exceptiongroup==1.0.0',
+  'filelock==3.8.0',
+  'flake8==5.0.4',
+  'idna==3.4',
+  'importlib-metadata==5.0.0',
+  'iniconfig==1.1.1',
+  'isort==5.10.1',
+  'jaraco.classes==3.2.3',
+  'keyboard==0.13.5',
+  'keyring==23.11.0',
+  'lazy-object-proxy==1.8.0',
+  'mccabe==0.7.0',
+  'more-itertools==9.0.0',
+  'packaging==21.3',
+  'pep517==0.13.0',
+  'pkginfo==1.8.3',
+  'platformdirs==2.5.2',
+  'pluggy==1.0.0',
+  'pycodestyle==2.9.1',
+  'pyfiglet==0.8.post1',
+  'pyflakes==2.5.0',
+  'Pygments==2.13.0',
+  'pylint==2.15.5',
+  'pyparsing==3.0.9',
+  'pytest==7.2.0',
+  'pywin32-ctypes==0.2.0',
+  'readme-renderer==37.3',
+  'requests==2.28.1',
+  'requests-toolbelt==0.10.1',
+  'rfc3986==2.0.0',
+  'rich==12.6.0',
+  'six==1.16.0',
+  'tomli==2.0.1',
+  'tomlkit==0.11.6',
+  'twine==4.0.1',
+  'typing_extensions==4.4.0',
+  'urllib3==1.26.12',
+  'virtualenv==20.16.6',
+  'webencodings==0.5.1',
+  'wrapt==1.14.1',
+  'zipp==3.10.0'
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-13"
+"Repository" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-13.git"
+"Bug Tracker" = "https://github.com/software-students-fall2022/python-package-exercise-project-3-team-13/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
