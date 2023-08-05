@@ -1,0 +1,1 @@
+from mytest_multiply.multiplication import Multiplication
