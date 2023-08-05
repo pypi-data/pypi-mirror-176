@@ -1,0 +1,11 @@
+exclude .gitignore
+exclude .gitmodules
+exclude CMakeLists.txt
+exclude setup.py.in
+prune .github
+
+graft exports
+
+graft SDK/utils
+graft SDK/dio
+graft SDK/poe
