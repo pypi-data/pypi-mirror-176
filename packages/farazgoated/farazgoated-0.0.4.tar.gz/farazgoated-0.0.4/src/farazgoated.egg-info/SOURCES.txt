@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/farazgoated.egg-info/PKG-INFO
+src/farazgoated.egg-info/SOURCES.txt
+src/farazgoated.egg-info/dependency_links.txt
+src/farazgoated.egg-info/requires.txt
+src/farazgoated.egg-info/top_level.txt
+src/lfarazgoated/__init__.py
+src/lfarazgoated/py.typed
+src/lfarazgoated/_jsii/__init__.py
+src/lfarazgoated/_jsii/farazgoated@0.0.4.jsii.tgz
