@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: IsoConverter
+Version: 0.0.1
+Summary: Convert ISO 88959-1 Latin to text
+Home-page: UNKNOWN
+Author: Matrix Tera
+Author-email: anpproba@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+UNKNOWN
+
