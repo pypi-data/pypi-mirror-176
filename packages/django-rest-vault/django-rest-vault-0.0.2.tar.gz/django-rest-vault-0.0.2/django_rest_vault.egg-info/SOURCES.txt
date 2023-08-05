@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_rest_vault.egg-info/PKG-INFO
+django_rest_vault.egg-info/SOURCES.txt
+django_rest_vault.egg-info/dependency_links.txt
+django_rest_vault.egg-info/not-zip-safe
+django_rest_vault.egg-info/requires.txt
+django_rest_vault.egg-info/top_level.txt
+rest_framework_vault/__init__.py
+rest_framework_vault/parsers.py
+rest_framework_vault/renderers.py
+rest_framework_vault/utils.py
