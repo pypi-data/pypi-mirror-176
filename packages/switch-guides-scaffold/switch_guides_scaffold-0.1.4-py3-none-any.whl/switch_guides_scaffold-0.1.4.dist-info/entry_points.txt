@@ -1,0 +1,4 @@
+[console_scripts]
+swag = switch_guides_scaffold.cli:cli
+switchguides = switch_guides_scaffold.cli:cli
+
