@@ -1,0 +1,3 @@
+[console_scripts]
+fsu=vfx_fs_util.__main__:main
+
