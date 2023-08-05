@@ -1,0 +1,2 @@
+[console_scripts]
+run_api = drew_imdb.__main__:main
