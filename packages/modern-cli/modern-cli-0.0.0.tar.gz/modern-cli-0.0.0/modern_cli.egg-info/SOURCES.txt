@@ -1,0 +1,6 @@
+README.md
+modern_cli.egg-info/PKG-INFO
+modern_cli.egg-info/SOURCES.txt
+modern_cli.egg-info/dependency_links.txt
+modern_cli.egg-info/top_level.txt
+modern_cli.egg-info/zip-safe
