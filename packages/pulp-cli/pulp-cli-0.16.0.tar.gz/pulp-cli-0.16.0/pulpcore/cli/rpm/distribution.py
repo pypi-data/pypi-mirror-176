@@ -1,0 +1,76 @@
+import click
+
+from pulpcore.cli.common.context import PulpContext, pass_pulp_context
+from pulpcore.cli.common.generic import (
+    common_distribution_create_options,
+    create_command,
+    destroy_command,
+    distribution_filter_options,
+    href_option,
+    label_command,
+    list_command,
+    name_option,
+    pulp_group,
+    pulp_labels_option,
+    resource_option,
+    show_command,
+    update_command,
+)
+from pulpcore.cli.common.i18n import get_translation
+from pulpcore.cli.rpm.context import PulpRpmDistributionContext, PulpRpmRepositoryContext
+
+translation = get_translation(__name__)
+_ = translation.gettext
+
+repository_option = resource_option(
+    "--repository",
+    default_plugin="rpm",
+    default_type="rpm",
+    context_table={"rpm:rpm": PulpRpmRepositoryContext},
+    help=_(
+        "Repository to be used for auto-distributing."
+        " When set, this will unset the 'publication'."
+        " Specified as '[[<plugin>:]<type>:]<name>' or as href."
+    ),
+)
+
+
+@pulp_group()
+@click.option(
+    "-t",
+    "--type",
+    "distribution_type",
+    type=click.Choice(["rpm"], case_sensitive=False),
+    default="rpm",
+)
+@pass_pulp_context
+@click.pass_context
+def distribution(ctx: click.Context, pulp_ctx: PulpContext, distribution_type: str) -> None:
+    if distribution_type == "rpm":
+        ctx.obj = PulpRpmDistributionContext(pulp_ctx)
+    else:
+        raise NotImplementedError()
+
+
+lookup_options = [href_option, name_option]
+update_options = [
+    click.option(
+        "--publication",
+        help=_(
+            "Publication to be served. This will unset the 'repository' and disable "
+            "auto-distribute."
+        ),
+    ),
+    repository_option,
+    pulp_labels_option,
+]
+create_options = common_distribution_create_options + update_options
+
+distribution.add_command(list_command(decorators=distribution_filter_options))
+distribution.add_command(show_command(decorators=lookup_options))
+distribution.add_command(create_command(decorators=create_options))
+distribution.add_command(
+    update_command(decorators=lookup_options + update_options + [click.option("--base-path")])
+)
+distribution.add_command(destroy_command(decorators=lookup_options))
+distribution.add_command(label_command())
