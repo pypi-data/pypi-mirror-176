@@ -1,0 +1,12 @@
+mykefiles/__init__.py,sha256=bsmu3FaVor5_BVNGcFLnOxGqVrh07VKf_AhWvtUlq90,65
+mykefiles/__version__.py,sha256=qEdg2MhZc4iFQOS_8-O-er6N8n5kRoiTg9Mrx_ssBJ8,24
+mykefiles/hello_world.py,sha256=DkeLUlrb7rGx3nZ04aADU9HXXu5mZTf_DBwT0xhzIv4,7
+mykefiles/hostbutter.py,sha256=6pnsIkQICGWet5MOG3ZdPd6qzFH4A4K-HXoT32mT_OM,1797
+mykefiles/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mykefiles/py_pkg.py,sha256=OGnET0eG8BgjLvvCHwdjPX2umN5KDXfn6dhHmfYNwx4,11022
+mykefiles-0.0.1a1.dist-info/LICENSE,sha256=36KfFhIJf9DyQN0GdMYI41FH2qKIhqgbCMVxPjD1vco,1080
+mykefiles-0.0.1a1.dist-info/METADATA,sha256=IukLoPqVwet6mQWCtcBviZaMLiIkjpwCMWEJXjKK0ws,1990
+mykefiles-0.0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mykefiles-0.0.1a1.dist-info/entry_points.txt,sha256=Fi8e9LY7lgxe_PbH9Z57s0qFRRXA5KrpbzOtb8RZgJ0,54
+mykefiles-0.0.1a1.dist-info/top_level.txt,sha256=7izVy6GTW9yUGf11WN2x8qXvgyct_zDyBLRq0_0C9RE,10
+mykefiles-0.0.1a1.dist-info/RECORD,,
