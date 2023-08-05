@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-scinote
+Version: 0.2.3
+Summary: 
+Author: yamshy
+Author-email: shyam.ajudia@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: authlib (>=1.1.0,<2.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+
