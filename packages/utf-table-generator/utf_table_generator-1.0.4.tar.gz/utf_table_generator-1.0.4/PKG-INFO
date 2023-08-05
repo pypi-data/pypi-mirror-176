@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: utf_table_generator
+Version: 1.0.4
+Summary: Simple package that generates UTF-8 tables
+Project-URL: Homepage, https://github.com/thecattest/utf-table-generator
+Project-URL: Bug Tracker, https://github.com/thecattest/utf-table-generator/issues
+Author-email: thecattest <vodopyanov999@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# utf-table-generator
+Модуль генерирует код для печати вот так таких таблиц:  
+```
+╔════════╦═════════════╦═══════╦═════════╦════╗
+║ number ║       float ║     t ║ boolean ║  a ║
+╠════════╬═════════════╬═══════╬═════════╬════╣
+║    123 ║   12345.456 ║  test ║    True ║  1 ║
+╚════════╩═════════════╩═══════╩═════════╩════╝
+```
+Вот так использовать:  
+```python
+from utf_table_generator.table import Table
+
+titles = ('number', 'float', 't', 'boolean', 'a')
+variables = (123, 12345.4564876435, 'test', True, 1)
+t = Table(titles, variables, precision=3)  # precision -- количество знаков после запятой, по умолчанию 5
+print(t.get_code())
+```  
+Пример сгенерированного кода:  
+```python
+print("╔" + "═" * 8 + "╦" + "═" * 13 + "╦" + "═" * 7 + "╦" + "═" * 9 + "╦" + "═" * 4 + "╗")
+print("║%7s ║%12s ║%6s ║%8s ║%3s ║" % ("number", "float", "t", "boolean", "a"))
+print("╠" + "═" * 8 + "╬" + "═" * 13 + "╬" + "═" * 7 + "╬" + "═" * 9 + "╬" + "═" * 4 + "╣")
+print("║%7d ║%12.3f ║%6s ║%8s ║%3d ║" % ())
+print("╚" + "═" * 8 + "╩" + "═" * 13 + "╩" + "═" * 7 + "╩" + "═" * 9 + "╩" + "═" * 4 + "╝")
+```
+Принимаемые значения: `int`, `float`, `boolean` и все объекты с методом `__str__`
