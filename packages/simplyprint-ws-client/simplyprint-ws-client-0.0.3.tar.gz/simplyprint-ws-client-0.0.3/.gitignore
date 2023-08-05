@@ -1,0 +1,5 @@
+simplyprint_ws_client/__pycache__/
+virtual_local/
+dist/
+*.egg-info
+config.json
