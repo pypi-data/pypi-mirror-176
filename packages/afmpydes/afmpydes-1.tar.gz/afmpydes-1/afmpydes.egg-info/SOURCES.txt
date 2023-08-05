@@ -1,0 +1,9 @@
+setup.py
+afmpydes/__init__.py
+afmpydes/func01.py
+afmpydes/func02.py
+afmpydes.egg-info/PKG-INFO
+afmpydes.egg-info/SOURCES.txt
+afmpydes.egg-info/dependency_links.txt
+afmpydes.egg-info/requires.txt
+afmpydes.egg-info/top_level.txt
