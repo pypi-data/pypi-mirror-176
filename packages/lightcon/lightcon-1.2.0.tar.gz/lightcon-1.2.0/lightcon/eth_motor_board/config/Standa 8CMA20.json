@@ -1,0 +1,20 @@
+{
+    "Acc": 137,
+    "AlarmEn": 255,
+    "Dec": 137,
+    "FnSlpAcc": 11,
+    "FnSlpDec": 11,
+    "FsSpeed": 1023,
+    "IntSpeed": 16383,
+    "KvalAcc": 40,
+    "KvalDec": 40,
+    "KvalHold": 20,
+    "KvalRun": 40,
+    "MaxSpeed": 65,
+    "MinSpeed": 4305,
+    "MotorName": "Standa 8CMA20",
+    "OcdTh": 8,
+    "StSlp": 3,
+    "StallTh": 64,
+    "StepMode": 5
+}
