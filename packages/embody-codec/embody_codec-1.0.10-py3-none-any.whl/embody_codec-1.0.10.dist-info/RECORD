@@ -1,0 +1,11 @@
+embodycodec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embodycodec/attributes.py,sha256=NyJCB7aG13CasOpzHNCxZDFajzc2zb1QpzqJxCratFY,12794
+embodycodec/codec.py,sha256=SIh77oxhWDD79DTEVwHJirDuEU5nxQTFreuVLc8lb9Q,22291
+embodycodec/crc.py,sha256=7-xN99MH48FI3UqUE37IWqmP_B8Cgj96ssHs4IjQbXc,518
+embodycodec/file_codec.py,sha256=Jh3uRcwF5omNhtoDi6F1BiokS8_6VFGDX1Cpg7cOe5k,10302
+embodycodec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embodycodec/types.py,sha256=ts_x6mzim1O3Ukm31othSedwCUIt6VzEXmDHc9ixQLI,7577
+embody_codec-1.0.10.dist-info/LICENSE,sha256=edP5fiJWB3saTWN4Z8_v5iAGzXAtA7L6h2FLJtiH6II,1061
+embody_codec-1.0.10.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+embody_codec-1.0.10.dist-info/METADATA,sha256=0kA9wD7G9jRqRTC3mw6W-AjaMO13nOveLb60fBlbaw4,3072
+embody_codec-1.0.10.dist-info/RECORD,,
