@@ -1,0 +1,16 @@
+README.md
+setup.py
+autodocx/__init__.py
+autodocx.egg-info/PKG-INFO
+autodocx.egg-info/SOURCES.txt
+autodocx.egg-info/dependency_links.txt
+autodocx.egg-info/entry_points.txt
+autodocx.egg-info/requires.txt
+autodocx.egg-info/top_level.txt
+autodocx/errors/__base.py
+autodocx/errors/__init__.py
+autodocx/functions/__init__.py
+autodocx/functions/__tokens.py
+autodocx/scripts/__base.py
+autodocx/scripts/__generate.py
+autodocx/scripts/__init__.py
