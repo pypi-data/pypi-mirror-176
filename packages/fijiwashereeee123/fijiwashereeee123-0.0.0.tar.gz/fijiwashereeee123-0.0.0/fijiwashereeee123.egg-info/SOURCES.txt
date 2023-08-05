@@ -1,0 +1,6 @@
+setup.py
+fijiwashereeee123/__init__.py
+fijiwashereeee123.egg-info/PKG-INFO
+fijiwashereeee123.egg-info/SOURCES.txt
+fijiwashereeee123.egg-info/dependency_links.txt
+fijiwashereeee123.egg-info/top_level.txt
