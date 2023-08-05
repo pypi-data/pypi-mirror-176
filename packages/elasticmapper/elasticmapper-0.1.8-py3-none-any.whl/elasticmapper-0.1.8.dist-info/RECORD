@@ -1,0 +1,12 @@
+elasticmapper/__init__.py,sha256=oXFgsjvD42CEmVU8jTjW2vu04reBtkDs_9oGCe6czwE,157
+elasticmapper/mapper.py,sha256=jB_eVYPLDKAJW956rRxj1ooupts4ApoaCuDdodZitWk,6178
+elasticmapper/supported_orms.py,sha256=_bIxKTWqvhC_WjaBf5HXofqAK7gG-pV_qBHYjZ0Oxk4,131
+elasticmapper/orm_mappings/__init__.py,sha256=uM4v0ZhGLOJfFEYlAjW-BI6kv1dSCGUIRtJNbHlmOkg,327
+elasticmapper/orm_mappings/django_mapping.py,sha256=O-qucryRsqOLwuzjdkCgF4xIHwJ0-n5AC4lkYf0g7xw,743
+elasticmapper/orm_mappings/peewee_mapping.py,sha256=-7kdq0agOPv4ZTVqyuL5373X2pP68MSAHcWtV3VF5nY,356
+elasticmapper/orm_mappings/sqlalchemy_mapping.py,sha256=xn_stq52GVhsm_gu70T-wewvpiS1xlcXC3dKE8KZ2_8,328
+elasticmapper-0.1.8.dist-info/LICENSE,sha256=PNaMCAZxZjQXnm01MwHkmyaT_UvhF4gIvbWh3WMu0Q0,1065
+elasticmapper-0.1.8.dist-info/METADATA,sha256=Sv68IZr4VVLTmgnDOvTow2YFYDdmpmx_J4msvJwhj_0,4583
+elasticmapper-0.1.8.dist-info/WHEEL,sha256=tIy8_2ZxPExwRKcXlg4jzESby3jB9aLsFLrFCKKh88M,92
+elasticmapper-0.1.8.dist-info/top_level.txt,sha256=UeVs5mZhQCHQzxGWn1uIImjFJfKbA9TuJXqnyov27BA,14
+elasticmapper-0.1.8.dist-info/RECORD,,
