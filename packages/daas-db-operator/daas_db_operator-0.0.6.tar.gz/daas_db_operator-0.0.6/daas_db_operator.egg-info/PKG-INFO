@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: daas-db-operator
+Version: 0.0.6
+Summary: daas db operator
+Home-page: https://github.com/pypa/sampleproject
+Author: York Lei
+Author-email: leity@smartsteps.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+该包用于查询daasbi数据库，需要通过管理员索要用户名和密码，在本地程序建模中引入使用

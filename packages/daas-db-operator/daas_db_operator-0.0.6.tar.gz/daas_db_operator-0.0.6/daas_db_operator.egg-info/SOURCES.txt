@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+daas_db_operator/__init__.py
+daas_db_operator/dboperate.py
+daas_db_operator.egg-info/PKG-INFO
+daas_db_operator.egg-info/SOURCES.txt
+daas_db_operator.egg-info/dependency_links.txt
+daas_db_operator.egg-info/requires.txt
+daas_db_operator.egg-info/top_level.txt
