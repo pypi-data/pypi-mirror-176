@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+WZCMCCAPPLOGGER/GetNetWorkInfo.py
+WZCMCCAPPLOGGER/LogUploader.py
+WZCMCCAPPLOGGER/__init__.py
+WZCMCCAPPLOGGER.egg-info/PKG-INFO
+WZCMCCAPPLOGGER.egg-info/SOURCES.txt
+WZCMCCAPPLOGGER.egg-info/dependency_links.txt
+WZCMCCAPPLOGGER.egg-info/top_level.txt
