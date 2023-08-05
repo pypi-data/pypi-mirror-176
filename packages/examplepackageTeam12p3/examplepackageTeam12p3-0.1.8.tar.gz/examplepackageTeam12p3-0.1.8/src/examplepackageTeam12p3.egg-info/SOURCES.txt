@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/example_game.py
+src/examplepackageTeam12p3/__init__.py
+src/examplepackageTeam12p3/__main__.py
+src/examplepackageTeam12p3/guess_game.py
+src/examplepackageTeam12p3.egg-info/PKG-INFO
+src/examplepackageTeam12p3.egg-info/SOURCES.txt
+src/examplepackageTeam12p3.egg-info/dependency_links.txt
+src/examplepackageTeam12p3.egg-info/entry_points.txt
+src/examplepackageTeam12p3.egg-info/requires.txt
+src/examplepackageTeam12p3.egg-info/top_level.txt
