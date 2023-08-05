@@ -1,0 +1,2 @@
+[console_scripts]
+ulises = ulises.__main__:main

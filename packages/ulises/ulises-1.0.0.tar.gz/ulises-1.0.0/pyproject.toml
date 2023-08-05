@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ulises"
+version = "1.0.0"
+description = "Makes managing Docker resources a nice experience"
+readme = "README.md"
+authors = [{ name = "Carlos del Ojo", email = "carlos@delojo.me" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+	"Environment :: Console",
+	"Intended Audience :: System Administrators",
+	"Intended Audience :: Developers",
+	"Topic :: System :: Systems Administration",
+]
+keywords = ["docker", "UI", "CLI"]
+dependencies = [
+    "docker==5.0.3",
+    "rich==12.3.",
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/coelias/ulises"
+
+[project.scripts]
+ulises = "ulises.__main__:main"
+
