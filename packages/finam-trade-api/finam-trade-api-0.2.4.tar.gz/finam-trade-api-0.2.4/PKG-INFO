@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: finam-trade-api
+Version: 0.2.4
+Summary: UNKNOWN
+Home-page: https://github.com/DBoyara/FinamTradeApiPy
+Maintainer: DBoyara
+Maintainer-email: boyarshin.den@yandex.ru
+License: GNU GPL v.3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.7.0, <4
