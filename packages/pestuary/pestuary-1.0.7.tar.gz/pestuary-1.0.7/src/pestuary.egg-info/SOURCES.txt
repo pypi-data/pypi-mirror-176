@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/pestuary.py
+src/pestuary_cli.py
+src/pestuary.egg-info/PKG-INFO
+src/pestuary.egg-info/SOURCES.txt
+src/pestuary.egg-info/dependency_links.txt
+src/pestuary.egg-info/entry_points.txt
+src/pestuary.egg-info/requires.txt
+src/pestuary.egg-info/top_level.txt
