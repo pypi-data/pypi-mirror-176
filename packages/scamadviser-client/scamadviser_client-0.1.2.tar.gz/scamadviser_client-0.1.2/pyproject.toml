@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "scamadviser_client"
+version = "0.1.2"
+description = "A python SDK for ScamAdviser API"
+authors = ["Carol H <sheseee@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gogolook-Inc/scamadviser_client"
+repository = "https://github.com/gogolook-Inc/scamadviser_client"
+keywords = ["scamadviser, sdk, api"]
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+pydantic = "^1.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+isort = "^5.10.1"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
