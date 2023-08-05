@@ -1,0 +1,14 @@
+README.md
+setup.py
+Imagem_processing_chemdexx/__init__.py
+Imagem_processing_chemdexx.egg-info/PKG-INFO
+Imagem_processing_chemdexx.egg-info/SOURCES.txt
+Imagem_processing_chemdexx.egg-info/dependency_links.txt
+Imagem_processing_chemdexx.egg-info/requires.txt
+Imagem_processing_chemdexx.egg-info/top_level.txt
+Imagem_processing_chemdexx/processing/__init__.py
+Imagem_processing_chemdexx/processing/combination.py
+Imagem_processing_chemdexx/processing/transformation.py
+Imagem_processing_chemdexx/utils/__init__.py
+Imagem_processing_chemdexx/utils/io.py
+Imagem_processing_chemdexx/utils/plot.py
