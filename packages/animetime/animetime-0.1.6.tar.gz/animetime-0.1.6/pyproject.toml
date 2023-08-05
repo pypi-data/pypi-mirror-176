@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+  "/dist",
+  "/.git",
+  ".gitignore"
+  ]
+
+[project]
+name = "animetime"
+version = "0.1.6"
+authors = [
+ {name="cassphir", email=""}
+]
+description = "Un module pour gérer ses animés facilement"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["animedata","tomli"]
+
+[project.urls]
+"Github" = "https://github.com/cassphir/animetime"
+"Bug" = "https://github.com/cassphir/animetime/issues"
