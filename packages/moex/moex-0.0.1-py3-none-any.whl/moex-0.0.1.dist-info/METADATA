@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: moex
+Version: 0.0.1
+Summary: MoscowExchange ISS Queries implementation
+Home-page: https://bit.ly/moex-bb
+Author: Michael R. Kisel
+Author-email: deploy-me@yandex.ru
+Maintainer: Michael R. Kisel <deploy-me@yandex.ru>
+Maintainer-email: deploy-me@yandex.ru
+License: MIT
+Download-URL: https://bit.ly/moex-dwnld
+Keywords: moex,moex iss,aiomoex,async moex,moscow,exchange,MoscowExchange,finance,stocks
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Point-Of-Sale
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (<=3.8.3)
+Requires-Dist: beautifulsoup4 (<=4.11.1)
+Requires-Dist: Jinja2 (<=3.1.2)
+Requires-Dist: pandas (<=1.5.0)
+Requires-Dist: rich (<=12.6.0)
+Requires-Dist: lxml (<=4.9.1)
+
+<p align="center">
+    <a href="https://bit.ly/moexx"><img src="https://bit.ly/moex_logo" alt="MOEX"></a>
+</p>
+<p align="center">
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/v/moex.svg?style=flat-square&logo=appveyor" alt="Version"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/l/moex.svg?style=flat-square&logo=appveyor&color=blueviolet" alt="License"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/pyversions/moex.svg?style=flat-square&logo=appveyor" alt="Python"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/status/moex.svg?style=flat-square&logo=appveyor" alt="Status"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/format/moex.svg?style=flat-square&logo=appveyor&color=yellow" alt="Format"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/pypi/wheel/moex.svg?style=flat-square&logo=appveyor&color=red" alt="Wheel"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://img.shields.io/bitbucket/pipelines/deploy-me/moex/master?style=flat-square&logo=appveyor" alt="Build"></a>
+    <a href="https://pypi.org/project/moex"><img src="https://bit.ly/moex_cov" alt="Coverage"></a>
+    <a href="https://pepy.tech/project/moex"><img src="https://static.pepy.tech/personalized-badge/moex?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads" alt="Downloads"></a>
+    <br><br><br>
+</p>
+
+# MOEX
+
+A little bit complex and more powerful implementation for [ISS Queries](https://bit.ly/iss_ref). See more in [documentation](https://deploy-me.bitbucket.io/moex/index.html)
+
+## INSTALL
+
+```bash
+pip install moex
+```
+
+## USAGE
+
+```python
+import asyncio
+import aiohttp
+from moex import AIOMoex
+
+
+async def main(aio_moex, engine="stock", market="shares", board="TQBR"):
+    async with aiohttp.ClientSession() as session:
+        await aio_moex.load(session=session, output_format=".json")
+
+        # aio_moex.show_templates()
+
+        for tmpl in aio_moex.find_template("/candles"):
+            print(f"Template: {tmpl.id}. Path: {tmpl.path}")
+            await aio_moex.show_template_doc(session, tmpl.id)
+
+        df_sngsp = (
+            await aio_moex.execute(
+                session=session,
+                url=aio_moex.render_url(
+                    46,
+                    engine=engine,
+                    market=market,
+                    security="SNGSP",
+                    board=board
+                    ),
+                **{
+                    "from": "2022-02-24",
+                    "till": "2022-10-24",
+                    "interval": "60"
+                    }
+                )
+            ).to_df()
+        df_yndx = (
+            await aio_moex.execute(
+                session=session,
+                url=aio_moex.render_url(
+                    155,
+                    engine=engine,
+                    market=market,
+                    security="YNDX"
+                    ),
+                till="2022-01-01"
+                )
+            ).to_df()
+
+        for df in (df_sngsp, df_yndx):
+            print(df)     
+
+
+aio_moex = AIOMoex()
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main(aio_moex))
+```
+
+
