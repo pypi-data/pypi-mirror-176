@@ -1,0 +1,8 @@
+ssfm_gpu/__init__.py,sha256=7NhjeWmeuUm0gDzAAJkJwMI2OJLXQlwpTT-99CCky3Y,52
+ssfm_gpu/examples.py,sha256=yvGWkpC1WPwqPfkSGFy-axkG3d_AXh-XCWToQmfTyxQ,4671
+ssfm_gpu/ssfm_gpu.py,sha256=jDH20sk67Yhx6yCxDg7TBqt-CPpTTwyy2B6_Sivr4yI,13032
+ssfm_gpu-0.0.4.dist-info/LICENSE,sha256=V13RPRViTcq2OwuR4itsk0WmesHf2y5dX8FhgvmyGAo,1067
+ssfm_gpu-0.0.4.dist-info/METADATA,sha256=iYGXfDhoO0S0Ad6aj1dHYSVnQLElR97AxMqMV6fPsZw,1882
+ssfm_gpu-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ssfm_gpu-0.0.4.dist-info/top_level.txt,sha256=CuXkDcariKgz2mWR3j07piLgPC6AOURmKw4Etkv7wG0,9
+ssfm_gpu-0.0.4.dist-info/RECORD,,
