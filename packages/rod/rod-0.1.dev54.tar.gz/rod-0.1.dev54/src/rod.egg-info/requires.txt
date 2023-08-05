@@ -1,0 +1,7 @@
+coloredlogs
+mashumaro
+numpy
+packaging
+pptree
+scipy
+xmltodict
