@@ -1,0 +1,12 @@
+README.md,sha256=Ayt5sskz51Dkglq9RL-IsqpIyl8VWsr9fFdf6OLgdL0,744
+letsdebughelper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+letsdebughelper/helpers.py,sha256=dMHmMSaDzDKSmd_E9o0dtv3ptR8ouEXkfuK_9eMbZuQ,2949
+letsdebughelper/letsdebug.py,sha256=oSX1d-cM7W3_ljSMbbeVXrPIn8zpzO3vAVVtmKy1HWc,3419
+letsdebughelper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+letsdebughelper/tests/test_helpers.py,sha256=kVAGbQAwf5cR2F_TUZeVezNkJozWMiYsOtPbDD2wIPc,2250
+letsdebughelper/tests/test_letsdebug.py,sha256=Uil9F91zQb34Jo2wyuqLysng7FuyCt8SlUpt36TU3Hg,6048
+lets_debug_helper-1.0.8.dist-info/entry_points.txt,sha256=CM9HBf5ru7A88wpi9xsHWjqxyY3ewRHXX9Q48QYfOx8,61
+lets_debug_helper-1.0.8.dist-info/LICENSE,sha256=IXGLGwdLh2MM4RC2-ybU1LEiRMOm_h_YOMz5H0tmmOc,1070
+lets_debug_helper-1.0.8.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+lets_debug_helper-1.0.8.dist-info/METADATA,sha256=MbwwVVFVB9qRwETNQx4Aw3AaKjRFhe_omSU3WnbvmUo,585
+lets_debug_helper-1.0.8.dist-info/RECORD,,
