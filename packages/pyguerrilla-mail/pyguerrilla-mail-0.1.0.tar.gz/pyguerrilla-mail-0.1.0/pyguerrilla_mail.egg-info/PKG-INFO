@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyguerrilla-mail
+Version: 0.1.0
+Summary: A python guerrillamail client
+Author: Rafael Timmerberg
+Author-email: raffn1@gmail.com
+License: MIT
+Keywords: guerrilla mail
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+Python client which implements the guerrillamail API found at https://www.guerrillamail.com/GuerrillaMailAPI.html.The guerrillamailer is itself open source and can be found at https://github.com/flashmob/go-guerrilla

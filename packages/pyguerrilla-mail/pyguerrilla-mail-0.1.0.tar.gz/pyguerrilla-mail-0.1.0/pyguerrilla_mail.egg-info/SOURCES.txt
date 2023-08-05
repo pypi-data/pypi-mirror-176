@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+pyguerrilla-mail/__init__.py
+pyguerrilla-mail/guerrillamail.py
+pyguerrilla_mail.egg-info/PKG-INFO
+pyguerrilla_mail.egg-info/SOURCES.txt
+pyguerrilla_mail.egg-info/dependency_links.txt
+pyguerrilla_mail.egg-info/top_level.txt
