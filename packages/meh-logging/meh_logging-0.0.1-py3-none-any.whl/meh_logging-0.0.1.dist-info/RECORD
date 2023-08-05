@@ -1,0 +1,15 @@
+meh_logging/__init__.py,sha256=74MYl2SlEf0KppdI9X9bQ7Rg7FRK_Gv8l0uC2oDbGHc,108
+meh_logging/logger.py,sha256=NUVj7-UMq28Bw4wQi7JHKHwSU971eVQZ8BgS4JGK-k8,2451
+meh_logging/enums/levels.py,sha256=ZH0G5E6Yftu9AVtFYBfJwERA7eTZuhQx3iUD7fwkbfA,283
+meh_logging/formatters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meh_logging/formatters/json.py,sha256=wnC1nwMDukuVU9_Cjv-uBh3-wHUpdaIWm_PqP1VwwsI,526
+meh_logging/transports/__init__.py,sha256=1G1ZdoL__yjEY-tDm5ISiwK7_fkPgDr95YrG-YiNnTo,67
+meh_logging/transports/stream.py,sha256=jnB5qhDIsQWKvkxzNqL62yYwRFs7Oc4if3MBQii9iRI,425
+meh_logging/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meh_logging/utils/package.py,sha256=j7Rbr3QOU2QWkGBk1GV0qVlljiPQ8vg_PDzIjFBvt1c,931
+meh_logging/utils/read_package.py,sha256=kyAJuc5DoEUUxUZYaD-K3BErOVm6whQ6wYrAdT-2Rhk,335
+meh_logging-0.0.1.dist-info/LICENSE,sha256=EUwWDCbzqWop51yYt7llHQfB1xpCR2J17b4_nenprJk,1069
+meh_logging-0.0.1.dist-info/METADATA,sha256=Jj_ut2r6NXF21VYlRj65zpMdV75UMjoBQTwOXZ2MJLk,1160
+meh_logging-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+meh_logging-0.0.1.dist-info/top_level.txt,sha256=i9PBk2-V_pAA6I-GJvXlSKHoCPoMr3kSgGWVj6GpKTg,12
+meh_logging-0.0.1.dist-info/RECORD,,
