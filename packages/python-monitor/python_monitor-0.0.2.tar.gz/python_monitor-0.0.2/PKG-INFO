@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: python_monitor
+Version: 0.0.2
+Summary: monitor your python process
+Home-page: https://github.com/Dignn/python_monitor
+Author: zhangxiao
+Author-email: likezx@163.com
+License: MIT Licence
+Description: monitor your python process
+Keywords: pip,python_monitor
+Platform: any
