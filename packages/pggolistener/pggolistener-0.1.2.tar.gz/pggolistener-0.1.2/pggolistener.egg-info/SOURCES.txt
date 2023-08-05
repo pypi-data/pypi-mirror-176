@@ -1,0 +1,8 @@
+setup.py
+./pggolistener/__init__.py
+./pggolistener/sub.dll
+./pggolistener/sub.so
+pggolistener.egg-info/PKG-INFO
+pggolistener.egg-info/SOURCES.txt
+pggolistener.egg-info/dependency_links.txt
+pggolistener.egg-info/top_level.txt
