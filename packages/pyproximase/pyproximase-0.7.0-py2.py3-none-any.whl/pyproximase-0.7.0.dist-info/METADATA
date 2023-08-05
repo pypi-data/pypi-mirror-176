@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyproximase
+Version: 0.7.0
+Summary: Python Sdk for Proxima Se
+Home-page: https://code.aone.alibaba-inc.com/vectors-retrieval/proxima-se
+License: inner
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: grpcio (>=1.22.0)
+Requires-Dist: grpcio-tools (>=1.22.0)
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: orjson (>=3.4.0)
+
+UNKNOWN
+
+
