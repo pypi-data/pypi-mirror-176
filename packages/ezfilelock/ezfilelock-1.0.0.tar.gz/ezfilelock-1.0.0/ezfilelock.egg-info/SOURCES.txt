@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ezfilelock/__init__.py
+ezfilelock/filelock.py
+ezfilelock/rwlock.py
+ezfilelock/version.py
+ezfilelock.egg-info/PKG-INFO
+ezfilelock.egg-info/SOURCES.txt
+ezfilelock.egg-info/dependency_links.txt
+ezfilelock.egg-info/top_level.txt
