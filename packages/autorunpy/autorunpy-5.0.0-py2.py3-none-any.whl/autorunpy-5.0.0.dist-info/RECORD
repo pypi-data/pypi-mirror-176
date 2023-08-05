@@ -1,0 +1,12 @@
+autorunpy/__init__.py,sha256=ikCUs5Gp1oZG-VwpD3Lcvy-pqeXI8Xkmy4IH4rqsvYs,13
+autorunpy/auto.py,sha256=1miiCdY9PMw0SHROxOevAlF8NGeSn0r_x2aizyRR994,1287
+autorunpy/dl_and_ret_dirpath.py,sha256=u-BE1cKCPHAlhbIbsTRe3BtmEQRlqsvap8U8mJW2GAM,151
+autorunpy/github_release.py,sha256=60Uy6gWFBEH03ywgvWVeKxjh3wCg8yQ2MMSWyG__ulA,1365
+autorunpy/make_venv.py,sha256=lRzk_gZOKX12qJ_ug1VvV8raaIjjUWrv7r3q1AS2h10,133
+autorunpy/ret_module_2_run_name.py,sha256=swbgVk60P0by_ELqv0WF4dfN2ULYdPc3b7Bc2M5_CPU,157
+autorunpy/rm_venv.py,sha256=cOudWq-rystIrFiiSbugePP_nDOfUxZ03TfcHqFKakA,129
+autorunpy/util.py,sha256=JscZJZF21Z2CrxcwW-u4WsfqDZXKesjuka9w7E-AxjM,783
+autorunpy-5.0.0.dist-info/METADATA,sha256=n7d1m6RK1ieYcTSbTaKky0In2lCRoYsYnEb53cLWd3M,1557
+autorunpy-5.0.0.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+autorunpy-5.0.0.dist-info/licenses/LICENSE,sha256=uPRgxU7YXOcDR4gQRcEzK05-SyOV1_AEyhHBAPFct9c,1062
+autorunpy-5.0.0.dist-info/RECORD,,
