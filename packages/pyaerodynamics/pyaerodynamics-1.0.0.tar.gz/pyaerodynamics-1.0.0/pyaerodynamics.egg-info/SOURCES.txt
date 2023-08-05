@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pyaerodynamics/_init_.py
+pyaerodynamics.egg-info/PKG-INFO
+pyaerodynamics.egg-info/SOURCES.txt
+pyaerodynamics.egg-info/dependency_links.txt
+pyaerodynamics.egg-info/not-zip-safe
+pyaerodynamics.egg-info/top_level.txt
