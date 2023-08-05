@@ -1,0 +1,11 @@
+# Document for testing
+*test*
+testing/*
+
+# Python cache
+__pycache__
+
+# Build Files
+build
+dist
+pydast.egg-info
