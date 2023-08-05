@@ -1,0 +1,9 @@
+drip/__init__.py,sha256=eNPgMwiFuHqjFDNDqPzh0CebLs_wFcSMMo8w_HbIDLQ,363
+drip/dropper.py,sha256=aEccRtHPG8SveGezjM2uVC56yLffaSAoosD4m_aZnMc,756
+drip/feeder.py,sha256=6cXaXi7dbCtbWiWtDrBNBrK_cyMiXRSItAiMhRRQZao,4199
+drip/file_dropper.py,sha256=unVf4IXEkOG1Z9VbPup7w87gB-WBD3HVNStqdSDFFGU,2210
+drip_drip-0.0.5.dev1.dist-info/METADATA,sha256=z2eIKle2UkH6xdXQIuE4iZtin3p_MtQPdvAaKwHpW0o,1031
+drip_drip-0.0.5.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drip_drip-0.0.5.dev1.dist-info/entry_points.txt,sha256=vTFHdmcU6e8oSePuTcwU3nc0ECTEAO8QsMPsDvPXHuc,45
+drip_drip-0.0.5.dev1.dist-info/top_level.txt,sha256=Owwl1rivZtoRWzABiulPvj8ErAVvpg0RUBMRKLr4xZE,5
+drip_drip-0.0.5.dev1.dist-info/RECORD,,
