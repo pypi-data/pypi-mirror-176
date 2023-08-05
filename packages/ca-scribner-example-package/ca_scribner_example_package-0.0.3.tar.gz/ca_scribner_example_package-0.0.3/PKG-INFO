@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ca_scribner_example_package
+Version: 0.0.3
+Summary: A dummy package
+Home-page: UNKNOWN
+Author: Andrew Scribner
+Author-email: ca-scribner@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+Package used when I need to bump a version on a dependency to test something
+
