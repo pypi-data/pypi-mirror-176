@@ -1,0 +1,16 @@
+manim_voiceover/__init__.py,sha256=7MpqBPDbLGtiRJ1fsWm-VriOj-GrSKEg6OGsAdn25aM,203
+manim_voiceover/helper.py,sha256=gK6SVn2AJJ0Atl2xIqhwTmMVLPn_cy0poklRsrjV1-U,148
+manim_voiceover/modify_audio.py,sha256=X6Lxr9z63d-EMfo_CwrDOTiv7_jQ1WXyiFeTBGvrjWY,680
+manim_voiceover/services/__init__.py,sha256=awsLVrmJE8FkvdLCLc07YZVcUmAls6fz7zCIJZKGjcA,342
+manim_voiceover/services/azure.py,sha256=HycKR8huvGXrX3l5uEuxeqaAqimrRPUxd41S0rqqPqc,7315
+manim_voiceover/services/base.py,sha256=FGmScCEidVAqcKDsTfj6zl-9bUNhI3aWUbYh8OU-GRI,2671
+manim_voiceover/services/gtts.py,sha256=sPltZ927QzwzVRP3e5XnDz_c2W7dsXrM8r-kGJojDp8,1760
+manim_voiceover/services/pyttsx3.py,sha256=ub2bC9yMD_eat8Jz1mdlFW5pvaTwAgvU3KN5vaeifFo,1638
+manim_voiceover/services/stitcher.py,sha256=oSb7Dxo9fltYUPLQwW8UMKSHtFZa-ykbHAmoX6HbK6Y,5938
+manim_voiceover/tracker.py,sha256=Af9HY3wR88KZQPn0U6ajfCXl7iF4oboSFud7bO57Q64,3636
+manim_voiceover/voiceover_scene.py,sha256=rQJeOr_g7_03UMRnL03iWPbBUzTSAMyL6czHxzlvWGU,6944
+manim_voiceover-0.1.2.dist-info/entry_points.txt,sha256=Xbl9R2JgDNjw_pL3rQzerRdUL7F2uw05QKmEDmHdCso,49
+manim_voiceover-0.1.2.dist-info/LICENSE,sha256=ce1pNgeYca-imG2OvxN6Nb02MiygKgkGVMo3V1azmic,1088
+manim_voiceover-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+manim_voiceover-0.1.2.dist-info/METADATA,sha256=TGB7niv_sXzhk4CdLrpS4KqX5SwxFajYWKPLr2IZLwE,4015
+manim_voiceover-0.1.2.dist-info/RECORD,,
