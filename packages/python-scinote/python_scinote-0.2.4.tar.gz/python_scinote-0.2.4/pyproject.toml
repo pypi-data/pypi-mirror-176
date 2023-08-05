@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-scinote"
+version = "0.2.4"
+description = ""
+authors = ["yamshy <shyam.ajudia@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_scinote"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+authlib = "^1.1.0"
+httpx = "^0.23.0"
+pandas = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
