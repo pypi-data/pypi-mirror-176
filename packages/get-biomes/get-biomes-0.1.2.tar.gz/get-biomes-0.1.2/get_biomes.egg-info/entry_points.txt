@@ -1,0 +1,3 @@
+[console_scripts]
+getBiomes = get_biomes.__main__:main
+
