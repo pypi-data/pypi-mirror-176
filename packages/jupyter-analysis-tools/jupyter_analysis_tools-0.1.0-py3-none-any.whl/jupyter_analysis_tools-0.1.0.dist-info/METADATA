@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: jupyter-analysis-tools
+Version: 0.1.0
+Summary: Common Python helpers used in data analysis notebooks (.ipynb) with GIT
+Home-page: https://github.com/BAMresearch/jupyter_analysis_tools
+Author: Ingo Breßler
+Author-email: dev@ingobressler.net
+License: MIT
+Project-URL: Documentation, https://bamresearch.github.io/jupyter_analysis_tools/
+Project-URL: Changelog, https://bamresearch.github.io/jupyter_analysis_tools/changelog.html
+Project-URL: Issue Tracker, https://github.com/BAMresearch/jupyter_analysis_tools/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+Overview
+========
+
+
+
+Common Python helpers used in data analysis notebooks (.ipynb) with GIT
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install jupyter-analysis-tools
+
+You can also install the in-development version with::
+
+    pip install https://github.com/BAMresearch/jupyter_analysis_tools/archive/main.zip
+
+
+Documentation
+=============
+
+https://bamresearch.github.io/jupyter_analysis_tools/
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.1.0 (2022-10-25)
+------------------
+
+* First versioned release.
