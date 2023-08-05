@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: meh_logging
+Version: 0.0.1
+Summary: Custom logging package for MEH projects.
+Author-email: Jim de Ronde <jim.de.ronde@greenhousegroup.com>
+Project-URL: Homepage, https://gitlab.com/GreenhouseGroup/meh/meh-logging-python
+Project-URL: Bug Tracker, https://gitlab.com/GreenhouseGroup/meh/meh-logging-python/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### meh-logging-python
+
+#### Creating a build
+
+Install the prerequisite packages.
+
+```sh
+python -m pip install build twine
+```
+
+Run the build command
+
+```sh
+python -m build
+```
+
+Run a test deployment to TestPyPi
+
+```sh
+python -m twine upload --repository testpypi dist/*
+```
+
+Run a final deployment to PyPi
+
+```sh
+python -m twine upload --repository pypi dist/*
+```
+
+#### Usage
+
+```python
+from meh_logging import logger
+
+# Log some info
+logger.info("hello world")
+logger.debug("hello world")
+logger.error("hello world")
+
+try:
+    1 / 0
+except Exception as e:
+    logger.exception(e)
+```
