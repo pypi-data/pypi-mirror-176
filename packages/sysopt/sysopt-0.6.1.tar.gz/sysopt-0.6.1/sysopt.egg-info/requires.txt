@@ -1,0 +1,6 @@
+numpy>=1.20
+scipy
+ordered_set
+
+[:platform_machine != "arm64"]
+casadi
