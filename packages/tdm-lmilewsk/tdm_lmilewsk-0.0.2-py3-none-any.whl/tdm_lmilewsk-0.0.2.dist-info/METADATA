@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tdm-lmilewsk
+Version: 0.0.2
+Summary: API that can be used to query information about the IMDB database for Project10 of TDM301
+Author-email: Lucas Milewski <lmilewsk@purdue.edu>
+Keywords: example,imdb,tutorial,VE,Virtual,Environment,API
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: lxml (>=4.9.1)
+Requires-Dist: requests (>=2.28.1)
+
+Package Name: tdm-lmilewsk
+
+Description: This package contains an API that can be used to query from the IMDB database about anything that you are interested in.
