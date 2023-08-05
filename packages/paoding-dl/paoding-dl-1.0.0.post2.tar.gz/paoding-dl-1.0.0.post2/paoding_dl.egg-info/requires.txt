@@ -1,0 +1,6 @@
+tensorflow>=2.3.0
+scikit-learn
+pandas
+opencv-python>=4.5numpy
+tabulate
+pydot
