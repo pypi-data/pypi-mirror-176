@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vblog
+Version: 0.1.0
+Summary: 
+Keywords: log
+Author: Vincent Berthet
+Author-email: vincent.berthet42@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+
