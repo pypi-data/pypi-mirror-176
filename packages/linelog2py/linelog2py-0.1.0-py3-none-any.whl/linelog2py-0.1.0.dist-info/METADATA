@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: linelog2py
+Version: 0.1.0
+Summary: linelog2py: import LINE Talk History
+Home-page: https://github.com/jyu0414/linelog2py
+Author: Yuji Sasaki
+Author-email: yuji@sasaki.dev
+Maintainer: Yuji Sasaki
+Maintainer-email: yuji@sasaki.dev
+License: MIT License
+Download-URL: https://github.com/jyu0414/linelog2py
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Editors :: Word Processors
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# linelog2py
+Import Line Talk History to Python (Supported in Japanese only)
+
+## 概要
+
+テキスト分析等の目的でチャットアプリのLINEでのトーク履歴をファイルからインポートするのを助けるライブラリです．LINEのトークルーム設定画面->その他->「トーク履歴を送信」で出力できるテキストファイルの入力に対応しています．現時点では，言語設定が日本語になっているLINEからの出力にしか対応していません．
+
+## インストール
+
+PyPIでインストールできます．
+
+```
+# PyPI
+pip install linelog2py
+```
+
+## 使用方法
+
+`Reader`でファイルを読み込むと`Message`クラスのリストが出力されます．
+
+```
+from line-log2py import Reader
+
+file = './line_history.txt'
+
+messages = Reader.readFile(file)
+
+```
+
+## Documentation
+
+### Message
+
+#### Properties
+
+`time: datetime`  メッセージが送信された日時
+`username: str` ユーザの表示名
+`textlines: list[str]`  メッセージの行毎の文章
+`kind: Category`  メッセージの種類（テキスト，スタンプ，写真など）
+
+#### Methods
+
+`def addMessage(self, text: str) -> None` 文章に行を追加
+`def asList(self) -> list[str]`  内容をリスト形式で出力
+
+
+### Category
+
+#### Members
+
+- UNDEFINED
+- TEXT
+- IMAGE
+- MOVIE
+- STAMP
+- FILE
+- CALL
+- CALL_CANCELLED
+- CALL_MISSED
+- CONTACT
+
+#### Methods
+
+`def fromLabel(cls, label: str)`  ラベルから`Cateory`を生成する 
+
+### Reader
+
+#### Methods
+
+`def readFile(file: str) -> list[Message]` 与えられたパスのファイルを読み込んで`Message`のリストを返す
+
+## Upload to PyPI
+
+```
+python3 setup.py bdist_wheel
+python3 -m  twine upload --config-file ".pypirc" dist/*
+```
+
+Contact
+=======
+If you have any questions or comments about linelog2py,
+please feel free to contact me via
+Email: yuji@sasaki.dev
+or Twitter: https://twitter.com/yujisasaki89
+This project is hosted at https://github.com/jyu0414/linelog2py
+
