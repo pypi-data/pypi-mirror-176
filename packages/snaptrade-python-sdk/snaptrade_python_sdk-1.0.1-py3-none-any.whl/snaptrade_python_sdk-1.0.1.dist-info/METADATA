@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snaptrade-python-sdk
+Version: 1.0.1
+Summary: SnapTrade
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: api@snaptrade.com
+Keywords: OpenAPI,OpenAPI-Generator,SnapTrade
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+    Connect brokerage accounts to your app for live positions and trading  # noqa: E501
+    
