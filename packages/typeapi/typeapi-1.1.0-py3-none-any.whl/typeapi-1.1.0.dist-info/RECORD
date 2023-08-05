@@ -1,0 +1,10 @@
+typeapi/__init__.py,sha256=cBXKQn-_YZRGPt5B5MQREKauBYrtahxhbMRWLNcxEhA,555
+typeapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typeapi/typehint.py,sha256=aQtUXwpbdZSOUh0Gtw558NSitrzTlizHLxR0jgpUOxc,10632
+typeapi/typehint_test.py,sha256=rKZZpidNPhLjKeKOui2oQOGMM5MP7Yn6685z5iO7_y8,10588
+typeapi/utils.py,sha256=gOzTJdo5k2_hMgFu5rfdFIBbQV78r2di1jdnWWzNPp8,13262
+typeapi/utils_test.py,sha256=ptXTfQVu5UPC4v6QD791VvX7s06gXsxr4XbWPYwvsPE,14768
+typeapi-1.1.0.dist-info/LICENSE,sha256=lZqeKjXTURfW9lygbsFbkEPae421LZNFAyLGl6iCohg,991
+typeapi-1.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+typeapi-1.1.0.dist-info/METADATA,sha256=J7DM34-S8Cnm4qp5AU--c7w8CCuC23SBqLna7Wo18fs,4566
+typeapi-1.1.0.dist-info/RECORD,,
