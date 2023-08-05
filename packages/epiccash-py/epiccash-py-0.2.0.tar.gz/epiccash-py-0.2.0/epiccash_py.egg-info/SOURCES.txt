@@ -1,0 +1,7 @@
+README.md
+setup.py
+epiccash_py.egg-info/PKG-INFO
+epiccash_py.egg-info/SOURCES.txt
+epiccash_py.egg-info/dependency_links.txt
+epiccash_py.egg-info/requires.txt
+epiccash_py.egg-info/top_level.txt
