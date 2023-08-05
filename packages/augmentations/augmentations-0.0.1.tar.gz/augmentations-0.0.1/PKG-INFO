@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: augmentations
+Version: 0.0.1
+Summary: Roboflow Augmentations PIP Package
+Author: Roboflow
+Author-email: jim@roboflow.com
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
