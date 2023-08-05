@@ -1,0 +1,3 @@
+[console_scripts]
+dataasset=dataasset.application:main
+
