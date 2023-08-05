@@ -1,0 +1,4 @@
+dearpygui
+pandas
+python-magic
+vt-py
