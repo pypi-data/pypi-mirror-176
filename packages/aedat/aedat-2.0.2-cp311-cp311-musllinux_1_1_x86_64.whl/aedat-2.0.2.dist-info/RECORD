@@ -1,0 +1,6 @@
+aedat.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+aedat/aedat.cpython-311-x86_64-linux-musl.so,sha256=KRcJz2HMfmFjK9d15TUR8HkN-qdKD2HsbCHoXtKUo-M,2373968
+aedat/__init__.py,sha256=MLUJ9eDi5oJ_gJuqmMTyw8Xb2sHGU7PqJh6_QpDMn8Y,103
+aedat-2.0.2.dist-info/WHEEL,sha256=cLhmb8oNRPb7elliUzZ-xmqpF5S_3uJSwrVrYqMyVCY,109
+aedat-2.0.2.dist-info/RECORD,,
+aedat-2.0.2.dist-info/METADATA,sha256=0Ql4zuNCZCffj30cuvGrZMQFmRceCuenucfW8ctKadI,8074
