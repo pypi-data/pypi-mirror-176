@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ArtemioADaySolvers/__init__.py
+ArtemioADaySolvers/latemix.py
+ArtemioADaySolvers.egg-info/PKG-INFO
+ArtemioADaySolvers.egg-info/SOURCES.txt
+ArtemioADaySolvers.egg-info/dependency_links.txt
+ArtemioADaySolvers.egg-info/top_level.txt
