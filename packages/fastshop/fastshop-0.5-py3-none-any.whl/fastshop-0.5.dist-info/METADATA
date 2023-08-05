@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fastshop
+Version: 0.5
+Summary: fastshop
+Home-page: https://github.com/fengchuan1021
+Author: fengchuan
+Author-email: fengchuanhn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy
+Requires-Dist: pydantic
+Requires-Dist: orjson
+Requires-Dist: XTTOOLS
+Requires-Dist: python-multipart
+Requires-Dist: alembic
+Requires-Dist: elasticsearch-dsl
+Requires-Dist: elasticsearch
+Requires-Dist: celery-redbeat
+Requires-Dist: azure-storage-blob
+Requires-Dist: uvicorn
+Requires-Dist: typing-extensions
+Requires-Dist: typer
+Requires-Dist: sse-starlette
+Requires-Dist: redis
+Requires-Dist: python-jose
+Requires-Dist: python-dotenv
+Requires-Dist: PyMySQL
+Requires-Dist: passlib
+Requires-Dist: fastapi (==0.82.0)
+Requires-Dist: fastapi-code-generator (==0.3.5)
+Requires-Dist: aiohttp
+Requires-Dist: alembic-autogen-check
+Requires-Dist: celery
+Requires-Dist: sqlalchemy2-stubs
+Requires-Dist: websockets
+
+xt system user define jsonresponse
+
