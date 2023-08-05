@@ -1,0 +1,6 @@
+etsy.py
+setup.py
+houhou.egg-info/PKG-INFO
+houhou.egg-info/SOURCES.txt
+houhou.egg-info/dependency_links.txt
+houhou.egg-info/top_level.txt
