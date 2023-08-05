@@ -1,0 +1,8 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+boac.egg-info/PKG-INFO
+boac.egg-info/SOURCES.txt
+boac.egg-info/dependency_links.txt
+boac.egg-info/requires.txt
+boac.egg-info/top_level.txt
