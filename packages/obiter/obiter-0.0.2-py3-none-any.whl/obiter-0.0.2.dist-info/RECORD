@@ -1,0 +1,10 @@
+.DS_Store,sha256=A2rfrfhrfbNPuKqRkq02yFJQmsE-E1jZuO_Rq-ocNck,6148
+obiter/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+obiter/_modidx.py,sha256=DwEXF6afGF8MrgnNcgO8LJHVaptPU9Gdhjc4n3_sIUs,3076
+obiter/canlii_api.py,sha256=5VeYjErmdKRhNa_UoRiugj-a06gvj_GgPAl6gkFY6So,8627
+obiter-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+obiter-0.0.2.dist-info/METADATA,sha256=5SYr8C3OYr8MsC9UUzTS7hzatbe5ZEkmOtyxjh8kyZQ,3230
+obiter-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+obiter-0.0.2.dist-info/entry_points.txt,sha256=Qfzigz0oxyGIrE6DjFLb1cxrbyXoi9CHjzlTcxEjTG4,34
+obiter-0.0.2.dist-info/top_level.txt,sha256=kxahVUZEnQYir0AXUsqWb2F6tO-IxIMWhPgIkAzJ_XQ,7
+obiter-0.0.2.dist-info/RECORD,,
