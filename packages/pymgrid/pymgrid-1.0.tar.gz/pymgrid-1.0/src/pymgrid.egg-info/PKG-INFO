@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pymgrid
+Version: 1.0
+Download-URL: https://github.com/Total-RD/pymgrid/archive/refs/tags/v1.0-beta.tar.gz
+Requires-Python: >=3.0
+Provides-Extra: genset_mpc
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
