@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: deta_base_pydantic
+Version: 0.1.1.post1
+Summary: A package providing a deta base interface for pydantic models.
+Author-email: Panagiotis Karagiannis <papalotis1@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pydantic
+Requires-Dist: deta
+Requires-Dist: fastapi
+Project-URL: Home, https://github.com/papalotis/deta-base-pydantic
+
+# deta-base-pydantic
+A Deta Base Interface that works with pydantic models
+
