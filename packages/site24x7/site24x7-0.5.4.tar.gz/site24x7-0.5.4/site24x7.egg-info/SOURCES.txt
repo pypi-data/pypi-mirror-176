@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+site24x7.egg-info/PKG-INFO
+site24x7.egg-info/SOURCES.txt
+site24x7.egg-info/dependency_links.txt
+site24x7.egg-info/top_level.txt
