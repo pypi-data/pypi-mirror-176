@@ -1,0 +1,10 @@
+BODSDataExtractor/ATCO_code_to_LA_lookup.csv,sha256=jz1fdhEow9n01XMpPLUOCKQwg8LMcbVgQGgFJo80WwE,6547
+BODSDataExtractor/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BODSDataExtractor/example.py,sha256=KpG40u2tCL_bFe3RU1WEw-SuaX8slkGOMQI1os6yj1o,3551
+BODSDataExtractor/extractor.py,sha256=53FoPVer5CGYQ9E84mzqHHwvX2vDQ8_zDxGNzppFsAQ,96152
+BODSDataExtractor/otc_db_download.py,sha256=Ofe1Vb6W43dvGm04bm6x0A_Y9Wiu7TyAKLylmYjuL14,4578
+BODSDataExtractor-1.0.0.dist-info/LICENCE,sha256=MzEFuALTjliLBgVrjrPHQ2SLEsIeUjZIgUKeExEciuw,1463
+BODSDataExtractor-1.0.0.dist-info/METADATA,sha256=jjE7wD2oT88B74g6M8wa9K3TMoclgh75pIYr2h4ToIQ,28451
+BODSDataExtractor-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BODSDataExtractor-1.0.0.dist-info/top_level.txt,sha256=usCHUBghDQIjwL5op_tRezsuf8TCW1-oIKLu0mDeAzc,18
+BODSDataExtractor-1.0.0.dist-info/RECORD,,
