@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SplatApp.egg-info/PKG-INFO
+SplatApp.egg-info/SOURCES.txt
+SplatApp.egg-info/dependency_links.txt
+SplatApp.egg-info/top_level.txt
+SplatApp.egg-info/zip-safe
+Splat_TextGame/__init__.py
+Splat_TextGame/splatcode.py
