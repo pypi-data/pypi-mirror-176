@@ -1,0 +1,10 @@
+
+[dev]
+coverage[toml]>=6.5
+furo>=2022.6.4
+isort>=5.10.1
+mypy>=0.990
+pycodestyle>=2.9
+sphinx>=5.0
+twine>=4.0
+werkzeug>=2.2
