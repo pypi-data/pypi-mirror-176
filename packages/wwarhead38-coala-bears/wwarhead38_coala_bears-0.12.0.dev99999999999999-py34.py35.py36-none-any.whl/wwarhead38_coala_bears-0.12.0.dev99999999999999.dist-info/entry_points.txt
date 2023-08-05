@@ -1,0 +1,2 @@
+[coalabears]
+coala_official_bears = bears
