@@ -1,0 +1,13 @@
+get_biomes/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+get_biomes/__main__.py,sha256=ul6ALG0ZioIHnyXpNY0fEMkloE1IqxcXswPc8sfncK0,1465
+get_biomes/_version.py,sha256=l0Sjpt9MCqPCK_qJ9ESy-xmZhWEu5R3ufB2oiYK9k4M,497
+get_biomes/defaults.py,sha256=Z1HBKODZ3TldQm0FvraEyp1barzhJ0-_nqKiFzeYL0Y,4154
+get_biomes/download.py,sha256=p4NGXcLT-uMEvs6NdS06P_klUp9DhL70PBtaEOpr-Tg,3841
+get_biomes/search.py,sha256=Rx45jy44oaVo8nKV_UfXKZh8qIdaAy7sNHCO7qX6g1w,5495
+get_biomes/utils.py,sha256=XI08MDrKX2HUYVxitS9UVD6ilmTSfS2upH__6UhuoKc,16976
+get_biomes-0.1.2.dist-info/LICENSE,sha256=FhLv2iFNLLOs8rCjlC7lHr1-pZ4UvS7cETEr1hQ5q-0,1575
+get_biomes-0.1.2.dist-info/METADATA,sha256=xPVR0f5eA4O8F9p8Mb-SbK4QV62dDzS8CnHvruLq0og,522
+get_biomes-0.1.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+get_biomes-0.1.2.dist-info/entry_points.txt,sha256=W4DkVszInhLhV7MEBYVkv5bCJLSFcid_WQhUGUhi5Dk,56
+get_biomes-0.1.2.dist-info/top_level.txt,sha256=eftvVIiytdsw094AHyggUsHTVI_pMxJg9aHwF_Pm27o,11
+get_biomes-0.1.2.dist-info/RECORD,,
