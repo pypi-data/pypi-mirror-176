@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: get-biomes
+Version: 0.1.3
+Summary: A simple tool to get biomes related data from MGnify and ENA
+Home-page: https://github.com/genomewalker/get-biomes
+Author: Antonio Fernandez-Guerra
+Author-email: antonio@metagenomics.eu
+License: GNUv3
+Keywords: get-biomes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
