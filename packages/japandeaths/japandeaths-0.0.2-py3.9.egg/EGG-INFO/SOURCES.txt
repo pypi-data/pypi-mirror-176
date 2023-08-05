@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/japandeaths.py
+src/japandeaths.egg-info/PKG-INFO
+src/japandeaths.egg-info/SOURCES.txt
+src/japandeaths.egg-info/dependency_links.txt
+src/japandeaths.egg-info/entry_points.txt
+src/japandeaths.egg-info/top_level.txt
