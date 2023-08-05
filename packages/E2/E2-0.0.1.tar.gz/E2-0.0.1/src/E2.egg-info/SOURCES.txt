@@ -1,0 +1,8 @@
+License
+pyproject.toml
+src/__init__.py
+src/functions.py
+src/E2.egg-info/PKG-INFO
+src/E2.egg-info/SOURCES.txt
+src/E2.egg-info/dependency_links.txt
+src/E2.egg-info/top_level.txt
