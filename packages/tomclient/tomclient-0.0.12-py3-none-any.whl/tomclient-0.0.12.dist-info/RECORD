@@ -1,0 +1,8 @@
+tomclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomclient/gpu_profiler.py,sha256=9R_csKkRKCWX8fM5KCa8oYoLukZjR4_NZMfNf1r6hT4,350
+tomclient/lib.py,sha256=WjF3XL3sbyAX85_eUp6-KKoNEMAvewEgt67EppzezSc,1125
+tomclient-0.0.12.data/scripts/tom,sha256=0oinzeK_tcAV-ntq7OSLe6H2ZElG4J7U-NnNSrzvLPk,1227
+tomclient-0.0.12.dist-info/METADATA,sha256=CZgLjLnXEhIhc6OT3oguG-7-UX6c66UULgOIT6xjYHw,303
+tomclient-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tomclient-0.0.12.dist-info/top_level.txt,sha256=bFGufUoQUC7Wv26pufw3cZIGIKJxaUuWVMl_ZdRhK-w,10
+tomclient-0.0.12.dist-info/RECORD,,
