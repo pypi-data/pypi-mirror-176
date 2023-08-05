@@ -1,0 +1,71 @@
+# Certificate tool
+
+The `certtool` package provides the `cert` command for quickly checking TLS certificates on one or more hosts.
+
+## Examples
+
+Quickly check the https certificate of one or more domains
+
+```shell-session
+$ cert example.com
+example.com   Ok, 127 days remaining
+
+$ cert example.com example.org example.nl
+example.com   Ok, 127 days remaining 
+example.org   Ok, 127 days remaining 
+example.nl    Ok, 169 days remaining
+```
+
+Also check imap and smtp certificates
+
+```shell-session
+cert --imaps --smtps example.com
+example.com  https  Certificate is expired (valid until 2021-09-30 22:54:11) 
+             imaps  Certificate almost expired (19 days, 1:45:51.654055) 
+             smtps  Certificate almost expired (19 days, 1:45:51.604624)
+```
+
+It's also possible to not check https by specifying `--no-https`
+
+```shell-session
+$ cert --imaps --smtps --no-https example.com example.nl
+example.com  imaps  Certificate almost expired (19 days, 1:44:26.323233) 
+             smtps  Certificate almost expired (19 days, 1:44:26.287489) 
+example.nl   imaps  Wrong CN, certificate is for example.org
+             smtps  Wrong CN, certificate is for example.org
+```
+
+## Usage
+
+```
+usage: Certificate checker [-h] [--https | --no-https] [--imaps | --no-imaps]
+                           [--pop3s | --no-pop3s] [--smtps | --no-smtps]
+                           [--submission | --no-submission] [--port PORT]
+                           [--timeout TIMEOUT]
+                           domain [domain ...]
+
+positional arguments:
+  domain
+
+options:
+  -h, --help            show this help message and exit
+  --https, --no-https   Check http (443) (default: True)
+  --imaps, --no-imaps   Check imap (993) (default: False)
+  --pop3s, --no-pop3s   Check pop3s (995) (default: False)
+  --smtps, --no-smtps   Check smtp (465) (default: False)
+  --submission, --no-submission
+                        Check smtp with starttls (587) (default: False)
+  --port PORT           Check a specific port
+  --timeout TIMEOUT, -t TIMEOUT
+                        Set the timeout in seconds for the TCP connection
+```
+
+## Installation
+
+The tool can be installed with a regular `python3 setup.py install` or installed from pypi with
+
+```shell-session
+# pip3 install certtool
+```
+
+The package depends on `pyopenssl` and `colorama`

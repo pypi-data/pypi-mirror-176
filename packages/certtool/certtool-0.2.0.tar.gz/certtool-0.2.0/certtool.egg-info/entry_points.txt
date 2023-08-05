@@ -1,0 +1,2 @@
+[console_scripts]
+cert = certtool.__main__:main
