@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: chronolog-cli
+Version: 0.1.3
+Summary: Chronolog is an open-source command-line application that allows its users to chronologically log information about their day (hence the name). It was initially created to eleminate the tedious task of creating and organizing documents to log events, findings, progress, and more during the workday.
+Author-email: Jacob Miller <jacobmillerdev@gmail.com>
+Project-URL: Homepage, https://github.com/jacobmiller22/chronolog
+Project-URL: Bug Tracker, https://github.com/jacobmiller22/chronolog/issues
+Keywords: chronicle,log,chronolog,journal,log organizer
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client (==2.65.0)
+Requires-Dist: google-auth-oauthlib (==0.7.1)
+
+# Chronolog
+
+## What is Chronolog?
+
+Chronolog is an open-source command-line application that allows its users to chronologically log information about their day (hence the name). It was initially created to eleminate the tedious task of creating and organizing documents to log events, findings, progress, and more during the workday.
+
+## Use cases
+
+- Logging key takeaways from meetings, key-concepts learned, and events at work. It allows one to always have an alibi during their workday.
+
+- Anything you see fit to log!
+
+## Installation
+
+The source code is available for download from Github, this will be more refined in the future.
+
+### Windows
+
+See above
+
+### Linux & MacOs
+
+See above
+
+## Feel free to contribute!
+
+There will be a more in-depth CONTRIBUTING.md in the future.
