@@ -1,0 +1,13 @@
+primers/__init__.py,sha256=mZSiS6uH42RSwg37R47Va-ikdwuY4xrw_MPRwI0Dd8c,396
+primers/main.py,sha256=xVFw9QzSAcJXMLXCbZYlvW5LBVP4Nb-t0WS24YgL8vo,3576
+primers/off_targets.py,sha256=X-OMDkuIdH2y3E8yf8k-aHAhpH7gPZA701FDPbgvmZU,1663
+primers/primers.py,sha256=cdvoCfvgxS-yVS4IixlSsC23F6_ymTtD0n23QCOxW1Q,17213
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/off_targets_test.py,sha256=uOfHXxQVP7YrAb-LrMVgtTgUvmeEsuG6coZ_arFODA4,637
+tests/primers_test.py,sha256=odE_CAim7ET3vnx2s-bRecaYrgUSLInRUcODQIWSjOc,3947
+primers-0.4.0.dist-info/LICENSE,sha256=7Vk9JLhU9IE6g8bAeeneyADepMrJMrzv-ZK9bUYtrOo,1075
+primers-0.4.0.dist-info/METADATA,sha256=qRaRnQJv7k1vz84cvI97iVzviDh1sgK467U4lIAMTM0,6411
+primers-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+primers-0.4.0.dist-info/entry_points.txt,sha256=TE7XN1f43y3WkC9g_4Cry2HLzDj-O2s-xLShWnPe5Vw,45
+primers-0.4.0.dist-info/top_level.txt,sha256=aArUtmNkt-jC7HpfQUFIsKSBVNchrbl5EEo1-JBoI8k,14
+primers-0.4.0.dist-info/RECORD,,
