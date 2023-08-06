@@ -1,0 +1,12 @@
+metricconverterteam10/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metricconverterteam10/__main__.py,sha256=DgjYCV2jhDntVtqv6kFo9K8wKwrsFPTVt9xubFBfYyw,2630
+metricconverterteam10/age_converter.py,sha256=SdmX_lE4CmXhJVAFo7m1A8IW9w_5-dUIXmnWnDxOW7I,4191
+metricconverterteam10/distance_converter.py,sha256=rL57RnpMTvBfnUuiXKZvqN0HtekFhXJ3yT2jKgFcr1k,2300
+metricconverterteam10/number_converter.py,sha256=NjfFzr76jNcQuFTZIyp1pEfR6L31VNhy9v3Nm5aOu8Y,823
+metricconverterteam10/time_zone_converter.py,sha256=rl27bLwNbtSu3KsYHbQzv144s7cU2_EiWG9l0zTA3Eg,877
+metricconverterteam10-1.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+metricconverterteam10-1.1.0.dist-info/METADATA,sha256=ucQFLiM36mrEQTFc1t2Ec2-oRqa4UH3D9lt443dH2jA,49646
+metricconverterteam10-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metricconverterteam10-1.1.0.dist-info/entry_points.txt,sha256=gbyvwk4z6FaVWt4LI1lAFOzmTVn7YKV_zdmY6aUjsqs,222
+metricconverterteam10-1.1.0.dist-info/top_level.txt,sha256=ezLeWrXlC-m_DCGY7aqZArel8uYVtat6Fy1ZqbLKxDE,22
+metricconverterteam10-1.1.0.dist-info/RECORD,,
