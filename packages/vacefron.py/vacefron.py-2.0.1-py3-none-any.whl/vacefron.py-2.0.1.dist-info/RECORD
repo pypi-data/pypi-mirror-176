@@ -1,0 +1,16 @@
+vacefron/__init__.py,sha256=MvQUZyGXODlllY2wBEiVpxETp1Lmtz0tTU_OFMBh8UA,182
+vacefron/client.py,sha256=Jbxb1X92bmcUI4vTjr_Sgt2b9wdy_vDOFV9AFsJJOHE,16694
+vacefron/enums.py,sha256=2Z4KDiQaNHZL-iQrSymPm1K-hNSykOcPoqsmNIBo7uE,2327
+vacefron/errors.py,sha256=-GlVCO7RtcoCle03QshDf3TUJpvjbxJPqVvqLs6XoFg,748
+vacefron/http.py,sha256=KzC2x7OHpiywJDVQ98293u59oTZObXdgaHYVkWCVxEA,5371
+vacefron/utils.py,sha256=et0NlhzN2-v0941R7snhmVYbBVSt_G1sNrPuE92X1ZA,901
+vacefron/models/__init__.py,sha256=xmRfz2pXSw3lqHMsPxnbrfrWJrFz50GVjS5fAzyQriE,52
+vacefron/models/image.py,sha256=fpeNDWwropql5he1IVucId-re9a2GTirY3abudp-mIo,1693
+vacefron/models/rank.py,sha256=XVHTYH9r6_FNlaiSuP4AfjgK4Z8hCPV4WgXwWgk8edg,6544
+vacefron/types/http.py,sha256=jIoUeQAxHJ-f1Xw4aEXIWAjTbxl9dgpz05j3lZNvzyQ,1278
+vacefron/types/rank.py,sha256=VHW7YfzUOyI7q63fXV7kffF3c2yX3x5hVMTqzUTIR9k,623
+vacefron.py-2.0.1.dist-info/LICENSE,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+vacefron.py-2.0.1.dist-info/METADATA,sha256=HpKqMrJFBx4lELwRLuDmH0KJIlSDWpeZ5wAgn91P8ME,2831
+vacefron.py-2.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vacefron.py-2.0.1.dist-info/top_level.txt,sha256=hBNg1-rDl97-9GGzNK6IonaxekA79XLcAC6jmYQCP5Q,9
+vacefron.py-2.0.1.dist-info/RECORD,,
