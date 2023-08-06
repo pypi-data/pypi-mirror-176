@@ -1,0 +1,11 @@
+jejudo/__init__.py,sha256=hZ60PukuWUHiq5_QGaQ4K8Ww8eqN0td16K_ZUUD7dgw,121
+jejudo/_version.py,sha256=4JujKmG_DaN3kCuwVsYIc9TeliWw0xdLacuB3Dkg8bc,23
+jejudo/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jejudo/core/jejudo.py,sha256=i6L1JMxq0sMHodXFucGUEAMlbRZlIsZ8tKzlYMypcSA,9304
+jejudo/core/work/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jejudo/core/work/math.py,sha256=KoHlT_Sor1bIvmmx1fug7VPJT9NJkd99lyn6uC5Oddw,1868
+jejudo/core/work/types.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jejudo-0.0.2b5.dist-info/METADATA,sha256=VwiG4KnqA76PbUok_q1ZAtdxuhe-KwWywY834xpaL40,368
+jejudo-0.0.2b5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jejudo-0.0.2b5.dist-info/top_level.txt,sha256=GiHaf1FoUtcBrSOdx0Fc72exMlNUf9t317-V84X_8A0,7
+jejudo-0.0.2b5.dist-info/RECORD,,
