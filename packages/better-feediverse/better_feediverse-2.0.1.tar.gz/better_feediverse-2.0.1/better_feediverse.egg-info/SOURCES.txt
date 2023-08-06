@@ -1,0 +1,10 @@
+LICENSE
+README.md
+better_feediverse.py
+setup.py
+better_feediverse.egg-info/PKG-INFO
+better_feediverse.egg-info/SOURCES.txt
+better_feediverse.egg-info/dependency_links.txt
+better_feediverse.egg-info/entry_points.txt
+better_feediverse.egg-info/requires.txt
+better_feediverse.egg-info/top_level.txt
