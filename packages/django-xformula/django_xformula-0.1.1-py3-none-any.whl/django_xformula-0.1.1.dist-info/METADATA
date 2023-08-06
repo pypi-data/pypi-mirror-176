@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-xformula
+Version: 0.1.1
+Summary: Django query evaluator, is built on top of XFormula language front-end.
+License: MIT
+Author: Ertuğrul Keremoğlu
+Author-email: ertugkeremoglu@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django
+Requires-Dist: xformula (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# django-xformula
+
+Django query evaluator, is built on top of XFormula language front-end.
+
+---
+
+**This project is still in development**.
+
+If you're interested, you may check the note in
+[XFormula](https://github.com/ertgl/xformula) repository.
+
+---
+
+
+## Features:
+
+- Bidirectional operators
+- - Same syntax for both Python and Django query evaluation
+- - If an operation contains at least one `django.db.models.expressions.Combinable`
+    or `django.db.models.Q` object, it will be evaluated as `django.db.models.Q`
+    object
+- Zero built-in variable by defaults
+- - When a variable name is used but does not exist in the specified built-ins,
+    it will be evaluated as `django.db.models.F` object
+- Customizable attribute getter; manage which attributes can be used in formulas
+  (Getting an attribute of an object is prohibited by default)
+- Customizable caller; manage which functions can be called in formulas
+  (Calling is prohibited by default)
+
+
+## License
+
+[MIT](https://github.com/ertgl/xformula/blob/main/LICENSE)
+
