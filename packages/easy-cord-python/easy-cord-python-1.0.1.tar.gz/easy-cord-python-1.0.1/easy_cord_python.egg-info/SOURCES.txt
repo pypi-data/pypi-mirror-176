@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+wdefaesda.py
+easy_cord_python.egg-info/PKG-INFO
+easy_cord_python.egg-info/SOURCES.txt
+easy_cord_python.egg-info/dependency_links.txt
+easy_cord_python.egg-info/requires.txt
+easy_cord_python.egg-info/top_level.txt
+easycord/__init__.py
