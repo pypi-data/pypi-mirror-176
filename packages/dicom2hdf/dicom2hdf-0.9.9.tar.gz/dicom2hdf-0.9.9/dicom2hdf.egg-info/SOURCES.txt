@@ -1,0 +1,7 @@
+README.md
+setup.py
+dicom2hdf.egg-info/PKG-INFO
+dicom2hdf.egg-info/SOURCES.txt
+dicom2hdf.egg-info/dependency_links.txt
+dicom2hdf.egg-info/requires.txt
+dicom2hdf.egg-info/top_level.txt
