@@ -1,0 +1,8 @@
+README.md
+setup.py
+equacao_segundo_grau/__init__.py
+equacao_segundo_grau/baskara.py
+equacao_segundo_grau.egg-info/PKG-INFO
+equacao_segundo_grau.egg-info/SOURCES.txt
+equacao_segundo_grau.egg-info/dependency_links.txt
+equacao_segundo_grau.egg-info/top_level.txt
