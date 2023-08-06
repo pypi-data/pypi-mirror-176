@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yczz-st
+Version: 0.0.0
+Summary: Python Android Cluster Control 为使用Python对安卓集群控制进行支持
+Home-page: https://github.com/Spiderguy-07/yczz_st
+Author: wyd_hzq
+Author-email: 2396188089@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+安卓集群控制系统模块，包含对ADB、数据库、图像识别、验证码破解等功能的封装
+
+
