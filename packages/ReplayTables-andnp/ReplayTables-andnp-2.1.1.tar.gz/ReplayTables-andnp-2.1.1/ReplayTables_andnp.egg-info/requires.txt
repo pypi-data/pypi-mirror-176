@@ -1,0 +1,14 @@
+numba>=0.52.0
+numpy>=1.21.0
+scipy>=0.16
+
+[dev]
+mypy
+flake8
+commitizen
+pre-commit
+pipenv-setup[black]
+build
+twine
+matplotlib
+vistir==0.6.1
