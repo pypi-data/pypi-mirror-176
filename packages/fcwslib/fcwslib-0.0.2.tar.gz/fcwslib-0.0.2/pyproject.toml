@@ -1,0 +1,13 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'fcwslib'
+description = 'A library that makes Python Minecraft Bedrock Edition development much easier.'
+version = '0.0.2'
+dependencies = [
+    'rich',
+    'websockets'
+]
+
