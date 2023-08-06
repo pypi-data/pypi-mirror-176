@@ -1,0 +1,6 @@
+executor_s3/__init__.py,sha256=dbTRq2YID1TeqZ0lmDL6qnpRK2Jfds4BZtgHaEwoHrQ,2309
+executor_s3/_config.py,sha256=CcT-0szNMjCPhuSIKarGgHYxbZDUCIIKo_rfikIMmxg,258
+executor_s3-0.0.1.dist-info/METADATA,sha256=LLIxyvsaBMKdHhcTjYvg6OzwOfKDo90P4f4NUN9UONk,1006
+executor_s3-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+executor_s3-0.0.1.dist-info/top_level.txt,sha256=dGROYD8icAuXCfokSI4ZEHHsRLvRlA3eeEKuyXVxbXU,12
+executor_s3-0.0.1.dist-info/RECORD,,
