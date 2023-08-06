@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/thanos-cleaner/__init__.py
+src/thanos-cleaner/__main__.py
+src/thanos-cleaner/thanos.py
+src/thanos_cleaner.egg-info/PKG-INFO
+src/thanos_cleaner.egg-info/SOURCES.txt
+src/thanos_cleaner.egg-info/dependency_links.txt
+src/thanos_cleaner.egg-info/top_level.txt
