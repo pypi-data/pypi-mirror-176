@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/PCSOLotto/PCSOLotto.py
+src/PCSOLotto/__init__.py
+src/PCSOLotto_Webscraper.egg-info/PKG-INFO
+src/PCSOLotto_Webscraper.egg-info/SOURCES.txt
+src/PCSOLotto_Webscraper.egg-info/dependency_links.txt
+src/PCSOLotto_Webscraper.egg-info/requires.txt
+src/PCSOLotto_Webscraper.egg-info/top_level.txt
+test/test_pp.py
