@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: git-fzf
+Version: 0.0.2
+Summary: Interactive versions of built-in Git commands using fzf
+Home-page: https://github.com/openjck/git-fzf
+License: MIT
+Keywords: git,fzf,cli
+Author: John Karahalis
+Author-email: john.karahalis@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyfzf (==0.2.2)
+Project-URL: Documentation, https://github.com/openjck/git-fzf#usage
+Project-URL: Repository, https://github.com/openjck/git-fzf
+Description-Content-Type: text/markdown
+
+# git-fzf
+
+git-fzf provides interactive versions of built-in Git commands using
+[fzf](https://github.com/junegunn/fzf).
+
+https://user-images.githubusercontent.com/933396/130337334-345c5c60-4e20-4807-8ed3-655bf5115981.mp4
+
+## Installation
+
+Run `pip install git-fzf`
+
+## Usage
+
+<dl>
+  <dt>
+    git iadd
+  </dt>
+  <dd>
+    Interactively choose one or more files to add
+  </dd>
+
+  <dt>
+    git icommit
+  </dt>
+  <dd>
+    Interactively choose one or more staged or unstaged files to commit
+  </dd>
+
+  <dt>
+    git idiff
+  </dt>
+  <dd>
+    Interactively choose one or more files to diff. Provide the
+    <code>--staged</code> or <code>--cached</code> flag to choose from staged
+    files.
+  </dd>
+
+  <dt>
+    git idifftool
+  </dt>
+  <dd>
+    Interactively choose one or more files to diff with the difftool. Provide
+    the <code>--staged</code> or <code>--cached</code> flag to choose from
+    staged files.
+  </dd>
+
+  <dt>
+    git ireset
+  </dt>
+  <dd>
+    Interactively choose one or more files to reset
+  </dd>
+
+  <dt>
+    git irestore
+  </dt>
+  <dd>
+    Interactively choose one or more files to restore
+  </dd>
+
+  <dt>
+    git iswitch
+  </dt>
+  <dd>
+    Interactively choose a branch to switch to. Provide the <code>-r</code> or
+    <code>--remotes</code> flag to choose from remote branches.
+  </dd>
+</dl>
+
+## Similar projects
+
+There are some similar projects with more elaborate user interfaces:
+
+* [forgit](https://github.com/bigH/git-fuzzy)
+* [git-fuzzy](https://github.com/bigH/git-fuzzy)
+
+Most of the time, I personally prefer the more minimal user interface that this
+project provides. Still, would I have started this project if I had known about
+these alternatives at the time?
+
+🤷‍♂️
+
