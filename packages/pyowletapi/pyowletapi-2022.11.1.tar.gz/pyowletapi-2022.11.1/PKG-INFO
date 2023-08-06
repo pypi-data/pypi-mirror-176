@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyowletapi
+Version: 2022.11.1
+Summary: Owlet baby montior API wrapper
+Home-page: https://github.com/RyanClark123/pyowletapi
+Author: Ryan Clark
+Keywords: owlet,api,baby
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
