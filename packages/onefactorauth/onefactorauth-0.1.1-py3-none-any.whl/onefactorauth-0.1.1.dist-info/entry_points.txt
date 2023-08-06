@@ -1,0 +1,4 @@
+[console_scripts]
+1fa = onefactorauth:main
+onefactorauth = onefactorauth:main
+

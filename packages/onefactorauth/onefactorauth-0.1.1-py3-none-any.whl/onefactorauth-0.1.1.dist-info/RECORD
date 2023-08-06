@@ -1,0 +1,10 @@
+onefactorauth/__init__.py,sha256=Z5W3CWVSTj9WVSBRuiO_lcT9x0AszEkxbtEKZBXGiw0,1757
+onefactorauth/__main__.py,sha256=bCxX5qmE_YUNP9_iuJcQdbqwXi-oshF5mGL76kLlV5I,172
+onefactorauth/code.py,sha256=ic_u7Og_IAhYKXkotUFCVs_210RGsema6YskgvH7Hs8,2312
+onefactorauth/config.py,sha256=0C92z9I-t8rtKG0u2sclMYpUXPRVWdv6sgh-wSC8xwM,1562
+onefactorauth-0.1.1.dist-info/LICENSE,sha256=6hJiQdmbdPmH3dbMLTxiUEiycHhjZolrvBLLMG0fTgE,488
+onefactorauth-0.1.1.dist-info/METADATA,sha256=q--b_-MiueMjauTBoAlVoJtdgINcHcLFfthmn4VItHQ,2779
+onefactorauth-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+onefactorauth-0.1.1.dist-info/entry_points.txt,sha256=u514X7yiCcXgUsrue8TuvRpdeqFtU392zw1F2R84S9A,79
+onefactorauth-0.1.1.dist-info/top_level.txt,sha256=UMCD2BrsIwFPPk6KSllKnk1cCJSqm0VBUC3la2vNnr8,14
+onefactorauth-0.1.1.dist-info/RECORD,,
