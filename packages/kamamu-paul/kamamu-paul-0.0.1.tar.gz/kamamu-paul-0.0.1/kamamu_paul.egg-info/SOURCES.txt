@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+kamamu_paul.egg-info/PKG-INFO
+kamamu_paul.egg-info/SOURCES.txt
+kamamu_paul.egg-info/dependency_links.txt
+kamamu_paul.egg-info/top_level.txt
