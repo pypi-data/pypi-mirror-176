@@ -1,0 +1,3 @@
+[console_scripts]
+vai_lab=vai_lab.run_pipeline:main
+
