@@ -1,0 +1,8 @@
+setup.py
+pyprackiller/__init__.py
+pyprackiller/pyprackiller.py
+pyprackiller.egg-info/PKG-INFO
+pyprackiller.egg-info/SOURCES.txt
+pyprackiller.egg-info/dependency_links.txt
+pyprackiller.egg-info/not-zip-safe
+pyprackiller.egg-info/top_level.txt
