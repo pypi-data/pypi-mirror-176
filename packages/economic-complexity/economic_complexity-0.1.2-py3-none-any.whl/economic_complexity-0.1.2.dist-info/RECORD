@@ -1,0 +1,9 @@
+economic_complexity/__init__.py,sha256=C9oq_1G-YnkJNr-bJPyGN3xJwyrF9DHcJn1vpbZemUQ,618
+economic_complexity/complexity.py,sha256=VqvhvEj3shGtrnFwY-4Py00gtaVvwWWBvkxCnZePEDw,2248
+economic_complexity/cross_space.py,sha256=dt8sPDKXhxWhH6N3_uMHlBvHiJfkK8T3Kkv7_1m2Ag4,3774
+economic_complexity/product_space.py,sha256=FVnQkzibuddqubNfLPerPnTMYU7cJTSDuewoN1IQ3gg,10822
+economic_complexity/rca.py,sha256=rk_GQecfR6ySlljZPsIIorOHQU0y2I1l7HSRkYzk41I,1431
+economic_complexity-0.1.2.dist-info/LICENSE,sha256=vUZmxuWDHlY98ZVLM4Ex-D5einndB8205You26zfFQs,1071
+economic_complexity-0.1.2.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+economic_complexity-0.1.2.dist-info/METADATA,sha256=3DEm8o6ihhzniitijNFaOzqNHi_iThKWalmZu-RMqjY,3847
+economic_complexity-0.1.2.dist-info/RECORD,,
