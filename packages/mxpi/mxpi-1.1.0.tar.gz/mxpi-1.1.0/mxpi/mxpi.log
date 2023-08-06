@@ -1,0 +1,532 @@
+ERROR 2022-11-12 23:17:58,606 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:58,673 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:58,719 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:58,763 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:59,047 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:59,541 log 241 Internal Server Error: /SArduino_get_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:17:59,980 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 235, in _get_response_async
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:18:00,156 log 241 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 139
+    s.
+      ^
+SyntaxError: invalid syntax
+ERROR 2022-11-12 23:28:12,489 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 235, in _get_response_async
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 18, in <module>
+    path('SArduino_add_data',views.SArduino_add_data,name='SArduino_add_data'),
+AttributeError: module 'app.views' has no attribute 'SArduino_add_data'
+ERROR 2022-11-12 23:28:12,612 log 241 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 18, in <module>
+    path('SArduino_add_data',views.SArduino_add_data,name='SArduino_add_data'),
+AttributeError: module 'app.views' has no attribute 'SArduino_add_data'
+ERROR 2022-11-13 11:19:36,271 log 241 Internal Server Error: /Arduino_get_data
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 146, in __acall__
+    response = await sync_to_async(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 70, in should_redirect_with_slash
+    if not is_valid_path(request.path_info, urlconf):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 155, in is_valid_path
+    return resolve(path, urlconf)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 649, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 696, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\urls\resolvers.py", line 689, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 19, in <module>
+    path('SArduino_get_data',views.SArduino_get_data,name='SArduino_get_data'),
+AttributeError: module 'app.views' has no attribute 'SArduino_get_data'
+ERROR 2022-11-13 13:07:44,743 log 241 Internal Server Error: /mixly_ku_download
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 154, in mixly_ku_download
+    with open(file_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\mxpi/file/SArduino-com.zip'
