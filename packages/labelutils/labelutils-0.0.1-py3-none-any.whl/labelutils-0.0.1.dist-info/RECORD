@@ -1,0 +1,12 @@
+labelutils/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+labelutils/_char_indices.py,sha256=-Ixzxn0f9-yd_cy92itrYId_iLJPxmxivwFpVVrvD38,1299
+labelutils/_conversions.py,sha256=2dLJYGEHcGd2JFmJe6xQce8BjmxaVA4xxL8GlCjwTjA,1167
+labelutils/_inception.py,sha256=roMTMqcdKG8NJxvmutwsWZ7bO9iYtQttjD7lDItLUpA,15979
+labelutils/_labelbuddy.py,sha256=RxQWHBZHgO6-X_f2ewAPfx_ea1dJk1wr_v9Ig4Vy6OE,2917
+labelutils/_utils.py,sha256=kCo0PL6_UQRtKEJQ_07NtlcnppTqPhFPeWw9jxGk8kY,846
+labelutils-0.0.1.dist-info/COPYING,sha256=47x294Bl-NKs_VIA74qnQ8gfCDPJAr1Q8gsUD4dlQNI,1073
+labelutils-0.0.1.dist-info/METADATA,sha256=0hazzIuUO3KptW6DlCgllCxFv7-6pIWv8K2SI4jKdeI,2020
+labelutils-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+labelutils-0.0.1.dist-info/entry_points.txt,sha256=6eII57O8NeyEbB4_Xv8ZvDE7-RGcaOGY5kKxnF1AeT0,79
+labelutils-0.0.1.dist-info/top_level.txt,sha256=3KQfBkmbMhwZ0zmDpVSbbo5H3rDJqG1Ov0CkY-NlXgM,11
+labelutils-0.0.1.dist-info/RECORD,,
