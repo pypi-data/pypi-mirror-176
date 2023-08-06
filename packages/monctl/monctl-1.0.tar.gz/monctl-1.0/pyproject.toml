@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "monctl"
+version = "1.0"
+authors = [
+  { name = "Stefano Aguilera", email = "stefano.aguilera.95@live.cl" },
+]
+description = "Monitor viewer"
+readme = "README.md"
+requires-python = ">=3.0"
+keywords = ["GigaByte", "G27Q", "OSDSideKick", "Monitor", "QT", "brightness", "contrast", "bluelight"]
+
+dependencies = [
+    "pyusb ~= 1.2",
+    "qtpy >= 2.2"
+]
+
+[project.urls]
+"Source code" = "https://github.com/Gothem/monctl"
+"Bug Tracker" = "https://github.com/Gothem/monctl/issues"

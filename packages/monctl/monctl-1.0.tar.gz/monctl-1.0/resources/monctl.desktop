@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Application
+Name=Gigabyte Monitor Control
+GenericName=Monitor Control
+Exec=python -m monctl
+Icon=monctl
+Terminal=false
+Categories=Utility; System; Settings;
+Keywords=monitor;control;gigabyte;g27q;brightness;contrast;bluelight;

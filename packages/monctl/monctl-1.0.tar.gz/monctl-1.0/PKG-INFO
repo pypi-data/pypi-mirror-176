@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: monctl
+Version: 1.0
+Summary: Monitor viewer
+Project-URL: Source code, https://github.com/Gothem/monctl
+Project-URL: Bug Tracker, https://github.com/Gothem/monctl/issues
+Author-email: Stefano Aguilera <stefano.aguilera.95@live.cl>
+License-File: LICENSE
+Keywords: G27Q,GigaByte,Monitor,OSDSideKick,QT,bluelight,brightness,contrast
+Requires-Python: >=3.0
+Requires-Dist: pyusb~=1.2
+Requires-Dist: qtpy>=2.2
+Description-Content-Type: text/markdown
+
+# Monitor Control
+
+
+Gigabyte G27Q monitor control application.
+
+## Installation
+
+TODO
