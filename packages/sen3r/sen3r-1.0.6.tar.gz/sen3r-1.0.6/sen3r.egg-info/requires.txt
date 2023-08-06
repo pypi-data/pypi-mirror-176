@@ -1,0 +1,10 @@
+importlib_metadata
+numpy
+pyshp
+pandas
+Pillow
+netcdf4
+openpyxl
+matplotlib
+scikit-learn
+scikit-image
