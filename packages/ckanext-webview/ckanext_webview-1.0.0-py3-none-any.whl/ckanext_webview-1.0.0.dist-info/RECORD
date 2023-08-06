@@ -1,0 +1,15 @@
+ckanext/__init__.py,sha256=B_7UGskPvwgkZo0kXCyomb1Y5IUGodsVsWgXetTVwRQ,306
+ckanext/webview/__init__.py,sha256=B_7UGskPvwgkZo0kXCyomb1Y5IUGodsVsWgXetTVwRQ,306
+ckanext/webview/plugin.py,sha256=MiRv_7chnn_ybsDv9fkTsfK9seqhtuhjiK0wPHataZQ,1768
+ckanext/webview/logic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/webview/logic/validators.py,sha256=S9qqkSCyOdAlTSJTRGtT_Q2a9K3m8bYbIDX9Ym3ijZs,1004
+ckanext/webview/theme/assets/webassets.yml,sha256=5eerpphjR1ALXGHhQHmmToKcx1GLX_1XQviWEenKP-w,90
+ckanext/webview/theme/assets/css/webview.css,sha256=v6TS0NFyymGZgQoB0gSrvzZfxnO5tooEfdIYLi3VouQ,67
+ckanext/webview/theme/templates/views/web_view.html,sha256=4-j760LFJyL8A2t33HB2oZkk08V-6JMdv3elPDbcImw,152
+ckanext/webview/theme/templates/views/web_view_form.html,sha256=E1NSjP50xBQZEEVOTemYf730_ZwsOGK-tRiuSsnz_U0,235
+ckanext_webview-1.0.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+ckanext_webview-1.0.0.dist-info/METADATA,sha256=xOMVAJfssxmxF-Qe9C8q4U45UwrZ5nbfXlJigi6cOuU,3501
+ckanext_webview-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ckanext_webview-1.0.0.dist-info/entry_points.txt,sha256=Y_o9UqbyIrxdWmZDOBwnROwmpL5E_-fDypgf8jkhiKc,62
+ckanext_webview-1.0.0.dist-info/top_level.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_webview-1.0.0.dist-info/RECORD,,
