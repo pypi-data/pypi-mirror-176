@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: re-generate
+Version: 0.1.2
+Summary: Package for random data generation via ReGex
+Home-page: https://github.com/Warrfie/re-generate
+Author: Kuklikov Maxim (Warrfie)
+Author-email: "MaximKuklikov(Warrfie)" <warrfie@gmail.com>
+Project-URL: Homepage, https://github.com/Warrfie/re-generate
+Keywords: QA,random string,reverse regular expression,regex generator,testing,autotesting
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# re-generate
+Generator from regex for python
