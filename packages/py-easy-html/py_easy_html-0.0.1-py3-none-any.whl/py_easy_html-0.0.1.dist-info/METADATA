@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-easy-html
+Version: 0.0.1
+Summary: Generate HTML using python and also convert to PDF.
+Home-page: https://github.com/shahriyardx/py-easy-html
+Author: Md Shahriyar Alam
+Author-email: contact@shahriyar.dev
+Project-URL: Bug Reports, https://github.com/shahriyardx/py-easy-html/issues
+Project-URL: Source, https://github.com/shahriyardx/py-easy-html/
+Keywords: HTML Generator,HTML to PDF,
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: pdfkit (==1.0.0)
+Requires-Dist: typing-extensions (==4.4.0)
+
+# Easy HTML
+Generate HTML using python and also convert to PDF.
