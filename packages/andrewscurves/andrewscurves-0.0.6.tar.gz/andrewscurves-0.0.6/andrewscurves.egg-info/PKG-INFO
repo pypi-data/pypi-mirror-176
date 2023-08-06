@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: andrewscurves
+Version: 0.0.6
+Summary: Modules to generate andrews curves plot dataframes and plots
+Home-page: https://github.com/chags1313/andrewscurves
+Author: Cole Hagen
+Author-email: hagencolej@gmail.com
+License: MIT
+Keywords: data visualization,machine learning,multivariate,andrews curves,statistical
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

@@ -1,0 +1,9 @@
+setup.py
+andrewscurves/__init__.py
+andrewscurves/acdata.py
+andrewscurves/andrewscurves.py
+andrewscurves.egg-info/PKG-INFO
+andrewscurves.egg-info/SOURCES.txt
+andrewscurves.egg-info/dependency_links.txt
+andrewscurves.egg-info/requires.txt
+andrewscurves.egg-info/top_level.txt
