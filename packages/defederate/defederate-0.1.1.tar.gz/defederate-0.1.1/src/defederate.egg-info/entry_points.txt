@@ -1,0 +1,7 @@
+[console_scripts]
+defederate = defederate.cli:main
+
+[defederate.api]
+markdown = defederate.api.markdown:MarkdownAPI
+mastodon3 = defederate.api.mastodon3:Mastodon3API
+mastodon4 = defederate.api.mastodon4:Mastodon4API
