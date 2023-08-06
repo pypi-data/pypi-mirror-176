@@ -1,0 +1,3 @@
+[console_scripts]
+runserver = wanghe20:run_server
+
