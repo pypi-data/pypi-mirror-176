@@ -1,0 +1,3 @@
+[console_scripts]
+track-job=track.cli:entry
+
