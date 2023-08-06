@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: voila-vuetify
+Version: 0.6.0
+Summary: A vuetify template for Voila
+Home-page: https://github.com/voila-dashboards/voila-vuetify
+Author: Mario Buikhuizen, Maarten Breddels
+Author-email: mbuikhuizen@gmail.com, maartenbreddels@gmail.com
+License: BSD License
+Keywords: ipython,jupyter,widgets,voila
+License-File: LICENSE
