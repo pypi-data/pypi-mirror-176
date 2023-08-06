@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: zipfile-inflate64
+Version: 0.1
+Summary: Extract Enhanced Deflate ZIP archives with Python's zipfile API.
+Author-email: Hiroshi Miura <miurahr@linux.com>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://zipfile-inflate64.readthedocs.io/
+Project-URL: Documentation, https://zipfile-inflate64.readthedocs.io/en/stable/
+Project-URL: Bug Tracker, https://codeberg.org/miurahr/zipfile-inflate64/issues
+Project-URL: Source, https://codeberg.org/miurahr/zipfile-inflate64
+Project-URL: Changelog, https://zipfile-inflate64.readthedocs.io/en/latest/changelog.html
+Keywords: zip,zipfile,deflate,deflate64,inflate64
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Compression
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: inflate64 (>=0.3.1) ; python_version > "3.6"
+Provides-Extra: check
+Requires-Dist: mypy (>=0.940) ; extra == 'check'
+Requires-Dist: mypy-extensions (>=0.4.1) ; extra == 'check'
+Requires-Dist: check-manifest ; extra == 'check'
+Requires-Dist: flake8 ; extra == 'check'
+Requires-Dist: flake8-black ; extra == 'check'
+Requires-Dist: flake8-deprecated ; extra == 'check'
+Requires-Dist: flake8-isort ; extra == 'check'
+Requires-Dist: isort (>=5.0.3) ; extra == 'check'
+Requires-Dist: pygments ; extra == 'check'
+Requires-Dist: readme-renderer ; extra == 'check'
+Requires-Dist: twine ; extra == 'check'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=5.0) ; extra == 'docs'
+Requires-Dist: docutils ; extra == 'docs'
+
+=================
+zipfile-inflate64
+=================
+
+.. image:: https://dev.azure.com/miurahr/CodeBerg/_apis/build/status/CodeBerg-zipfile-inflate64-CI?branchName=releases
+    :target: https://dev.azure.com/miurahr/CodeBerg
+    :alt: Test Status
+
+.. image:: https://readthedocs.org/projects/zipfile-inflate64/badge/?version=latest
+    :target: https://zipfile-inflate64.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+Extract Enhanced Deflate ZIP archives with Python's ``zipfile`` API.
+
+Installation
+============
+
+.. code-block:: python
+
+   pip install zipfile-inflate64
+
+
+Usage
+=====
+
+Anywhere in a Python codebase:
+
+.. code-block:: python
+
+   import zipfile_inflate64  # This has the side effect of patching the zipfile module to support Enhanced Deflate
+
+
+Alternatively, `zipfile_inflate64` re-exports the `zipfile` API, as a convenience:
+
+.. code-block:: python
+
+   import zipfile_inflate64 as zipfile
+
+   zipfile.ZipFile(...)
+
+
+Design Rationale
+================
+
+The Problem
+-----------
+
+Recent versions of Microsoft Windows Explorer
+[use Deflate64 compression when creating ZIP files larger than 2GB](https://github.com/dotnet/runtime/issues/17802#issuecomment-231808916).
+With the ubiquity of Windows and the ease of using "Sent to compressed folder", a majority of newly-created large
+ZIP files use Deflate64 compression.
+
+Solution
+--------
+
+Python package [inflate64](https://pypi.org/project/inflate64/) provide compression(deflate) and decompression(inflate)
+by Enhanced Deflate, aka Deflate64, procedure.
+
+To manage ZIP archive extraction operations, the Python standard library
+[zipfile](https://docs.python.org/3/library/zipfile.html) module provides the essential features and is already
+ubiquitous in availability and usage. However, zipfile is difficult to extend, as it hardcodes many conditionals for
+compression formats and does not provide capabilities for easily augmenting or replacing parts of it. Monkey-patching
+can overcome some of these problems, and the promise of a drop-in, API-compatible patch to a standard library module
+outweighed the engineering benefits of basing a solution off a more naturally extensible third-party ZIP manipulation
+package.
+
+History
+-------
+
+Zipfile-deflate64 realize extraction of zipfile compressed with DEFLATE64(tm) algorithm by binding with infback9
+extension in zlib.
+
+zipfile-inflate64 is a fork that use inflate64 python package to realize compress and decompress of archives.
+
+Copyright & License
+===================
+
+zipfile-inflate64 is distributed under GNU General Public License Version 3.0 or (in your choice) later.
+
+zipfile-deflate64 is distributed under Apache-2.0 license.
+which authored by Kitware, Inc.
