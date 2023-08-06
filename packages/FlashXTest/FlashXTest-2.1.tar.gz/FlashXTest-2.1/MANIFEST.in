@@ -1,0 +1,13 @@
+include README.rst
+include LICENSE
+include FlashXTest/backend/FlashTest/*
+include FlashXTest/backend/FlashTest/lib/*
+include FlashXTest/backend/FlashTest/scripts/*
+include FlashXTest/backend/FlashTest/scripts/restarttest/*
+include FlashXTest/backend/FlashTest/ERROR
+include FlashXTest/backend/FlashTest/error.sh
+include FlashXTest/backend/FlashTest/exeScript
+include FlashXTest/backend/FlashTest/configBase
+include FlashXTest/backend/FlashTest/configTemplate
+include FlashXTest/backend/FlashTest/scripts/changeInfoFiles
+include FlashXTest/backend/FlashTest/scripts/restarttest/restarttest.sh
