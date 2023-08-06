@@ -1,0 +1,13 @@
+sqlalchemy_iris/__init__.py,sha256=yP8vnxNUOxdk0sibJGVsTjm8KIg3sqDiLn_fxM9ryMo,237
+sqlalchemy_iris/base.py,sha256=hq10WYL-zrY0nNyirQg4xiOTJIz5Nnk6mWfnwtDK1Rc,31673
+sqlalchemy_iris/information_schema.py,sha256=N6T4sglRfIKeCsv2L-cEnecOQ7hxwxH7NltNj6E7Tu0,5913
+sqlalchemy_iris/iris.py,sha256=CO-DjTvDXXOHaPUIEfhMniOCKpWQfv_d0A9ujF90ans,155
+sqlalchemy_iris/provision.py,sha256=drorbIgNO770Ws0XiCRXY_sDbQGIy2_zzNK3KYrDetY,198
+sqlalchemy_iris/requirements.py,sha256=6Wzm_uvPRRgznMMbd2FTopHPi6btnQBtImrORK1hhAg,3584
+sqlalchemy_iris/types.py,sha256=7xUv7wze-93OJFP4dZxM23S5bxYPLg3vAcns0D0Tn8g,3873
+sqlalchemy_iris-0.3.1b2.dist-info/LICENSE,sha256=RQmigqltsLq8lfOBc_KwtL0gkODyUCNpU-0ZiZwGlho,1075
+sqlalchemy_iris-0.3.1b2.dist-info/METADATA,sha256=I6NVX8ulRWaNLHj6Epvb_SveVLCantkOsvz_80S6bks,2335
+sqlalchemy_iris-0.3.1b2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sqlalchemy_iris-0.3.1b2.dist-info/entry_points.txt,sha256=yo7qcPY5DKqofaiYQfZmfws0EHxRecgwI9ojrKJTkjQ,67
+sqlalchemy_iris-0.3.1b2.dist-info/top_level.txt,sha256=tgokQjAfFuPjWy4ow5qp2dlhmPsZmE2O5UKwGMF3lhg,16
+sqlalchemy_iris-0.3.1b2.dist-info/RECORD,,
