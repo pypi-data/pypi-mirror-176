@@ -1,0 +1,1181 @@
+Metadata-Version: 2.1
+Name: ezcode
+Version: 0.1.5
+Summary: Easy Algorithm & Data Structure
+Home-page: https://github.com/zheng-gao/ez_code
+Author: Zheng Gao
+Author-email: mail.zheng.gao@gmail.com
+Project-URL: Bug Tracker, https://github.com/zheng-gao/ez_code/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bit
+### bool_list_to_number
+```python
+>>> from ezcode.bit import bool_list_to_number
+>>> bool_list_to_number([True, False, True, False])
+10
+>>> bool_list_to_number([True, False, True, False], reverse=True)
+5
+```
+# Knapsack
+
+Given a knapsack with capacity <strong><em>C</em></strong> and items with sizes <strong><em>S<sub>0</sub>, S<sub>1</sub>, S<sub>2</sub>, ...</em></strong>, values <strong><em>V<sub>0</sub>, V<sub>1</sub>, V<sub>2</sub>, ...</em></strong>, quantities <strong><em>Q<sub>0</sub>, Q<sub>1</sub>, Q<sub>2</sub>, ...</strong> or unlimited quantities<br>
+1. [What's the max number of items can you put into the knapsack?](#q1-whats-the-max-number-of-items-can-you-put-into-the-knapsack)
+2. [What's the max total size of items can you put into the knapsack?](#q2-whats-the-max-total-size-of-items-can-you-put-into-the-knapsack)
+3. [What's the max total value of items can you put into the knapsack?](#q3-whats-the-max-total-value-of-items-can-you-put-into-the-knapsack)
+4. [Can you fully fill the knapsack?](#q4-can-you-fully-fill-the-knapsack)
+5. [What's the min/max number of items can you fully fill the knapsack?](#q5-whats-the-minmax-number-of-items-can-you-fully-fill-the-knapsack)
+6. [What's the min/max total value of items can you fully fill the knapsack?](#q6-whats-the-minmax-total-value-of-items-can-you-fully-fill-the-knapsack)
+7. [Find all different ways to fully fill the knapsack](#q7-find-all-different-ways-to-fully-fill-the-knapsack)<br>
+
+## Q1. What's the max number of items can you put into the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, Q = 11, [2, 1, 5, 7], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=1, min_max=max, fill_to_capacity=False)
+(3, [0, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=Q, min_max=max, fill_to_capacity=False)
+(5, [0, 0, 1, 1, 2])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=None, min_max=max, fill_to_capacity=False)
+(11, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+```
+Explanation:<br>
+Set all the values to 1<br>
+If each item can only be used once, we can put 3 items into the knapsack: item 0, 1, 3<br>
+For limited quantity, we can put 5 items into the knapsack: item 0, 0, 1, 1, 2 (item 0 and 1 shows up twice)<br>
+For unlimited quantity, we can put 11 item 1 into the knapsack<br>
+
+## Q2. What's the max total size of items can you put into the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, Q = 11, [2, 1, 5, 7], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=1, min_max=max, fill_to_capacity=False)
+(10, [0, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=Q, min_max=max, fill_to_capacity=False)
+(11, [0, 1, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=None, min_max=max, fill_to_capacity=False)
+(11, [1, 1, 1, 1, 3])
+```
+Explanation:<br>
+Set the values the same as the sizes<br>
+If each item can only be used once, we can fill the knapsack to size 10 with item 0, 1, 3<br>
+For limited quantity, we can fill the knapsack to size 11 with item 0, 1, 1, 3 (item 1 shows up twice)<br>
+For unlimited quantity, we can fill the knapsack to size 11 with item 1, 1, 1, 1, 3 (item 1 shows up 4 times)<br>
+
+## Q3. What's the max total value of items can you put into the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, V, Q = 11, [2, 1, 5, 7], [1, 2, 2, 5], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=1, min_max=max, fill_to_capacity=False)
+(8, [0, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=Q, min_max=max, fill_to_capacity=False)
+(10, [0, 1, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=None, min_max=max, fill_to_capacity=False)
+(22, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+```
+Explanation:<br>
+If each item can only be used once, we can fill the knapsack to value 8 with item 0, 1, 3<br>
+For limited quantity, we can fill the knapsack to value 10 with item 0, 1, 1, 3 (item 1 shows up twice)<br>
+For unlimited quantity, we can fill the knapsack to value 22 with 11 item 1<br>
+
+## Q4. Can you fully fill the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, Q = 11, [2, 1, 5, 7], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=1, min_max=max, fill_to_capacity=True)
+(None, [])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=Q, min_max=max, fill_to_capacity=True)
+(11, [0, 1, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=S, quantities=None, min_max=max, fill_to_capacity=True)
+(11, [1, 1, 1, 1, 3])
+```
+Explanation:<br>
+Set the values the same as the sizes<br>
+If each item can only be used once, we can not fully fill the knapsack<br>
+For limited quantity, we can fully fill the knapsack with item 0, 1, 1, 3 (item 1 shows up twice)<br>
+For unlimited quantity, we can fully fill the knapsack with item 1, 1, 1, 1, 3 (item 1 shows up 4 times)<br>
+
+## Q5. What's the min/max number of items can you fully fill the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, Q = 11, [2, 1, 5, 7], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=1, min_max=min, fill_to_capacity=True)
+(None, [])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=1, min_max=max, fill_to_capacity=True)
+(None, [])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=Q, min_max=min, fill_to_capacity=True)
+(3, [0, 0, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=Q, min_max=max, fill_to_capacity=True)
+(5, [0, 0, 1, 1, 2])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=None, min_max=min, fill_to_capacity=True)
+(3, [0, 0, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=[1] * len(S), quantities=None, min_max=max, fill_to_capacity=True)
+(11, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+```
+Explanation:<br>
+Set all the values to 1<br>
+If each item can only be used once, we cannot fully fill the knapsack<br>
+For limited quantity, we can fully fill the knapsack with minimum 3 items: 0, 0, 3 (item 0 shows up twice)<br>
+For limited quantity, we can fully fill the knapsack with maximum 5 items: 0, 0, 1, 1, 2 (item 0 and 1 shows up twice)<br>
+For unlimited quantity, we can fully fill the knapsack with minimum 3 items: 0, 0, 3 (item 0 shows up twice)<br>
+For unlimited quantity, we can fully fill the knapsack with maximum 11 item 1<br>
+
+## Q6. What's the min/max total value of items can you fully fill the knapsack?
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, V, Q = 11, [2, 1, 5, 7], [1, 2, 2, 5], [3, 2, 2, 2]
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=1, min_max=min, fill_to_capacity=True)
+(None, [])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=1, min_max=max, fill_to_capacity=True)
+(None, [])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=Q, min_max=min, fill_to_capacity=True)
+(5, [0, 0, 0, 2])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=Q, min_max=max, fill_to_capacity=True)
+(10, [0, 1, 1, 3])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=None, min_max=min, fill_to_capacity=True)
+(5, [0, 0, 0, 2])
+>>> Knapsack.best_value(capacity=C, sizes=S, values=V, quantities=None, min_max=max, fill_to_capacity=True)
+(22, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+```
+Explanation:<br>
+If each item can only be used once, we cannot fully fill the knapsack<br>
+For limited quantity, we can fully fill the knapsack with minimum value 5: item 0, 0, 0, 2 (item 0 shows up 3 times)<br>
+For limited quantity, we can fully fill the knapsack with maximum value 10: item 0, 1, 1, 3 (item 1 shows up twice)<br>
+For unlimited quantity, we can fully fill the knapsack with minimum value 5: item 0, 0, 0, 2 (item 0 shows up 3 times)<br>
+For unlimited quantity, we can fully fill the knapsack with maximum value 22 with 11 item 1<br>
+
+## Q7. Find all different ways to fully fill the knapsack
+```python
+>>> from ezcode.dp.knapsack import Knapsack
+>>> C, S, Q = 11, [2, 1, 5, 7], [3, 2, 2, 2]
+>>> Knapsack.ways_to_fill(capacity=C, sizes=S, quantities=1)
+(0, None)
+>>> Knapsack.ways_to_fill(capacity=C, sizes=S, quantities=Q)
+(5, [[0, 0, 0, 2], [0, 0, 1, 1, 2], [1, 2, 2], [0, 0, 3], [0, 1, 1, 3]])
+>>> Knapsack.ways_to_fill(capacity=C, sizes=S, quantities=None)
+(14, [
+   [0, 0, 0, 0, 0, 1],
+   [0, 0, 0, 0, 1, 1, 1],
+   [0, 0, 0, 1, 1, 1, 1, 1],
+   [0, 0, 1, 1, 1, 1, 1, 1, 1],
+   [0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+   [0, 0, 0, 2],
+   [0, 0, 1, 1, 2],
+   [0, 1, 1, 1, 1, 2],
+   [1, 1, 1, 1, 1, 1, 2],
+   [1, 2, 2],
+   [0, 0, 3],
+   [0, 1, 1, 3],
+   [1, 1, 1, 1, 3]
+])
+```
+Explanation:<br>
+If each item can only be used once, we cannot fully fill the knapsack<br>
+For limited quantity, there are 5 ways to fully fill the knapsack<br>
+For unlimited quantity, there are 14 ways to fully fill the knapsack<br>
+
+## Grid Iterator
+```python
+>>> from ezcode.grid.iterator import GridIteratorFactory
+>>> grid = [
+...     [1, 2, 3],
+...     [8, 9, 4],
+...     [7, 6, 5]
+... ]
+
+>>> for data in GridIteratorFactory.get(grid, 1, 0, iterator="horizontal"):
+...     print(data, end=" ")
+... 
+8 9 4
+
+>>> for data in GridIteratorFactory.get(grid, 2, 2, iterator="vertical", reverse=True):
+...     print(data, end=" ")
+... 
+5 4 3
+
+>>> for data in GridIteratorFactory.get(grid, 0, 0, iterator="major_diagonal"):
+...     print(data, end=" ")
+... 
+1 9 5
+
+>>> for data in GridIteratorFactory.get(grid, 0, 2, iterator="minor_diagonal", reverse=True):
+...     print(data, end=" ")
+... 
+3 9 7
+
+>>> for data in GridIteratorFactory.get(grid, 0, 0, iterator="spiral"):
+...     print(data, end=" ")
+... 
+1 2 3 4 5 6 7 8 9
+
+>>> for data in GridIteratorFactory.get(grid, 0, 2, row_end=1, col_end=2, iterator="spiral", reverse=True):
+...     print(data, end=" ")
+... 
+3 2 1 8 7 6 5 4
+```
+### Connect-5 Validation
+```python
+>>> from ezcode.grid.iterator import GridIteratorFactory, MinorDiagonalIterator
+>>> def check(iterator, color, target=5):
+...     count = 0
+...     for c in iterator:
+...         count += 1 if c == color else -count
+...         if count == target:
+...             return True
+...     return False
+... 
+>>> def who_win(grid):
+...     iterators = [
+...         GridIteratorFactory.get(grid, iterator="major_diagonal"),
+...         GridIteratorFactory.get(grid, iterator="minor_diagonal")
+...     ]
+...     for row in range(len(grid)):
+...         for color in ['W', 'B']:
+...             for iterator in iterators + [GridIteratorFactory.get(grid, iterator="horizontal")]:
+...                 iterator.row, iterator.col = row, 0
+...                 if check(iterator, color):
+...                     return color
+...     for col in range(len(grid[0])):
+...         for color in ['W', 'B']:
+...             for iterator in iterators + [GridIteratorFactory.get(grid, iterator="vertical")]:
+...                 iterator.row = len(grid) - 1 if isinstance(iterator, MinorDiagonalIterator) else 0
+...                 iterator.col = col
+...                 if check(iterator, color):
+...                     return color
+...     return None
+... 
+>>> print(who_win([
+...     [' ', 'B', ' ', 'W', ' ', ' '],
+...     [' ', 'B', 'W', ' ', ' ', ' '],
+...     [' ', 'W', 'B', ' ', 'W', ' '],
+...     ['B', 'W', 'B', 'B', ' ', ' '],
+...     [' ', 'W', 'W', 'W', 'B', ' '],
+...     [' ', ' ', ' ', ' ', ' ', 'B'],
+... ]))
+B
+>>> print(who_win([
+...     [' ', 'B', 'W', 'B', ' ', ' '],
+...     [' ', 'B', 'W', 'B', ' ', 'W'],
+...     ['B', 'W', 'B', 'B', 'W', ' '],
+...     ['B', 'W', 'B', 'W', ' ', ' '],
+...     [' ', 'W', 'W', 'W', 'B', ' '],
+...     [' ', 'W', 'B', ' ', ' ', ' '],
+... ]))
+W
+```
+
+## Path Finder
+```python
+>>> from ezcode.grid import Grid
+>>> grid = Grid(
+...     [
+...         [1, 1, 1, 1, 1, 0, 0],
+...         [1, 0, 0, 0, 0, 0, 0],
+...         [0, 0, 1, 1, 0, 1, 0],
+...         [1, 0, 0, 0, 0, 0, 0],
+...         [0, 0, 1, 1, 0, 0, 0],
+...         [0, 0, 0, 0, 0, 1, 1],
+...         [0, 1, 1, 0, 0, 1, 0]
+...     ]
+... )
+>>> 
+>>> source, destination, valid_values = (1, 3), (5, 2), set([0])
+>>> 
+>>> path = grid.dfs(source, destination, valid_values)
+>>> grid.print(layers=[
+...     {"value": "2", "nodes": path},
+...     {"value": "S", "nodes": [source]},
+...     {"value": "D", "nodes": [destination]},
+... ])
+"""
+1111100
+100S222
+0011012
+1222222
+0211000
+02D0011
+0110010
+"""
+>>> path = grid.bfs(source, destination, valid_values)
+>>> grid.print(layers=[
+...     {"value": "2", "nodes": path},
+...     {"value": "S", "nodes": [source]},
+...     {"value": "D", "nodes": [destination]},
+... ])
+"""
+1111100
+122S000
+0211010
+1200000
+0211000
+02D0011
+0110010
+"""
+>>> path = grid.dijkstra(source, destination, valid_values)
+>>> grid.print(layers=[
+...     {"value": "2", "nodes": path},
+...     {"value": "S", "nodes": [source]},
+...     {"value": "D", "nodes": [destination]},
+... ])
+"""
+1111100
+122S000
+0211010
+1200000
+0211000
+02D0011
+0110010
+"""
+>>> path = grid.a_star(source, destination, valid_values)
+>>> grid.print(layers=[
+...     {"value": "2", "nodes": path},
+...     {"value": "S", "nodes": [source]},
+...     {"value": "D", "nodes": [destination]},
+... ])
+"""
+1111100
+100S200
+0011210
+1000200
+0011200
+00D2211
+0110010
+"""
+>>> paths = grid.dfs_backtracking(source, destination, valid_values)
+>>> i, layers = 2, list()
+>>> for p in paths:
+...     layers.append({"value": i, "nodes": p})
+... 
+>>> layers.append({"value": "S", "nodes": [source]})
+>>> layers.append({"value": "D", "nodes": [destination]})
+>>> grid.print(layers=layers)
+"""
+1111100
+122S300
+0211310
+1200300
+0211300
+02D3311
+0110010
+"""         
+```
+# Hash
+```python
+>>> from ezcode.hash import hash_encode, hash_decode
+>>> hash_encode([1, 2, 3, 4])
+60730
+>>> hash_decode(60730, 4)
+[1, 2, 3, 4]
+```
+## Priority Queue
+
+### Min Priority Queue
+
+```python
+>>> from ezcode.heap import PriorityQueue
+>>> min_pq = PriorityQueue()
+>>> for data in [("D", 4), ("C", 3), ("E", 5), ("A", 1), ("B", 2)]:
+...     min_pq.push(data)
+...     print(min_pq.top(with_priority=True))
+... 
+('D', 4)
+('C', 3)
+('C', 3)
+('A', 1)
+('A', 1)
+
+>>> while len(min_pq) > 0:
+...     print(min_pq.pop(with_priority=True))
+... 
+('A', 1)
+('B', 2)
+('C', 3)
+('D', 4)
+('E', 5)
+```
+
+### Max Priority Queue
+
+```python
+>>> from ezcode.heap import PriorityQueue
+>>> max_pq = PriorityQueue(min_heap=False)
+>>> for data in [("D", 4), ("C", 3), ("E", 5), ("A", 1), ("B", 2)]:
+...     max_pq.push(data)
+...     print(max_pq.top(with_priority=True))
+... 
+('D', 4)
+('D', 4)
+('E', 5)
+('E', 5)
+('E', 5)
+
+>>> while len(max_pq) > 0:
+...     print(max_pq.pop(with_priority=True))
+... 
+('E', 5)
+('D', 4)
+('C', 3)
+('B', 2)
+('A', 1)
+```
+
+## Priority Map
+
+### Min Priority Map
+
+```python
+>>> from ezcode.heap import PriorityMap
+>>> min_map = PriorityMap()
+>>> for data in [("D", 4), ("C", 3), ("E", 5), ("A", 1), ("B", 2)]:
+...     min_map.push(data)
+...     min_map.top(with_priority=True)
+... 
+('D', 4)
+('C', 3)
+('C', 3)
+('A', 1)
+('A', 1)
+
+>>> for key in ["B", "F"]:
+...     print(f"{key} in min_map: {key in min_map}")
+... 
+B in min_map: True
+F in min_map: False
+
+>>> min_map["C"]
+3
+>>> min_map.update("E", 0)
+>>> min_map.top(with_priority=True)
+('E', 0)
+>>> min_map["B"] = 6
+>>> del min_map["C"]
+>>> while len(min_map) > 0:
+...     min_map.pop(with_priority=True)
+... 
+('E', 0)
+('A', 1)
+('D', 4)
+('B', 6)
+
+>>> print(PriorityMap({"A": 1, "B": 2, "C": 3}))
+[('A', 1), ('B', 2), ('C', 3)]
+```
+
+### Max Priority Map
+
+```python
+>>> from ezcode.heap import PriorityMap
+>>> max_map = PriorityMap(min_heap=False)
+>>> for data in [("D", 4), ("C", 3), ("E", 5), ("A", 1), ("B", 2)]:
+...     max_map.push(data)
+...     max_map.top(with_priority=True)
+... 
+('D', 4)
+('D', 4)
+('E', 5)
+('E', 5)
+('E', 5)
+
+>>> for key in ["B", "F"]:
+...     print(f"{key} in max_map: {key in max_map}")
+... 
+B in max_map: True
+F in max_map: False
+
+>>> max_map["C"]
+3
+>>> 
+>>> max_map.update("E", 0)
+>>> max_map.top(with_priority=True)
+('D', 4)
+>>> max_map["B"] = 6
+>>> del min_map["C"]
+>>> while len(max_map) > 0:
+...     max_map.pop(with_priority=True)
+... 
+('B', 6)
+('D', 4)
+('A', 1)
+('E', 0)
+
+>>> print(PriorityMap({"A": 1, "B": 2, "C": 3}, min_heap=False))
+[('C', 3), ('A', 1), ('B', 2)]
+```
+# Interval
+## overlap
+```python
+>>> from ezcode.interval import Interval
+>>> Interval(1, 5).overlap(Interval(3, 6))
+True
+>>> Interval(1, 2).overlap(Interval(3, 6))
+False
+>>> Interval(1, 5).overlap(Interval(3, 4))
+True
+>>> Interval(1, 3).overlap(Interval(3, 5))
+True
+>>> Interval(1, 3, right_open=True).overlap(Interval(3, 5))
+False
+```
+## merge
+```python
+>>> print(Interval(1, 2).merge(Interval(2, 3, left_open=True)))
+None
+>>> Interval(1, 2, data=100).merge(Interval(2, 3, data=200), merge_data=lambda x,y: x+y)
+Interval(1, 3, data=300)
+```
+## intersect
+```python
+>>> print(Interval(1, 2).intersect(Interval(2, 3, left_open=True)))
+None
+>>> Interval(1, 2, data=100).intersect(Interval(2, 3, data=200), intersect_data=min)
+Interval(2, 2, data=100)
+```
+## merge_intervals
+```python
+>>> from ezcode.interval import Interval
+>>> from ezcode.interval.algorithm import merge_intervals
+>>> merge_intervals([Interval(3, 4), Interval(1, 2), Interval(2, 5),Interval(7, 9), Interval(8, 9), Interval(6, 8)])
+[Interval(1, 5), Interval(6, 9)]
+```
+## overlapping_interval_pairs
+```python
+>>> from ezcode.interval import Interval
+>>> from ezcode.interval.algorithm import overlapping_interval_pairs
+>>> pairs = overlapping_interval_pairs([Interval(1, 2), Interval(2, 3), Interval(3, 4)])
+>>> for p in pairs:
+...     print(p)
+... 
+(Interval(1, 2), Interval(2, 3))
+(Interval(2, 3), Interval(3, 4))
+```
+## min_groups_of_non_overlapping_intervals
+```python
+>>> from ezcode.interval import Interval
+>>> from ezcode.interval.algorithm import min_groups_of_non_overlapping_intervals
+>>> intervals = [Interval(3, 4), Interval(1, 2), Interval(2, 5), Interval(7, 9), Interval(8, 9), Interval(6, 8)]
+>>> groups = min_groups_of_non_overlapping_intervals(intervals)
+>>> for group in groups:
+...     print(group)
+... 
+[Interval(1, 2), Interval(3, 4), Interval(6, 8)]
+[Interval(2, 5), Interval(7, 9)]
+[Interval(8, 9)]
+```
+## SinglyLinkedList
+
+```python
+>>> from ezcode.list.linked_list import SinglyLinkedList
+>>> class Node:
+...     def __init__(self, v=None, n=None):
+...         self.v = v
+...         self.n = n
+... 
+>>> head = Node(0, Node(1, Node(2, Node(3, Node(4, Node(5, Node(6, Node(7))))))))
+>>> s_list = SinglyLinkedList(head=head, data_name="v", next_name="n")
+>>> print(s_list)
+0 ─> 1 ─> 2 ─> 3 ─> 4 ─> 5 ─> 6 ─> 7 ─> None
+>>> c_list = s_list.copy()
+>>> print(c_list)
+0 ─> 1 ─> 2 ─> 3 ─> 4 ─> 5 ─> 6 ─> 7 ─> None
+>>> c_list.reverse(start_index=2, end_index=5)
+>>> print(c_list)
+0 ─> 1 ─> 5 ─> 4 ─> 3 ─> 2 ─> 6 ─> 7 ─> None
+>>> s_list.reverse(start_index=4)
+>>> print(s_list)
+0 ─> 1 ─> 2 ─> 3 ─> 7 ─> 6 ─> 5 ─> 4 ─> None
+>>> s_list.reverse(end_index=1)
+>>> print(s_list)
+1 ─> 0 ─> 2 ─> 3 ─> 7 ─> 6 ─> 5 ─> 4 ─> None
+```
+
+## LRU Cache
+
+```python
+>>> from ezcode.list.lru_cache import LRUCache
+>>> cache = LRUCache(capacity=3)
+>>> cache.put(key=1, value="One")
+>>> cache.put(key=2, value="Two")
+>>> cache.put(key=3, value="Three")
+>>> print(cache.get(1))
+One
+>>> cache.put(key=4, value="Four")
+>>> print(cache.get(2))
+None
+```
+
+## Monotonic Queue
+
+### Monotonic Increasing Queue
+```python
+>>> from ezcode.list.queue import MonotonicQueue
+>>> mq = MonotonicQueue()
+>>> for number in [5, 3, 1, 2, 4]:
+...     mq.push(number)
+...     print(mq)
+... 
+5
+3
+1
+1 <─ 2
+1 <─ 2 <─ 4
+```
+### Monotonic Decreasing Queue
+```python
+>>> from ezcode.list.queue import MonotonicQueue
+>>> mq = MonotonicQueue(is_increasing=False)
+>>> for number in [5, 3, 1, 2, 4]:
+...     mq.push(number)
+...     print(mq)
+... 
+5
+5 <─ 3
+5 <─ 3 <─ 1
+5 <─ 3 <─ 2
+5 <─ 4
+```
+# Permutations
+
+```python
+>>> from ezcode.array.utils import print_array
+>>> from ezcode.math.discrete import permutations
+>>> print_array(permutations(items=["A","A","B","B","C"], selection_size=3))
+[
+    ['A', 'A', 'B'],
+    ['A', 'A', 'C'],
+    ['A', 'B', 'A'],
+    ['A', 'B', 'B'],
+    ['A', 'B', 'C'],
+    ['A', 'C', 'A'],
+    ['A', 'C', 'B'],
+    ['B', 'A', 'A'],
+    ['B', 'A', 'B'],
+    ['B', 'A', 'C'],
+    ['B', 'B', 'A'],
+    ['B', 'B', 'C'],
+    ['B', 'C', 'A'],
+    ['B', 'C', 'B'],
+    ['C', 'A', 'A'],
+    ['C', 'A', 'B'],
+    ['C', 'B', 'A'],
+    ['C', 'B', 'B'],
+]
+
+>>> from ezcode.math.discrete import next_lexicographic_permutation
+>>> next_lexicographic_permutation(['A', 'A', 'B'])
+['A', 'B', 'A']
+```
+
+# Combinations
+
+```python
+>>> from ezcode.array.utils import print_array
+>>> from ezcode.math.discrete import combinations, all_subsets
+>>> print_array(combinations(items=["A","A","B","B","C"], selection_size=3))
+[
+    ['A', 'A', 'B'],
+    ['A', 'A', 'C'],
+    ['A', 'B', 'B'],
+    ['A', 'B', 'C'],
+    ['B', 'B', 'C'],
+]
+>>> print_array(all_subsets(items=["A","A","B","B","C"]))
+[
+    [],
+    ['A'],
+    ['B'],
+    ['C'],
+    ['A', 'A'],
+    ['A', 'B'],
+    ['A', 'C'],
+    ['B', 'B'],
+    ['B', 'C'],
+    ['A', 'A', 'B'],
+    ['A', 'A', 'C'],
+    ['A', 'B', 'B'],
+    ['A', 'B', 'C'],
+    ['B', 'B', 'C'],
+    ['A', 'A', 'B', 'B'],
+    ['A', 'A', 'B', 'C'],
+    ['A', 'B', 'B', 'C'],
+    ['A', 'A', 'B', 'B', 'C'],
+]
+```
+
+# Partitions
+
+```python
+>>> from ezcode.array.utils import print_array
+>>> from ezcode.math.discrete import partitions
+>>> print_array(partitions([1, 2, 3, 4]))
+[
+    [
+        [1, 2, 3, 4],
+    ],
+    [
+        [1],
+        [2, 3, 4],
+    ],
+    [
+        [1],
+        [2],
+        [3, 4],
+    ],
+    [
+        [1],
+        [2],
+        [3],
+        [4],
+    ],
+    [
+        [1],
+        [2, 3],
+        [4],
+    ],
+    [
+        [1, 2],
+        [3, 4],
+    ],
+    [
+        [1, 2],
+        [3],
+        [4],
+    ],
+    [
+        [1, 2, 3],
+        [4],
+    ],
+]
+```
+
+# Enumerations
+
+```python
+>>> from ezcode.array.utils import print_array
+>>> from ezcode.math.discrete import enumerations
+>>> print_array(enumerations([['a', 'b'], ['X', 'Y'], [1, 2, 3]]))
+[
+    [a, X, 1],
+    [a, X, 2],
+    [a, X, 3],
+    [a, Y, 1],
+    [a, Y, 2],
+    [a, Y, 3],
+    [b, X, 1],
+    [b, X, 2],
+    [b, X, 3],
+    [b, Y, 1],
+    [b, Y, 2],
+    [b, Y, 3],
+]
+```
+
+# Calculator
+```python
+>>> from ezcode.math.calculator import infix_notation_to_reverse_polish_notation
+>>> from ezcode.math.calculator import evaluate_reverse_polish_notation
+>>> from ezcode.math.calculator import calculate
+>>> arithmetic_expression = "-2/-1 + √4! * ((-1 + 5)-2)/2"
+>>> rpn = infix_notation_to_reverse_polish_notation(arithmetic_expression)
+>>> print(rpn)
+[-2, -1, '/', 4, '!', '√', -1, 5, '+', 2, '-', '*', 2, '/', '+']
+
+>>> evaluate_reverse_polish_notation(rpn)
+6.898979485566356
+
+>>> calculate(arithmetic_expression)
+6.898979485566356
+```
+# Binary Tree
+
+## Binary Tree Printer
+
+```python
+>>> class Node:
+...     def __init__(self, v=None, l=None, r=None):
+...         self.v = v
+...         self.l = l
+...         self.r = r
+... 
+>>> from ezcode.tree.printer import BinaryTreePrinter
+>>> root = Node(0, Node(1, Node(3, r=Node(7)), Node(4)), Node(2, Node(5, Node(8), Node(9)), Node(6)))
+>>> printer = BinaryTreePrinter(data_name="v", left_name="l", right_name="r")
+>>> printer.print(root)
+
+       ┌──────────(0)──────────┐       
+ ┌────(1)────┐           ┌────(2)────┐ 
+(3)─┐       (4)       ┌─(5)─┐       (6)
+   (7)               (8)   (9)         
+```
+
+## Random Binary Tree
+
+```python
+>>> from ezcode.tree.binary_tree import RandomBinaryTree
+>>> tree = RandomBinaryTree(size=10, lower_bound=-5, upper_bound=10)
+>>> tree.print()
+
+           ┌────────────(3)────────────┐           
+    ┌────(-4)─────┐                   (5)─────┐    
+ ┌─(8)         ┌─(6)                      ┌──(9)─┐ 
+(6)          (-2)                        (2)    (2)
+
+>>> tree.make_tree()
+>>> tree.print()
+
+        ┌────────────(6)────────────┐        
+ ┌─────(7)─────┐             ┌─────(6)─────┐ 
+(9)         ┌─(1)──┐        (9)        ┌──(3)
+           (1)    (5)                (10)    
+```
+
+## Algorithm
+
+### Traversals
+
+```python
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> root = Node(0, Node(1, Node(3, r=Node(7)), Node(4)), Node(2, Node(5, Node(8), Node(9)), Node(6)))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+       ┌──────────(0)──────────┐       
+ ┌────(1)────┐           ┌────(2)────┐ 
+(3)─┐       (4)       ┌─(5)─┐       (6)
+   (7)               (8)   (9)         
+     
+>>> print(f"  Pre-Order: {tree.traversal('pre-order')}")
+>>> print(f"   In-Order: {tree.traversal('in-order')}")
+>>> print(f" Post-Order: {tree.traversal('post-order')}")
+>>> print(f"Level-Order: {tree.traversal('level-order')}")
+
+  Pre-Order: [0, 1, 3, 7, 4, 2, 5, 8, 9, 6]
+   In-Order: [1, 3, 7, 4, 0, 2, 5, 8, 9, 6]
+ Post-Order: [1, 3, 7, 4, 2, 5, 8, 9, 6, 0]
+Level-Order: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+### Lowest Common Ancestor
+
+```python
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> root = Node(0, Node(1, Node(3, r=Node(7)), Node(4)), Node(2, Node(5, Node(8), Node(9)), Node(6)))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+       ┌──────────(0)──────────┐       
+ ┌────(1)────┐           ┌────(2)────┐ 
+(3)─┐       (4)       ┌─(5)─┐       (6)
+   (7)               (8)   (9)         
+
+>>> n6, n7, n8 = root.r.r, root.l.l.r, root.r.l.l
+>>> tree.node_data(tree.lowest_common_ancestor([n6, n8]))
+2
+>>> tree.node_data(tree.lowest_common_ancestor([n6, n7, n8]))
+0
+```
+
+### Subtree Stats
+
+```python
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> root = Node(-2, Node(8, Node(-4, l=Node(-2)), Node(3, l=Node(-1))), Node(-3, l=Node(2, Node(10), Node(7))))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+            ┌───────────(-2)────────────┐ 
+     ┌─────(8)─────┐             ┌────(-3)
+  ┌(-4)         ┌─(3)        ┌──(2)─┐     
+(-2)          (-1)         (10)    (7)    
+
+>>> print(f"Subtree Sum Min: {tree.subtree('sum-min')}")
+>>> print(f"Subtree Sum Max: {tree.subtree('sum-max')}")
+>>> print(f"Subtree Avg Min: {tree.subtree('avg-min')}")
+>>> print(f"Subtree Avg Max: {tree.subtree('avg-max')}")
+
+Subtree Sum Min: -6
+Subtree Sum Max: 19
+Subtree Avg Min: -3.0
+Subtree Avg Max: 10.0
+
+```
+
+### Max Path Sum
+
+```python
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> root = Node(-2, Node(8, Node(-4, l=Node(-2)), Node(3, l=Node(-1))), Node(-3, l=Node(2, Node(10), Node(7))))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+            ┌───────────(-2)────────────┐ 
+     ┌─────(8)─────┐             ┌────(-3)
+  ┌(-4)         ┌─(3)        ┌──(2)─┐     
+(-2)          (-1)         (10)    (7)    
+
+>>> tree.max_path_sum()
+19
+```
+
+### Depth & Balance
+
+```python
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> root = Node(0, Node(0, Node(0), Node(0, r=Node(0))), Node(0, Node(0), Node(0, r=Node(0, l=Node(0)))))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+             ┌──────────────────────(0)──────────────────────┐                   
+ ┌──────────(0)──────────┐                       ┌──────────(0)──────────┐       
+(0)                     (0)────┐                (0)                     (0)────┐ 
+                              (0)                                           ┌─(0)
+                                                                           (0)   
+
+>>> [tree.depth(), tree.is_balanced()]
+[5, False]
+
+>>> root = Node(0, Node(0, Node(0, l=Node(0)), Node(0, r=Node(0))), Node(0, Node(0), Node(0, l=Node(0))))
+>>> tree.root = root
+>>> tree.print()
+
+          ┌──────────(0)──────────┐       
+    ┌────(0)────┐           ┌────(0)────┐ 
+ ┌─(0)         (0)─┐       (0)       ┌─(0)
+(0)               (0)               (0)   
+
+>>> [tree.depth(), tree.is_balanced()]
+[4, True]
+```
+
+### Serialization & Deserialization
+
+```python
+>>> from ezcode.tree.printer import BinaryTreePrinter
+>>> from ezcode.tree.binary_tree import BinaryTree
+>>> printer = BinaryTreePrinter(data_name="v", left_name="l", right_name="r")
+>>> root = Node(1, Node(2), Node(3, Node(4), Node(5)))
+>>> tree = BinaryTree(root, data_name="v", left_name="l", right_name="r")
+>>> tree.print()
+
+ ┌────(1)────┐    
+(2)       ┌─(3)─┐ 
+         (4)   (5)
+
+>>> serialized = tree.serialize(delimiter=",")
+>>> print(serialized)
+
+1,2,3,None,None,4,5,None,None,None,None
+
+>>> printer.print(tree.deserialize(formatter=int, string=serialized, delimiter=","))
+
+ ┌────(1)────┐    
+(2)       ┌─(3)─┐ 
+         (4)   (5)
+```
+
+## Segment Tree
+```python
+>>> from ezcode.tree.binary_tree import SegmentTree
+>>> st = SegmentTree(merge=(lambda x,y:x+y))
+>>> st.build_tree([2, 1, 5, 3, 4])
+>>> st.print()
+
+                       ┌────────────────────([0,4]:15)─────────────────────┐                 
+          ┌────────([0,2]:8)────────┐                         ┌────────([3,4]:7)────────┐    
+    ┌─([0,1]:3)──┐              ([2,2]:5)                 ([3,3]:3)                 ([4,4]:4)
+([0,0]:2)    ([1,1]:1)                                                                       
+
+>>> st.query(1, 3)
+9
+>>> st.update(index=2, data=7)
+>>> st.print()
+
+                       ┌────────────────────([0,4]:17)─────────────────────┐                 
+          ┌───────([0,2]:10)────────┐                         ┌────────([3,4]:7)────────┐    
+    ┌─([0,1]:3)──┐              ([2,2]:7)                 ([3,3]:3)                 ([4,4]:4)
+([0,0]:2)    ([1,1]:1)                                                                       
+
+>>> st.query(1, 3)
+11
+```
+
+
+# Trie
+```python
+>>> from ezcode.tree.trie import Trie
+>>> trie = Trie()
+>>> for word in ["today", "tomorrow", "tonight", "tobaco", "tod", "tony"]:
+...     trie.add(list(word))
+... 
+>>> trie.size()
+6
+>>> trie.print()
+^:6 -> t:6 -> o:6 -> d:2:$ -> a:1 -> y:1:$
+^:6 -> t:6 -> o:6 -> m:1 -> o:1 -> r:1 -> r:1 -> o:1 -> w:1:$
+^:6 -> t:6 -> o:6 -> n:2 -> i:1 -> g:1 -> h:1 -> t:1:$
+^:6 -> t:6 -> o:6 -> n:2 -> y:1:$
+^:6 -> t:6 -> o:6 -> b:1 -> a:1 -> c:1 -> o:1:$
+>>> trie.contains(list("toni"))
+True
+>>> trie.contains(list("tonx"))
+False
+>>> trie.contains(list("toni"), strict=True)
+False
+>>> trie.contains(list("tod"), strict=True)
+True
+>>> "".join(trie.longest_common_prefix())
+'to'
+>>> for word in trie.prefix_wildcard(list("ton")):
+...     print("".join(word))
+... 
+tonight
+tony
+```
+# Suffix Trie
+```python
+>>> from ezcode.tree.trie import SuffixTrie
+>>> suffix_trie = SuffixTrie("abcab")
+>>> suffix_trie.print()
+^:5 -> a:2 -> b:2:$ -> c:1 -> a:1 -> b:1:$
+^:5 -> b:2:$ -> c:1 -> a:1 -> b:1:$
+^:5 -> c:1 -> a:1 -> b:1:$
+```
+
+
+# Forest
+
+## Disjoint Sets
+```python
+>>> from ezcode.tree.forest import DisjointSets
+>>> ds = DisjointSets(set([0, 1, 2, 3, 4, 5, 6]))
+>>> ds.get_max_set_size()
+1
+>>> len(ds)
+7
+>>> ds.union(3, 4)
+True
+>>> ds.union(1, 0)
+True
+>>> ds.union(4, 1)
+True
+>>> ds.get_max_set_size()
+4
+>>> ds.union(4, 0)
+False
+>>> ds.union(5, 2)
+True
+>>> len(ds)
+3
+>>> ds.is_joint(1, 4)
+True
+>>> ds.is_joint(1, 2)
+False
+>>> ds.get_set_size(2)
+2
+>>> ds.get_set_size(1)
+4
+>>> ds.union(2, 3)
+True
+>>> ds.get_max_set_size()
+6
+>>> len(ds)
+2
+>>> ds.is_joint(1, 2)
+True
+>>> ds.is_joint(1, 6)
+False
+>>> ds.get_set_size(2)
+6
+>>> ds.get_set_size(6)
+1
+```
+
+
+## File System
+```python
+>>> from ezcode.tree.file_system import FileSystem
+>>> fs = FileSystem()
+>>> fs.mkdir("/var/tmp", True)
+>>> fs.echo_to("/var/tmp/test.txt", "hello world")
+>>> fs.cd("/var/tmp")
+>>> fs.pwd()
+/var/tmp
+>>> fs.ls()
+[f] test.txt
+>>> fs.cat("test.txt")
+hello world
+>>> fs.cd("../..")
+>>> fs.pwd()
+/
+>>> fs.mkdir("/home")
+>>> for user in ["user_1", "user_2", "user_3"]:
+...     fs.mkdir(f"/home/{user}")
+...     fs.touch(f"/home/{user}/.profile")
+...     fs.echo_to(f"/home/{user}/.profile", f"ID={user}")
+...
+>>> fs.ls("/")
+[d] home
+[d] var
+>>> fs.cd("/home")
+>>> fs.pwd()
+/home
+>>> fs.ls()
+[d] user_1
+[d] user_2
+[d] user_3
+>>> fs.cd("user_1")
+>>> fs.echo_to("test.txt", "hello user_1")
+>>> fs.pwd()
+/home/user_1
+>>> fs.ls()
+[f] .profile
+[f] test.txt
+>>> fs.cat(".profile")
+ID=user_1
+>>> fs.cat("/home/user_3/.profile")
+ID=user_3
+>>> fs.ls("/home/user_3")
+[f] .profile
+>>> fs.rm("/home/user_3")
+>>> fs.cd("..")
+>>> fs.pwd()
+/home
+>>> fs.cat("user_1/test.txt")
+hello user_1
+>>> fs.ls()
+[d] user_1
+[d] user_2
+>>> fs.cd("..")
+>>> fs.pwd()
+/
+>>> fs.tree("home")
+home
+├── user_1
+│   ├── .profile
+│   └── test.txt
+└── user_2
+    └── .profile
+>>> fs.tree()
+/
+├── home
+│   ├── user_1
+│   │   ├── .profile
+│   │   └── test.txt
+│   └── user_2
+│       └── .profile
+└── var
+    └── tmp
+        └── test.txt
+>>> fs.tree("/", 2)
+/
+├── home
+│   ├── user_1
+│   └── user_2
+└── var
+    └── tmp
+```
