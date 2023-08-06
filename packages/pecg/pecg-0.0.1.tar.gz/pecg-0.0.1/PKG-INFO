@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pecg
+Version: 0.0.1
+Summary: pecg: a python toolbox for ECG morphological analysis.
+Home-page: https://github.com/SheinaG/PECG
+Author: sheina Gendelman
+Author-email: sheina@campus.technion.ac.il
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+====
+pebm
+====
+
+
+Add a short description here!
+
+
+Description
+===========
+
+A longer description of your project goes here...
+
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.0.2. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
