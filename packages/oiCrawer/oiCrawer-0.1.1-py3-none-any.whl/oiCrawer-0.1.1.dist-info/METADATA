@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: oiCrawer
+Version: 0.1.1
+Summary: tool for crawing info about website on oier or acmer
+Home-page: https://github.com/CoolGuang/oiCrawer
+Author: CCoolGuang
+Author-email: xwgsocool@gmail.com
+License: Apache
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: lxml (==4.9.1)
+
+
+# oiCrawer
+
+#### 一个用来怕取刷题信息的工具
+1. [x] cf比赛信息爬取
+2. [x] cf个人信息查询
