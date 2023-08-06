@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+starwatchapi/__init__.py
+starwatchapi/starwatchapi.py
+starwatchapi.egg-info/PKG-INFO
+starwatchapi.egg-info/SOURCES.txt
+starwatchapi.egg-info/dependency_links.txt
+starwatchapi.egg-info/top_level.txt
