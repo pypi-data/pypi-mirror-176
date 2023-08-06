@@ -1,0 +1,3 @@
+DEBUGGER = False
+SAFE_DML = False
+DEFAULT_RESULT_SET_TYPE = dict
