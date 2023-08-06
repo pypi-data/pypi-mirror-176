@@ -1,0 +1,9 @@
+coverage
+flit
+hypothesis
+pytest
+pytest-explicit
+pyyaml
+responses
+sphinx
+sphinx_rtd_theme
