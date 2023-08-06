@@ -1,0 +1,8 @@
+aiochannel
+aiopg
+boto3
+gspread
+papermill
+prefect
+psycopg2-binary
+wheel
