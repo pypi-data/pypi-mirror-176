@@ -1,0 +1,11 @@
+algorithms_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorithms_extensions/loadable.py,sha256=f9cr39lHMvZLMX-2kkyBTcckpoUZH3LWfrwUFQQN7ng,933
+algorithms_extensions/opencv_model.py,sha256=tV7k-eV9eU_qbkrFAc39VmIeAxuo5z2tw5CvRLsOSpc,1781
+algorithms_extensions/descriptors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorithms_extensions/descriptors/descriptor_mxnet.py,sha256=aH8VDmNCunXE2ixWTHRduwChH1KTkh-LdqYvBTLDQa8,2302
+algorithms_extensions/descriptors/tf_unfreezed.py,sha256=rwvJHBMg08g-i9TJgmaLlve6q-KwbvdrAIEaIm4yTw0,3132
+mnd_algorithms_extensions-0.1.1.dist-info/LICENSE,sha256=t0wDOfBgS99B_pgF26IrDD6OofeZ7kvlBqXRixNPkK4,1064
+mnd_algorithms_extensions-0.1.1.dist-info/METADATA,sha256=DB7gdDlin-V2uGb0jieDI8FQPCMOK6z3_mGpUmM_VNE,682
+mnd_algorithms_extensions-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mnd_algorithms_extensions-0.1.1.dist-info/top_level.txt,sha256=4UpbeWoOAf9Hq6GcJZZEWhS2skZtw60BLP7NGQ_Agyk,22
+mnd_algorithms_extensions-0.1.1.dist-info/RECORD,,
