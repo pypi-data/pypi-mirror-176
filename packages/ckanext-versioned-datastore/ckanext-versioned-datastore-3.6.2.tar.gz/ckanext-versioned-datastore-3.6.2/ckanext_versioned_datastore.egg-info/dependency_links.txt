@@ -1,0 +1,1 @@
+git+https://github.com/NaturalHistoryMuseum/eevee@v1.2.3#egg=eevee-1.2.3
