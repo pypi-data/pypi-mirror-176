@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: codercore
+Version: 0.4.4
+Summary: codercore
+Author-email: Code R <hello@coderstudio.dev>
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# coder core
