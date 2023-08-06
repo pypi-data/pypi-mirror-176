@@ -1,0 +1,10 @@
+README.md
+setup.py
+spotify_image_py.egg-info/PKG-INFO
+spotify_image_py.egg-info/SOURCES.txt
+spotify_image_py.egg-info/dependency_links.txt
+spotify_image_py.egg-info/requires.txt
+spotify_image_py.egg-info/top_level.txt
+spotifyimage/__init__.py
+spotifyimage/clienthandler.py
+spotifyimage/spotifyimage.py
