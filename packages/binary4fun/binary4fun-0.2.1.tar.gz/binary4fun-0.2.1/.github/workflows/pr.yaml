@@ -1,0 +1,78 @@
+name: Pull Request
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  PYTHON_VERSION: '3.8.2'
+
+
+jobs:
+  linting:
+    name: Linting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Setup caches
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.local/share/virtualenvs
+            ~/.cache/pre-commit
+            ~/.cache/pip
+          key: ${{ runner.os }}-${{ env.PYTHON_VERSION }}-venv-${{ hashFiles('**/Pipfile*') }}-${{ hashFiles('**/.pre-commit-config.yaml*') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.PYTHON_VERSION }}-venv
+
+      - name: Install environment
+        run: |
+          pip install pipenv
+          pipenv install --dev --deploy
+
+      - name: Run pre-commit
+        run: |
+          pipenv run pre-commit run --all-files
+
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    needs: linting
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Setup caches
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.local/share/virtualenvs
+            ~/.cache/pre-commit
+            ~/.cache/pip
+          key: ${{ runner.os }}-${{ env.PYTHON_VERSION }}-venv-${{ hashFiles('**/Pipfile*') }}-${{ hashFiles('**/.pre-commit-config.yaml*') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.PYTHON_VERSION }}-venv
+
+      - name: Install environment
+        run: |
+          pip install pipenv
+          pipenv install --dev --deploy
+
+      - name: Run pytest
+        run: |
+          pipenv run pytest

@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "setuptools_scm[toml]>=6.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/binary4fun/_version.py"
+
+[tool.isort]
+multi_line_output = 3
+line_length = 88
+include_trailing_comma = true
