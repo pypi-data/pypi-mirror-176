@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visual Sponge</title>
+        <meta charset="UTF-8">
+        <script src="/static/3dmol.js" async></script>
+        <link rel="stylesheet" href="/static/codemirror.css">
+        <script src="/static/codemirror.js"></script>
+        <script src="/static/myCodeMirror.js"></script>
+        <link rel="stylesheet" href="/static/navi.css"/>
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="navbar">
+                <li class="" ><a>{{"file" | localization }}</a></li>
+                <li class="" ><a>{{"display" | localization }}</a>
+                  <ul>
+                    <li><a>{{"placeholder" | localization }}</a></li>
+                    <li><a>{{"placeholder" | localization }}</a></li>
+                  </ul>
+                </li>
+                <li class="" ><a>{{"settings" | localization }}</a></li>
+                <li class="" ><a>{{"help" | localization}}</a></li>
+                <li class="" ><a>{{"contact us" | localization}}</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="box1">
+                <textarea id="show_code">{{ "Welcome to Use Visual Sponge!" | localization}}</textarea>
+                <div id="input_box">
+                <p>cmd ></p>
+                <textarea id="write_code"></textarea>
+                </div>
+            </div>
+            <div class="box2">
+            分子区
+            </div>
+            <div id="3dmol_viewer" class="box3 viewer_3Dmoljs" data-backgroundcolor='0x000000' data-ui="true"></div>
+        </div>
+    </body>
+    <script type="text/javascript">
+    function vs_initialize()
+    {
+        vs_backend_command("VERSION()", false);
+    }
+    function vs_finalize()
+    {
+        navigator.sendBeacon('exit', {});
+    }
+    function vs_frontend_command(command, arguments)
+    {
+        try
+        {
+            if (command == "LOAD")
+            {
+                let v = $3Dmol.viewers["3dmol_viewer"];
+                var m = v.addModel();
+                m.addAtoms(arguments.atoms);
+                m.setStyle({}, {sphere:{}});
+                v.render();
+            }
+        }
+        catch (error)
+        {
+            editor.setValue(editor.getValue() + "\nFrontendError: "+ error);
+            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+        }
+    }
+    function vs_backend_command(command, show_command=true) 
+    {
+        if (command && show_command)
+        {
+            editor.setValue(editor.getValue() + "\ncmd> "+ command);
+            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+        }
+        if (command)
+        {
+            $.post('cmd',
+                   {value: command},
+                    function(result) {
+                        editor.setValue(editor.getValue() + "\n"+ result["text"]);
+                        if (result["cmd"])
+                        {
+                            for (let key in result["cmd"])
+                            {
+                                vs_frontend_command(key, result["cmd"][key]);
+                            }
+                        }
+                        editor.scrollTo(0, editor.getScrollInfo()["height"]);
+                        editor2_flag = true;
+                    }
+            );
+        }
+    }
+    var editor = CodeMirror.fromTextArea(document.getElementById("show_code"),
+    {
+        lineNumbers: true,
+        lineWrapping: true,
+        mode: "text/x-python",
+        readOnly: 'true',
+        firstLineNumber: 0,
+        scrollbarStyle: "native",
+    });
+    editor.setSize('auto','130px');
+    var editor2 = CodeMirror.fromTextArea(document.getElementById("write_code"),
+    {
+        mode: "text/x-python",
+        scrollbarStyle: "null",
+    });
+    editor2.setSize('auto','25px');
+    var editor2_flag = true;
+    editor2.setOption("extraKeys",
+    {
+        Enter: function(cm)
+        {
+            if (editor2_flag)
+            {
+                vs_backend_command(cm.getValue());
+                if (cm.getValue())
+                {
+                    cm.setValue("");
+                    editor2_flag = false;
+                }
+            }
+        }
+    });
+    window.onload = vs_initialize;
+    window.onbeforeunload = function () {return "{{ 'Really quit?' | localization }}"}
+    window.onunload = vs_finalize;
+    </script>
+</html>
