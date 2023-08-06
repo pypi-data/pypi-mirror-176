@@ -1,0 +1,1 @@
+from stocktrack import main

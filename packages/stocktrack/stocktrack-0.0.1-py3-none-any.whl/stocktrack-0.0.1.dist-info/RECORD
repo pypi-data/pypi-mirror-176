@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=RuRiDO0u6TI9mVI2YiBZeITUmNCXhG9dHBJAAhnEulU,28
+tests/stocktrack_get_data_test.py,sha256=jrKkjUCRfW84LiCc_SArPS8_PLXvPqaQT5Te3xr5cfM,298
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/interpreter.py,sha256=IGrM6cNac2z6xoczPuKPz8llYVMYBbIvpaIYlWosH2Y,1508
+tools/tester.py,sha256=IGIU9h4-mC4hnBm3YkKPnWzQmzjxXVneLwtRGSV4LRw,5729
+tools/texteditor.py,sha256=5anagOpO_0OO8DXOQZNLzne3FIEPC0g3UAF3Jlo51vM,5503
+stocktrack-0.0.1.dist-info/METADATA,sha256=IcLrb4HAzcl3napXeDEuxRb6joIiUUNWD1Nyxvp9vHU,212
+stocktrack-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stocktrack-0.0.1.dist-info/entry_points.txt,sha256=tBuECWcjowBI30YqzblYaJ5u2UIqM34vi7cwW3pVCS4,47
+stocktrack-0.0.1.dist-info/top_level.txt,sha256=iTo4njgEL_rkG9soPyup0Ak8zFGDtBSDvKvh95MkLvA,12
+stocktrack-0.0.1.dist-info/RECORD,,
