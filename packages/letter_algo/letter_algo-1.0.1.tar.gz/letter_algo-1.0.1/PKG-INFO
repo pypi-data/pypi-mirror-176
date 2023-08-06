@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: letter_algo
+Version: 1.0.1
+Summary: The letter Algorithm - Arabic text Decryption (Steganography)
+Author-email: Mohamed Naamane <mrnmnwork@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
