@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+src/bin/stecMenu.py
+src/bin/stecMenuBuilder.py
+src/stdcomMenu/__init__.py
+src/stdcomMenu/builder.py
+src/stdcomMenu/config.py
+src/stdcomMenu/menu.py
+src/stdcomMenu/stdcOperator.py
+src/stdcomMenu/stdmenu.py
+src/stdcomMenu.egg-info/PKG-INFO
+src/stdcomMenu.egg-info/SOURCES.txt
+src/stdcomMenu.egg-info/dependency_links.txt
+src/stdcomMenu.egg-info/requires.txt
+src/stdcomMenu.egg-info/top_level.txt
