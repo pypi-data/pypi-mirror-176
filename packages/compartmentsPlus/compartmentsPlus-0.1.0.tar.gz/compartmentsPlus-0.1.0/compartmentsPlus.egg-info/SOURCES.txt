@@ -1,0 +1,12 @@
+README.md
+setup.py
+CompartmentsPlus/CompartmentsPlusWeb.py
+CompartmentsPlus/__init__.py
+CompartmentsPlus/compartmentModel.py
+compartmentsPlus.egg-info/PKG-INFO
+compartmentsPlus.egg-info/SOURCES.txt
+compartmentsPlus.egg-info/dependency_links.txt
+compartmentsPlus.egg-info/requires.txt
+compartmentsPlus.egg-info/top_level.txt
+tests/__init__.py
+tests/test_compartmentModel.py

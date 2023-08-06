@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: compartmentsPlus
+Version: 0.1.0
+Summary: Unified API for compartmental modeling
+Author: ThreeStrings
+Author-email: <zack@ouhermans.com>
+Keywords: python,compartment,modeling,epidemiology,networks
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows creation/editing/sharing of compartmental models as well as a web application front end to interact with code.
