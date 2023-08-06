@@ -1,0 +1,16 @@
+django_hawk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hawk/authentication.py,sha256=_qk2l7QFzA4o1icLc2nu7fshs8wSrAZwnNymLx8-N-o,1992
+django_hawk/middleware.py,sha256=P7yYkOuEZfpqGWdTUAXVIp6XRg07N3P7MOXQGqdrnbo,1018
+django_hawk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hawk/settings.py,sha256=pEOYPY4_JvJJqQ5S8LzUmLFrstX1RiQ_0fVvGdpKhCo,1014
+django_hawk/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hawk/tests/settings.py,sha256=53_T74hv2HIvLZ_Kla3wyzb1Gh9rP0RgacVnDzJMIt0,1008
+django_hawk/tests/test_views.py,sha256=J52iV7FbceS9ykLOLgRv1mEfWH6c1r_DCyCknCOs-wo,4740
+django_hawk/tests/test_views_django.py,sha256=ucYmThsluR0XAOUWiAscLiVjny_psspnGkDNxpEfKPM,186
+django_hawk/tests/urls.py,sha256=CrRS0XasJHISEm0iIwYC8mmF7-G6Iy6qWhAqSopkWGk,197
+django_hawk/tests/views.py,sha256=89cb-Y18QMW11zrYcbQPJY1ST_YmVtSP_BEfEOTcsvU,488
+django_hawk/utils.py,sha256=V0yFnHErzkxuJ5ziYVcZ9jzIYBoFhUeo82C4Ja84JzI,1011
+django_hawk-1.0.0.dist-info/LICENSE,sha256=cHkt61IbniJsshA1t-VHPRuogrRQ_M59ZOsMOzKCn2o,1091
+django_hawk-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+django_hawk-1.0.0.dist-info/METADATA,sha256=M4tzclcyV84ga1NHARe3YDFemLGbc-nCF_EkWW79Wjc,3363
+django_hawk-1.0.0.dist-info/RECORD,,
