@@ -1,0 +1,114 @@
+.prisoner-cell {
+  background-color: #efefef;
+  vertical-align: bottom;
+}
+
+.prisoner-value {
+  vertical-align: bottom;
+}
+/*
+.prisoner-piece {
+  filter: brightness(100%);
+}
+*/
+.cell {
+  background-color: #ddf5dd;
+  border: 1px #777777 dashed;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.opponent {
+  transform: rotate(180deg);
+}
+
+.board {
+  table-layout: fixed;
+}
+
+/*
+.doubutsushogi-ui {
+  overflow: hidden;
+}
+*/
+
+/*
+.piece {
+  filter: brightness(100%); 
+  /* box-shadow: 2px 2px 2px #464646, -2px -2px 2px #464646; }; */
+}
+*/
+
+/* Firefox old*/
+@-moz-keyframes blink {
+  0%   { opacity :1.0; }
+  50%  { opacity :0.2; }
+  100% { opacity :1.0; }
+} 
+
+@-webkit-keyframes blink {
+  0%   { opacity :1.0; }
+  50%  { opacity :0.2; }
+  100% { opacity :1.0; }
+}
+/* IE */
+@-ms-keyframes blink {
+  0%   { opacity :1.0; }
+  50%  { opacity :0.2; }
+  100% { opacity :1.0; }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+  0%   { opacity :1.0; }
+  50%  { opacity :0.2; }
+  100% { opacity :1.0; }
+} 
+
+.selected {
+	-webkit-animation: blink 1.7s linear infinite alternate;
+  -moz-animation: blink 1.7s linear infinite alternate;
+  animation: blink 1.7s linear infinite alternate;  
+  /*
+  filter: brightness(110%);
+  box-shadow: 5px 5px 1px  #464646, -5px -5px 1px #464646;
+  border: 2px #ee6666 solid;
+  border-radius: 10%;
+  */
+}
+
+.not-highlighted {
+  filter: brightness(70%);
+}
+
+/*
+.highlighted {
+  filter: brightness(80%);
+}
+*/
+
+.control-button {
+  justify-content: center;
+  align-content: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px #222222 solid;
+  border-radius: 25px; 
+  text-align: center;
+  font-size: 20px;
+  font-style: bold;
+  cursor: default;
+}
+
+.inactive {
+  filter: opacity(40%);
+}
+
+.control {
+  padding: 3px;
+}
+
+.controls {
+  cursor: default;
+}
