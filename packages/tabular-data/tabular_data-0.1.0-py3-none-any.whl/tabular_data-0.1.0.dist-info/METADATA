@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tabular-data
+Version: 0.1.0
+Summary: The sensible way to work with tabular data
+License: MIT
+Author: Juan Gonzalez
+Author-email: jrg2156@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=22.1.0,<23.0.0)
+Description-Content-Type: text/markdown
+
+# tabular-data
+
+The sensible way to work with tabular data
+
+
