@@ -1,0 +1,10 @@
+hjson
+mo-dots==9.238.22316
+mo-future==6.230.22310
+mo-logs==7.238.22316
+mo-times==5.239.22316
+
+[tests]
+pyLibrary
+mo-testing
+mo-threads
