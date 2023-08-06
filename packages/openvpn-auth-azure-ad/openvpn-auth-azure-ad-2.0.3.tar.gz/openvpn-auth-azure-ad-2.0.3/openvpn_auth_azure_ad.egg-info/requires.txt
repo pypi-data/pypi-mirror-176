@@ -1,0 +1,6 @@
+msal~=1.20
+cacheout~=0.14
+typer~=0.7
+prometheus_client~=0.15
+concurrent-log-handler~=0.9
+ConfigArgParse~=1.5
