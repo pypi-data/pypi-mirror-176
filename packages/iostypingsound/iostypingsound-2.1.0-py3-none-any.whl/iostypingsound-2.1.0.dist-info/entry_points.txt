@@ -1,0 +1,2 @@
+[console_scripts]
+iostype = iostypingsound.main:main
