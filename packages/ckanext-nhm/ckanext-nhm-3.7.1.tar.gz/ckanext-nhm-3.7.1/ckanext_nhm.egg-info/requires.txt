@@ -1,0 +1,14 @@
+lxml>=4.4.2
+elasticsearch-dsl<7.0.0,>=6.0.0
+cachetools>=4.2.4
+ckanext-dcat
+ckanext-ckanpackager
+ckanext-contact
+ckanext-doi
+ckanext-gallery
+ckanext-gbif
+ckanext-graph
+ckanext-ldap
+ckanext-query-dois
+ckanext-statistics
+ckanext-versioned-datastore
