@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+set_bottom.egg-info/PKG-INFO
+set_bottom.egg-info/SOURCES.txt
+set_bottom.egg-info/dependency_links.txt
+set_bottom.egg-info/top_level.txt
