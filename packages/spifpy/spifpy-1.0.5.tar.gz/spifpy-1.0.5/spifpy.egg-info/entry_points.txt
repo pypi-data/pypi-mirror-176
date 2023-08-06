@@ -1,0 +1,5 @@
+[console_scripts]
+spifpy-addaux = spifpy.scripts.addaux:addaux
+spifpy-cc = spifpy.scripts.copyconf:copyconf
+spifpy-cut = spifpy.scripts.cut:cut
+spifpy-extract = spifpy.scripts.extract:extract
