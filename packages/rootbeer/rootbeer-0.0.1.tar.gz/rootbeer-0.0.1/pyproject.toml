@@ -1,0 +1,18 @@
+[project]
+name = "rootbeer"
+version = "0.0.1"
+authors = [
+  { name="Rootbeer Computer", email="evan@rootbeer.computer" },
+]
+description = "Client library for Rootbeer SDK"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RootbeerComputer/client"
+"Bug Tracker" = "https://github.com/RootbeerComputer/client/issues"

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+rootbeer.egg-info/PKG-INFO
+rootbeer.egg-info/SOURCES.txt
+rootbeer.egg-info/dependency_links.txt
+rootbeer.egg-info/top_level.txt
