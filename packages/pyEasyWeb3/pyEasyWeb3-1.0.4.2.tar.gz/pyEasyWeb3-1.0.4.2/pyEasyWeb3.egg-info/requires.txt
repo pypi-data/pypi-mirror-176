@@ -1,0 +1,5 @@
+openpyxl==3.0.10
+XlsxWriter==3.0.3
+asyncio==3.4.3
+eth-account==0.5.9
+web3==5.31.1

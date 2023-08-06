@@ -1,0 +1,3 @@
+pyEasyWeb3
+pyEasyWeb3/data
+pyEasyWeb3/metamask
