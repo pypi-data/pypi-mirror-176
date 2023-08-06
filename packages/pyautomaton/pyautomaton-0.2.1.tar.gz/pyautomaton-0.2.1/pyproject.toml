@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyautomaton"
+version = "0.2.1"
+description = "a simple library to define reusable Finite State Machines with a fluent delcarative style"
+homepage="https://github.com/Cirius1792/pyfsm"
+repository="https://github.com/Cirius1792/pyfsm"
+authors = ["cirius1792 <cirolucio.tecce@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
