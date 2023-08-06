@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: es_lmr_iwf_api_helper
+Version: 1.2.28
+Summary: Helper for creating REST APIs
+Home-page: UNKNOWN
+Author: Munish Mehta
+Author-email: munish.mehta.au@gmail.com
+License: Proprietary
+Keywords: flask,rest,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+Helper for creating REST APIs
+=============================
+
+This is a library for usage in Python (Flask) applications.
+
+Please make sure you're using Python 3.6+.
+
+
