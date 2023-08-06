@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cdk-aws-ec2-efs
+Version: 0.0.0
+Summary: cdk-aws-ec2-efs
+Home-page: https://github.com/sh.hooshyari/cdk-aws-ec2-efs.git
+Author: glyphack<sh.hooshyari@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/sh.hooshyari/cdk-aws-ec2-efs.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EC2 with EFS AWS CDK construct
+
+This construct helps you to mount an EFS on EC2.
+
+
