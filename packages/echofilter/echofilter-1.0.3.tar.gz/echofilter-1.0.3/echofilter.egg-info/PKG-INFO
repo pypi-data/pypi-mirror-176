@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: echofilter
+Version: 1.0.3
+Summary: Remove echosounder noise by identifying the ocean floor and entrained air at the ocean surface.
+Home-page: https://github.com/DeepSenseCA/echofilter
+Author: Scott C. Lowe
+Author-email: scott.code.lowe@gmail.com
+License: AGPLv3
+Project-URL: Documentation, https://echofilter.readthedocs.io
+Project-URL: Source Code, https://github.com/DeepSenseCA/echofilter
+Project-URL: Bug Tracker, https://github.com/DeepSenseCA/echofilter/issues
+Project-URL: Citation, https://www.doi.org/10.3389/fmars.2022.867857
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.6,<3.11
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: train
+Provides-Extra: plots
+Provides-Extra: all
+License-File: COPYING
+
+echofilter
+==========
+
+Echofilter is an application for segmenting an echogram. It takes as its
+input an Echoview_ .EV file, and produces as its output several lines and
+regions:
+
+-  turbulence (entrained air) line
+
+-  bottom (seafloor) line
+
+-  surface line
+
+-  nearfield line
+
+-  passive data regions
+
+-  \*bad data regions for entirely removed periods of time, in the form
+   of boxes covering the entire vertical depth
+
+-  \*bad data regions for localised anomalies, in the form of polygonal
+   contour patches
+
+Echofilter uses a machine learning model to complete this task.
+The machine learning model was trained on upfacing stationary and downfacing
+mobile data provided by Fundy Ocean Research Centre for Energy (FORCE).
+
+Full documentation can be viewed `here <https://deepsenseca.github.io/echofilter/>`__.
+
+
+Usage
+-----
+
+After installing, the model can be applied at the command prompt with:
+
+.. code:: bash
+
+    echofilter PATH PATH2 ...
+
+Any number of paths can be specified. Each path can either be a path to
+a single csv file to process (exported using the Echoview_ application),
+or a directory containing csv files. If a directory is given, all csv files
+within nested subfolders of the directory will be processed.
+
+All optional parameters can be seen by running ``echofilter`` with the help
+argument.
+
+.. code:: bash
+
+    echofilter -h
+
+
+Installation
+------------
+
+The package can be installed using pip as follows:
+
+.. code:: bash
+
+    pip install git+https://github.com/DeepSenseCA/echofilter
+
+
+.. _Echoview: https://www.echoview.com/
+
+
+License
+-------
+
+Copyright (C) 2020-2022  Scott C. Lowe and Offshore Energy Research Association (OERA)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
