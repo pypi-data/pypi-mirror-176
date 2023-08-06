@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/subprompt/__init__.py
+src/subprompt/subprompt.py
+src/subprompt.egg-info/PKG-INFO
+src/subprompt.egg-info/SOURCES.txt
+src/subprompt.egg-info/dependency_links.txt
+src/subprompt.egg-info/entry_points.txt
+src/subprompt.egg-info/requires.txt
+src/subprompt.egg-info/top_level.txt
