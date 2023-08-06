@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+aiocorenlp/__init__.py
+aiocorenlp/async_corenlp_server.py
+aiocorenlp/async_corenlp_socket.py
+aiocorenlp/async_ner_server.py
+aiocorenlp/async_pos_server.py
+aiocorenlp/version.py
+aiocorenlp.egg-info/PKG-INFO
+aiocorenlp.egg-info/SOURCES.txt
+aiocorenlp.egg-info/dependency_links.txt
+aiocorenlp.egg-info/requires.txt
+aiocorenlp.egg-info/top_level.txt
