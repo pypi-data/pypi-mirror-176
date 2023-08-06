@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "cityfront"
+version = "1.0.0"
+description = ""
+authors = ["Kevin H. <kevin@autoworkz.org>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+httpx = "^0.23.0"
+Jinja2 = "^3.1.2"
+appwrite = "^0.10.0"
+loguru = "^0.6.0"
+anyio = "^3.6.1"
+devtools = "^0.9.0"
+vcrpy = "^4.2.0"
+snoop = "^0.4.1"
+inflection = "^0.5.1"
+toolz = "^0.12.0"
+datamodel-code-generator = "^0.13.0"
+stringcase = "^1.2.0"
+openapi-schema-pydantic = "^1.2.4"
+jsonpointer = "^2.3"
+asynctest = "^0.13.0"
+PyJWT = "^2.4.0"
+typer = {extras = ["all"], version = "^0.6.1"}
+blue = "^0.9.1"
+diskcache = "^5.4.0"
+mimesis = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+pytest = "7.1.2"
+debugpy = "^1.6.2"
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

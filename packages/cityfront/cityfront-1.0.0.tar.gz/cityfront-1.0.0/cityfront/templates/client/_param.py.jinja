@@ -1,0 +1,60 @@
+{% macro path_params(endpoint) %}
+{% for path_param in endpoint.path_params %}
+{{ path_param.get_param_defination() }},
+{% endfor %}
+{% endmacro %}
+
+{% macro query_params(endpoint) %}
+{% for query_param in endpoint.query_params %}
+{{ query_param.get_param_defination() }},
+{% endfor %}
+{% endmacro %}
+
+{% macro header_params(endpoint) %}
+{% for header_param in endpoint.header_params %}
+{{ header_param.get_param_defination() }},
+{% endfor %}
+{% endmacro %}
+
+{% macro cookie_params(endpoint) %}
+{% for cookie_param in endpoint.cookie_params %}
+{{ cookie_param.get_param_defination() }},
+{% endfor %}
+{% endmacro %}
+
+{% macro body_params(model) %}
+{% for prop in model.properties %}
+{{ prop.get_param_defination() }},
+{% endfor %}
+{% endmacro %}
+
+{% macro endpoint_raw_params(endpoint) %}
+{{ path_params(endpoint) }}
+{{ query_params(endpoint) }}
+{# {{ header_params(endpoint) }} #}
+{{ cookie_params(endpoint) }}
+*,
+{{ endpoint.request_body.get_raw_definition() }}
+{% endmacro %}
+
+{% macro endpoint_model_params(endpoint, model) %}
+{{ path_params(endpoint) }}
+{{ query_params(endpoint) }}
+{# {{ header_params(endpoint) }} #}
+{{ cookie_params(endpoint) }}
+*,
+data: Unset = UNSET,
+{{ body_params(model) }}
+{% endmacro %}
+
+{% macro endpoint_params(endpoint, model) %}
+{{ path_params(endpoint) }}
+{{ query_params(endpoint) }}
+{# {{ header_params(endpoint) }} #}
+{{ cookie_params(endpoint) }}
+{%- if endpoint.request_body %}
+*,
+{{ endpoint.request_body.get_endpoint_definition() }},
+**kwargs
+{%- endif %}
+{% endmacro %}

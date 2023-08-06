@@ -1,0 +1,84 @@
+{% from "client/_response.py.jinja" import build_response_model, build_error_models %}
+
+{% set TYPE_MAPPING = {"json": "json", "form": "data", "file": "files", "raw": "content"} %}
+
+{% macro build_path(endpoint) %}
+{% if endpoint.path_params %}
+url = f"{{ snake_case(endpoint.path) }}"
+{% else %}
+url = "{{ snake_case(endpoint.path) }}"
+{% endif %}
+{% endmacro %}
+
+{% macro build_query(params) %}
+params = {
+    {% for param in params %}
+    "{{ param.name }}": {{ param.prop_name }},
+    {% endfor %}
+}
+{% endmacro %}
+
+{% macro build_header(params) %}
+headers = {
+    {% for param in params %}
+    "{{ param.name }}": {{ param.prop_name }},
+    {% endfor %}
+}
+{% endmacro %}
+
+{% macro build_cookie(params) %}
+cookies = {
+    {% for param in params %}
+    "{{ param.name }}": {{ param.prop_name }},
+    {% endfor %}
+}
+{% endmacro %}
+
+{% macro build_body(request_body) %}
+{% set name = TYPE_MAPPING[request_body.type] %}
+if not kwargs:
+    kwargs = UNSET
+
+{{ name }} = kwargs if data is UNSET else data
+{{ name }} = parse_obj_as(
+    {{ request_body.body_schema.get_type_string() }},
+    {{ name }}
+)
+{{ name }} = {{ name }}.dict(by_alias=True) if isinstance({{ name }}, BaseModel) else {{ name }}
+{% endmacro %}
+
+{% macro build_request(endpoint) %}
+{{ build_path(endpoint) }}
+{% if endpoint.query_params %}
+{{ build_query(endpoint.query_params) }}
+{% endif %}
+{% if endpoint.request_body %}
+{{ build_body(endpoint.request_body) }}
+{% endif %}
+{% endmacro %}
+
+{% macro build_request_params(endpoint) %}
+"{{ endpoint.method | upper }}",
+url,
+{% if endpoint.query_params %}
+params=exclude_unset(params),
+{% endif %}
+{% if endpoint.request_body %}
+{% set name = TYPE_MAPPING[endpoint.request_body.type] %}
+{{ name }}=exclude_unset({{ name }}),
+{% endif %}
+{% if endpoint.header_params %}
+headers=exclude_unset(headers),
+{% endif %}
+{% if endpoint.cookie_params %}
+cookies=exclude_unset(cookies),
+{% endif %}
+{% if endpoint.success_response and endpoint.success_response.response_schema %}
+response_model={{ build_response_model(endpoint.success_response) }},
+{% endif %}
+{% if endpoint.error_responses %}
+error_models={
+    {{ build_error_models(endpoint.error_responses) | indent(4) }}
+},
+{% endif %}
+{% endmacro %}
