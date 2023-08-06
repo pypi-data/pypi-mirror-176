@@ -1,0 +1,25 @@
+-rrequirements.txt
+# testing requirements
+pytest>6.2.3, <=7.2.0
+
+
+
+#black == 22.10.0
+#black
+#mypy == 0.990
+#mypy
+#pytest == 7.2.0
+#pytest
+#flake8 == 5.0.4
+##flake8
+#isort == 5.10.1
+#isort
+
+#code styling enforcement tool 
+black>=22.0.0,<22.10.0
+#donde estamos metiendo malas convenciones 
+flake8>=3.9.0,<=5.0.4
+#type checking tool
+mypy<= 0.990
+#los imports están ok 
+isort <= 5.10.1
