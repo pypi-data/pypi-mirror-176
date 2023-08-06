@@ -1,0 +1,9 @@
+kadaptest4/__init__.py,sha256=HOTEgLq4i08vimRV3Mgo68OJcVI1D5FBgTy7b0oA35M,53
+kadaptest4/data.py,sha256=uTsGQWAX3zgbRnar78QwrQm93Hpug3N9UxLvK3EA5xM,53
+kadaptest4/vin_decoder_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kadaptest4/vin_decoder_api/decoder.py,sha256=w4APGrMD0WvkYKWHxUg1QwXlSPth_29I-3vyhWBp0YY,5280
+kadaptest4-0.0.1.dist-info/LICENSE,sha256=cMdJfdGqIAxymurhB7u6NbyhYpYIDi5HMlKv8cauSE0,1062
+kadaptest4-0.0.1.dist-info/METADATA,sha256=RKpTWvZkA3Bbal50FzToGp_KP4q7hoFSSNfVcTtlVhY,408
+kadaptest4-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kadaptest4-0.0.1.dist-info/top_level.txt,sha256=gD08Mb4x3iiVbGhG5efkTJPmRU_lpEyskekSw2WcRI0,11
+kadaptest4-0.0.1.dist-info/RECORD,,

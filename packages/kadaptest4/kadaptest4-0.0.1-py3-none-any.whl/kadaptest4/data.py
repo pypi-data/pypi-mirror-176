@@ -1,0 +1,1 @@
+from kadaptest4.vin_decoder_api.decoder import Decode
