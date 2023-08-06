@@ -1,0 +1,13 @@
+codercore/__init__.py,sha256=LhOMQmkUEOk6JyqcitqefkizIVgxfhgtw7jC8YZiC0c,74
+codercore/db/__init__.py,sha256=MTH2163WwMdpy0tnMAPchC8OwblUxil_u5YP2AYLKrk,735
+codercore/db/models.py,sha256=Eiqf6mLQMz0wxwXaO6gi-KxDWsraRJPRGb3xQP1smZc,424
+codercore/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codercore/lib/redis.py,sha256=8VdLaFCJY37VKEPol8Q2R-hUKTweDeVd-qBiaewQfVM,1041
+codercore/lib/settings.py,sha256=QfgOvCHdjzix_gKetTphxuySJ28L_HuFeCJSQzE2a5I,579
+codercore/lib/version.py,sha256=6YfiFTFrdx_TJrh5MWbrv9LVMst7L1VeW3Ie41wTRjE,47
+codercore/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codercore/test/fixtures.py,sha256=599o2Dx7t-ITyKvt4JbBU9J2RZLdT5OWZVYZJoS-Lnk,1582
+codercore-0.4.1.dist-info/METADATA,sha256=_Q-MFRjDTLNkalllQNJIrTdxBP9ByzerZs6Lx8cKI_c,663
+codercore-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+codercore-0.4.1.dist-info/top_level.txt,sha256=v_bIGTwmEIqo5ZgXbl-ALNo-h2vA53jcJIoJodNd35U,10
+codercore-0.4.1.dist-info/RECORD,,
