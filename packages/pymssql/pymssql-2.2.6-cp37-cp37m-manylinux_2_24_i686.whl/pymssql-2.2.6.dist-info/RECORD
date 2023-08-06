@@ -1,0 +1,16 @@
+pymssql/_pymssql.cpython-37m-i386-linux-gnu.so,sha256=K_gPsmnVo9pksAFWcQZYur-LXQw1v4UsQu6KhFjj8U0,1039984
+pymssql/_mssql.cpython-37m-i386-linux-gnu.so,sha256=pYOV6dvfWpxipCxvxCfjiYP7RDEQWgOywajV_M2Ho2c,2039592
+pymssql/__init__.py,sha256=gCvDAOmyYHayctLk18bhGfRWthMG5xpXwM1EFyzm_3s,101
+pymssql.libs/libk5crypto-547a75bf.so.3.1,sha256=jY3zreySnVAv8vItThjRprrYpdxchdBY5a0kIsaCzJg,220028
+pymssql.libs/libssl-a342e711.so.1.1,sha256=1K3heMUlxrLorzGdtbL7-TYZRmj2t_6GtlK4iO3SqPY,491728
+pymssql.libs/libcrypto-33bffc3f.so.1.1,sha256=YPDUKSVigaRJBnScS0Dtr49R_tRKSMfjw7rrqVBFv_Q,2649056
+pymssql.libs/libgssapi_krb5-711b4fb8.so.2.2,sha256=tlogCUVnqRyIAmtsqarAtcSbl9ikLCBCC5VnjVkibwg,353376
+pymssql.libs/libkrb5support-fc1c68df.so.0.1,sha256=2OhOqBd0Z7eY-aV98P2LHzbc96Vf6DAGBirgXAXgjhI,55808
+pymssql.libs/libcom_err-439a452d.so.2.1,sha256=rHi2xaHqsg_SnHFqq1JVTaLvkAzdyTLHpjg5rEP0Ha4,17496
+pymssql.libs/libkrb5-76ca0a62.so.3.3,sha256=UXvg-B5QO73513_zJZlah5N46qQK0YQP-I1KDCGL5Qc,945132
+pymssql.libs/libkeyutils-2e449c4d.so.1.5,sha256=DrIMuAzdoieeThCq-3dg_rHh7KVkPQRpd7m3PtUGGGQ,17892
+pymssql-2.2.6.dist-info/LICENSE,sha256=XfBwBxmJicYi9dQd6NcD577z0OedYuJDMu5zmkUq9io,26436
+pymssql-2.2.6.dist-info/top_level.txt,sha256=HlTBOE3UmM9y83_GIjyFhGMgISoya2SiN-iIO9Efa8o,8
+pymssql-2.2.6.dist-info/WHEEL,sha256=_tP_8p6FS3oU69YnFiNFsH5r5JW71U5Cgppgz1YkKIs,111
+pymssql-2.2.6.dist-info/RECORD,,
+pymssql-2.2.6.dist-info/METADATA,sha256=2158oUi1KTlP8jZaS_JvpCLEhHDRkU8Xs-eVR7_2pNY,4192
