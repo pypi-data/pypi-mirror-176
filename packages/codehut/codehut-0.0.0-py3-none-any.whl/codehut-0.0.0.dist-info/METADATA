@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: codehut
+Version: 0.0.0
+Summary: Practice Competitive Programming directly from Terminal
+Author: Coffee Beans
+Author-email: 18raj06@gamil.com
+Keywords: python,cli,competitive-programming,cp,codeforces,codechef,atcoder,cf,cc,codehut
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: subprocess
+Requires-Dist: os
+Requires-Dist: random
+Requires-Dist: json
+Requires-Dist: pytest-shutil
+Requires-Dist: pathlib
+Requires-Dist: argparse
+
+CLI to fetch questions and contests from Codeforces
