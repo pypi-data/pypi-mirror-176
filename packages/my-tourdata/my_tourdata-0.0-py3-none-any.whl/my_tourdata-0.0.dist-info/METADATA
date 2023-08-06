@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: my-tourdata
+Version: 0.0
+Summary: test-package
+Home-page: https://github.com/jongphago
+Author: jongphago
+Author-email: jonghyun.d.kim@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# Hello, World!
