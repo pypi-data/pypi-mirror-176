@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fd-auto-compress
+Version: 0.0.0
+Summary: A toolkit for model auto compression of FastDeploy.
+Home-page: https://github.com/PaddlePaddle/FastDeploy.git
+Author: fastdeploy
+Author-email: fastdeploy@baidu.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+Requires-Dist: paddleslim
+
+fd_auto_compress is a toolkit for model auto compression of FastDeploy.
+
+Usage: fastdeploy --auto_compress --config_path=./yolov7_tiny_qat_dis.yaml --method='QAT' --save_dir='../v7_qat_outmodel/' 
+
+
