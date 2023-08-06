@@ -1,0 +1,3 @@
+cloudscraper
+pyyaml
+python-dateutil
