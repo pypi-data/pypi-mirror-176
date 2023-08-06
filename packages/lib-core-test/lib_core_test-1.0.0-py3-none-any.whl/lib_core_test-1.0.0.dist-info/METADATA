@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lib-core-test
+Version: 1.0.0
+Summary: AllRights Core API Library
+Author-email: Alagiri Annadurai <alagiri.annadurai@nbcuni.com>
+Project-URL: Homepage, https://github.com/501783740_nbcuni/pythonwheeltest
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# lib-iprm-api-core
+Core IPRM API Library
+
+Defines:
+- Object types in the AllRights system
+- Base classes used in the AllRights API lambdas 
+- Interfaces available to the AllRights API lambdas
