@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tdm-bridge14
+Version: 0.1.0
+Summary: Query ratings from the IMBD database.
+Author-email: Ayden Bridges <bridge14@purdue.edu>
+License: MIT License (MIT)
+Keywords: imdb,tutorial,ratings,movies
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IMDB Ratings Access API
+This is a simple API which can be used to pull ratings for movies/shows from the IMDB database.
