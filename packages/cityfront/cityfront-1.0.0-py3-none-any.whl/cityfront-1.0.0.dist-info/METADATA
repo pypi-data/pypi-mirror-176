@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cityfront
+Version: 1.0.0
+Summary: 
+Author: Kevin H.
+Author-email: kevin@autoworkz.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyJWT (>=2.4.0,<3.0.0)
+Requires-Dist: anyio (>=3.6.1,<4.0.0)
+Requires-Dist: appwrite (>=0.10.0,<0.11.0)
+Requires-Dist: asynctest (>=0.13.0,<0.14.0)
+Requires-Dist: blue (>=0.9.1,<0.10.0)
+Requires-Dist: datamodel-code-generator (>=0.13.0,<0.14.0)
+Requires-Dist: devtools (>=0.9.0,<0.10.0)
+Requires-Dist: diskcache (>=5.4.0,<6.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: jsonpointer (>=2.3,<3.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: mimesis (>=6.0.0,<7.0.0)
+Requires-Dist: openapi-schema-pydantic (>=1.2.4,<2.0.0)
+Requires-Dist: snoop (>=0.4.1,<0.5.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
+Requires-Dist: toolz (>=0.12.0,<0.13.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Requires-Dist: vcrpy (>=4.2.0,<5.0.0)
