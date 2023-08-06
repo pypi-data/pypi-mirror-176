@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: filedgr-xrpl-cli
+Version: 0.0.1b0
+Summary: CLI tool to interact with the XRPL Ledger
+Author-email: Filedgr <code@filedgr.com>
+Project-URL: repository, https://github.com/Filedgr/filedgr-ripple-cli
+Keywords: filedgr,xrpl,nft,cli
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: dev
+License-File: LICENSE
+
+# XRPL CLI Tool
+
+This tool is a helper to interact with the XRPL.
