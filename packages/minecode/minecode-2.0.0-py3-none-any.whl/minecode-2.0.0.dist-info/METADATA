@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: minecode
+Version: 2.0.0
+Summary: MineCode - A purl mining tool
+Home-page: https://github.com/nexB/purldb/minecode
+Author: nexB. Inc. and others
+Author-email: info@nexb.com
+License: license = Apache-2.0 AND CC-BY-SA-4.0
+Keywords: packagedb,scancode,purl,purldb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.*
+License-File: apache-2.0.LICENSE
+License-File: cc-by-sa-4.0.LICENSE
+License-File: CHANGELOG.rst
+License-File: README.rst
+License-File: AUTHORS.rst
+License-File: NOTICE
+Requires-Dist: arrow (==1.2.3)
+Requires-Dist: debian-inspector (==31.0.0)
+Requires-Dist: Django (==4.1.2)
+Requires-Dist: django-filter (==22.1)
+Requires-Dist: djangorestframework (==3.14.0)
+Requires-Dist: ftputil (==5.0.4)
+Requires-Dist: jawa (==2.2.0)
+Requires-Dist: packagedb
+Requires-Dist: psycopg2-binary (==2.9.3)
+Requires-Dist: PyGithub (==1.56)
+Requires-Dist: rubymarshal (==1.0.3)
+Requires-Dist: scancode-toolkit
+Requires-Dist: reppy2 (==0.3.6)
+Requires-Dist: urlpy (==0.5)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.5.0) ; extra == 'docs'
+Requires-Dist: doc8 (>=0.8.1) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (!=7.0.0,>=6) ; extra == 'testing'
+Requires-Dist: pytest-xdist (>=2) ; extra == 'testing'
+Requires-Dist: aboutcode-toolkit (>=6.0.0) ; extra == 'testing'
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+
+minecode
+=========
+
+MineCode is a Django web app that visits upstream package repositories and saves the package metadata to the PackageDB.
+
+Local setup
+===========
+
+* ./configure
+* make postgres
+* make envfile
+* make run
