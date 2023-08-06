@@ -1,0 +1,15 @@
+murky/__init__.py,sha256=5yufe4g1O2PsZPgZsdhv5SVk_8VqvNkeOizxRexyo8U,1911
+murky/_requirements.py,sha256=iCi6s9d5FZhas7s-Aslzx1I_c7ZSwUxz5zDtxxwPn7Q,1237
+murky/_version.py,sha256=zVJblcAhxLgQwaZFR47EupQXX0Ifk6CXmRS2PSmqVD0,497
+murky/create_release_notes.py,sha256=GMBKoEsWHoLEVzbHdCSv_jSyyPc48qdHZ4fUG09ebsk,10100
+murky/murky_create.sh,sha256=nmM3GOY5tSfiy9I1KK_UhmesKqEVi7lG6XaFEd3NSyc,4675
+murky/murky_tool.py,sha256=s4XdPjp0yeOi62MIyeAuSuKgzIe2iRfoKIuDOIDv2Nw,2001
+murky/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+murky/tests/test_crn.py,sha256=cdabrPPw9TkoRb7syCVK9wPBpr4r-aKxxZatJ4B-w3g,266
+murky-0.0.4.data/scripts/murky_create.sh,sha256=nmM3GOY5tSfiy9I1KK_UhmesKqEVi7lG6XaFEd3NSyc,4675
+murky-0.0.4.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+murky-0.0.4.dist-info/METADATA,sha256=o7AYBqjMejZP5Anx7HP5i3ie8wPuJ5CKOeiOgXFJqgw,1073
+murky-0.0.4.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+murky-0.0.4.dist-info/entry_points.txt,sha256=MK2eqLp3nLIrMtjFPyz1kenW-CbWSCNcbiXORVkYdrw,108
+murky-0.0.4.dist-info/top_level.txt,sha256=Ah2rXqA309taeclwfB2zL-UQtfOhHDOEA4qIk9HLWGk,6
+murky-0.0.4.dist-info/RECORD,,
