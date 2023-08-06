@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+GTool/api.py
+GTool/config_api.py
+GTool/generate_target.py
+GToolGenerator.egg-info/PKG-INFO
+GToolGenerator.egg-info/SOURCES.txt
+GToolGenerator.egg-info/dependency_links.txt
+GToolGenerator.egg-info/requires.txt
+GToolGenerator.egg-info/top_level.txt
