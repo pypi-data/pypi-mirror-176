@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "F1_2021_Telemetry"
+version = "0.1"
+description = "A python package to parse telemetry data from the F1 game into python objects"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TeddyWoodburn/F1_Game_Telemetry"
+"Bug Tracker" = "https://github.com/TeddyWoodburn/F1_Game_Telemetry/issues"
