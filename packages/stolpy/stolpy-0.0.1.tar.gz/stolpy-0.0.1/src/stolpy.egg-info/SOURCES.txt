@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+src/stolpy/__init__.py
+src/stolpy/quantum_states.py
+src/stolpy/symbolic_wigner.py
+src/stolpy/tensor_algebra.py
+src/stolpy/tensor_evaluate.py
+src/stolpy/tensor_operator.py
+src/stolpy/tensor_space.py
+src/stolpy/tensor_transformation.py
+src/stolpy.egg-info/PKG-INFO
+src/stolpy.egg-info/SOURCES.txt
+src/stolpy.egg-info/dependency_links.txt
+src/stolpy.egg-info/requires.txt
+src/stolpy.egg-info/top_level.txt
