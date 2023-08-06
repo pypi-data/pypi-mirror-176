@@ -1,0 +1,79 @@
+#!/usr/bin/python
+# MIT License
+
+# Copyright (c) 2022 Emmadi Sumith Kumar
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+[tool.poetry]
+name = "truecallerpy"
+version = "0.1.2"
+description = "A package to find phone number details"
+authors = ["sumithemmadi <sumithemmadi244@gmail.com>"]
+maintainers = ["sumithemmadi <sumithemmadi244@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/sumithemmadi/truecallerpy.git"
+repository = "https://github.com/sumithemmadi/truecallerpy.git"
+documentation = "https://github.com/sumithemmadi/truecallerpy.git"
+keywords = [
+    'truecallerpy',
+    'truecaller',
+    'search',
+    'number',
+    'phone',
+    'find',
+    'email',
+    'phonenumber',
+    'numbers',
+    'address',
+    'force',
+    'attack',
+    'spy',
+]
+
+classifiers = [
+    'Topic :: Utilities',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+]
+
+include = ["README.md", "LICENSE"]
+exclude = ["tests"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+phonenumbers = "^8.12.52"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+truecallerpy = "truecallerpy.app:ExecuteTrurcallerPy"
+
+[tool.black]
+line-length = 100
+
