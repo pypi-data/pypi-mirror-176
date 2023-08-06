@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mercypdf/__init__.py
+mercypdf/pdfimage.py
+mercypdf/pdftext.py
+mercypdf.egg-info/PKG-INFO
+mercypdf.egg-info/SOURCES.txt
+mercypdf.egg-info/dependency_links.txt
+mercypdf.egg-info/top_level.txt
