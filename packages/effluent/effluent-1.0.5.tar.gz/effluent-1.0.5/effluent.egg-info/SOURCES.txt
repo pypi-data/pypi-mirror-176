@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+effluent/__init__.py
+effluent/jet.py
+effluent/modeldata.py
+effluent/utils.py
+effluent.egg-info/PKG-INFO
+effluent.egg-info/SOURCES.txt
+effluent.egg-info/dependency_links.txt
+effluent.egg-info/requires.txt
+effluent.egg-info/top_level.txt
