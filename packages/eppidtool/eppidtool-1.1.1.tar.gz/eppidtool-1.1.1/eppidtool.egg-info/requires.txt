@@ -1,0 +1,4 @@
+base_repr~=1.0.6
+
+[extra]
+pycountry~=22.3.5

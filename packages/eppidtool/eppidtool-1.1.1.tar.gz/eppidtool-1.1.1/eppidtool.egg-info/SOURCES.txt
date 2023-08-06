@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+eppidtool/__init__.py
+eppidtool/__main__.py
+eppidtool/eppid.py
+eppidtool/main.py
+eppidtool/py.typed
+eppidtool.egg-info/PKG-INFO
+eppidtool.egg-info/SOURCES.txt
+eppidtool.egg-info/dependency_links.txt
+eppidtool.egg-info/entry_points.txt
+eppidtool.egg-info/requires.txt
+eppidtool.egg-info/top_level.txt
