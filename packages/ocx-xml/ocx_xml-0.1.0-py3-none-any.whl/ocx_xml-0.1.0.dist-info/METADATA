@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ocx-xml
+Version: 0.1.0
+Summary: Package for working with the python lxml library when parsing OCX XML files, see https://3docx.org
+License: MIT
+Author: ocastrup
+Author-email: ole.christian.astrup@dnv.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Sphinx (>=5.3.0,<6.0.0)
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Requires-Dist: sphinx-autodoc-typehints (>=1.19.5,<2.0.0)
+Requires-Dist: sphinx-rtd-theme (>=1.1.1,<2.0.0)
