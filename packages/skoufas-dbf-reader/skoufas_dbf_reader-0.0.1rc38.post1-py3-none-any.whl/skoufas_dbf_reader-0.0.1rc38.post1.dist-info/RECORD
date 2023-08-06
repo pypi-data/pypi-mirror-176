@@ -1,0 +1,13 @@
+skoufas_dbf_reader/__init__.py,sha256=JcCgI81x8Qlzw0x_wjUV0e2K6OBQEJVZAX5d0_iIbTA,94
+skoufas_dbf_reader/dbf_to_yaml.py,sha256=xTL3Uj0mCYgEQ5zmFJDDuC4wTv8d9Dd6RD0lCzGTDRY,1182
+skoufas_dbf_reader/field_extractors.py,sha256=Uz9-sztc3qLISG-KKUR0S6CI_6ZN21ykem5_tihEYJA,2347
+skoufas_dbf_reader/utilities.py,sha256=yR6LhbCMJDL7DgbvU4n0eeTmELbxOun7qh_nt_1lBZQ,875
+skoufas_dbf_reader/data/entries.yml,sha256=Ag1ncJtOf709eJo4Zsq8iJq33ChjtScZaEb9vIM_49c,5882394
+skoufas_dbf_reader/data/invalid_dewey.yml,sha256=qDrjbgSy1tDZ5CLO_x0dAGb3TQFGq_ALzkxeLUvlTKU,283
+skoufas_dbf_reader/data/language_codes.yml,sha256=peUZ3kRainTcVuyvdXjQZXudflb3jTrRXGbb2jLQdIM,50
+skoufas_dbf_reader/data/no_author.yml,sha256=LojUwL6wzPE-47LV8EaMNAWEY_dfwKoazRwJNRfklLI,197
+skoufas_dbf_reader-0.0.1rc38.post1.dist-info/entry_points.txt,sha256=1jFMRLxOeYyKnqe19r0tL2TUQwGiuMY48-y0Odn8HtA,67
+skoufas_dbf_reader-0.0.1rc38.post1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+skoufas_dbf_reader-0.0.1rc38.post1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+skoufas_dbf_reader-0.0.1rc38.post1.dist-info/METADATA,sha256=Hq0Hj7U0XQvYa2nbg5o4GqZaETeYswnPcAUDZYS5kmo,4216
+skoufas_dbf_reader-0.0.1rc38.post1.dist-info/RECORD,,
