@@ -1,0 +1,7 @@
+vqvae/__init__.py,sha256=ymYPnE4MR3I0Iahc5nfjdCaSwM_Mb8AWaxH74y6dAbM,327
+vqvae/encoder_decoder.py,sha256=mvEEmuxvaxLMqjAvIhJkxY-CFh5d8XYF8B1iKqY0LDE,2608
+vqvae/vqvae.py,sha256=VRNtqWXFo0WMcIsTMOn7NXk7-N4Pa5DEq9gcRGzdpwY,8168
+vqvae-1.0.0.dist-info/METADATA,sha256=TWSZ3Frc2rxHEth91bKJMH1e5FzH66V6rOxFgNOrdNQ,998
+vqvae-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vqvae-1.0.0.dist-info/top_level.txt,sha256=bsr5VFeUOzLMY0Q-opk23W5CKWb3x_052zsCvHXsL-M,6
+vqvae-1.0.0.dist-info/RECORD,,
