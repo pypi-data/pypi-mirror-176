@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: pennsieve2
+Version: 0.0.5
+Summary: Pennsieve Python Client
+License: Apache-2.0
+Keywords: data science,datasets
+Author: Patryk Orzechowski
+Author-email: patryk@upenn.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: dev
+Requires-Dist: black (>=20.8b1); extra == "dev"
+Requires-Dist: codecov (>=2.0.8); extra == "dev"
+Requires-Dist: grpcio (>=1.50); extra == "dev"
+Requires-Dist: protobuf (>=3.12.0)
+Requires-Dist: pytest (>=4.4); extra == "dev"
+Requires-Dist: tqdm (>=4.64); extra == "dev"
+Project-URL: changelog, https://github.com/pennsieve/pennsieve-agent-python/CHANGELOG
+Project-URL: documentation, https://docs.pennsieve.io/docs/uploading-files-programmatically
+Project-URL: homepage, https://app.pennsieve.io
+Project-URL: repository, https://github.com/pennsieve/pennsieve-agent-python
+Description-Content-Type: text/markdown
+
+Pennsieve Python client (pennsieve2)
+================
+[![PyPI Latest Release](https://img.shields.io/pypi/v/pennsieve2.svg)](https://pypi.org/project/pennsieve2/)
+[![pypi](https://img.shields.io/pypi/pyversions/pennsieve2.svg)](https://pypi.org/project/pennsieve2/)
+[![Package Status](https://img.shields.io/pypi/status/pennsieve2.svg)](https://pypi.org/project/pennsieve2/)
+[![License](https://img.shields.io/pypi/l/pennsieve2.svg)](https://github.com/Pennsieve/pennsieve-agent-python/blob/main/LICENSE)
+[![Coverage](https://codecov.io/github/pennsieve/pennsieve-agent-python/coverage.svg?branch=main)](https://codecov.io/gh/pennsieve/pennsieve-agent-python)
+
+Python client and command line tool for Pennsieve (pennsieve2).
+
+
+Prerequisites
+-------------
+In order to use this Python library to upload files to Pennsieve, please follow the instruction on installing and setting up Pennsieve agent, which could be found in the documentation.
+
+
+Installation
+------------
+
+To install, run:
+
+```bash
+    pip install -U pennsieve2
+```
+
+To install specific dev version, run:
+```bash
+    pip install -U --index-url https://test.pypi.org/simple/ pennsieve2==0.0.5.post6
+```
+
+Contributions
+--------------
+
+To update gRPC python files, execute from the src folder:
+
+```bash
+    rm src/pennsieve2/protos/agent_pb2*
+    cd src
+    python3.9 -m grpc_tools.protoc --python_out=. -I. --grpc_python_out=. pennsieve2/protos/agent.proto
+```
+Notice, this command does not produce a valid agent_pb2.py file when executed for Python3.10 or formatted by black - it does not use reflection and is reported as error for Flake8.
+
+
+To create a package and upload it to PyPI, first update the package version in the pennsieve2/__init__.py, then execute:
+
+```bash
+    python -m build
+    # For testing:
+    twine upload -r testpypi dist/*
+    # For production:
+    twine upload dist/*
+```
+
+Documentation
+-------------
+
+Client and command line documentation can be found on [Pennsieve’s documentation website](https://docs.pennsieve.io/docs/uploading-files-programmatically).
+
+
