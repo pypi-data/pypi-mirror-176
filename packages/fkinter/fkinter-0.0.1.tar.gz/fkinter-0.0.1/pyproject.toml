@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fkinter"
+version = "0.0.1"
+description = "Figma to Tkinter generator! 1.0.0!"
+authors = ["ozodbeksobirjonovich"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+colorama = "^0.4.6"
+tkdesigner = "^1.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
