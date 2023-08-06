@@ -1,0 +1,16 @@
+udata_ckan/__init__.py,sha256=v_N0EZLSiPEWDtTVzk0b9Kxznau74E5AfXqk30tpbAA,105
+udata_ckan/harvesters.py,sha256=j8-J5LDL_5DnF8_VY0OK4vUdMgSGzazEguiwxJaBKyY,10457
+udata_ckan/models.py,sha256=DCjnn2H1dR6Kyl215tL1WPxbkUfHDUqsBeEVZnspqck,440
+udata_ckan/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udata_ckan/schemas/ckan.py,sha256=PDW6zxxS5RyvVtzjYki37Q8OMyaMtgCbE5q1YHY-eP8,2294
+udata_ckan/schemas/dkan.py,sha256=ZOoEQAs8uwHF9pRVBz27gRkVw55e1I10k0roH9XSurc,2688
+udata_ckan/translations/udata-ckan.pot,sha256=T8wMf4EoUB-EkoYKMoGFbzlvRCjzwyJXJAwaW0xr4NQ,876
+udata_ckan/translations/fr/LC_MESSAGES/udata-ckan.mo,sha256=Hp5L1NkN0ymKaMnKPdfiAZHQhKCJKaeeV-T-MuYfWQk,638
+udata_ckan/translations/fr/LC_MESSAGES/udata-ckan.po,sha256=Uzj5eGWOARqXifTsOxegnKJQltIN5Jl64C3XC16TEj4,948
+udata_ckan/translations/pt/LC_MESSAGES/udata-ckan.mo,sha256=ZLcEmmP2c95xm91mZJ4dnqkRfh1j2b88uhAuMU3kc9M,448
+udata_ckan/translations/pt/LC_MESSAGES/udata-ckan.po,sha256=oCOwaYusfhP3gSuU27dGUGhGxQJt743643X47IfdEZc,887
+udata_ckan-3.0.0.dist-info/METADATA,sha256=biv3FuLkync9OJkDmnNQEipKoPrcaw9QX1BZnmaInbQ,4550
+udata_ckan-3.0.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+udata_ckan-3.0.0.dist-info/entry_points.txt,sha256=-BBljWVL_WIcIxPdA-7Ulc2A8nsKfV51SbONG_DN3Hc,142
+udata_ckan-3.0.0.dist-info/top_level.txt,sha256=Ykpe9rCY1AEGHPF1k6hZeD7zqeijvTqQKov-CuHhdxk,11
+udata_ckan-3.0.0.dist-info/RECORD,,
