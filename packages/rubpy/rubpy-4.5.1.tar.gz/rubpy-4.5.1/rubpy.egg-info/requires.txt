@@ -1,0 +1,5 @@
+pycryptodome
+websockets
+ujson
+pybase64
+urllib3
