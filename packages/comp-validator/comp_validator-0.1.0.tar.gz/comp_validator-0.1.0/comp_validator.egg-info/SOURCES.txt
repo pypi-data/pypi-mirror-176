@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+comp_validator/__init__.py
+comp_validator/comp_validator.py
+comp_validator/utils.py
+comp_validator.egg-info/PKG-INFO
+comp_validator.egg-info/SOURCES.txt
+comp_validator.egg-info/dependency_links.txt
+comp_validator.egg-info/requires.txt
+comp_validator.egg-info/top_level.txt
+comp_validator/check/__init__.py
+comp_validator/check/all_files.py
+comp_validator/check/code.py
+comp_validator/check/global_files.py
+comp_validator/issues/__init__.py
+comp_validator/issues/issues.py
