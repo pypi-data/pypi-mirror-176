@@ -1,0 +1,2 @@
+acdh-arche-assets<4,>=3.6
+SPARQLWrapper<3,>=1.8.5
