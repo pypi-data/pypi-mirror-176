@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mtel_client
+Version: 0.0.1.dev3
+Project-URL: Changelog, https://github.com/infnetdanpro/mtel-montenegro-data
+Project-URL: Documentation, https://github.com/infnetdanpro/mtel-montenegro-data
+Author-email: Maksim Artemev <danpro334@gmail.com>
+License-File: LICENSE
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.7
+Requires-Dist: httpx
+Requires-Dist: pydantic[email]

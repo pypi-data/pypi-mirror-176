@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mtel_client"
+license = "Apache-2.0"
+version = "0.0.1.dev3"
+authors = [
+  { name="Maksim Artemev", email="danpro334@gmail.com" },
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Framework :: AsyncIO",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+dependencies = [
+    "httpx",
+    "pydantic[email]",
+]
+
+
+[project.urls]
+Changelog = "https://github.com/infnetdanpro/mtel-montenegro-data"
+Documentation = "https://github.com/infnetdanpro/mtel-montenegro-data"
