@@ -1,0 +1,3 @@
+[console_scripts]
+eventsourcer = eventsourcer.cli:main
+
