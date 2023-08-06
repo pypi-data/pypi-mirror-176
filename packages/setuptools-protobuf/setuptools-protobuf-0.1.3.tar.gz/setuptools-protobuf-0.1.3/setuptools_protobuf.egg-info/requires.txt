@@ -1,0 +1,4 @@
+setuptools>=46.1
+
+[mypy]
+mypy-protobuf
