@@ -1,0 +1,11 @@
+# PyCharm
+.idea
+# VirtualEnv
+venv
+# PyInstaller
+build
+dist
+__pycache__
+.buildozer
+# Build version
+src/denonremote/__build__.py
