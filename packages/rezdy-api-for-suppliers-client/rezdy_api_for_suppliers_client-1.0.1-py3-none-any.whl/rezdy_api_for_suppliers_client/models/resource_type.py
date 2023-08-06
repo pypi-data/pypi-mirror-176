@@ -1,0 +1,40 @@
+from enum import Enum
+
+
+class ResourceType(str, Enum):
+    RESOURCE = "RESOURCE"
+    BUS = "BUS"
+    COACH = "COACH"
+    COASTER = "COASTER"
+    VAN = "VAN"
+    CAR = "CAR"
+    MOTORCYCLE = "MOTORCYCLE"
+    BOAT = "BOAT"
+    VEHICLE = "VEHICLE"
+    KAYAK = "KAYAK"
+    GUIDE = "GUIDE"
+    DRIVER = "DRIVER"
+    PILOT = "PILOT"
+    INSTRUCTOR = "INSTRUCTOR"
+    ROOM = "ROOM"
+    VENUE = "VENUE"
+    HORSE = "HORSE"
+    HELICOPTER = "HELICOPTER"
+    PLANE = "PLANE"
+    RAFT = "RAFT"
+    BALLOON = "BALLOON"
+    TRACK = "TRACK"
+    FIELD = "FIELD"
+    RING = "RING"
+    CAMEL = "CAMEL"
+    BIKE = "BIKE"
+    SEGWAY = "SEGWAY"
+    SKI = "SKI"
+    SNOWBOARD = "SNOWBOARD"
+    PADDLEBOARD = "PADDLEBOARD"
+    EQUIPMENT = "EQUIPMENT"
+    SKIPPER = "SKIPPER"
+    CREW = "CREW"
+
+    def __str__(self) -> str:
+        return str(self.value)

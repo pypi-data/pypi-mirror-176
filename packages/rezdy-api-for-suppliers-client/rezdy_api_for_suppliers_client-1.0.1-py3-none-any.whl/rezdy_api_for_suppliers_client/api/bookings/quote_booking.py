@@ -1,0 +1,169 @@
+from typing import Any, Dict, Optional
+
+import httpx
+
+from ...client import Client
+from ...models.booking_update import BookingUpdate
+from ...models.response_booking import ResponseBooking
+from ...types import Response
+
+
+def _get_kwargs(
+    *,
+    client: Client,
+    json_body: BookingUpdate,
+) -> Dict[str, Any]:
+    url = "{}/bookings/quote".format(client.base_url)
+
+    headers: Dict[str, str] = client.get_headers()
+    cookies: Dict[str, Any] = client.get_cookies()
+
+    json_json_body = json_body.to_dict()
+
+    return {
+        "method": "post",
+        "url": url,
+        "headers": headers,
+        "cookies": cookies,
+        "timeout": client.get_timeout(),
+        "json": json_json_body,
+    }
+
+
+def _parse_response(*, response: httpx.Response) -> Optional[ResponseBooking]:
+    if response.status_code == 200:
+        response_200 = ResponseBooking.from_dict(response.json())
+
+        return response_200
+    return None
+
+
+def _build_response(*, response: httpx.Response) -> Response[ResponseBooking]:
+    return Response(
+        status_code=response.status_code,
+        content=response.content,
+        headers=response.headers,
+        parsed=_parse_response(response=response),
+    )
+
+
+def sync_detailed(
+    *,
+    client: Client,
+    json_body: BookingUpdate,
+) -> Response[ResponseBooking]:
+    """Quote booking
+
+     Get a quote for a booking. Use this service to validate your Booking object before making the actual
+    booking.
+    Business rules will be validated, and all amounts and totals will be populated.
+    It is not a Booking: It does not have any status or booking number. A Quote does not reserve any
+    seat.
+
+    Args:
+        json_body (BookingUpdate): Booking update object used to update a booking in Rezdy's
+            system.
+
+    Returns:
+        Response[ResponseBooking]
+    """
+
+    kwargs = _get_kwargs(
+        client=client,
+        json_body=json_body,
+    )
+
+    response = httpx.request(
+        verify=client.verify_ssl,
+        **kwargs,
+    )
+
+    return _build_response(response=response)
+
+
+def sync(
+    *,
+    client: Client,
+    json_body: BookingUpdate,
+) -> Optional[ResponseBooking]:
+    """Quote booking
+
+     Get a quote for a booking. Use this service to validate your Booking object before making the actual
+    booking.
+    Business rules will be validated, and all amounts and totals will be populated.
+    It is not a Booking: It does not have any status or booking number. A Quote does not reserve any
+    seat.
+
+    Args:
+        json_body (BookingUpdate): Booking update object used to update a booking in Rezdy's
+            system.
+
+    Returns:
+        Response[ResponseBooking]
+    """
+
+    return sync_detailed(
+        client=client,
+        json_body=json_body,
+    ).parsed
+
+
+async def asyncio_detailed(
+    *,
+    client: Client,
+    json_body: BookingUpdate,
+) -> Response[ResponseBooking]:
+    """Quote booking
+
+     Get a quote for a booking. Use this service to validate your Booking object before making the actual
+    booking.
+    Business rules will be validated, and all amounts and totals will be populated.
+    It is not a Booking: It does not have any status or booking number. A Quote does not reserve any
+    seat.
+
+    Args:
+        json_body (BookingUpdate): Booking update object used to update a booking in Rezdy's
+            system.
+
+    Returns:
+        Response[ResponseBooking]
+    """
+
+    kwargs = _get_kwargs(
+        client=client,
+        json_body=json_body,
+    )
+
+    async with httpx.AsyncClient(verify=client.verify_ssl) as _client:
+        response = await _client.request(**kwargs)
+
+    return _build_response(response=response)
+
+
+async def asyncio(
+    *,
+    client: Client,
+    json_body: BookingUpdate,
+) -> Optional[ResponseBooking]:
+    """Quote booking
+
+     Get a quote for a booking. Use this service to validate your Booking object before making the actual
+    booking.
+    Business rules will be validated, and all amounts and totals will be populated.
+    It is not a Booking: It does not have any status or booking number. A Quote does not reserve any
+    seat.
+
+    Args:
+        json_body (BookingUpdate): Booking update object used to update a booking in Rezdy's
+            system.
+
+    Returns:
+        Response[ResponseBooking]
+    """
+
+    return (
+        await asyncio_detailed(
+            client=client,
+            json_body=json_body,
+        )
+    ).parsed
