@@ -1,0 +1,10 @@
+botd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botd-99.data/data/share/botd/botd.service,sha256=dBiNOlCSG6oKPkuiAKGIALnqmF3n9Xk94OTd5D3Pn-o,303
+botd-99.data/data/share/doc/botd/README.rst,sha256=f9GS4HU0R5hHu4ZJxgS8-E8K5zIFChQtmYE32vg5314,3085
+botd-99.data/scripts/botcmd,sha256=4OdRCPn-4t3JW2ZreIgGZl4BiXhOrUHJTNcZdmu_GwA,2138
+botd-99.data/scripts/botctl,sha256=b3ujgDDoADgGzg8UdYXPEB21KGn9ofpOKe1gaPpD1Ow,192
+botd-99.data/scripts/botd,sha256=8bvuljLgAQ749vfpsyCzOCAEt6jv6_Z-idrRVdeX_Nc,1528
+botd-99.dist-info/METADATA,sha256=gmsFEt3oIv_FuSzZE8a9WymeAgd6f90phzSyZYDSzq4,3527
+botd-99.dist-info/WHEEL,sha256=Ni9JGQXk2T4q02tFVwTZ-iAb8m9R1cjnSLMaE4VH1rg,92
+botd-99.dist-info/top_level.txt,sha256=yzzJ5SH4oRVkswiIEcfuPYqq4SmCaUGvTt7y7IEN1Kw,5
+botd-99.dist-info/RECORD,,

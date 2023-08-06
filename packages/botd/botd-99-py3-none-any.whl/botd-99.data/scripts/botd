@@ -1,0 +1,98 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=R,C,W,C0302
+
+
+"""24/7 channel daemon"""
+
+
+__version__ = "99"
+
+
+## import
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import threading
+import time
+import traceback
+
+
+from bot.hdl import Callback, Command, Event, Handler, parse
+from bot.obj import Class, Object, Wd, keys, last, printable, update
+from bot.obj import find, fntime, items, save, update
+from bot.hdl import command, scan, scandir
+from bot.utl import elapsed, wait
+from bot.irc import Config
+
+from bot import cmds, irc, rss
+
+
+## define
+
+
+Config.channel = "#botd"
+Config.nick = "botd"
+Config.username = "botd"
+Config.realname = "24/7 channel daemon"
+
+
+Wd.workdir = os.path.expanduser("/var/lib/botd/")
+
+
+starttime = time.time()
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+## utiltiy
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open("/dev/null", 'r')
+    sos = open("/dev/null", 'a+')
+    ses = open("/dev/null", 'a+')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    os.dup2(sos.fileno(), sys.stdout.fileno())
+    os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def hup(_sig, _frame):
+    print("signal 15 called")
+    sys.stdout.flush()
+
+
+## command
+
+
+def ver(event):
+    event.reply("BOTD %s" % __version__)
+
+
+## runtime
+
+
+signal.signal(signal.SIGHUP, hup)
+
+
+if __name__ == "__main__":
+    daemon()
+    Command.add(ver)
+    irc.init()
+    rss.init()
+    wait()
