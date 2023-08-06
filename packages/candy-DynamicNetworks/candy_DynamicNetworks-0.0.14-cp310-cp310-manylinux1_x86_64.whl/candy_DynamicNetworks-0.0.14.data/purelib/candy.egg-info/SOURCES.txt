@@ -1,0 +1,10 @@
+LICENSE
+README.md
+__init__.py
+candy.cpython-310-x86_64-linux-gnu.so
+pyproject.toml
+setup.py
+candy.egg-info/PKG-INFO
+candy.egg-info/SOURCES.txt
+candy.egg-info/dependency_links.txt
+candy.egg-info/top_level.txt
