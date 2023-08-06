@@ -1,0 +1,122 @@
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, Iterable, Optional, Tuple
+
+import requests
+import streamlit as st
+from streamlit.commands.page_config import get_random_emoji
+from streamlit.errors import StreamlitAPIException
+
+try:
+    from streamlit.web.server import Server
+except ImportError:
+    from streamlit.server.server import Server  # type: ignore
+
+from streamlit.runtime.scriptrunner import get_script_run_ctx
+from streamlit.source_util import _on_pages_changed, get_pages
+
+try:
+    from streamlit.source_util import page_icon_and_name
+except ImportError:
+    from streamlit.source_util import page_name_and_icon  # type: ignore
+
+    def page_icon_and_name(script_path: Path) -> Tuple[str, str]:
+        icon, name = page_name_and_icon(script_path)
+        return name, icon
+
+
+from streamlit.util import calc_md5
+
+DEFAULT_PAGE: str = Server.main_script_path  # type: ignore
+
+
+def add_page_title(add_icon: bool = True):
+    """
+    Adds the icon and title to the page
+    """
+    pages = get_pages(DEFAULT_PAGE)
+    ctx = get_script_run_ctx()
+    if ctx is not None:
+        try:
+            current_page = pages[ctx.page_script_hash]
+        except KeyError:
+            return
+
+        page_title = current_page["page_name"]
+        page_icon = current_page["icon"]
+        try:
+            st.set_page_config(page_title=page_title, page_icon=page_icon)
+        except StreamlitAPIException:
+            pass
+
+        if add_icon:
+            st.title(f"{translate_icon(page_icon)} {page_title}")
+        else:
+            st.title(page_title)
+
+
+@st.experimental_singleton
+def get_icons() -> Dict[str, str]:
+    url = "https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json"
+    return requests.get(url).json()
+
+
+def translate_icon(icon: str) -> str:
+    """
+    If you pass a name of an icon, like :dog:, translate it into the
+    corresponding unicode character
+    """
+    icons = get_icons()
+    if icon == "random":
+        icon = get_random_emoji()
+    if icon.startswith(":") and icon.endswith(":"):
+        icon = icon[1:-1]
+        if icon in icons:
+            return icons[icon]
+    return icon
+
+
+@dataclass
+class Page:
+    path: str
+    name: Optional[str] = None
+    icon: Optional[str] = None
+
+    @property
+    def page_path(self) -> Path:
+        return Path(self.path)
+
+    @property
+    def page_name(self) -> str:
+        standard_name = page_icon_and_name(self.page_path)[1]
+        standard_name = standard_name.replace("_", " ").title()
+        if self.name is None:
+            return standard_name
+        return self.name
+
+    @property
+    def page_icon(self) -> str:
+        standard_icon = page_icon_and_name(self.page_path)[0]
+        icon = self.icon or standard_icon or ""
+        return translate_icon(icon)
+
+    @property
+    def page_hash(self) -> str:
+        return calc_md5(str(self.page_path))
+
+
+def show_pages(pages: Iterable[Page]):
+    current_pages = get_pages(DEFAULT_PAGE)
+    if set(current_pages.keys()) == set(p.page_hash for p in pages):
+        return
+
+    current_pages.clear()
+    for page in pages:
+        current_pages[page.page_hash] = {
+            "page_script_hash": page.page_hash,
+            "page_name": page.page_name,
+            "icon": page.page_icon,
+            "script_path": str(page.page_path),
+        }
+
+    _on_pages_changed.send()
