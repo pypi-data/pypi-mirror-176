@@ -1,0 +1,16 @@
+numba_mpi/__init__.py,sha256=jE9Lqb0MxVbYqZn0g2TngzAb40lKog1kCyk-tCZ4RFg,524
+numba_mpi/common.py,sha256=6kO7IKc_1yvLYK6ZGIqNxY7rJl2Ta-uJpxp7Jn3JBxQ,1286
+numba_mpi/utils.py,sha256=Jrylrung352e7Q5DwtHTkFRupPtGfJ25TzzQuODZ-0E,1865
+numba_mpi/api/__init__.py,sha256=Zj5df4lWeGpxAXV8jKGFnmtLBQ50HwNU8dPf-os06X8,51
+numba_mpi/api/allreduce.py,sha256=NUPSKBqLpgOD9B2K-UL8DgPTZz0LFr6JdVByvjsy5o4,2117
+numba_mpi/api/initialized.py,sha256=8jJEEziDOejwKiyUqM2mvRk18kz7a85dlZoii7Qg37s,478
+numba_mpi/api/operator.py,sha256=2cl_5qJwv28Kk1TPheWWbNv6EQtH4g6byEPpoj5Jl5w,341
+numba_mpi/api/rank.py,sha256=nTvnkuq5Dum8zcGs-_7Bl7CK4ZDAaOy4t5Ub7L56OdA,548
+numba_mpi/api/recv.py,sha256=8sD9Yo4GIcrLTE0woI-raTkcrC4Ef2O3xiwTNZtB2Gc,1128
+numba_mpi/api/send.py,sha256=zgLgA_UkUkoSyCnKZzuZRk9xaNJIRIKRjwlhYHVJtmQ,824
+numba_mpi/api/size.py,sha256=8GvCXY4CkrxPlq8bMM6pzp0bpeQX2ENz5u3pHypnCo0,548
+numba_mpi-0.20.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+numba_mpi-0.20.dist-info/METADATA,sha256=5gHef_k-1AzKh7kzAdJ32n_pCsN7q_DUdYQmaTPBFKQ,2946
+numba_mpi-0.20.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+numba_mpi-0.20.dist-info/top_level.txt,sha256=yb_ktLmrfuhOZS0rjS81FFNC-gK_4c19WbLG2ViP73g,10
+numba_mpi-0.20.dist-info/RECORD,,
