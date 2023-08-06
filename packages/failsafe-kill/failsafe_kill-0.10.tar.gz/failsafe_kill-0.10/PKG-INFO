@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: failsafe_kill
+Version: 0.10
+Summary: Kill your script with a hotkey
+Home-page: https://github.com/hansalemaos/failsafe_kill
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: bot,automation,failsafe
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Kill your script with a hotkey
+
+```python
+$pip install failsafe-kill
+from failsafe_kill import start_failsafe
+start_failsafe(hotkey='ctrl+e')
+
+
+.....
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+int() can't convert non-string with explicit base
+Process finished with exit code 1
+
+```

@@ -1,0 +1,4 @@
+include failsafe_kill/requirements.txt
+include failsafe_kill/thirdparty.json
+include failsafe_kill/README.MD
+include failsafe_kill/LICENSE

@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+failsafe_kill/LICENSE
+failsafe_kill/README.MD
+failsafe_kill/__init__.py
+failsafe_kill/requirements.txt
+failsafe_kill/thirdparty.json
+failsafe_kill.egg-info/PKG-INFO
+failsafe_kill.egg-info/SOURCES.txt
+failsafe_kill.egg-info/dependency_links.txt
+failsafe_kill.egg-info/requires.txt
+failsafe_kill.egg-info/top_level.txt
