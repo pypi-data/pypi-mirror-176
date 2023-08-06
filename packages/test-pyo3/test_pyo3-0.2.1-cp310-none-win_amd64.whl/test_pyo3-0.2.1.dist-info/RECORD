@@ -1,0 +1,5 @@
+test_pyo3-0.2.1.dist-info/METADATA,sha256=P6krJsHLmZep_91W_KNsdYfpIGVXhDn5gqo6nM5ASBk,1184
+test_pyo3-0.2.1.dist-info/WHEEL,sha256=keLBtIOE7ZgLyd8Cijw37iqv72a2jhfxMdDu8Unr7zo,96
+test_pyo3/__init__.py,sha256=QQKdxP5oNnOqvPHfxDDt1Q-JdtKH553hlrm3p92evlk,119
+test_pyo3/test_pyo3.cp310-win_amd64.pyd,sha256=X8eVWC6XRrEX-6qOrZRvN60Gi2i0XQhtL97SlZK53E8,224768
+test_pyo3-0.2.1.dist-info/RECORD,,
