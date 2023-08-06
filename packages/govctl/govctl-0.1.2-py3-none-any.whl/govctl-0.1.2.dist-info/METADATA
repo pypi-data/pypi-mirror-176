@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: govctl
+Version: 0.1.2
+Summary: GOV.PF Multifunction CLI
+Author: Leonard TAVAE
+Author-email: leonard.tavae@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: celery[amqp] (>=5.2.7,<6.0.0)
+Requires-Dist: pymongo (>=4.3.2,<5.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+
