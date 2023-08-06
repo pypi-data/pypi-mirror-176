@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sqlpd
+Version: 3.3.0
+Summary: return a path information
+Author: Moses Dastmard
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## document is not ready yet
+
+
+```python
+from sqlpd import DataBase
+```
+
+
+```python
+with DataBase('')
+```
+
+
