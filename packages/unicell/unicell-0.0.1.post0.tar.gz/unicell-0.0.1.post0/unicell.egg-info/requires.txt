@@ -1,0 +1,15 @@
+monai
+numpy
+imagecodecs
+scipy
+scikit-image
+pillow
+tensorboard
+gdown
+torchvision
+tqdm
+psutil
+pandas
+einops
+numba
+matplotlib
