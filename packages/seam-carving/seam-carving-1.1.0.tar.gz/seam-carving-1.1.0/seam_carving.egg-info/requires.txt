@@ -1,0 +1,10 @@
+numpy
+scipy
+numba>=0.56.0
+
+[dev]
+Pillow
+pytest
+pytest-cov
+isort
+black
