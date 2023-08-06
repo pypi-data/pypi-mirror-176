@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: easy-cord-python
+Version: 1.0.0
+Summary: Łatwiejszy bot w pythonie
+Home-page: UNKNOWN
+Author: lisior
+Author-email: kox123koz@gmail.com
+License: MIT
+Description: easy-cord
+        =========
+        
+        installing
+        ==========
+        
+        pip install easy-cord
+        
+        version 1.0.0
+        =============
+        
+        NICOĹšÄ†
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
