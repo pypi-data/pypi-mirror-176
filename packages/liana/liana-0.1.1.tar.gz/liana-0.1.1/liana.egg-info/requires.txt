@@ -1,0 +1,6 @@
+numba
+tqdm
+pandas
+anndata
+scanpy
+plotnine
