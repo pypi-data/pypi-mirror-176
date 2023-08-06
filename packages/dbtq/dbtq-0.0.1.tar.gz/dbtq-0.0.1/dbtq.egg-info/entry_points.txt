@@ -1,0 +1,2 @@
+[console_scripts]
+dbtq = dbtq.main:app

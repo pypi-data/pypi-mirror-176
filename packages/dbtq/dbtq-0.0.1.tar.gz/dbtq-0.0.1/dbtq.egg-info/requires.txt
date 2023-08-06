@@ -1,0 +1,7 @@
+pandas
+pyyaml
+psycopg2[binary]
+rich
+rich_tools
+sqlalchemy
+typer[all]
