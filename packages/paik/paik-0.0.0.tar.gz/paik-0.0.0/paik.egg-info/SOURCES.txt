@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+paik/__info__.py
+paik/__init__.py
+paik.egg-info/PKG-INFO
+paik.egg-info/SOURCES.txt
+paik.egg-info/dependency_links.txt
+paik.egg-info/top_level.txt
