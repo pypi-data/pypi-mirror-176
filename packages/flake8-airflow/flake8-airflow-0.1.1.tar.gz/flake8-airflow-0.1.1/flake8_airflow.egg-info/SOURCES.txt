@@ -1,0 +1,12 @@
+LICENSE
+README.md
+flake8_airflow.py
+setup.cfg
+setup.py
+flake8_airflow.egg-info/PKG-INFO
+flake8_airflow.egg-info/SOURCES.txt
+flake8_airflow.egg-info/dependency_links.txt
+flake8_airflow.egg-info/entry_points.txt
+flake8_airflow.egg-info/not-zip-safe
+flake8_airflow.egg-info/requires.txt
+flake8_airflow.egg-info/top_level.txt
