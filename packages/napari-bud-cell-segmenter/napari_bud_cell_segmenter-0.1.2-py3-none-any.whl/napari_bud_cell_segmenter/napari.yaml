@@ -1,0 +1,83 @@
+name: napari-bud-cell-segmenter
+display_name: Bud Cell Segmenter
+contributions:
+  commands:
+    - id: napari-bud-cell-segmenter.get_reader
+      python_name: napari_bud_cell_segmenter._reader:napari_get_reader
+      title: Open data with Bud Cell Segmenter
+    - id: napari-bud-cell-segmenter.write_multiple
+      python_name: napari_bud_cell_segmenter._writer:write_multiple
+      title: Save multi-layer data with Bud Cell Segmenter
+    - id: napari-bud-cell-segmenter.write_single_image
+      python_name: napari_bud_cell_segmenter._writer:write_single_image
+      title: Save image data with Bud Cell Segmenter
+    - id: napari-bud-cell-segmenter.make_sample_data
+      python_name: napari_bud_cell_segmenter._sample_data:make_sample_data
+      title: Load sample data from Bud Cell Segmenter
+
+      # Widget commands
+    - id: napari-bud-cell-segmenter.make_magic_widget
+      python_name: napari-bud-cell-segmenter._widget:load_data
+      title: Make example magic widget
+    - id: napari-bud-cell-segmenter.make_qwidget
+      python_name: napari-bud-cell-segmenter._widget:ExampleQWidget
+      title: Make example QWidget
+    - id: napari-bud-cell-segmenter.make_qwidget_corrections
+      python_name: napari-bud-cell-segmenter._widget:ManualCorrectionsQWidget
+      title: Make manual corrections QWidget
+    - id: napari-bud-cell-segmenter.make_magic_widget_segementation
+      python_name: napari-bud-cell-segmenter._widget:segment_seeded_watershed
+      title: Make Segmentation widget
+    - id: napari-bud-cell-segmenter.make_magic_widget_blobdetection
+      python_name: napari-bud-cell-segmenter._widget:detect_blobs
+      title: Make Blob detection widget
+    - id: napari-bud-cell-segmenter.make_magic_widget_disp_statitics
+      python_name: napari-bud-cell-segmenter._widget:disp_statitics
+      title: Make disp statitics widget
+
+
+    #- id: napari-bud-cell-segmenter.make_qwidget
+    #  python_name: napari_bud_cell_segmenter._widget:ExampleQWidget
+    #  title: Make example QWidget
+    #- id: napari-bud-cell-segmenter.make_magic_widget
+    #  python_name: napari_bud_cell_segmenter._widget:example_magic_widget
+    #  title: Make example magic widget
+    #- id: napari-bud-cell-segmenter.make_func_widget
+    #  python_name: napari_bud_cell_segmenter._widget:example_function_widget
+    #  title: Make example function widget
+  readers:
+    - command: napari-bud-cell-segmenter.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
+  writers:
+    - command: napari-bud-cell-segmenter.write_multiple
+      layer_types: ['image*','labels*']
+      filename_extensions: []
+    - command: napari-bud-cell-segmenter.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  sample_data:
+    - command: napari-bud-cell-segmenter.make_sample_data
+      display_name: Bud Cell Segmenter
+      key: unique_id.1
+  widgets:
+    - command: napari-bud-cell-segmenter.make_magic_widget
+      display_name: Load Data
+    - command: napari-bud-cell-segmenter.make_qwidget
+      display_name: Preprocessing
+    - command: napari-bud-cell-segmenter.make_magic_widget_segementation
+      display_name: Segmentation
+    - command: napari-bud-cell-segmenter.make_qwidget_corrections
+      display_name: Manual Corrections Widget
+    - command: napari-bud-cell-segmenter.make_magic_widget_blobdetection
+      display_name: Blob detection
+    - command: napari-bud-cell-segmenter.make_magic_widget_disp_statitics
+      display_name: Statistics
+
+    #- command: napari-bud-cell-segmenter.make_qwidget
+    #  display_name: Example QWidget
+    #- command: napari-bud-cell-segmenter.make_magic_widget
+    #  display_name: Example Magic Widget
+    #- command: napari-bud-cell-segmenter.make_func_widget
+    #  autogenerate: true
+    #  display_name: Example Function Widget
