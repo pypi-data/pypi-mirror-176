@@ -1,0 +1,17 @@
+
+# replicas of Corey's plots
+
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_East_Area -subtitle Craters >100m, CTX mosaic -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\East.scc -p type=c-fit,range=[3.5,100],isochron=1,colour=1 -p type=c-fit,resurf=1,range=[.7,1],colour=3 -p type=c-fit,resurf=1,range=[.3,.45],colour=2,age_left=1
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_North_Area -subtitle Craters >100m, CTX mosaic  -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\North.scc -p type=c-fit,range=[.8,10],isochron=1,age_left=1,colour=1 -p type=c-fit,resurf=1,range=[.25,.7],colour=3
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_Northwest_Area -subtitle Craters >100m, CTX mosaic  -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\Northwest.scc -p type=c-fit,range=[0.6,1],isochron=1,colour=1 -p type=c-fit,resurf=1,range=[0.35,0.6],colour=3 -p type=c-fit,resurf=1,range=[0.14,0.2],colour=2,age_left=1,offset_age=[3,-8]
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_Rim_Area -subtitle Craters >100m, CTX mosaic  -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\Rim.scc -p type=c-fit,range=[3,10],isochron=1,age_left=1,colour=1 -p type=c-fit,resurf=1,range=[.3,.6],colour=3
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_South_Area -subtitle Craters >100m, CTX mosaic  -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\South.scc -p type=c-fit,range=[1.7,10],isochron=1,colour=1 -p type=c-fit,resurf=1,range=[0.45,1],colour=3 -p type=c-fit,resurf=1,range=[0.17,0.3],colour=2,age_left=1,offset_age=[3,-8]
+-pi 1 -cs 3 -xrange -2 2 -yrange -4 1 -title RJB_West_Area -subtitle Craters >100m, CTX mosaic  -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\West.scc -p type=c-fit,range=[.4,.6],isochron=1,colour=1 -p type=c-fit,resurf=1,range=[.25,.4],colour=3
+
+# combined plot over epochs (differential)
+
+-cs 3 -ep 2 -xrange -2 2 -yrange -5 3 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\East.scc -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\West.scc,psym=1,colour=5 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\North.scc,psym=2,colour=3 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\Northwest.scc,psym=3,colour=7 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\South.scc,psym=4,colour=8 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\Rim.scc,psym=5,colour=9
+
+# north area with Poisson age
+
+-cs 3 -ep 2 -xrange -2 2 -yrange -5 3 -p source=D:\mydocs\work\_collaborators\usgs\2021-03-08 corey test plots\scc\North.scc,psym=2,colour=3 -p type=d-fit,range=[.25,.8]

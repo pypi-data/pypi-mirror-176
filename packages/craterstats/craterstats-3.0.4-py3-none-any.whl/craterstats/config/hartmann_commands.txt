@@ -1,0 +1,18 @@
+
+# H plot, root-2 binning
+-pr 4 -cs 6 --equilibrium 2 --transparent -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1,binning=root-2
+
+# D plot, root-2 binning
+-cs 6 --equilibrium 2 -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1,binning=root-2
+
+# Hartmann plot, Neukum binning
+-pr 4 -cs 6 --equilibrium 2 -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1
+
+# D plot, Neukum binning
+-cs 6 --equilibrium 2 --transparent -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1
+
+# R plot, root-2 binning
+#-pr 3 -cs 6 --equilibrium 2 -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1,binning=root-2
+
+# R plot
+#-pr 3 -cs 6 --equilibrium 2 -isochrons 4s,3.7s,3s,1,.1,.01,.001,1e-4,1e-5,1e-6,1e-7,1e-8,1e-9 -p source=craterstats/sample/Pickering.scc,psym=1
