@@ -1,0 +1,7 @@
+README.txt
+setup.py
+StressModelling/__init__.py
+StressModelling.egg-info/PKG-INFO
+StressModelling.egg-info/SOURCES.txt
+StressModelling.egg-info/dependency_links.txt
+StressModelling.egg-info/top_level.txt
