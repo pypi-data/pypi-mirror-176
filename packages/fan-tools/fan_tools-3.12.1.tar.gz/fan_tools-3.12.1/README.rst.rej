@@ -1,0 +1,14 @@
+diff a/README.rst b/README.rst	(rejected hunks)
+@@ -640,3 +640,12 @@ For DataDog your metric query will look like:
+ ```
+ sum:error_metric{service:prod*} by {error_type,service}.as_count()
+ ```
++
++
++## Development
++
++Local testing with keep-db:
++
++```
++PYTEST_ADDOPTS='--keep-db --docker-skip' tox -e cp310-django40 
++```
