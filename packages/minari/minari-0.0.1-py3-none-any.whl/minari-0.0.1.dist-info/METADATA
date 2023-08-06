@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Minari
+Version: 0.0.1
+Summary: Work in progress
+Project-URL: Homepage, https://github.com/WillDudley/PolicyParrot
+Project-URL: Bug Tracker, https://github.com/WillDudley/PolicyParrot/issues
+Author-email: WillDudley <will2346@live.co.uk>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: gymnasium==0.26.2
+Description-Content-Type: text/markdown
+
+wip
