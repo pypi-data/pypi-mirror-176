@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fenix-bot-api
+Version: 1.3.0
+Summary: Common methods and classes used between fenix's bots
+Home-page: https://gitarra.cl/kako3000/fenix-bot-api
+Author: Carlettos
+Author-email: carlettos.fem@gmail.com
+License: GNU GPL v3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fenix bot API
+
+Common methods and classes used between fenix's bots 

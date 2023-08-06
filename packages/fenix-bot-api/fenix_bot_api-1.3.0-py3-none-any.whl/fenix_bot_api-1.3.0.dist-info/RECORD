@@ -1,0 +1,15 @@
+fenix_bot_api/__init__.py,sha256=I7ZJ6TkTEcwFvhq5lUW6K-rhGD3rtrc5t2RbnwmYWCY,401
+fenix_bot_api/comm.py,sha256=zV624Kn9rf-fP2t8FOhRPgVLSAHK0ZLRq5UO9_Vah0k,1449
+fenix_bot_api/command_create.py,sha256=4Tm74QZaxVPIBcCsgmyctfab8sDtHscncobgXafNldg,4467
+fenix_bot_api/commands_system.py,sha256=Br8Pw5v51Oa84l9ZKlW7MUFgM9Xrj7TpaLLQj1BtwU8,1825
+fenix_bot_api/commands_user.py,sha256=oQD30yvVH8wB1TGz6m7YNWZ1GU7jl6JPjUdwmT0q4qE,1313
+fenix_bot_api/constants.py,sha256=umC0ytxlgA9fLN4BA29LAAe4ObnqKs4S0V11eNLFFJA,123
+fenix_bot_api/responses.py,sha256=e0jPWUOcXbq_4g79hiik_5kZ_I7rwlT3tLTapgE2x7U,939
+fenix_bot_api/util.py,sha256=rgW0Ji1BWd-N7gdC3gh7Lx7eobhAtD6i0d_olyvQyJg,1665
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_handle_response.py,sha256=zL_DeYOSeXsra01M7HiEsvLjnfuf5kiUP60nliypB6M,269
+fenix_bot_api-1.3.0.dist-info/LICENSE,sha256=VwhjsSO5Jw3lzPNiAGGtSFoKUjDzECS-1YZKBbxGxvk,35747
+fenix_bot_api-1.3.0.dist-info/METADATA,sha256=PX62fT4im6TWE5IMKbVDWuDxzWcZQVUu7jEvG9B9PHM,595
+fenix_bot_api-1.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fenix_bot_api-1.3.0.dist-info/top_level.txt,sha256=JAV6PaVsWKDXxU4Tlmt1fslcOeRx1zctyibTjgh5Ro8,19
+fenix_bot_api-1.3.0.dist-info/RECORD,,
