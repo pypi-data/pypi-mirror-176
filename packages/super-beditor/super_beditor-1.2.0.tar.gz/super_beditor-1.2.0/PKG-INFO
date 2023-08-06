@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: super_beditor
+Version: 1.2.0
+Summary: A computational workflow for designing libraries of guide RNAs for CRISPR base editing
+Home-page: https://github.com/aiyangchunhe/super_beditor
+Author: yangchunhe
+Author-email: 2393492851@qq.com
+License: General Public License v. 3
+Download-URL: https://github.com/aiyangchunhe/super_beditor/archive/refs/heads/master.zip
+Description: https://github.com/aiyangchunhe/super_beditor/blob/master/README.md
+Keywords: CRISPR,genome,biology
+Platform: any
