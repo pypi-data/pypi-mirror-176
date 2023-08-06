@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pytest-inline
+Version: 0.1.0
+Summary: A simple plugin to use with pytest
+Home-page: https://github.com/EngineeringSoftware/inlinetest
+Author: Yu Liu
+Author-email: yuki.liu@utexas.edu
+Maintainer: Yu Liu
+Maintainer-email: yuki.liu@utexas.edu
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pytest (>=7.0.0)
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest-html ; extra == 'dev'
+
+===============
+pytest-inline
+===============
+
+pytest-inline is a plugin for `pytest <http://pytest.org>`_ that writes inline tests.
