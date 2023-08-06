@@ -1,0 +1,6 @@
+README.md
+setup.py
+massiepdf.egg-info/PKG-INFO
+massiepdf.egg-info/SOURCES.txt
+massiepdf.egg-info/dependency_links.txt
+massiepdf.egg-info/top_level.txt
