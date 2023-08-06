@@ -1,0 +1,15 @@
+ckanext_status-2.1.0-py3.10-nspkg.pth,sha256=xqLH_Mm-GnY8CzwNy3-6-CL3r0fkNuhtW-O7rDvLNK8,1720
+ckanext/status/plugin.py,sha256=rkv5GRe2yriGlbnB-Mnvw2Xq7XcOsw01H0pAI2_WkxY,1088
+ckanext/status/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/status/lib/helpers.py,sha256=pD22bIJI_fm_QMZQ32xJWDKTqwygxSHeqclgAA5BrpQ,421
+ckanext/status/theme/assets/webassets.yml,sha256=bdP1OzG_0uZCxj1VFYfaEOOpfkgsFfzL0lrIyKZ-Thc,85
+ckanext/status/theme/assets/css/status.css,sha256=sOyH2y7MHcaevKnxMgsA6mge8sHt2GS403pSDuu9OAs,152
+ckanext/status/theme/templates/page.html,sha256=xpOTW8LZ3Y9NjR3mH-8nFMT0ZmI2b2YeQgA_opbg4Ww,223
+ckanext/status/theme/templates/admin/config.html,sha256=hrYTSH5ksrf-PNChA0e0IUwfiFaZ2yDHPL4buNObJeo,498
+ckanext_status-2.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+ckanext_status-2.1.0.dist-info/METADATA,sha256=Wumkzt9LFKsXKU6n4Qlx8Wr-2XqAD_TEqvtmOd7Vhog,3730
+ckanext_status-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ckanext_status-2.1.0.dist-info/entry_points.txt,sha256=Ui_lv6RDw-3hVC9A8Y_iuvwljsthC7E8CaLmS5pIZ6g,59
+ckanext_status-2.1.0.dist-info/namespace_packages.txt,sha256=WJtYXNLpZ8WFRqCeyb7ses7HhmuyM1EOPSvcebo2GCM,23
+ckanext_status-2.1.0.dist-info/top_level.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_status-2.1.0.dist-info/RECORD,,
