@@ -1,0 +1,12 @@
+keypartx/KeypartX.py,sha256=ht6S_taY6Y_5bigmBYStLS5JirS-q3dwXojlMhQo7AQ,33629
+keypartx/KeypartX_12.10.2022.py,sha256=qmzl8gb0cPc8ZfTM8Kozw1RyvsLp85A7F1IrILs8yj4,28199
+keypartx/__init__.py,sha256=L5uNtGvR_-vyv8d13rSZdxaO0QKyANGLVJ4CljFRkcM,136
+keypartx/basemodes/__init__.py,sha256=owOMmOiyDr5k4fyjHmGA7C_qvdb2corxl2eZq8Oynxg,119
+keypartx/basemodes/avn_base.py,sha256=6Ibmhl0reYLiqs7BVRxDdnI5n6TmuroH32_brUVJbgw,32618
+keypartx/basemodes/net_base.py,sha256=0_ObUL9HHsH0MWD8IEHdq-kFJhPOL-88-0HC3gtX0g0,13620
+keypartx/basemodes/text_edges.py,sha256=7ne0MtF9I86G7KBF2VeYo9IGTC8JlNT_lJD95ZKDSsA,33775
+keypartx-0.1.10.dist-info/LICENCE.txt,sha256=ijC25aKNggfE6dvmNI20F2hfK5-fijYL0s0juVc-px4,1049
+keypartx-0.1.10.dist-info/METADATA,sha256=Q9q2o4mD0QfN13lxZMC2HIwmMNj6Y-kbHzolZ1kD-5U,3324
+keypartx-0.1.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keypartx-0.1.10.dist-info/top_level.txt,sha256=wxeOZBSH-w30pM3TXy3pgvD1FIDh4MDJhEpu6up9kNE,9
+keypartx-0.1.10.dist-info/RECORD,,
