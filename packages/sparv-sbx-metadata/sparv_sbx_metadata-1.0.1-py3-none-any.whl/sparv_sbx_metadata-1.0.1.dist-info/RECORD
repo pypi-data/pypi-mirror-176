@@ -1,0 +1,10 @@
+sbx_metadata/__init__.py,sha256=rNxxv-qSGeWDGOwfN9bwIbDFAZI0z41MtM2cuINOmeE,8335
+sbx_metadata/json_export.py,sha256=JaYcEZcIKEOHYQi5oPhF0eSH1QJu63yIpOIwvop_8NM,4968
+sbx_metadata/metadata_utils.py,sha256=TwXgv9NN_JkdF5PIbNWsOWTH6kFYUiC-aGEiPwWJR1k,2655
+sbx_metadata/metashare.py,sha256=fEI8T9VooG08hn-BBOEvGUC3Ox43xHH-Jtr3Y4LWjiU,13185
+sparv_sbx_metadata-1.0.1.dist-info/LICENSE,sha256=L5piXce_0hznOvWB8WGqeavXL4vj2D6jFFsV40Iu-YA,1069
+sparv_sbx_metadata-1.0.1.dist-info/METADATA,sha256=LiRhJI8AujOhhqcd6EOLc1bM4Ue3W-rFIO_afVMA1fA,2678
+sparv_sbx_metadata-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sparv_sbx_metadata-1.0.1.dist-info/entry_points.txt,sha256=HnqS-mY8NRmFQrFvkVflhQrqfpXuQ1Dmn-ForAZYf6U,43
+sparv_sbx_metadata-1.0.1.dist-info/top_level.txt,sha256=w7Ob4Xlo3aaficafJuLi0cIxWJYRWa_ENwrIBjpUGAg,13
+sparv_sbx_metadata-1.0.1.dist-info/RECORD,,
