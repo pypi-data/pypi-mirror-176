@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "getversions"
+description = "Get available versions of a package in the repository, and the installed version."
+readme = "README.rst"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["version", "semantic version", "semver", "pypi", "pip"]
+authors = [
+    {name = "Narvin Singh", email = "Narvin.A.Singh@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://gitlab.com/narvin/pygetversions"
+Repository = "https://gitlab.com/narvin/pygetversions"
+"Bug Tracker" = "https://gitlab.com/narvin/pygetversions/-/issues"
+
+[tool.setuptools]
+package-data = {"*" = ["py.typed"]}
+
+[tool.setuptools.dynamic]
+version = {attr = "getversions.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pylint.messages_control]
+disable = ["duplicate-code"]
+
+[tool.mypy]
+strict = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py3{7,8,9,10,11}
+
+[testenv]
+deps =
+    pytest
+    pytest-xdist
+commands = pytest -n auto
+"""
