@@ -1,0 +1,6 @@
+textual
+PyGithub
+
+[dev]
+black
+flake8
