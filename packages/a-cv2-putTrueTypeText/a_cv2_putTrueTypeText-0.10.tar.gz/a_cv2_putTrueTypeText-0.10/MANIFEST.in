@@ -1,0 +1,3 @@
+include a_cv2_putTrueTypeText/requirements.txt
+include a_cv2_putTrueTypeText/thirdparty.json
+include a_cv2_putTrueTypeText/README.MD
