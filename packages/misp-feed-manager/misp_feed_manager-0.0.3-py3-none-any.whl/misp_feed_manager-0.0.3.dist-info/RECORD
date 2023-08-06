@@ -1,0 +1,10 @@
+feed_manager/__init__.py,sha256=8jUNsiksuBkkBcbpeF6Tkdd8dWK8TWWcNh8AODTZ3xY,718
+feed_manager/consumer.py,sha256=FsWbTcu15E_ZlbANEEpRO3gE39s7B1idDsBGD5fXffg,11031
+feed_manager/generator.py,sha256=Pon89jJ3xsSTA79ikWo-opVf1pJm7K2LMIe2Pmbx0sw,12393
+feed_manager/translator.py,sha256=XMMjc2deSVIu30GZbpk71Kb5LivdpCdkC3wKJawyMNI,10663
+misp_feed_manager-0.0.3.data/scripts/consume_feed.py,sha256=w8iPQ1RONJvEgMuOgQvXGD8hRWbDvGrj_R05pI33iJg,1358
+misp_feed_manager-0.0.3.data/scripts/generate_feed.py,sha256=purbMUoIS8VbY4iEDjNxFW60LicHyFBxBbb8meKLdCc,3520
+misp_feed_manager-0.0.3.dist-info/METADATA,sha256=1uyliUtRU7y9IifKzvy36-MIAbWoupIxmVnJSgkqvWk,4754
+misp_feed_manager-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+misp_feed_manager-0.0.3.dist-info/top_level.txt,sha256=20GWYxNkPnXF2BCQF49QfrWHHARDT93YNd1c9-ljxmI,13
+misp_feed_manager-0.0.3.dist-info/RECORD,,
