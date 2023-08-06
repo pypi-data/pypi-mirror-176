@@ -1,0 +1,8 @@
+mtel_client/__init__.py,sha256=Nen3Jr4Cj-VxPTIW8M9gKf9vB4abvgirtm4TCaKcqck,27
+mtel_client/client.py,sha256=C6YSyxvfdFP892hRtShEgyeLUMnrEZHYSUjtie1NV8c,7008
+mtel_client/exc.py,sha256=vzFOqQ4vZgRoSL798FSgWX3y79LOR-TTW1d0N8uYRu8,308
+mtel_client/models.py,sha256=G1HIVr3wmj88pv7FySCSOLRte6sRGENQO7RA3IeNPfc,2215
+mtel_client-0.0.1.dev3.dist-info/METADATA,sha256=81h6BePw7TpiTpsSzDdww3jD0hjyZbDkmCUHDhdHg-U,907
+mtel_client-0.0.1.dev3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+mtel_client-0.0.1.dev3.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+mtel_client-0.0.1.dev3.dist-info/RECORD,,
