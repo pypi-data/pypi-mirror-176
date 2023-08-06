@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: md-ext
+Version: 0.0.4
+Summary: Markdown extensions
+Home-page: https://github.com/omidraha/md_ext
+Author: Omid Raha
+Author-email: or@omidraha.com
+License: UNKNOWN
+Download-URL: https://github.com/omidraha/md_ext/archive/refs/tags/0.0.4.tar.gz
+Description: README
+        =======
+        
+        Extra third party extensions for ``Python-Markdown``
+        
+        Install
+        --------
+        
+        ```bash
+          $ pip install md_ext
+        ```
+        
+        Usage
+        -----
+        
+        ```python
+        
+        import markdown
+        
+        data = "![alt](image.png){width=600}"
+        md = markdown.Markdown(extensions=['md_ext.img'])
+        html = md.convert(data)
+        print(html)
+        ```
+        
+        Output:
+        
+        ```python
+        '<p><img src="image.png" width="600" /></p>'
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
