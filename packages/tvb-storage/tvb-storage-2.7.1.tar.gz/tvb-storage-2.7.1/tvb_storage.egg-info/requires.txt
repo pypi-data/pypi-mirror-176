@@ -1,0 +1,13 @@
+cryptography
+h5py
+kubernetes
+numpy
+pyAesCrypt
+requests
+
+[encrypt]
+syncrypto
+
+[test]
+pytest
+decorator
