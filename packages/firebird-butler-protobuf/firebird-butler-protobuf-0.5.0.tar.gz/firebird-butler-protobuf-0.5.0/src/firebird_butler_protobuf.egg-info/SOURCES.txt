@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/firebird/butler/__init__.py
+src/firebird/butler/fbdp_pb2.py
+src/firebird/butler/fbsd_pb2.py
+src/firebird/butler/fbsp_pb2.py
+src/firebird_butler_protobuf.egg-info/PKG-INFO
+src/firebird_butler_protobuf.egg-info/SOURCES.txt
+src/firebird_butler_protobuf.egg-info/dependency_links.txt
+src/firebird_butler_protobuf.egg-info/entry_points.txt
+src/firebird_butler_protobuf.egg-info/requires.txt
+src/firebird_butler_protobuf.egg-info/top_level.txt
+src/firebird_butler_protobuf.egg-info/zip-safe
