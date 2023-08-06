@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: boonli-api
+Version: 0.1.2
+Summary: API allowing you to fecth menus from boonli.com
+Home-page: https://github.com/beaufour/boonli_api
+License: Apache-2.0
+Author: Allan Beaufour
+Author-email: allan@beaufour.dk
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: icalendar (>=4.1.0,<5.0.0)
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
+Requires-Dist: typing-extensions (>=4.3.0,<4.4.0); python_version < "3.8"
+Project-URL: Repository, https://github.com/beaufour/boonli_api
+Description-Content-Type: text/markdown
+
+# Boonli API
+
+[![pre-commit](https://github.com/beaufour/boonli_api/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/beaufour/boonli_api/actions/workflows/pre-commit.yml) [![pre-commit](https://github.com/beaufour/boonli_api/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/beaufour/boonli_api/actions/workflows/pre-commit.yml) [![Coverage Status](https://coveralls.io/repos/github/beaufour/boonli_api/badge.svg?branch=main)](https://coveralls.io/github/beaufour/boonli_api?branch=main) [![PyPI version](https://badge.fury.io/py/boonli_api.svg)](https://badge.fury.io/py/boonli_api)
+
+This API allows you to retrieve the menus that were chosen on [Boonli](https://boonli.com).
+
+## Usage
+
+To get the menu information run:
+
+    > boonli_api/api.py -c <customer_id> -u <username> -p <password>
+
+Where `customer_id` is the first part of the domain name where you login, like `my_school` in `https://myschool.boonli.com`.
+
+To enable a lot of debug logging you can add `-v`.
+
+## Web API
+
+I have also created an API that can be deployed on Google Cloud Function that returns the menus as an iCalendar here: <https://github.com/beaufour/boonli_calendar>
+
+## Notes
+
+Boonli does not have an official API, so I reverse engineered it. It involves parsing two web pages which is always fragile. So it will probably break at some point.
+
