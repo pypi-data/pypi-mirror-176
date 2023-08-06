@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: defederate
+Version: 0.0.1
+Summary: Tools for Mastodon Instance Blocklist Management
+Home-page: https://github.com/Anthchirp/mastodon-defederate
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/Anthchirp/mastodon-defederate/issues
+Project-URL: Source Code, https://github.com/Anthchirp/mastodon-defederate
+Keywords: mastodon
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
