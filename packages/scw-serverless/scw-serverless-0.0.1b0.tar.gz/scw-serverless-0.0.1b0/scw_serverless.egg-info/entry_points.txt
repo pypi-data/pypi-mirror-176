@@ -1,0 +1,2 @@
+[console_scripts]
+srvless = scw_serverless.cli:main
