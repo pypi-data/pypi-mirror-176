@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dotshow/__init__.py
+dotshow/matching.py
+dotshow/under.py
+dotshow/weight.py
+dotshow.egg-info/PKG-INFO
+dotshow.egg-info/SOURCES.txt
+dotshow.egg-info/dependency_links.txt
+dotshow.egg-info/not-zip-safe
+dotshow.egg-info/requires.txt
+dotshow.egg-info/top_level.txt
