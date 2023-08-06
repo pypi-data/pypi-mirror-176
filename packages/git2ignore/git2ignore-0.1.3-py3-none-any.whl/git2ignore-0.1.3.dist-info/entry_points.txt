@@ -1,0 +1,3 @@
+[console_scripts]
+git2ignore=git2ignore.__init__:main
+
