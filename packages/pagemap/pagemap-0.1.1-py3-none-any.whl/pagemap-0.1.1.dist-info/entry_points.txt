@@ -1,0 +1,3 @@
+[console_scripts]
+pagemap=pagemap.entry:main
+

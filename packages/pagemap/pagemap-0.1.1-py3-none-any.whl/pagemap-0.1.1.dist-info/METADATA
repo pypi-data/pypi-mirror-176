@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pagemap
+Version: 0.1.1
+Summary: A tool for virtual memory.
+License: MIT
+Keywords: pagemap,maps,linux
+Author: fffzlfk
+Author-email: 1319933925qq@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1,<9.0)
+Description-Content-Type: text/markdown
+
+# pagemap
+
+A tool for linux memory stats.
+
+## 依赖
+
+- Python 3.9+
+
+## 安装
+
+```terminal
+pip install pagemap
+```
+
+## 使用Demo
+
+
