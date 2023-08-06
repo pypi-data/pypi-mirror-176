@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: coppy
+Version: 0.0.1
+Summary: CopPy.
+Home-page: https://github.com/dsagolla/coppy
+Download-URL: https://github.com/dsagolla/coppy/archive/main.zip
+Author: Daniel Sagolla
+Author-email: daniel.sagolla@udo.edu
+Project-URL: Documentation, https://coppy.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/dsagolla/coppy
+Project-URL: Tracker, https://github.com/dsagolla/coppy/issues
+Keywords: copulas copulae copula dependence dependence-modelling
+Platform: Linux
+Platform: OSX
+Platform: Windows
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+
+CopPy 
+*****
+
+This is going to be CopPy.
