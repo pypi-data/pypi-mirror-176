@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: phinka
+Version: 1.0.3
+Summary: Phinka tools for data processing
+Project-URL: Homepage, https://github.com/jackokring/www
+Project-URL: Bug Tracker, https://github.com/jackokring/www/issues
+Author-email: Simon Jackson <jackokring@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: autograd>=1.5
+Requires-Dist: numpy>=1.23.4
+Description-Content-Type: text/markdown
+
+# Phinka tools for data processing
+
+Launch by `python -m phinka` with `python-is-python3` installed. Help is available with the `--help` option. Check out the package source of `phinka.__main__.py` for more details.
+
+## `blwz`
+
+A data compression tool.
