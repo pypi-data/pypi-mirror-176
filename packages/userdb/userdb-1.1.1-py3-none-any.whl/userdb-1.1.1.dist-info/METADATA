@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: userdb
+Version: 1.1.1
+Summary: login DB
+Home-page: UNKNOWN
+Author: Kellan Butler
+Author-email: <kellanbutler52@gmail.com>
+License: UNKNOWN
+Keywords: python,user db
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+a user management system
+
+
