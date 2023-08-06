@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+felix_muia009.egg-info/PKG-INFO
+felix_muia009.egg-info/SOURCES.txt
+felix_muia009.egg-info/dependency_links.txt
+felix_muia009.egg-info/top_level.txt
