@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+mwendwa.egg-info/PKG-INFO
+mwendwa.egg-info/SOURCES.txt
+mwendwa.egg-info/dependency_links.txt
+mwendwa.egg-info/top_level.txt
