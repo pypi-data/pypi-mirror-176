@@ -1,0 +1,4 @@
+include a_cv_sift_detection/requirements.txt
+include a_cv_sift_detection/thirdparty.json
+include a_cv_sift_detection/README.MD
+include a_cv_sift_detection/LICENSE

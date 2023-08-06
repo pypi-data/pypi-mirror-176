@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_cv_sift_detection/LICENSE
+a_cv_sift_detection/README.MD
+a_cv_sift_detection/__init__.py
+a_cv_sift_detection/requirements.txt
+a_cv_sift_detection/thirdparty.json
+a_cv_sift_detection.egg-info/PKG-INFO
+a_cv_sift_detection.egg-info/SOURCES.txt
+a_cv_sift_detection.egg-info/dependency_links.txt
+a_cv_sift_detection.egg-info/requires.txt
+a_cv_sift_detection.egg-info/top_level.txt
