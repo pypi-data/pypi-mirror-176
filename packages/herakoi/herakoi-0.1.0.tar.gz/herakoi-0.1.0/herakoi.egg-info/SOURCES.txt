@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+herakoi/__init__.py
+herakoi/main.py
+herakoi.egg-info/PKG-INFO
+herakoi.egg-info/SOURCES.txt
+herakoi.egg-info/dependency_links.txt
+herakoi.egg-info/requires.txt
+herakoi.egg-info/top_level.txt
