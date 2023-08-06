@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ask-robot
+Version: 0.0.2
+Summary: the robot for chat system
+License: MIT
+Author: idlewith
+Author-email: newellzhou@163.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask (==2.0.3)
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: Pygments (==2.11.2)
+Requires-Dist: Werkzeug (==2.0.3)
+Requires-Dist: asttokens (==2.0.5)
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: cheap-repr (==0.5.1)
+Requires-Dist: cheroot (==8.6.0)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: dataclasses (==0.6)
+Requires-Dist: executing (==0.8.3)
+Requires-Dist: flake8 (==4.0.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.8.3)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: jaraco.functools (==3.4.0)
+Requires-Dist: line-profiler (==3.5.0)
+Requires-Dist: line-profiler-pycharm (==1.1.0)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: more-itertools (==8.12.0)
+Requires-Dist: optionaldict (==0.1.2)
+Requires-Dist: pycodestyle (==2.8.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pycryptodome (==3.14.1)
+Requires-Dist: pyflakes (==2.4.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: semantic-version (==2.9.0)
+Requires-Dist: setuptools-rust (==1.1.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: snoop (==0.4.1)
+Requires-Dist: soupsieve (==2.3.1)
+Requires-Dist: typing-extensions (==4.1.1)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: wechatpy (==1.8.18)
+Requires-Dist: xmltodict (==0.12.0)
+Requires-Dist: zipp (==3.6.0)
