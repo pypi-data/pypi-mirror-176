@@ -1,0 +1,300 @@
+<div>
+  <img alt="Telly logo" src="https://avatars.githubusercontent.com/u/111651524?s=200&v=4"><br>
+</div>
+
+# Telly
+
+### simple, privacy-friendly usage statistics for your open source software
+
+## What is Telly?
+
+**Telly** makes it easy to collect usage statistics and support telemetry for your open source software. For most
+packages, you can start collecting daily active user counts and feature usage statistics with just one line of code.
+
+Critically, Telly can also help you respect the privacy of your users and comply with privacy regulations. Our data
+collection infrastructure and reporting dashboard are built with Privacy by Design principles, including features like
+end-to-end encryption and differential privacy. While only you can determine if rules like GDPR or CCPA apply to your
+situation, Telly can help you collect useful data in a responsible way.
+
+### Why is Telly useful?
+
+Building open source software is hard. Whether you're a commercial open source company or just sharing a hobby project,
+it can be nearly impossible to answer questions like:
+
+* How many people are actually using my software on a daily basis?
+* Which features or use cases are most popular?
+* Which versions of my software are still actively used?
+* Is anyone using my package on Ubuntu 12.04, Windows 7, or a Raspberry Pi?
+* Which versions or implementations of Python are my users using?
+* Is my software being installed or used from a private repository outside of PyPI?
+
+Telly is designed to make answering these questions possible with minimal effort and without compromising user privacy.
+
+### Why did we build Telly?
+
+We've been working on open source projects for more than two decades, including prior commercial open source businesses.
+We're also active users of open source software.
+
+Telly is the tool we wish we'd had as software developers, built in a way that we'd actually accept as software users.
+
+### How do I use Telly?
+
+Integrating Telly into your project is simple.
+
+1. Add `telly` to your `requirements.txt`, `setup.py`, or via `poetry add telly`.
+2. Configure your data collection account at https://gotelly.io/start.
+3. Copy the line of code from the web app into your project.
+4. Add a notice to your project's README.md that explains how you're using Telly to improve your project.
+
+For most packages, the change is just one line of code at the bottom of your instrumented module:
+
+```python
+import sys; import telly; telly.go(sys.modules[__name__], 'my-project-uuid')
+```
+
+That's it!  As long as your code executes in an environment where egress traffic to https://telly.sh is allowed, data
+will automatically be collected and visible in your dashboard based on your project's privacy settings.
+
+If you want to select specific methods or classes for instrumenting, you can also use the following methods:
+
+* `telly.decorate_all_classes(sys.modules[__name__])` - decorate all classes in the module
+* `telly.decorate_all_methods(sys.modules[__name__])` - decorate all methods in the module
+* `telly.decorate(sys.modules[__name__])` - decorate all classes and methods in the module
+* `@count_decorator` with each method
+
+### What data does Telly collect?
+
+Telly can be configured to collect more or less information. Currently, this information is separated into two groups:
+
+#### Level I
+
+* Python Interpreter (implementation, version, environment)
+* Execution Platform (CPU, RAM, OS)
+* Python Package Environment (packages, versions)
+* Aggregate counts of method calls or class invocations (**no argument values ever**)
+
+#### Level II
+
+By default, Level II information is always salted and hashed.  Values are never directly visible to any humans, and
+Telly only stores values temporarily during each rolling analytics window. This approach, combined with differential
+privacy techniques for statistics, allows us to estimate quantities the number of unique users and user behavior while 
+reducing the likelihood of disclosing personally identifiable information.
+
+Level II information currently includes:
+* Salted SHA-256 of username
+* Salted SHA-256 of user home path
+* Salted SHA-256 of machine ID
+* Salted SHA-256 of machine hostname
+
+Two salting methods are currently available and can be set with the `TELLY_SALT_TYPE` environment variable:
+ * `random_uuid4`: RFC 4122 UUID4 (`uuid.uuid4()`) **default** 
+ * `machine_id`: Machine ID (`uuid.getnode()`)
+
+The `random_uuid4` salt is calculated once and stored in `~/.telly_salt`.  If that path is not writable, such as in 
+highly-restricted execution environments, Telly falls back on machine ID.  The quality of `uuid.uuid4()` varies 
+across different implementations and versions of Python but is considered to be cryptographically secure
+for salting purposes.
+
+Note: For internal corporate usage of Telly, Level II information can be logged and made visible in the dashboard 
+subject to contract terms.
+
+### Supported languages and geographies
+
+* Telly doesn't just support Python libraries. It's also compatible with Node via `Telly.js` and support for other
+  languages is on the way.
+* Telly lets you choose where data about your users is stored. We currently support fully-isolated environments in the
+  US and EU.
+
+### Sample notice language
+
+In most circumstances, when you embed Telly in your project, you'll want to add a notice to your README.md that lets
+your users
+know what information Telly is collecting and how you're using it to manage your project.
+
+Here are a few examples of notices that you might start from:
+
+**Example 1**
+
+```
+We want to make our software more useful and reliable.  In order to do that, we're using Telly, a privacy-friendly
+usage statistics and support tool.  Telly may collect basic information about your Python and OS environment, allowing 
+us to understand things like which operating systems and Python versions to support.   In some cases, Telly may also
+collect SHA-256-hashed representations of information that allows us to estimate our unique number of users.  These 
+hashes are only used temporarily to assign a temporary ID for aggregate reporting; no plaintext information is ever
+transmitted or visible to humans and even hashes are only stored during a temporary, rolling analytics window.  
+
+You can learn more about Telly's privacy functionality here: https://gotelly.io/.  
+
+To disable Telly's data collection, you can either:
+ * set the TELLY_DISABLE environment variable to a truthy value like Y or 1
+ * create a file named .telly_disable in your home directory
+```
+
+**Example 2**
+
+```
+This software may collect information about you and your use of the software, which is shared with our telemetry 
+partner, Telly. You can learn more about how we use this information at our website here: [your privacy notice]
+```
+
+### Verifying telly distributions with sigstore
+We use sigstore to sign telly distributions.  You can use sigstore to verify the module as follows:
+```shell
+$ pip3 install sigstore
+$ python -m sigstore verify telly.py 
+```
+
+
+### How does telly work (and when doesn't it)?
+For Python, Telly works by introspecting your module, decorating classes and methods, incrementing a global counter, 
+and then spawning an async process to send the data to Telly when configured.  Telly works in almost all situations 
+where Python executes, including in a Jupyter notebook, web app, REPL, script, or a module imported from another 
+module.  For some patterns where atexit methods are not registered, like multiprocessing, manual decoration may be 
+required to ensure that data is collected.
+
+Telly can also be configured to report data on a periodic basis for long-running jobs or "permanently-running" services
+like those that frequently occur in data science, machine learning, and web application environments.  These settings
+can be configured by libraries or through the  `TELLY_TIMER`  and `TELLY_TIMER_INTERVAL_SEC` environment variables. 
+
+Telly also generally works in situations where signal stuff happens, like when processes are killed or inside an 
+IDE or debugger like pdb, VS Code, or PyCharm.  By default, Telly will attempt to log the exit signal sent and return
+signal handling to any previous handlers.  If you want Telly to only report on normal atexit, you can set the 
+`TELLY_EXIT_SIGNAL_ONLY` environment variable to a truthy value..
+
+
+### I'm a user.  Can I see what Telly is logging?
+Absolutely! Just set `TELLY_SHOW_ME` to a truthy value like `true` or `1` and Telly will print what it transmits like this:
+```
+$ TELLY_SHOW_ME=1 python3 foo.py
+```
+
+### How can I opt in or out of a single project's telemetry?
+
+You can opt in or out of a single project's telemetry using the telly CLI methods:
+ * Opt in: `python3 -m telly optin [project-uuid]`
+ * Opt out: `python3 -m telly optout [project-uuid]`
+
+These commands edit the `.telly_optin` file in your home directory.  You can always edit it manually or 
+list its contents like this: `$ cat ~/.telly_optin`
+
+### How can I enable or disable Telly completely?
+
+If you want to disable or enable Telly for all projects, you can use the commands below:
+*  Enable: `python3 -m telly enable`
+ * Disable: `python3 -m telly disable`
+
+These commands create or removes the `.telly_disable` file in your home directory.  You can always
+create or delete it manually.
+
+### Want to learn more?
+Want to learn more about using Telly? Do you have an idea for new features? Just want to hear our voice?
+
+* Email us: [contact@gotelly.io](mailto:contact@gotelly.io)
+* Join our [Slack](https://gotelly.io/sign-up)
+* Follow us on [Twitter](https://twitter.com/usetelly)
+
+
+### Platform Compatibility
+We purposefully designed Telly to be compatible across a very broad range of environments.  Telly uses only standard
+Python system libraries that are available in almost all Python implementations.
+
+We have tested Telly on the following Python implementations:
+
+#### CPython 
+ * 2.6
+ * 2.7
+ * 3.4
+ * 3.5
+ * 3.6
+ * 3.7
+ * 3.8
+ * 3.9
+ * 3.10
+ * 3.11.0rc2+
+
+#### PyPy
+* 3.6
+* 3.9
+
+We have also tested Telly on the following operating systems:
+
+#### Ubuntu
+* Ubuntu 16.04 x86: No issues in execution on default python3 and python2.
+* Ubuntu 18.04 x86: No issues in execution on default python3 and python2.
+* Ubuntu 20.04 x86: No issues in execution on default python3.
+* Ubuntu 22.04 x86: No issues in execution on default python3.
+
+#### Windows
+* Windows 10: No issues executing on python 3.10 or anaconda 3.9.
+
+#### MacOS
+* MacOS Catalina (10.15): No issues executing on system python.
+
+#### Alpine
+* 3.4:  No issues in execution with python3 or python2.
+* 3.16: No issues in execution with python3.
+
+#### AWS Linux
+* AWS Linux 5 x86: No issues executing on default python2 or python3.
+* AWS Linux 4 x86: No issues executing on default python2 or python3.
+
+#### Red Hat Linux
+* Red Hat Linux 8 x86: No issues executing on default python2 or python3.
+* Red Hat Linux 6 x86: No issues executing on default python2.
+
+#### SUSE Linux
+* SUSE Linux 12 x86: No issues executing on default python2 or python3.
+
+### History
+
+##### 0.3.0 (2022-08-19)
+ * Initial beta release
+
+##### 0.4.0 (2022-08-20)
+ * Allow configuration of output level, including complete silence
+ * Allow configuration of zlib compression
+ * Add reduced timeout and allow configuration
+ * Include API version configuration for future-proofing
+ * Allow configuration of default collector region for compliance jurisdiction
+
+##### 0.5.0 (2022-08-28)
+ * Added async http method for sending data in background
+ * Enabled minified and compressed
+ * Added default endpoint for new telly.sh collection infrastructure
+
+##### 0.6.0 (2022-08-30)
+ * Better signal handling
+ * Additional configurability
+ * Ability to track multiple projects simultaneously
+ * Initial PyPI release
+
+
+##### 0.7.0 (2022-09-01)
+ * Fixing Python 2.6 support
+
+##### 0.8.0 (2022-09-02)
+ * Simplifying module setup
+ * Added UUID4 (default) and machine ID salt options
+ * Added TELLY_SHOW_ME
+
+##### 0.9.0 (2022-09-18)
+ * Fixed issues with signal handling (e.g., inside Pycharm or Flask apps)
+ * Fixed signal handling registration bug on Windows (or other non-POSIX)
+ * Fixed bug with os.fsync on Python <2.7
+ * Improved signal handling setup
+ * Improved error handling for libraries that don't like inspect.getmembers()
+ * Implemented periodic reporting via TELLY_TIMER/TELLY_TIMER_INTERVAL_SEC for long-running jobs or services
+ * Fixed duplicate reporting where multiple calls could trigger reporting same stats
+ * Added .telly_disable to disable behavior 
+
+
+#### 0.9.1 (2022-09-21)
+ * Change _INTERVAL to _INTERVAL_SEC for clarity and consistency with JS 
+
+#### 0.9.2 (2022-10-02)
+ * Initial "real" pypi release
+
+#### 0.9.3 (2022-11-10)
+ * Adding `python3 -m telly optin|optout|enable|disable` commands and updating readme 
+ * Switching `go()` to decorating methods only for type-handling safety
+ * Updating docs for opt in/out and enable/disable

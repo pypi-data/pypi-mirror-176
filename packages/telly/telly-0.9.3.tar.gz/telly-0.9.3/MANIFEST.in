@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+include lib/telly.py.crt
+include lib/telly.py.sig

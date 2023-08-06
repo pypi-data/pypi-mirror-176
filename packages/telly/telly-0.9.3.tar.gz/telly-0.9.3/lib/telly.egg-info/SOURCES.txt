@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lib/telly.py
+lib/telly.py.crt
+lib/telly.py.sig
+lib/telly.egg-info/PKG-INFO
+lib/telly.egg-info/SOURCES.txt
+lib/telly.egg-info/dependency_links.txt
+lib/telly.egg-info/top_level.txt
