@@ -1,0 +1,9 @@
+aiohttp<4,>=3.8.1
+python-dateutil<3,>=2.6.1
+humanize<5,>=3.1.0
+click<9,>=8.0.0
+
+[dev]
+tox
+pytest
+pytest-cov
