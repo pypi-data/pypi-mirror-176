@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gutta
+Version: 0.0.4
+Summary: A simple, modular static site builder for webcomics.
+Author-email: cancrizans <cancrizans.canon@gmail.com>
+Project-URL: Homepage, https://github.com/cancrizans/gutta
+Project-URL: Bug Tracker, https://github.com/cancrizans/gutta/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: click
+Requires-Dist: jinja2
+Requires-Dist: pyyaml
+Requires-Dist: oyaml
+Requires-Dist: markdown
+
+# Gutta - A Webcomic Static Site Builder
+
+**gutta** is a framework to build static websites for webcomics, ready for hosting. It's especially suited to hosting on github.
+
