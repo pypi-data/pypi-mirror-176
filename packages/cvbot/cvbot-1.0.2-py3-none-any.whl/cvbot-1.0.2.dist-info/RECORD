@@ -1,0 +1,14 @@
+cvbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvbot/capture.py,sha256=DZNJepqLqVYiX2R7Nv5xuAGBi9vi1dL0OUheaZ26uSc,822
+cvbot/images.py,sha256=dwLPFV_0r2SiaLDc-d6WgQvmiIMT8U7kzpm-ncnab04,1372
+cvbot/io.py,sha256=SbnJyZ-JSiCTi8Gs0QjXlCoTC9XK-y5ztQhoLmNK0Zw,408
+cvbot/screen.py,sha256=dGnRMq4ULe74nI8fbVyyS2Zs1SFWolShuJRV9zKcYVY,1084
+cvbot/sift.py,sha256=0Aa_IKEonRWNv-l_wi66XPKv3n4GkaHi-Z0fnvgHXWo,1468
+cvbot/test.py,sha256=-wACWck4-H_6cDQMIrBeiUkkqOt8zyUNaiNjswgShe0,206
+cvbot/utils.py,sha256=xfrXPDFEaODQO0eGqAx49xZs4TAZwnoAue-O1u_ez34,33
+cvbot/windows.py,sha256=J3xXtso11luQqWI8ieltueMnerp0PHIOf8KSRbt6jOQ,2872
+cvbot-1.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvbot-1.0.2.dist-info/METADATA,sha256=ta7COLuXKhV7XojKpJIc6nSan6ziy2x-MS040KDW4PE,409
+cvbot-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cvbot-1.0.2.dist-info/top_level.txt,sha256=U6gwGUcQzL1ZiqTOkyLPfIcOw0hDbx9lOQhSBAgTrow,6
+cvbot-1.0.2.dist-info/RECORD,,
