@@ -1,0 +1,8 @@
+.mypy_cache
+.pytest_cache
+.tox
+quickmpc.egg-info
+dist
+__pycache__
+build/*
+quickmpc/_version.py
