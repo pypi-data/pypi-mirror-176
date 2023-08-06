@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+siderpy.py
+siderpy.egg-info/PKG-INFO
+siderpy.egg-info/SOURCES.txt
+siderpy.egg-info/dependency_links.txt
+siderpy.egg-info/requires.txt
+siderpy.egg-info/top_level.txt
