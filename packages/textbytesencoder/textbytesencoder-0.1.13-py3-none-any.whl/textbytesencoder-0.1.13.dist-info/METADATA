@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: textbytesencoder
+Version: 0.1.13
+Summary: Module encoding and encrypting text by key
+Home-page: https://github.com/D1ffic00lt/textbytesencoder
+License: MIT
+Author: D1ffic00lt
+Author-email: dm.filinov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/D1ffic00lt/textbytesencoder/blob/main/README.md
+Project-URL: Repository, https://github.com/D1ffic00lt/textbytesencoder
+Description-Content-Type: text/markdown
+
+# TextBytesEncoder
+Module encoding and encrypting text by key
+## Usage example
+```python
+from textbytesencoder import Encoder
+
+encoder = Encoder(key=None, save_key=False)  # key: Optional[bytes] = None, save_key: Optional[bool] = False
+print(encoder.encrypt(text))  # type(text) == str
+print(encoder.decrypt(text))  # type(text) == bytes
+```
+During initialization, you can specify the optional `key` parameter (key, type and purpose see below) and the optional `save_key` parameter (saves the key to a separate file)
+## Parameters
+Parameter `key` of type bytes, generated using the `Fernet.generate_key()` function 
+or using the `base64.urlsafe_b64encode(os.urandom(32))` function used to encode or decode text.
+```python
+print(encoder.key)
+```
+
+```python
+encoder.key = b"key"  # key = Fernet.generate_key() or base64.urlsafe_b64encode(os.urandom(32))
+```
