@@ -1,0 +1,12 @@
+easymigration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymigration/batch_processing.py,sha256=UWknNKRiFgtvbW7GW3Lts2hK7f44xZC-dnGY4dl2VmY,945
+easymigration/config.py,sha256=Rny4iIwKISd9VoVGtgbZMUHQmKJvWjbAuiklhELUJ-Q,1816
+easymigration/example-easy-migration-tools.yml,sha256=RIeKMlpuOqRxxN5TQnLucnXAG7D3nqaGSgeSBgNtxac,548
+easymigration/pids_handling.py,sha256=Fz8AHEyNbuen963yCNPR1fyT5InDPl4cm-d2mxL3ONc,1469
+easymigration/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymigration/scripts/list_bagstore_files.py,sha256=eTuqhwk_LXDxUtVk_H56SfU1b8KXNxDBOSkSf1MZmvE,3647
+easymigration/scripts/update_thematische_collecties.py,sha256=veMs2Kbdjoth0Uk8Tib0gQHQoVJkJ8cHFEgDFzXUmGM,6179
+easy_migration_tools-0.8.0.dist-info/entry_points.txt,sha256=Qgo2t99gWl5ylMIsaNfj58oSJsWyn9HStXnsbSUrYxI,173
+easy_migration_tools-0.8.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+easy_migration_tools-0.8.0.dist-info/METADATA,sha256=_g5s04YbuCKXFO83Cv-ml3jtl6hazj8AHd5JgDxL2wo,623
+easy_migration_tools-0.8.0.dist-info/RECORD,,
