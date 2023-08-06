@@ -1,0 +1,2 @@
+[nbdev]
+omeka_s_tools2 = omeka_s_tools2._modidx:d

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+omeka_s_tools2/__init__.py
+omeka_s_tools2/_modidx.py
+omeka_s_tools2/api.py
+omeka_s_tools2.egg-info/PKG-INFO
+omeka_s_tools2.egg-info/SOURCES.txt
+omeka_s_tools2.egg-info/dependency_links.txt
+omeka_s_tools2.egg-info/entry_points.txt
+omeka_s_tools2.egg-info/not-zip-safe
+omeka_s_tools2.egg-info/requires.txt
+omeka_s_tools2.egg-info/top_level.txt
