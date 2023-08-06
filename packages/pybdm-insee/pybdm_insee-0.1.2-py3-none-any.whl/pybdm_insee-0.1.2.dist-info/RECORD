@@ -1,0 +1,23 @@
+data/202211_correspondance_idbank_dimension.csv,sha256=5agJcy-xcUv6Xm5o4b0FYu7pHhCEK56vGK9aYXtvs8I,30619990
+data/202211_liste_variables_modalites.csv,sha256=nGzgYBbC4tAcfcF6BzbJx5lwh20j6DljYZpR3XOb4h0,1893292
+pybdm_insee/__init__ .py,sha256=CZocG4-cLXKLKcbL-UvR7cW6w6Nj1zhjecLePoPr2EM,459
+pybdm_insee/installs/__init__ .py,sha256=uPpV8dWGubDA3TIzOtBgrcRdLlevLL3yKh2VCn4KdSE,46
+pybdm_insee/installs/poetry_install.py,sha256=7pfddXOEAAHPG0DHuL1HbdvunzAPsDCiNuTTGojkeLA,445
+pybdm_insee/main.py,sha256=8c9LXmzthF_epbK2Hh038sznfE31eKvk9vvTDM5qivU,5161
+pybdm_insee/py-insee.code-workspace,sha256=p0csimqEbKVnqwLV5qooTBPQ7iNY3Z7vV46uAmjrQEg,61
+pybdm_insee/tools/__init__.py,sha256=WJkaw8NE3hTsBz8rqDhHb6NlcgvaQKfrXhP5-6b0lBA,319
+pybdm_insee/tools/attrdict/__init__.py,sha256=3jTs8MCGvwvyYewEgdMBYTeMH9UNOc9PEzwCbm41_nY,243
+pybdm_insee/tools/attrdict/default.py,sha256=YEU6amQnwkyTrA5fJAnWgGB5XndSjHpb4zPFd0eY8-o,3536
+pybdm_insee/tools/attrdict/dictionary.py,sha256=05OyKXTn6PlOLfRLaqbRh5Lw-mABINgTDl-uO0o7_CM,1454
+pybdm_insee/tools/attrdict/mapping.py,sha256=Jq3mE92Pq9INPJk5F6pokhxbBKYZx5a0tHpqNBPWpfg,2460
+pybdm_insee/tools/attrdict/merge.py,sha256=x-MmCvJfFVWZKrL77vRrDjax-HNkv_ej_xtJRnTbCmI,1087
+pybdm_insee/tools/attrdict/mixins.py,sha256=FfNKfyGHV5qSK-M0qSjSDng9rmcv-wi8m1qqPACEPnU,6620
+pybdm_insee/tools/dataframes.py,sha256=msT4eF7zX3Ih_3CdzQ5ghJDhUVFlWnxuLD8tlm-ZUPA,8075
+pybdm_insee/tools/find.py,sha256=MX_d1Jszx566xKmMd6al8ZXAp8sehcEGuuwNwFRZiaM,588
+pybdm_insee/tools/insee.py,sha256=VWJNa6Fso2OxwD88E-O9mtuy-KBQacr1HGeyVM9ztdQ,2775
+pybdm_insee/tools/processing.py,sha256=KFVlKiuqysdmVkdu4vzA2aUp9vxlBjT6Xl4GGiYQGa4,1801
+pybdm_insee-0.1.2.dist-info/entry_points.txt,sha256=A8jQjOgPjzBrXwYeb22M7TjIX_bZZDibFW3jZ6Litns,46
+pybdm_insee-0.1.2.dist-info/LICENSE,sha256=LFx8Ns9AsXNCxlc8t__TrWpCqt6C-KAUPDojQ_HoRMY,1088
+pybdm_insee-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pybdm_insee-0.1.2.dist-info/METADATA,sha256=e4WH6hkpbLSlVRneVcZes3PqELmHF81PdKQXNV0JKNk,890
+pybdm_insee-0.1.2.dist-info/RECORD,,
