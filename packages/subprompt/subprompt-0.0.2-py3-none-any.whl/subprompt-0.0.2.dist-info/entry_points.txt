@@ -1,0 +1,2 @@
+[console_scripts]
+subprompt = subprompt.subprompt:main
