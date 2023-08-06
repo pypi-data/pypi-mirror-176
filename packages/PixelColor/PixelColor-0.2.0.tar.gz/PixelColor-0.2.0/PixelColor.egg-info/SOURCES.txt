@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+PixelColor.egg-info/PKG-INFO
+PixelColor.egg-info/SOURCES.txt
+PixelColor.egg-info/dependency_links.txt
+PixelColor.egg-info/entry_points.txt
+PixelColor.egg-info/requires.txt
+PixelColor.egg-info/top_level.txt
+pixelcolor/__init__.py
+pixelcolor/command_line_options.py
+pixelcolor/constants.py
+pixelcolor/main.py
+pixelcolor/pixel_color.py
