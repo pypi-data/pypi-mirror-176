@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: subzuf
+Version: 2022.11.0
+Summary: Smart subdomain fuzzer coupled with DNS response-guided algorithm
+Home-page: https://github.com/elceef/subzuf
+Author: Marcin Ulikowski
+Author-email: marcin@ulikowski.pl
+License: ASL 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+
+Project website: https://github.com/elceef/subzuf
+
+
