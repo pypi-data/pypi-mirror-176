@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/selenium_captcha_solver.egg-info/PKG-INFO
+src/selenium_captcha_solver.egg-info/SOURCES.txt
+src/selenium_captcha_solver.egg-info/dependency_links.txt
+src/selenium_captcha_solver.egg-info/top_level.txt
