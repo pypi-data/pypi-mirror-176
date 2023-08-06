@@ -1,0 +1,43 @@
+---
+#Telescope
+diameter: 5.7
+t: 273
+wfe: 10.7
+
+#Site
+eta: .98
+
+#Detector
+doe: .8
+t_int: 1
+pixelYield: .8
+sz-camNumPoln: 1
+eor-specNumPoln: 2
+
+#Instrument
+t_filter_cold: [.890, .922, .909, .840, .593]
+t_lens_cold: [.98, .98, .98, .98, .98]
+t_uhdpe_window: [.97, .97, .97, .97, .96]
+singleModedAOmegaLambda2: [1., 1., 1., 1., 1.]
+spatialPixels: [7938, 10368, 10368, 20808, 36450] #Pixels in each detector
+eqbw: [5.6e+10, 6.5e+10, 3.6e+10, 3.e+10, 9.6e+10] #Detector bandwidth
+centerFrequency: [2.22e+11, 2.825e+11, 3.48e+11, 4.05e+11, 8.5e+11] #Center of the detector's frequency range
+detectorNEP: 0
+backgroundSubtractionDegradationFactor: 1
+
+#EoR Spec
+r:
+  [
+    [100., 100., 100.],
+    [100., 100., 100.],
+    [100., 100., 100.],
+    [100., 100., 100.],
+    [100., 100., 100.],
+  ]
+
+#Misc
+decimalPlaces: 3
+observationElevationAngle: 45
+outputFreq: True #Units of the output; False = wavelength, True = frequency
+detectorSpacing: [3.13, 2.75, 2.75, 1.97, 1.51] #Spacing of pixels in the detector, in mm
+lyotStopAngle: 13.4

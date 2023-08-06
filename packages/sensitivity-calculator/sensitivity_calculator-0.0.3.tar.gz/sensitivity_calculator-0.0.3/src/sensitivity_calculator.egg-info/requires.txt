@@ -1,0 +1,10 @@
+pyyaml>=6.0
+numpy>=1.21
+matplotlib>=3.5
+texttable>=1.6
+scipy>=1.7
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+tox>=3.24
