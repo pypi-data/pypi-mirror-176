@@ -1,0 +1,27 @@
+- type: string
+  key: ticket
+- type: flag
+  key: now
+- type: flag
+  key: today
+- type: string
+  key: duration
+  validation:
+  - type: regex
+    expression: '^(?P<hour>\d+h)?(?P<minute>\d{1,2}m)?$'
+- type: flag
+  key: yesterday
+- type: string
+  key: at
+  default: null
+  validation:
+  - type: regex
+    expression: '^\d{2}:\d{2}$'
+- type: string
+  key: date
+  default: null
+  validation:
+    - type: regex
+      expression: '^\d{2}-\d{2}(-\d{2})?$'
+- type: flag
+  key: dryrun
