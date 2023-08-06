@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/retro_typein_tools.egg-info/PKG-INFO
+src/retro_typein_tools.egg-info/SOURCES.txt
+src/retro_typein_tools.egg-info/dependency_links.txt
+src/retro_typein_tools.egg-info/entry_points.txt
+src/retro_typein_tools.egg-info/top_level.txt
+src/retrotype/__init__.py
+src/retrotype/char_maps.py
+src/retrotype/retrotype.py
