@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: toran-pylib
+Version: 0.0.3
+Summary: Toran's Python utility library.
+Home-page: https://github.com/toransahu/pylib
+Author: Toran Sahu
+Author-email: toran.sahu@yahoo.com
+License: Distributed under terms of the MIT license.
+Keywords: util,utils,pyutil,pyutils
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: Text Processing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
