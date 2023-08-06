@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: httparse
+Version: 0.1.2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typing-extensions>=3; python_version < '3.8'
+License-File: LICENSE.txt
+Summary: Push parser for HTTP 1.x
+Author: Adrian Garcia Badaracco
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/adriangb/httparse
+Project-URL: homepage, https://github.com/adriangb/httparse
+Project-URL: documentation, https://github.com/adriangb/httparse/README.md
+
+# httparse
+
+![CI](https://github.com/adriangb/httparse/actions/workflows/python.yaml/badge.svg)
+
+Python wrapper for Rust's [httparse](https://github.com/seanmonstar/httparse).
+See this project on [GitHub](https://github.com/adriangb/httparse).
+
+## Example
+
+```python
+from httparse import RequestParser
+
+parser = RequestParser()
+
+buff = b"GET /index.html HTTP/1.1\r\nHost"
+parsed = parser.parse(buff)
+assert parsed is None
+
+# a partial request, so we try again once we have more data
+buff = b"GET /index.html HTTP/1.1\r\nHost: example.domain\r\n\r\n"
+parsed = parser.parse(buff)
+assert parsed is not None
+assert parsed.method == "GET"
+assert parsed.path == "/index.html"
+assert parsed.version == 1
+assert parsed.body_start_offset == len(buff)
+headers = [(h.name.encode(), h.value) for h in parsed.headers]
+assert headers == [(b"Host", b"example.domain")]
+```
+
