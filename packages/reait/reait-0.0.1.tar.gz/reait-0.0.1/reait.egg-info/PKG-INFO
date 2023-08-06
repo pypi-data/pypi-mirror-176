@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: reait
+Version: 0.0.1
+Summary: RevEng.AI Toolkit
+Home-page: https://github.com/RevEng-AI/reait
+Author: James Patrick-Evans
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# reait
+RevEng.AI Toolkit
+
+Analyse compiled executable binaries using the RevEng.AI API.
+
+
+
+## Installation
+
+Install the latest stable version using pip.
+
+`pip install reait`
+
+### Latest development version
+
+`pip install -e .`
+
+## Run
+
+`reait --help`
