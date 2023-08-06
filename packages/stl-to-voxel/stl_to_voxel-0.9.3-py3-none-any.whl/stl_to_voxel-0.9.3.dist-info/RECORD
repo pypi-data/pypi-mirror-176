@@ -1,0 +1,9 @@
+stltovoxel/__init__.py,sha256=LB8IU3qgZWwdiYiXJQt_azW723k0Q6zX6SgObJF-VXw,177
+stltovoxel/__main__.py,sha256=dSm99X61BRjDRm9rciDweVWfhOEZBvo_Dv9mD_kZPyI,2347
+stltovoxel/convert.py,sha256=3MG_VcX0mJC0bozlZ7EsadQDW2PsUrjvtd9fNKkTNIU,5511
+stltovoxel/perimeter.py,sha256=Lf7XMNsrzwydcrbSh8brNBQ4cw50E3ylrtojDx78to0,3504
+stltovoxel/slice.py,sha256=5D7T0WleD9UGBMRpxFL1jkFsrgYKz5OVHbNORcC50ds,4511
+stl_to_voxel-0.9.3.dist-info/entry_points.txt,sha256=uZNHFhDuOXTASB6M_znMvX3mUdY-0P4bJxmF-z1RtaQ,55
+stl_to_voxel-0.9.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+stl_to_voxel-0.9.3.dist-info/METADATA,sha256=L4FvGyRi3dNK6klck1WM09biMHRJfnAaCFOQvTPEvZA,2949
+stl_to_voxel-0.9.3.dist-info/RECORD,,
