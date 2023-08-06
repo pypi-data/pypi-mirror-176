@@ -1,0 +1,17 @@
+shikibaio/__init__.py,sha256=jc-maol3jIk_zP6vfni-WUdgasHgtZNr-yVJXkRIOtA,95
+shikibaio/_dispatcher.py,sha256=ezMnjws4ecr6YQImGXh9VFfzfQTK-OB-6_2ZaAkE2CI,5343
+shikibaio/adapt_clients/__init__.py,sha256=IqwV1ztJM_DgUe1uwt3xChOL5af0TzbmuNzxZyRn-FU,620
+shikibaio/adapt_clients/base.py,sha256=edUiY9YvNgYqQRwIxwv8dLFaiHyEIEaeVa1u9nhlA-s,656
+shikibaio/adapt_clients/shiki4py.py,sha256=mHrNHRrV7VUOwIKnmnjRtY75WrgGFFI6Begg9cUSYx0,1146
+shikibaio/adapt_clients/shikithon.py,sha256=VsagWfVX4kVphX-mIA_sq27uy9bkmW3B6OhP62DxIq0,1122
+shikibaio/enums/__init__.py,sha256=i-xd_bU5gRm4Bsxh-mKHuR7BmjwoFpAHtfm61xu4Fko,133
+shikibaio/enums/data_type.py,sha256=0s_s35jHF0Yn11HQSGbufP5lZErrVRYos95g1djg5Hs,94
+shikibaio/enums/event_type.py,sha256=maFDAUiUIYE1NQt56hcjoR5FBJUNir44YeyzHDfA15Y,111
+shikibaio/handlers.py,sha256=YCUYDFm9zQtRYUUZl9zOyIkKgrLLmAencZchKclir7g,1155
+shikibaio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shikibaio/types/__init__.py,sha256=dc9_SoET9FdMhBIxevcp8MO8bhIM69IY5fdY7UjWXBY,91
+shikibaio/types/event.py,sha256=AlDoLSrbYHpTT7PKxiuUGhByewvv2-Csiz5ehnGM5h8,2049
+shikibaio-0.1.0b0.dist-info/LICENSE,sha256=xi9VSOrXqNjRQ4NhRCYWG6-rVd9u6wPiiJeMLMz4JQo,1064
+shikibaio-0.1.0b0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+shikibaio-0.1.0b0.dist-info/METADATA,sha256=BVUdgK7ZGrzchUz6CY5uU_XX5i5ZNHowxaIfSfPxQ6s,4692
+shikibaio-0.1.0b0.dist-info/RECORD,,
