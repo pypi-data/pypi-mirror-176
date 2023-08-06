@@ -1,0 +1,4 @@
+include a_cv2_find_biggest_square/requirements.txt
+include a_cv2_find_biggest_square/thirdparty.json
+include a_cv2_find_biggest_square/README.MD
+include a_cv2_find_biggest_square/LICENSE

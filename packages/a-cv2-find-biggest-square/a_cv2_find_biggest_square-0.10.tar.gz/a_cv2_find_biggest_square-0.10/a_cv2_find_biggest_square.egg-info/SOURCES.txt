@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_cv2_find_biggest_square/LICENSE
+a_cv2_find_biggest_square/README.MD
+a_cv2_find_biggest_square/__init__.py
+a_cv2_find_biggest_square/requirements.txt
+a_cv2_find_biggest_square/thirdparty.json
+a_cv2_find_biggest_square.egg-info/PKG-INFO
+a_cv2_find_biggest_square.egg-info/SOURCES.txt
+a_cv2_find_biggest_square.egg-info/dependency_links.txt
+a_cv2_find_biggest_square.egg-info/requires.txt
+a_cv2_find_biggest_square.egg-info/top_level.txt
