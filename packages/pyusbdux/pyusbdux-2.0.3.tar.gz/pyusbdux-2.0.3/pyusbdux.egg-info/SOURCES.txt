@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyusbdux.i
+setup.py
+pyusbdux.egg-info/PKG-INFO
+pyusbdux.egg-info/SOURCES.txt
+pyusbdux.egg-info/dependency_links.txt
+pyusbdux.egg-info/top_level.txt
