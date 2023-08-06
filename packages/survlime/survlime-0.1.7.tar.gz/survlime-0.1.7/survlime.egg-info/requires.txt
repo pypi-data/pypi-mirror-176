@@ -1,0 +1,8 @@
+numpy
+cvxpy
+scikit-survival
+scikit-learn
+pandas
+
+[dev]
+pytest
