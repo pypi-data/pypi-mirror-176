@@ -1,0 +1,4 @@
+colorama
+setuptools
+unogenerator
+mangenerator
