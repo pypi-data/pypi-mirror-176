@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "govctl"
+version = "0.1.2"
+description = "GOV.PF Multifunction CLI"
+authors = ["Leonard TAVAE <leonard.tavae@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+govctl = "govctl.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+celery = {extras = ["amqp"], version = "^5.2.7"}
+pymongo = "^4.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
