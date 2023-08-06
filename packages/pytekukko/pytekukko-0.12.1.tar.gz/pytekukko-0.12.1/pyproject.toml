@@ -1,0 +1,110 @@
+[build-system]
+requires = ["setuptools >=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytekukko"
+version = "0.12.1"
+description = "Jätekukko Omakukko API client"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Ville Skyttä", email = "ville.skytta@iki.fi" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Framework :: AsyncIO",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Typing :: Typed",
+]
+dependencies = ["aiohttp ~=3.4"]
+
+[project.optional-dependencies]
+examples = ["python-dotenv ~=0.10", "google-api-python-client ~=2.0,>=2.0.2"]
+
+[project.scripts]
+pytekukko-collection-schedules = "pytekukko.examples.print_collection_schedules:main [examples]"
+pytekukko-invoice-headers = "pytekukko.examples.print_invoice_headers:main [examples]"
+pytekukko-next-collections = "pytekukko.examples.print_next_collections:main [examples]"
+pytekukko-update-google-calendar = "pytekukko.examples.update_google_calendar:main [examples]"
+
+[project.urls]
+Homepage = "https://github.com/scop/pytekukko"
+Changelog = "https://github.com/scop/pytekukko/blob/main/CHANGELOG.md"
+
+[tool.black]
+target-version = ["py39", "py310", "py311"] # TODO: add "py312" when supported
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.9"
+mypy_path = "$MYPY_CONFIG_FILE_DIR/src"
+enable_error_code = "ignore-without-code"
+strict = true
+warn_unreachable = true
+
+[tool.pylint.main]
+jobs = 2
+load-plugins = [
+  "pylint.extensions.check_elif",
+  "pylint.extensions.code_style",
+  "pylint.extensions.comparison_placement",
+  "pylint.extensions.eq_without_hash",
+  "pylint.extensions.for_any_all",
+  "pylint.extensions.no_self_use",
+  "pylint.extensions.overlapping_exceptions",
+  "pylint.extensions.private_import",
+  "pylint.extensions.redefined_loop_name",
+]
+persistent = false
+py-version = "3.9"
+fail-on = ["I"]
+
+[tool.pylint."messages control"]
+disable = [
+  "duplicate-code", # examples, https://github.com/PyCQA/pylint/issues/214
+  "fixme",
+  "format", # handled by black
+  "missing-class-docstring", # handled by pydocstyle
+  "missing-function-docstring", # handled by pydocstyle
+  "missing-module-docstring", # handled by pydocstyle
+  "wrong-import-order", # handled by isort
+
+]
+enable = ["use-symbolic-message-instead", "useless-suppression"]
+
+[tool.pylint.reports]
+score = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+filterwarnings = ["error"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py39, py310, py311, py312, pypy3
+skip_missing_interpreters = true
+isolated_build = true
+[testenv]
+deps = -rrequirements-test.txt
+extras = examples
+commands =
+  {envpython} -X dev -bb -m pytest {posargs}
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_collection_schedules --help
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_invoice_headers --help
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_next_collections --help
+  {envpython} -X dev -bb -W error -m pytekukko.examples.update_google_calendar --help
+[gh-actions]
+python =
+  3.9: py39
+  3.10: py310
+  3.11: py311
+  3.12: py312
+  pypy-3.9: pypy3
+"""
