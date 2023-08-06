@@ -1,0 +1,11 @@
+reposter/__init__.py,sha256=MDr3ZS7j97tioqOdJ_vQJfXn0PYaRjMBklCw4MsnFhU,26
+reposter/__main__.py,sha256=fHk2JufBq6uo8xq8EWPjbgzZjG6vyGVClkQq2x9W29o,273
+reposter/main.py,sha256=QwFNUVMPgq1npIIqYP8ILHFbrtGU4hoYtE4cIslDiYc,59468
+reposter/setup.py,sha256=KEfUJNNZyy3YWUG3MacQw6LoBcPcmZxSXGLDmKH1RaY,3735
+reposter/icons/icon.ico,sha256=rBjnPzXXDASc9o7l1A4V0-R-HJEio1LUUeWTm3Lu1gM,8710
+reposter/icons/icon.svg,sha256=Iscwk9CMq-g1MGJTuIW7BBj6EBtoy-tdqSHItLvGZ4o,4197
+reposter/icons/wide.png,sha256=JKC3Un8zOzbf9CwUnVRFK3JgydiGcsiRwO02Fej4ED8,55424
+reposter/icons/wide.svg,sha256=4k6g5QvwJ15xkeoEb5vvvNZf-0o9Pl79ehwvuXQZ3L0,3559
+reposter-22.2.1.dist-info/METADATA,sha256=t4s31St1uysbNijX505ACBI7c_Hy9M28-4xh2n_BY0M,1474
+reposter-22.2.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+reposter-22.2.1.dist-info/RECORD,,
