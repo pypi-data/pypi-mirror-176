@@ -1,0 +1,3 @@
+dbt-core~=1.0.0
+sqlparams>=3.0.0
+py-hive-iomete>=0.6.5
