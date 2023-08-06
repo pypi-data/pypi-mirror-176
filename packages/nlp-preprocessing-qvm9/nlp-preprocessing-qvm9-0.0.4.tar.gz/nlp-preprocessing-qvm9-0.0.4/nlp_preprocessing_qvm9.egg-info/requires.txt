@@ -1,0 +1,12 @@
+Unidecode
+tqdm
+pandas
+numpy
+regex
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
