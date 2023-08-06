@@ -1,0 +1,7 @@
+pydantic
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-pubsub
+google-auth
+Pillow
+regex
