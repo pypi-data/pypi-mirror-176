@@ -1,0 +1,12 @@
+vicon_nexus_unity_stream_py/__init__.py,sha256=4LTbyJSkkeMfIcCp_Z-Tp1nzLWyEfsL_nvFZni2ysUs,727
+vicon_nexus_unity_stream_py/_main.py,sha256=PtIESiWub8CUjHZnW-KnZEtRe5zYSDesNBkbh0AN_s0,9446
+vicon_nexus_unity_stream_py/cli.py,sha256=UuyJqzElsHOgOkNreS0hCig0M5MO6snugW8nt-18sY0,1552
+vicon_nexus_unity_stream_py/static/index.html,sha256=ybJAyqqlVCUF9sIoAlvncFQotKGB9Wleha6ll9qRUPA,2258
+vicon_nexus_unity_stream_py/tests/__init__.py,sha256=qQU4ngY-Kjcxafa6mWvZmHRl8gR2R0NZiLY35qdSSjs,35
+vicon_nexus_unity_stream_py/tests/conftest.py,sha256=p5ReQ82mHIclsfNzsOjYxP3RrmOD2BrSw5dUBLt38Mc,278
+vicon_nexus_unity_stream_py/tests/test_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vicon_nexus_unity_stream_py-0.2.1.dist-info/entry_points.txt,sha256=jE20cnp5iCd2MLFrokyLWJTzCOqZGb4chIWGUy3LJhs,76
+vicon_nexus_unity_stream_py-0.2.1.dist-info/LICENSE.md,sha256=msCNDyuQguuSI1XXFGmuZAD2gx6X0lVeEwVBrzBKlYA,1109
+vicon_nexus_unity_stream_py-0.2.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+vicon_nexus_unity_stream_py-0.2.1.dist-info/METADATA,sha256=_KV8IYP0ycTR4FnUtxbYS1-HbKx-DPv5OpvpSEpfZmc,2252
+vicon_nexus_unity_stream_py-0.2.1.dist-info/RECORD,,
