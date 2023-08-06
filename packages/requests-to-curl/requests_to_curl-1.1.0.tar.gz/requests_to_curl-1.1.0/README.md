@@ -1,0 +1,40 @@
+# RequestsToCurl
+Convert python requests object to cURL command.
+
+This repository is improved based on [curlify](https://github.com/ofw/curlify). Since curlify does not seem to be updated anymore, no one responded to the PR I provided, so this repository was created.
+
+## Installation
+```sh
+pip install requests_to_curl
+```
+
+## Usage
+
+```py
+>>> import curl
+>>> import requests
+>>>
+>>> response = requests.get("https://lulaolu.com")
+>>>
+>>> curl.parse(response)  # stdout
+curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.27.1' https://lulaolu.com:443/
+```
+If you want to get the curl string in the code project, use `return_it`
+```python3
+>>> c = curl.parse(response, return_it=True)
+>>> print(c)
+```
+
+If you want to hide stdout, use `print_it=False`
+```python3
+>>> c = curl.parse(response, print_it=False)
+```
+
+You can also use `r2c` or `requests_to_curl` instead of `curl`
+```python3
+>>> import r2c
+>>> r2c.parse(response)  # ok!
+>>>
+>>> import requests_to_curl
+>>> requests_to_curl.parse(response)  # ok!
+```
