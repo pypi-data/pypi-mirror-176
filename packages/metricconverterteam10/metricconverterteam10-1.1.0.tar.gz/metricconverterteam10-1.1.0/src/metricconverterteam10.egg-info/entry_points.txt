@@ -1,0 +1,5 @@
+[console_scripts]
+age_converter = age_converter.__main__:main
+distance_converter = distance_converter.__main__:main
+number_converter = number_converter.__main__:main
+time_zone_converter = time_zone_converter.__main__:main
