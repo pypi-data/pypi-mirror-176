@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atl"
+version = "0.0.1"
+authors = [
+  { name="ambedded.ch", email="info@ambedded.ch" },
+]
+description = "Ambedded Technology Library"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://ambedded.ch"
+"Bug Tracker" = "https://gitlab.com"
