@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Tinah.egg-info/PKG-INFO
+Tinah.egg-info/SOURCES.txt
+Tinah.egg-info/dependency_links.txt
+Tinah.egg-info/top_level.txt
