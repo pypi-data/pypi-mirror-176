@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: debugdata
+Version: 0.0.1
+Summary: It used to generate expected data and validate expected . 
+Home-page: https://github.com/automation-lib/debugdata
+Author: Chetan
+Author-email: chetankolhe72@gmail.com
+License: UNKNOWN
+Keywords: data validator,expected data generator
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+It used to generate expected data and validate expected . Used for mostly in automation purpose 
+
+
