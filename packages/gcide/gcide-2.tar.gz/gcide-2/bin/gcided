@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+# pylint: disable=E1101,E0611,C0116,C0115,C0413,R0903
+# This file is placed in the Public Domain.
+
+
+"ICC. Prosecutor. Reconsider OTP-CR-117/19."
+
+
+__version__ = "2"
+
+
+import os
+import signal
+import sys
+import time
+
+
+from gcide.obj import Wd
+from gcide.hdl import scancls
+from gcide.irc import Config
+from gcide.utl import wait
+
+
+from gcide import cmds, irc, mdl, rss
+
+
+Config.channel = "#gcide"
+Config.nick = "gcide"
+Config.realname = "ICC. Prosecutor. Reconsider OTP-CR-117/19."
+Config.username = "gcide"
+
+
+Wd.workdir = "/var/lib/gcide/"
+
+
+scancls(cmds)
+scancls(irc)
+scancls(mdl)
+scancls(rss)
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open("/dev/null", 'r')
+    sos = open("/dev/null", 'a+')
+    ses = open("/dev/null", 'a+')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    os.dup2(sos.fileno(), sys.stdout.fileno())
+    os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def ver(event):
+    event.reply("GCIDE %s" % __version__)
+
+
+def main():
+    Command.add(ver)
+    daemon()
+    irc.init()
+    rss.init()
+    mdl.init()
+    wait()
+
+
+main()

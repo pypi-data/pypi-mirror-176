@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116,C0209,W0221,W0201,E0611
+
+
+"ICC. Prosecutor. Reconsider OTP-CR-!17/19."
+
+
+__version__ = "2"
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import time
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from gcide.hdl import Callback, Cfg, Command, Event, Handler
+from gcide.hdl import command, parse, scan, scandir
+from gcide.obj import Wd, keys, printable, update
+
+
+from gcide import cmds, irc, mdl, rss
+
+
+scan(cmds)
+scan(irc)
+scan(mdl)
+scan(rss)
+
+
+Wd.workdir = os.path.expanduser("~/.gcide")
+
+
+starttime = time.time()
+
+
+class CLI(Handler):
+
+    def raw(self, txt):
+        print(txt)
+
+
+class Console(CLI):
+
+    def handle(self, event):
+        Command.handle(event)
+        event.wait()
+
+    def poll(self):
+        event = Event()
+        event.txt = input("> ")
+        event.orig = repr(self)
+        return event
+
+
+class Completer(rlcompleter.Completer):
+
+    def __init__(self, options):
+        super().__init__()
+        self.matches = []
+        self.options = options
+
+    def complete(self, text, state):
+        if state == 0:
+            if text:
+                self.matches = [s for s in self.options if s and s.startswith(text)]
+            else:
+                self.matches = self.options[:]
+        try:
+            return self.matches[state]
+        except IndexError:
+            return None
+
+
+def banner(cfg):
+    print(
+          "GCIDE started at %s %s" % (
+                                      time.ctime(time.time()).replace("  ", " "),
+                                      printable(cfg, "debug,verbose")
+                                     )
+         )
+
+
+def boot():
+    setcompleter(keys(Command.cmd))
+    txt = ' '.join(sys.argv[1:])
+    cfg = parse(txt)
+    update(Cfg, cfg)
+    return cfg
+
+
+def from_exception(exc, txt="", sep=" "):
+    result = []
+    for frm in traceback.extract_tb(exc.__traceback__):
+        fnm = os.sep.join(frm.filename.split(os.sep)[-2:])
+        result.append(f"{fnm}:{frm.lineno}")
+    nme = name(exc)
+    res = sep.join(result)
+    return f"{txt} {res} {nme}: {exc}"
+
+
+def importer(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    scan(mod)
+
+
+def init(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    if "init" in dir(mod):
+        mod.init()
+
+
+def setcompleter(optionlist):
+    completer = Completer(optionlist)
+    readline.set_completer(completer.complete)
+    readline.parse_and_bind("tab: complete")
+    atexit.register(lambda: readline.set_completer(None))
+
+
+def ver(event):
+    event.reply("GCIDE %s" % __version__)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    readline.redisplay()
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+    for err in Callback.errors:
+        print(from_exception(err))
+
+
+def main():
+    cfg = boot()
+    scandir("mod", importer)
+    Command.add(ver)
+    if cfg.txt:
+         cli = CLI()
+         return command(cli, cfg.otxt)
+    if Cfg.console:
+        banner(cfg)
+        scandir("mod", init)
+        bot = irc.init()
+        print(printable(bot.cfg, "nick,channel,server,port,sasl"))
+        rss.init()
+        mdl.init()
+        csl = Console()
+        csl.start()
+        csl.wait()
+    return None
+
+
+wrap(main)
+ 

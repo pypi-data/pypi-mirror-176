@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+# pylint: disable=E1101,E0611,C0116,C0115,C0413,R0903
+# This file is placed in the Public Domain.
+
+
+"ICC. Prosecutor. Reconsider OT-CR-117/19"
+
+
+__version__ = "2"
+
+
+import sys
+
+
+from gcide.obj import Wd
+from gcide.hdl import Event, Handler, parse
+from gcide.hdl import command, scancls, scan
+from gcide import cmds, irc, mdl, rss
+
+
+Wd.workdir = "/var/lib/gcide/"
+
+
+scan(cmds)
+scan(irc)
+scan(mdl)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+def ver(event):
+    event.reply("GCIDE %s" % __version__)
+
+
+def main():
+    Command.add(ver)
+    cfg = parse(" ".join(sys.argv[1:]))
+    cli = CLI()
+    command(cli, cfg.otxt)
+
+
+main()
