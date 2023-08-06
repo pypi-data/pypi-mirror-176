@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: paddle-template
+Version: 0.0.2
+Summary: the stupid & powerful template for paddle models which can reduce your lots of work
+Home-page: https://github.com/wj-Mcat/paddle-template
+Author: Jingjing WU (吴京京)
+Author-email: wjmcater@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: paddlenlp
+Requires-Dist: paddlepaddle
+Requires-Dist: semver
+Requires-Dist: typed-argument-parser
+Requires-Dist: numpy
+Requires-Dist: dataclasses-json
+Requires-Dist: tqdm
+Requires-Dist: loguru
+Requires-Dist: visualdl
+
+# paddle-models-template
+the template for paddle models which can reduce your lots of work
+![](./logo.png)
+
+## Features
+
+* Full test suit for modeling
+* Full used Trainer which can control train/dev/test stage
+* Base Data structure for different tasks
+* Data Processo interface for different corpus
+* Makefile for small shell scripts
+* ...
+
+## Quick Start
+
+### 1. clone the repo or create a repo from this template
+
+```shell
+git clone https://github.com/wj-Mcat/paddle-models-template
+```
+
+### 2. write your own models
+
+> this will happen in `src/model.py` file
+
+### 3. write your own data processor
+
+> this will happen in `src/data_processors.py`
+
+### 4. train your model
+
+```python
+python trainer.py
+```
+
+## Creators
+
+- [@wj-Mcat](https://github.com/wj-Mcat) - Jingjing WU (吴京京)
+
+## Copyright & License
+
+- Code & Docs © 2022 wj-Mcat <https://github.com/wj-Mcat>
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons
+
+
