@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sockers/__init__.py
+sockers/forcesub.py
+sockers/func.py
+sockers/function.py
+sockers/imdb.py
+sockers/translation.py
+sockers.egg-info/PKG-INFO
+sockers.egg-info/SOURCES.txt
+sockers.egg-info/dependency_links.txt
+sockers.egg-info/requires.txt
+sockers.egg-info/top_level.txt
