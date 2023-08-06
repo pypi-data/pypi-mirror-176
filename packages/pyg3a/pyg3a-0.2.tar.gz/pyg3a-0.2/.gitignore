@@ -1,0 +1,6 @@
+__pycache__/
+examples/.*
+.pyg3a_build/
+*.g3a
+dist/*
+*.egg-info/
