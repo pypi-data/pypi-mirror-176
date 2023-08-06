@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: survlime
+Version: 0.1.2
+Summary: Survival adaptation of the LIME algorithm
+Home-page: https://github.com/imatge-upc/SurvLIME
+Author: Carlos Hernández Pérez, Cristian Pachón García
+Author-email: crherperez95@gmail.com, cc.pachon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+
+UNKNOWN
+
