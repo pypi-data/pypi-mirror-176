@@ -1,0 +1,9 @@
+pkgsample/__init__.py,sha256=VaYIJzDh3JxRCRl7Zs8ZkhE4CIq4FYqAAiILhxer8uc,246
+pkgsample/add.py,sha256=aar-YZDTUXUUsdL675dPd8uxtlVruOGnO4dCUb1pr1s,166
+pkgsample/add_cli.py,sha256=BoTSVM-Y_jAsqmkZpFQEQNVTJIpv9ldZRPUg1SE_WH4,590
+pkgsample-0.1.1.dist-info/LICENSE.txt,sha256=_kYizHmx1l2Y2boQzMunfQZ7A1T8r_mzfiD83ObbafY,10177
+pkgsample-0.1.1.dist-info/METADATA,sha256=8DUjxcnVNB1jWsWIa9b4KKjcMB2Raxf7KOrR67qWshU,14399
+pkgsample-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pkgsample-0.1.1.dist-info/entry_points.txt,sha256=LMXCjRJtb-giFmTGj31J9qMEG_jvVEkIEoXZ8MQzeDU,61
+pkgsample-0.1.1.dist-info/top_level.txt,sha256=qSyu1N6AOTa4KP2-lUi6681YOxyVyWg-6z0UuLI8oB4,10
+pkgsample-0.1.1.dist-info/RECORD,,
