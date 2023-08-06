@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: shortier
+Version: 1.1.1
+Summary: A Link shortener with support for various providers.
+Home-page: https://github.com/yashkc2025/shortier
+Author: Yash Kumar
+Author-email: yashkc2025@gmail.com
+Project-URL: Bug Tracker, https://github.com/yashkc2025/shortier/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Shortier
+
+A Link shortener with support for various providers.
+
+# Installation
+
+The CLI tool can be installed by runnning `pip install shortier`
+
+# How to use
+
+To use just provide the link to be shortened.
+
+```shell
+shortier azure.microsoft.com
+```
+
+You can also define whgich service to use by adding `--type` argument.
+For example to use clckru use
+
+```shell
+shortier azure.microsoft.com --type clckru
+```
+
+Shortier currently supports the following providers:
+
+* chilpit
+* clckru
+* dagd
+* isgd
+* osdb
+* tinyurl
