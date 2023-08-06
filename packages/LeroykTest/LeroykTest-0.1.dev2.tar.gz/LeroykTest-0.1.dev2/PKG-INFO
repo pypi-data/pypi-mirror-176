@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: LeroykTest
+Version: 0.1.dev2
+Summary: 用来测试python打包
+Author: LeroyK
+Author-email: bridieiybnf@gmail.com
+License: MIT License
+Project-URL: Project-URL, https://github.com/LeroyK111/python_packing_notes
+Keywords: name,authors,urls
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: pdf
+Provides-Extra: rest
+License-File: LICENSE
+
+# 描述文件
+
+安装方式
+
+```
+pip install LeroykTest
+```
+
+遵守协议 MIT
+
+仅仅是用来测试python package包的构建。
