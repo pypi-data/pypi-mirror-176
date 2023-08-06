@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+gil
+gil.bat
+gil.py
+pyproject.toml
+gil.egg-info/PKG-INFO
+gil.egg-info/SOURCES.txt
+gil.egg-info/dependency_links.txt
+gil.egg-info/top_level.txt
