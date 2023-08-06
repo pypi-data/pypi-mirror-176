@@ -1,0 +1,12 @@
+posextract/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+posextract/adj_noun_pairs.py,sha256=YhwBozCfVHxsE0OnQkLp1Bhr21A87B_fCtx84ImFQHo,6268
+posextract/download_language_model.py,sha256=50YcKzB6vEaXLhZJNvc5_dPSRavh3YLeOOFEvGj33g4,124
+posextract/grammatical_triples.py,sha256=PzHkpdapXiPswuJt6wtItgeG_c9Z_DkNgD4Xtdor9Aw,11475
+posextract/rules.py,sha256=iLXUDCt5cPiB8FUI1yJ27clyRhEWpnJu_RGYUTBA_-E,7609
+posextract/subj_verb_pairs.py,sha256=x6LVQ7hf_XB1Vvhu5_KOSJU9ZzslvXA3iKYQN3nTLso,5906
+posextract/util.py,sha256=R-IltWmyMFGsm993Q0bOkdoZv9SuBIrYosXpV_VDMCI,7177
+posextract-1.1.4.dist-info/LICENSE,sha256=xJye84KlB2b1c72E-K_yHWkSwXo9G4B6duaqJpVMHs8,1093
+posextract-1.1.4.dist-info/METADATA,sha256=fmNtdXIKZYU1GCr79eVLPeNn9EFcnAogMIkWd84Jf4o,5217
+posextract-1.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+posextract-1.1.4.dist-info/top_level.txt,sha256=7YAuOrBWeIbtSNutNLx6g8EZnG1fcfhe-K5VA0XRR7Y,11
+posextract-1.1.4.dist-info/RECORD,,
