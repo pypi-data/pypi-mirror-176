@@ -1,0 +1,11 @@
+pixelcolor/__init__.py,sha256=3p1bLIxmkuj_ThA4iQvynCMTuqjshXTBTry7hMQyxoo,838
+pixelcolor/command_line_options.py,sha256=sUvAXkbxtjDu0L9NU0ErHP7qtpgUacYgXCaulkip2QA,3831
+pixelcolor/constants.py,sha256=uAUubLTr3keSp6VBd2QQRizHgqDm2e08Rl1k0lPrilA,1257
+pixelcolor/main.py,sha256=TnLrlw_OGDDsuXoUf0DmOtWAWechd7NYhB8PSFQZOwM,2604
+pixelcolor/pixel_color.py,sha256=Mkk9b9AGw3N84e9B0FQgAjPISxz9l1J8gyjRoXSbJMU,1993
+PixelColor-0.2.0.dist-info/LICENSE,sha256=KXtvAwlDxFxMIdHxHJfaPxp2LLs4cZoPCATTgfcKCTE,613
+PixelColor-0.2.0.dist-info/METADATA,sha256=oDi6Myv69dmFAaR0d58ObHFH324WQOIamwBQyiTaoXE,2598
+PixelColor-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PixelColor-0.2.0.dist-info/entry_points.txt,sha256=PxWVSCnF-ZCy17AHcPNgXkRw3eQJGdv2qlNlrkHmZcI,52
+PixelColor-0.2.0.dist-info/top_level.txt,sha256=ER0ZrPQm2YC3XkgWiy5xiYUsAAj4O4yTkEjGkOSdl08,11
+PixelColor-0.2.0.dist-info/RECORD,,

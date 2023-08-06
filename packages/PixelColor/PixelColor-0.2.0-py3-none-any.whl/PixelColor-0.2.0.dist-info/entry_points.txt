@@ -1,0 +1,2 @@
+[console_scripts]
+pixelcolor = pixelcolor.main:main
