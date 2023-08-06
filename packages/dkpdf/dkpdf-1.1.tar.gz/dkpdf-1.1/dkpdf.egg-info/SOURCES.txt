@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dkpdf/__init__.py
+dkpdf/pdf2image.py
+dkpdf/pdf2text.py
+dkpdf.egg-info/PKG-INFO
+dkpdf.egg-info/SOURCES.txt
+dkpdf.egg-info/dependency_links.txt
+dkpdf.egg-info/top_level.txt
