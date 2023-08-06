@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: songpy-docx-printer
+Version: 0.0.5
+Summary: Support package for package songpy, for printing formatted songbooks to docx files
+Author: Karol Ważny
+Requires-Dist: songpy
+Requires-Dist: python-docx
+
