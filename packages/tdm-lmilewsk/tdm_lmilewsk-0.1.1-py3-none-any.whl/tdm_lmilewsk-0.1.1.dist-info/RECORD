@@ -1,0 +1,10 @@
+imdb/__init__.py,sha256=PoX9TYSdFFN4GNGQdbL0Dk3smFJZKBp_ogZn1FntIdo,43
+imdb/__main__.py,sha256=D-sFc6RVTnCOG0bGnISZxkm0HJW5zLPb0Ua8KwCdAfg,570
+imdb/api.py,sha256=8-uW2tMdiXuw4Kk6HaEY0u5bvpDhy2lJdKBv4N4XnK4,323
+imdb/imdb.py,sha256=HjxMBRzk-nDPRjnymqefjolyIRMqGGniENm__KrZGmU,415
+tdm_lmilewsk-0.1.1.dist-info/LICENCE.txt,sha256=7YbAH3B9wf8W6OkZH6vRax1BQx2O020me25-vLlVMDY,52
+tdm_lmilewsk-0.1.1.dist-info/METADATA,sha256=y2Yg3B3DM-u3XClLandl8nUD4Vt3_ZC5BKihBA5f6fc,857
+tdm_lmilewsk-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tdm_lmilewsk-0.1.1.dist-info/entry_points.txt,sha256=v-HG0MPyGwhQ-7aVxbKZWYWL2dmLa98-6TxqkQlC1LU,47
+tdm_lmilewsk-0.1.1.dist-info/top_level.txt,sha256=L5m5gPwYS8sLwc0o4BbulTmfyRr2WZ4Du-AYAKsIfio,5
+tdm_lmilewsk-0.1.1.dist-info/RECORD,,
