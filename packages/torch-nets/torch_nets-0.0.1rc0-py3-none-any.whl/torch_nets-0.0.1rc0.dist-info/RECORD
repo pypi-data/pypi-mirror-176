@@ -1,0 +1,9 @@
+torch_nets/__init__.py,sha256=IwVPYExWfvhDKtLpuwxVGLLFSexZ7-ql0Rar-hzusBA,437
+torch_nets/_torch_net.py,sha256=7R3kBFPnBl47QYJLH7-6HTgb8eikljVwLPEEAisdIeY,4068
+torch_nets/core/__init__.py,sha256=Fcl_6q7VtG3F4TWLwvqxAZnnj2cZ6oqDQPuKd_895no,328
+torch_nets/core/_layer.py,sha256=ZpL60nQGgBGECT42e9S7oplWtPDQegglm-g8v1DAYTw,4310
+torch_nets-0.0.1rc0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+torch_nets-0.0.1rc0.dist-info/METADATA,sha256=AIlR2qxm9m6fLBkZemmxznJ09u6x9kwxVDPU_uz87gA,2545
+torch_nets-0.0.1rc0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+torch_nets-0.0.1rc0.dist-info/top_level.txt,sha256=WGtvY7zdbY571klq3s2UINnuORbt-u2SA3GTQqe2nKU,11
+torch_nets-0.0.1rc0.dist-info/RECORD,,
