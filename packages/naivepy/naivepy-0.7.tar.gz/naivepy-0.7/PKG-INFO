@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: naivepy
+Version: 0.7
+Summary: Naive Algorithm Module Implemented in Python
+Home-page: https://github.com/PrathameshDhande22/NaivePY
+Author: Prathamesh Dhande
+Author-email: prathameshdhande534@gmail.com
+Keywords: naive,naive bayes,algorithm,naive algorithm,classification,module
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NaivePy
+
+![Read the Docs](https://img.shields.io/readthedocs/naivepy) &nbsp;
+![GitHub](https://img.shields.io/github/license/prathameshdhande22/Naivepy?color=blue&style=flat-square)

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+naivepy/__init__.py
+naivepy/exceptions.py
+naivepy/naivepy.py
+naivepy.egg-info/PKG-INFO
+naivepy.egg-info/SOURCES.txt
+naivepy.egg-info/dependency_links.txt
+naivepy.egg-info/requires.txt
+naivepy.egg-info/top_level.txt
