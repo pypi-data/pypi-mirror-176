@@ -1,0 +1,9 @@
+resoto_plugin_k8s/__init__.py,sha256=Nxc6o_cvU3HGmhLAgvpeFvzh0aUVw4av_Tt-jdeA3OM,3887
+resoto_plugin_k8s/base.py,sha256=YEdUfAyvDdec3GqPWfr3On8Uy8pqzZm3F6PxapPn9jk,19109
+resoto_plugin_k8s/collector.py,sha256=SQ0-pyYlDQO6c726XqaWw_dl0wa91B1RmZiS252CiN0,2941
+resoto_plugin_k8s/resources.py,sha256=iSR81MFjplhOt1eKaBxeqKk_Gs8oQJdJkSdhOpfl8cU,103160
+resoto_plugin_k8s-2.4.7.dist-info/METADATA,sha256=-KmKNTZ-5IuVw7EOr-0FiGkCdQYveZFoTf1VJzpag1I,886
+resoto_plugin_k8s-2.4.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+resoto_plugin_k8s-2.4.7.dist-info/entry_points.txt,sha256=3rG1vDv10AZq6czaey88GBC35bscSYkfrwYBPbEsWUg,77
+resoto_plugin_k8s-2.4.7.dist-info/top_level.txt,sha256=heBYMYnbmmvPaAoW55pXRfC5gP9MKNpfTFFCt0mDkxE,18
+resoto_plugin_k8s-2.4.7.dist-info/RECORD,,
