@@ -1,0 +1,328 @@
+
+{%- if "Tenant" in api %}
+# Tenants
+{%-     for tenant in data_to_template['imdata'] %}
+## {{ tenant.fvTenant.attributes.name }}
+### Alias: {{ tenant.fvTenant.attributes.nameAlias }}
+### Description: {{ tenant.fvTenant.attributes.descr }}
+### Status: {{ tenant.fvTenant.attributes.status }}
+### DN: {{ tenant.fvTenant.attributes.dn }}
+### UID: {{ tenant.fvTenant.attributes.uid }}
+### Annotation: {{ tenant.fvTenant.attributes.annotation }}
+### Child Action: {{ tenant.fvTenant.attributes.childAction }}
+### Externally Managed By: {{ tenant.fvTenant.attributes.extMngdBy }}
+### Local Owner: {{ tenant.fvTenant.attributes.lcOwn }}
+### Monitoring Policy DN: {{ tenant.fvTenant.attributes.monPolDn }}
+### Owner
+#### Key: {{ tenant.fvTenant.attributes.ownerKey }}
+#### Tag: {{ tenant.fvTenant.attributes.ownerTag }}
+### User Domain: {{ tenant.fvTenant.attributes.userdom }}
+### Modified Timestamp: {{ tenant.fvTenant.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "AEPg" in api %}
+# Endpoint Groups
+{%-     for epg in data_to_template['imdata'] %}
+## Name: {{ epg.fvAEPg.attributes.name }}
+### Alias: {{ epg.fvAEPg.attributes.nameAlias }}
+### Description: {{ epg.fvAEPg.attributes.descr }}
+### Status: {{ epg.fvAEPg.attributes.status }}
+### DN: {{ epg.fvAEPg.attributes.dn }}
+### UID: {{ epg.fvAEPg.attributes.uid }}
+### Annotation: {{ epg.fvAEPg.attributes.annotation }}
+### Child Action: {{ epg.fvAEPg.attributes.childAction }}
+### Externally Managed By: {{ epg.fvAEPg.attributes.extMngdBy }}
+### Local Owner: {{ epg.fvAEPg.attributes.lcOwn }}
+### Monitoring Policy DN: {{ epg.fvAEPg.attributes.monPolDn }}
+### User Domain: {{ epg.fvAEPg.attributes.userdom }}
+### Configuration
+#### Issues: {{ epg.fvAEPg.attributes.configIssues }}
+#### State: {{ epg.fvAEPg.attributes.configSt }}
+### Exception Tag: {{ epg.fvAEPg.attributes.exceptionTag }}
+### Flood On Encapsulation: {{ epg.fvAEPg.attributes.floodOnEncap }}
+### Forward Control: {{ epg.fvAEPg.attributes.fwdCtrl }}
+### Has Multicast Source: {{ epg.fvAEPg.attributes.hasMcastSource }}
+### Is Attribute Based EPG: {{ epg.fvAEPg.attributes.isAttrBasedEPg }}
+### Is Shared Service Multicast EPG: {{ epg.fvAEPg.attributes.isSharedSrvMsiteEPg }}
+### Match T: {{ epg.fvAEPg.attributes.matchT }}
+### PC
+#### Enforcement Preference: {{ epg.fvAEPg.attributes.pcEnfPref }}
+#### Tag: {{ epg.fvAEPg.attributes.pcTag }}
+#### Tag Allocation Source: {{ epg.fvAEPg.attributes.pcTagAllocSrc }}
+### Preference Gr Member: {{ epg.fvAEPg.attributes.prefGrMemb }}
+### Priority: {{ epg.fvAEPg.attributes.prio }}
+### Scope: {{ epg.fvAEPg.attributes.scope }}
+### Shutdown: {{ epg.fvAEPg.attributes.shutdown }}
+### Trigger State: {{ epg.fvAEPg.attributes.triggerSt }}
+### TX ID: {{ epg.fvAEPg.attributes.txId }}
+### Modified Timestamp: {{ epg.fvAEPg.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "BD" in api %}
+# Bridge Domains
+{%-     for bd in data_to_template['imdata'] %}
+## {{ bd.fvBD.attributes.name }}
+### Alias: {{ bd.fvBD.attributes.nameAlias }}
+### Description: {{ bd.fvBD.attributes.descr }}
+### Status: {{ bd.fvBD.attributes.status }}
+### DN: {{ bd.fvBD.attributes.dn }}
+### UID: {{ bd.fvBD.attributes.uid }}
+### Annotation: {{ bd.fvBD.attributes.annotation }}
+### Child Action: {{ bd.fvBD.attributes.childAction }}
+### Externally Managed By: {{ bd.fvBD.attributes.extMngdBy }}
+### Local Owner: {{ bd.fvBD.attributes.lcOwn }}
+### Monitoring Policy DN: {{ bd.fvBD.attributes.monPolDn }}
+### User Domain: {{ bd.fvBD.attributes.userdom }}
+### Configuration Issues: {{ bd.fvBD.attributes.configIssues }}
+### Optimize WAN Bandwidth: {{ bd.fvBD.attributes.OptimizeWanBandwidth }}
+### ARP Flood: {{ bd.fvBD.attributes.arpFlood }}
+### Broadcast P: {{ bd.fvBD.attributes.bcastP }}
+### EP
+#### Clear: {{ bd.fvBD.attributes.epClear }}
+#### Move Detect Mode: {{ bd.fvBD.attributes.epMoveDetectMode }}
+### Host Based Routing: {{ bd.fvBD.attributes.hostBasedRouting }}
+### Intersite
+#### BUM Traffic Allow: {{ bd.fvBD.attributes.intersiteBumTrafficAllow }}
+#### L2 Stretch: {{ bd.fvBD.attributes.intersiteL2Stretch }}
+### IP Learning: {{ bd.fvBD.attributes.ipLearning }}
+### Limit IP Learn To Subnets: {{ bd.fvBD.attributes.limitIpLearnToSubnets }}
+### Link Layer Address: {{ bd.fvBD.attributes.llAddr }}
+### MAC: {{ bd.fvBD.attributes.mac }}
+### Multicast
+#### Allow: {{ bd.fvBD.attributes.mcastAllow }}
+#### Destination Packet Allow: {{ bd.fvBD.attributes.multiDstPktAct }}
+#### Unknown Action: {{ bd.fvBD.attributes.unkMcastAct }}
+#### IPv6
+##### Allow: {{ bd.fvBD.attributes.ipv6McastAllow }}
+##### Unknown Action: {{ bd.fvBD.attributes.v6unkMcastAct }}
+### MTU: {{ bd.fvBD.attributes.mtu }}
+### Owner
+#### Key: {{ bd.fvBD.attributes.ownerKey }}
+#### Tag: {{ bd.fvBD.attributes.ownerTag }}
+### PC Tag: {{ bd.fvBD.attributes.pcTag }}
+### Scope: {{ bd.fvBD.attributes.scope }}
+### Segment: {{ bd.fvBD.attributes.seg }}
+### Type: {{ bd.fvBD.attributes.type }}
+### Unicast Route: {{ bd.fvBD.attributes.unicastRoute }}
+### Unknown MAC Unicast Action: {{ bd.fvBD.attributes.unkMacUcastAct }}
+### Virtual MAC: {{ bd.fvBD.attributes.vmac }}
+### Modified Timestamp: {{ bd.fvBD.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "Ctx" in api %}
+# Contexts
+{%-     for context in data_to_template['imdata'] %}
+## {{ context.fvCtx.attributes.name }}
+### Alias: {{ context.fvCtx.attributes.nameAlias }}
+### Description: {{ context.fvCtx.attributes.descr }}
+### Status: {{ context.fvCtx.attributes.status }}
+### DN: {{ context.fvCtx.attributes.dn }}
+### UID: {{ context.fvCtx.attributes.uid }}
+### Annotation: {{ context.fvCtx.attributes.annotation }}
+### Child Action: {{ context.fvCtx.attributes.childAction }}
+### Externally Managed By: {{ context.fvCtx.attributes.extMngdBy }}
+### Local Owner: {{ context.fvCtx.attributes.lcOwn }}
+### Monitoring Policy DN: {{ context.fvCtx.attributes.monPolDn }}
+### User Domain: {{ context.fvCtx.attributes.userdom }}
+### Bridge Domain Enforced Enable: {{ context.fvCtx.attributes.bdEnforcedEnable }}
+### IP Data Plane Learning: {{ context.fvCtx.attributes.ipDataPlaneLearning }}
+### Known Multicast Action: {{ context.fvCtx.attributes.knwMcastAct }}
+### Owner
+#### Key: {{ context.fvCtx.attributes.ownerKey }}
+#### Tag: {{ context.fvCtx.attributes.ownerTag }}
+### PC 
+#### Enforce Directory
+##### {{ context.fvCtx.attributes.pcEnfDir }}
+##### Updated: {{ context.fvCtx.attributes.pcEnfDirUpdated }}
+#### Enforce Preference: {{ context.fvCtx.attributes.pcEnfPref }}
+#### Tag: {{ context.fvCtx.attributes.pcTag }}
+### Scope: {{ context.fvCtx.attributes.scope }}
+### Segment: {{ context.fvCtx.attributes.seg }}
+### VRF
+#### ID: {{ context.fvCtx.attributes.vrfId }}
+#### Index: {{ context.fvCtx.attributes.vrfIndex }}
+### Modified Timestamp: {{ context.fvCtx.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "Ap" in api %}
+# Application Profiles
+{%-     for application_profile in data_to_template['imdata'] %}
+## {{ application_profile.fvAp.attributes.name }}
+### Alias: {{ application_profile.fvAp.attributes.nameAlias }}
+### Description: {{ application_profile.fvAp.attributes.descr }}
+### Status: {{ application_profile.fvAp.attributes.status }}
+### DN: {{ application_profile.fvAp.attributes.dn }}
+### UID: {{ application_profile.fvAp.attributes.uid }}
+### Annotation: {{ application_profile.fvAp.attributes.annotation }}
+### Child Action: {{ application_profile.fvAp.attributes.childAction }}
+### Externally Managed By: {{ application_profile.fvAp.attributes.extMngdBy }}
+### Local Owner: {{ application_profile.fvAp.attributes.lcOwn }}
+### Monitoring Policy DN: {{ application_profile.fvAp.attributes.monPolDn }}
+### User Domain: {{ application_profile.fvAp.attributes.userdom }}
+### Owner
+#### Key: {{ application_profile.fvAp.attributes.ownerKey }}
+#### Tag: {{ application_profile.fvAp.attributes.ownerTag }}
+### Priority: {{ application_profile.fvAp.attributes.prio }}
+### Modified Timestamp: {{ application_profile.fvAp.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "l3extOut" in api %}
+# L3Outs
+{%-     for l3out in data_to_template['imdata'] %}
+## {{ l3out.l3extOut.attributes.name }}
+### Alias: {{ l3out.l3extOut.attributes.nameAlias }}
+### Description: {{ l3out.l3extOut.attributes.descr }}
+### Status: {{ l3out.l3extOut.attributes.status }}
+### DN: {{ l3out.l3extOut.attributes.dn }}
+### UID: {{ l3out.l3extOut.attributes.uid }}
+### Annotation: {{ l3out.l3extOut.attributes.annotation }}
+### Child Action: {{ l3out.l3extOut.attributes.childAction }}
+### Externally Managed By: {{ l3out.l3extOut.attributes.extMngdBy }}
+### Local Owner: {{ l3out.l3extOut.attributes.lcOwn }}
+### Monitoring Policy DN: {{ l3out.l3extOut.attributes.monPolDn }}
+### User Domain: {{ l3out.l3extOut.attributes.userdom }}
+### Owner
+#### Key: {{ l3out.l3extOut.attributes.ownerKey }}
+#### Tag: {{ l3out.l3extOut.attributes.ownerTag }}
+### Priority: {{ l3out.l3extOut.attributes.prio }}
+### Enforce Route Control: {{ l3out.l3extOut.attributes.enforceRtctrl }}
+### Target DSCP: {{ l3out.l3extOut.attributes.targetDscp }}
+### Modified Timestamp: {{ l3out.l3extOut.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "l2extOut" in api %}
+# L2Outs
+{%-     for l2out in data_to_template['imdata'] %}
+## Name: {{ l2out.l2extOut.attributes.name }}
+### Name Alias: {{ l2out.l2extOut.attributes.nameAlias }}
+### Annotation: {{ l2out.l2extOut.attributes.annotation }}
+### Child Action: {{ l2out.l2extOut.attributes.childAction }}
+### Description: {{ l2out.l2extOut.attributes.descr }}
+### DN: {{ l2out.l2extOut.attributes.dn }}
+### Externally Managed By: {{ l2out.l2extOut.attributes.extMngdBy }}
+### LC Owner: {{ l2out.l2extOut.attributes.lcOwn }}
+### Last Modified: {{ l2out.l2extOut.attributes.modTs }}
+### Monitoring Policy DN: {{ l2out.l2extOut.attributes.monPolDn }}
+### Owner:
+#### Key: {{ l2out.l2extOut.attributes.ownerKey }}
+#### Tag: {{ l2out.l2extOut.attributes.ownerTag }}
+### Status: {{ l2out.l2extOut.attributes.status }}
+### Target DSCP: {{ l2out.l2extOut.attributes.targetDscp }}
+### UID: {{ l2out.l2extOut.attributes.uid }}
+### User Domain: {{ l2out.l2extOut.attributes.userdom }}
+{%-     endfor %}
+{%- else %}
+{%- if "topSystem" in api %}
+# topSystem
+{%-     for topSystem in data_to_template['imdata'] %}
+## {{ topSystem.topSystem.attributes.name }}
+### Address: {{ topSystem.topSystem.attributes.address }}
+### Bootstrap State: {{ topSystem.topSystem.attributes.bootstrapState }}
+### Child Action: {{ topSystem.topSystem.attributes.childAction }}
+### Cluster Time Diff: {{ topSystem.topSystem.attributes.clusterTimeDiff }}
+### Configuration Issues: {{ topSystem.topSystem.attributes.configIssues }}
+### Control Plane MTU: {{ topSystem.topSystem.attributes.controlPlaneMTU }}
+### Current Time: {{ topSystem.topSystem.attributes.currentTime }}
+### DN: {{ topSystem.topSystem.attributes.dn }}
+### Enforce Subnet Check: {{ topSystem.topSystem.attributes.enforceSubnetCheck }}
+### ETEP Address: {{ topSystem.topSystem.attributes.etepAddr }}
+### Fabric Domain: {{ topSystem.topSystem.attributes.fabricDomain }}
+### Fabric ID: {{ topSystem.topSystem.attributes.fabricId }}
+### Fabric MAC: {{ topSystem.topSystem.attributes.fabricMAC }}
+### ID: {{ topSystem.topSystem.attributes.id }}
+### Inband Mgmt Address: {{ topSystem.topSystem.attributes.inbMgmtAddr }}
+### Inband Mgmt Address6: {{ topSystem.topSystem.attributes.inbMgmtAddr }}
+### Inband Mgmt Address6 Mask: {{ topSystem.topSystem.attributes.inbMgmtAddr6Mask }}
+### Inband Mgmt Address Mask: {{ topSystem.topSystem.attributes.inbMgmtAddrMask }}
+### Inband Mgmt Gateway: {{ topSystem.topSystem.attributes.inbMgmtGateway }}
+### Inband Mgmt Gateway6: {{ topSystem.topSystem.attributes.inbMgmtGateway6 }}
+### Last Reboot Time: {{ topSystem.topSystem.attributes.lastRebootTime }}
+### Last Reset Reason: {{ topSystem.topSystem.attributes.lastResetReason }}
+### LC Own: {{ topSystem.topSystem.attributes.lcOwn }}
+### Modified Timestamp: {{ topSystem.topSystem.attributes.modTs }}
+### Mode: {{ topSystem.topSystem.attributes.mode }}
+### Monitoring Policy DN: {{ topSystem.topSystem.attributes.monPolDn }}
+### Name Alias: {{ topSystem.topSystem.attributes.nameAlias }}
+### Node Type: {{ topSystem.topSystem.attributes.nodeType }}
+### Out of Band Mgmt Address: {{ topSystem.topSystem.attributes.oobMgmtAddr }}
+### Out of Band Mgmt Address6: {{ topSystem.topSystem.attributes.oobMgmtAddr6 }}
+### Out of Band Mgmt Address6 Mask: {{ topSystem.topSystem.attributes.oobMgmtAddr6Mask }}
+### Out of Band Mgmt Address Mask: {{ topSystem.topSystem.attributes.oobMgmtAddrMask }}
+### Out of Band Mgmt Gateway: {{ topSystem.topSystem.attributes.oobMgmtGateway }}
+### Out of Band Mgmt Gateway6: {{ topSystem.topSystem.attributes.oobMgmtGateway6 }}
+### Pod ID: {{ topSystem.topSystem.attributes.podId }}
+### Remote Network ID: {{ topSystem.topSystem.attributes.remoteNetworkId }}
+### Remote Node: {{ topSystem.topSystem.attributes.remoteNode }}
+### RL Oper Pod ID: {{ topSystem.topSystem.attributes.rlOperPodId }}
+### RL Routable Mode: {{ topSystem.topSystem.attributes.rlRoutableMode }}
+### RL Direct Mode: {{ topSystem.topSystem.attributes.rldirectMode }}
+### Role: {{ topSystem.topSystem.attributes.role }}
+### Serial Number: {{ topSystem.topSystem.attributes.serial }}
+### Server Type: {{ topSystem.topSystem.attributes.serverType }}
+### Site ID: {{ topSystem.topSystem.attributes.siteId }}
+### State: {{ topSystem.topSystem.attributes.state }}
+### Status: {{ topSystem.topSystem.attributes.status }}
+### System Uptime: {{ topSystem.topSystem.attributes.systemUpTime }}
+### TEP Pool: {{ topSystem.topSystem.attributes.tepPool }}
+### Unicast XR EP Learn Disable: {{ topSystem.topSystem.attributes.unicastXrEpLearnDisable }}
+### Version: {{ topSystem.topSystem.attributes.version }}
+### Virtual Mode: {{ topSystem.topSystem.attributes.virtualMode }}
+{%-     endfor %}
+{%- else %}
+{%- if "Subnet" in api %}
+# Subnets
+{%-     for subnet in data_to_template['imdata'] %}
+## Name: {{ subnet.fvSubnet.attributes.name }}
+## Alias: {{ subnet.fvSubnet.attributes.nameAlias }}
+## Annotation: {{ subnet.fvSubnet.attributes.annotation }}
+## Child Action: {{ subnet.fvSubnet.attributes.childAction }}
+## Config Issues: {{ subnet.fvSubnet.attributes.configIssues }}
+## Control: {{ subnet.fvSubnet.attributes.ctrl }}
+## Debug Message: {{ subnet.fvSubnet.attributes.debugMessage }}
+## Description: {{ subnet.fvSubnet.attributes.descr }}
+## DN: {{ subnet.fvSubnet.attributes.dn }}
+## Externally Managed By: {{ subnet.fvSubnet.attributes.extMngdBy }}
+## IP: {{ subnet.fvSubnet.attributes.ip }}
+## IP Data Plane Learning: {{ subnet.fvSubnet.attributes.ipDPLearning }}
+## LC Owner: {{ subnet.fvSubnet.attributes.lcOwn }}
+## Monitoring Policy DN: {{ subnet.fvSubnet.attributes.monPolDn }}
+## Preferred: {{ subnet.fvSubnet.attributes.preferred }}
+## Scope: {{ subnet.fvSubnet.attributes.scope }}
+## Status: {{ subnet.fvSubnet.attributes.status }}
+## UID: {{ subnet.fvSubnet.attributes.uid }}
+## User Domain: {{ subnet.fvSubnet.attributes.userdom }}
+## Virtual: {{ subnet.fvSubnet.attributes.virtual }}
+## Last Modified: {{ subnet.fvSubnet.attributes.modTs }}
+{%-     endfor %}
+{%- else %}
+{%- if "CEp" in api %}
+# Endpoints
+{%-     for endpoint in data_to_template['imdata'] %}
+## Name: {{ endpoint.fvCEp.attributes.name }}
+### Name Alias: {{ endpoint.fvCEp.attributes.nameAlias }}
+### MAC: {{ endpoint.fvCEp.attributes.mac }}
+### Annotation: {{ endpoint.fvCEp.attributes.annotation }}
+### Base EPG DN: {{ endpoint.fvCEp.attributes.baseEpgDn }}
+### Bridge Domain DN: {{ endpoint.fvCEp.attributes.bdDn }}
+### Child Action: {{ endpoint.fvCEp.attributes.childAction }}
+### Container Name: {{ endpoint.fvCEp.attributes.contName }}
+### DN: {{ endpoint.fvCEp.attributes.dn }}
+### Encapsulation: {{ endpoint.fvCEp.attributes.encap }}
+### ESG Use gDN: {{ endpoint.fvCEp.attributes.esgUsegDn }}
+### Externally Managed By: {{ endpoint.fvCEp.attributes.extMngdBy }}
+### Fabric Path DN: {{ endpoint.fvCEp.attributes.fabricPathDn }}
+### ID: {{ endpoint.fvCEp.attributes.id }}
+### ID Endpoint DN: {{ endpoint.fvCEp.attributes.idepdn }}
+### LCC: {{ endpoint.fvCEp.attributes.lcC }}
+### LC Owner: {{ endpoint.fvCEp.attributes.lcOwn }}
+### Multicast Address: {{ endpoint.fvCEp.attributes.mcastAddr }}
+### Last Modified: {{ endpoint.fvCEp.attributes.modTs }}
+### Monitoring Policy DN: {{ endpoint.fvCEp.attributes.monPolDn }}
+### Status: {{ endpoint.fvCEp.attributes.status }}
+### UID: {{ endpoint.fvCEp.attributes.uid }}
+### User Domain: {{ endpoint.fvCEp.attributes.userdom }}
+### UUID: {{ endpoint.fvCEp.attributes.uuid }}
+### VMM Source: {{ endpoint.fvCEp.attributes.vmmSrc }}
+### VRF DN: {{ endpoint.fvCEp.attributes.vrfDn }}
+{%-     endfor %}
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}{%- endif %}
