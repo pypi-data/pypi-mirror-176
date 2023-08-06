@@ -1,0 +1,7 @@
+BentoML==1.0.10
+boto3
+click
+kubernetes==11.0.0
+PyYAML
+stringcase
+text-unidecode
