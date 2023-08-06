@@ -1,0 +1,16 @@
+mlax/__init__.py,sha256=Zsmi3EWK1ssEOQyBGnpIH9eQxTD-mKbDecirIw9UfJI,51
+mlax/blocks/Linear.py,sha256=yANHsLCV5q0vq1ubXPoBRTXu99u2m69Fp0OeyItUDd8,2519
+mlax/blocks/__init__.py,sha256=QGYNBkHq_qL2fJxJrlPRW_hgkp7qsN7KgsB7dH7mZnQ,39
+mlax/experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlax/experimental/losses/__init__.py,sha256=eQ1x2ylOD_VBXuIflUqPdzYjKCVV8RpRAOEoHnQXY1A,524
+mlax/nn/__init__.py,sha256=dj50b3ozZMulYzp909wK8v3-7awYg4bMcOL5jNX2XRk,58
+mlax/nn/bias.py,sha256=gznSf_F71qcfurmWFYKw70_PegBQkMkFzJGwAf-Rx0U,1132
+mlax/nn/dropout.py,sha256=3w8B0v0DpfiOcK_hMGzrGuusmEMBADTZ1h2Xw924AX4,922
+mlax/nn/linear.py,sha256=VOYk7oXKj9rofWHVDsRT4Qt0-1o2BLjInGlEjsau2h8,1682
+mlax/optim/__init__.py,sha256=ZzdykiH-2yK5S1RYfNT6wnroNaZrrVd8wNE3ZzpQEL4,803
+mlax/optim/sgd.py,sha256=302mURIvgNHm1fiH-4FjXYK5mIA0KNHU_QLDZAEv948,2065
+mlax_nn-0.0.3.dist-info/LICENSE,sha256=3UTijYdg95TqgQneU3wkBBxpkF4M1S7EOsxILhTdbxU,1065
+mlax_nn-0.0.3.dist-info/METADATA,sha256=IoUYaszRt_VXT1zFwFyWXGh9F4oKu9U5wLYBeCsgbns,4617
+mlax_nn-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mlax_nn-0.0.3.dist-info/top_level.txt,sha256=0Zs5Ly0aaeJGAQ5eKAg1CJRaIalWnuATMEBgbfa6nv0,5
+mlax_nn-0.0.3.dist-info/RECORD,,
