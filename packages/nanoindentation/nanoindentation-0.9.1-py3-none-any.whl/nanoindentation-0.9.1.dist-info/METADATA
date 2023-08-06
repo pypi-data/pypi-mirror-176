@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nanoindentation
+Version: 0.9.1
+Summary: Investigation of nanoindentation data
+Project-URL: Homepage, https://micromechanics.readthedocs.io/en/main/
+Project-URL: Bug Tracker, https://github.com/micromechanics/main/issues
+Author-email: Steffen Brinckmann <sbrinckm@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Main branch for Experimental Micromechanics
+In source_code folder:
+- nanoIndent.py for investigation of nanoindentation data
+
+# Documentation
+The documentation is at [Read the docs](https://micromechanics.readthedocs.io/en/main/)
+
+# To upload to Pypi
+``` bash
+python3 -m build
+python3 -m twine upload dist/*
+rm dist/*
+```
+
+# Contributors
+- Steffen Brinckmann
+- Velislava Yonkova
+- Ruomeng (Nicole) Chen
