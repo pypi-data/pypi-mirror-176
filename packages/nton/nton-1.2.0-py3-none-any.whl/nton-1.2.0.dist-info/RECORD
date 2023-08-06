@@ -1,0 +1,15 @@
+nton/__init__.py,sha256=El1sbpINO-cJ2mX6y_07W6DCl7IpRhkDNz3fpZpHII0,23
+nton/assets/control.nacp.xml,sha256=CZyyka9yc5v5tC5CHVq6AuMigWrvoay8QBNJFouWRRI,5669
+nton/assets/exefs/main,sha256=maYvstGCc_LkkWm3TPj4ve7J3ICuPx2yn-mTYRAO-Ps,52935
+nton/assets/exefs/main.npdm,sha256=rYA3f0pENnXfln03N6-wd_3RXjhViAhGkvzT3lHg5tk,1016
+nton/assets/logo/NintendoLogo.png,sha256=Sp_HzawGXbhKYRkk1vUbLaRp_7unFAfveaKHfCkEBVU,262
+nton/assets/logo/StartupMovie.gif,sha256=UKmGVzx64r30dvtoV9btcs-roryv1CqBi3yE3_SXmTw,51019
+nton/constants.py,sha256=nMxh2DMu-SWH7JXOjLBMxsoVXaHRQ_GLaNCOEyquxDk,1055
+nton/main.py,sha256=SwB7gs7g6r5s5A-FfKdSiDPyItkwTaAlxiC0-s52S04,15287
+nton/nstool.py,sha256=vLKuC90jwYU90XxhJnsBu46LXLWcxEgwGIAPZsU9dsc,3339
+nton/title_ids.py,sha256=rnl-U8-QKXLtxOHiW205CpEjoEs_ZDhrK7cKGkfTWwk,22034
+nton-1.2.0.dist-info/entry_points.txt,sha256=ShyHDxTXeXEgVNyKkFLdLOEu_CpS1O1c2zmONW91MP8,39
+nton-1.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nton-1.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nton-1.2.0.dist-info/METADATA,sha256=V72c8z3yCFwKa-2NB30PIKpPiOAfVISmPoDUwgZfyS4,9608
+nton-1.2.0.dist-info/RECORD,,
