@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gunicorn-flask-swagger-example
+Version: 0.0.2
+Summary: Simple example using Flask and Swagger powered by gunicorn.
+Home-page: https://github.com/danielef/gunicorn-flask-swagger-example
+Author: Daniel Estevez
+Author-email: daniel.ef@gmail.com
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+
+# gunicorn-flask-swagger-example
+
+## Downloads
+```
+git clone https://github.com/danielef/gunicorn-flask-swagger-example.git
+```
+
+## Development
+First, create a virtual environment as follows:
+```
+cd gunicorn-flask-swagger-example
+virtualenv -p python3.7 env
+source env/bin/activate
+```
+
+Then, install using `pip`:
+```
+pip install .
+```
+
+And run it with:
+```
+gsfe
+```
+
+Display all the options with `-h`:
+```
+$ gfse -h
+usage: gfse [-h] [-b HOST] [-p PORT] [-v] [-r]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b HOST, --host HOST  APIn Host
+  -p PORT, --port PORT  API Port
+  -v, --verbose         API debug
+  -r, --use-reloader    API use reloader
+ ```
+ 
+ ## Running with gunicorn
+ 
+ ```
+ gunicorn -w 4 gfse.app:app
+ ```
+ 
