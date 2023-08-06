@@ -1,0 +1,2 @@
+[console_scripts]
+sherlock = sherlock.sherlock:main
