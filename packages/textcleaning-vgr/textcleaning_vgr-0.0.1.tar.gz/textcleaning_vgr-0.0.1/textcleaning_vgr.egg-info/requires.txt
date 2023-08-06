@@ -1,0 +1,7 @@
+nltk
+spacy
+pandas
+wordninja
+nltk
+spacy
+en_core_web_lg

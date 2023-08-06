@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+textcleaning_vgr/__init__.py
+textcleaning_vgr/textclean.py
+textcleaning_vgr/vocab.txt
+textcleaning_vgr.egg-info/PKG-INFO
+textcleaning_vgr.egg-info/SOURCES.txt
+textcleaning_vgr.egg-info/dependency_links.txt
+textcleaning_vgr.egg-info/requires.txt
+textcleaning_vgr.egg-info/top_level.txt
