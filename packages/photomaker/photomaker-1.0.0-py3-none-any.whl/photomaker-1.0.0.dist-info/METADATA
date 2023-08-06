@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: photomaker
+Version: 1.0.0
+Summary: A library to create funny pictures with your friends' photos.
+Home-page: https://github.com/MainKronos/PhotoMaker
+Author: MainKronos
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PIL
+
+# PhotoMaker
+
+**PhotoMaker** is a library to create funny pictures with your friends' photos.
+
+## Installation 
+
+```
+pip install photomaker
+```
