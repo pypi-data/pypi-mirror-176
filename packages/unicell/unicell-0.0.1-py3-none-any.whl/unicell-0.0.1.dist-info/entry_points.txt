@@ -1,0 +1,4 @@
+[console_scripts]
+com_metric = compute_metric:main
+unicell_predict = unicell_predict:main
+unicell_train = unicell_train:main
