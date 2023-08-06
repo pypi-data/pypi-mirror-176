@@ -1,0 +1,10 @@
+jira_timesheet_cli/arguments.py,sha256=1CrisJ-YMlkjmAp-hIQ3DLJg-tLbOFPbW87kBTsvtPU,7030
+jira_timesheet_cli/base.yaml,sha256=Z1iT9ZjclTrMPcvegD04pOuEdXGFZ-930lI8eTsVg8s,30
+jira_timesheet_cli/book-time.py,sha256=0hRqfbzJ0AfXBWFatFZiLP3XYzGRC9IL9K2g6h2QF10,3677
+jira_timesheet_cli/book-time.yaml,sha256=PrmSG10y-H3L47U80LoL_2NWMyOGQ51-vXAR_DyCOS4,474
+jira_timesheet_cli/register-completion.txt,sha256=g0dKkufcqOGkdZ8fB-HpUTDuaZx5WQjireB5GaTr4tM,692
+jira_timesheet_cli-0.1.0.dist-info/entry_points.txt,sha256=o4ZbzZZYVXyTqdtJGeCtsvs8MBNWM8AFIrviUMr3S6g,44
+jira_timesheet_cli-0.1.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+jira_timesheet_cli-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+jira_timesheet_cli-0.1.0.dist-info/METADATA,sha256=vJhPk7ovLFC1yF4I5_Xxi8rqDed3A7YdErNCvXMTQ9U,1912
+jira_timesheet_cli-0.1.0.dist-info/RECORD,,
