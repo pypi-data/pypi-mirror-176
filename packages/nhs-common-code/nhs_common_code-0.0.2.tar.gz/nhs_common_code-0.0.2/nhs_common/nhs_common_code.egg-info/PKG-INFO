@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nhs-common-code
+Version: 0.0.2
+Summary: Common code library for the NHS
+Home-page: https://github.com/SamHollings/nhs_common_code
+Author: Sam Hollings
+License: MIT
+Keywords: NHS Digital,Common Code,Analysis,RAP
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.7
+
+Common code library for the NHS
