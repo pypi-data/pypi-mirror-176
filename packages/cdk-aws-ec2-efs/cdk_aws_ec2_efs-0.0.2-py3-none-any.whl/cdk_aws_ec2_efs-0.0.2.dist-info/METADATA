@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: cdk-aws-ec2-efs
+Version: 0.0.2
+Summary: cdk-aws-ec2-efs
+Home-page: https://github.com/sh.hooshyari/cdk-aws-ec2-efs.git
+Author: glyphack<sh.hooshyari@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/sh.hooshyari/cdk-aws-ec2-efs.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib (<3.0.0,>=2.50.0)
+Requires-Dist: constructs (<11.0.0,>=10.0.5)
+Requires-Dist: jsii (<2.0.0,>=1.71.0)
+Requires-Dist: publication (>=0.0.3)
+Requires-Dist: typeguard (~=2.13.3)
+
+# EC2 with EFS AWS CDK construct
+
+[![npm version](https://badge.fury.io/js/cdk-aws-ec2-efs.svg)](https://badge.fury.io/js/cdk-aws-ec2-efs)
+[![PyPI version](https://badge.fury.io/py/cdk-aws-ec2-efs.svg)](https://badge.fury.io/py/cdk-aws-ec2-efs)
+
+This Construct provides an easy way to mount an EFS on EC2 in AWS CDK.
+
+It will inject mount commands as user data script to EC2.
+And the EFS will be mounted after initializing.
+
+## Installation
+
+### JavaScript & TypeScript
+
+```bash
+npm i cdk-aws-ec2-efs
+```
+
+### Python
+
+```bash
+pip install cdk-aws-ec2-efs
+```
+
+## Usage
+
+Create an AWS CDK project, in your application stack create `EC2` and `EFS` resources.
+Note EC2 and EFS must be in the same VPC so EC2 can reach EFS.
+Then use the construct to mount EFS to EC2:
+
+```python
+    const fileSystem = new cdk.aws_efs.FileSystem(this, "fileSystem", {
+      ...
+    });
+    const ec2Instance = new ec2.Instance(this, "ec2-instance", {
+      ...
+    });
+    new Ec2WithEfs(this, "EfsMount", {
+      instance: ec2Instance,
+      fileSystem: fileSystem,
+      configureConnection: true,
+    });
+```
+
+In the above example we pass `configureConnection` as `true`,
+This tell construct to take care of adding rules to EFS security groups to enable
+EC2 access.
+
+Refer to [API.md](./API.md) for full documentation.
+
+
