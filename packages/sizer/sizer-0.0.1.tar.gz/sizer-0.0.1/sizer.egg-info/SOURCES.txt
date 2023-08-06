@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+sizer/__init__.py
+sizer/__main__.py
+sizer/sizer.py
+sizer.egg-info/PKG-INFO
+sizer.egg-info/SOURCES.txt
+sizer.egg-info/dependency_links.txt
+sizer.egg-info/requires.txt
+sizer.egg-info/top_level.txt
