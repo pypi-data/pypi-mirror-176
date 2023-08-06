@@ -1,0 +1,22 @@
+absl-py
+numpy
+packaging
+
+[:platform_system != "Darwin"]
+tensorflow
+tensorflow-text
+
+[examples]
+datasets
+nltk
+wikiextractor
+keras-tuner
+
+[tests]
+black
+flake8
+isort
+pytest
+pytest-cov
+rouge-score
+sentencepiece
