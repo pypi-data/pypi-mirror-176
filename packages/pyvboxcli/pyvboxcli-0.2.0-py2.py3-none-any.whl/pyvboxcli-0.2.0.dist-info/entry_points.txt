@@ -1,0 +1,3 @@
+[console_scripts]
+pyvboxcli=pyvboxcli.__main__:main
+
