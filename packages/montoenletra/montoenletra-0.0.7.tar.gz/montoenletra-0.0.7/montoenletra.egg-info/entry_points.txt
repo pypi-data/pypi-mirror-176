@@ -1,0 +1,2 @@
+[console_scripts]
+pycody = montoenletra.__main__:main
