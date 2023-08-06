@@ -1,0 +1,2 @@
+[console_scripts]
+vsponge = visual_sponge.__main__:main
