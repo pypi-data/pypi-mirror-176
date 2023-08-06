@@ -1,0 +1,3 @@
+[console_scripts]
+pman=personal_man:run
+
