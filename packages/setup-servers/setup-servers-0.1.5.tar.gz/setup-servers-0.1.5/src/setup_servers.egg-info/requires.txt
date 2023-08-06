@@ -1,0 +1,12 @@
+click
+filelock
+pyyaml
+docker
+pydevd-pycharm~=222.4345.23
+
+[build]
+build
+twine
+
+[pycharm]
+pydevd-pycharm~=222.4345.23
