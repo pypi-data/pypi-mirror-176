@@ -1,0 +1,3 @@
+[console_scripts]
+house-sales=house_sales.__main__:main
+
