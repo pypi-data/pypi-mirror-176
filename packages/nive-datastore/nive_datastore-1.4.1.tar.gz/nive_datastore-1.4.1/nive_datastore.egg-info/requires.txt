@@ -1,0 +1,2 @@
+nive>=1.4.1
+nive_userdb>=1.4.1
