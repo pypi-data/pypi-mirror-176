@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pathlocator.egg-info/PKG-INFO
+pathlocator.egg-info/SOURCES.txt
+pathlocator.egg-info/dependency_links.txt
+pathlocator.egg-info/not-zip-safe
+pathlocator.egg-info/top_level.txt
