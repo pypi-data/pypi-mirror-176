@@ -1,0 +1,3 @@
+[console_scripts]
+book-time=jira_timesheet_cli.book_time:main
+
