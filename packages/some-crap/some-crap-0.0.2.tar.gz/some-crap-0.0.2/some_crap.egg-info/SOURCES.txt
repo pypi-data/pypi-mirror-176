@@ -1,0 +1,9 @@
+README.md
+setup.py
+some_crap.egg-info/PKG-INFO
+some_crap.egg-info/SOURCES.txt
+some_crap.egg-info/dependency_links.txt
+some_crap.egg-info/not-zip-safe
+some_crap.egg-info/requires.txt
+some_crap.egg-info/top_level.txt
+something/__init__.py
