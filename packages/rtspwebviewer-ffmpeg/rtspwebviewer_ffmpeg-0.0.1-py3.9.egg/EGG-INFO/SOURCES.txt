@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rtspwebviewer_ffmpeg.egg-info/PKG-INFO
+rtspwebviewer_ffmpeg.egg-info/SOURCES.txt
+rtspwebviewer_ffmpeg.egg-info/dependency_links.txt
+rtspwebviewer_ffmpeg.egg-info/not-zip-safe
+rtspwebviewer_ffmpeg.egg-info/requires.txt
+rtspwebviewer_ffmpeg.egg-info/top_level.txt
+src/__init__.py
+src/run.py
+src/templates/index.html
