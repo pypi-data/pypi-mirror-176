@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: image-manipulator-thx
+Version: 0.0.1
+Summary: pacote de manipulação de imagem - Projeto 2 DIO
+Home-page: https://github.com/rafanthx13/criar-pacote-python-process-de-imagens
+Author: Rafael Assis
+Author-email: rafa-assis@hotmail.com
+License: UNKNOWN
+Description: # image_manipulator_thx
+        
+        Pacote python com vários módulos par amanipular image.
+        
+        Serve como template para outros pacotes
+        
+        Description. 
+        The package image_manipulator is used to:
+        	Processing:
+        		- Histogram matching
+        		- Structural similarity
+        		- Resize image
+        	Utils:
+        		- Read image
+        		- Save image
+        		- Plot image
+        		- Plot result
+        		- Plot histogram
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_manipulator
+        
+        ```bash
+        pip install image_manipulator
+        ```
+        
+        ## Author
+        Alex Pivato
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
