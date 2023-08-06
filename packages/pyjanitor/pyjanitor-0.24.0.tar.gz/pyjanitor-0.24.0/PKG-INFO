@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyjanitor
+Version: 0.24.0
+Summary: Tools for cleaning pandas DataFrames
+Home-page: https://github.com/pyjanitor-devs/pyjanitor
+Author: pyjanitor devs
+Author-email: ericmajinglong@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: biology
+Provides-Extra: chemistry
+Provides-Extra: engineering
+Provides-Extra: spark
+Provides-Extra: all
+License-File: LICENSE
+License-File: AUTHORS.md
