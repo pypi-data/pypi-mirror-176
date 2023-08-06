@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pycargoebuild
+Version: 0.1.0
+Summary: A minimal generator for Rust/Cargo ebuilds written in Python
+Author-email: Michał Górny <mgorny@gentoo.org>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: license_expression
+Requires-Dist: tomli >= 1.2.3; python_version < '3.11'
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/mgorny/pycargoebuild/
+Provides-Extra: test
