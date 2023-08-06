@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+my_module/__init__.py
+my_module/my_module.py
+my_tourdata.egg-info/PKG-INFO
+my_tourdata.egg-info/SOURCES.txt
+my_tourdata.egg-info/dependency_links.txt
+my_tourdata.egg-info/top_level.txt
