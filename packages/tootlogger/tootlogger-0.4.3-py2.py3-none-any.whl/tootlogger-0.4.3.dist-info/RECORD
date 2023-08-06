@@ -1,0 +1,10 @@
+tootlogger/__init__.py,sha256=8tT-j5gbJBYfk_RCj9mfAt9o6vrLsqRs7kt3WGnRSAc,72
+tootlogger/_version.py,sha256=iMNT3g48RwbGI4ls3StJABkVy0VjdBpqOSXxxpEpDWg,23630
+tootlogger/cli.py,sha256=2CFqszcAyPIUCycH05EtjPeKIjGtpzBIAteTPskc-ys,2912
+tootlogger/templates/template.jinja2,sha256=WpZS-SU8rN3jOEwrUb-vC2rXOeU7cmzVyOsHucbN1vo,272
+tootlogger-0.4.3.dist-info/LICENSE.txt,sha256=Fe6nNqC9TSpwqDWfI28crd4ytz7MvRrgm_K0AvDQDlU,1481
+tootlogger-0.4.3.dist-info/METADATA,sha256=muF07U_I7MQJYMsMy5Y66L3cfTwp0oqw2RvaZ35ERMU,2293
+tootlogger-0.4.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+tootlogger-0.4.3.dist-info/entry_points.txt,sha256=2cm8GkOYcGJlx0Kb-kjNowvOmdGvE59RXGqXZ_L5SwQ,51
+tootlogger-0.4.3.dist-info/top_level.txt,sha256=1kSWhgisKp2XDHqWxO1QVfrMwJAdfAD0zda916gNoxM,11
+tootlogger-0.4.3.dist-info/RECORD,,
