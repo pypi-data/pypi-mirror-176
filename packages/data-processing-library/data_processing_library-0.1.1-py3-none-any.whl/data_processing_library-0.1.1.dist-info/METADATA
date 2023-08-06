@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: data-processing-library
+Version: 0.1.1
+Summary: Simple data processing library
+License: MIT
+Author: DFilyushin
+Author-email: Dmitriy.Filyushin@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+# DataProcessingLibrary
+
+Python port for [Skivsoft.Processor](https://github.com/skivsoft/Skivsoft.Processor)
+
+Simple data processing library.
+
+The key features are:
+* Easy idea for running tasks step-by-step
+* Synchronous and asynchronous way for executing steps
+* Support SOLID
+
+
+## Example of usage
+
+```Python
+from uuid import uuid4
+from data_processing_library.processor import AbstractProcessor, Context
+from data_processing_library.group import ProcessorGroup
+
+
+class HelloContext(Context):
+    def __init__(self):
+        self.name = None
+
+    def set_name(self, name: str) -> None:
+        self.name = name
+
+    def get_name(self) -> str:
+        return self.name
+
+
+class InputName(AbstractProcessor):
+    def execute(self, context: HelloContext):
+        context.set_name(uuid4().hex)
+
+
+class OutputGreeting(AbstractProcessor):
+    def execute(self, context: HelloContext):
+        print(f'Hello, {context.get_name()}!')
+
+
+def run_processor():
+    hello_context = HelloContext()
+    steps = [
+        InputName(),
+        OutputGreeting(),
+    ]
+    processor = ProcessorGroup(steps)
+    processor.execute(hello_context)
+
+
+if __name__ == '__main__':
+    run_processor()
+```
+
