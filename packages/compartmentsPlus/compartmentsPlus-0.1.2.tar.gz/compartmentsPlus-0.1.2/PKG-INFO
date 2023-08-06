@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: compartmentsPlus
+Version: 0.1.2
+Summary: Unified API for compartmental modeling
+Author: ThreeStrings
+Author-email: <zack@ouhermans.com>
+Keywords: python,compartment,modeling,epidemiology,networks
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# herman_OUDSA5900
+Zackery Herman, 113101198, Fall 2022, 1 credit hour<br/><br/>
+
+# Overview
+<br/>
+
+# Installation Instructions
+### **Requirements:**
+- Python 3.10 - 3.10.8
+- Streamlit
+- Openpyxl
+- Pandas
+- matplotlib
+
+### **Code library:**
+&emsp;&emsp;If you downloaded the libarary using pip, you can import it into a project using, just like any other package:
+```python
+from compartmentsPlus import compartmentModel
+```
+&emsp;&emsp;Otherwise, you will need to place the downloaded repository within your project and import it locally.
+
+### **Web Application:**
+&emsp;&emsp;There are two ways to initialize the web application:
+1. If using windows, navigate to the folder where the package has been downloaded to and click the "Compartments+" shortcut that comes with the installation. This will call a .bat file that will spin up the Streamlit server and open a preformatted Microsoft Edge instance connected to server.
+2. If using a non-windows machine or the above method otherwise doesn't work, open a shell window in the installation location and run the following command: 
+```
+python -m streamlit run streamlitTest.py  --server.headless=true
+```
+
+&emsp;&emsp;&emsp;This will begin the streamlit server and should display the following within the shell window: ![image](readmeImages/streamlitStart.png)
+
+Some important notes about the web application: 
+1. The web application can be used as a local instance on the user's machine or it can be run on a server/cloud instance and connected to remotely.
+2. The default port that Streamlit uses is 8501, it can be adjusted using the ```--server.port "port number"```. Once a streamlit isntance is started, new instances will be opened on subsequent ports.
+3. The web application can handle an arbitrary number of users at any one time. If you can connect to the network URL from another computer, Streamlit will handle that connection correctly and each user will not affect the other.
+4. **Session data is maintined per connection. If you close/reset your connection, you will lose any unsaved session data. This includes refreshing the web page! The Compartments+ shortcut opens a kiosk window for this reason.**
+<br/>
+<br/>
+<br/>
+
+# User Guide: Web Application
+
+
+<br/>
+
+# User Guide: Code
+
+<br/>
+
+
+
+
+# Design Notes:
+The project consists of two main portions of effort: 
+- A python package suitable for easily creating and modifying compartmental models (API)
+- A web application for interacting with this package (UI)
+
+It has been heavily suggested that the front-loaded focus of the project be entirely on the backend python package, and with the time already elapsed on this project I have to agree with that advice. Following here are the outlined requirements for each section of the project, as gathered and synthesized from discussions with the two main customers: Dr. Wendelboe and Dr. Gonzalez. <br/>
+
+## <ins>Backend API requirements:</ins>
+- Create and modify compartmental models (Add/remove compartments and their links)
+- Add/remove parameters to a model (Automatically handle propogation of parameter changes)
+- Prebuilt model templates are available to save time (specific templates based on customer needs)
+- Systems to save/load models and parameter sets
+- Implemented error checking and handling
+- Built-in functions for visualizing model output
+- Built-in functions for generating performance metrics about the model
+- Systems to import and compare external data sets to the model
+- All data generated/contained by the model is easily accessible
+- Models are calculated via difference not integration
+
+### <ins>Backend development notes:</ins>
+There appear to be several github repositories previously created for a similar puprose to this project. However, all of them have some aspect that does not properly fit the needs of the customers involved. The most common hitch is that the repository is not a python project or very narrow in its scope. There are several SEIR modeling projects but very few generalizable compartmental model packages. The two best options are:
+- The seirsplus package (https://github.com/ryansmcgee/seirsplus), which has a very robust framework for extended SEIRS modeling but is still quite rigid within that extended framework. There are much more generalized models available in its network modeling portions, but those do not meet my customer requirements. Additionally, the project appears to have been abandoned for over 2 years.
+- The epispot package (https://github.com/epispot/epispot), is more active and has more options for custom model creation. However, the underlying code is heavily reliant on class and OOP which interferes with other pythonic programming practices. It also exclusively uses differential models instead of difference models which also does not meet a customer need. Lastly, it appears to entirely lack the ability to adjust the parameters of the model over time, only modeling based off of initial states.
+
+The goal from here forward is to implement all of the requirements in as simple a way as possible. <br/><br/>
+
+The compartmental model consists of 3 key components: parameters, compartments, and linkages. 
+- All parameters exist in the model from the beginning, whether they or not they have a non-zero value. The parameters will exist as a list of dictionaries, where the index of the list is the time (t) where the parameters apply and the dictionary key is the name of the parameter. This structure will allow for very easy manipulation of the parameters at each step and more intuitive interpretation of the data. Methods will need to be made to handle adding parameter values at specific time indicies. An assumption is being made that a change in a parameter persists until another change occurs. For example, a change in vaccination rate at t = 10 needs to propagate for all t >= 10 or until another change in vaccination rate occurs at some t > 10. Methods will also need to be made such that the user does not have to interact with the parameters at a list level, only in initial creation and change points. Methods will be needed to add or remove parameters and clean up whatever messes are created by that. Any number of parameters can exist in each dictionary, but all dictionaries must have the same keys between them. 
+- All compartments exist in the model from the beginning, whether or not they have a non-zero value. The compartments will exist as a list of dictionaries, where the index of the list is the time (t) when the values of each compartment are calculated and the key is the name of the compartment. Compartments are not modified by the user at time indicies, only initialized and then the values calculated. Methods will be needed to add or remove compartments and clean up whatever messes are created by that. Any number of compartments can exist in the model at initialization.
+- The linkages are a dictionary of change functions that describe the movement of value from one compartment to another. The keys in the dictionary will be tuples of two compartment keys and the value will be a lambda function that defines the value of the change at each step in the model difference calculation. An example entry might be: 
+<br/>```('Sucept', 'Rec'): Compartments['Sucept'][t-1] * Parameters[t-1]['VacRate']```<br/>
+This generates the number of individuals that become immune through vaccination during step t. The model will take the value of the 'Sucept' compartment at t-1 and subtract this value from it, storing the result at index t. It will take the value of the 'Rec' compartment at t-1 and add this value to it, storing the result at index t. This sytem garuntees the balance of movement required by compartmental models. The linkages system is the most concerning and prone to error in the system so far and error checking for this may prove bothersome.
+
+With all three of these components properly implemented, all of the model specific requirements should be met. After that leaves the import/export functionality of both models and data sets, visualizations, and performance metrics.
+
+
+## Web application frontend requirements:
+- Display accurate visualizations of model outputs and comparison data (if present)
+- Display model structure and parameters
+- Display model performance metrics
+- Accessible import/export systems for data and models
+- Add/edit parameters through tabular interface
+- Add/edit parameters through visualization interface
+
+
+
+
