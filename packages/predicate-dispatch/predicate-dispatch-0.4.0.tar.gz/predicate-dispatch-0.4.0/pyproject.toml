@@ -1,0 +1,100 @@
+[project]
+name = "predicate_dispatch"
+version = "0.4.0"
+description = "Predicative dispatch decorator for Python, based on idea from book \"Functional Programming in Python\"."
+authors = [
+    { name = "Dmitriy Pertsev", email = "davaeron@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+keywords = [
+    "dispatch",
+    "functional programming",
+]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.license]
+text = "Apache-2.0"
+
+[project.urls]
+Homepage = "https://github.com/pertsevds/predicate_dispatch"
+Repository = "https://github.com/pertsevds/predicate_dispatch"
+Documentation = "https://github.com/pertsevds/predicate_dispatch"
+"Bug Tracker" = "https://github.com/pertsevds/predicate_dispatch/issues"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+package-dir = "src"
+includes = [
+    "src",
+]
+source-includes = [
+    "tests",
+    "LICENSE",
+    "README.md",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "mypy>=0.982",
+    "black>=22.10.0",
+    "pylint>=2.13.9",
+]
+test = [
+    "pytest",
+    "pytest-cov>=4.0.0",
+]
+
+[tool.pdm.scripts]
+test = "pytest --cov-report lcov:./coverage/lcov.info --cov-report term-missing --cov=predicate_dispatch"
+format = "black src tests"
+lint = "pylint src"
+mypy = "mypy src"
+
+[tool.black]
+line-length = 88
+exclude = "/(\n    \\.eggs\n  | \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | _build\n  | buck-out\n  | build\n  | dist\n  | tests/fixtures\n)/\n"
+
+[tool.mypy]
+show_error_codes = true
+strict = true
+
+[tool.isort]
+profile = "black"
+atomic = true
+skip_glob = [
+    "*/setup.py",
+]
+filter_files = true
+known_first_party = [
+    "pdm",
+]
+known_third_party = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+addopts = "-r aR"
+testpaths = [
+    "tests/",
+]
