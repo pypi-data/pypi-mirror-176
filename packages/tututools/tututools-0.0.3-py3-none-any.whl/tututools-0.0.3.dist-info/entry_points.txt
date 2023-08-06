@@ -1,0 +1,3 @@
+[console_scripts]
+pltgui = tututools.plotgui:main
+
