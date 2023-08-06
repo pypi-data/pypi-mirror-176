@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/data_whiz/__init__.py
+src/data_whiz/curved_surface.py
+src/data_whiz.egg-info/PKG-INFO
+src/data_whiz.egg-info/SOURCES.txt
+src/data_whiz.egg-info/dependency_links.txt
+src/data_whiz.egg-info/top_level.txt
