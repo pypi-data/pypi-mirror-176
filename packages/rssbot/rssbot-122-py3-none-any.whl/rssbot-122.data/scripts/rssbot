@@ -1,0 +1,111 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=R,C,W,C0302
+
+
+"""RSSBOT - feed rss into your irc channel"""
+
+
+__version__ = "122"
+
+
+## import
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import threading
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from rssbot.hdl import Callback, Command, Event, Handler, parse
+from rssbot.obj import Class, Object, Wd, keys, last, printable, update
+from rssbot.obj import find, fntime, items, save, update
+from rssbot.hdl import command, scan, scancls, scandir
+from rssbot.utl import elapsed, wait
+
+
+from rssbot import cmds, irc, rss
+
+
+## define
+
+
+Wd.workdir = os.path.expanduser("/var/lib/rssbot/")
+
+
+starttime = time.time()
+
+
+scancls(irc)
+scancls(rss)
+
+
+## class
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+## utiltiy
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open("/dev/null", 'r')
+    sos = open("/dev/null", 'a+')
+    ses = open("/dev/null", 'a+')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    os.dup2(sos.fileno(), sys.stdout.fileno())
+    os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def hup(_sig, _frame):
+    print("signal 15 called")
+    sys.stdout.flush()
+
+
+## command
+
+
+def ver(event):
+    event.reply("RSSBOT %s" % __version__)
+
+
+## runtime
+
+
+signal.signal(signal.SIGHUP, hup)
+
+
+if __name__ == "__main__":
+    daemon()
+    Command.add(ver)
+    irc.init()
+    rss.init()
+    wait()

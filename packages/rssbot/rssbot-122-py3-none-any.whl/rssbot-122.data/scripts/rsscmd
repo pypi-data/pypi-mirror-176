@@ -1,0 +1,121 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=R,C,W,C0302
+
+
+"""Court. Prosecutor. Reconsider OTP=CR-117/19."""
+
+
+__version__ = "122"
+
+
+## import
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import threading
+import time
+import traceback
+
+
+from rssbot.hdl import Callback, Command, Event, Handler, parse
+from rssbot.hdl import command, scan, scandir
+from rssbot.obj import Class, Object, Wd, keys, last, printable, update
+from rssbot.obj import find, fntime, items, save, update
+from rssbot.thr import name
+from rssbot.utl import elapsed
+
+
+from rssbot import cmds, irc, rss
+
+
+## define
+
+
+Wd.workdir = os.path.expanduser("/var/lib/rssbot/")
+
+
+starttime = time.time()
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+## class
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+def cprint(txt):
+    print(txt)
+    sys.stdout.flush()
+
+
+def from_exception(exc, txt="", sep=" "):
+    result = []
+    for frm in traceback.extract_tb(exc.__traceback__):
+        fnm = os.sep.join(frm.filename.split(os.sep)[-2:])
+        result.append(f"{fnm}:{frm.lineno}")
+    nme = name(exc)
+    res = sep.join(result)
+    return f"{txt} {res} {nme}: {exc}"
+
+
+def importer(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    scan(mod)
+
+
+def init(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    if "init" in dir(mod):
+        mod.init()    
+        
+
+def isopt(cfg, ostr):
+    for opt in ostr:
+        if opt in cfg.opts:
+            return True
+    return False
+
+
+## command
+
+
+def ver(event):
+    event.reply("RSSBOT %s" % __version__)
+
+
+## runtime
+
+
+if __name__ == "__main__":
+    cfg = parse(' '.join(sys.argv[1:]))
+    Command.add(ver)
+    cli = CLI()
+    command(cli, cfg.otxt)
+    for exc in Callback.errors:
+        cprint(from_exception(exc))
