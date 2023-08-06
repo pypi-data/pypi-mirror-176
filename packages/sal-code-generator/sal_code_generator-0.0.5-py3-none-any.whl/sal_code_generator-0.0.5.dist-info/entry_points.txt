@@ -1,0 +1,2 @@
+[nbdev]
+sal = sal._modidx:d
