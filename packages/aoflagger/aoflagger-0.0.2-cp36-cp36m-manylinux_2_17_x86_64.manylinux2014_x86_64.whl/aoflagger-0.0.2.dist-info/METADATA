@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aoflagger
+Version: 0.0.2
+Summary: AOFlagger
+Home-page: https://gitlab.com/aroffringa/aoflagger
+Author: Andre Offringa
+Author-email: offringa@astron.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+License-File: COPYING
+
+The AOFlagger is a tool that can find and remove radio-frequency interference (RFI) in radio astronomical observations. Documentation is available at https://aoflagger.readthedocs.io
+
