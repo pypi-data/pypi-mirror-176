@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fracdiff2/__init__.py
+fracdiff2/fracdiff.py
+fracdiff2.egg-info/PKG-INFO
+fracdiff2.egg-info/SOURCES.txt
+fracdiff2.egg-info/dependency_links.txt
+fracdiff2.egg-info/requires.txt
+fracdiff2.egg-info/top_level.txt
