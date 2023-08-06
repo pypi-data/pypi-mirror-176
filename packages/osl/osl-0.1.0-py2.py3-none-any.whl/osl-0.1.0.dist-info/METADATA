@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: osl
+Version: 0.1.0
+Summary: OHBA Software Library
+Home-page: UNKNOWN
+Author: OHBA Analysis Group
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: mne (>=1.0.0)
+Requires-Dist: sklearn
+Requires-Dist: fslpy
+Requires-Dist: sails
+Requires-Dist: tabulate
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: neurokit2
+Requires-Dist: jinja2
+Requires-Dist: glmtools
+Requires-Dist: numba
+Requires-Dist: nilearn
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: parse
+Requires-Dist: opencv-python
+Requires-Dist: pythreejs
+Provides-Extra: dev
+Requires-Dist: setuptools (>=41.0.1) ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx (==4.0.2) ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+Provides-Extra: full
+Requires-Dist: setuptools (>=41.0.1) ; extra == 'full'
+Requires-Dist: pytest ; extra == 'full'
+Requires-Dist: pytest-cov ; extra == 'full'
+Requires-Dist: coverage ; extra == 'full'
+Requires-Dist: flake8 ; extra == 'full'
+Requires-Dist: sphinx (==4.0.2) ; extra == 'full'
+Requires-Dist: numpydoc ; extra == 'full'
+Requires-Dist: sphinx-gallery ; extra == 'full'
+Requires-Dist: pydata-sphinx-theme ; extra == 'full'
+
+UNKNOWN
+
