@@ -1,0 +1,8 @@
+arctic_spa/__init__.py,sha256=2FNoutj94_ETSiKU247kgdebvk0UOe-wosgmtpWSsVg,71
+arctic_spa/arctic_spa.py,sha256=2KcXn7vbYLwJnHJwVp42_ozkLfCb8tM_tOOWVQCAj1Q,7965
+arctic_spa/discovery.py,sha256=1JOLRPbr-D69td2JHZ9oNg-EqdGXY-WbQfWkkUEl2F4,2693
+arctic_spa/proto/arctic_spa_pb2.py,sha256=eR7keTlbQREuYxoIJJAc252xVDsrgHel3VdxJ5m292E,60755
+arctic_spa-0.0.1.dist-info/METADATA,sha256=ZZT6Yn5gBRbVQNZEAgJ2-_3WhXM4oURzXqv9F3qeqH0,2280
+arctic_spa-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+arctic_spa-0.0.1.dist-info/licenses/LICENSE,sha256=tjaPBMchexAQJbFsx3dAAKNHPnuDktdK9HIQ10Td6S4,10820
+arctic_spa-0.0.1.dist-info/RECORD,,
