@@ -1,0 +1,15 @@
+orijin_sdk/__init__.py,sha256=DQM6vGtqYaXcLzfsnAHdbrlWsyeFJJz_muAAyKGfhhw,3435
+orijin_sdk/defaults.py,sha256=Rgct3XLQ4VpYkPxd6NdyRPgRKcKUuTaCUnxgAZPqVRs,121
+orijin_sdk/gql.py,sha256=O0mipPgReKedAP_GAy9vlyOmqtASFpGwh50-3GH-KNY,927
+orijin_sdk/types.py,sha256=-R3Y4CLCJ03IYKyuo9UcKpQxL7CWhu21pCRhEz5JDzs,3113
+orijin_sdk/auth/__init__.py,sha256=6VbXZDKjlzB8_xOYSlkwjlp9tmcwNVHeNm6Dunz-MbQ,2158
+orijin_sdk/helpers/__init__.py,sha256=X5ei8vsBaudXBo_X_h4q1oReVAB6Tr-tDkeBx4_XuAs,1366
+orijin_sdk/helpers/formatting.py,sha256=6XFFL_4Jt7oWDOCxz7ketFZ1qd7hDjVqvOtalV96rAA,104
+orijin_sdk/helpers/input_types.py,sha256=c7waMT_HePF2Y2vTi4fgPxqyiKXrWNT6pu9eIOQ5hM4,1252
+orijin_sdk/helpers/mutation_builder.py,sha256=F5707X-14OtMIKAFkUH8vDDbsKu6xRxSSCsAoPlnpuw,1752
+orijin_sdk/helpers/query_builder.py,sha256=wPS9LbRqPedhui91s0dLMT2xEqDTqInhvYa5JXuwH_8,4520
+orijin_sdk/helpers/table_mapping.py,sha256=6gKgYsgsJ3LsQARzl65V5ZLCkR2EwUgT1qt2K4t5_7U,535
+orijin_sdk-0.3.0.dist-info/METADATA,sha256=xSgcXG5uCYsvjyGBhllBSlLXVaucjFpRjkVPGWl2G70,3224
+orijin_sdk-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+orijin_sdk-0.3.0.dist-info/top_level.txt,sha256=xVoSLaiy3yYrXBbMB3goSfU8MfNhY5C2Kv1EF2JV6sg,11
+orijin_sdk-0.3.0.dist-info/RECORD,,
