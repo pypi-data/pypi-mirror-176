@@ -1,0 +1,11 @@
+ordered-set
+pydantic==1.8.2
+numpy
+PyYAML
+esper
+pandas
+tracery
+
+[tests]
+pytest
+pytest-cov
