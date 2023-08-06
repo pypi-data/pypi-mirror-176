@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: auto-py-to-app
+Version: 0.0.1
+Summary: auto-py-to-app is a cx-Freeze GUI to package .py into .exe or excutable files.
+Home-page: https://auto-py-to-app-doc.readthedocs.io/zh/latest/
+Author: Syuya_Murakami
+Author-email: wxy135@mail.ustc.edu.cn
+Project-URL: Bug Tracker, https://auto-py-to-app-doc.readthedocs.io/zh/latest/
+Keywords: gui,executable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Auto-Py-To-App-On-PIP
+ Build Project for auto-py-to-app on pypi
