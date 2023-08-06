@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spe-encoder
+Version: 0.0.1
+Summary: Sentence embedding technique for textual adversarial attacks
+Author: David Herel, Hugo Cisneros, Daniela Hradilova, Tomas Mikolov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Natural Language :: English
+License-File: LICENSE
