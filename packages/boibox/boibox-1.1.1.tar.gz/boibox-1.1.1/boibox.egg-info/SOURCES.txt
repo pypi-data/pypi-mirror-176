@@ -1,0 +1,10 @@
+LICENSE
+README.md
+boibox.py
+pyproject.toml
+boibox.egg-info/PKG-INFO
+boibox.egg-info/SOURCES.txt
+boibox.egg-info/dependency_links.txt
+boibox.egg-info/entry_points.txt
+boibox.egg-info/requires.txt
+boibox.egg-info/top_level.txt
