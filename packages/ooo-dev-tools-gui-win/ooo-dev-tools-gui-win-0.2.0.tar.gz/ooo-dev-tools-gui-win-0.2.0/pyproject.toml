@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "ooo-dev-tools-gui-win"
+version = "0.2.0"
+description = "Methods for ooo-dev-tools and LibreOffice that require automatic GUI interaction for windows."
+authors = [":Barry-Thomas-Paul: Moss <vibrationoflife@protonmail.com>"]
+license = "Apache Software License"
+readme = "README.md"
+keywords = ["odev", "libreoffice", "openoffice", "ooo-dev-tools", "uno", "ooouno", "pyuno"]
+homepage = "https://github.com/Amourspirit/python-ooo-dev-tools-gui-win"
+repository = "https://github.com/Amourspirit/python-ooo-dev-tools-gui-win"
+packages = [
+    { include = "odevgui_win" }
+]
+classifiers = [
+    "Topic :: Office/Business",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+ooo-dev-tools = ">=0.6.2"
+pywinauto = ">=0.6.8"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+types-PyAutoGUI = "^0.9.3.1"
+pytest = "^7.2.0"
+
+
+
+[tool.poetry.group.docs.dependencies]
+sphinx-toolbox = ">=3.2.0"
+sphinx-tabs = ">=3.4.1"
+sphinx-rtd-dark-mode = ">=1.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[[tool.poetry.source]]
+name = "pypi-test"
+url = "https://test.pypi.org/legacy/"
+default = false
+secondary = false
