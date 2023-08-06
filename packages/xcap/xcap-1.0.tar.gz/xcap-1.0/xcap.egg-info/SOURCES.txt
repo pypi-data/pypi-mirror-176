@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pycaptcha/__init__.py
+pycaptcha/harvester.py
+pycaptcha/scripts.py
+xcap.egg-info/PKG-INFO
+xcap.egg-info/SOURCES.txt
+xcap.egg-info/dependency_links.txt
+xcap.egg-info/requires.txt
+xcap.egg-info/top_level.txt
