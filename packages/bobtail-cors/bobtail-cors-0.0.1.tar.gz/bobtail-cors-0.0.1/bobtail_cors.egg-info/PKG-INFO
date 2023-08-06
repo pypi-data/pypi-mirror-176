@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bobtail-cors
+Version: 0.0.1
+Summary: CORS middleware for Bobtail
+Home-page: https://github.com/joegasewicz/bobtail-cors
+Author: Joe Gasewicz
+Author-email: joegasewicz@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bobtail CORS
+CORS middleware for Bobtail
+
+### Install
+```
+pip install bobtail-cors
+```
+
+### Usage
+The default CORS set by 
+```python
+from bobtail_cors import BobtailCORS
+
+app = Bobtail(routes=routes)
+
+app.use(BobtailCORS())
+
+```
+
+If you require
+```python
+# Declare your CORS options
+options = {
+        "origin": "http://nottoboard.com",
+        "headers": "Authorization, Content-Type",
+        "methods": "GET",
+}
+app.use(BobtailCORS(options=options))
+```

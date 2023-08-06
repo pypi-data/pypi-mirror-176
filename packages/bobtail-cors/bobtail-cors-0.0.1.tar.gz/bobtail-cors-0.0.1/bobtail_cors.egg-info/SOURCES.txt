@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bobtail_cors/__init__.py
+bobtail_cors/cors.py
+bobtail_cors.egg-info/PKG-INFO
+bobtail_cors.egg-info/SOURCES.txt
+bobtail_cors.egg-info/dependency_links.txt
+bobtail_cors.egg-info/requires.txt
+bobtail_cors.egg-info/top_level.txt
