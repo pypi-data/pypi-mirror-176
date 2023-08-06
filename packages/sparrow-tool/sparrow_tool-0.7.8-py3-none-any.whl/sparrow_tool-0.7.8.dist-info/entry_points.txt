@@ -1,0 +1,3 @@
+[console_scripts]
+sp=sparrow.__main__:main
+
