@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bd76fa47c74b009ae57606e4d47e8b
+Version: 0.0.2
+Summary: convert wav -> mp3
+Author: Alex Black
+Author-email: ku113p@gmail.com
+Keywords: python,first package,ffmpeg,wav,mp3,converter
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+convert wav -> mp3 using ffmpeg preinstalled util
