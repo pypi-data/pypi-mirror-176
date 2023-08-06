@@ -1,0 +1,9 @@
+README.md
+setup.py
+walkonmarspdf/__init__.py
+walkonmarspdf/pdf2imag.py
+walkonmarspdf/pdf2text.py
+walkonmarspdf.egg-info/PKG-INFO
+walkonmarspdf.egg-info/SOURCES.txt
+walkonmarspdf.egg-info/dependency_links.txt
+walkonmarspdf.egg-info/top_level.txt
