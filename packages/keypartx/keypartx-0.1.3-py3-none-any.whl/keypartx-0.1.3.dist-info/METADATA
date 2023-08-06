@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: keypartx
+Version: 0.1.3
+Summary: A Graph-based Perception(Text) Representation
+Home-page: 
+Author: Peng Yang
+Author-email: pyseptimo@outlook.com
+License: MIT
+Keywords: text representation,text mining,nlp,topic modeling,emoji,image,perception
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: networkx
+Requires-Dist: pyvis
+Requires-Dist: leidenalg
+Requires-Dist: autocorrect
+Requires-Dist: xlsxwriter
+Requires-Dist: igraph
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: emoji
+Provides-Extra: coreferee_spacy
+Requires-Dist: coreferee ; extra == 'coreferee_spacy'
+Requires-Dist: spacy (<3.4.1,>=3.0.0) ; extra == 'coreferee_spacy'
+
+# pythonlib
+
+# Project Description
+KeypartX, a graph-based approach to represent perception (text in general) by key parts of speech.
+
+
+## if need coreferee: 
+ !pip install keypartx[coreferee_spacy]
+ !python3 -m coreferee install en
+ !python -m spacy download en_core_web_lg
+
+## else:
+ !pip install spacy
+ !pip install keypartx 
+ !python -m spacy download en_core_web_lg
+
