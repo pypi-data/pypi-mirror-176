@@ -1,0 +1,238 @@
+#!/usr/bin/env python
+"""
+Gristle_validator is used to determine the validity of a file's structure
+and semantics.  It's functionality includes:
+   - ability to use a json-schema compliant yaml config file to define data validation
+     requirements
+   - ability to check every record for the proper number of fields based
+     on an input argument
+   - output counts of invalid vs valid records
+   - ability to split input file into separate valid & invalid files
+   - an exit code that indicates findings (0 if everything's good, else 74)
+
+usage: gristle_validator [options]
+
+
+{see: helpdoc.HELP_SECTION}
+
+
+Main Options:
+    -i, --infiles INFILES
+                        One or more input files or '-' (the default) for stdin.
+    -o, --outfile OUTFILE
+                        The output file with a default of '-' for stdout.
+    -e, --errfile OUTERR
+                        The output file for invalid records with a default of stderr.
+    -f, --field-cnt FIELD_CNT
+                        The number of fields in the record.
+                        If not provided it will default to number of fields on first record
+    --err-out-fields    Appends four fields to the end of the outerr record: total error_count,
+                        and then for the first error: column_number, validator, and error_msg.
+    --err-out-text      Writes additional text records for each error following the record
+                        with the error.  These aren't csv records, but provide detail on every
+                        error encountered on the record.
+    --valid-schema VALID_SCHEMA
+                        Validation schema file name.
+    --random-out RANDOM_OUT
+                        Write a percentage of records out, valid values are 0-100.
+
+{see: helpdoc.CSV_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Examples:
+    $ gristle_validator -i colors.csv
+        This is the simplest example - it will simply read each record, parse the csv based on
+        the auto-detected dialect, and write each record out to stdout.
+    $ gristle_validator -i colors.csv --valid-schema colors_schema.yml \
+            --outfile=/tmp/valid_colors.csv --outerr=/tmp/invalid_colors.csv
+        This example includes a schema, and writes good and bad data to two separate files
+    $ gristle_validator -i colors.csv --valid-schema colors_schema.yml \
+            --delimiter ',' --quoting quote_none --has-header
+        This example includes some explicit csv dialect instructions
+    $ gristle_validator  -i sample.csv -o good.csv -e - \
+            --validschema schema.csv --err-out-fields --err-out-text
+        The above command writes error records to stderr.  Err-out-fields adds error
+        descriptions to the end of the error records, while err-out-text added even 
+        more detailed error descriptions as records following invalid records.
+
+
+
+
+Notes:
+    Return codes are based on c headers:
+        0  = success
+        1  = generic error
+        61 = No data (ENODATA)
+        74 = Invalid data found (EBADMSG)
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+         http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+"""
+import errno
+import os
+from os.path import basename, dirname
+from pprint import pprint as pp
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import Union, Type, Callable, Tuple
+
+import datagristle.common as comm
+import datagristle.configulator as conf
+import datagristle.file_io as file_io
+import datagristle.file_validator as file_validator
+import datagristle.helpdoc as helpdoc
+
+#--- Ignore SIG_PIPE and don't throw exceptions on it
+#--- (http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+comm.validate_python_version()
+
+
+def main() -> int:
+    """ runs all processes:
+            - gets args
+            - analyzes file to determine csv characteristics unless data is
+              provided via stdin
+            - runs each input record through process_cols to get output
+            - writes records
+    """
+
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, _ = config_manager.get_config()
+    except EOFError:
+        sys.exit(errno.ENODATA) # 61: empty file
+
+    input_handler = file_io.InputHandler(nconfig.infiles,
+                                         nconfig.dialect)
+
+    outfile_handler = file_io.OutputHandler(nconfig.outfile,
+                                            input_handler.dialect,
+                                            sys.stdout,
+                                            dry_run=False,
+                                            random_out=nconfig.random_out)
+    outerr_handler = file_io.OutputHandler(nconfig.errfile,
+                                           input_handler.dialect,
+                                           sys.stderr,
+                                           dry_run=False,
+                                           random_out=nconfig.random_out)
+
+
+    rec_schema = file_validator.load_schema(nconfig.valid_schema, nconfig.schema_path)
+    rec_validator = file_validator.RecValidator(valid_field_cnt=nconfig.field_cnt,
+                                                rec_schema=rec_schema,
+                                                header=nconfig.header)
+
+    processor = file_validator.RecordProcessor(input_handler,
+                                               outfile_handler,
+                                               outerr_handler,
+                                               rec_validator,
+                                               nconfig.err_out_fields,
+                                               nconfig.err_out_text,
+                                               nconfig.verbosity)
+    processor.process_recs()
+
+
+    input_handler.close()
+    outfile_handler.close()
+    outerr_handler.close()
+
+    if processor.invalid_rec_cnt > 0:
+        return errno.EBADMSG  # is a 74 on linux
+    elif input_handler.rec_cnt == 0:  # catches empty stdin
+        return errno.ENODATA  # is a 61 on linux
+    else:
+        return 0
+
+
+
+class ConfigManager(conf.Config):
+
+
+    def define_user_config(self) -> None:
+        """ Defines the user config or metadata.
+
+        Does not get the user input.
+        """
+
+        self.add_standard_metadata('infiles')
+        self.add_standard_metadata('outfile')
+
+        self.add_custom_metadata(name='errfile',
+                                 short_name='e',
+                                 default='-',
+                                 type=str)
+
+        self.add_custom_metadata(name='valid_schema',
+                                 type=str)
+
+        self.add_custom_metadata(name='random_out',
+                                 type=float,
+                                 default=1.0)
+
+        self.add_custom_metadata(name='field_cnt',
+                                 short_name='f',
+                                 type=int)
+
+        self.add_custom_metadata(name='err_out_fields',
+                                 type=bool,
+                                 default=False,
+                                 action='store_const',
+                                 const=True)
+
+        self.add_custom_metadata(name='err_out_text',
+                                 type=bool,
+                                 default=False,
+                                 action='store_const',
+                                 const=True)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_config_configs()
+        self.add_all_csv_configs()
+        self.add_all_help_configs()
+
+
+    def define_obsolete_config(self) -> None:
+        self.add_obsolete_metadata("validschema",
+                                   short_name=None,
+                                   msg="--validschema has been renamed to --valid-schema")
+        self.add_obsolete_metadata("outerr",
+                                   short_name=None,
+                                   msg="--outerr has been renamed to --errfile")
+
+
+
+    def validate_custom_config(self,
+                               custom_config: conf.CONFIG_TYPE) -> None:
+
+        if len(custom_config['infiles']) > 1 and not self.config['delimiter']:
+            comm.abort('Please provide delimiter when reading multiple input files')
+
+        if custom_config['random_out'] > 1.0 or custom_config['random_out'] < 0.0:
+            comm.abort('Valid values for random_out are from 0.0 to 1.0')
+
+
+    def extend_config(self,
+                      override_filename=None):
+        self.generate_csv_dialect_config()
+        self.generate_csv_header_config()
+        schema_path = []
+        schema_path.append(os.getcwd())
+        if self.nconfig.config_fn:
+            schema_path.append(dirname(self.nconfig.config_fn))
+        self.update_config('schema_path', schema_path)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
