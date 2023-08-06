@@ -1,0 +1,16 @@
+mftCli/RegistryArtifactTemplate.xml,sha256=AIASdYJiaZ8p9d10PvogDDl7uUhAx0sSC3P6ID2gaek,302
+mftCli/RegistryTemplate.xml,sha256=XqjVJNKoQ9fh1qAk0cjRdltUK7bPr2QnQB3bxhD7rMA,160
+mftCli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mftCli/art.txt,sha256=aLVBtUuMZQzMZgLvvGuy4ahPtBaVWNXOyJe3MkhD_js,4772
+mftCli/auto_project_generator.py,sha256=Rd-E_-YK3joaAZfA10dPtBnMI36aZI3dkcCpZeFSmLU,5215
+mftCli/auto_registry_generator.py,sha256=3JRBVRX_NGPBq_LlVskAOokOAjbmJc7GCtsCBFfhwXY,10262
+mftCli/log4j.properties,sha256=ssF1JWLxvnWeqGdyzp7_i-k5lttg4wZW9G51mnKaoJw,330
+mftCli/main.py,sha256=KoGjFW-vUjUC0TWrdeYkr-agMrZSB2K0Rjp8_51dtZI,2268
+mftCli/manual_project_generator.py,sha256=MeZ2Di6m7B_fJ475akggElBkdgfal4_pHkK_tcB9b1k,2713
+mftCli/project_generator.py,sha256=qn3fSWdKfOERg3R5QgJJ1v1wDFB4303eZBcR4buNaqs,3719
+mftCli/registry_generator.py,sha256=2pAjua39SRD1GSclrrmlEjPekC7PgF_pYC9FMmA8B9E,22129
+mft_cli-0.0.1.dist-info/LICENSE,sha256=68h1N2cBg1FBZFkqJWSITdX9vXexxLi6FRqU3Oe2B3Q,1078
+mft_cli-0.0.1.dist-info/METADATA,sha256=Id56iseJ0TgdUpXG-58VHRSCWwV3-ZXphugv9RVn-5s,1006
+mft_cli-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mft_cli-0.0.1.dist-info/top_level.txt,sha256=YPbEb-RJGO8LNpTmle-hH4CLfEcWzSQX30qs7fxXCMY,7
+mft_cli-0.0.1.dist-info/RECORD,,
