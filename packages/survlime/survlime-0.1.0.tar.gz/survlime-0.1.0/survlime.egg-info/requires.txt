@@ -1,0 +1,7 @@
+numpy
+cvxpy
+sklearn
+pandas
+
+[dev]
+pytest
