@@ -1,0 +1,7 @@
+README.md
+setup.py
+IdeaPlaceExPy.egg-info/PKG-INFO
+IdeaPlaceExPy.egg-info/SOURCES.txt
+IdeaPlaceExPy.egg-info/dependency_links.txt
+IdeaPlaceExPy.egg-info/not-zip-safe
+IdeaPlaceExPy.egg-info/top_level.txt
