@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: python-AsciiLib
+Version: 0.0.6
+Summary: An ascii art package
+Home-page: https://github.com/HiMeAlex/AsciiLib-Package
+Author: Alexander J.
+Author-email: alexandergrahambell707@gmail.com
+License: MIT
+Keywords: ascii
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: pillow
+
+AsciiLib
+by: Alexander J.
+
+AsciiLib is a module for converting visual medias (jpg, png, mp4, etc.) into ascii art versions
+
+Dependencies: os, numpy, pathlib, pillow, and cv2 (A.K.A OpenCV)
+
+
+command to install : pip install python-AsciiLib==0.0.3
