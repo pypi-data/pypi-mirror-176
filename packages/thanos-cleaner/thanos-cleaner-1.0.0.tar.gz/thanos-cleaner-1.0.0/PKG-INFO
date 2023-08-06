@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: thanos-cleaner
+Version: 1.0.0
+Summary: Thanos Cleaner-Randmoly delete 50 percent of the files from given directory.
+Home-page: https://github.com/rajankumar7/thanos-cleaner
+Author: Rajan Kumar
+Author-email: rajankumar7@deloitte.com
+Project-URL: Bug Tracker, https://github.com/rajankumar7/thanos-cleaner/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# thanos-cleaner
+Thanos Cleaner randomly deletes 50% of the files of given folder.
+
+### Installation
+
+```pip install thanos-cleaner```
+
+### Running
+
+```python thanos.py -target <target directory>```
