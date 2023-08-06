@@ -1,0 +1,5 @@
+numpy
+robin_stocks
+pandas
+matplotlib
+pandas_ta
