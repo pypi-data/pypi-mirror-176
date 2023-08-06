@@ -1,0 +1,2 @@
+[console_scripts]
+linchemin = linchemin.interfaces.cli:linchemin_cli
