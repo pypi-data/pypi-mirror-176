@@ -1,0 +1,9 @@
+scrapy_redis_bf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_redis_bf/defaults.py,sha256=9zYWDOQS89hSZJ68LV7aiRYo5utT2vaxDmyaL_kjoBY,249
+scrapy_redis_bf/dupefilter.py,sha256=OSqIHmQIiUvrZ2nV6HMhPds-SB8A-DnHbBruaLRdknE,4788
+scrapy_redis_bf/exception.py,sha256=6g6fvZPjBiZXY02_6hoFDrtsHBvV9lwzL0-h4ysOU0g,299
+scrapy_redis_bf/scheduler.py,sha256=CRWtIWOvR-dJAqXR3UUt1YC_F7rhtq_SkQJJjWknaq4,5005
+scrapy_redis_bf-0.1.1.dist-info/METADATA,sha256=OtF1dfT7UvLOJZzqkHeerrqJa4Le4bEjYouu8EU7BgQ,2875
+scrapy_redis_bf-0.1.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+scrapy_redis_bf-0.1.1.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+scrapy_redis_bf-0.1.1.dist-info/RECORD,,
