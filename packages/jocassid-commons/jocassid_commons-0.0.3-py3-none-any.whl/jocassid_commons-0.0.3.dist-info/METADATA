@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jocassid-commons
+Version: 0.0.3
+Summary: Miscellaneous utility functions
+Project-URL: Homepage, https://github.com/jocassid/jocassid-commons
+Project-URL: Bug Tracker, https://github.com/jocassid/jocassid-commons/issues
+Author-email: John Cassidy <author@example.com>
+Maintainer-email: John Cassidy <author@example.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# jocassid-commons
+Miscellaneous utility code written in Python
