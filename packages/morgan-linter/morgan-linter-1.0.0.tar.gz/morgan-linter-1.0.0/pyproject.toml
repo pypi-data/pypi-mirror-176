@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "morgan-linter"
+version = "1.0.0"
+description = "Linter for validate google docstrings"
+authors = ["Edwar Girón <contactoedwargiron@gmail.com>"]
+readme = "README.md"
+packages = [{include = "morgan_linter"}]
+
+[tool.poetry.dependencies]
+python = "3.9.*"
+
+
+[tool.poetry.group.testing.dependencies]
+pytest = "^7.2.0"
+
+[tool.poetry.scripts]
+morgan-linter = "morgan_linter"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

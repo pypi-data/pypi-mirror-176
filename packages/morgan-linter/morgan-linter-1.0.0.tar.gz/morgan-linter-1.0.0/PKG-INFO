@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: morgan-linter
+Version: 1.0.0
+Summary: Linter for validate google docstrings
+Author: Edwar Girón
+Author-email: contactoedwargiron@gmail.com
+Requires-Python: >=3.9.0,<3.10.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# morgan-linter
+Linter to verify the google docstrings format in a python project
+
