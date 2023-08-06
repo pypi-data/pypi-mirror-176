@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rgrow
+Version: 0.11.2
+Requires-Dist: numpy
+License-File: LICENSE
+Summary: Python interface to rgrow.
+Author: Constantine Evans <cevans@costi.eu>
+Author-email: Constantine Evans <cevans@costi.eu>
+License: BSD-3-Clause
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/evansfmm/pyrgrow
+
+Rgrow is a tile assembly model simulator, primarily built as a fast
+implementation of kinetic models, inspired by Xgrow; this is the
+Python interface for rgrow.
+
+
