@@ -1,0 +1,14 @@
+orcid
+sqlalchemy
+requests
+beautifulsoup4>=4.4.0
+spacy[transformers]
+unidecode
+nameparser
+prompt_toolkit
+fuzzywuzzy[speedup]
+
+[test]
+pytest>=4.6.5
+pytest-cov>=2.7.1
+coveralls
