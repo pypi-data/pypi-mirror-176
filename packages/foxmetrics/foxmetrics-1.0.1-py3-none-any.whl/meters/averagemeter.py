@@ -1,0 +1,65 @@
+import torch
+import typing as t
+from collections import defaultdict
+from torch import Tensor
+from .metric import Metric
+from torch import distributed as dist
+
+metric_result = Tensor
+dictionary_metric_result = Metric[t.Union[str, metric_result]]
+
+
+class AverageValueMeter(Metric[metric_result]):
+    def __init__(self):
+        super(AverageValueMeter, self).__init__()
+        self.sum = torch.tensor(0.0)
+        self.n = 0
+
+    def _add(self, value: Tensor, n=1):
+        device, dtype = value.device, value.dtype
+        self.sum = self.sum.to(device=device, dtype=dtype) + value.detach() * n
+        self.n += n
+
+    def _synchronize(self):
+        dist.all_reduce(self.sum, op=dist.ReduceOp.AVG)  # noqa
+
+    def reset(self):
+        self.sum = 0
+        self.n = 0
+
+    def _summary(self) -> metric_result:
+        # this function returns a dict and tends to aggregate the historical results.
+        return torch.nan if self.n == 0 else self.sum / self.n  # noqa
+
+
+class AverageValueDictionaryMeter(Metric[dictionary_metric_result]):
+    def __init__(self) -> None:
+        super().__init__()
+        self._meter_dicts: t.Dict[str, AverageValueMeter] = defaultdict(AverageValueMeter)
+
+    def reset(self):
+        for k, v in self._meter_dicts.items():
+            v.reset()
+
+    def _add(self, **kwargs):
+        for k, v in kwargs.items():
+            self._meter_dicts[k].add(v)
+
+    def _summary(self):
+        return {k: v.summary() for k, v in self._meter_dicts.items()}
+
+
+class AverageValueListMeter(AverageValueDictionaryMeter):
+    @t.overload
+    def add(self, **kwargs):
+        """
+        Added keyword only variables
+        :param kwargs:
+        :return:
+        """
+        ...
+
+    def _add(self, list_value: t.Iterable[float] = None, **kwargs):
+        assert isinstance(list_value, t.Iterable)
+        for i, v in enumerate(list_value):
+            self._meter_dicts[str(i)].add(v)
