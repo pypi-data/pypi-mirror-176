@@ -1,0 +1,8 @@
+skoufas_dbf_reader/__init__.py,sha256=fE6XX75VnmWaoMEYPoBcpxFx8_iCdDtuZp7ssUq50ko,94
+skoufas_dbf_reader/field_extractors.py,sha256=b3OXizO02_jG6NT6iNl-HNhk5hDNSOGuDkBkdK14fEY,522
+skoufas_dbf_reader/utilities.py,sha256=eFyCunK_t0PfB_Q-7iNEdRgtH1BxV8jklNdYxQp4CW0,383
+skoufas_dbf_reader/data/no_author.yml,sha256=LojUwL6wzPE-47LV8EaMNAWEY_dfwKoazRwJNRfklLI,197
+skoufas_dbf_reader-0.0.1rc33.post1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+skoufas_dbf_reader-0.0.1rc33.post1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+skoufas_dbf_reader-0.0.1rc33.post1.dist-info/METADATA,sha256=aRhdWtTrlKTj-KajCPbtwV10h4XJZ3bgssgpdnTc5Hk,3162
+skoufas_dbf_reader-0.0.1rc33.post1.dist-info/RECORD,,
