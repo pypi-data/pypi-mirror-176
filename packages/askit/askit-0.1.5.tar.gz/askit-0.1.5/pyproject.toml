@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "askit"
+version = "0.1.5"
+description = "Ask OpenAI your question right inside your terminal"
+authors = ["Phil Harper <phil@imrge.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
+openai = "^0.25.0"
+
+[tool.poetry.scripts]
+ask = "askit.main:app"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
