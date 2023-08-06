@@ -1,0 +1,6 @@
+pyperclip
+PyAutoGUI
+pygame
+qrcode
+MyQR
+PyQt5
