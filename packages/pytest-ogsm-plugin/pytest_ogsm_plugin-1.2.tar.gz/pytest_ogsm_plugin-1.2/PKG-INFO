@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pytest_ogsm_plugin
+Version: 1.2
+Summary: UNKNOWN
+Home-page: https://github.com/cw010/pytest_ogsm_plugin
+Author: cw
+Author-email: cwalk.t@gmail.com
+License: proprietary
+Keywords: pytest,py.test,pytest_ogsm_plugin
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# pytest-ogsm
+
+## 1、插件介绍
+### 针对特定项目定制化插件，优化了pytest报告展示方式，运行用例时可以自定义参数
+
+## 2、安装
+
+## 3、其他
+
+
