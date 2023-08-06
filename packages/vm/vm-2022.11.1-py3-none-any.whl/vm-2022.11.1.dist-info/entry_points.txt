@@ -1,0 +1,4 @@
+[console_scripts]
+version-manager=version_manager.__main__:main
+vm=version_manager.__main__:main
+
