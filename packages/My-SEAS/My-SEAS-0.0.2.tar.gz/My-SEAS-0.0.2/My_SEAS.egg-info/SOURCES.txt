@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+My_SEAS.egg-info/PKG-INFO
+My_SEAS.egg-info/SOURCES.txt
+My_SEAS.egg-info/dependency_links.txt
+My_SEAS.egg-info/requires.txt
+My_SEAS.egg-info/top_level.txt
