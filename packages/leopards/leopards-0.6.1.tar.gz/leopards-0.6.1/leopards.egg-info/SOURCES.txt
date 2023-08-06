@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+leopards.egg-info/PKG-INFO
+leopards.egg-info/SOURCES.txt
+leopards.egg-info/dependency_links.txt
+leopards.egg-info/not-zip-safe
+leopards.egg-info/top_level.txt
+query/Q.py
+query/Query.py
+query/__init__.py
+query/test.py
+query/test_file.py
