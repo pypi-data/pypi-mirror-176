@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/fortunetelleracs1029/__init__.py
+src/fortunetelleracs1029/__main__.py
+src/fortunetelleracs1029/fortuneteller.py
+src/fortunetelleracs1029.egg-info/PKG-INFO
+src/fortunetelleracs1029.egg-info/SOURCES.txt
+src/fortunetelleracs1029.egg-info/dependency_links.txt
+src/fortunetelleracs1029.egg-info/entry_points.txt
+src/fortunetelleracs1029.egg-info/requires.txt
+src/fortunetelleracs1029.egg-info/top_level.txt
