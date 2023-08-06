@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: some-crap
+Version: 0.0.2
+Summary: Python client for evidently nothing
+Author: Some Random guy
+Author-email: some-random-guy@gmail.com
+License: MIT
+Keywords: nothing crap
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Appium-Python-Client
+Requires-Dist: requests
+
+# some-crap
