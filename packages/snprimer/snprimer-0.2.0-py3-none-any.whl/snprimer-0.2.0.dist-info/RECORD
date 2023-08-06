@@ -1,0 +1,9 @@
+snprimer/__init__.py,sha256=Gu-m1V-5eXiQpxumRsJHP85lY6CXI3kp4HRk2n5gzXY,105
+snprimer/__version__.py,sha256=x7gIvjGcVkdtz4w323Gwz9j0K6ot2OAnG-ANmC1UVlU,262
+snprimer/position_range.py,sha256=bL5bczc9lPN5tzpyaWGnpq9AYeAu-e3cY2cpYlQ-vjM,1211
+snprimer/primer.py,sha256=2lLyeDn74J0D5DdwnpNy4peX4vqakIyBpWKPrauGyu0,1575
+snprimer/primer_pair.py,sha256=0j4myy-uIBd44nUk0ykHh80aDTf2Q2yk4YQx-5lWXOk,2096
+snprimer/snp.py,sha256=R8ZwHB3VEPehVUG3eIU_vkYHpv2b4HEvHIG5ESzEX5o,640
+snprimer-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+snprimer-0.2.0.dist-info/METADATA,sha256=BPYKRQru5zf7R_ZLTyeMnxlNup7zubF5odxv0NUdKEI,2362
+snprimer-0.2.0.dist-info/RECORD,,
