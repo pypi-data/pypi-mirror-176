@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: viburnum
+Version: 0.1.0
+Summary: It's abstraction on top of AWS CDK, that helps in building serverless web applications.
+License: MIT
+Author: Yaroslav Martynenko
+Author-email: stikblacklabel@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: cdk
+Provides-Extra: constructs
+Provides-Extra: deployer
+Requires-Dist: aws-cdk-lib (==2.50.0); extra == "cdk" or extra == "deployer"
+Requires-Dist: constructs (>=10.0.0,<11.0.0); extra == "constructs" or extra == "deployer"
+Description-Content-Type: text/markdown
+
+# Viburnum
+
+**Viburum** - it's a small framework built on top of AWS CDK to simplify development and deploying AWS Serverless web applications.
+
