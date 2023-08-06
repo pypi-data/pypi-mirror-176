@@ -1,0 +1,2 @@
+[pytest11]
+pyvista = pytest_pyvista
