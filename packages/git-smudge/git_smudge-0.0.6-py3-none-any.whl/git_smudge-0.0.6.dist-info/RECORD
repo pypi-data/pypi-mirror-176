@@ -1,0 +1,11 @@
+git_smudge/__init__.py,sha256=UxIxnY8TruV7p_elaNJ9YpTWxnpNvV8v0XxFmI6Zw6s,21207
+git_smudge/__main__.py,sha256=Rf4h9Ldqmy3NunI03ElEipJ1yMIfKW0XQXCtr3OsqPQ,4059
+git_smudge/config.py,sha256=JyVGagr7ZhoFaYLr_qMaXvczAOQnCwLTGxXM8ITUp5o,17877
+git_smudge/runfilter.py,sha256=OmcsxNOj0FPYlsryusKgOXkjB7y88sL4v22m3exiNXI,386
+git_smudge/tests.py,sha256=OwuDqCdDcwQ-2j4O_wcUePlUV-q31rcCVl9eubjPyBE,9076
+git_smudge-0.0.6.dist-info/LICENSE,sha256=Mtogai4Rc2pzmFgTpDslBbrvwz82_0sy8nnRIlmeNWY,1074
+git_smudge-0.0.6.dist-info/METADATA,sha256=U97vCQhMSvgbEc_b1pCdIflaCnoYHenQJmSX_UqIZ5M,3056
+git_smudge-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+git_smudge-0.0.6.dist-info/entry_points.txt,sha256=tnroC2Br8sazLvXVT87Tl19kq4Lfqtjq7skDB4P63Fo,56
+git_smudge-0.0.6.dist-info/top_level.txt,sha256=YBXt4C3BbmqanbzySK_w6EZ1LhAK0d7Mr92c6W21Onw,11
+git_smudge-0.0.6.dist-info/RECORD,,
