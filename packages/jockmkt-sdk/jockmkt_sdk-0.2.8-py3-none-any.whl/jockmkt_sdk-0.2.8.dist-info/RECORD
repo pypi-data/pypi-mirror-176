@@ -1,0 +1,11 @@
+jockmkt_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jockmkt_sdk/client.py,sha256=SsTvr4nH-7ZrMmMhSU55HNYrLdlfzNsri6zpl8UJqqU,32672
+jockmkt_sdk/exception.py,sha256=xOVYkfsRpsYVT1gRXZ0-dT_odYbpD1Io_faCvb3j8sE,2776
+jockmkt_sdk/objects.py,sha256=UHBRh490NJ8mN_5OgznlQJig67Rduvx0FvX-1O1-Bc8,36381
+jockmkt_sdk/jm_sockets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jockmkt_sdk/jm_sockets/sockets.py,sha256=MUgJ9j2sWfq4cCYfTbsGY4JASXQMYbljyqvGIDxvbos,10012
+jockmkt_sdk-0.2.8.dist-info/LICENSE.txt,sha256=AGPi9Kqi_2t-wNLASnAmygAmlIenOIFHDvpfJRsv_Lo,1082
+jockmkt_sdk-0.2.8.dist-info/METADATA,sha256=bRsJYM76yzmRwXlv3W87_7uzPqzmFbL8gXYSwgZwRSM,4483
+jockmkt_sdk-0.2.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jockmkt_sdk-0.2.8.dist-info/top_level.txt,sha256=mZAvijI1j9K2hxA8N2kJ70oKOvVvoKMZRAtS8_NFt5M,12
+jockmkt_sdk-0.2.8.dist-info/RECORD,,
