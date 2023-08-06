@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: File-Find
+Version: 0.0
+Summary: A macOS UI Utility for finding Files
+Home-page: https://gitlab.com/Pixel-Mqster/File-Find
+Author: Pixel Master
+Author-email: 
+License: GNU GPL v3.0
+Keywords: gui,executable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+License-File: LICENSE
