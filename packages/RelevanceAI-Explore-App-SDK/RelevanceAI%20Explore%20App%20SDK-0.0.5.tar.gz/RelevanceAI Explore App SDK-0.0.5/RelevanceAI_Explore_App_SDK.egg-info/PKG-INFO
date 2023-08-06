@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: RelevanceAI-Explore-App-SDK
+Version: 0.0.5
+Home-page: https://relevance.ai/
+Author: Relevance AI
+Author-email: dev@relevance.ai
+Provides-Extra: tests
+License-File: LICENSE
