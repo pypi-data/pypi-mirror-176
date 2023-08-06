@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MoneyAfterDark
+Version: 2.0.5
+Summary: Business and Tax Tools
+Home-page: https://github.com/NeuroscienceAfterDark/MoneyAfterDark
+Author: NeuroscienceAfterDark
+Author-email: NeuroscienceAfterDark <neuroscience@sigmund.science>
+Project-URL: Homepage, https://github.com/NeuroscienceAfterDark/MoneyAfterDark
+Project-URL: Bug Tracker, https://github.com/NeuroscienceAfterDark/MoneyAfterDark/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Business, Finance and Universal Tax Tools. UK Specific Tax Tools also Included

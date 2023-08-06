@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+MoneyAfterDark.egg-info/PKG-INFO
+MoneyAfterDark.egg-info/SOURCES.txt
+MoneyAfterDark.egg-info/dependency_links.txt
+MoneyAfterDark.egg-info/requires.txt
+MoneyAfterDark.egg-info/top_level.txt
