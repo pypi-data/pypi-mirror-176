@@ -1,0 +1,124 @@
+# dvadmin_third
+
+#### 介绍
+dvadmin-third 插件是dvadmin的一个第三方用户管理插件，支持微信、企业微信、钉钉、飞书、H5页面扫码登录，支持扩展微信、企业微信、钉钉、飞书等用户信息类，以及SSO单点登录等功能(部分功能开发中)。
+
+## 功能支持项
+
+- [ ] 扫码登录
+  - [x] H5扫码登录
+  - [x] 微信扫码登录
+  - [ ] 企业微信扫码登录
+  - [ ] 钉钉扫码登录
+  - [ ] 飞书扫码登录
+  - [ ] 
+  - [ ] 
+- [ ] 支持用户扩展信息类(开发中)
+  - [ ] 微信用户信息
+  - [ ] 企业微信信息
+  - [ ] 钉钉信息
+  - [ ] 飞书信息
+- [ ] SSO单点登录(开发中)
+
+
+
+## 安装包说明
+
+使用pip安装软件包：
+
+```python
+pip install dvadmin-third
+```
+
+目录结构：<br>
+```javascript
+dvadmin-third
+|   dvdadmin_third
+|   |   fixtures  									// 初始化文件
+|   |   |   __init__.py
+|   |   |   init_menu.json
+|   |   |   init_systemconfig.json
+|   |   |   initialize.py
+|   |   |   templates
+|   |   |   |   dvadmin_third  		 // uniapp登录样式项目
+|   |   |   |   h5  							 // 登录样式静态页面
+|   |   views
+|   |   |   __init__.py
+|   |   |   third_users.py
+|   |   __init__.py
+|   |   admin.py
+|   |   apps.py
+|   |   models.py
+|   |   settings.py
+|   |   urls.py
+|   setup.py
+```
+
+### 方式一: 一键导入注册配置(推荐)
+在 application / settings.py 插件配置中下导入默认配置
+```python
+...
+from dvadmin_third.settings import *
+```
+### 方式二: 手动配置
+在INSTALLED_APPS 中注册app（注意先后顺序）
+
+```python
+INSTALLED_APPS = [
+    ...
+    'dvadmin_third'
+]
+```
+
+在 application / urls.py 中注册url地址
+
+```python
+urlpatterns = [
+    ...
+    path(r'api/dvadmin_third/', include('dvadmin_third.urls')),
+]
+```
+
+如果没有系统redis，请启动redis并添加配置 (./conf/env.example.py 及 ./conf/env.py中添加如下配置)
+
+```python
+# redis 配置
+REDIS_PASSWORD = '' # 如果没密码就为空
+REDIS_HOST = '127.0.0.1'
+REDIS_URL = f'redis://:{REDIS_PASSWORD or ""}@{REDIS_HOST}:6379'
+
+```
+
+在 application / settings.py 下添加配置
+
+```python
+...
+CACHES = { # 配置缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": f'{REDIS_URL}/1', # 库名可自选1~16
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+
+```
+
+
+
+### 进行迁移及初始化
+
+```python
+python3 manage.py makemigrations 
+python3 manage.py migrate 
+# 注意备份初始化信息
+python3 manage.py init -y 
+```
+
+
+
+#### 使用说明
+
+1. 安装前端 dvadmin-third-web 插件进行配合使用
+2. 微信登录配置文档(待完善)
