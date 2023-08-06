@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: git-smudge
+Version: 0.0.5
+Summary: A powerful filter driver for Git which can automatically apply local changes to the working tree of a repository
+Home-page: https://ktpanda.org/software/git_smudge
+Author: Katie Rust
+Author-email: katie@ktpanda.org
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+git-smudge
+==========
+
+A powerful filter driver for Git which can automatically apply local changes to the
+working tree of a repository.
+
+## Installing
+
+Run
+
+    $ pip3 install git-smudge
+
+## Setting up a filter
+
+There are two steps to setting up a filter in your repository. The first is to define the
+filter using `git config` and the second is to apply the filter to specific files using
+`.git/info/attributes`.
+
+> Note: All commands here are assuming you're using `bash` or another Bourne-like
+> shell. If you're using Windows, you should have `GIT Bash` installed.
+
+```sh
+$ git config filter.replacename.process 'git-smudge --process --simple "Firefox" "Katiefox"'
+
+$ echo *.cpp filter=replacename >> .git/info/attributes
+```
+
+> Note: You could technically use `.gitattributes`, but since that file usually gets
+> checked into the repo, it's not good to put local settings there.
+
+## TODO: More documentation here
