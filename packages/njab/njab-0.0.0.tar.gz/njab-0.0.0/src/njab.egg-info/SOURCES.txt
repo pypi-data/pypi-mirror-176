@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/njab/__init__.py
+src/njab.egg-info/PKG-INFO
+src/njab.egg-info/SOURCES.txt
+src/njab.egg-info/dependency_links.txt
+src/njab.egg-info/requires.txt
+src/njab.egg-info/top_level.txt
