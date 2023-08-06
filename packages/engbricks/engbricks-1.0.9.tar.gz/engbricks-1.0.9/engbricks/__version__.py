@@ -1,0 +1,9 @@
+__title__ = 'engbricks'
+__description__ = 'Problem Solver based on formulas.'
+__url__ = 'https://github.com/FilipeFraqueiro/engbricks'
+__version__ = '1.0.0'
+__build__ = 0x022600
+__author__ = 'Filipe Fraqueiro'
+__author_email__ = 'fraqueirofilipe@gmail.com'
+__license__ = 'MIT License'
+__copyright__ = 'Copyright 2022 Filipe Frqueiro'
