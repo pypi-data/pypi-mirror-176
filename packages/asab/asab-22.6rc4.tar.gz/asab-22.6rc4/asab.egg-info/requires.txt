@@ -1,0 +1,10 @@
+aiohttp<4,>=3.8.3
+fastjsonschema<3,>=2.16.2
+kazoo<3,>=2.9.0
+PyYAML<7,>=6.0
+
+[git]
+pygit2>=1.9.1
+
+[storage_encryption]
+cryptography
