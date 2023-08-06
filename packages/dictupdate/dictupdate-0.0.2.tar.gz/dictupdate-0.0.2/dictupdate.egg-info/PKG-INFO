@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dictupdate
+Version: 0.0.2
+Summary: Nested Dict Update With operation like insert , deleter , updater ,search 
+Home-page: https://github.com/automation-lib/dict_updater
+Author: Chetan
+Author-email: chetankolhe72@gmail.com
+Keywords: dict updater,json update,recursive dict updater,recursive json updater,dict updater,nested dicts
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Recursive Dict Update with insert , deleter , update option
