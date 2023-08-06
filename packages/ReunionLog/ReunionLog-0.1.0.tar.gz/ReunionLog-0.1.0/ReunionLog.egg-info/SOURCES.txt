@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+ReunionLog.egg-info/PKG-INFO
+ReunionLog.egg-info/SOURCES.txt
+ReunionLog.egg-info/dependency_links.txt
+ReunionLog.egg-info/requires.txt
+ReunionLog.egg-info/top_level.txt
