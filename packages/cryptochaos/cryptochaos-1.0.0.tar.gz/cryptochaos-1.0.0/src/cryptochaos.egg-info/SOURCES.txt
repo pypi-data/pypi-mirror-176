@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cryptochaos/__init__.py
+src/cryptochaos/logistic.py
+src/cryptochaos.egg-info/PKG-INFO
+src/cryptochaos.egg-info/SOURCES.txt
+src/cryptochaos.egg-info/dependency_links.txt
+src/cryptochaos.egg-info/top_level.txt
