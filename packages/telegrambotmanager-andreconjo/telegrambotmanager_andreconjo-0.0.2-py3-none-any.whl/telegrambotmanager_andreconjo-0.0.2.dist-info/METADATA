@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: telegrambotmanager-andreconjo
+Version: 0.0.2
+Summary: Package for managing and moderating groups on telegram
+Author-email: André Conjo <andrehconjo@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyTelegramBotAPI
+
+
+# Telegram Bot Manager
+
+The bot for manager easily telegram groups. Just
+using config.ini
+
+
+## 🚀 About me
+André Conjo Software Engineer
+Email: andrehconjo@gmail.com
+
+
+## Autores
+
+- [@andreconjo](https://www.github.com/andreconjo)
+
