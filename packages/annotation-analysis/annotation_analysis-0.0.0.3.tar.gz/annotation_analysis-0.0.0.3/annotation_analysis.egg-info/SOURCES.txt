@@ -1,0 +1,9 @@
+README.md
+setup.py
+annotation_analysis/__init__.py
+annotation_analysis/interannotator_metrics.py
+annotation_analysis.egg-info/PKG-INFO
+annotation_analysis.egg-info/SOURCES.txt
+annotation_analysis.egg-info/dependency_links.txt
+annotation_analysis.egg-info/requires.txt
+annotation_analysis.egg-info/top_level.txt
