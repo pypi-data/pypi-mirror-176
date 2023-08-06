@@ -1,0 +1,72 @@
+body,ul,li,a,p,textarea {padding: 0;margin: 0;}
+.nav ul li {float: left;display: inline-block;position: relative;width: 100px;line-height: 30px;padding: 0 5px;cursor: pointer;}
+.nav ul li:hover {background-color:#288add;}
+.nav ul li ul li {width:150px;float:none;z-index:100;}
+.nav ul li ul {position: absolute;left:0;display:none;z-index:100;}
+.nav ul li ul li:hover {width:150px;background-color:#90c8f6;}
+.nav ul li:hover ul {display: block; background-color:#f0f0f0;}
+.nav {height: 30px;background-color: #000;}
+.navbar {float:left;margin-right:10px;list-style-type: none;} 
+.navbar a {display: block;height: 30px;font-family: "Microsoft Yahei";font-size: 15px;text-align: center;text-decoration: none;color: #fff;}
+.nav ul li ul li a {color: #000}
+
+html {height: 100%;}
+body {height: 100%;}
+.main
+{
+    height: calc(100% - 30px);
+    display: grid;
+    grid-template-columns: auto 222px;
+    grid-template-rows: 167px auto;
+}
+
+.box1
+{
+    background-color:#343434;
+    color: #cccccc;
+}
+
+.box2
+{
+    background-color:#333333;
+    color: #ffffff;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#input_box
+{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-content: center;
+}
+
+#input_box a {margin: 5px}
+
+.CodeMirror
+{
+
+    background-color: #222;
+    color: #ffffff
+}
+
+.CodeMirror-gutter {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.CodeMirror-cursor {
+  background-color: #ffffff;
+  opacity: 0.5;
+  width: 5px;
+}
+
+.cm-s-default .cm-keyword {color: #0ff;}
+.cm-s-default .cm-property {color: #bbc;}
+.cm-s-default .cm-builtin {color: #1f3}
+.cm-s-default .cm-number {color: #ff4;}
+.cm-s-default .cm-variable-2 {color: #f5f;}
+.cm-s-default .cm-tag {color: #f00;}
