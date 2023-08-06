@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apis-ampel
+Version: 0.2.0
+Summary: Django-App for the APIS plattform. Adds status indicators to all entities that are displayed as traffic lights in list, detail and edit views.
+Author: Gregor Pirgie
+Author-email: gregor.pirgie@oeaw.ac.at
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
