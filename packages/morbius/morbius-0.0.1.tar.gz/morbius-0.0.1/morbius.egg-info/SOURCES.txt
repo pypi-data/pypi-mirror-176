@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+morbius/__init__.py
+morbius/helloworld.py
+morbius.egg-info/PKG-INFO
+morbius.egg-info/SOURCES.txt
+morbius.egg-info/dependency_links.txt
+morbius.egg-info/entry_points.txt
+morbius.egg-info/requires.txt
+morbius.egg-info/top_level.txt
