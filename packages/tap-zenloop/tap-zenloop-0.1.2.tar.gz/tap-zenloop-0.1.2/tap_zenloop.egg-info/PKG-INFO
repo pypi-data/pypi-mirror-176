@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tap-zenloop
+Version: 0.1.2
+Summary: Singer tap to extract Zenloop data
+Home-page: https://cargo.one
+Author: cargo.one
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE

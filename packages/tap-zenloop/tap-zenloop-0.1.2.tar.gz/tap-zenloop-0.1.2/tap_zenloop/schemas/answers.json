@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "public_hash_id": {
+      "type": "string"
+    },
+    "score_type": {
+      "type": "string"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "sentiment": {
+      "type": "string"
+    },
+    "recipient_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "inserted_at": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "identity": {
+      "type": "string"
+    },
+    "identity_type": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}
