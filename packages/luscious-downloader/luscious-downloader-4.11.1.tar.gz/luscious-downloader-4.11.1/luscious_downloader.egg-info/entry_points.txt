@@ -1,0 +1,2 @@
+[console_scripts]
+lsd = luscious_dl.start:start
