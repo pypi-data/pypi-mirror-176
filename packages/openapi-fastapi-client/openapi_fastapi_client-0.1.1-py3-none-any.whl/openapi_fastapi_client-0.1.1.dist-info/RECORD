@@ -1,0 +1,9 @@
+openapi_fastapi_client/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+openapi_fastapi_client/api.py,sha256=MGdPug5RDswMuVJTL1qoP5_WyskQfYwSMYa6J_ATCS0,15205
+openapi_fastapi_client/helpers.py,sha256=w2lc7ptG7vecJLlchrF8K9tYApGMLh2tNsu0RErsG-o,2264
+openapi_fastapi_client/main.py,sha256=TBThGyYiUsWKYuHDnfE0NWFGf4nZgHPtfa7u35k43Hs,1472
+openapi_fastapi_client/schema.py,sha256=5gvVCs49aF7P64rCgtyKeLhREtvE5XV-wqR9ke6yiPk,6826
+openapi_fastapi_client-0.1.1.dist-info/entry_points.txt,sha256=32SMQc3JPMv6hqK9i81fupcYRhfBD0ffwyr3SK73noU,74
+openapi_fastapi_client-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+openapi_fastapi_client-0.1.1.dist-info/METADATA,sha256=XPJ7Qooo6q03Ezu14PvqHbwBsFpaBBKHFQyN8BqegvM,1875
+openapi_fastapi_client-0.1.1.dist-info/RECORD,,
