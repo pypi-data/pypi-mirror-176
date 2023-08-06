@@ -1,0 +1,8 @@
+backoff
+aiohttp
+requests
+pytest
+asgiref
+
+[tests]
+pytest-asyncio
