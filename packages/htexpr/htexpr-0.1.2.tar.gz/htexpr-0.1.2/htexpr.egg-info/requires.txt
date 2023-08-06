@@ -1,0 +1,14 @@
+parsimonious<0.11,>=0.9.0
+toolz<0.13,>=0.9
+
+[dev]
+pytest<7.3,>=6.0
+coverage>=6.1.2
+pytest-sugar~=0.9.3
+dash[testing]<2.8,>=2.0.0
+dash-bootstrap-components<2.0,>=1.0.0
+requests<2.29,>=2.23
+
+[examples]
+dash<2.8,>=2.0.0
+dash-bootstrap-components<2.0,>=1.0.0
