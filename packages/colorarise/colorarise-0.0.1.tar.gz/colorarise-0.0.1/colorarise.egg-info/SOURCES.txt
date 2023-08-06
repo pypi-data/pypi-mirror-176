@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+colorarise/__init__.py
+colorarise/color.py
+colorarise.egg-info/PKG-INFO
+colorarise.egg-info/SOURCES.txt
+colorarise.egg-info/dependency_links.txt
+colorarise.egg-info/top_level.txt
