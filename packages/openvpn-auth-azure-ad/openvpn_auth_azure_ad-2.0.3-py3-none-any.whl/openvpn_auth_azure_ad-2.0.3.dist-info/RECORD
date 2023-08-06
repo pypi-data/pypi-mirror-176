@@ -1,0 +1,14 @@
+openvpn_auth_azure_ad/__init__.py,sha256=PIY0ZBtwvvAi8sQ98HX4mt6rKglcdcO3y2jCc20uALI,6925
+openvpn_auth_azure_ad/__main__.py,sha256=Llz_w0dEQZ6Pw57fMrHeihC7ri0kXVY2z7jYGOPgvQg,86
+openvpn_auth_azure_ad/_version.py,sha256=Lpf9SOuZWeV-UUQgbNT4CXQo1oc0AoOdlf28txF8kY4,208
+openvpn_auth_azure_ad/authenticator.py,sha256=fA_yhwbkN_-UXdifpVcs56cjl9umurRpsWINEI5hRn8,19916
+openvpn_auth_azure_ad/openvpn/__init__.py,sha256=XAAyAr9YIHItXwQDgwyvOfBmjQcCltnOHxBEkFiDmps,10557
+openvpn_auth_azure_ad/util/__init__.py,sha256=vavrvw2J_QkasgJOGAE4DsifXjxFSfzjflcInei0s8Q,1019
+openvpn_auth_azure_ad/util/errors.py,sha256=Ek2nGg8DIpQqtgzhP6pRqEe21JMDJo66vC8ukvbgvKE,415
+openvpn_auth_azure_ad/util/thread_pool.py,sha256=ba_Wrbf6FZsO6N-dDAL8HgYfSq0RNe3SVr1X0pwzumo,797
+openvpn_auth_azure_ad-2.0.3.dist-info/LICENSE.txt,sha256=qN6wpZ_0aNad8h-lpVh86A6pFagRk7Ly_pLiMVTtbuA,1073
+openvpn_auth_azure_ad-2.0.3.dist-info/METADATA,sha256=GXc7Zmu-fM3yrweb0BU1VDLzsNOiyC4ZI3xzgGQq7Dc,9996
+openvpn_auth_azure_ad-2.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openvpn_auth_azure_ad-2.0.3.dist-info/entry_points.txt,sha256=woDmHa59CgBF5eS--4ExIK5ImW8SUpSJcWFKHTCXNIo,69
+openvpn_auth_azure_ad-2.0.3.dist-info/top_level.txt,sha256=35E7xN8hXDnFWPNymysBSYNR4KfSLYO63g8jNEY_1b4,22
+openvpn_auth_azure_ad-2.0.3.dist-info/RECORD,,
