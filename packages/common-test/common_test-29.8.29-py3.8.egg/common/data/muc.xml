@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.msgbuss.ceair.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:send>
+         <messageRequestVO>
+            <bizProduct>${msgid}</bizProduct>
+            <content>${content}</content>
+            <extention></extention>
+            <fromUserId>${fromUserId}</fromUserId>
+            <privateKey>${msgtoken}</privateKey>
+            <requestId>1001</requestId>
+            <title>自动化测试结果</title>
+            <toMail>${toMail}</toMail>
+            <toMobile></toMobile>
+            <toUserId>${toUserId}</toUserId>
+            <sendTime></sendTime>
+        </messageRequestVO>
+      </ser:send>
+   </soapenv:Body>
+</soapenv:Envelope>
