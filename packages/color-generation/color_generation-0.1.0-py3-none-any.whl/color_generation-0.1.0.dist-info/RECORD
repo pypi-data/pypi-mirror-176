@@ -1,0 +1,10 @@
+color_generator/__init__.py,sha256=QD-QdY3EaM_tDU3NmNHBvEQTK87hKwRZahacBLDL-78,1483
+color_generator/color/__init__.py,sha256=PDwEe_bpmW-wuCC-FxSi7E7cxJMxTtbmJ4xN0llZ5Tc,83
+color_generator/color/color_class.py,sha256=W3txA9uaXPIVW_25C-dNd0tU7dwoX26JBuJKXWZZJyQ,2368
+color_generator/generator/__init__.py,sha256=tlrVvOYeE2HPOHUtMMEDx-4r8zJ0qErZy2guYBWz9oU,126
+color_generator/generator/color_generator.py,sha256=wbXC_GV-hadH5OFzdhQymv2w746vcj9BsaxLWYrY2yg,1116
+color_generation-0.1.0.dist-info/LICENSE,sha256=jaKfufiqhvuWp8ppL4nu--27O5sQKXng5D01Su3SlL4,1065
+color_generation-0.1.0.dist-info/METADATA,sha256=DBK_G5_mohnWItfAjs7ShIqoCsohK5gY8do1BCqfb4g,1609
+color_generation-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+color_generation-0.1.0.dist-info/top_level.txt,sha256=ViZD45ELlmcELGqEwnCJLU_NSiNVghw8R7eVM8Oey0o,16
+color_generation-0.1.0.dist-info/RECORD,,
