@@ -1,0 +1,3 @@
+[console_scripts]
+eiger-viewer = eiger_viewer.main:main
+
