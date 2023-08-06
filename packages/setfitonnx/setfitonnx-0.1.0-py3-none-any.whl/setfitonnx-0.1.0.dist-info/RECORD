@@ -1,0 +1,8 @@
+setfitonnx/__init__.py,sha256=zgkboN_xb9tMqAu1xXPfFSZcdDDdO8U2WLnINk4lcBM,66
+setfitonnx/config.py,sha256=9cxVbaokHUGUxmP9XG7F_sNqvwjO8-ERHxsbQtp9N5Y,342
+setfitonnx/model_exporter.py,sha256=GqNmqsmnONT847haq0nIGYj1mSHp8_rkZRs9y2tB9sQ,2550
+setfitonnx/onnxexporter.py,sha256=MH03slm-R0mBBqsB72FUZbCNedU1VfJ3oXyfwFSSorQ,2612
+setfitonnx/pooler.py,sha256=QA7KroIMiH_oR4FV2CjjKZtQfuUfmJXB-hvJEePdijM,1121
+setfitonnx-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+setfitonnx-0.1.0.dist-info/METADATA,sha256=2pYeYikZpQzzknSHdqFBILwiJ-s9oqNQl3br4PawFQA,1690
+setfitonnx-0.1.0.dist-info/RECORD,,
