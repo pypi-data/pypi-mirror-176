@@ -1,0 +1,16 @@
+numpy
+scipy
+networkx
+retworkx
+autograd
+toml
+appdirs
+semantic-version>=2.7
+autoray>=0.3.1
+cachetools
+pennylane-lightning>=0.27
+requests
+
+[kernels]
+cvxpy
+cvxopt
