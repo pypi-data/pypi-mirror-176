@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+myadd-demo-622/__init__.py
+myadd-demo-622/my_add.py
+myadd-demo-622/test.py
+myadd_demo_622.egg-info/PKG-INFO
+myadd_demo_622.egg-info/SOURCES.txt
+myadd_demo_622.egg-info/dependency_links.txt
+myadd_demo_622.egg-info/top_level.txt
