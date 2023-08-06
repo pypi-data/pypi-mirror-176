@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: brainfall
+Version: 0.1.4
+Summary: 
+Author: EliaOnceAgain
+Author-email: eabunassar@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: binance-connector (>=1.18.0,<2.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# brainfall
+
+...going somewhere
+
+[![PyPI Version][pypi-image]][pypi-url]
+[![Build Status][build-image]][build-url]
+[![Code Coverage][coverage-image]][coverage-url]
+[![][versions-image]][versions-url]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[pypi-image]: https://img.shields.io/pypi/v/brainfall
+[pypi-url]: https://pypi.org/project/brainfall
+[build-image]: https://github.com/eliaonceagain/brainfall/actions/workflows/build.yaml/badge.svg
+[build-url]: https://github.com/eliaonceagain/brainfall/actions/workflows/build.yaml
+[coverage-image]: https://codecov.io/gh/eliaonceagain/brainfall/branch/master/graph/badge.svg?token=RSKB6B6WD4
+[coverage-url]: https://codecov.io/gh/eliaonceagain/brainfall
+[versions-image]: https://img.shields.io/pypi/pyversions/brainfall
+[versions-url]: https://pypi.org/project/brainfall
+
