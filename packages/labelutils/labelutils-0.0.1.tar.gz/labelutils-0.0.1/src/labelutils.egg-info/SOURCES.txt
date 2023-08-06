@@ -1,0 +1,16 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+src/labelutils/__init__.py
+src/labelutils/_char_indices.py
+src/labelutils/_conversions.py
+src/labelutils/_inception.py
+src/labelutils/_labelbuddy.py
+src/labelutils/_utils.py
+src/labelutils.egg-info/PKG-INFO
+src/labelutils.egg-info/SOURCES.txt
+src/labelutils.egg-info/dependency_links.txt
+src/labelutils.egg-info/entry_points.txt
+src/labelutils.egg-info/requires.txt
+src/labelutils.egg-info/top_level.txt
