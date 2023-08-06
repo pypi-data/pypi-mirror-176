@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dissy
+Version: 0.1.0
+Summary: An interactive disassembler console UI
+License: MIT
+Author: Anthony Shaw
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: x64
+Requires-Dist: distorm3 (>=3.5.2,<4.0.0); extra == "x64"
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: textual (>=0.4.0,<0.5.0)
