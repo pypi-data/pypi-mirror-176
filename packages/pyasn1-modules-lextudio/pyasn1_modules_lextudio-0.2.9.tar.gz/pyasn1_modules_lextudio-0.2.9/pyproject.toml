@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pyasn1-modules-lextudio"
+version = "0.2.9"
+description = "A collection of ASN.1-based protocols modules."
+authors = ["Lex Li <support@lextudio.com>"]
+license = "BSD-2-Clause"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Communications",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Networking :: Monitoring",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+readme = "README.md"
+packages = [
+    { include = "pyasn1_modules" },
+]
+include = ["docs", "tests"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyasn1-lextudio = ">=0.4.11"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.3.0"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
