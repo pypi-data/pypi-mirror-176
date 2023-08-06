@@ -1,0 +1,6 @@
+setup.py
+cameldb/__init__.py
+cameldb.egg-info/PKG-INFO
+cameldb.egg-info/SOURCES.txt
+cameldb.egg-info/dependency_links.txt
+cameldb.egg-info/top_level.txt
