@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tshockapi
+Version: 0.1.0
+Summary: Quick access to TShock REST API using python.
+Author: Qianyiovo
+Author-email: qianyiovo@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+Quick access to TShock REST API using python.
+
+## Example
+
+```python
+import tshockapi  # Import the tshockapi module
+
+server = tshockapi.Server(host="127.0.0.1", port=7878, token="1234567890")  # Create a server object
+print(server.v3_server_rawcmd(cmd="/who"))  # Print the result of the /who command
+# {'status': '200', 'response': ['There are currently no players online.']}
+
