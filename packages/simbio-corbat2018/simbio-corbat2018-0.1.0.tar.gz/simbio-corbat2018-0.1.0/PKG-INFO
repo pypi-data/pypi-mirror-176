@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: simbio-corbat2018
+Version: 0.1.0
+Summary: Extrinsic Apoptotic Reaction Model based on EARM from Sorger lab.
+Author-email: Mauro Silberberg <maurosilber@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/maurosilber/simbio-corbat2018
+Project-URL: Bug Tracker, https://github.com/maurosilber/simbio-corbat2018/issues
+Keywords: SimBio,EARM,apoptosis,corbat2018
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simbio-corbat2018
+
+## Installation
+
+```
+pip install simbio-corbat2018
+```
+
+## Usage
+
+```python
+from simbio.models.corbat2018 import Corbat2018_extrinsic
+from simbio.simulator import Simulator
+
+t = range(100)
+Simulator(Corbat2018_extrinsic).run(t).plot()
+```

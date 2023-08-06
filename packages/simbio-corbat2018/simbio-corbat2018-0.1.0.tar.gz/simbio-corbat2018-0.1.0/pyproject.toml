@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simbio-corbat2018"
+authors = [
+    { name="Mauro Silberberg", email="maurosilber@gmail.com" },
+]
+description = "Extrinsic Apoptotic Reaction Model based on EARM from Sorger lab."
+keywords = ["SimBio", "EARM", "apoptosis", "corbat2018"]
+license = {text = "MIT License"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["dependencies", "version"]
+requires-python = ">=3.7"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.urls]
+"Homepage" = "https://github.com/maurosilber/simbio-corbat2018"
+"Bug Tracker" = "https://github.com/maurosilber/simbio-corbat2018/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools_scm]
+
+[tool.isort]
+profile = "black"
