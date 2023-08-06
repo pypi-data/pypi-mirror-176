@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bintablefile/__init__.c
+bintablefile/__init__.pyx
+bintablefile.egg-info/PKG-INFO
+bintablefile.egg-info/SOURCES.txt
+bintablefile.egg-info/dependency_links.txt
+bintablefile.egg-info/requires.txt
+bintablefile.egg-info/top_level.txt
