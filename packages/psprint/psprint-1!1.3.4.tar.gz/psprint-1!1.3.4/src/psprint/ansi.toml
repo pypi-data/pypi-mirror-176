@@ -1,0 +1,196 @@
+[DEFAULT]
+RESET_ALL = "[0m"  # Reset
+
+[GLOSS]
+# Reset all:
+0 = "[0m"
+"r" = "[0m"
+"reset" = "[0m"
+
+# Normal:
+1 = "[22m"
+"n" = "[22m"
+"normal" = "[22m"
+
+# Dim:
+2 = "[2m"
+"d" = "[2m"
+"dim" = "[2m"
+
+# Bright
+3 = "[1m"
+"b" = "[1m"
+"bright" = "[1m"
+
+
+[FG_COLORS]
+# Black
+0 = "[30m"
+"k" = "[30m"
+"black" = "[30m"
+
+# Red
+1 = "[31m"
+"r" = "[31m"
+"red" = "[31m"
+
+# Green
+2 = "[32m"
+"g" = "[32m"
+"green" = "[32m"
+
+# Yellow
+3 = "[33m"
+"y" = "[33m"
+"yellow" = "[33m"
+
+# Blue
+4 = "[34m"
+"b" = "[34m"
+"blue" = "[34m"
+
+# Magenta
+5 = "[35m"
+"m" = "[35m"
+"magenta" = "[35m"
+
+# Cyan
+6 = "[36m"
+"c" = "[36m"
+"cyan" = "[36m"
+
+# White
+7 = "[37m"
+"w" = "[37m"
+"white" = "[37m"
+
+# Light Black
+8 = "[90m"
+"lk" = "[90m"
+"light black" = "[90m"
+
+# Light Red
+9 = "[91m"
+"lr" = "[91m"
+"light red" = "[91m"
+
+# Light Green
+10 = "[92m"
+"lg" = "[92m"
+"light green" = "[92m"
+
+# Light Yellow
+11 = "[93m"
+"ly" = "[93m"
+"light yellow" = "[93m"
+
+# Light Blue
+12 = "[94m"
+"lb" = "[94m"
+"light blue" = "[94m"
+
+# Light Magenta
+13 = "[95m"
+"lm" = "[95m"
+"light magenta" = "[95m"
+
+# Light Cyan
+14 = "[96m"
+"lc" = "[96m"
+"light cyan" = "[96m"
+
+# Light White
+15 = "[97m"
+"lw" = "[97m"
+"light white" = "[97m"
+
+# Terminal
+16 = "[39m"
+"t" = "[39m"
+"terminal" = "[39m"
+
+[BG_COLORS]
+# Black
+0 = "[40m"
+"k" = "[40m"
+"black" = "[40m"
+
+# Red
+1 = "[41m"
+"r" = "[41m"
+"red" = "[41m"
+
+# Green
+2 = "[42m"
+"g" = "[42m"
+"green" = "[42m"
+
+# Yellow
+3 = "[43m"
+"y" = "[43m"
+"yellow" = "[43m"
+
+# Blue
+4 = "[44m"
+"b" = "[44m"
+"blue" = "[44m"
+
+# Magenta
+5 = "[45m"
+"m" = "[45m"
+"magenta" = "[45m"
+
+# Cyan
+6 = "[46m"
+"c" = "[46m"
+"cyan" = "[46m"
+
+# White
+7 = "[47m"
+"w" = "[47m"
+"white" = "[47m"
+
+# Light Black
+8 = "[100m"
+"lk" = "[100m"
+"light black" = "[100m"
+
+# Light Red
+9 = "[101m"
+"lr" = "[101m"
+"light red" = "[101m"
+
+# Light Green
+10 = "[102m"
+"lg" = "[102m"
+"light green" = "[102m"
+
+# Light Yellow
+11 = "[103m"
+"ly" = "[103m"
+"light yellow" = "[103m"
+
+# Light Blue
+12 = "[104m"
+"lb" = "[104m"
+"light blue" = "[104m"
+
+# Light Magenta
+13 = "[105m"
+"lm" = "[105m"
+"light magenta" = "[105m"
+
+# Light Cyan
+14 = "[106m"
+"lc" = "[106m"
+"light cyan" = "[106m"
+
+# Light White
+15 = "[107m"
+"lw" = "[107m"
+"light white" = "[107m"
+
+# Terminal
+16 = "[49m"
+"t" = "[49m"
+"terminal" = "[49m"
