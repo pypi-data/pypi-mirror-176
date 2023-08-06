@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+LibertyDreamer.egg-info/PKG-INFO
+LibertyDreamer.egg-info/SOURCES.txt
+LibertyDreamer.egg-info/dependency_links.txt
+LibertyDreamer.egg-info/requires.txt
+LibertyDreamer.egg-info/top_level.txt
