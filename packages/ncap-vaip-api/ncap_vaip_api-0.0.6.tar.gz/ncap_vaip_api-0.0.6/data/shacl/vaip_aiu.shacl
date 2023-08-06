@@ -1,0 +1,559 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vaip:  <https://ncei.noaa.gov/ontologies/vaip/core/0.3.2#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+
+#### Core Data Object Shapes ####
+vaip:DataObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:DataObject ;
+    sh:property [
+        sh:path vaip:hasBits ;
+        sh:nodeKind sh:IRIOrLiteral ; #Need a direct data value or an IRI
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one target value per data object
+    ] ;
+    sh:property [ # Primary DataObject Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All DataObject Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+#### Representation Network Shapes ####
+vaip:StructureRepresentationObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:StructureRepresentation ; #Can we represent this as a class as well
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one data object per structure rep
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:SemanticRepresentationObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:SemanticRepresentation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one data object per structure rep
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:OtherRepresentationObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:OtherRepresentation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one data object per structure rep
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #Allow recursion in representation network
+        sh:minCount 0 ; #not necessary to recurse
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+#### Information Object Shapes ####
+
+vaip:ContentInformationObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:ContentInformationObject ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ; #Content can have multiple data objects
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:PackageDescriptionShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:PackageDescription ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:PackagingInformationObjectShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:PackagingInformationObject ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:AccessRightsPreservationShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:AccessRightsPreservation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:ContextPreservationShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:ContextPreservation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:FixityPreservationShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:FixityPreservation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:ReferencePreservationShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:ReferencePreservation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+vaip:ProvenancePreservationShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:ProvenancePreservation ;
+    sh:property [ # Primary Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ; #no blank nodes
+        sh:minCount 1 ; #need a primary label
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Data Object
+        sh:path vaip:hasDataObject ;
+        sh:node vaip:DataObjectShape ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #only one
+    ] ;
+    sh:property [ # Structure Representations
+        sh:path vaip:hasStructureRepresentation ;
+        sh:node vaip:StructureRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Semantic Representations
+        sh:path vaip:hasSemanticRepresentation ;
+        sh:node vaip:SemanticRepresentationObjectShape; #potentially recursive
+        sh:minCount 1 ; #at least one
+    ] ;
+    sh:property [ # Other Representations
+        sh:path vaip:hasOtherRepresentation ;
+        sh:node vaip:OtherRepresentationObjectShape; #potentially recursive
+        sh:minCount 0 ; #optional
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
+
+
+#### Information Package Shapes ####
+vaip:ArchivalInformationUnitShape
+    a sh:NodeShape ;
+    sh:targetClass vaip:ArchivalInformationUnit ; # Applies to all Archival Information Unit Shapes
+    sh:property [ # Primary AIU Label
+        sh:path skos:prefLabel ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; #Only one primary label
+    ] ;
+    sh:property [ # All AIU Labels
+        sh:path rdfs:label ;
+        sh:nodeKind sh:Literal ;
+        sh:minLength 0 ;
+        sh:minCount 1 ; #At least primary in entire label set
+    ] ;
+    sh:property [ # Content
+        sh:path vaip:hasContentInformation ;
+        sh:node vaip:ContentInformationObjectShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [ # Description
+        sh:path vaip:describedBy ;
+        sh:node vaip:PackageDescriptionShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # Packaging
+        sh:path vaip:packagedBy ;
+        sh:node vaip:PackagingInformationObjectShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # PDI - Access Rights
+        sh:path vaip:hasAccessRights ;
+        sh:node vaip:AccessRightsPreservationShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # PDI - Context
+        sh:path vaip:hasContext ;
+        sh:node vaip:ContextPreservationShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # PDI - Fixity
+        sh:path vaip:hasFixity ;
+        sh:node vaip:FixityPreservationShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # PDI - Reference
+        sh:path vaip:hasReference ;
+        sh:node vaip:ReferencePreservationShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:property [ # PDI - Provenance
+        sh:path vaip:hasProvenance ;
+        sh:node vaip:ProvenancePreservationShape ;
+        sh:nodeKind sh:IRI ; #IRI only assigned after API deploy, may need sh:BlankNodeOrIRI
+        sh:minCount 1 ;
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    . 
