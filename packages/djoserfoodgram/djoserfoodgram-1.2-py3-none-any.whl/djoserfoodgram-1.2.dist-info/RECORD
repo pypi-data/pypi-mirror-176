@@ -1,0 +1,15 @@
+djoserfoodgram/__init__.py,sha256=6bV_nsPP-4FipN-Be3FLg_091mtybitPVgRGMse9eY4,167
+djoserfoodgram/compat.py,sha256=5GYLJ3QjR-_wpqnryRArcA5JGjD5EANn-YANSeQeTk8,275
+djoserfoodgram/conf.py,sha256=WzDtiw4kMjj4UXYi1osQZpge7S62oZEEs2viyPqPsrc,6571
+djoserfoodgram/constants.py,sha256=ct-nnHspzPwxYTp0fEkl5JPQoHqezYnNfpngmlMzVT0,728
+djoserfoodgram/email.py,sha256=Je53m6QEedaj64j1FsA5B35_uUaB5FbDUkhNJkTIv4U,1877
+djoserfoodgram/permissions.py,sha256=xl4TV7UNb_oKLhAFCB0xqHcIAIn6GsXy6WYrz9YyjQI,574
+djoserfoodgram/serializers.py,sha256=EGwTY3tLdupUdbFNMyfwnSFtrrBVr9kOFc9vW1C5inI,11030
+djoserfoodgram/signals.py,sha256=UVxojEZf5Of1bkzPbdGkm7_9SBmzcokwrQu4pbEHsTA,200
+djoserfoodgram/utils.py,sha256=rvzODXvkH2jdtmkWWuTSgMMq9yRbfWWrQlfkZzLD_CI,1204
+djoserfoodgram/views.py,sha256=wvOI9onAnZtW4iunBjezD5pnuiMmgrXvslbLkNTbQp8,13142
+djoserfoodgram-1.2.dist-info/LICENSE,sha256=WMeXpNZy6zo3wE5g31cFFMAC59lpwiw0BR1mBKtVPUA,1083
+djoserfoodgram-1.2.dist-info/METADATA,sha256=3o_1lK2XWAn2d2T7TfikrA-xPu2LcutUDeniB4bZSZA,378
+djoserfoodgram-1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+djoserfoodgram-1.2.dist-info/top_level.txt,sha256=cL8xipLnwJtb7Jr0xToWqEszxJwh_IE8o6X2LjjZsL8,15
+djoserfoodgram-1.2.dist-info/RECORD,,
