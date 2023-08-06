@@ -1,0 +1,24 @@
+data/202211_correspondance_idbank_dimension.csv.gz,sha256=PSxOLtGnCU0r4SP7qP2AA1prbp6bfuLT0uWwgCntsWU,1494223
+data/202211_liste_variables_modalites.csv.gz,sha256=VeugEjj_J0I5JsR9VN5fmcC02WCoByZ947oUG4f73nw,353603
+data/naf2008-listes-completes-5-niveaux.csv.gz,sha256=34sokX9k1KJKPxMiciuj1zFwZJatHEw6f9IEiP1K-Kc,20393
+pybdm_insee/__init__ .py,sha256=CZocG4-cLXKLKcbL-UvR7cW6w6Nj1zhjecLePoPr2EM,459
+pybdm_insee/installs/__init__ .py,sha256=uPpV8dWGubDA3TIzOtBgrcRdLlevLL3yKh2VCn4KdSE,46
+pybdm_insee/installs/poetry_install.py,sha256=7pfddXOEAAHPG0DHuL1HbdvunzAPsDCiNuTTGojkeLA,445
+pybdm_insee/main.py,sha256=JULgFs_lGiOIBnY9Qos6mbZKqgrz97sPKQ0A-fTMDsg,5271
+pybdm_insee/py-insee.code-workspace,sha256=p0csimqEbKVnqwLV5qooTBPQ7iNY3Z7vV46uAmjrQEg,61
+pybdm_insee/tools/__init__.py,sha256=WJkaw8NE3hTsBz8rqDhHb6NlcgvaQKfrXhP5-6b0lBA,319
+pybdm_insee/tools/attrdict/__init__.py,sha256=3jTs8MCGvwvyYewEgdMBYTeMH9UNOc9PEzwCbm41_nY,243
+pybdm_insee/tools/attrdict/default.py,sha256=YEU6amQnwkyTrA5fJAnWgGB5XndSjHpb4zPFd0eY8-o,3536
+pybdm_insee/tools/attrdict/dictionary.py,sha256=05OyKXTn6PlOLfRLaqbRh5Lw-mABINgTDl-uO0o7_CM,1454
+pybdm_insee/tools/attrdict/mapping.py,sha256=Jq3mE92Pq9INPJk5F6pokhxbBKYZx5a0tHpqNBPWpfg,2460
+pybdm_insee/tools/attrdict/merge.py,sha256=x-MmCvJfFVWZKrL77vRrDjax-HNkv_ej_xtJRnTbCmI,1087
+pybdm_insee/tools/attrdict/mixins.py,sha256=FfNKfyGHV5qSK-M0qSjSDng9rmcv-wi8m1qqPACEPnU,6620
+pybdm_insee/tools/dataframes.py,sha256=RgPsPL2fMbB0ZPd4gG0bflfxJaIG-3rkC1yq9N4u9N0,8006
+pybdm_insee/tools/find.py,sha256=MX_d1Jszx566xKmMd6al8ZXAp8sehcEGuuwNwFRZiaM,588
+pybdm_insee/tools/insee.py,sha256=2yVdvqfcQl53AHLuGh692rMCgFerE83E4OnU02qm0cA,2871
+pybdm_insee/tools/processing.py,sha256=KFVlKiuqysdmVkdu4vzA2aUp9vxlBjT6Xl4GGiYQGa4,1801
+pybdm_insee-0.1.4.dist-info/entry_points.txt,sha256=A8jQjOgPjzBrXwYeb22M7TjIX_bZZDibFW3jZ6Litns,46
+pybdm_insee-0.1.4.dist-info/LICENSE,sha256=LFx8Ns9AsXNCxlc8t__TrWpCqt6C-KAUPDojQ_HoRMY,1088
+pybdm_insee-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pybdm_insee-0.1.4.dist-info/METADATA,sha256=NyMwM3xbUiOou9ZJLRKkA3PjiaRJvmTEwBxElHJJdMU,890
+pybdm_insee-0.1.4.dist-info/RECORD,,
