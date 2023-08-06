@@ -1,0 +1,10 @@
+README.md
+setup.py
+figures_pack.egg-info/PKG-INFO
+figures_pack.egg-info/SOURCES.txt
+figures_pack.egg-info/dependency_links.txt
+figures_pack.egg-info/top_level.txt
+figures_package/__init__.py
+figures_package/line_method.py
+figures_package/point_method.py
+figures_package/triangle_method.py
