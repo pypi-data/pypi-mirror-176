@@ -1,0 +1,10 @@
+README.md
+setup.py
+sqlacodegen/__init__.py
+sqlacodegen/codegen.py
+sqlacodegen/main.py
+sukiyou_sql.egg-info/PKG-INFO
+sukiyou_sql.egg-info/SOURCES.txt
+sukiyou_sql.egg-info/dependency_links.txt
+sukiyou_sql.egg-info/requires.txt
+sukiyou_sql.egg-info/top_level.txt
