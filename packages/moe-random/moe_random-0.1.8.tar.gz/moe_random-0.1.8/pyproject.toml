@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "moe_random"
+version = "0.1.8"
+description = "Plugin for moe to output a random item from your music library."
+authors = ["Jacob Pavlock <jtpavlock@gmail.com>"]
+repository = "https://github.com/MoeMusic/moe_random"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.scripts]
+moe = 'moe.cli:main'
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+Moe = "^1.5.1"
+
+[tool.poetry.plugins."moe.plugins"]
+"random" = "moe_random.random"
+
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"

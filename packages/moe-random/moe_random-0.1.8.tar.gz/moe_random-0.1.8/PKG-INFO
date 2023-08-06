@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: moe-random
+Version: 0.1.8
+Summary: Plugin for moe to output a random item from your music library.
+Home-page: https://github.com/MoeMusic/moe_random
+License: MIT
+Author: Jacob Pavlock
+Author-email: jtpavlock@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Moe (>=1.5.1,<2.0.0)
+Project-URL: Repository, https://github.com/MoeMusic/moe_random
+Description-Content-Type: text/markdown
+
+# moe_random
+Adds a `random` command to Moe to output a random item from your library.
+
+This is a simple plugin to serve as an example for how to create a third-party plugin for Moe.
+
