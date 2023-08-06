@@ -1,0 +1,16 @@
+netlify/__init__.py,sha256=ZHmEmHS9LhPHBbF1x2W--tqTld2DSlpw5MziB_Z7tfM,92
+netlify/__main__.py,sha256=31ZVxGyoy7XlUrgbk0jSdeHGGxFUIaHNMbrr3d3Y2_0,83
+netlify/client.py,sha256=F95N2GMYpNznOqWbUwY_GCl3ZQN-iDrEHSinvZascYU,5030
+netlify/enums.py,sha256=0vGWT6HfXFplmzPPpH4sHdOYhT7WqU7lZwCR3MrGrpM,114
+netlify/exceptions.py,sha256=Q4KfaACj7NW1gFGKNY3GDRYQklqhRQZekXDynfFqfm4,638
+netlify/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netlify/schemas.py,sha256=D-VUT5sKpunFHWObCItujtfWh4mU-PsfAIvXaNCJwoI,3417
+netlify/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netlify/auth/bearer.py,sha256=xA8Q5buBhstjWh06o9e-4FtAAGCNG83veoylr0lGLYg,391
+netlify/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netlify/util/extended_dataclass.py,sha256=Myo8ZZG98q-eha1g88pvnWi0wqk7yPfjtOhASRNgdi0,5754
+netlify_python-0.1.1.dist-info/LICENSE,sha256=Lw7HYzQFnp2m529DHOvZ1tABqlMVFHV0ZxigVPQ94Zg,1063
+netlify_python-0.1.1.dist-info/METADATA,sha256=pOaV3pNIwrlJdD-4IJA4cXyTsUHxqer1TK8-w11Cbxw,3852
+netlify_python-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+netlify_python-0.1.1.dist-info/top_level.txt,sha256=-gylBI5omRrliiuPVqk_sZOAq0OqRefvGG8F4R9weFI,8
+netlify_python-0.1.1.dist-info/RECORD,,
