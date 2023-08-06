@@ -1,0 +1,80 @@
+[
+    {
+        "en": "Time",
+        "fi": "Aika",
+        "nl": "De tijd"
+    },
+    {
+        "en": "Now",
+        "fi": "Nyt",
+        "nl": "Nu"
+    },
+    {
+        "singular": {
+            "en": "Morning",
+            "fi": "Aamu",
+            "nl": "De ochtend"
+        },
+        "plural": {
+            "en": "Mornings",
+            "fi": "Aamut",
+            "nl": "De ochtenden"
+        }
+    },
+    {
+        "singular": {
+            "en": "Evening",
+            "fi": "Ilta",
+            "nl": "De avond"
+        },
+        "plural": {
+            "en": "Evenings",
+            "fi": "Illat",
+            "nl": "De avonden"
+        }
+    },
+    {
+        "singular": {
+            "en": "Night",
+            "fi": "Yö",
+            "nl": "De nacht"
+        },
+        "plural": {
+            "en": "Nights",
+            "fi": "Yöt",
+            "nl": "De nachten"
+        }
+    },
+    {
+        "singular": {
+            "en": "Midnight",
+            "fi": "Keskiyö",
+            "nl": "De middernacht"
+        },
+        "plural": {
+            "en": "Midnights",
+            "fi": "Keskiyöt",
+            "nl": "De middernachten"
+        }
+    },
+    {
+        "en": "What time is it?",
+        "fi": ["Paljonko kello on?", "Mitä kello on?"],
+        "nl": "Hoe laat is het?"
+    },
+    {
+        "en": "It is twenty past six|It's twenty past six",
+        "fi": ["Kello on kuusi kaksikymmentä", "Kello on kaksikymmentä yli kuusi"],
+        "nl": "Het is tien voor half zeven"
+    },
+    {
+        "en": "It is twenty to seven|It's twenty to seven",
+        "fi": ["Kello on kuusi neljäkymmentä", "Kello on kahtakymmentä vaille seitsemän"],
+        "nl": "Het is tien over half zeven"
+    },
+    {
+        "en": "What time?",
+        "fi": "Mihin aikaan?",
+        "nl": "Hoe laat?"
+    }
+]
