@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: atl
+Version: 0.0.1
+Summary: Ambedded Technology Library
+Author-email: "ambedded.ch" <info@ambedded.ch>
+Project-URL: Homepage, https://ambedded.ch
+Project-URL: Bug Tracker, https://gitlab.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README
+
+## Ambedded Technology Library
+
+> for Python3
+
+### Current Functionality
+
+- atl_log
+
+## Release new version
+
+```bash
+# BUILD
+python3 -m pip install --upgrade build
+python3 -m build
+# UPLOAD
+python3 -m pip install --upgrade twine
+python3 -m twine upload --repository pypi dist/*
+```
