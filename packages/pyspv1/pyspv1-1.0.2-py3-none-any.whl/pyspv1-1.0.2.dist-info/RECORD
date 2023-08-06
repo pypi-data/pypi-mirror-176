@@ -1,0 +1,13 @@
+pyspv1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspv1/checkpathmodule.py,sha256=srm-PNVVYAIB9fg4YtDBk2SY2qYAKeGm7zt9Wscfnmc,41
+pyspv1/commandbasespv1.py,sha256=AGEeDSb5nIcdpoXgk8ZaGKZ1VeVbdtRKAJtxKFERk5M,1591
+pyspv1/serialcommspv1.py,sha256=WOvbQYdzWA3coWvRlxE2cyaVeWBztYSr8nmZq1CTFxg,13844
+pyspv1/spsc.py,sha256=eyk0YX2TERJ1puzh79r9Ej-WR3GNxeAyRtQt1TbgGY8,6708
+pyspv1/spv1.py,sha256=NanuZFANiEZpsg1xVO4PVNRJTAIEu_vZCswxKvDDGwk,3291
+pyspv1/spv1dll.py,sha256=saQ71JUsic-Z6DSmd8s14pcfoNC_NEzAuOGBn4RFnXk,8343
+pyspv1/test.py,sha256=vx7pmXJUVR-L4lgIs4w0DwD08_e2p70NbtIl3rnDhKo,969
+pyspv1-1.0.2.dist-info/METADATA,sha256=VFwHjBUGGNmIuXaDzSeuZAT0YOJdeDjfXwWHAfO9daI,257
+pyspv1-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyspv1-1.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pyspv1-1.0.2.dist-info/top_level.txt,sha256=qOYr-L-A3LkOHcRihSHIvo_LsqwypSFP51Wuz2g2pzw,7
+pyspv1-1.0.2.dist-info/RECORD,,
