@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+lazy_module/__init__.py
+lazy_module/_modidx.py
+lazy_module/core.py
+lazy_module.egg-info/PKG-INFO
+lazy_module.egg-info/SOURCES.txt
+lazy_module.egg-info/dependency_links.txt
+lazy_module.egg-info/entry_points.txt
+lazy_module.egg-info/not-zip-safe
+lazy_module.egg-info/requires.txt
+lazy_module.egg-info/top_level.txt
