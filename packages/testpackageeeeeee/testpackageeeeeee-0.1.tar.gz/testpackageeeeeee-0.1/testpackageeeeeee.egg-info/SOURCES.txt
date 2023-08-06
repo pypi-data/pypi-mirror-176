@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+testPackFunc/__init__.py
+testpackageeeeeee.egg-info/PKG-INFO
+testpackageeeeeee.egg-info/SOURCES.txt
+testpackageeeeeee.egg-info/dependency_links.txt
+testpackageeeeeee.egg-info/top_level.txt
