@@ -1,0 +1,51 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+
+[tool.black]
+line-length = 80
+
+
+[tool.poetry]
+authors = ["konstantin-dudersky <konstantin.dudersky@gmail.com>"]
+description = "Передача данных между сервисами"
+name = "data-connection"
+readme = "README.md"
+repository = "https://github.com/Konstantin-Dudersky/data_exchange.git"
+version = "0.0.4"
+
+
+[tool.poetry.dependencies]
+python = "3.11"
+
+asyncua = { version = "1.*", optional = true }
+fastapi = "0.*"
+pydantic = "1.*"
+pymodbus = { version = "3.*", optional = true }
+websockets = "10.*"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+wemake-python-styleguide = "0.17.0"
+poethepoet = "*"
+
+
+[tool.poetry.extras]
+opcua = ["asyncua"]
+modbus = ["pymodbus"]
+
+
+[tool.poe.tasks]
+lint = ["lint_pyright", "lint_flake8"]
+lint_flake8 = { shell = 'flake8 data_connection/' }
+lint_pyright = { shell = 'pyright' }
+
+
+[tool.pyright]
+pythonPlatform = "Linux"
+pythonVersion = "3.11"
+reportUnnecessaryTypeIgnoreComment = true
+stubPath = '.venv/typings'
+typeCheckingMode = "strict"
