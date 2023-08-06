@@ -1,0 +1,33 @@
+{
+    "main_content" : {
+        "marginLeft": "20%",
+        "height": "100vh",
+        "padding":"30px"
+    },
+    "sidebar_content":{
+        "version": 1,
+        "data": {
+                "title": "Home", "key":"main_page.py",
+                "children": [{
+                    "title": "Child",   "key": "01",
+                    "children": [
+                        {"title": "Subchild1", "key": "page1.py"},
+                        {"title": "Subchild2", "key": "page2.py"}
+                    ]
+                }]
+            },
+        "style": {
+            "position": "fixed",
+            "top": 0,
+            "left": 0,
+            "bottom": 0,
+            "width": "20%",
+            "padding": "20px 10px",
+            "backgroundColor": "#f8f9fa",
+            "verticalAlign": "middle",
+            "alignItems": "center"
+        }
+        
+    }
+}
+
