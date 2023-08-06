@@ -1,0 +1,13 @@
+ovoenergy/__init__.py,sha256=LQn-pQwHJsFhoco6asB7cDeJHfEEm9oLzqlSCUcaQEY,65
+ovoenergy/__main__.py,sha256=rAnRgRqRThR83qP5irwKiaaW8AVB_Msyo-8ALWws8so,4990
+ovoenergy/_version.py,sha256=H2Yc7CiTJB3wzjruZc0gJ3WKqF02U5PjnNDoO74WXyw,272
+ovoenergy/ovoenergy.py,sha256=6m41HSWbRCn5FfBjfhmvmqUiEsIgTqc4tCLDX0kzEHE,6789
+ovoenergy/models/__init__.py,sha256=WGUPwWlRD0jtGs90L8t9CMYoWMip-Yv_RbkL-U2XCHM,2618
+ovoenergy/models/carbon_intensity.py,sha256=7dbzk4k9Ny9o4CDpwcsnmBki80qelUmQULgCq3qZRUA,767
+ovoenergy/models/footprint.py,sha256=1uVwGcE71AxeWvt1KwTdPs7FLDvOnroOnRudT2K3oc4,1503
+ovoenergy/models/plan.py,sha256=tM8V-c8kU3ee4JjGdD69YHe6uBUYGWx-U4Ze9J1mems,2524
+ovoenergy-1.3.0.dev2.dist-info/LICENSE,sha256=oYjipEyINpz0GB3J0F6LH6plnIWXFkEKWBnbvAwYWw8,1074
+ovoenergy-1.3.0.dev2.dist-info/METADATA,sha256=WAQGbgo89qEKL0AXfL5A0SHR2yxbkGPZhijg7PZ8mo4,420
+ovoenergy-1.3.0.dev2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ovoenergy-1.3.0.dev2.dist-info/top_level.txt,sha256=JhIZRsEGUaZ_fEawgk0iF8cQVw5bU2cKPUUbddxtswE,10
+ovoenergy-1.3.0.dev2.dist-info/RECORD,,
