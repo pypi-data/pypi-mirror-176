@@ -1,0 +1,5 @@
+setup.py
+HawkTuner.egg-info/PKG-INFO
+HawkTuner.egg-info/SOURCES.txt
+HawkTuner.egg-info/dependency_links.txt
+HawkTuner.egg-info/top_level.txt
