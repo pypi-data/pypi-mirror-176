@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tum-exam-scripts"
+version = "0.1.7"
+description = ""
+authors = ["Patrick Stöckle <patrick.stoeckle@tum.de>"]
+maintainers = ["Patrick Stöckle <patrick.stoeckle@tum.de>"]
+readme = "README.md"
+repository = "https://github.com/pstoeckle/TUMExam-Scripts"
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+typer = "^0.7.0"
+tqdm = "^4.64.1"
+helium = "^3.0.8"
+keyring = "^23.11.0"
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.3.1"
+mypy = "^0.931"
+lxml = "^4.7.1"
+types-setuptools = "^57.4.9"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tum-exam-scripts = 'tum_exam_scripts.main:app'
