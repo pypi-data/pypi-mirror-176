@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/module_qlr.egg-info/PKG-INFO
+src/module_qlr.egg-info/SOURCES.txt
+src/module_qlr.egg-info/dependency_links.txt
+src/module_qlr.egg-info/requires.txt
+src/module_qlr.egg-info/top_level.txt
