@@ -1,0 +1,1 @@
+from kuqezeze import main
