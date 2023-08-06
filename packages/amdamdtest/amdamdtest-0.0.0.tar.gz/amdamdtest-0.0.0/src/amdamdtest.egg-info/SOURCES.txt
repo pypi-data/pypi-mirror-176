@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/amdamdtest.egg-info/PKG-INFO
+src/amdamdtest.egg-info/SOURCES.txt
+src/amdamdtest.egg-info/dependency_links.txt
+src/amdamdtest.egg-info/not-zip-safe
+src/amdamdtest.egg-info/top_level.txt
+src/locate_Path_tmorales/__init__.py
+src/locate_Path_tmorales/locator.py
+src/tests/__init__.py
