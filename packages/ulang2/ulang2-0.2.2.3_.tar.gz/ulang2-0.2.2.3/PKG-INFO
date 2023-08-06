@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ulang2
+Version: 0.2.2.3
+Summary: 木兰编程语言的源代码。This is the source code of Ulang Programming Language.
+Home-page: https://github.com/qfcy/Python/tree/main/ulang
+Author: 上传者:七分诚意 qq:3076711200 百度贴吧账号:qfcy_
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: ulang,木兰,木兰编程语言
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Natural Language :: Chinese (Simplified)
+Description: 
+完整的木兰编程语言源代码(使用uncompyle6反编译), 并修复了部分bug。
+
+.. image:: https://img-blog.csdnimg.cn/bb791f8f8aae4efc8da7f648dda03b30.png
+    :alt: 文件预览图
+
+上传者:qfcy (https://blog.csdn.net/qfcy\_)

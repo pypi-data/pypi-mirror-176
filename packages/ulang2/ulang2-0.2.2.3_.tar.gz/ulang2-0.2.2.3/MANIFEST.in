@@ -1,0 +1,7 @@
+include ulang\*.py
+include ulang\*.json
+include ulang\*.txt
+include ulang\codegen\*
+include ulang\parser\*.py
+include ulang\parser\*.pyc
+include ulang\runtime\*
