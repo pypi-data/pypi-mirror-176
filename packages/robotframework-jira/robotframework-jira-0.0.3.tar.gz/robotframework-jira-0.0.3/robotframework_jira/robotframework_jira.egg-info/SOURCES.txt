@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+robotframework_jira/JIRALibrary/__init__.py
+robotframework_jira/JIRALibrary/keywords.py
+robotframework_jira/robotframework_jira.egg-info/PKG-INFO
+robotframework_jira/robotframework_jira.egg-info/SOURCES.txt
+robotframework_jira/robotframework_jira.egg-info/dependency_links.txt
+robotframework_jira/robotframework_jira.egg-info/requires.txt
+robotframework_jira/robotframework_jira.egg-info/top_level.txt

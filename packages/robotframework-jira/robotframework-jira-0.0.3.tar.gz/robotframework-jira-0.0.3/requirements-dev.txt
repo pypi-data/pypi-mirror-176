@@ -1,0 +1,5 @@
+-e .
+bumpversion
+pylint
+prospector
+-r requirements.txt
