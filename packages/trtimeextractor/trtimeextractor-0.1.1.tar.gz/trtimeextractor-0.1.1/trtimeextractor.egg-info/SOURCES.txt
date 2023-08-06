@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+trtimeextractor/__init__.py
+trtimeextractor/config.py
+trtimeextractor/extractor.py
+trtimeextractor.egg-info/PKG-INFO
+trtimeextractor.egg-info/SOURCES.txt
+trtimeextractor.egg-info/dependency_links.txt
+trtimeextractor.egg-info/not-zip-safe
+trtimeextractor.egg-info/requires.txt
+trtimeextractor.egg-info/top_level.txt
