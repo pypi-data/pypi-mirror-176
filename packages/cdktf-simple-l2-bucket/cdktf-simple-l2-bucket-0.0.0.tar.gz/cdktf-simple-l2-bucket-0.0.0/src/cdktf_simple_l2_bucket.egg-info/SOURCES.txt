@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdktf_simple_l2_bucket/__init__.py
+src/cdktf_simple_l2_bucket/py.typed
+src/cdktf_simple_l2_bucket.egg-info/PKG-INFO
+src/cdktf_simple_l2_bucket.egg-info/SOURCES.txt
+src/cdktf_simple_l2_bucket.egg-info/dependency_links.txt
+src/cdktf_simple_l2_bucket.egg-info/requires.txt
+src/cdktf_simple_l2_bucket.egg-info/top_level.txt
+src/cdktf_simple_l2_bucket/_jsii/__init__.py
+src/cdktf_simple_l2_bucket/_jsii/workshop-code@0.0.0.jsii.tgz
