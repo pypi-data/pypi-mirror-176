@@ -1,0 +1,8 @@
+fastapi_restful/__init__.py,sha256=JCyVQVOyKv9hRrPWOuJlJAQ8PpPPECxD50OVDbYJWaQ,169
+fastapi_restful/api.py,sha256=GsCIHczgpX2JuPNzF52_OTs3dZvq_jNavG29Rf-xs9c,3558
+fastapi_restful/resource.py,sha256=zb--BW5klFvZumDCFR8NvPbjqZ3PSngUQOsMcgcAkE8,4725
+fastapi_restful/utils.py,sha256=eETGmWpo18reJR5r8Gn_9dNjdpnhFROYPOTfexO4HVU,1227
+fastapi_restful_extension-0.4.1.dist-info/LICENSE,sha256=LkYgDYbwV7IuQ4T_RvieqNoOaZ82H61fHyRZwNMrIeM,1070
+fastapi_restful_extension-0.4.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fastapi_restful_extension-0.4.1.dist-info/METADATA,sha256=W2WpV7g2DuL0aOAmcwG84Ch6GmqXX7Cvlub5pSCP9cg,3506
+fastapi_restful_extension-0.4.1.dist-info/RECORD,,
