@@ -1,0 +1,8 @@
+README.md
+setup.py
+io_wrapper/__init__.py
+io_wrapper/raw_wrapper.py
+python_io_wrapper.egg-info/PKG-INFO
+python_io_wrapper.egg-info/SOURCES.txt
+python_io_wrapper.egg-info/dependency_links.txt
+python_io_wrapper.egg-info/top_level.txt
