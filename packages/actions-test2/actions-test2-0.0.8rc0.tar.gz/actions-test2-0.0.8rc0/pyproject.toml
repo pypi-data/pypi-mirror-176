@@ -1,0 +1,80 @@
+[project]
+name = "actions-test2"
+version = "0.0.8-rc0"
+authors = [{name = "Adam Tyson", email= "code@adamltyson.com"}]
+description = "testing Gh actions"
+readme = "README.md"
+requires-python = ">=3.8.0"
+
+license = {text = "BSD-3-Clause"}
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: BSD License",
+]
+
+[project.urls]
+homepage = "https://github.com/adamltyson/actions-test"
+bug_tracker = "https://github.com/adamltyson/actions-test/issues"
+documentation = "https://github.com/adamltyson/actions-test"
+source_code = "https://github.com/adamltyson/actions-test"
+user_support = "https://github.com/adamltyson/actions-test/issues"
+
+[project.optional-dependencies]
+dev = [
+	"black",
+	"pytest",
+	"pytest-cov",
+	"bump2version",
+	"pre-commit",
+	"flake8",
+	"coverage",
+  "setuptools_scm"
+]
+
+
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["actions_test"]
+exclude = ["actions-test.test*"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=actions-test"
+
+[tool.black]
+target-version = ['py39']
+skip-string-normalization = false
+line-length = 79
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | examples
+  )/
+)
+'''
+
