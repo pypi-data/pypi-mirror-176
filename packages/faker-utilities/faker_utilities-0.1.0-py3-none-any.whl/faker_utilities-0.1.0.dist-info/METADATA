@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: faker-utilities
+Version: 0.1.0
+Summary: Provider of energy & utilities topics data for Faker module
+Home-page: https://github.com/xantygc/faker_utilities
+Author: Santiago González
+Author-email: santiago.gonzalez.courel@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/xantygc/faker_utilities/issues
+Keywords: faker,faker-library,faker-provider,faker-generator,CUPS,EIC
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Faker (>=8.2.1)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.2) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.5.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: pylint ; extra == 'tests'
+Requires-Dist: tox ; extra == 'tests'
+
+An add-on provider for the Python Faker module to generate random CUPS (Universal Supply Point Code) or other useful topics for utilities sector processes. See https://github.com/xantygc/faker_utilities. 
