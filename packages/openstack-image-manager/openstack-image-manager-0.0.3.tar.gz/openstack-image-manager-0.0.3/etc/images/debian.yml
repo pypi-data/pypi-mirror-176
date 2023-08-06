@@ -1,0 +1,56 @@
+---
+images:
+  - name: Debian 10
+    shortname: debian-10
+    format: qcow2
+    login: debian
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: debian
+      os_version: '10'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cdimage.debian.org/cdimage/cloud/buster/latest/SHA512SUMS
+    latest_url: https://cdimage.debian.org/cdimage/cloud/buster/latest/debian-10-genericcloud-amd64.qcow2
+    versions:
+      - version: '20220911'
+        url: https://minio.services.osism.tech/openstack-image-manager/debian-10/20220911-debian-10.qcow2
+        checksum: sha512:04ac7e848fdcf03700fe79e7e2be7d5ecb8850a877bf630e9b53c570819fe7dfbc15b83bcc828ff0276195629ea354df32dd399d447124b1ad2e3486250a99a9
+        build_date: 2022-09-11
+  - name: Debian 11
+    shortname: debian-11
+    format: qcow2
+    login: debian
+    min_disk: 8
+    min_ram: 512
+    status: active
+    visibility: public
+    multi: true
+    meta:
+      architecture: x86_64
+      hw_disk_bus: scsi
+      hw_scsi_model: virtio-scsi
+      hw_watchdog_action: reset
+      os_distro: debian
+      os_version: '11'
+      replace_frequency: quarterly
+      uuid_validity: last-3
+      provided_until: none
+    tags: []
+    latest_checksum_url: https://cdimage.debian.org/cdimage/cloud/bullseye/latest/SHA512SUMS
+    latest_url: https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2
+    versions:
+      - version: '20221109'
+        url: https://minio.services.osism.tech/openstack-image-manager/debian-11/20221109-debian-11.qcow2
+        checksum: sha512:71f1c376e585a87299f751e076689d7ebe2a897649b65071878eb5694be76b771f37c21d7a88630214f4650dec5307e9f73d597ec326f99bd3451e23f607e5b8
+        build_date: 2022-11-09
