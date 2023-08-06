@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tdm-percy
+Version: 0.1.0
+Summary: This package is an API used to query goofy quirky splendiferous information from IMDB
+Author: Goliath Johnson
+License: MIT LICENSE (MIT)
+Keywords: example,imdb,tutorial,Spoiled Milk
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml (>=4.9.1)
+Requires-Dist: requests (>=2.28.1)
+
