@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: helper-utils
+Version: 0.0.7
+Summary: Helper functions
+Home-page: 
+Author: Philipp Friebertshäuser
+Author-email: friebertshaeuser@traide.ai
+License: MIT
+Keywords: helper
+License-File: LICENCE.txt
+
+Helper functions
