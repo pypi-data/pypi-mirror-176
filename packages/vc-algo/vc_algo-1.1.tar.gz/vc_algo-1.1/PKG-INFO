@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: vc_algo
+Version: 1.1
+Summary: 维C算法工具包
+Home-page: UNKNOWN
+Author: Frank
+Author-email: frank@vc.com
+License: vc-private
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 维C算法工具包
+| 版本号 | 更新内容 | 更新时间        | 更新人 |
+| --- | ---- | ----------- | --- |
+| V1.0  | 初始化  | 2022年09月27日 | Frank |
+| V1.1  | 初始化  | 2022年11月14日 | Frank |
+
+# 工具包说明
+## 结构说明
+- algorithm：算法库，将支持因子组合优化中lr、max IC、xgb等算法
+- analysis：分析库，将支持因子基础回测分析、分组分析等
+- data_loader：数据读取库，将支持sql接入、文件读取，并构造标签
+- preprocess：数据预处理，将支持特征列保留、标准化、极值处理、缺失值填充等等
+- tools：其他工具，如因子IC/IR筛选过滤等
+- example：工具包使用案例
+
+## 使用说明
+```angular2html
+# Step 1 读取数据，使用data_loader中的工具，并构造标签
+# Step 2 前置筛选，使用tools中的工具，操作保存模型后无需重新执行的部分，如根据IC/IR筛选因子
+# Step 3 转换训练，使用preprocess、algorithm构建pipeline，并训练保存：参考example/pipeline
+# Step 4 结果分析，使用analysis进行分析
+```
+
+# 工具包使用
+## 项目打包
+- 本地代码更新要重新打包，并上传到服务器
+```python
+python setup.py sdist
+```
+- 在服务器上找到自己的Python环境，然后安装
+```python
+/conda目录(activate后可直接pip)/pip install /当前包在服务器的目录/dist/vc_algo-0.1.tar.gz
+```
+
+# 工具包开发
+## 预处理开发
+参考 preprocess/columns.py 及 example/pipeline/2extend_transformer.py
+## 算法开发
+参考 algorithm/regression/lr.py 及 example/pipeline/3extend_algorithm.py
+
+# 版本迭代记录
+- V1.0 22年9月27日 Frank初始化版本
+- V1.1 22年11月14日 Frank优化依赖包
+
