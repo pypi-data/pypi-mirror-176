@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+spe/__init__.py
+spe/spe.py
+spe_encoder.egg-info/PKG-INFO
+spe_encoder.egg-info/SOURCES.txt
+spe_encoder.egg-info/dependency_links.txt
+spe_encoder.egg-info/requires.txt
+spe_encoder.egg-info/top_level.txt
