@@ -1,0 +1,15 @@
+rdkit>=2022.3
+rdchiral
+pydot
+networkx
+pandas
+numpy
+hdbscan
+scikit-learn
+joblib==1.1.0
+
+[development]
+bumpver
+pytest-cov
+pytest
+sphinx
