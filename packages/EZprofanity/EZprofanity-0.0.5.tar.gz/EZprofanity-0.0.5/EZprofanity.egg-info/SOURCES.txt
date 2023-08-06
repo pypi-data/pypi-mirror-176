@@ -1,0 +1,8 @@
+README.md
+ezprofanity.py
+license.txt
+setup.py
+EZprofanity.egg-info/PKG-INFO
+EZprofanity.egg-info/SOURCES.txt
+EZprofanity.egg-info/dependency_links.txt
+EZprofanity.egg-info/top_level.txt
