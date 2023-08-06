@@ -1,0 +1,34 @@
+<pipeline>
+    <Initialiser name="Initialiser">
+        <relationships>
+            <child name="Modelling" />
+        </relationships>
+        <coordinates>
+            [(300.0,50),0,{}]
+        </coordinates>
+        <inputdata>
+            <X file="./examples/supervised_regression/data_1D_simple/x_train.csv" />
+            <Y file="./examples/supervised_regression/data_1D_simple/y_train.csv" />
+        </inputdata>
+    </Initialiser>
+    <Modelling name="Modelling">
+        <relationships>
+            <parent name="Initialiser" />
+            <child name="Output" />
+        </relationships>
+        <coordinates>
+            [(300.0,300.0),2,{0:'d0-u2'}]
+        </coordinates>
+        <plugin type="LinearRegression">
+        </plugin>
+    </Modelling>
+    <Output name="Output">
+        <plugin type="" />
+        <relationships>
+            <parent name="Modelling" />
+        </relationships>
+        <coordinates>
+            [(300.0,550),1,{2:'d2-u1'}]
+        </coordinates>
+    </Output>
+</pipeline>
