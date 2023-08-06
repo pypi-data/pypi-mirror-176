@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+mwaituwakwa.egg-info/PKG-INFO
+mwaituwakwa.egg-info/SOURCES.txt
+mwaituwakwa.egg-info/dependency_links.txt
+mwaituwakwa.egg-info/top_level.txt
