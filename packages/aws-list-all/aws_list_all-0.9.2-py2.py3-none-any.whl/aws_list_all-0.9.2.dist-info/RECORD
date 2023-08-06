@@ -1,0 +1,15 @@
+aws_list_all/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_list_all/__main__.py,sha256=eS9v4O3KS-DdtOmB99ErcfqLNFIEOqgkvIeRySewPyM,8122
+aws_list_all/client.py,sha256=hDt8FbI5hEmmgIcs_4_gLy6mue-5UntjQ-IMAXEDsyU,341
+aws_list_all/endpoint_hosts.json,sha256=QhokqCzJMHos8zG65aubObf67zFnhZe1CufnURIiv50,747851
+aws_list_all/introspection.py,sha256=jkGOqTY6M739fNmXm0iro_9tII69JI2SohmEHaL0Pho,27279
+aws_list_all/listing.py,sha256=9l6eIBZN0mKspNuPy6MuZuCDAS9iMeX7ytB-WkZdSgc,17436
+aws_list_all/query.py,sha256=ibAkZ4WdfQaNluvo3ZaD35-cpDq3aCLUUS5NrfIyR68,19651
+aws_list_all/service_regions.json,sha256=8X1B3zC1EuZpDAZyNfad7rMy4evLQ7VH28ShPPC_Sh8,120153
+aws_list_all/test_introspection.py,sha256=J9X-9uryW3H4O-7k0Ism-jsYfKnDRAgzcnLnbFjoMYQ,3479
+aws_list_all-0.9.2.dist-info/LICENSE,sha256=iTSRdUhSZfy2tklGPTG7iraoe2llTKvtlEsjyBTSsu8,1075
+aws_list_all-0.9.2.dist-info/METADATA,sha256=0Ms3F6T2ZImZ4QctCPj_AKUfw2HNM5Rbahn1UMMOkqg,4483
+aws_list_all-0.9.2.dist-info/WHEEL,sha256=i6ErtKpGt3EuCna4OpOTBhgJrMWAh_eDBLj9VXrKHUE,110
+aws_list_all-0.9.2.dist-info/entry_points.txt,sha256=ylREKBHndb9UyhJgy7PEQQ7z4SSseOt4-2GBRJMe3u0,102
+aws_list_all-0.9.2.dist-info/top_level.txt,sha256=yevwEzPi-rZmR5EK25S_8PN1_TyFzBoRAAN1DFc1_gg,13
+aws_list_all-0.9.2.dist-info/RECORD,,
