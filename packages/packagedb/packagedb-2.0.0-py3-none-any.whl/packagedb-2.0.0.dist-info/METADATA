@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: packagedb
+Version: 2.0.0
+Summary: A purl (Package URL) Database
+Home-page: https://github.com/nexB/purldb/packagedb
+Author: nexB. Inc. and others
+Author-email: info@nexb.com
+License: license = Apache-2.0 AND CC-BY-SA-4.0
+Keywords: packagedb,scancode,purl,purldb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.*
+License-File: apache-2.0.LICENSE
+License-File: cc-by-sa-4.0.LICENSE
+License-File: CHANGELOG.rst
+License-File: README.rst
+License-File: AUTHORS.rst
+License-File: NOTICE
+Requires-Dist: Django (>=4.1.2)
+Requires-Dist: djangorestframework (>=3.14.0)
+Requires-Dist: django-environ (>=0.8.0)
+Requires-Dist: django-filter (>=22.1)
+Requires-Dist: psycopg2-binary (>=2.9.3)
+Requires-Dist: packageurl-python (>=0.10.4)
+Requires-Dist: natsort (>=8.2.0)
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.3.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.5.0) ; extra == 'docs'
+Requires-Dist: doc8 (>=0.8.1) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest (!=7.0.0,>=6) ; extra == 'testing'
+Requires-Dist: pytest-xdist (>=2) ; extra == 'testing'
+Requires-Dist: pytest-django ; extra == 'testing'
+Requires-Dist: aboutcode-toolkit (>=6.0.0) ; extra == 'testing'
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+
+packagedb
+=========
+
+PackageDB is a Django web app that provides the model for storing package metadata.
