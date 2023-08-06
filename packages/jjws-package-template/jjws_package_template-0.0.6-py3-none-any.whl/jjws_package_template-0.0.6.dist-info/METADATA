@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jjws-package-template
+Version: 0.0.6
+Summary: A small example package for testing PyPi
+Author-email: JJWRoeloffs <jelleroeloffs@gmail.com>
+Project-URL: Homepage, https://github.com/JJWRoeloffs/bare_python_publish
+Project-URL: Bug Tracker, https://github.com/JJWRoeloffs/bare_python_publish/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.23)
+
+# JJW's Python Package Template
+
+My personal package template.
+I wrote this to learn how to do it, don't expect it to be good

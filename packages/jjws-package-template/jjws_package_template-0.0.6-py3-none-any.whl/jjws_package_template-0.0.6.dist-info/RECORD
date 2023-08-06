@@ -1,0 +1,11 @@
+jjws_package_template/__init__.py,sha256=AXdwgCjlnEXJ0AAifS1hxOZ_UI0g7DUyShX2vNIuJoc,278
+jjws_package_template/example_module/__init__.py,sha256=cgTh4h2H3aPIGZyXLdn2yzcc8F_1vpl-Rfj5bEpC-G0,82
+jjws_package_template/example_module/example_file.py,sha256=YLhcQu35bINTAKsdwsZzBRmqJXnrLr5aJ1TFnJRg44c,60
+jjws_package_template/scripts/__init__.py,sha256=56q6tenRYLFVsGN0cZ4HsLOJuVUQb7vny6wEPKnQzuA,118
+jjws_package_template/scripts/python_publish_example.py,sha256=UxShuyxf3WOPv2pkdtjQbsjwycO65WZvpHywckQ5pcM,198
+jjws_package_template-0.0.6.dist-info/LICENSE,sha256=zHvY5Unzg1Ms22RUYyMg3UQqZmYhWDdpn4-lhAlFal0,1062
+jjws_package_template-0.0.6.dist-info/METADATA,sha256=klv6JzhT3DX8u6DaxE_N4xUM7dU5IzhABGVREvGJwgo,713
+jjws_package_template-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jjws_package_template-0.0.6.dist-info/entry_points.txt,sha256=BT-giQ4vnbVI4WcHqjtBOLiDHYNZBoALjNtegaNMiCY,110
+jjws_package_template-0.0.6.dist-info/top_level.txt,sha256=X4qgBuMULiskSySjcmMMmBHkEYzzGVe8K3OWRDWkS3c,22
+jjws_package_template-0.0.6.dist-info/RECORD,,
