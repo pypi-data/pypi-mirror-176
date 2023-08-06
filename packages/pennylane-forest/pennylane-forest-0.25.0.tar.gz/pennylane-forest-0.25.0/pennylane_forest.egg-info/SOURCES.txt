@@ -1,0 +1,7 @@
+README.md
+setup.py
+pennylane_forest.egg-info/PKG-INFO
+pennylane_forest.egg-info/SOURCES.txt
+pennylane_forest.egg-info/dependency_links.txt
+pennylane_forest.egg-info/requires.txt
+pennylane_forest.egg-info/top_level.txt
