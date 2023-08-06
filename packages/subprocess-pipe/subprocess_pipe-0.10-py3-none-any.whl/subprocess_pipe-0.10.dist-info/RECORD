@@ -1,0 +1,10 @@
+subprocess_pipe/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+subprocess_pipe/README.MD,sha256=Ii-klBjZ_bZk0-d0am1MV32RseGVM8DBFSXegdeNFRI,270
+subprocess_pipe/__init__.py,sha256=zra8kG1sB__JRnL_lOrMlVwbyMeGwd9k94X46oH0TTg,230
+subprocess_pipe/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subprocess_pipe/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+subprocess_pipe-0.10.dist-info/LICENSE.rst,sha256=mUm-wCZOuzvKLxt9Gac_Zo5cah8QOM0gqn2Z-AluELM,1148
+subprocess_pipe-0.10.dist-info/METADATA,sha256=uMYE1or_lOjLPiC6r0cX5YnAfaQGnen8KKv38GeN-9I,1124
+subprocess_pipe-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+subprocess_pipe-0.10.dist-info/top_level.txt,sha256=DM5cUzCzJl8OWnh4UiJPBSb_Qk9LWvfvKZ1Eu2zN1R8,16
+subprocess_pipe-0.10.dist-info/RECORD,,

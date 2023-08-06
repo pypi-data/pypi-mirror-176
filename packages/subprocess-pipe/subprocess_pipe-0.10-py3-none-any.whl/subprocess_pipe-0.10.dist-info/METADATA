@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: subprocess-pipe
+Version: 0.10
+Summary: Pipe commands with subprocess
+Home-page: https://github.com/hansalemaos/subprocess_pipe
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: subprocess,pipe
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Pipe commands with subprocess
+
+
+
+```python
+
+$pip install subprocess-pipe
+
+from subprocess_pipe import pipe_commands
+
+pa = pipe_commands(["ls"], ["grep", r".*py$"], ["grep", r"^w"])
+
+print(pa.stdout.decode('utf-8'))
+
+
+
+#output:
+
+win_debugger.py
+
+windowcapture.py
+
+
+
+```
