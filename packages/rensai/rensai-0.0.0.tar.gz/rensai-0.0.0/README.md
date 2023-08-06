@@ -1,0 +1,112 @@
+# `rensai`
+
+[![License][License Badge]][License]
+[![Version][Version Badge]][Package]
+[![Downloads][Downloads Badge]][Package]
+[![Discord][Discord Badge]][Discord]
+
+[![Documentation][Documentation Badge]][Documentation]
+[![Check][Check Badge]][Actions]
+[![Test][Test Badge]][Actions]
+[![Coverage][Coverage Badge]][Coverage]
+
+> *Serialization framework for Python.*
+
+## Installing
+
+**Python 3.7 or above is required.**
+
+### pip
+
+Installing the library with `pip` is quite simple:
+
+```console
+$ pip install rensai
+```
+
+Alternatively, the library can be installed from source:
+
+```console
+$ git clone https://github.com/nekitdev/rensai.git
+$ cd rensai
+$ python -m pip install .
+```
+
+### poetry
+
+You can add `rensai` as a dependency with the following command:
+
+```console
+$ poetry add rensai
+```
+
+Or by directly specifying it in the configuration like so:
+
+```toml
+[tool.poetry.dependencies]
+rensai = "^0.0.0"
+```
+
+Alternatively, you can add it directly from the source:
+
+```toml
+[tool.poetry.dependencies.rensai]
+git = "https://github.com/nekitdev/rensai.git"
+```
+
+## Examples
+
+<!-- TODO: add examples -->
+
+## Documentation
+
+You can find the documentation [here][Documentation].
+
+## Support
+
+If you need support with the library, you can send an [email][Email]
+or refer to the official [Discord server][Discord].
+
+## Changelog
+
+You can find the changelog [here][Changelog].
+
+## Security Policy
+
+You can find the Security Policy of `rensai` [here][Security].
+
+## Contributing
+
+If you are interested in contributing to `rensai`, make sure to take a look at the
+[Contributing Guide][Contributing Guide], as well as the [Code of Conduct][Code of Conduct].
+
+## License
+
+`rensai` is licensed under the MIT License terms. See [License][License] for details.
+
+[Email]: mailto:support@nekit.dev
+
+[Discord]: https://nekit.dev/discord
+
+[Actions]: https://github.com/nekitdev/rensai/actions
+
+[Changelog]: https://github.com/nekitdev/rensai/blob/main/CHANGELOG.md
+[Code of Conduct]: https://github.com/nekitdev/rensai/blob/main/CODE_OF_CONDUCT.md
+[Contributing Guide]: https://github.com/nekitdev/rensai/blob/main/CONTRIBUTING.md
+[Security]: https://github.com/nekitdev/rensai/blob/main/SECURITY.md
+
+[License]: https://github.com/nekitdev/rensai/blob/main/LICENSE
+
+[Package]: https://pypi.org/project/rensai
+[Coverage]: https://codecov.io/gh/nekitdev/rensai
+[Documentation]: https://nekitdev.github.io/rensai
+
+[Discord Badge]: https://img.shields.io/badge/chat-discord-5865f2
+[License Badge]: https://img.shields.io/pypi/l/rensai
+[Version Badge]: https://img.shields.io/pypi/v/rensai
+[Downloads Badge]: https://img.shields.io/pypi/dm/rensai
+
+[Documentation Badge]: https://github.com/nekitdev/rensai/workflows/docs/badge.svg
+[Check Badge]: https://github.com/nekitdev/rensai/workflows/check/badge.svg
+[Test Badge]: https://github.com/nekitdev/rensai/workflows/test/badge.svg
+[Coverage Badge]: https://codecov.io/gh/nekitdev/rensai/branch/main/graph/badge.svg
