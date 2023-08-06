@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/adp_model_evaluation/__init__.py
+src/adp_model_evaluation/adding_problem_model_evaluation.py
+src/adp_model_evaluation.egg-info/PKG-INFO
+src/adp_model_evaluation.egg-info/SOURCES.txt
+src/adp_model_evaluation.egg-info/dependency_links.txt
+src/adp_model_evaluation.egg-info/top_level.txt
