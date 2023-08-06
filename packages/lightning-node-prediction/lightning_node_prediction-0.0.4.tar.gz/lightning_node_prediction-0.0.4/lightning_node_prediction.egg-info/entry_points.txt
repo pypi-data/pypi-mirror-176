@@ -1,0 +1,2 @@
+[nbdev]
+lightning_node_prediction = lightning_node_prediction._modidx:d
