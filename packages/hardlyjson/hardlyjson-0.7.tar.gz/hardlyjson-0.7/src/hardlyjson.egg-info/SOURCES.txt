@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/hardlyjson.egg-info/PKG-INFO
+src/hardlyjson.egg-info/SOURCES.txt
+src/hardlyjson.egg-info/dependency_links.txt
+src/hardlyjson.egg-info/requires.txt
+src/hardlyjson.egg-info/top_level.txt
