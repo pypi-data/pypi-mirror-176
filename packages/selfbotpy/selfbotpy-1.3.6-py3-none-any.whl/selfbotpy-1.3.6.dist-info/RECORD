@@ -1,0 +1,13 @@
+selfbotpy/__init__.py,sha256=rMaizZoEOhM8LrSOJ41Juz7YLAO1rSnyeEV_NNfmLg4,24517
+selfbotpy/languages/en.json,sha256=Lnn1Ihp8u8Mzzm2qa88mUqtgcOi1IPLbonQB2WYqPQo,2081
+selfbotpy/languages/ja.json,sha256=oDFkAI0Ai2nlVRnna7Ip5xKryA263m4j6Bkopju_Jng,2379
+selfbotpy/languages/thai.json,sha256=b0gLnnPV6NxykhDb87nxWCL8ZfwxcjvdMp-MFfP7w00,3878
+selfbotpy-1.3.6.data/data/en.json,sha256=Lnn1Ihp8u8Mzzm2qa88mUqtgcOi1IPLbonQB2WYqPQo,2081
+selfbotpy-1.3.6.data/data/ja.json,sha256=oDFkAI0Ai2nlVRnna7Ip5xKryA263m4j6Bkopju_Jng,2379
+selfbotpy-1.3.6.data/data/thai.json,sha256=b0gLnnPV6NxykhDb87nxWCL8ZfwxcjvdMp-MFfP7w00,3878
+selfbotpy-1.3.6.dist-info/LICENSE,sha256=LCuF5RVL8d-fQiXJ-iRnIUX41KPksip4p5YmE7lWi20,10950
+selfbotpy-1.3.6.dist-info/METADATA,sha256=OyPLCkG7uEcDYLhw6lIW9SvENnWQjgW5vfLgmlOus30,1335
+selfbotpy-1.3.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+selfbotpy-1.3.6.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+selfbotpy-1.3.6.dist-info/top_level.txt,sha256=8grMavUDpZM5u_lf42GzpbjFvxYNOyzWcAERFpO8Bow,10
+selfbotpy-1.3.6.dist-info/RECORD,,
