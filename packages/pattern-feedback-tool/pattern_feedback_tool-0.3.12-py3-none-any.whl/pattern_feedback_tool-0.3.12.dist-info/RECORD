@@ -1,0 +1,10 @@
+pattern_feedback_tool/__init__.py,sha256=Dzc9rH-PpPwOKJiO6ZGd2u1OHfHPGDhxeICNF6XxjO8,349
+pattern_feedback_tool/doit_tasks.py,sha256=t7IxUVFc_HJmnHY7E-7ELAT_9IitrsNW8W_UTA8giAw,10155
+pattern_feedback_tool/graphics.py,sha256=pjOk6a09jUmOCPz2-qEC6fTXsTHMXy59ZQvHdpkTEaY,2293
+pattern_feedback_tool/lint_parsers.py,sha256=HxWBc5VvRMcLwRlPKYgziKFQvor9-esY4LY-UdPeZG0,3396
+pattern_feedback_tool/linters.py,sha256=hxxAiaf_d1-lCMfUki-2FMQdbLZWeDZI9MFBiuM647o,1687
+pattern_feedback_tool/settings.py,sha256=NlYh-mMozAT70IYL5_sIjFRIwwSvEmJumOB10tJnqK0,1127
+pattern_feedback_tool-0.3.12.dist-info/LICENSE,sha256=MgW8rD_w4fHqIVbpl47DYXPTlEDArfAdmLgYYWs3rpM,1066
+pattern_feedback_tool-0.3.12.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pattern_feedback_tool-0.3.12.dist-info/METADATA,sha256=_BBtdiN-urlVpW3xyWAqr4wYLA2KbiUYJKP627Gya4Y,4667
+pattern_feedback_tool-0.3.12.dist-info/RECORD,,
