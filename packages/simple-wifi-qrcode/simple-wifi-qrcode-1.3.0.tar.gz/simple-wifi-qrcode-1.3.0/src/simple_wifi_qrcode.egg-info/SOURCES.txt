@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/simple_wifi_qrcode/__init__.py
+src/simple_wifi_qrcode/__main__.py
+src/simple_wifi_qrcode/qrcode.py
+src/simple_wifi_qrcode/wifi.py
+src/simple_wifi_qrcode.egg-info/PKG-INFO
+src/simple_wifi_qrcode.egg-info/SOURCES.txt
+src/simple_wifi_qrcode.egg-info/dependency_links.txt
+src/simple_wifi_qrcode.egg-info/entry_points.txt
+src/simple_wifi_qrcode.egg-info/requires.txt
+src/simple_wifi_qrcode.egg-info/top_level.txt

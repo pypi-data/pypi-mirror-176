@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: simple-wifi-qrcode
+Version: 1.3.0
+Summary: Generates a QRCode to join wifi networks by scanning it
+Author-email: João Paulo Lobianco <joaopaulolobianco1@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 João Paulo Lobianco
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/jplobianco/simple-wifi-qrcode
+Keywords: wifi,qrcode,scan
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# simple-wifi-qrcode
+
+Generates QR Code to join wifi networks
+
+## Installation
+
+```
+python -m pip install simple-wifi-qrcode
+```
+
+- Requires Python 3.9 or later
+
+## Usage
+
+```sh
+simple-wifi-qrcode [-h] --output OUTPUT --ssid SSID --password PASSWORD --alg {WEP,WPA,nopass} [--random-password] [--verbose]
+
+options:
+  -h, --help               show this help message and exit
+  --output OUTPUT          The PNG file that will store the QR Code
+  --ssid SSID              The SSID of the network
+  --password PASSWORD      The password of the network
+  --alg {WEP,WPA,nopass}   The authentication algorithm
+  --random-password        Generate a random password for the network
+  --verbose                Print verbose information
+```
+
+## Docker
+
+```sh
+# sample creating a PNG QR Code file using Docker
+docker run --rm -v qrcodes:/app/src/qrcodes  jplobianco/simple-wifi-qrcode --output qrcodes/output.png --ssid net1 --password pass1 --alg WPA --verbose
+```

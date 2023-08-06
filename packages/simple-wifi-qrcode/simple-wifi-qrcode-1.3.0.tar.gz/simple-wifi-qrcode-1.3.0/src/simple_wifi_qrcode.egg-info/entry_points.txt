@@ -1,0 +1,2 @@
+[console_scripts]
+simple-wifi-qrcode = simple_wifi_qrcode.__main__:main
