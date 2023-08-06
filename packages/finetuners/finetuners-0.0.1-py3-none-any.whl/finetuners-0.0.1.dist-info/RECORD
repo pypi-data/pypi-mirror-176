@@ -1,0 +1,12 @@
+finetuners/__init__.py,sha256=qzBeDSuLQX0dZfgF3c54CUX2dIOEL3QRX--AD-sqTnU,174
+finetuners/abstract.py,sha256=EinNwIKNUo6_w3BzTyTpm2Q0ejcWQUdLFW3l0nmSCdw,618
+finetuners/args.py,sha256=x_Qt8ZPoxjjVxFcoXx-Y5syaTG0P0dfg8hsLYbdlkzo,404
+finetuners/dataset.py,sha256=YPq0wY-9dZQJSqF9kFl0h7M5_lm6QCW3XgzaSean9kA,2864
+finetuners/exceptions.py,sha256=_CEGJSTnSX6CziXW3ucSrID42kFRklaBGr8C9pGkhNE,406
+finetuners/finetuner.py,sha256=-SgldtVVZ_NCq5K4Qe4HAAc8SqhGQu2-aqgulAtzyJM,2013
+finetuners/schemas.py,sha256=521pcCNwRCrm-PvGl2d2hhqjGB2bZSsKzdBtqtm54_U,4247
+finetuners-0.0.1.dist-info/LICENSE,sha256=c48bF_jwn-3iWxOYUUfebGCvyz6McFA2CfUokCn2okg,1073
+finetuners-0.0.1.dist-info/METADATA,sha256=KjCEqWcbD1PxPM1i-_Ypo9CJghEXcsRP957eYuQTg0A,1579
+finetuners-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+finetuners-0.0.1.dist-info/top_level.txt,sha256=Z5Ivhwie4oUtw0dExXmUavIrGQY_GqcbcZhMNf9amUc,11
+finetuners-0.0.1.dist-info/RECORD,,

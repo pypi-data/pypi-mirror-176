@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: finetuners
+Version: 0.0.1
+Summary: Reduce cognitive load when finetuning transformers 🫠
+Author-email: Kasper Junge <kasperjuunge@gmail.com>
+Project-URL: Homepage, https://github.com/Dansk-Data-Science-Community/finetuners
+Keywords: nlp,transformers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: pandas
+Requires-Dist: pandera
+Requires-Dist: datasets
+
+<a href="https://github.com/Dansk-Data-Science-Community/finetuners"><img src="melting_face.jpeg" width="250" align="right" /></a>
+# Finetuners: Reduce cognitive load when finetuning transformers 🥴
+
+Catchy intro describing the value proposition of the finetuners package.
+
+## Installation
+
+```
+pip install finetuners
+```
+
+
+## Example
+
+
+```python
+import pathlib
+
+from finetuners import (
+    FinetunerArguments,
+    FinetunerForTextClassification,
+    FinetunersDataset,
+)
+
+# load dataset
+dataset = FinetunersDataset.from_path(
+    pathlib.Path(__file__).parents[1].joinpath("datasets", "angry-tweets")
+)
+
+# define arguments
+args = FinetunerArguments(
+    model_name="awesome_model",
+    pretrained_model_name_or_path="Maltehb/danish-bert-botxo",
+    training_args={
+        "output_dir": "./runs/",
+        "learning_rate": 5e-5,
+    },
+)
+
+# init finetuner
+finetuner = FinetunerForTextClassification(
+    dataset=dataset,
+    args=args,
+)
+
+
+finetuner.finetune()
+
+```
