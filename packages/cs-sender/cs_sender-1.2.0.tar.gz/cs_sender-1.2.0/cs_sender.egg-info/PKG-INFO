@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: cs-sender
+Version: 1.2.0
+Summary: scrapy extension for spider monitor web framework cralwer-studio
+Author: liuxianglong
+Author-email: liu_xianglong@live.com
+Maintainer: liuxianglong
+Maintainer-email: liu_xianglong@live.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# CS-Sender
+scrapy extension for spider monitor web framework cralwer-studio
+
+
+## Install
+```
+pip install cs-sender
+```
+
+## Usage 
+Config following settings to settings.py of scrapy project
+```
+CS_BACKEND = http://localhost:8000
+CS_API_TOKEN = '6452c52c4acee2044fe9d953467e6e45be1f367c'
+EXTENSIONS = {
+    'cs_sender.ScrapyMonitor': 802
+}
+```
+
+
+## Parameter
+
+- CS_BACKEND
+    - description: Ip address of crawler-studio
+    - default: http://localhost:8000
+-------- 
+- CS_API_TOKEN
+    - description: The token of crawler-studio API
+    - default: ''
+-------- 
+- CS_ENABLE_SEND_ERR_LOG
+  - description: Whether send error log to crawler-studio
+  - default: True
+-------- 
+- CS_ERR_LOG_BUFFER_SIZE
+    - description: If error log buffer size larger than CS_ERR_LOG_BUFFER_SIZE, 
+      it will be sent to crawler-studio as a batch immediately, and the error log buffer will be empty
+    - default: 500
+    - pre-condition: CS_ENABLE_SEND_ERR_LOG set to True
+-------- 
+- CS_ERR_LOG_SEND_FREQ
+    - description: The error logs will be sent to crawler-studio as a batch for every CS_ERR_LOG_SEND_FREQ seconds
+    - default: 20 seconds
+    - pre-condition: CS_ENABLE_SEND_ERR_LOG set to True
+-------- 
+
