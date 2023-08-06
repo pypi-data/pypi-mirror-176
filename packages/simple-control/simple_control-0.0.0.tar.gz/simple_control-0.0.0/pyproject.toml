@@ -1,0 +1,3 @@
+[build-system]
+requires = ["keyboard", "pyautogui", "setuptools"]
+build-backend="setuptools.build_meta"
