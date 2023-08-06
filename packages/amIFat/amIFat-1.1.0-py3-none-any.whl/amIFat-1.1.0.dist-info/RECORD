@@ -1,0 +1,12 @@
+amIFat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amIFat/__main__.py,sha256=DWlGsArSFixh4309nEOqi_VjdJGziJljEqzHRGerd1g,118
+amIFat/calories.py,sha256=kz5wadgT5VTF80S98mSilkbjRwpTYMkEB7mZ4SUbRfY,2626
+amIFat/fat_problems.py,sha256=9o2y-oMi2uSFkv1VQ59pIzogjyMpf_ev-cqjC_K7iHE,2756
+amIFat/howfat.py,sha256=XSBHTovrQiyPyM5HHlTxXpi65SW8utoZ6kAUKtU11zI,2793
+amIFat/macros.py,sha256=mXa_MVNV6nzqcdlNgDLPtCj1unXtLaRSActlEVusfk4,3448
+amIFatApp/app.py,sha256=ZidNDhOOXBjpWdAEIY8p73X6O4VOpazt-p76D4dxR6Q,2163
+amIFat-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+amIFat-1.1.0.dist-info/METADATA,sha256=MY5N6r21xlre5UhDaMuIaUntXXT5WMYzZYLaAKMi8pg,48401
+amIFat-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+amIFat-1.1.0.dist-info/top_level.txt,sha256=HVCWBiEIkgfTnm2N_E3eYh5VlvcznUIg-aBBH_xednU,17
+amIFat-1.1.0.dist-info/RECORD,,
