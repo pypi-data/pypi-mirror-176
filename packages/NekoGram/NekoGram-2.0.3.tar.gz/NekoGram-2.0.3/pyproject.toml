@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NekoGram"
+version = "2.0.3"
+authors = [
+  { name="lyteloli", email="me@lyteloli.space" },
+]
+description = "Creating bots has never been simpler."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development"
+]
+dependencies = [
+    "aiogram~=2.23.1",
+    "importlib-resources~=5.10.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lyteloli/NekoGram"
+"Bug Tracker" = "https://github.com/lyteloli/NekoGram/issues"
