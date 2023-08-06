@@ -1,0 +1,6 @@
+README.md
+setup.py
+subtitle_cook.egg-info/PKG-INFO
+subtitle_cook.egg-info/SOURCES.txt
+subtitle_cook.egg-info/dependency_links.txt
+subtitle_cook.egg-info/top_level.txt
