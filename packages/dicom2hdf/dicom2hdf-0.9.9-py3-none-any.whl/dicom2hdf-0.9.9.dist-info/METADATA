@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dicom2hdf
+Version: 0.9.9
+Summary: dicom2hdf is now delia
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: delia
+
+# dicom2hdf is now delia
+
+This package has been renamed. Use `pip install delia` instead.
+
+New package: https://pypi.org/project/delia/
