@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: org2ical
+Version: 0.0.1
+Summary: Generate a iCalendar (.ics) file based on a OrgMode (.org) file.
+Home-page: https://github.com/j3soon/org2ical
+Author: Johnson
+Author-email: j3.soon777@gmail.com
+Project-URL: Issues, https://github.com/j3soon/org2ical/issues
+Project-URL: Source Code, https://github.com/j3soon/org2ical
+Keywords: package,parser,converter,python,orgmode,icalendar
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: pylint ; extra == 'testing'
+Requires-Dist: icalendar ; extra == 'testing'
+
+# org2ical
+
+[![pypi](https://img.shields.io/pypi/v/org2ical)](https://pypi.org/project/org2ical/)
+[![python](https://img.shields.io/pypi/pyversions/org2ical)](https://pypi.org/project/org2ical/)
+[![Downloads](https://pepy.tech/badge/org2ical)](https://pepy.tech/project/org2ical)
+[![license](https://img.shields.io/pypi/l/org2ical)](https://github.com/j3soon/org2ical/blob/master/LICENSE)
+
+[![tests](https://img.shields.io/github/workflow/status/j3soon/org2ical/tests?label=tests)](https://github.com/j3soon/org2ical/actions/workflows/test-with-tox.yaml)
+[![build](https://img.shields.io/github/workflow/status/j3soon/org2ical/build)](https://github.com/j3soon/org2ical/actions/workflows/publish-to-pypi.yaml)
+[![codecov](https://codecov.io/gh/j3soon/org2ical/branch/master/graph/badge.svg?token=xNbUgClfdP)](https://codecov.io/gh/j3soon/org2ical)
+
+Generate a [iCalendar](https://icalendar.org/) (.ics) file based on a [OrgMode](https://orgmode.org/) (.org) file.
+
+This package is especially useful if your OrgMode file is too large to be exported with [OrgMode iCalendar Export](https://orgmode.org/manual/iCalendar-Export.html).
