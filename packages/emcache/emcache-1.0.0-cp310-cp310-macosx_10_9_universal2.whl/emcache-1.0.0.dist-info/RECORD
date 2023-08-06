@@ -1,0 +1,17 @@
+emcache/__init__.py,sha256=ohngrGs3BD1xC8A2_ar3dN7hYNr3LUpdW4B0l9QeeBc,1249
+emcache/autobatching.py,sha256=a_j77G5wgWtakqGWmyhCMZHSD80X2Su10cQvcH9ipoo,6919
+emcache/base.py,sha256=1v2SwcYHCpSR_nb5J0xfMtAA0eWeR8mY3lI-XIVRlRg,12211
+emcache/client.py,sha256=QXUQgaOyaOMH2_KStrmCaeqFbRKNTQgfqen4rPx9R2s,27615
+emcache/client_errors.py,sha256=cBTU9LC_Pp06iaIYF_IOJSpPN16V2fOHSrjLn_Q5fPY,930
+emcache/cluster.py,sha256=Rj2f2zqDOXH6VOh2KSqVBNhwhKirIE2adY3udlUdcFI,8974
+emcache/connection_pool.py,sha256=-b_pRRyrU3QxJbi6bjzNGrUzB5vhwdDYRLJ3gepMbl4,16915
+emcache/default_values.py,sha256=Bg0NVhUUtjf-JZytVzAS2SCnkA9NSZds0djKCExsXdg,313
+emcache/node.py,sha256=QIpErHPlSt_-zcFH7v1oJotS-2fcoV64hvTW-l_VZK8,3363
+emcache/protocol.py,sha256=nldQlA3HUcm8YLX4c4CNuzkW-uU4fkTckkQNkNNrk8A,7991
+emcache/timeout.py,sha256=f35q9QHlRmdetWgy4Ut4LkIO8nRb6Huew5i1zhZPvn8,1137
+emcache/version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+emcache/_cython/cyemcache.cpython-310-darwin.so,sha256=EFQYk8Uf4xk1cB5adCqPGFL9MfV0nmOKsLtTSvEHIqk,220588
+emcache-1.0.0.dist-info/METADATA,sha256=hnYHQy1LVILVr0RehmOEz9iTWQF43_KuRLBCw5OUme8,10974
+emcache-1.0.0.dist-info/WHEEL,sha256=DyGia2S6qP_FD4mwU9COmmXmXHC-xHTstdLzZxR3BQs,115
+emcache-1.0.0.dist-info/top_level.txt,sha256=SiD4z_G2KxAGSHHWcwfKNd_fHQb5EcY0A9N_so667iM,8
+emcache-1.0.0.dist-info/RECORD,,
