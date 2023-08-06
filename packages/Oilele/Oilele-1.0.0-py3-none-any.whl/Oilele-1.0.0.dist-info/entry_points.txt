@@ -1,0 +1,4 @@
+[console_scripts]
+faccela_toccá = oilele.oilala:main
+faccela_vedé = oilele.oilala:main
+oilala = oilele.oilala:main
