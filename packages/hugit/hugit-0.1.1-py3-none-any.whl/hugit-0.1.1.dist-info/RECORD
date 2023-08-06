@@ -1,0 +1,13 @@
+hugit/__init__.py,sha256=-mUffgqOZRD0eYsr9E4-7qq-1PHpeBfdG_2m5zETyAk,13
+hugit/cli.py,sha256=FTgYK_263LHAa1rSL8CKgA3uudXg7aUm4X5ysixGKEs,352
+hugit/console.py,sha256=zpdWvaYIeAqlrPn6pCBtHUUxReHYkKO35p6cX7UvNFA,76
+hugit/convert.py,sha256=ziIk7q-C3Uxkd88QZ-nlKtZGRNMPPSj5tJxupipVh-U,1544
+hugit/core.py,sha256=5qLYET558iIWq9Z7-jD7zaxZJBaFKeh1So9FQZajzcQ,1479
+hugit/image_dataset.py,sha256=TGBq4g5isd-L4zIDtr6vMrZTXI2duSf-WD21BITk4uQ,6188
+hugit/project.toml,sha256=qQV5uvq1AzDQWkrFV8whkh4BmmB7dgyz4HF8LYQmSJ4,42
+hugit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hugit-0.1.1.dist-info/entry_points.txt,sha256=Pf3ZBTaASgzUJN9E19qU9opVzp7eoIv4gHSyxjsb0mw,39
+hugit-0.1.1.dist-info/LICENSE,sha256=D4w-5mgW9CfsiV53ACREDmIVn7fcksUzgwG5Qkzu1h8,1073
+hugit-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+hugit-0.1.1.dist-info/METADATA,sha256=pIgbWmlCIzjB3RVj7ZcEtLeov-9owsT6fNn_3EDiydI,7252
+hugit-0.1.1.dist-info/RECORD,,
