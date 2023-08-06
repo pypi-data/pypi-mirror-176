@@ -1,0 +1,6 @@
+setup.py
+duckdf.egg-info/PKG-INFO
+duckdf.egg-info/SOURCES.txt
+duckdf.egg-info/dependency_links.txt
+duckdf.egg-info/requires.txt
+duckdf.egg-info/top_level.txt
