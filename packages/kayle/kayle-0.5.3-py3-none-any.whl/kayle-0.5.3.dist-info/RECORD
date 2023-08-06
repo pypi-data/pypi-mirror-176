@@ -1,0 +1,13 @@
+kayle/__init__.py,sha256=OSUfktu8xzx3NiFOKvI-H35A1uj67yCIGnYSi9ZEUls,225
+kayle/match.py,sha256=YGo7HlBJcJzXRTw-oW2hEn_V2iCXNs2yLIKvIHMQcts,36563
+kayle/ddragon/__init__.py,sha256=vaXRXQrkha3cDuR2mtTffnFFwTdYRRiCzk_bLJ6mIXU,169
+kayle/ddragon/champions.py,sha256=18kBRkftEIPehlsNWvMHDA0PqCEW3VtJ8UIc8Abxayc,4986
+kayle/ddragon/factory.py,sha256=oSoxG1dCohaRwc7Qn9b4ka69EHJjpVg7_yZxiNDIEZk,8853
+kayle/ddragon/items.py,sha256=xlZMDKNlnp_PAAOLx_LQU2eSgK1_FY79QwBg8_8MaHQ,1091
+kayle/ddragon/maps.py,sha256=g1Dpr-a2IDjb3khOQQFqJlEkZAYoq4uFA9YJ5pmpO1A,796
+kayle/ddragon/runes.py,sha256=9y5LeneLf3dhfs7bd7Il8G_8AWkz0H7AKD6uyOUCgQk,1528
+kayle/ddragon/summonerSpells.py,sha256=SVwrue8fwaa1MBjHs_yTFBh9vjNd3jZ-ylb1osiEc7M,1452
+kayle-0.5.3.dist-info/METADATA,sha256=_9NI9uDX7JXPBT8YZEoIW0IKZE79twbklwbD7c7Zpz8,440
+kayle-0.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kayle-0.5.3.dist-info/top_level.txt,sha256=G-HDrTPbb1WxzqVBwlliO6rSG5mSQzvQVsjti6B9gKY,20
+kayle-0.5.3.dist-info/RECORD,,
