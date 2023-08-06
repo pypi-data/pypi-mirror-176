@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PyPermission.egg-info/PKG-INFO
+src/PyPermission.egg-info/SOURCES.txt
+src/PyPermission.egg-info/dependency_links.txt
+src/PyPermission.egg-info/requires.txt
+src/PyPermission.egg-info/top_level.txt
+src/pypermission/__init__.py
+src/pypermission/core.py
+src/pypermission/error.py
+src/pypermission/py.typed
