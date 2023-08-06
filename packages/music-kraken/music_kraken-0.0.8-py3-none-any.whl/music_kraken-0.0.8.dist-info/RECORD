@@ -1,0 +1,10 @@
+music_kraken/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+music_kraken/__main__.py,sha256=KFago-louECQ5HA4coK03i_bcQkcRWlh5V3edrtYoTg,3076
+music_kraken/download.py,sha256=5e_lK68SVCugj84vVnSwG_T0hbPGpOAFlHAjr_eEzM4,2615
+music_kraken/download_links.py,sha256=IaTtKx96Yll0VVz81K7urGBcmCjEYFXtJdJEFuLiZtU,1775
+music_kraken/url_to_path.py,sha256=J5BDOEOH4RJDByqUg0UHicBofnHwxtlH4ZUmW4f59ac,1454
+music_kraken-0.0.8.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+music_kraken-0.0.8.dist-info/METADATA,sha256=ml0I0CtnGaIq-xhpbAlm6G52WEMCqhVxiBwkYz2dGtE,9559
+music_kraken-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+music_kraken-0.0.8.dist-info/top_level.txt,sha256=kCfH2mUZ0-tUFZcfwNRB11SrmBXAZzwX_m4qBvr0r18,13
+music_kraken-0.0.8.dist-info/RECORD,,
