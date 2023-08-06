@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/wallet_stats.egg-info/PKG-INFO
+src/wallet_stats.egg-info/SOURCES.txt
+src/wallet_stats.egg-info/dependency_links.txt
+src/wallet_stats.egg-info/requires.txt
+src/wallet_stats.egg-info/top_level.txt
