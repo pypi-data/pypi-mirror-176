@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+src/bhadd.py
+src/mybhadd.egg-info/PKG-INFO
+src/mybhadd.egg-info/SOURCES.txt
+src/mybhadd.egg-info/dependency_links.txt
+src/mybhadd.egg-info/top_level.txt
