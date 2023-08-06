@@ -1,0 +1,7 @@
+prettytable>=2.3.0
+
+[test]
+docutils
+pytest-cov
+pytest-pycodestyle
+pytest-runner
