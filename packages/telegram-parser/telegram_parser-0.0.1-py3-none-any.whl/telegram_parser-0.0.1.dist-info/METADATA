@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: telegram-parser
+Version: 0.0.1
+Summary: Parse Telegram Bot API
+Author: Arwichok
+Author-email: me@arwi.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# Telegram parser
+
+Parse Telegram Bot API to OpenAPI, RAML or use as dataclass
+

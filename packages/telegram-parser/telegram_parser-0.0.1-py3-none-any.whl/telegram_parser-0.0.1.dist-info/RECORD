@@ -1,0 +1,7 @@
+telegram_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_parser/__main__.py,sha256=9jWoellzM4XGfDXEWhFNlhA4_5tnLUFNU7wLG6jhKYY,31
+telegram_parser/cli.py,sha256=N81mRKO7kWmjZSSNQf41EQSoghlEVVQIQ9FvT4jITvQ,32
+telegram_parser-0.0.1.dist-info/entry_points.txt,sha256=fXkzdGoglcBB4gclyD8DEZlhzirbqA8k1HQG5MA3bhE,46
+telegram_parser-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+telegram_parser-0.0.1.dist-info/METADATA,sha256=uDn2B3nApJt7x1JkaYTI7c7kD9UUsIn1vqaOMMBmYy4,467
+telegram_parser-0.0.1.dist-info/RECORD,,
