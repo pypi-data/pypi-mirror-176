@@ -1,0 +1,15 @@
+imagetocsv/__init__.py,sha256=4Oil-dpN_k5UrS--kaUB_g1uwfxcJp8NZEnKeVFe-bs,191
+imagetocsv/cli.py,sha256=nYnWpvicutgvZSZwuDhZwIa5atJcjL3aDKx9SazWQfo,2282
+imagetocsv/hardcoded_options.py,sha256=ccBtJ02sp8apfWa03E9Iw4cYVpma63jGp8uTI32dwtY,614
+imagetocsv/imagetocsv.py,sha256=tYb7g0uOVBTaetdi28gviIhGD1AUIKdZE0Yk9Z0OklM,7282
+imagetocsv/pathing.py,sha256=ULXvc-Rir_SVDlKu6kv2rdmN5QReTD5FVXAE0eXlWAY,1646
+imagetocsv/string_modifiers.py,sha256=xP5wIpkqMd7aDrTtQFsb_iOtVxuucDMkEHVyWxbtJkg,541
+imagetocsv/tempfile.py,sha256=cUIrK8r1GyQUY7InoQUKV0RdD62JIGrJYuueGsFMXfs,1028
+imagetocsv/examples/__init__.py,sha256=jkHYr5-VmLea6kiGbzM2nAcixHnsXjvcPK7Qx6NYiDg,181
+imagetocsv-0.2.1.dist-info/AUTHORS.rst,sha256=kmHnvbf2DR9MjRWdzGjpAByoqyo1825sjm0F68l82rE,159
+imagetocsv-0.2.1.dist-info/LICENSE,sha256=sq9kmm59tMlJ1a696kN40Hi_k3tEzygxmQEYh8KUhEg,1070
+imagetocsv-0.2.1.dist-info/METADATA,sha256=QKrNmMHJUUHn1PFAzXOmSqgSj8gWubKBam9awynzoSc,9708
+imagetocsv-0.2.1.dist-info/WHEEL,sha256=Ow1Agppnny4NfvfZK4t6N-TUVQfFCpnFCb5wBX-uuec,110
+imagetocsv-0.2.1.dist-info/entry_points.txt,sha256=tamgdFip_JqBzZa3Ej4iBfu6rMRk2RzR49DSEi_MQFI,51
+imagetocsv-0.2.1.dist-info/top_level.txt,sha256=M_z9Aml_943J79N7ofAQJ4KsihSREvhV0AMsWjqYCLI,11
+imagetocsv-0.2.1.dist-info/RECORD,,
