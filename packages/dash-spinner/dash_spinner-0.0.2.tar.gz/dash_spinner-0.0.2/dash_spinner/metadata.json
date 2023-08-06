@@ -1,0 +1,51 @@
+{
+  "src/lib/components/DashSpinner.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashSpinner",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "spinner_type": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The spinner_type used to specified type of spinner."
+      },
+      "Size": {
+        "type": {
+          "name": "number"
+        },
+        "required": true,
+        "description": "A Size used to size of spinner."
+      },
+      "Color": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The Color used to specified color of spinner."
+      },
+      "loading": {
+        "type": {
+          "name": "bool"
+        },
+        "required": true,
+        "description": "The loading used to enable and disable the spinner."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
