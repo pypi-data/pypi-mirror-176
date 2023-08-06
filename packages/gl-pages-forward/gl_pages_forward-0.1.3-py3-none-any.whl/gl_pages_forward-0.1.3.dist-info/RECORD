@@ -1,0 +1,12 @@
+gl_pages_forward/__init__.py,sha256=nyBNptExQbNytZc1l4wHUbfvoqF5kA_X5zDzBillEnU,457
+gl_pages_forward/main.py,sha256=57UlueuBdjSuey19LgwjzyfWf42VcBbvZ3o3GATB2hg,2804
+gl_pages_forward/rsc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gl_pages_forward/rsc/index.html.j2,sha256=frtl9o6n8_GBET7Vfn_nLQjFxCfJsSeIbMu43CMlkLo,193
+gl_pages_forward/rsc/overview.html.j2,sha256=8TvB4F1qywb_rrxmCK6P_uwMtJqbaahyX92vufP9NaI,262
+gl_pages_forward/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gl_pages_forward/tests/config.yml,sha256=Lsi3ptDQcF5WC5QOphhnskWG6jDKZh34io33nVbMwqI,26
+gl_pages_forward-0.1.3.dist-info/entry_points.txt,sha256=AsNjZHk0HiGEWZdvsJrhGk-4AYetFoHzauK2VhnhNzo,66
+gl_pages_forward-0.1.3.dist-info/LICENSE,sha256=K4eigdrgIYzJGml1Cypyg_TyEgzRN6pGdRZzBHA-bcQ,11346
+gl_pages_forward-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gl_pages_forward-0.1.3.dist-info/METADATA,sha256=sbw-QpzVBZSJRUGDTTShbWSrX0MZq9NJjrpvIEGryWI,2653
+gl_pages_forward-0.1.3.dist-info/RECORD,,
