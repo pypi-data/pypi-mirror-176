@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MoneyAfterDark
+Version: 2.0.1
+Summary: Business, Finance and Universal Tax Tools. UK Specific Tax Tools also Included
+Home-page: https://github.com/NeuroscienceAfterDark/MoneyAfterDark
+Author: NeuroscienceAfterDark
+Author-email: neuroscience@sigmund.science
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: datetime
+
