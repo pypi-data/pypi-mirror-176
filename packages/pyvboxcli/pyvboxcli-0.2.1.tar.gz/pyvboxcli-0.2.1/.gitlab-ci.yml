@@ -1,0 +1,76 @@
+# Reference documentation: https://docs.gitlab.com/ee/ci/yaml/README.html
+---
+variables:
+  # Built by docker-build stage and used by full-test
+  BASE_IMAGE: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  # Persistent vagrant/virtualbox:
+  VAGRANT_DOTFILE_PATH: /srv/shared-builds/$CI_PROJECT_PATH_SLUG-$CI_CONCURRENT_PROJECT_ID/.vagrant
+  VAGRANT_HOME: /srv/vagrant
+  VBOX_USER_HOME: /srv/vbox
+
+mini-test:
+  image: python:slim
+  before_script:
+    - python3 -m pip install -e .[test]
+  script:
+    - python3 -m pytest -v --cov --cov-append --cov-report=html
+  artifacts:
+    paths:
+      - htmlcov
+
+docker-build:
+  image: docker
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build --tag $BASE_IMAGE .
+    - docker push $BASE_IMAGE
+
+full-test:
+  image: $BASE_IMAGE
+  needs: [ docker-build ]
+  script:
+    - python3 -m pytest -v --cov --cov-append --cov-report=html
+  artifacts:
+    paths:
+      - htmlcov
+  tags: [ ubuntu22 ]
+
+mypy:
+  image: python:slim
+  before_script:
+    - python3 -m pip install mypy lxml
+  script:
+    - mypy
+  artifacts:
+    paths:
+      - mypy-report
+    reports:
+      junit: mypy-report/junit.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: mypy-report/cobertura.xml
+
+docs:
+  image: python:slim
+  before_script:
+    - python3 -m pip install -e .[docs]
+  script:
+    - sphinx-build sphinx-source sphinx-output
+  artifacts:
+    expose_as: docs
+    paths:
+      - sphinx-output
+
+pages:
+  image: ubuntu
+  stage: deploy
+  dependencies:
+    - docs
+  script:
+    - mkdir -p public
+    - mv sphinx-output public/sphinx
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

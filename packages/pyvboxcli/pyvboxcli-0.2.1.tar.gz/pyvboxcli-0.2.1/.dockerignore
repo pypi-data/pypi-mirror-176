@@ -1,0 +1,5 @@
+# Ignore everything other that deliberate inclusions
+*
+!apt-requirements.txt
+!README.rst
+!pyproject.toml

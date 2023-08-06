@@ -1,0 +1,9 @@
+/dist/
+/mypy-report/
+__pycache__/
+/pyvboxcli.egg-info/
+/sphinx-output/
+/.tox/
+/vagrant-target/uart1.txt
+/vagrant-target/uart2.txt
+/vagrant-target/.vagrant

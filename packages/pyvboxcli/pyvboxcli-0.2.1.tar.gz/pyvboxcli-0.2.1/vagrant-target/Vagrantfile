@@ -1,0 +1,19 @@
+# vi: set ft=ruby :
+# Minimal Vagrantfile only intended for use as a target
+
+vagrant_cwd = File.dirname(__FILE__)
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/bionic64"
+  config.vm.define "pyvboxcli"
+
+  config.vm.provider :virtualbox do |vb|
+    # default COM1/2/3:
+    vb.customize ["modifyvm", :id, "--uart1", "0x3f8", "4"]
+    vb.customize ["modifyvm", :id, "--uart2", "0x2f8", "3"]
+    vb.customize ["modifyvm", :id, "--uart3", "0x3e8", "4"]
+    vb.customize ["modifyvm", :id, "--uartmode1", "file", "#{vagrant_cwd}/uart1.txt"]
+    vb.customize ["modifyvm", :id, "--uartmode2", "file", "#{vagrant_cwd}/uart2.txt"]
+    vb.customize ["modifyvm", :id, "--uartmode3", "disconnected"]
+  end
+end
