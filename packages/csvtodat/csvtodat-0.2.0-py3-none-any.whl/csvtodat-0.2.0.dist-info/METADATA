@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: csvtodat
+Version: 0.2.0
+Summary: CSV to DAT convertor with additional options to make the conversion more efficient and flexibility to add or remove columns from the conversion
+Home-page: https://github.com/SwarajJalkote/csv_to_dat
+Author: Swaraj Jalkote
+Author-email: swarajjalkote98@gmail.com
+License: MIT
+Keywords: csv,dat,convertor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: setuptools
+Requires-Dist: pandas
+
+This is a Python Library to Read the CSV file and convert it into .dat file
+
+Change Log
+==========
+
+0.0.1 (2022-11-07)
+-------------------
+- Added the functionality to perform opetions of reading the csv and converting it to dat
+
+0.1.1 (2022-11-08)
+-------------------
+- [MINOR] Handled the columns error if no columns list is defined
+
+0.1.2 (2022-11-08)
+-------------------
+- [PATCH] Handled the columns error if no columns list is defined
+
+0.2.0 (2022-11-14)
+-------------------
+- Added new functionality to convert dat to csv
+
