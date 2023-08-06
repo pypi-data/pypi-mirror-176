@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+py2cpg.egg-info/PKG-INFO
+py2cpg.egg-info/SOURCES.txt
+py2cpg.egg-info/dependency_links.txt
+py2cpg.egg-info/top_level.txt

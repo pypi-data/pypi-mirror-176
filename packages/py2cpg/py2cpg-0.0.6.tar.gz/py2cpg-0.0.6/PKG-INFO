@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py2cpg
+Version: 0.0.6
+Summary: Placeholder package for ShiftLeft's Python analyzer
+Author: ShiftLeft Inc.
+Author-email: claudiu@shiftleft.io
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## py2cpg
+
+`py2cpg` is an empty package intended to prevent dependency
+confusion attacks related to ShiftLeft's Python static analyzer.
+
+See https://docs.shiftleft.io/ngsast/analyzing-applications/python for
+information on how to properly set up the analyzer.
