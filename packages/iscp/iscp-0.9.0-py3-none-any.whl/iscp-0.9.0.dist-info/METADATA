@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: iscp
+Version: 0.9.0
+Summary: iSCP client for python
+License: Apache-2.0
+Keywords: intdash,iscp,intdash sdk,iscp sdk
+Author: aptpod,Inc
+Author-email: sdk-support@aptpod.co.jp
+Maintainer: aptpod,Inc
+Maintainer-email: sdk-support@aptpod.co.jp
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Faker (>=13.15.0,<14.0.0)
+Requires-Dist: aioquic (>=0.9.20,<0.10.0)
+Requires-Dist: autopep8 (>=1.6.0,<2.0.0)
+Requires-Dist: dunamai (>=1.13.1,<2.0.0)
+Requires-Dist: ipykernel (>=6.16.2,<7.0.0)
+Requires-Dist: ipython (>=8.5.0,<9.0.0)
+Requires-Dist: jupyter-contrib-nbextensions (>=0.5.1,<0.6.0)
+Requires-Dist: jupyter_nbextensions_configurator (>=0.4.1,<0.5.0)
+Requires-Dist: nbconvert (>=6.5.0,<7.0.0)
+Requires-Dist: nbsphinx (>=0.8.9,<0.9.0)
+Requires-Dist: oauthlib (>=3.2.0,<4.0.0)
+Requires-Dist: protobuf (>4.0.0)
+Requires-Dist: pytest-timeout (>=2.1.0,<3.0.0)
+Requires-Dist: requests-oauthlib (>=1.3.1,<2.0.0)
+Requires-Dist: websockets (>=10.2,<11.0)
+Description-Content-Type: text/markdown
+
+# iscp-py
+
+iscp-py is a client library that accesses the iSCP version 2.
+
+## Install
+
+You can install iscp-py using PyPI. Install with the following command.
+
+```sh
+pip install iscp
+```
+
+## Usage
+
+See below.
+
+```python
+import iscp
+
+connector = iscp.WebSocketConnector()
+token = "your token"
+node_id = "node_id"
+
+async with await iscp.Conn.connect(
+    address=address, connector=connector, token_source=lambda: token, node_id=node_id
+) as conn:
+```
+
+## References
+
+- [API Reference](https://docs.intdash.jp/api/intdash-sdk/python/latest/)
+  - Old Versions [here](https://docs.intdash.jp/api/intdash-sdk/python-versions/)
+- [PyPI](https://pypi.org/project/iscp/)
+
