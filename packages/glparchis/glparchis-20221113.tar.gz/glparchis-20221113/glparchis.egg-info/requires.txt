@@ -1,0 +1,8 @@
+setuptools
+pyopengl
+colorama
+PyQt5==5.15.2
+PyQtWebEngine==5.15.2
+
+[:platform_system == "Windows"]
+pywin32
