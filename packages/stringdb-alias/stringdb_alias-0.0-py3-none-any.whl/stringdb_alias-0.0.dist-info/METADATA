@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stringdb-alias
+Version: 0.0
+Summary: A python package for working with string-db.org aliases (gene and protein ID mapping).
+Home-page: https://github.com/Craven-Biostat-Lab/stringdb_alias
+Author: Yuriy Sverchkov
+Author-email: yuriy.sverchkov@wisc.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+
