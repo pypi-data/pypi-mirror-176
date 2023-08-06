@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+kelitukaseo.egg-info/PKG-INFO
+kelitukaseo.egg-info/SOURCES.txt
+kelitukaseo.egg-info/dependency_links.txt
+kelitukaseo.egg-info/top_level.txt
