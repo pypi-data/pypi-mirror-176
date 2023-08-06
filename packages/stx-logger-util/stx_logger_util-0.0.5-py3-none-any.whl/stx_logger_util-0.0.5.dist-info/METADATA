@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stx-logger-util
+Version: 0.0.5
+Summary: Library for a fast logger implementation.
+Home-page: https://github.com/carloxdev/logger-util
+Author: Carlos A. Martínez Jiménez
+Author-email: carloxdev@gmail.com
+Keywords: logger,logging,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
