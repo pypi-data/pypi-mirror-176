@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+percy/__init__.py
+percy/screenshot.py
+percy/version.py
+percy_appium.egg-info/PKG-INFO
+percy_appium.egg-info/SOURCES.txt
+percy_appium.egg-info/dependency_links.txt
+percy_appium.egg-info/not-zip-safe
+percy_appium.egg-info/requires.txt
+percy_appium.egg-info/top_level.txt
