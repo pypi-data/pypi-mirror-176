@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "graia-saya"
+version = "0.0.17"
+description = ""
+authors = ["GreyElaina <31543961+GreyElaina@users.noreply.github.com>"]
+license = "MIT"
+packages = [
+    { include = "graia", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+graia-broadcast = {version = ">=0.12.1", optional = true}
+loguru = ">=0.5.3, < 0.7"
+graia-scheduler = {version = "^0.0.8", optional = true}
+
+
+[tool.poetry.dev-dependencies]
+black = "*"
+isort = "*"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+
+[tool.poetry.extras]
+broadcast = ["graia-broadcast"]
+scheduler = ["graia-scheduler"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
