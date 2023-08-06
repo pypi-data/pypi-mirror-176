@@ -1,0 +1,11 @@
+setup.py
+xmeans/__init__.py
+xmeans/logger.py
+xmeans/ocr.py
+xmeans/paddle.py
+xmeans/torch.py
+xmeans/utils.py
+xmeans.egg-info/PKG-INFO
+xmeans.egg-info/SOURCES.txt
+xmeans.egg-info/dependency_links.txt
+xmeans.egg-info/top_level.txt
