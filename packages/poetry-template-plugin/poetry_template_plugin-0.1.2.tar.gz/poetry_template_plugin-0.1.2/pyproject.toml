@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-template-plugin"
+version = "0.1.2"
+description = ""
+authors = ["aachurin <aachurin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+template = "poetry_template_plugin.plugin:TemplatePlugin"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
