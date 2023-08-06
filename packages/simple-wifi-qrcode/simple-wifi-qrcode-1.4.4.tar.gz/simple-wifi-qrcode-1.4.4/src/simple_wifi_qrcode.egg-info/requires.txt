@@ -1,0 +1,12 @@
+qrcode[pil]>=7.3.1
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+pytest-cov
+coverage
+opencv-python
+pre-commit
