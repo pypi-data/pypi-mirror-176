@@ -1,0 +1,10 @@
+arivo/api/__init__.py,sha256=0A4zV6cgmnD_sFxTmcl9XlAp74gTEjsNWAeyLffTHZw,1770
+arivo/api/http.py,sha256=9RwmbD7eF-FMluC5A4U39M08aqWR8a6HgRQ7d8YeoJ0,1205
+arivo/api/json.py,sha256=7QLUnIkC1Onp1OujUbGSEBsAmv8MyXrLaTu4rNW35BY,1149
+arivo_api-1.1.2.dist-info/AUTHORS,sha256=l9p7ccSV8xtYjebF9jaQg_GZIk99F1zXQ5eWxWWqsFU,74
+arivo_api-1.1.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arivo_api-1.1.2.dist-info/METADATA,sha256=vitkPFlxlnaqQSGX848R0p9g-prfUfY9sy-LG6DD8oA,720
+arivo_api-1.1.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+arivo_api-1.1.2.dist-info/pbr.json,sha256=wf6zNh1WsZubhMwL2SHfSQB031dNHajIdDj6FeGZvFs,46
+arivo_api-1.1.2.dist-info/top_level.txt,sha256=lWfWswn-MKXO0Y4SODXTl_ed4n_4tUDnzZPA0Wr25Pc,6
+arivo_api-1.1.2.dist-info/RECORD,,
