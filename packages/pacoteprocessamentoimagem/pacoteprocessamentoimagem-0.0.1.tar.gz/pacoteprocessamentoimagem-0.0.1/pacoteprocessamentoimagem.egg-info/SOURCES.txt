@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+pacoteprocessamentoimagem/combinacao.py
+pacoteprocessamentoimagem/io.py
+pacoteprocessamentoimagem/plot.py
+pacoteprocessamentoimagem/transformacao.py
+pacoteprocessamentoimagem.egg-info/PKG-INFO
+pacoteprocessamentoimagem.egg-info/SOURCES.txt
+pacoteprocessamentoimagem.egg-info/dependency_links.txt
+pacoteprocessamentoimagem.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pacoteprocessamentoimagem
+Version: 0.0.1
+Summary: Pacote de leitura e processamento de imagens em python
+Home-page: https://github.com/isabela-rossetti/pacote_python
+Author: Isabela Rossetti
+Author-email: isabelarossetti.ir@gmail.com
+License: MIT License
+Keywords: Imagem
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pacote_processamento_imagem
+
+O processamento da imagem do pacote pode ser usado para:
+	
+	Em processamento:
+		- Correspondencia de histograma
+		- Semelhanca estrutural
+		- Redimensionar imagem
+	
+	Util:
+		- Ler imagem
+		- Salvar imagem
+		- Plotar imagem
+		- Resultado da trama
+		- Plotar histograma
+
+## Instalacao
+
+```bash
+pip install pacoteprocessamentoimagem
+```
+
+## Autor
+Isabela Rossetti
+
+## Licenca
+[MIT](https://github.com/isabela-rossetti/pacote_imagem_python/blob/main/LICENSE.txt)
+
