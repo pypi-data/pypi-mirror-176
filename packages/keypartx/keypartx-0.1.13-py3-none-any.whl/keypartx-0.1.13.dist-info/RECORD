@@ -1,0 +1,12 @@
+keypartx/KeypartX.py,sha256=b143-38AgbR1H3lB03f2vL-VgL8Uh-uLoOlbmCBFhfw,33676
+keypartx/KeypartX_12.10.2022.py,sha256=qmzl8gb0cPc8ZfTM8Kozw1RyvsLp85A7F1IrILs8yj4,28199
+keypartx/__init__.py,sha256=3BTeq3-c6kR0NXKtwPe5vQWmQbzH0B74r4r0uxUyT1w,136
+keypartx/basemodes/__init__.py,sha256=owOMmOiyDr5k4fyjHmGA7C_qvdb2corxl2eZq8Oynxg,119
+keypartx/basemodes/avn_base.py,sha256=rhgaP-tv1ZCILypsrOn7dkhFAUWhxzQDZFCw9N9EY6U,33389
+keypartx/basemodes/net_base.py,sha256=CgmMYYieFfR8C3l0uSe-kRnDyp27CJyiLqJbSNauv0k,13972
+keypartx/basemodes/text_edges.py,sha256=ggtTtre4xeGvdIGjWqhFjKfMLI5I_yMpD0FfD5vpdo4,33871
+keypartx-0.1.13.dist-info/LICENCE.txt,sha256=ijC25aKNggfE6dvmNI20F2hfK5-fijYL0s0juVc-px4,1049
+keypartx-0.1.13.dist-info/METADATA,sha256=9y_89DBHaPy7Od1pdzfOakW3injl2M8QBvHNuuh5CX0,4617
+keypartx-0.1.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keypartx-0.1.13.dist-info/top_level.txt,sha256=wxeOZBSH-w30pM3TXy3pgvD1FIDh4MDJhEpu6up9kNE,9
+keypartx-0.1.13.dist-info/RECORD,,
