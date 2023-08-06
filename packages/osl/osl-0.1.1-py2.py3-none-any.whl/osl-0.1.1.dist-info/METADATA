@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: osl
+Version: 0.1.1
+Summary: OHBA Software Library
+Home-page: UNKNOWN
+Author: OHBA Analysis Group
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: mne (>=1.0.0)
+Requires-Dist: sklearn
+Requires-Dist: fslpy
+Requires-Dist: sails
+Requires-Dist: tabulate
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: neurokit2
+Requires-Dist: jinja2
+Requires-Dist: glmtools
+Requires-Dist: numba
+Requires-Dist: nilearn
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: parse
+Requires-Dist: opencv-python
+Requires-Dist: pythreejs
+Provides-Extra: dev
+Requires-Dist: setuptools (>=41.0.1) ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx (==4.0.2) ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+Provides-Extra: full
+Requires-Dist: setuptools (>=41.0.1) ; extra == 'full'
+Requires-Dist: pytest ; extra == 'full'
+Requires-Dist: pytest-cov ; extra == 'full'
+Requires-Dist: coverage ; extra == 'full'
+Requires-Dist: flake8 ; extra == 'full'
+Requires-Dist: sphinx (==4.0.2) ; extra == 'full'
+Requires-Dist: numpydoc ; extra == 'full'
+Requires-Dist: sphinx-gallery ; extra == 'full'
+Requires-Dist: pydata-sphinx-theme ; extra == 'full'
+
+OHBA Software Library (OSL) in Python
+=====================================
+Python version of https://github.com/OHBA-analysis/osl-core.
+
+Installation
+------------
+The recommended installation depends on your operating system. If you are installing on a Mac or Linux machine, we recommend:
+```
+git clone https://github.com/OHBA-analysis/oslpy.git
+cd oslpy
+conda env create -f envs/linux.yml
+conda activate osl
+pip install -e .
+```
+Here, the `-e` indicates we have installed in 'editable mode'. This means if we execute `git pull` or make any local modifications these changes will be reflected when we import the package.
+
+If you use the OHBA workstation (hbaws) with TigerVNC, we recommend:
+```
+git clone https://github.com/OHBA-analysis/oslpy.git
+cd oslpy
+conda env create -f envs/hbaws-vnc.yml
+conda activate osl
+pip install -e .
+```
+
+On remote servers without displays specific package versions are required (related to source reconstruction visualisation). The following can be used to install on machines without a display:
+```
+git clone https://github.com/OHBA-analysis/oslpy.git
+cd oslpy
+conda env create -f envs/headless-server.yml
+conda activate osl
+pip install -e .
+```
+
+If you use the BMRC server, we recommend:
+```
+git clone https://github.com/OHBA-analysis/oslpy.git
+cd oslpy
+conda env create -f envs/bmrc.yml
+conda activate osl
+pip install -e .
+```
+
+If you use the OHBA workstation (hbaws) via the terminal only, we recommend:
+```
+git clone https://github.com/OHBA-analysis/oslpy.git
+cd oslpy
+conda env create -f envs/hbaws-no-display.yml
+conda activate osl-nd
+pip install -e .
+```
+
+For Developers
+--------------
+Run tests:
+```
+cd osl
+pytest tests
+```
+or to run a specific test:
+```
+cd osl/tests
+pytest test_file_handling.py
+```
+
+Build documentation:
+```
+python setup.py build_sphinx
+```
+Compiled docs can be found in `doc/build/html/index.html`.
+
+
