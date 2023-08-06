@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Samuel_Lin
+Version: 0.0.2
+Summary: run get_rating function, given tid and return the rating of the movie.
+Author-email: Samuel_Lin <lin1334@purdue.edu>
+License: MIT License (MIT)
+Keywords: example,imdb,tutorial,p9q3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+tdm-lin1334: contain file imdb.py which has get_rating function, given tid and return the rating of the movie.

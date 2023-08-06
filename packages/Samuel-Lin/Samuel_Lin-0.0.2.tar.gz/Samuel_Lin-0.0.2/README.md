@@ -1,0 +1,1 @@
+tdm-lin1334: contain file imdb.py which has get_rating function, given tid and return the rating of the movie.

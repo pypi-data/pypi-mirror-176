@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+Samuel_Lin.egg-info/PKG-INFO
+Samuel_Lin.egg-info/SOURCES.txt
+Samuel_Lin.egg-info/dependency_links.txt
+Samuel_Lin.egg-info/requires.txt
+Samuel_Lin.egg-info/top_level.txt
+Samuel_Lin.egg-info/.ipynb_checkpoints/dependency_links-checkpoint.txt
+imdb/__init__.py
+imdb/imdb.py
