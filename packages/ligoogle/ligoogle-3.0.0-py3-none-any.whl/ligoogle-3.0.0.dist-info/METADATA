@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: ligoogle
+Version: 3.0.0
+Summary: A (unofficial) google service for linux terminals
+Home-page: https://github.com/carrotscript/ligoogle
+Author: Arjun Jakkipally
+Author-email: jakkipally@gmail.com
+Project-URL: Bug Tracker, https://github.com/carrotscript/ligoogle/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LiGoogle Docs
+[![Downloads](https://pepy.tech/badge/ligoogle)](https://pepy.tech/project/ligoogle)
+[![Downloads](https://pepy.tech/badge/ligoogle/month)](https://pepy.tech/project/ligoogle)
+[![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
+[![PyPI version](https://badge.fury.io/py/ligoogle.svg)](https://badge.fury.io/py/ligoogle)
+
+This package allows you to open google on the Linux terminal.
+
+## Installation
+
+You can install it via pip using:
+
+```
+pip3 install ligoogle
+```
+
+## Usage
+
+You open ligoogle by typing:
+
+```
+python3 -m ligoogle
+```
+
+Then the ligoogle cli pops up. Then type your search term and it should take a very short peroid of time till the results appear.
+
+## The LiGoogle app
+
+If you search `command:app` on ligoogle, something will popup. It looks a bit like this:
+
+![LiGoogle App](https://user-images.githubusercontent.com/87620301/144341162-4aa96fda-bf71-40d4-87fc-80d62b747378.png)
+
+You add your search term and a RapidAPI api key and then, it will take about 4 seconds to open a new window with the JSON result.
+
+This is great for people who do not want the terminal but want the JSON results.
+
+---
+
+Copyright (c) Arjun J
