@@ -1,0 +1,14 @@
+.bumpversion.cfg
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+.github/workflows/test_and_deploy.yml
+actions_test/__init__.py
+actions_test/actions_test2.egg-info/PKG-INFO
+actions_test/actions_test2.egg-info/SOURCES.txt
+actions_test/actions_test2.egg-info/dependency_links.txt
+actions_test/actions_test2.egg-info/requires.txt
+actions_test/actions_test2.egg-info/top_level.txt
