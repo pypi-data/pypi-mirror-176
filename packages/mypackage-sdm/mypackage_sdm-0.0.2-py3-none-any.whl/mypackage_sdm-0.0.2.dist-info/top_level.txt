@@ -1,0 +1,2 @@
+__init__
+my_prj_name
