@@ -1,0 +1,9 @@
+ujson
+charset_normalizer
+graphviz
+ply
+
+[dev]
+pytest
+pytest-profiling
+coverage
