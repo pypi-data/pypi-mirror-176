@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: equid
+Version: 0.1.2
+Summary: Solving library for simultaneous equations and inequalities
+Home-page: https://github.co.jp/
+Author: le_lattelle
+Author-email: g.tiger.ml@gmail.com
+License: CC0 v1.0
+Description: # equid
+        
+        下の方に日本語の説明があります
+        
+        ## Overview
+        - Solving library for simultaneous equations and inequalities
+        
+        ## Usage
+        ```python
+        import equid as eq
+        
+        # Example of solving an equation
+        res = eq.solve(cond = (eq.x + 3 == 5))
+        print(res)	# -> {"x": 2.0}
+        
+        # Inequalities and series are also possible. If there is more than one solution, one is randomly chosen.
+        cond = (
+        	(eq.x + 2 == eq.y) &
+        	(eq.x >= 10)
+        )
+        res = eq.solve(cond = cond)
+        print(res)	# -> e.g. {"x": 10.0, "y": 12.0}
+        
+        # Assign
+        print((eq.x + 5).fix(x = 3))	# -> 8
+        print((5 + eq.x + eq.y).fix(x = 3))	# -> (+ 8 (var y))
+        
+        # Mathematical programming (find the one with the smallest loss among those satisfying cond)
+        res = eq.solve(cond = (3 * eq.x - eq.y == 0),
+        	loss = (eq.y - 1) ** 2)
+        print(res)	# -> {"x": 0.333, "y": 1}
+        
+        # convert to javascript code
+        print(eq.to_js((3 + eq.x) ** 2))	# -> Running "(OUTPUT_STR({x: 1}))" in javascript will output 16.
+        
+        # Algorithmic differentiation (automatic differentiation)
+        print((eq.x ** 2).diff("x")) # -> (* 2 (var x))
+        
+        # Interconversion between json format and equid object
+        formula = (3 + eq.x) ** 2
+        print(formula.to_json())	# -> ["**", ["+", 3, ["var", "x"]], 2]
+        print(eq.from_json('["**", ["+", 3, ["var", "x"]], 2]'))	# -> Formula object
+        ```
+        
+        ## Advanced Usage
+        ```python
+        # 執筆中 (under_construction)
+        ```
+        
+        
+        
+        ## 概略
+        - 連立方程式/不等式の求解ライブラリ
+        
+        ## 利用例
+        ```python
+        import equid as eq
+        
+        # 方程式を解く例
+        res = eq.solve(cond = (eq.x + 3 == 5))
+        print(res)	# -> {"x": 2.0}
+        
+        # 不等式・連立もできる。解が複数あるときはひとつ選ばれる
+        cond = (
+        	(eq.x + 2 == eq.y) &
+        	(eq.x >= 10)
+        )
+        res = eq.solve(cond = cond)
+        print(res)	# -> 例えば{"x": 10.0, "y": 12.0}
+        
+        # 代入
+        print((eq.x + 5).fix(x = 3))	# -> 8
+        print((5 + eq.x + eq.y).fix(x = 3))	# -> (+ 8 (var y))
+        
+        # 数理計画 (condを満たす中でlossが最小のものを見つける)
+        res = eq.solve(cond = (3 * eq.x - eq.y == 0),
+        	loss = (eq.y - 1) ** 2)
+        print(res)	# -> {"x": 0.333, "y": 1}
+        
+        # javascriptコードに変換
+        print(eq.to_js((3 + eq.x) ** 2))	# -> 「(出てきた文字列)({x: 1})」をjavascriptで実行すると16を出力する
+        
+        # アルゴリズム的微分 (自動微分)
+        print((eq.x ** 2).diff("x")) # -> (* 2 (var x))
+        
+        # json形式とequidオブジェクトの相互変換
+        formula = (3 + eq.x) ** 2
+        print(formula.to_json())	# -> ["**", ["+", 3, ["var", "x"]], 2]
+        print(eq.from_json('["**", ["+", 3, ["var", "x"]], 2]'))	# -> Formula object
+        ```
+        
+        ## 発展的な利用例
+        ```python
+        # 執筆中 (under_construction)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
