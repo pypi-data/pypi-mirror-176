@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: songpy-latex-printer
+Version: 0.0.1
+Summary: Support package for package songpy, for printing formatted songbooks to intermediate latex files
+Author: Karol Ważny
