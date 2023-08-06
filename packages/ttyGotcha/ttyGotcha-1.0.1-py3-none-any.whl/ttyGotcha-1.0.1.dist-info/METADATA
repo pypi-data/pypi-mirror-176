@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: ttyGotcha
+Version: 1.0.1
+Summary: SSH-TTY control Interface
+Home-page: https://github.com/caputomarcos/gotcha
+Author: Marcos Caputo
+Author-email: caputo.marcos@gmail.com
+License: MIT
+Keywords: hunter,security
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Security
+Requires-Python: >=3.10.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altgraph (==0.17.3)
+Requires-Dist: bleach (==5.0.1)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: cryptography (==38.0.1)
+Requires-Dist: dataclasses (==0.6)
+Requires-Dist: docutils (==0.19)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: idna (==3.4)
+Requires-Dist: importlib-metadata (==5.0.0)
+Requires-Dist: jaraco.classes (==3.2.3)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: keyring (==23.9.3)
+Requires-Dist: more-itertools (==8.14.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pkginfo (==1.8.3)
+Requires-Dist: psutil (==5.9.2)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyelftools (==0.29)
+Requires-Dist: Pygments (==2.13.0)
+Requires-Dist: pyinstaller (==5.5)
+Requires-Dist: pyinstaller-hooks-contrib (==2022.10)
+Requires-Dist: pyparsing (==3.0.8)
+Requires-Dist: readme-renderer (==37.2)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-toolbelt (==0.10.0)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==12.6.0)
+Requires-Dist: SecretStorage (==3.3.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: staticx (==0.13.8)
+Requires-Dist: twine (==4.0.1)
+Requires-Dist: urllib3 (==1.26.12)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.9.0)
+
+GOTCHA - The SSH-TTY control Interface
+======================================
+
+Requirements
+------------
+
+* Python 3.10.7
+* Linux syscall tracer `(strace)` <https://strace.io/>
+* Root Privileges Required.
+
+
+Installation
+------------   
+
+From source::
+
+    git clone https://github.com/caputomarcos/gotcha.git
+    cd gotcha
+    make build && make pyinstaller
+    sudo make install
+
+From pypi::
+
+    sudo su -
+    pip3 install ttyGotcha
+
+Usage::
+
+    $ gotcha 
+        usage: gotcha [-h] [-v] [-q] [-l] [-s [{1,2,3}]] [-t [tty]] [-a] [--replay [session]] [--speed [speed]] [--snapshot [session]]
+
+        ·:.                                                            .:·
+
+             ██████╗  ██████╗ ████████╗ ██████╗██╗  ██╗ █████╗ ██╗██╗██╗
+            ██╔════╝ ██╔═══██╗╚══██╔══╝██╔════╝██║  ██║██╔══██╗██║██║██║
+            ██║  ███╗██║   ██║   ██║   ██║     ███████║███████║██║██║██║
+            ██║   ██║██║   ██║   ██║   ██║     ██╔══██║██╔══██║╚═╝╚═╝╚═╝
+            ╚██████╔╝╚██████╔╝   ██║   ╚██████╗██║  ██║██║  ██║██╗██╗██╗
+             ╚═════╝  ╚═════╝    ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝╚═╝
+
+        .:·                                                             ·:.
+
+        options:
+        -h, --help            show this help message and exit
+        -v, --verbose         Turn on verbose output
+        -q, --quiet           Enable quiet mode
+        -l, --list            List available SSH Sessions
+        -s [{1,2,3}], --session-files [{1,2,3}]
+                                List Session Files
+        -t [tty], --tty [tty]
+                                Point GOTCHA to specific TTY
+        -a, --auto            Lazy mode, auto-attach to first found session
+        --replay [session]    Play previously recorded session
+        --speed [speed]       Playback Speed
+        --snapshot [session]  Export Session Output to Text Format
+
+
+            *** root privileges required for this software. ***
+
+
+WITH sudo::
+
+    sudo gotcha
+    usage: gotcha [-h] [-v | -q] [-l | -s [{1,2,3}] | -t [tty] | -a | --replay [session]]
+    
+
+Community Distributions
+-----------------------
+
+    Feel free! All contributions are welcome. =)
+
+
+TO DO
+-----
+
+      -v, --verbose         Turn on verbose output
+      -q, --quiet           Enable quiet mode
