@@ -1,0 +1,12 @@
+jaxfit/__init__.py,sha256=duJx2fdZ6imxtNCy0HcvVxdqsTtaRJuDGT-hd0a7jPE,173
+jaxfit/_optimize.py,sha256=D4V9sIUbzwz8fvsd9HBtihkQZPRy43HnArJr8I50spE,2577
+jaxfit/common_jax.py,sha256=EhwSW1kMYzUe2drphM-S3SjeJySO-8Jpt_mABA_pIK8,5462
+jaxfit/common_scipy.py,sha256=Iuh2G8Co-_eU8BTi01jV6x4oqZzstsoaPEcmv4Q-ZJ8,25338
+jaxfit/least_squares.py,sha256=lsoJQk2UgkxRYt2CiVbAErNO0qowXmbS4j8BFcWT8qQ,49564
+jaxfit/minpack.py,sha256=f1uno41_nxIE3fSrLpcCOQcWPL8bsdfvAf6-iIzVreY,17157
+jaxfit/trf.py,sha256=Cesxgycmx45-Pbs71FXwb7zAzP4K2AqFzF-45_zMpSg,31321
+jaxfit-0.0.4.dist-info/LICENSE.txt,sha256=3MLFcWUSoauIik33QoIgK_s_D6hZveNoIoiUODMICw0,1539
+jaxfit-0.0.4.dist-info/METADATA,sha256=z3aQDJK6jFamM7S5AlDVyybP65IUx5MDy-C6DSqDzRA,443
+jaxfit-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jaxfit-0.0.4.dist-info/top_level.txt,sha256=xNZca7y0Rxo9XTstaTDAYOE7f4b3SAtKy1syPN5WQIU,7
+jaxfit-0.0.4.dist-info/RECORD,,
