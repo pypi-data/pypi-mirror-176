@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: servie
+Version: 1.0.2.dev1
+Summary: Python socket servers simplified.
+Home-page: https://github.com/chrismdjr/servie/
+Author: cwififur
+Author-email: chrismdjr@gmail.com
+Project-URL: Bug Reports, https://github.com/chrismdjr/servie/issues
+Project-URL: Source, https://github.com/chrismdjr/servie/
+Keywords: server,socket,networking,multiplayer
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# Servie
+
+A simple Python library for making socket servers.

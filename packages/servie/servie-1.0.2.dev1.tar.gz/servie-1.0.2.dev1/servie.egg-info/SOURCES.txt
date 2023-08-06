@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+./servie/__init__.py
+./servie/client.py
+./servie/server.py
+servie.egg-info/PKG-INFO
+servie.egg-info/SOURCES.txt
+servie.egg-info/dependency_links.txt
+servie.egg-info/requires.txt
+servie.egg-info/top_level.txt
