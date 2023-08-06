@@ -1,0 +1,16 @@
+oc_idmanager/__init__.py,sha256=rftPGG33kW0GwkzApnDDMlagUf44IAaY31036gyqX_g,1319
+oc_idmanager/base.py,sha256=i1gFJsYu3jOYjSWq7atgK1E35qTWkf_kOShpR8GVL1c,5546
+oc_idmanager/doi.py,sha256=PE7jK6vJMZx2uTayJpHkuLQ6YkfiPB4OEEGVJiJQCh8,5302
+oc_idmanager/isbn.py,sha256=Zjndfk8kXeV5zMbHripr-nO2-r4css_CzTPK1hqpsw4,3584
+oc_idmanager/issn.py,sha256=QiuLEVvVRSBbMfIDKG3mW--oLY5HsRK424bN-s3GolA,3047
+oc_idmanager/metadata_manager.py,sha256=xOs1dZG6UpLAioFfAqCl2OJNAujy7niMP2xs8FTE4-w,29374
+oc_idmanager/orcid.py,sha256=m_5rEeEah0ypLKeeqmyl5q1oXE9Jva5serNm9QgoAgQ,5678
+oc_idmanager/pmid.py,sha256=vAWB28EOZD_uSW1Qh5oyWEtDysn5-nGcejonqrN5GRw,15575
+oc_idmanager/support.py,sha256=CZnhctqUkIGzBjoWehmTjzensQzOMkai3xrB3REzwkE,2094
+oc_idmanager/url.py,sha256=Dub7V_9iT5U1ugzeTXErTiu5DHsVNAPOUYRupyu_4EI,6196
+oc_idmanager/wikidata.py,sha256=wZD1Gk3WEIDesXoVTqVo47IWTfjTf8c09JNEJtNbdbM,5384
+oc_idmanager/wikipedia.py,sha256=dH9-mL6LOxga7LT9RKAy0nRuS94LqmRDHDfwXdC5XlY,6791
+oc_idmanager-0.2.0.dist-info/LICENSE.md,sha256=4tlKs-tZsEz2OFSwxxY2ChYANF5kaFEI-Kz6pxOvh2o,1021
+oc_idmanager-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+oc_idmanager-0.2.0.dist-info/METADATA,sha256=5Jfh6FdT5Q-IRsm7n4T4WvzZxOigVDjtDkYI5QJcZ5U,711
+oc_idmanager-0.2.0.dist-info/RECORD,,
