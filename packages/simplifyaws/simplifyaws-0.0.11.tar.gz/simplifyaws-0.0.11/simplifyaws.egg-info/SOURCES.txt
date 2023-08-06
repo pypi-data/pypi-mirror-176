@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+app/__init__.py
+app/test.py
+simplifyaws/SQS.py
+simplifyaws/__init__.py
+simplifyaws/classes.py
+simplifyaws/constants.py
+simplifyaws.egg-info/PKG-INFO
+simplifyaws.egg-info/SOURCES.txt
+simplifyaws.egg-info/dependency_links.txt
+simplifyaws.egg-info/requires.txt
+simplifyaws.egg-info/top_level.txt
