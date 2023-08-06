@@ -1,0 +1,12 @@
+fastilybot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastilybot/__main__.py,sha256=pgrKyONDpRw-5NzC6yh3JMVpWAiu-JWDDVCHW3MdLEA,6238
+fastilybot/bots.py,sha256=WB-NZ300AFR1KtMqLgb2BrVqXadqLokA59v7j73nm04,14725
+fastilybot/constants.py,sha256=s5wXFBSSNPK8jYlONhREnfSlBp20QARyONO0ST_YKLA,744
+fastilybot/core.py,sha256=zXXvPb-Nu11efBQaBjiyNT3t2J8BjEP-v4baqBVLTbs,12227
+fastilybot/reports.py,sha256=LmT6OAvUZj0wlwTTGFOFV53seklwdpgSlagzsk6sZr8,11141
+fastilybot-2.1.0.dist-info/LICENSE.md,sha256=iVG9puYW33QY_z-A2WmfltpwTfZPO8nw1bt1oQNoBFY,34913
+fastilybot-2.1.0.dist-info/METADATA,sha256=c-BLmFaDFFRyPEZoXzSAaagUc4eRVBzii6WA69cfbv0,2074
+fastilybot-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fastilybot-2.1.0.dist-info/entry_points.txt,sha256=vVxda4VlFjsOavNVjYONy1R23wImmJ5TLLXjU6YoKEY,57
+fastilybot-2.1.0.dist-info/top_level.txt,sha256=32neXne-BgPbGgmC_WSZSM9z4W1ia3ziux7wsVJBK2A,11
+fastilybot-2.1.0.dist-info/RECORD,,
