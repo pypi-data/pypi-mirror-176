@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pswalker
+Version: 1.0.8
+Summary: Automated beam alignment for LCLS
+Author: SLAC National Accelerator Laboratory
+License: BSD
+License-File: LICENSE.md
