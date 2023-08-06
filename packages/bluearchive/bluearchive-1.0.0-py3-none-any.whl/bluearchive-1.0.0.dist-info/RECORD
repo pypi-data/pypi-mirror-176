@@ -1,0 +1,13 @@
+buruaka/__init__.py,sha256=A2gj9A1a__tQxhjLqlQ5CXl23f7-z7gj2_RiZHUtGhI,111
+buruaka/api.py,sha256=LB_6aeiMbHOwB0msKq8g1pDlhSHjWALRnqzjGKBhEtY,2530
+buruaka/query.py,sha256=b_g_0i37B5Ea_Qw8X1mtMpYCkH2lI0U_sDp9Sd_ORxc,2132
+buruaka/types.py,sha256=1GcG2HpQX-S1ek7HGv0xkIORlhkQnddUfhxmuFTwKJo,154
+buruaka/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buruaka/models/abc.py,sha256=xrtOvACBaLA1gpsY28N3MOGdTGTFk4sLLamY5F2SNL4,367
+buruaka/models/base.py,sha256=63T8QWRZhrB4ZCLxgazzIO5p5uFX_PzA4hdTmaIcRkE,291
+buruaka/models/enums.py,sha256=X8LAl8B0_yXQlv913JoKCJiZtbrvvGZIoU1K_PDGdgI,2510
+buruaka/models/student.py,sha256=_KNqPCeUhRxKRaTCswERmEPys6LvgozhJT2m1xnvlJc,10599
+bluearchive-1.0.0.dist-info/METADATA,sha256=NHBS7iOtlallUCrx2fQb2WgE4eEcVbuRGEYsbIbiwgY,707
+bluearchive-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bluearchive-1.0.0.dist-info/top_level.txt,sha256=OJTqcsFA--ULdgHnPfasSvvYiLEqqzgPW8lwcCwTjRI,8
+bluearchive-1.0.0.dist-info/RECORD,,
