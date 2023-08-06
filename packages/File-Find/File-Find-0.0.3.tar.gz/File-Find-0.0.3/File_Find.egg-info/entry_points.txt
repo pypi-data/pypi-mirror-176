@@ -1,0 +1,3 @@
+[console_scripts]
+File-Find = File_Find.File_Find.py:run
+ff = File_Find.File_Find.py:run
