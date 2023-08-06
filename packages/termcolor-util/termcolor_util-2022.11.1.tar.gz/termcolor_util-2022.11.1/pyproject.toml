@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "termcolor-util"
+version = "2022.11.1"
+description = "wrapper functions over termcolor"
+authors = ["Bogdan Mustiata <bogdan.mustiata@gmail.com>"]
+license = "BSD"
+readme = "README.md"
+packages = [{include = "termcolor_util"}]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+termcolor = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
