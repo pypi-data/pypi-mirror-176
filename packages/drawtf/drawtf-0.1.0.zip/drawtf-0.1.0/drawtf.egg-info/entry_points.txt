@@ -1,0 +1,3 @@
+[console_scripts]
+drawtf = drawtf.cli:main
+

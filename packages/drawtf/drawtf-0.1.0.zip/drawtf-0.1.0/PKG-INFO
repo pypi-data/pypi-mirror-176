@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: drawtf
+Version: 0.1.0
+Summary: Draw diagrams from tf state files
+Home-page: https://github.com/Aggreko/DrawTF
+Author: Aggreko
+Author-email: michael.law@aggreko.com
+License: MIT license
+Description: UNKNOWN
+Keywords: drawtf,terraform,ci/cd,design,architecture,diagrams,graphviz
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
