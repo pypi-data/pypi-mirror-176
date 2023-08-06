@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+797298237793894410/__init__.py
+797298237793894410.egg-info/PKG-INFO
+797298237793894410.egg-info/SOURCES.txt
+797298237793894410.egg-info/dependency_links.txt
+797298237793894410.egg-info/requires.txt
+797298237793894410.egg-info/top_level.txt
