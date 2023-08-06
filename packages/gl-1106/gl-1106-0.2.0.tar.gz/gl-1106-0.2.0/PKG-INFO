@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gl-1106
+Version: 0.2.0
+Summary: hw2
+Home-page: https://google.com/
+Author: GuansLi
+Author-email: example@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+### Installation
+
+> pip install pip install pip install polygon-guansli
+
+### Get started
+How to use this package:
+
+```
+from get_data import *
+to using the Polygon_data.py which is including the main function and unit function
+
+# change to your currency pairs for test Max code
+currency_pairs = [["AUD","USD",[],portfolio("AUD","USD")],
+                  ["GBP","EUR",[],portfolio("GBP","EUR")],
+                   ["USD","CAD",[],portfolio("USD","CAD")]]
+
+main(currency_pairs)
+```
+
