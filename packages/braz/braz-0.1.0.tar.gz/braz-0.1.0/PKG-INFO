@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: braz
+Version: 0.1.0
+Summary: 🎲 Gerador, validador, cifras, criptografias e manipulação de strings.
+License: MIT
+Keywords: braz,gerador,validador,cifra,criptografia,manipulação,string
+Author: Miguel Alves Cordeiro Braz
+Author-email: dev.macb@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Framework :: IDLE
+Classifier: Framework :: IPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Code Generators
+Project-URL: Bug Tracker, https://github.com/dev-macb/braz/issues
+Project-URL: documentation, https://github.com/dev-macb/braz/
+Project-URL: homepage, https://python-poetry.org/
+Project-URL: repository, https://github.com/dev-macb/braz
+Description-Content-Type: text/markdown
+
+<div id="título" align="center">
+    <img width="400px" alt="Braz - Gerador & Validador" src="https://raw.githubusercontent.com/dev-macb/braz/master/.github/assets/images/logo-nome.png"/>
+</div>
+
+
+---
+
+
+<h2 id="objetivo" align="left">🎯 Objetivo</h2>
+
+<p id="txt-contribuições" align="left">
+    O <strong>Braz</strong> é uma aplicação que disponibiliza diversas funcionalidades com o intuito de auxiliar os desenvolvedores nos projetos que necessitam da geração de dados randômicos válidos dos principais documentos pessoais do Brasil, bem como sua validação. Além do mais, o software trata cifras, criptografias, manipulação de strings e outras peculiaridades. Com o mínimo de configuração, o Braz pode ser utilizado como uma ferramenta de linha de comando para operações simples e rápidas ou sendo implementada diretamente no código-fonte como um módulo Python. 
+</p>
+
+
+<h3 id="divisor" align="center">🔷</h3>
+

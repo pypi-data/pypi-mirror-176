@@ -1,0 +1,2 @@
+def numerico() -> None:
+    pass

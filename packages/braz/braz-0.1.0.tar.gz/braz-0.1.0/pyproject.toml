@@ -1,0 +1,25 @@
+[tool.poetry]
+'name'        = 'braz'
+'license'     = 'MIT'
+'version'     = '0.1.0'
+'description' = '🎲 Gerador, validador, cifras, criptografias e manipulação de strings.'
+'authors'     = ['Miguel Alves Cordeiro Braz <dev.macb@gmail.com>']
+'readme'      = 'README.md'
+'keywords'    = ['braz', 'gerador', 'validador', 'cifra', 'criptografia', 'manipulação', 'string']
+'classifiers' = ['Framework :: IDLE', 'Framework :: IPython', 'Programming Language :: Python :: 3', 'Topic :: Software Development :: Code Generators', 'Natural Language :: Portuguese (Brazilian)']
+
+
+[tool.poetry.urls]
+'homepage'      = 'https://python-poetry.org/'
+'repository'    = 'https://github.com/dev-macb/braz'
+'Bug Tracker'   = 'https://github.com/dev-macb/braz/issues'
+'documentation' = 'https://github.com/dev-macb/braz/'
+
+
+[tool.poetry.dependencies]
+'python' = '^3.10'
+
+
+[build-system]
+'requires'      = ['poetry-core']
+'build-backend' = 'poetry.core.masonry.api'
