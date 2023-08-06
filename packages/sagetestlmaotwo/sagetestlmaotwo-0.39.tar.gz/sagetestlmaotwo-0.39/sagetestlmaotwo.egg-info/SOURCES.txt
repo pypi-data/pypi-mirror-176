@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+sagetestlmaotwo.egg-info/PKG-INFO
+sagetestlmaotwo.egg-info/SOURCES.txt
+sagetestlmaotwo.egg-info/dependency_links.txt
+sagetestlmaotwo.egg-info/requires.txt
+sagetestlmaotwo.egg-info/top_level.txt
