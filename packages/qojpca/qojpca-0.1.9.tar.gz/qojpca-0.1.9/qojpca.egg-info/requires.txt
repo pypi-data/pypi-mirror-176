@@ -1,0 +1,17 @@
+numpy
+scikit-learn
+
+[gpu]
+cupy-cuda11x
+
+[test]
+pytest
+coverage
+flake8
+black
+isort
+pytest-cov
+codecov
+mypy
+gitchangelog
+mkdocs
