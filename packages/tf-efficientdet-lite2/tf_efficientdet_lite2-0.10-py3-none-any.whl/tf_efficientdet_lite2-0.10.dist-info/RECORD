@@ -1,0 +1,10 @@
+tf_efficientdet_lite2/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+tf_efficientdet_lite2/README.MD,sha256=JwmwpP2zGIwjNBN4Y8GiAGzm9SjQGUg4KGYAMoxwssI,1568
+tf_efficientdet_lite2/__init__.py,sha256=eT1SVr0-_S_Gi9SCLlCyW_PgtRyXpvKkLUoLraA_kIM,7525
+tf_efficientdet_lite2/requirements.txt,sha256=UTRfhvM3FDNrUNa7VkU49lWJCvQT805__Rz-uiJIfT0,118
+tf_efficientdet_lite2/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+tf_efficientdet_lite2-0.10.dist-info/LICENSE.rst,sha256=mUm-wCZOuzvKLxt9Gac_Zo5cah8QOM0gqn2Z-AluELM,1148
+tf_efficientdet_lite2-0.10.dist-info/METADATA,sha256=u1zrwP5g1hSqBX-ySwxQ7l0SkQj-G0_H2Lnq9zNUMV0,2695
+tf_efficientdet_lite2-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tf_efficientdet_lite2-0.10.dist-info/top_level.txt,sha256=otXbb8GL6vYbU04S21pOl1NPiUDIL8qIsr_aRXku4Jk,22
+tf_efficientdet_lite2-0.10.dist-info/RECORD,,
