@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dreams
+Version: 0.0.2.7
+Summary: Library for getting music in high quality from YouTube
+Home-page: https://github.com/perseu912/tubemp3
+Author: Reinan Br
+Author-email: slimchatuba@gmail.com
+License: MIT License
+Keywords: kit tools dev works
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: eyed3
+Requires-Dist: mp3-tagger
+Requires-Dist: pydub
+Requires-Dist: requests
+Requires-Dist: stagger
+Requires-Dist: youtube-dl
+
+UNKNOWN
+
