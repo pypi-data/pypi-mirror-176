@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+django_execute_code/__init__.py
+django_execute_code/apps.py
+django_execute_code/forms.py
+django_execute_code/urls.py
+django_execute_code/views.py
+django_execute_code.egg-info/PKG-INFO
+django_execute_code.egg-info/SOURCES.txt
+django_execute_code.egg-info/dependency_links.txt
+django_execute_code.egg-info/top_level.txt
+django_execute_code/static/django_execute_code/css/styles.css
+django_execute_code/static/django_execute_code/js/codestyle.js
+django_execute_code/static/django_execute_code/js/jquery.js
+django_execute_code/templates/django_execute_code/pre_output.html
+django_execute_code/templates/django_execute_code/run_code.tpl.html
