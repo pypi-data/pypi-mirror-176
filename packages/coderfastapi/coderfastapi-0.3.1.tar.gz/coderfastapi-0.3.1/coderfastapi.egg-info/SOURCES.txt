@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+coderfastapi.egg-info/PKG-INFO
+coderfastapi.egg-info/SOURCES.txt
+coderfastapi.egg-info/dependency_links.txt
+coderfastapi.egg-info/requires.txt
+coderfastapi.egg-info/top_level.txt
