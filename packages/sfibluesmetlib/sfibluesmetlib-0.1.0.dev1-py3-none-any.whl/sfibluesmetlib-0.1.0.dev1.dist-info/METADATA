@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sfibluesmetlib
+Version: 0.1.0.dev1
+Summary: Metocean portal library
+Home-page: UNKNOWN
+Author: SINTEF Ocean
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: dmtpy (==0.3.0)
+Requires-Dist: netCDF4 (==1.5.2)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: scipy (==1.9.0)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: windrose
+
+# Utilize metocean data
+
+* Illustrates fetching data from different sources
+
+
