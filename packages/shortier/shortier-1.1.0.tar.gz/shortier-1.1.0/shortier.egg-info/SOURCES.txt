@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shortier/__init__.py
+shortier/cli.py
+shortier/shortier.py
+shortier.egg-info/PKG-INFO
+shortier.egg-info/SOURCES.txt
+shortier.egg-info/dependency_links.txt
+shortier.egg-info/entry_points.txt
+shortier.egg-info/requires.txt
+shortier.egg-info/top_level.txt
