@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: WZCMCCAPPLOGGER
+Version: 0.0.4
+Summary: LOG
+Home-page: https://github.com/pypa/sampleproject
+Author: YHQ
+Author-email: 228899059@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+For CMCC  APP记录用的
+
+```angular2
+使用说明:
+
+import  WZCMCCAPPLOGGER;
+
+#可以根据具体情况 填写数据库的地址  默认  10.77.18.248,33889
+# OA F8网络 10.77.18.248,33889
+# 内网服务器 192.168.5.103
+# DCN网  天山环境  10.212.194.197
+WZCMCCAPPLOGGER.dbhost ='10.77.18.248,33889'
+
+APPID ='22'
+WZCMCCAPPLOGGER.InsertLog(APPID);
+
+
+
+
+```
