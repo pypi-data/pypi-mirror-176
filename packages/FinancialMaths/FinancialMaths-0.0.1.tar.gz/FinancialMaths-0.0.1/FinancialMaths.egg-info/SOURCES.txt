@@ -1,0 +1,7 @@
+README.md
+setup.py
+FinancialMaths.egg-info/PKG-INFO
+FinancialMaths.egg-info/SOURCES.txt
+FinancialMaths.egg-info/dependency_links.txt
+FinancialMaths.egg-info/requires.txt
+FinancialMaths.egg-info/top_level.txt
