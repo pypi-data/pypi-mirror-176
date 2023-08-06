@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cloudconnect2/__init__.py
+cloudconnect2/connector.py
+cloudconnect2.egg-info/PKG-INFO
+cloudconnect2.egg-info/SOURCES.txt
+cloudconnect2.egg-info/dependency_links.txt
+cloudconnect2.egg-info/requires.txt
+cloudconnect2.egg-info/top_level.txt
