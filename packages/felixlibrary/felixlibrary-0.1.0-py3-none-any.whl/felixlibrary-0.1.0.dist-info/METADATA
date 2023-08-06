@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: felixlibrary
+Version: 0.1.0
+Summary: Demo library
+Home-page: 
+Author: Shengyu (Felix) Huang
+Author-email: 
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+This is a library for the Data Engineering Class 
+
+Change Log
+==============
+
+0.0.1 (11/05/2022)
+-------------------
+-First Release
