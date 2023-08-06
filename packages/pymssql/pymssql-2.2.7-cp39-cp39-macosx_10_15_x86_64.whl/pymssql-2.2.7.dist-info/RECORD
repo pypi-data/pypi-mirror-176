@@ -1,0 +1,10 @@
+pymssql-2.2.7.dist-info/RECORD,,
+pymssql-2.2.7.dist-info/LICENSE,sha256=XfBwBxmJicYi9dQd6NcD577z0OedYuJDMu5zmkUq9io,26436
+pymssql-2.2.7.dist-info/WHEEL,sha256=SYIbPbvPLgIvp9fuhaKHacjLEn9xO9ugQq_zTh-Pu7c,110
+pymssql-2.2.7.dist-info/top_level.txt,sha256=HlTBOE3UmM9y83_GIjyFhGMgISoya2SiN-iIO9Efa8o,8
+pymssql-2.2.7.dist-info/METADATA,sha256=-UVmnlte2I1JyG6cLmLV-o-RAUjB_rqbuPxvWlv_4k4,4542
+pymssql/_mssql.cpython-39-darwin.so,sha256=Gj_GV1rpRMMQQC-klJIpHkBaFsfsydQbwT-JfzPHVyo,1116928
+pymssql/_pymssql.cpython-39-darwin.so,sha256=ZYlLEhHLtlxDs9cwNmGN-GYjPyprIKqMGxEcVotNrfY,388784
+pymssql/__init__.py,sha256=gCvDAOmyYHayctLk18bhGfRWthMG5xpXwM1EFyzm_3s,101
+pymssql/.dylibs/libssl.1.1.dylib,sha256=mjn841f9pw7lHo4ue4G71GYTuJpvBeftk7fPTiDlUSA,525008
+pymssql/.dylibs/libcrypto.1.1.dylib,sha256=tWHz-mbdt31bypriVAcNv-2fx07DNUHM8FYM8D-mEUA,2474624
