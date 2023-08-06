@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Discord-Embedds/__init__.py
+Discord-Embedds.egg-info/PKG-INFO
+Discord-Embedds.egg-info/SOURCES.txt
+Discord-Embedds.egg-info/dependency_links.txt
+Discord-Embedds.egg-info/top_level.txt
