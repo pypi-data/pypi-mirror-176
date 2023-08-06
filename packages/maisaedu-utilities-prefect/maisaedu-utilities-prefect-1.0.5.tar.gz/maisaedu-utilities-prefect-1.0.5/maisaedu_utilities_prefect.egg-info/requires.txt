@@ -1,0 +1,11 @@
+aiochannel
+aiopg
+boto3
+gspread
+numpy
+pandas
+papermill
+prefect
+psycopg2-binary
+scipy
+wheel
