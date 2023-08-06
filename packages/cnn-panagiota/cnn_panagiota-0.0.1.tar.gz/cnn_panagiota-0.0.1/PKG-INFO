@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cnn_panagiota
+Version: 0.0.1
+Summary: CNN for Kannada MNIST - Pytorch
+Home-page: https://github.com/PanayiotaK/Kannada-CNN
+Author: Panagiota Konstantinou
+Author-email: constantinoupana@gmail.com
+License: UNKNOWN
+Keywords: artificial intelligence,deep learning,CNN,Kannada
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+PyTorch implementation of a CNN for the Kannada MNIST challenge on Kaggle
+
