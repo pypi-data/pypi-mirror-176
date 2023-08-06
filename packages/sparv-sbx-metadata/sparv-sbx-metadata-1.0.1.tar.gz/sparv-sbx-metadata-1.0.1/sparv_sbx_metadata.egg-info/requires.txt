@@ -1,0 +1,2 @@
+langcodes[data]>=2.1.0
+sparv-pipeline>=5.0.1.dev0
