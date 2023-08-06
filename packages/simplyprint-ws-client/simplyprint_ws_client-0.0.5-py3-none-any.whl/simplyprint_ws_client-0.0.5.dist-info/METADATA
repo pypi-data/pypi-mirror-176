@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: simplyprint-ws-client
+Version: 0.0.5
+Summary: SimplyPrint WebSocket Client
+Home-page: https://github.com/SimplyPrint/printer-ws-client
+Author: SimplyPrint
+License: AGPLv3
+License-File: LICENSE
+Requires-Dist: tornado
+Requires-Dist: psutil
+Requires-Dist: sentry-sdk
+Requires-Dist: netifaces
+Requires-Dist: requests
+
