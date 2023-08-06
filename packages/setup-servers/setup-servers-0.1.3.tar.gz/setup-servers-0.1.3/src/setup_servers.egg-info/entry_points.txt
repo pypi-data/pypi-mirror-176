@@ -1,0 +1,3 @@
+[console_scripts]
+setup-servers = setupservers.setup_servers:run
+setup-servers-install = setupservers.setup_servers:install
