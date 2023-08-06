@@ -1,0 +1,10 @@
+artemis2tumonline/__init__.py,sha256=OBpsJCxp2NKDu8iDqBT9pgyb9G20o28pTdcc2naWaI8,482
+artemis2tumonline/main.py,sha256=HGWDBMz_wgrH9JgaZKrOPQiApQJmSTREHWUmwDwcSuo,8468
+artemis2tumonline/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artemis2tumonline/model/artemis_entry.py,sha256=3RP0h0VGe1P3zhGtWiap2EADLij5YYxlz3NulVZnDjw,683
+artemis2tumonline/model/tum_online_entry.py,sha256=Bf_C-rHyUB_egPKvAdOYYc681SgVmikKUJp8EgrR_jg,1144
+artemis2tumonline-0.1.9.dist-info/entry_points.txt,sha256=cSHf2-kXBrzcN1EWD6xEFk83g4Nvjy8EsZY1_iOgPdc,64
+artemis2tumonline-0.1.9.dist-info/LICENSE,sha256=jTn1YLa_bpjOWCHKSGpmD0JG1T0p4JsqE7S34oilWzc,11345
+artemis2tumonline-0.1.9.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+artemis2tumonline-0.1.9.dist-info/METADATA,sha256=82N71X31JgugeVzHU7wx5yjiYidjLdwtwtYJlXg5VmA,3494
+artemis2tumonline-0.1.9.dist-info/RECORD,,
