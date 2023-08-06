@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Img-Processing-py
+Version: 0.0.4
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/VagnerF/Pacotes_processamento_imagens_com_python
+Author: VagnerF
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Image Processing py
+
+Description.
+ 
+The package Img_Processing_py is used to:
+
+## Processing:
+- Histrogram matching
+- Structural similarity
+- Resize image
+## Utils:
+- Read image
+- Save image
+- Plot image
+- Plot results
+- Plot histograms
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing
+
+```bash
+pip install Img_Processing_py
+```
+## Author
+VagnerF
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
