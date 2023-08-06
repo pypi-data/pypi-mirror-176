@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: automationsarasa
+Version: 0.0.0
+Summary: demo example
+Home-page: https://github.com/moralesveratom/locatePath
+Author: tmorales
+Author-email: moralesveratomas@gmail.com
+License: MIT
+Keywords: python,path,locate,locator,pathLocator,pathLocate,locatorPath
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
