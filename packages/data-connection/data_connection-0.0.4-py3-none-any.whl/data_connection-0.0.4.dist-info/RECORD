@@ -1,0 +1,12 @@
+data_connection/__init__.py,sha256=tojslrSOrVHIU5s_SbW4jTa_NxuVt6K66sJFYwZjoU4,255
+data_connection/abstract_side.py,sha256=3yLqkIHOfDm42oolchbVK0xSneXvKtmV4S5POhPFDjQ,6887
+data_connection/base_model.py,sha256=MuL_PMLERXp3M_6zivTNgz_fLwOwXfPkSdWpN0pEX6Y,683
+data_connection/field.py,sha256=OOZ2fEn67J1IqjSR43tancXsqgtCybMMKu6_wxZcrtI,8462
+data_connection/reader_side.py,sha256=T8hxlMjuyeIrK71H-fftEdNdpH7ySIFaiW8nilY7Iw0,4818
+data_connection/readers/__init__.py,sha256=x0o44MsjPPZxNrXs09jNxftsw-xKBjsWBMjKIFtTsVA,98
+data_connection/readers/mbtcp_client.py,sha256=nXdsw2CwPWsb5BJKjB0thSGkw5HfxoTa4sDmJvhceh4,1709
+data_connection/readers/opcua_client.py,sha256=Af8pkmMawMl3Bu3FiRsmoJJuTX82lBdyDo5VfC4TKxs,8848
+data_connection/writer_side.py,sha256=ue5WtfCAFuu7btxKElmVlKrfavoyLrBKXKPTSOqqvMU,5428
+data_connection-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+data_connection-0.0.4.dist-info/METADATA,sha256=_QFB_953FFrE3fBpCvADkH9jnkKHzIa2CWgs9Un66u8,1734
+data_connection-0.0.4.dist-info/RECORD,,
