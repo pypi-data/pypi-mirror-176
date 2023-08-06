@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: asmchip8
+Version: 0.1
+Summary: Assembler for CHIP-8.
+Keywords: assembler,chip8
+Author-email: Mariano Street <mctpyt@proton.me>
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Assemblers
+Classifier: Typing :: Typed
+Project-URL: Home, https://gitlab.com/mctpyt/asmchip8
+Project-URL: Manpages, https://gitlab.com/mctpyt/asmchip8/-/tree/master/doc
+
+================
+Readme: asmchip8
+================
+
+**asmchip8** is an assembler for CHIP-8.  It is free software under the GNU
+AGPLv3+ license.
+
+The author and maintainer is Mariano Street <mctpyt@proton.me>.
+
+
+Dependencies
+============
+
+- Runtime dependency: Python 3.10 or later.
+- Install dependency: Flit.
+- Test dependencies: PyTest, PyEnv, Test.
+
+
+Development
+===========
+
+How to run?
+-----------
+
+From the project directory, run::
+
+	$ ./src/asmchip8/main.py <input>
+
+For information on command-line options, see ``asmchip8(1)`` or run with
+``-h`` or ``--help``.
+
+How to install?
+---------------
+
+Part of the project can be installed via Flit::
+
+	$ flit install
+
+How to run the test suite?
+--------------------------
+
+From the project directory, run::
+
+	$ PYTHONPATH=src pytest tests
+
+If you want a more verbose output, add the ``-v`` option.
+
+PyTest is required to be installed.  One way to handle this is via Tox: see
+the next section.
+
+How to test different Python versions?
+--------------------------------------
+
+Use PyEnv and Tox.
+
+For example, to test 3.11::
+
+	$ pyenv install 3.11-dev
+	$ PATH=$PATH:$HOME/.pyenv/versions/3.11-dev/bin tox -e py311
+
+When testing via Tox, it is not necessary to have PyTest installed on the
+system.  Tox installs it automatically in an isolated environment.
+
+
+Additional documentation
+========================
+
+Two manpages are provided with the project:
+
+``asmchip8(1)``
+	Located at ``doc/asmchip8.1``.  It documents the ``asmchip8`` command.
+``asmchip8(5)``
+	Located at ``doc/asmchip8.5``.  It documents the assembly language.
+
+They can be read without installing like this, from the project directory::
+
+	$ man -l doc/asmchip8.1
+	$ man -l doc/asmchip8.5
+
+In addition, the source code contains some comments and docstrings.
+

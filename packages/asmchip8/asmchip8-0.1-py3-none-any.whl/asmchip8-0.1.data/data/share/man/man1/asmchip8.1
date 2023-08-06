@@ -1,0 +1,47 @@
+.Dd October 28, 2022
+.Dt ASMCHIP8 1
+.
+.Sh NAME
+.Nm asmchip8
+.Nd CHIP-8 assembler
+.
+.Sh SYNOPSIS
+.Nm
+.Op Fl h
+.Op Fl o Ar outpath
+.Op LONG OPTION
+.Ar inpath
+.
+.Sh DESCRIPTION
+.Nm
+is an assembler for CHIP-8, a virtual platform originally developed in 1977 for the 8-bit microcomputer COSMAC VIP.
+.Pp
+The command takes one mandatory argument,
+.Ar inpath :
+a path to an input file containing the source in assembly.
+The generated machine code is written into an output file.
+For the path to the output file, see the
+.Fl o
+option below.
+.Pp
+The following options are accepted:
+.Bl -tag
+.It Fl h , Fl \-help
+Show a usage message and quit.
+.It Fl o , Fl \-output Ar outpath
+Set the path of the output file.
+If absent,
+.Ql asmchip8.out
+is used.
+.El
+.Pp
+Mandatory arguments to long options are mandatory for short options too.
+.Pp
+For a reference of the assembly language accepted by this utility, see
+.Xr asmchip8 5 .
+.
+.Sh AUTHOR
+.Nm
+was written by
+.An Mariano Street
+.Aq Mt mctpyt@proton.me .

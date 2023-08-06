@@ -1,0 +1,3 @@
+[console_scripts]
+asmchip8=asmchip8:main
+

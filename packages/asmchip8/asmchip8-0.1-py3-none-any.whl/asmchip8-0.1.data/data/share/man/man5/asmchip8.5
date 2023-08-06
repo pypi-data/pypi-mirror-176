@@ -1,0 +1,230 @@
+.Dd October 5, 2022
+.Dt ASMCHIP8 5
+.
+.Sh NAME
+.Nm asmchip8
+.Nd CHIP-8 assembly language
+.
+.Sh DESCRIPTION
+This manual page describes the assembly language accepted by
+.Xr asmchip8 1 .
+This assembly language is a human-friendly representation of the bytecode for the original CHIP-8 virtual machine.
+.Pp
+The syntax of the language follows that of common assembly languages for Unix-like systems, especially the ones from GNU Assembler.
+Instruction mnemonics are partly inspired on those of the MIPS architecture.
+.Pp
+An identifier is a word consisting of ASCII letters, decimal digits, underscore
+.Ql ( _ )
+or dot
+.Ql ( \&. ) ,
+where the first character is not a digit.
+Using non-ASCII characters in identifiers is undefined behavior at the moment.
+.Pp
+Labels are declared at the beginning of a line, between any statement; each of them consists of an identifier followed by a colon
+.Ql ( \&: )
+and multiple consecutive declarations can occur in the same line.
+.Pp
+Comments can begin anywhere in a line and they span from a number sign
+.Ql ( # )
+to the end of that line.
+.Pp
+A line can contain zero or more statements, separated by semicolons
+.Ql ( \&; ) .
+Null statements are allowed, therefore multiple consecutive semicolons can occur between them, and even before or after all statements in a line.
+A statement can be either an instruction or an assembler directive; both have the same syntax except that directive names are prefixed by a dot
+.Ql ( \&. ) .
+One statement cannot span multiple lines.
+.Pp
+Statement syntax is as follows:
+.Dl mnemonic Op operand1 Op \(dq,\(dq operand2 ...
+.Pp
+Mnemonics are case-insensitive, while for operands the sensitivity depends on their type: only lables are case-sensitive.
+.Pp
+Mnemonics are predefined identifiers.
+If the first character of a mnemonic is a dot
+.Ql ( \&. ) ,
+then the statement is a directive; otherwise it is an instruction.
+Operands can have different types, depending on the statement (the associations are specified at
+.Sx INSTRUCTION REFERENCE
+and
+.Sx DIRECTIVE REFERENCE ) .
+.
+.Ss OPERAND TYPES
+There are four operand types, of which one can only appear in directives: register, immediate (integer) literal, string literal and label:
+.Bl -bullet
+.It
+Only the 16 general purpose registers can be written: from
+.Va v0
+to
+.Va vf
+(hexadecimal).
+.It
+Immediate literals are integer literals written in one of several numerical bases: binary, octal, decimal or hexadecimal.
+A prefix identifies the base of an integer literal:
+.Ql 0b 
+for binary,
+.Ql 0o
+for octal,
+.Ql 0x
+for hexadecimal and none for decimal.
+.It
+String literal operands can only be used in directives.
+They are enclosed in double quotes
+.Ql ( \(dq\(dq )
+and can contain two simple escapes:
+.Ql \e\(dq
+for a literal double-quote
+.Ql ( \(dq )
+and
+.Ql \e\e
+for a literal backslash
+.Ql ( \e ) .
+Any other sequence invalidates the string.
+.It
+Label operands are identifiers other than those denoting registers.
+.Pp
+There is a special label,
+.Va \&.
+(a single dot), which always denotes the current address.
+The current address is the expected address in memory of the current instruction.
+The value of
+.Va \&.
+is the same as that of a label defined right before the instruction where it is used.
+.Pp
+A label named
+.Va \&.
+can be defined but its value will be overwritten before any use.
+A label named like a register can be defined but if used it will be considered a register operand.
+.El
+.
+.Ss INSTRUCTION REFERENCE
+A reference of all available instructions is presented below.
+.Pp
+Operand letters indicate what types of operand are allowed, with the following meanings:
+.Pp
+.Bl -tag -compact
+.It x
+First register.
+.It y
+Second register.
+.It nnn
+Immediate literal.
+.It lll
+Immediate literal or label.
+.El
+.Pp
+Instruction reference:
+.Bl -tag
+.It Ic cls
+Clear the screen.
+.It Ic rts
+Return from subroutine.
+.It Ic syscall No nnn
+Non-standard system call.
+.It Ic j No lll
+Jump.
+.It Ic jsr No lll
+Jump to subroutine.
+.It Ic skei No x, nn
+Skip following instruction if equal to immediate.
+.It Ic skni No x, nn
+Skip following instruction if not equal to immediate.
+.It Ic sker No x, y
+Skip following instruction if equal to register.
+.It Ic li No x, nn
+Load immediate.
+.It Ic addi No x, nn
+Add immediate.
+.It Ic move No x, y
+Move register.
+.It Ic or No x, y
+OR-operation between registers.
+.It Ic and No x, y
+AND-operation between registers.
+.It Ic xor No x, y
+XOR-operation between registers.
+.It Ic add No x, y
+Add register.
+.It Ic sub No x, y
+Substract register.
+.It Ic shr No x, y
+Right-shift register.
+.It Ic sbr No x, y
+Reverse-substract register.
+.It Ic shl No x, y
+Left-shift register.
+.It Ic sknr No x, y
+Skip following instruction if not equal to register.
+.It Ic la No lll
+Load address to I register.
+.It Ic jr0 No lll
+Jump to register v0 with offset.
+.It Ic rand
+Random.
+.It Ic draw No x, y, n
+Draw sprite.
+.It Ic skkp No x
+Skip following instruction if key pressed.
+.It Ic skku No x
+Skip following instruction if key unpressed.
+.It Ic mfdt No x
+Move from delay timer.
+.It Ic waitk No x
+Wait for key.
+.It Ic mtdt No x
+Move to delay timer.
+.It Ic mtst No x
+Move to sound timer.
+.It Ic addx No x
+Add register to I register.
+.It Ic font No x
+Load font.
+.It Ic bcd No x
+Binary-coded decimal.
+.It Ic sm No x
+Store multiple.
+.It Ic lm No x
+Load multiple.
+.El
+.
+.Ss DIRECTIVE REFERENCE
+A reference of all available directives is presented below.
+.Pp
+Operands can be integer or string literals, noted by \(dqn\(dq and \(dqs\(dq respectively.
+If a digit is present after an \(dqn\(dq, it indicates the maximum size in bytes of the operand.
+Brackets (\(dq[]\(dq) mark optional components.
+An ellipsis indicates that an operand can appear multiple teams, with commas (\(dq,\(dq) used as separators.
+.Pp
+Directive reference:
+.Bl -tag
+.It Ic .byte No n1...
+Output one or more raw bytes.
+.It Ic .2byte No n2...
+Output one or more raw 2-byte values.
+.It Ic .4byte No n4...
+Output one or more raw 4-byte values.
+.It Ic .8byte No n8...
+Output one or more raw 8-byte values.
+.It Ic .fill No n3[, n1[, n]]
+Output a given amount of a constant value with a given size.
+.It Ic .space No n3[, n1]
+Output a given amount of a constant byte.
+.It Ic .zero No n3
+Output a given amount of zero bytes.
+.It Ic .incbin No s[, n[, n]]
+Include a binary file verbatim.
+The first argument is the path, the second is the start offset (0 by default) and the third is the maximum count of bytes to include (by default, as much as possible).
+.El
+.
+.Sh NOTES
+Available directives are a strict subset of those in GNU Assembler.
+In contrast with it, however, no synonyms are accepted.
+When a directive imported from GNU Assembler was available under multiple names, only one was picked.
+.Pp
+None of the directives adds padding for alignment.
+.Sh BUGS
+.Bl -bullet
+.It
+Aliases to immediate literals are not possible.
+Labels just point to memory references.
+.El
