@@ -1,0 +1,6 @@
+colorama
+glob2
+jinja2
+pathlib
+sh
+typer
