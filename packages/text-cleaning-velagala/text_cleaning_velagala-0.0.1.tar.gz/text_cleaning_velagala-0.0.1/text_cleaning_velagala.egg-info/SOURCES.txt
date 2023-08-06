@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+text_cleaning_velagala/__init__.py
+text_cleaning_velagala/textclean.py
+text_cleaning_velagala/vocab.txt
+text_cleaning_velagala.egg-info/PKG-INFO
+text_cleaning_velagala.egg-info/SOURCES.txt
+text_cleaning_velagala.egg-info/dependency_links.txt
+text_cleaning_velagala.egg-info/requires.txt
+text_cleaning_velagala.egg-info/top_level.txt
