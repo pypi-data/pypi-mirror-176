@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Forex-API-hw2
+Version: 0.1.0
+Summary: Forex library
+Home-page: https://medium-multiply.readthedocs.io/
+Author: Christopher Wan Thiaw Hin
+Author-email: ww2278@nyu.edu
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: polygon-api-client
+Requires-Dist: SQLAlchemy
+
+# Forex API
+
+###### A small library to fetch forex data
+
+
+## Installation
+
+`pip install Forex-API-hw2`
+
+
+## Get Started
+
+##### How to use
+```
+from hw1_forexAPI_library import getApiKey
+
+getApiKey()
+```
