@@ -1,0 +1,10 @@
+programlib/__init__.py,sha256=0_P_yWFpc0M5UCyfP5BSob7EwUdkqMNTQYDTYOBLI7Y,81
+programlib/language.py,sha256=G7c4DISwtEEjIq8qp-L8xxwChGS76hHapH-ETDT2_WQ,4334
+programlib/program.py,sha256=hL66M-9Baqu0VN0BD7vIjE7jOx97ICvTM0OPWQ0tgz0,3319
+programlib/programs/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+programlib/programs/1f24dd61-ea5a-4c4a-96bc-5e0c81123d4c.cpp,sha256=Aq5Ba0H4nQ8AFbbsLPtn8DP28Y9NrRgbmZDSZKb7Nf0,365
+programlib/programs/ca95419b-444e-43ce-8ee6-00de71ad5a03.cpp,sha256=Aq5Ba0H4nQ8AFbbsLPtn8DP28Y9NrRgbmZDSZKb7Nf0,365
+programlib-3.0.0.dist-info/LICENSE,sha256=3avSlXi2ys7VyzuwvG8-9U3YV-__qD1XYXQuhqjO1k8,1082
+programlib-3.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+programlib-3.0.0.dist-info/METADATA,sha256=WyyvHFvU6Ek-DRluS7rjAqrczi3__zDNteL5uyNjJA4,4043
+programlib-3.0.0.dist-info/RECORD,,
