@@ -1,0 +1,5 @@
+[console_scripts]
+tw = twi.app:cli_send_tweet
+twd = twi.app:cli_delete_last_tweet
+twp = twi.app:cli_show_profile
+twpu = twi.app:cli_update_profile
