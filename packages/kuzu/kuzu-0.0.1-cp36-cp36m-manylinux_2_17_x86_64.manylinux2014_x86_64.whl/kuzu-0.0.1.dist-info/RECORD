@@ -1,0 +1,8 @@
+kuzu/__init__.py,sha256=Z2j8oraFUVNoZcDHOAvrBQWU8moI25yjJ5u8CN28TQM,20
+kuzu/_kuzu.so,sha256=GIoih6xIJZzT-EW0PvRrRrnym7tUk6T_QjVXoVf_1eI,11712576
+kuzu-0.0.1.dist-info/LICENSE.txt,sha256=F_Rv96UZUbaJvN-uXnSsnAcHZLIS1FDDvJbuFCMP-ew,1075
+kuzu-0.0.1.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+kuzu-0.0.1.dist-info/top_level.txt,sha256=aGR0Ck-463aFSqe4PknpdnhruaSYSD8kfr23ljewx4g,5
+kuzu-0.0.1.dist-info/METADATA,sha256=A0vQsEu3iIT6lil0MKxGgKJuO83KuVLxRuiAjL9PBDA,4535
+kuzu-0.0.1.dist-info/RECORD,,
+kuzu-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
