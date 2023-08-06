@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyoptics
+Version: 0.0.3
+Summary: Particle Beam Optics Tools
+Home-page: https://github.com/rdemaria/pyoptics
+Author: Riccardo De Maria
+Author-email: riccardo.de.maria@cern.ch
