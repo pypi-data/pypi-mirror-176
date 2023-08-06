@@ -1,0 +1,8 @@
+starlette_feedgen/__init__.py,sha256=tLh0yerW9I_Z_MWXqY4IstH_V-6p1hpEvUcCxmx1fmk,192
+starlette_feedgen/feed.py,sha256=Ln7qat8Xu3OM2MMZkCj8AfInPb8PY7YGmOA8WNMl_MA,9324
+starlette_feedgen/generator.py,sha256=Lue5jehuFjZjBmSVH49XZT0SpRXpAGOGqo5OvrFz6Vo,17238
+starlette_feedgen/utils.py,sha256=bkXllHG4Z1PzkBn-0o6dFepqzZNOSH6HVMuCIW1SM0M,7029
+starlette_feedgen-0.1.4.dist-info/LICENSE,sha256=jpawnLSTTq-oWtkOhPtVeAg2aLm2POPThKhYyU2sJvs,1083
+starlette_feedgen-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+starlette_feedgen-0.1.4.dist-info/METADATA,sha256=CiRqgB-Vm7Y6pJ7zdyR-tFpnrr53bC7joXxJKkIy_jA,4356
+starlette_feedgen-0.1.4.dist-info/RECORD,,
