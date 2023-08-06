@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-project-example-pypi"
+version = "0.1.0"
+description = ""
+authors = ["mpakdel-chwy <mpakdel@chewy.com>"]
+readme = "README.md"
+packages = [{include = "poetry_project_example_pypi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
