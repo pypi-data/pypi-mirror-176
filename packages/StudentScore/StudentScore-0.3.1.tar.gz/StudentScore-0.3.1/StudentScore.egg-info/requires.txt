@@ -1,0 +1,7 @@
+voluptuous>=0.12.0
+click>=8.0.0
+PyYAML>=6.0
+
+[test]
+flake8
+tox
