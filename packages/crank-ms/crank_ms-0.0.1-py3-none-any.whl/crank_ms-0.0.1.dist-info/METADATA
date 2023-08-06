@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: crank-ms
+Version: 0.0.1
+Home-page: https://github.com/CRANK-MS/CRANK-MS
+Author: Chonghua Xue
+Author-email: cxue2@bu.edu
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+
