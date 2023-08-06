@@ -1,0 +1,1 @@
+from .benchmarking.detect import model_benchmarking
