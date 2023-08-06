@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Andrew-Huang
+Version: 0.1.0
+Summary: Given a imdb id, scrapes the corresponding imdb page and returns the rating
+Author-email: Andrew Huang <huan1628@purdue.edu>
+Keywords: example,imdb,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: FastAPI
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

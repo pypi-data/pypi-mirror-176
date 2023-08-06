@@ -1,0 +1,40 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Andrew_Huang"
+version = "0.1.0"
+description = "Given a imdb id, scrapes the corresponding imdb page and returns the rating"
+readme = "README.md"
+authors = [{ name = "Andrew Huang", email = "huan1628@purdue.edu" }]
+license = { file = "MIT License (MIT)" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI"
+]
+keywords = ["example", "imdb", "tutorial"]
+dependencies = [
+    "lxml >= 4.9.1",
+    "requests >= 2.28.1",
+]
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"imdb/__init__.py" = [
+    "{version}",
+]
+
