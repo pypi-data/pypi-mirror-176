@@ -1,0 +1,8 @@
+networkx
+pandas
+numpy
+matplotlib
+
+[dev]
+datashader
+scikit-image
