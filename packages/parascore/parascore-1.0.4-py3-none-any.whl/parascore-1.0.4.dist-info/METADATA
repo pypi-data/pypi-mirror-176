@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: parascore
+Version: 1.0.4
+Summary: Parascore toolkit
+Home-page: UNKNOWN
+Author: Lingfeng Shen
+Author-email: lshen30@jh.edu
+License: MIT
+Keywords: Paraphrase metric
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: torch (>=1.0.0)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: transformers (>=3.0.0)
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: tqdm (>=4.31.1)
+Requires-Dist: matplotlib
+Requires-Dist: packaging (>=20.9)
+
+UNKNOWN
+
+
