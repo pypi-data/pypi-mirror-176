@@ -1,0 +1,28 @@
+#!/bin/bash -l
+
+{% if LOG_FOLDER is defined %}
+# Standard output and error:
+#$ -o {{ LOG_FOLDER }}/{{ JOB_NAME }}.out.txt
+#$ -e {{ LOG_FOLDER }}/{{ JOB_NAME }}.err.txt
+{% endif %}
+# Execute from current working directory:
+#$ -cwd
+# Preserve environment variables:
+#$ -V
+#$ -N {{ JOB_NAME }}
+# Queue (Partition):
+{% if PARTITION is defined %}
+#$ -q {{ PARTITION }}
+{% else %}
+#$ -q teutates.q
+{% endif %}
+
+hostname
+echo $JOB_ID
+
+{% if OUTPUT_FOLDER is defined and OUTPUT_FOLDER %}
+mkdir -p {{ OUTPUT_FOLDER }}
+{% endif %}
+
+# Run the program
+python3 -m modelrunner {{ MODEL_FILE }} {{ JOB_ARGS }}
