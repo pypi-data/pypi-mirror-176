@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: community_layout
+Version: 0.1.0
+Summary: A Python package for community-separated layout of large networkx graphs.
+Home-page: https://github.com/neutralpronoun/CommunityLayout.git
+Author: Alex Davies
+Author-email: alexander.davies@bristol.ac.uk
+License: GPLv3
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,9 @@
+setup.py
+community_layout/__init__.py
+community_layout/community_layout.py
+community_layout/layout_class.py
+community_layout.egg-info/PKG-INFO
+community_layout.egg-info/SOURCES.txt
+community_layout.egg-info/dependency_links.txt
+community_layout.egg-info/requires.txt
+community_layout.egg-info/top_level.txt
