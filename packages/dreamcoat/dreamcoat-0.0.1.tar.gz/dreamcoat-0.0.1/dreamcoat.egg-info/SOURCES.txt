@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+dreamcoat/__init__.py
+dreamcoat.egg-info/PKG-INFO
+dreamcoat.egg-info/SOURCES.txt
+dreamcoat.egg-info/dependency_links.txt
+dreamcoat.egg-info/top_level.txt
