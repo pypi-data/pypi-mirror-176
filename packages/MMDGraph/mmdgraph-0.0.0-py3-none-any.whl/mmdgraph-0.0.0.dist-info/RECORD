@@ -1,0 +1,13 @@
+MMDGraph/MMD.py,sha256=pHaFbWM0ftKxMe1RvOVzuXTwSzst9CZN--xYC18uwLc,20571
+MMDGraph/MONK.py,sha256=g53CJrF6ODdKt-55f8MmLcFzMXsvWsVXoOcU1DaEvn0,4846
+MMDGraph/__init__.py,sha256=WumQ0y2U9CY2keyq5AIN5hk9jei0G16qVBcgzQP_m9Q,184
+MMDGraph/glasso.py,sha256=bnEOKKfpewngqa6iWgrrCvrG7Gv9mqOLbM88tRQTOj4,3233
+MMDGraph/kernels/DeepKernel.py,sha256=iR68FL-MxgSQ-oMaqROTcjZGOlsUNgIR1r9H1D7BV6k,9194
+MMDGraph/kernels/GNTK.py,sha256=qWKwUq3QImmm5xrcd3EheR8YHnmVJcGR06iA_DGXPhc,10415
+MMDGraph/kernels/RandomWalk.py,sha256=7WKfdx5mQhreGpPTKvahoLPnuAK9VlUyapEHGh13oto,41062
+MMDGraph/kernels/WL.py,sha256=oymMu5ZWBy4a5QUQfxsttUVvR3xQvgoeinGyIYqrwRU,4875
+MMDGraph/kernels/WWL.py,sha256=SCQGELi4p41P6R3aXweMtTFoY4OO5kvPt80CgtwCaN0,9049
+MMDGraph/kernels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmdgraph-0.0.0.dist-info/METADATA,sha256=frc-eF-bzspzbSaS5QLcWVwZxoAvKV6O7qm2ZPlnYqc,15457
+mmdgraph-0.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+mmdgraph-0.0.0.dist-info/RECORD,,
