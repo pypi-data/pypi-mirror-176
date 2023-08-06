@@ -1,0 +1,17 @@
+run_both.py,sha256=5BxwC7Xh30E7UtdA-A--8lQqdMM7gT8EJ7iwUw-y-rc,462
+run_help.py,sha256=sQzsLLPQkjUYeKrZc5MtmkuDMgfGndWXU_tQrHjTffk,321
+example/click_color.py,sha256=ujYXPT1CxsDxtRetX67vsiSX7eCOcViahj210W31ExA,54
+example/docker_examples.py,sha256=Bvk0ssl3CPiWuvhEIXfWzDdaVClGjPdXMbCoM_fwpPs,184
+example/file_locking.py,sha256=qMjMd0PIi2nXxG4G2BswbhGEatWgwjnO9HARH84ka5w,213
+example/setup_info_example.py,sha256=Qtcu0J4PNA6T9m_AvkJhk4Xd6fU5DMWcySZK5I5l4D0,300
+example/walk.py,sha256=Yy2o_7Q-101qJeaFtx1E1IoDpnqaKzkRtICaAwLa6wU,206
+setupservers/__init__.py,sha256=5brBGs6mmGvUZNjyF6BFtzLKijxbnYIpdeGEJg27_Rs,267
+setupservers/api.py,sha256=w95JNjli8nI7GdEyDuFzB4QURtSnASc5VjXE15KCtFE,8217
+setupservers/setup_servers.py,sha256=TmOZpp8mx9PewA2u5CKUa8ZA7sF4_aMFUUGeQ6z9W5M,3077
+template/setup-db/001----postgres-v1/setup_db.py,sha256=gejmK2D0J8bcHiO9I-VBgqSGtLvjEPiv_XpwaKQ_T6k,2160
+template/setup-db/setup-db/setup_db.py,sha256=rWDBrnJS9bBFiujl22_7dEb6vQZP-UhQ6L0ZvOXUCBU,4035
+setup_servers-0.1.3.dist-info/METADATA,sha256=RCW_CPPifMu1EJTHvV0hzDT2uIJ3-15AO3MvIwfzcXI,531
+setup_servers-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+setup_servers-0.1.3.dist-info/entry_points.txt,sha256=dxSTJCEDPzx8ZOptsHGBjV2d3j1fiTi-6oJ5s2Fbkw8,124
+setup_servers-0.1.3.dist-info/top_level.txt,sha256=f9nP9fDSfj1dYZDF1rDALtsS5IHk4W7AvY_23bE20bg,48
+setup_servers-0.1.3.dist-info/RECORD,,
