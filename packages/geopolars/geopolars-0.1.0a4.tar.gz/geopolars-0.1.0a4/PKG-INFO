@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: geopolars
+Version: 0.1.0a4
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Requires-Dist: polars>=0.14.19
+Requires-Dist: pyarrow>=4.0.*
+Requires-Dist: numpy >= 1.16.0
+Requires-Dist: importlib_resources; python_version < '3.11'
+Summary: Geospatial extensions for Polars
+Author: Kyle Barron, Stuart Lynn
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/geopolars/geopolars
+
+# `geopolars`
+
