@@ -1,0 +1,21 @@
+name: napari-unicell
+display_name: unicell
+contributions:
+  commands:
+    # - id: napari-unicell.make_qwidget
+    #   python_name: napari_unicell._widget:ExampleQWidget
+    #   title: Make example QWidget
+    - id: napari-unicell.unicell_widget
+      python_name: napari_unicell._widget:unicell_widget
+      title: Run UniCell
+    # - id: napari-unicell.make_func_widget
+    #   python_name: napari_unicell._widget:example_function_widget
+    #   title: Make example function widget
+  widgets:
+    # - command: napari-unicell.make_qwidget
+    #   display_name: Example QWidget
+    - command: napari-unicell.unicell_widget
+      display_name: Run UniCell
+    # - command: napari-unicell.make_func_widget
+    #   autogenerate: true
+    #   display_name: Example Function Widget
