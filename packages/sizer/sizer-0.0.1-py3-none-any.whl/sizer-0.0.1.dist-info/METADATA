@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sizer
+Version: 0.0.1
+Summary: A simple Python script for iterating recursively over a directory and returning all of the files sorted by size
+Author-email: Georgi Petrov <petrov.d.george@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version > "3.8"
+
+## Sizer
+
+A simple Python script for iterating recursively over a directory and returning all of the files sorted by size
+
+### Dependencies
+
+You need Python 3.6+ and to run the following command:
+
+        pip install -r requirements.txt
+
+### Usage
+
+For more information on the usege, simply run the script with -h.
