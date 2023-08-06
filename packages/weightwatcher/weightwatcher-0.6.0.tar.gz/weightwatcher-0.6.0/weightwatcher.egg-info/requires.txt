@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+matplotlib-inline
+powerlaw
+tensorflow
+scikit-learn
+torch
+onnx
+tqdm
