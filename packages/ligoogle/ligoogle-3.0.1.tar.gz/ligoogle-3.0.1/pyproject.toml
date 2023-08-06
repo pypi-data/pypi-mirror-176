@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "magic_google",
+    "magic-google"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligoogle"
+version = "3.0.1"
+authors = [
+  { name="Arjun Jakkipallt", email="jakkipally@gmail.com" },
+]
+description = "A (unofficial) google service for linux terminals"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/carrotscript/ligoogle"
+"Bug Tracker" = "https://github.com/carrotscript/ligoogle/issues"
