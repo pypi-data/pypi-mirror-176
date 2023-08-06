@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jejudo
+Version: 0.0.2b15
+Summary: discord is py-cord bot debug tools
+Author: 月 ઇ 달토끼 。✿#6777, gawi#9537
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
