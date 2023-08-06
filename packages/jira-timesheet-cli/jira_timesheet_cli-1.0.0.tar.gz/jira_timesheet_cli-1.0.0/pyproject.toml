@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jira-timesheet-cli"
+version = "1.0.0"
+description = "A cli utility to book time in jira"
+authors = ["Yannick Habecker <dev@y2g.de>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jira_timesheet_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dateutil = "^2.8.2"
+PyYAML = "^6.0"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+book-time = 'jira_timesheet_cli.book_time:main'
