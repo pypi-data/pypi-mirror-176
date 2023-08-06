@@ -1,0 +1,7 @@
+lyrics
+metadata
+music_kraken
+scraping
+setup
+tools
+utils
