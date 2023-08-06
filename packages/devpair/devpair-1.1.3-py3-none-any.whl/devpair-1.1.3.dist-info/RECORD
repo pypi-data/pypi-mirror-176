@@ -1,0 +1,12 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/cli.py,sha256=wo5-S4KnbuaqNAMuQkoN0T9f4A7vAHx-uNn1zmObJFo,1123
+app/manager.py,sha256=DlWeFWvlkF3ZhMAoV37nqi-3Y6v1CKzO_n5Et9XFYlc,6934
+app/test_data/anyfile.txt,sha256=U7bRPtc6AaPqR4dl-NAlXyzPPntOn0KV6WTmsu-Y2tY,10
+app/test_data/anyfile2.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/test_data/child-folder/test.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/test_manager.py,sha256=1P9RQQ2FIxxwmpb_nKs6Blo9UXO-jjkxebxGew3QOsU,3833
+devpair-1.1.3.dist-info/entry_points.txt,sha256=8i5WbrehbNSDOFPrqOPqW6MD4RtfNI5aE4OshlCEZTg,44
+devpair-1.1.3.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+devpair-1.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+devpair-1.1.3.dist-info/METADATA,sha256=_W24ObO99DL7waO3YDAyLM5auNuQczExHv24zPCBr1Y,4821
+devpair-1.1.3.dist-info/RECORD,,
