@@ -1,0 +1,11 @@
+LICENSE,sha256=dTAH8Z0_7ClEanL1057LNqhD-XbDDKEG-Ei43c2dWS8,34449
+wica/__init__.py,sha256=uXizNuWeY-oDgo0puUFEw2YAQGckYZD29-TdNUa6fPs,403
+wica/examples.py,sha256=kN31m6N4QfdzxD_9uvHY92ni-fCCxhiMgUAv6Y_RMqk,1989
+wica/exceptions.py,sha256=3MR-5PblKybxem37slNKW8ojxFGNcu7mJYoz9aSLkIA,165
+wica/sseclient.py,sha256=5MVkoyqMshKI-UTtsCfUR0cAcMoQi7kEFHswySrK6lQ,4835
+wica/utils.py,sha256=1dexDdOWPy1X1kcwz8YCaNUcFhO6NX1EwpSmsruM_BM,1784
+wica/wica.py,sha256=mOviv28bpPvLh80Wephh3Oy8bOg2XXs2-mf-Llk0_R8,9418
+asyncwica-1.0.3.dist-info/LICENSE,sha256=dTAH8Z0_7ClEanL1057LNqhD-XbDDKEG-Ei43c2dWS8,34449
+asyncwica-1.0.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+asyncwica-1.0.3.dist-info/METADATA,sha256=WlJ2a_lQWTNHp7sP0BZxjC6byFziJ9RkZ06n5ra2UlA,3968
+asyncwica-1.0.3.dist-info/RECORD,,
