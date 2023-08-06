@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mlogevo
+Version: 0.0.4
+Summary: Compile C code to Mindustry logic
+Home-page: https://github.com/UMRnInside/MlogEvo
+Author: UMRnInside
+Author-email: 30196401+UMRnInside@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/UMRnInside/MlogEvo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# MlogEvo
+Compile C code to Mindustry logic, support C99 and some GNU extensions (mostly [GCC Extended ASM](https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html)).
+
+## Install
+`pip install git+https://github.com/umrninside/mlogevo`
+
+## Usage
+`python3 -m mlogevo --help`
+
+
+
