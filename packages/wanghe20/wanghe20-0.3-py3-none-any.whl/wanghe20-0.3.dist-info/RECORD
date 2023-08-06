@@ -1,0 +1,12 @@
+wanghe20/__init__.py,sha256=OUAJeu6B4O5dHZs2k_C7uTS5hxosxpU5CEb-6YxR3e4,3450
+wanghe20/hello.py,sha256=zgXY0STC3VLGRuBLYUPoKGka_zBGSXgl6vNTXuT9R7g,38
+wanghe20/models.py,sha256=KgwTXRLRtNC29MW0R5-lHXbCFson_oofHJctsfJwatM,888
+wanghe20/templates/hello.html,sha256=joeVqOkCUr0RZ3MsFt6Foj32ZinFBjcsGkIHh9yqrOw,278
+wanghe20/templates/login.html,sha256=tR2EfvnTcOkbS6-ogDFpa_MCDyyfEPvwluO7viQcixE,425
+wanghe20/templates/upload.html,sha256=E0yjbUYbKirt8o-_7FDD8LQl3DkERNHuMPEeGj0aK80,249
+wanghe20/templates/admin/index.html,sha256=EC-t_UlFradobsBPIvQ1H-_a1jT-yZ4JVt9Qx0ZPSbM,87
+wanghe20-0.3.dist-info/METADATA,sha256=tRt4GZgWrSSSvvhPBY-yY7qnZ8tyiyMup5nlbtNVUJk,246
+wanghe20-0.3.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+wanghe20-0.3.dist-info/entry_points.txt,sha256=HxHMuMclYeYU8Tavd4bCPb6KohA0cC1gqsuMqp7VDsQ,51
+wanghe20-0.3.dist-info/top_level.txt,sha256=FxRCWPhUooxK3kO0_6bA_K-LxcoQHbcfaCHui1NIkIQ,9
+wanghe20-0.3.dist-info/RECORD,,
