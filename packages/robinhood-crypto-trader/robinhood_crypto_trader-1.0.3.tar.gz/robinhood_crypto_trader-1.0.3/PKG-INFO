@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: robinhood_crypto_trader
+Version: 1.0.3
+Summary: A Python package for an automated cryptocurrency trader on the popular trading platform Robinhood
+Home-page: https://github.com/tyler-pruitt/robinhood_crypto_trader
+Author: Tyler Pruitt
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: robinhood,crypto,cryptocurrency,trading,autotrading,investing,robinhood crypto trader
+Platform: UNKNOWN
+Requires: numpy
+Requires: robin_stocks
+Requires: pandas
+Requires: matplotlib
+Requires: pandas_ta
+Requires: discord_webhook
