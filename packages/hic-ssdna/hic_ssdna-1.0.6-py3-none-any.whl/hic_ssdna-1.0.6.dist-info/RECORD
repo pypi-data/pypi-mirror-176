@@ -1,0 +1,14 @@
+hic_ssdna/__init__.py,sha256=FX5GPmVh19XIj8EyZCAv2u8JmTJrq1xQN25jaWdGCkw,83
+hic_ssdna/contacts_filter.py,sha256=MsYZHZ44C1WuVAqy20rBzzT9QzIyQHHfE-kkiTZFbUk,7465
+hic_ssdna/oligos_replacement.py,sha256=qXQD37FsRknY-OYaCFOqykevIZKaagTmQpxZ0LHhsw0,14640
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/check_outputs.py,sha256=1F2LqvaqmQPcU0ZcSqWhy2EqWouT9t0QUM2QTS9Y4jQ,2033
+tests/test_oligo_file_correction.py,sha256=Y9TCupqYf6rPbwy0udq13jRSnF_TR1KYHXQCZc25YTw,1280
+tests/test_oligo_replacement.py,sha256=EsMjcI0x_x1gSJv3ysfPF_XWY73u574mP5uGu9U8xFU,1433
+tests/tests_replacement.py,sha256=TV5r8olku7pn_aJIxC7CT95kwi9qJpLrGjBFXi65laE,584
+hic_ssdna-1.0.6.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+hic_ssdna-1.0.6.dist-info/METADATA,sha256=h1smLosR2GVZzyFS2y7d_HpjAuoA28eK-tCsA3hROZ4,5168
+hic_ssdna-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hic_ssdna-1.0.6.dist-info/entry_points.txt,sha256=R0kyWsi89ELjqmxHa5GJnE6qjrL8P-djtxmSUVRobfo,142
+hic_ssdna-1.0.6.dist-info/top_level.txt,sha256=DjP04KNtpTKf3gQ0hiy87587vcyD6zLJptJHtJLUd_U,16
+hic_ssdna-1.0.6.dist-info/RECORD,,
