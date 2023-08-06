@@ -1,0 +1,3 @@
+[console_scripts]
+housenomics=housenomics.application.cli.main:app
+
