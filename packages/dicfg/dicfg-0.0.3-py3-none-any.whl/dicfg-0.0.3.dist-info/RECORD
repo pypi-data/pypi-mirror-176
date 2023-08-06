@@ -1,0 +1,10 @@
+dicfg/__init__.py,sha256=WjDmvecyDIyJLYp4rCV9vsSYbQDc4L1EpYqORvEXliI,33
+dicfg/_version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+dicfg/config.py,sha256=Mff7hnDcg404I0gd4qSfjjHvoxgws0HxOtzMpW7SvQI,3698
+dicfg/factory.py,sha256=o1adseSUj1QJepsRMNZEiuiHlLgKzBANqxP16BB_T1M,3494
+dicfg/reader.py,sha256=nK2QKtSZq3dOzdyZaWRiRpGvlN-yRdr0TdQMM5UUKH8,6297
+dicfg-0.0.3.dist-info/LICENSE,sha256=k1GwXKS6vDz0-3F31EAMRrSQ_pxquTvu7jzN1RULuGk,1073
+dicfg-0.0.3.dist-info/METADATA,sha256=8KTtPzezrEl6s54lPlOeUZOxSdX5gJkXszdGQjRKfc0,3285
+dicfg-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dicfg-0.0.3.dist-info/top_level.txt,sha256=YjUDQ_Qkm6Aa6tqthz3Ryg97LxbKbL0YI0oA9Q_KrRU,6
+dicfg-0.0.3.dist-info/RECORD,,
