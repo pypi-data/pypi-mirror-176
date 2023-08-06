@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+bhpy/__init__.py
+bhpy/spc_qc_config.py
+bhpy/spc_qc_wrapper.py
+bhpy.egg-info/PKG-INFO
+bhpy.egg-info/SOURCES.txt
+bhpy.egg-info/dependency_links.txt
+bhpy.egg-info/top_level.txt
