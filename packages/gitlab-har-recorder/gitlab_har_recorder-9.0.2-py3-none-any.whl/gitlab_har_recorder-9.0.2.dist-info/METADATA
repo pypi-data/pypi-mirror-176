@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gitlab-har-recorder
+Version: 9.0.2
+Summary: hey
+Home-page: UNKNOWN
+Author: scythe_abhi
+Author-email: scytheabhi97@gmail.com
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+
+UNKNOWN
+
