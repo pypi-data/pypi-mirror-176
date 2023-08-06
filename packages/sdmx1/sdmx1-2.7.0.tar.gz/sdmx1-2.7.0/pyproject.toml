@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+omit = [
+  "sdmx/experimental.py",
+  "sdmx/tests/writer/test_protobuf.py",
+  "sdmx/writer/protobuf.py",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+exclude = [
+    "^build/",
+]
+
+[[tool.mypy.overrides]]
+# Packages/modules for which no type hints are available.
+module = [
+  "requests_mock",
+]
+ignore_missing_imports = true
+
+
+[tool.pytest.ini_options]
+addopts = """
+    sdmx
+    --cov sdmx --cov-report=
+    -m "not experimental and not source"
+"""
+markers = [
+    "experimental: test of experimental features",
+    "network: tests requiring a network connection",
+    "source: slower, network tests of individual SDMX web services",
+]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
