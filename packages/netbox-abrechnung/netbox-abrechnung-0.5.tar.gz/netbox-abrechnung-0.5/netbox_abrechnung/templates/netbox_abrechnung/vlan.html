@@ -1,0 +1,11 @@
+{% load render_table from django_tables2 %}
+{% block content %}
+  <div class="col col-md-12">
+            <div class="card">
+            <h5 class="card-header">SLA (Leistungsschein)</h5>    
+          <div class="card-body">
+          {{ cdevice.sla|linkify }}
+          </div>
+        </div>    
+  </div>
+{% endblock content %}
