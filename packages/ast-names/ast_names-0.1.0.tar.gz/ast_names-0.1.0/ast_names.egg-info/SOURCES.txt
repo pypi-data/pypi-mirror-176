@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ast_names/__init__.py
+ast_names/_main.py
+ast_names/py.typed
+ast_names.egg-info/PKG-INFO
+ast_names.egg-info/SOURCES.txt
+ast_names.egg-info/dependency_links.txt
+ast_names.egg-info/top_level.txt

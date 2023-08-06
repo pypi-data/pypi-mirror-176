@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ast_names
+Version: 0.1.0
+Summary: Collect top level variable names using the ast.
+Home-page: https://github.com/tjsmart/ast_names
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ast_names
+
+Collect top level variable names using the ast.
+
+
+## Installation
+
+```
+pip install ast_names
+```
+
+## Usage
+
+```pycon
+>>> from ast_names import ast_names
+>>> ast_names("""
+... import sys, os
+... import sys as foo
+...
+... from foo import (
+...     bar as baz,
+...     alpha
+... )
+...
+... MYCONSTANT = 1
+...
+... def my_func():
+...     ...
+...
+... class MyClass:
+...     ...
+... """)
+{'os', 'MYCONSTANT', 'alpha', 'baz', 'foo', 'sys', 'MyClass', 'my_func'}
+```
