@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MtkM
+Version: 0.0.7
+Summary: easier to understand tkinter functions
+Author: mishalol
+Author-email: misha5335758@gmail.com
+Keywords: python,tkinter
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
