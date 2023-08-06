@@ -1,0 +1,6 @@
+README.txt
+setup.py
+glassesValidator.egg-info/PKG-INFO
+glassesValidator.egg-info/SOURCES.txt
+glassesValidator.egg-info/dependency_links.txt
+glassesValidator.egg-info/top_level.txt
