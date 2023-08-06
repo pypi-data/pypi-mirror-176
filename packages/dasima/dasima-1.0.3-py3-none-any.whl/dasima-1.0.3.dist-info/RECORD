@@ -1,0 +1,12 @@
+dasima/__init__.py,sha256=3aRlxvOh1AXGbKf-xzxMIqbT77fvZfzMNDFGcq_spMk,2659
+dasima/consumer.py,sha256=s85hNFl84EjJq0tZJR6vIzw2lROsU5X_u1Enr6VNCW0,1700
+dasima/exchange.py,sha256=DVaSdbpeBVLDiwIGRpR4sHeraVlgJs1cfyDFLudE-ls,4584
+dasima/producer.py,sha256=wrhP_OZNB7HDbMcxnZkwE718rOAiQsV3_8gyKrnevas,2180
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/test_flask_client.py,sha256=Z3DsXrwU0aT76iy55FHEV2FDXrhUvmIyrEjEmmIxFtA,1020
+example/test_flask_server.py,sha256=v9l8J1siCDsm477Ffi6U5U-ZEsO0722Lm3qeo4Vfyiw,1167
+dasima-1.0.3.dist-info/LICENSE,sha256=EXy8oawp5GcJKU-_vDxrXX5W1hfHD6ezLxwmkk3Gzwk,1066
+dasima-1.0.3.dist-info/METADATA,sha256=UwJyvK4PipgPu7y5rnsIMr91pit9wINTAwp6rvGeYqQ,3635
+dasima-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dasima-1.0.3.dist-info/top_level.txt,sha256=eo6U-o4vFw0HWvpBAkyB0LHZ0XpfZQq2UgVqlwsSw5Y,7
+dasima-1.0.3.dist-info/RECORD,,
