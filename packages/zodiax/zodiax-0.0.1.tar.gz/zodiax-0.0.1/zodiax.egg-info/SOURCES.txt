@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zodiax/__init__.py
+zodiax/base.py
+zodiax.egg-info/PKG-INFO
+zodiax.egg-info/SOURCES.txt
+zodiax.egg-info/dependency_links.txt
+zodiax.egg-info/requires.txt
+zodiax.egg-info/top_level.txt
