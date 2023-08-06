@@ -1,0 +1,10 @@
+retrotype/__init__.py,sha256=TE3oaYQRjnEiT2pCQPznWDqrL6b1UubX7Ax9wj1GHXY,525
+retrotype/char_maps.py,sha256=kv-zCV25amOURUiIqigTK9qOTIOLR1EoQ0nNsxpmsAI,8429
+retrotype/retrotype.py,sha256=Atw5VuuEENxJjhlzbcUgBczEHeln3TtydHn6D2o-CQI,13847
+retrotype/retrotype_cli.py,sha256=lWMbyhviJolSHD9z9bLfmfBRSfzLbdk202AdJRqINdo,7674
+retrotype-0.0.1.dist-info/LICENSE,sha256=6jdtiJL8ujyNVEneALQh12AUo3Lp8BmsTtLM5SXs8mU,1072
+retrotype-0.0.1.dist-info/METADATA,sha256=DdnBkmHHlp15e9Uq6arABysYNEZHMlAakBuHoFMnyfo,6121
+retrotype-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+retrotype-0.0.1.dist-info/entry_points.txt,sha256=s6z43R_HPs9f8pkmttPPQpoIbvwIYiYA0rg7a0qhNxQ,78
+retrotype-0.0.1.dist-info/top_level.txt,sha256=JD5zP6mrJw2LUZEHjg3LU5oFTzfOdGfpOIV92xZC_rg,10
+retrotype-0.0.1.dist-info/RECORD,,
