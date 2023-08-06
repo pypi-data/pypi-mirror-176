@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: osl
+Version: 0.1.0
+Summary: OHBA Software Library
+Home-page: UNKNOWN
+Author: OHBA Analysis Group
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: full
+
+UNKNOWN
+
