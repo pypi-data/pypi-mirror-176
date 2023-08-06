@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pubspec
+setup.py
+pubspec.egg-info/PKG-INFO
+pubspec.egg-info/SOURCES.txt
+pubspec.egg-info/dependency_links.txt
+pubspec.egg-info/requires.txt
+pubspec.egg-info/top_level.txt
