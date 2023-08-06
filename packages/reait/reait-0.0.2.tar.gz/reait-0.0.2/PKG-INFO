@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: reait
+Version: 0.0.2
+Summary: RevEng.AI Toolkit
+Home-page: https://github.com/RevEng-AI/reait
+Author: James Patrick-Evans
+Project-URL: Homepage, https://github.com/RevEng-AI/reait
+Project-URL: Bug Tracker, https://github.com/RevEng-AI/reait/issues
+Project-URL: Organisation Homepage, https://reveng.ai
+Project-URL: Documentation, https://docs.reveng.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# reait
+RevEng.AI Toolkit
+
+Analyse compiled executable binaries using the RevEng.AI API.
+
+## Installation
+
+Install the latest stable version using pip.
+
+`pip install reait`
+
+### Latest development version
+
+`pip install -e .`
+
+## Running reait
+
+#### Analyse binary
+`reait -b /usr/bin/true -a`
+
+#### Extract symbol embeddings
+`reait -b /usr/bin/true -x > embeddings.json`
+
+#### Extract embedding for symbol at vaddr 0x19f0
+`reait -b /usr/bin/true -x | jq ".[] | select(.vaddr==$((0x19f0))).embedding" > embedding.json`
+
+#### Search for similar symbols based on JSON embedding file
+`reait -e embedding.json -n`
+
+## Contact
+Connect with us by filling out the contact form at [RevEng.AI](https://reveng.ai).
