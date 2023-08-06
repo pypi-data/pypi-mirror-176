@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/hei_textpreprocessor.egg-info/PKG-INFO
+src/hei_textpreprocessor.egg-info/SOURCES.txt
+src/hei_textpreprocessor.egg-info/dependency_links.txt
+src/hei_textpreprocessor.egg-info/requires.txt
+src/hei_textpreprocessor.egg-info/top_level.txt
