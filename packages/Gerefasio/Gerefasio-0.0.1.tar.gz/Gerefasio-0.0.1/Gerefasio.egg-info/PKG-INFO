@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Gerefasio
+Version: 0.0.1
+Summary: A simple Python module for Grading Data
+Home-page: 
+Author: Felix Bahati,Zabu 
+Author-email: Fealixmuia083@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+our package is merely for Grading data
+
+Change Log
+==========
+
+0.0.1(14/11/2022)
+------------------
+ First Release

@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Gerefasio.egg-info/PKG-INFO
+Gerefasio.egg-info/SOURCES.txt
+Gerefasio.egg-info/dependency_links.txt
+Gerefasio.egg-info/top_level.txt
