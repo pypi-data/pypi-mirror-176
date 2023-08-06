@@ -1,0 +1,3 @@
+[gui_scripts]
+appmaker = appmaker.appmaker.py:run
+mkapp = appmaker.appmaker.py:run
