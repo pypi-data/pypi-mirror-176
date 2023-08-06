@@ -1,0 +1,2 @@
+[console_scripts]
+bones = nengo_bones.scripts.base:bones

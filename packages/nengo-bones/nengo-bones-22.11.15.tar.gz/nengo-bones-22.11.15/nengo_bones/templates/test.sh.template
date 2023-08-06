@@ -1,0 +1,38 @@
+{% extends "base_script.sh.template" %}
+
+{% block install %}
+{{ super() }}
+    {# TODO: switch to templating requirements in setup.py, then remove these #}
+    exe pip install "pytest>=3.6.0"
+    exe pip install "pytest-xdist>=1.16.0"
+    {% if coverage %}
+    exe pip install "pytest-cov>=2.6.0"
+    {% endif %}
+    exe pip install -e ".[tests]"
+{% endblock %}
+
+{% block script %}
+    # shellcheck disable=SC2086
+    exe pytest {{ pkg_name }} -v -n 2 --color=yes --durations 20 {%- if coverage %} --cov={{ pkg_name }} --cov-report=term-missing{% if codecov_yml %} --cov-report=xml{% endif %}{%- endif %} $TEST_ARGS
+
+    {% if nengo_tests %}
+    # shellcheck disable=SC2086
+    exe pytest --pyargs nengo -v -n 2 --color=yes --durations 20 {%- if coverage %} --cov={{ pkg_name }} --cov-append --cov-report=term-missing{% if codecov_yml %} --cov-report=xml{% endif %}{%- endif %} $TEST_ARGS
+    {% endif %}
+{% endblock %}
+
+{% block after_script %}
+    {% if coverage and codecov_yml %}
+    curl https://keybase.io/codecovsecurity/pgp_keys.asc \
+      | gpg --no-default-keyring --keyring trustedkeys.gpg --import
+
+    codecov="https://uploader.codecov.io/latest/linux/codecov"
+    curl -O "$codecov" -O "$codecov.SHA256SUM" -O "$codecov.SHA256SUM.sig"
+    gpgv codecov.SHA256SUM.sig codecov.SHA256SUM \
+      && shasum -a 256 -c codecov.SHA256SUM \
+      && chmod +x codecov \
+      && ./codecov -f coverage.xml
+    {% else %}
+    :
+    {% endif %}
+{% endblock %}

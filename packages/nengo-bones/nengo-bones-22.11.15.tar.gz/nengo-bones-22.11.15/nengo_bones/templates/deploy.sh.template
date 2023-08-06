@@ -1,0 +1,24 @@
+{% extends "base_script.sh.template" %}
+
+{% block install %}
+{{ super() }}
+    exe pip install \
+        "check-manifest>=0.37" \
+        "pygments>=2.3.1" \
+        "twine>=4.0.1"
+    exe pip install -e .
+{% endblock %}
+
+{% block script %}
+    exe bones check-deploy
+    exe python setup.py sdist{% if wheel %} bdist_wheel{% endif +%}
+    exe twine check dist/*
+{% endblock %}
+
+{% block after_success %}
+    if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
+        exe twine upload dist/*
+    else
+        exe twine upload -r testpypi dist/*
+    fi
+{% endblock %}
