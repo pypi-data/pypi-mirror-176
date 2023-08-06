@@ -1,0 +1,15 @@
+dune_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dune_client/base_client.py,sha256=d7Nlq_busjjjF87qju_MitU-HelG3woOIxPAsnYVyEM,939
+dune_client/client.py,sha256=2G5F8bHbPbbtnkdEBGO5o7ClXF3621MVEGeZYYLto-s,4966
+dune_client/client_async.py,sha256=D6BaRLVw7J4XKB2IEHmY6WuCSiqdQvQd_3CEixIOZhU,5814
+dune_client/interface.py,sha256=Ct80TLxD-aA5WMESt8MTvMLoTGSw_baSkAaPWOle2Jw,533
+dune_client/models.py,sha256=wG5KgkbvOH_OTeDLxzKisLhdE_43qjUiL988fRmmHbQ,7728
+dune_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dune_client/query.py,sha256=2dJa2xgwRhxmvxJJHBPfUBxAZV-E95oS841Mc3-zjc4,1520
+dune_client/types.py,sha256=K7dL2AtbzdyX5KP4M7kwGiLXVuv7hRAxUV70Xj3tL14,6511
+dune_client/util.py,sha256=pmgZrS8IdzTILKoLOOOtA4X-V_jr4xY57HALIS-H8yU,281
+dune_client-0.2.0b2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dune_client-0.2.0b2.dist-info/METADATA,sha256=GnJ8vv4TetDWNm2XKFlZlz1z7VrmuHBwX9nPOqNd-PM,2026
+dune_client-0.2.0b2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dune_client-0.2.0b2.dist-info/top_level.txt,sha256=5zzSqiCR5h8_Xof63miDx5ExqLEKZr8bDMy9u0q0N-U,12
+dune_client-0.2.0b2.dist-info/RECORD,,
