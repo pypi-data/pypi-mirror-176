@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "via-varejo"
+version = "0.1.1"
+description = "library com as funcoes utilitarias"
+authors = ["Jaderson Macedo <jaderson.macedo@viavarejo.com.br>"]
+readme = "README.md"
+packages = [{include = "via_varejo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
