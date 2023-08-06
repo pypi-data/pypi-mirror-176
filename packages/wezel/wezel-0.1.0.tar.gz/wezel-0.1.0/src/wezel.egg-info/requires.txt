@@ -1,0 +1,8 @@
+PyQt5<=5.13.1
+dbdicom
+matplotlib
+numpy
+pandas
+importlib-resources>=1.1.0
+opencv-python<=4.5.3.56
+scikit-image
