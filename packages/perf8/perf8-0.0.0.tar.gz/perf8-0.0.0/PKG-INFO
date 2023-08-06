@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: perf8
+Version: 0.0.0
+Summary: Your Tool For Python Performance Tracking
+Home-page: https://pypi.org/project/perf8
+Author: Tarek Ziade
+Author-email: tarek@ziade.org
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+perf8
+=====
+
+Your Tool For Python Performance Tracking
+
+
+
+0.0.0 - 11/11/2022
+==================
+
+- Don't use it.
