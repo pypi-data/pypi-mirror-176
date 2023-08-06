@@ -1,0 +1,9 @@
+examples/
+credentials.py
+.idea
+__pycache__
+tests.py
+*.pyc
+depreciated
+_site/
+_build/

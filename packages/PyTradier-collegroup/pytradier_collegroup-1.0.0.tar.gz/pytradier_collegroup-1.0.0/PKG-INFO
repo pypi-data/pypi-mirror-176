@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyTradier_collegroup
+Version: 1.0.0
+Summary: PyTradier moved to PyPi
+Author-email: arthurcolle <arthur@collegroup.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PyTradier
+
+PyTradier is a library for interacting with the Tradier.com API for market data, company information, and trading actions through their brokerage. Most of the API is covered and is functional.
+
+Documentation for this library is hosted by RTD: https://pytradier.readthedocs.io/
