@@ -1,0 +1,3 @@
+[console_scripts]
+zoom-chat-anonymizer=zoom_chat_anonymizer.main:app
+

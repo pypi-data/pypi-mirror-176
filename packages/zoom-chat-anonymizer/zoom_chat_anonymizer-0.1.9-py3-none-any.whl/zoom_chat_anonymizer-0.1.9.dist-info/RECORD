@@ -1,0 +1,17 @@
+zoom_chat_anonymizer/__init__.py,sha256=ume7PscHX85MWpHAL9oXtA5MaTWnX39_8VMulODTs7g,485
+zoom_chat_anonymizer/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoom_chat_anonymizer/classes/artemis.py,sha256=t2VSODWIpCCMly_p123sIn9wb8RoyyN_NnhiXxns-_o,2305
+zoom_chat_anonymizer/classes/message.py,sha256=UEfobnNGE-yzPV7rwS9wNvBoMpmH5_eWAkXg5Er_pH8,1233
+zoom_chat_anonymizer/classes/pause.py,sha256=Fwtos1a8mFJBvYxdYebX8eaykN-mScWs8otGjVHlX38,647
+zoom_chat_anonymizer/logic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoom_chat_anonymizer/logic/anonymize_chat.py,sha256=iLfltXtogSfZLFP82sDECSMIPW2aHZ5JtwFfMi-K4NE,8203
+zoom_chat_anonymizer/logic/clean_artemis_file.py,sha256=rTSFRYsfZ2dwLOdMyd2UgcT3Lx5kiJ6C2jx0GE1rzDQ,1229
+zoom_chat_anonymizer/logic/create_html_from_markdown.py,sha256=NkP-BdXXlgnb5YVyhEW2bwHFXpc1r87UPQpqyts8pXs,860
+zoom_chat_anonymizer/logic/create_pdf_from_markdown.py,sha256=G3qlFbI3EtdQyhXAWNE6Z5MoP97gKpxbOn9xuLmL6tQ,2492
+zoom_chat_anonymizer/logic/sort_moodle_csv.py,sha256=IqJnF9hlMJEPcrK9yTunVRbsInZ-QxeUOnZytNQf6BA,1098
+zoom_chat_anonymizer/main.py,sha256=4fa1qMFugrkITcjGPSTjR6v8pRbEgDR5s0CPNLjt5TA,7108
+zoom_chat_anonymizer-0.1.9.dist-info/entry_points.txt,sha256=Gv9q8_lD3Z0eY_OdUSyTZcYYrMyYa3uUCWrJCS4ZlHI,70
+zoom_chat_anonymizer-0.1.9.dist-info/LICENSE,sha256=QVNt0FFafuL9ys-ippbbz2ZCgVYPsIEEIsOrCverdpE,11365
+zoom_chat_anonymizer-0.1.9.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+zoom_chat_anonymizer-0.1.9.dist-info/METADATA,sha256=8fJ_1h-GZ0mZt0zQ9sS2eLPB19OQUkuemCxVMTa4ihY,2392
+zoom_chat_anonymizer-0.1.9.dist-info/RECORD,,
