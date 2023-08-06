@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edapi"
+version = "0.0.2"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "beautifulsoup4"
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/smartspot2/edapi"
