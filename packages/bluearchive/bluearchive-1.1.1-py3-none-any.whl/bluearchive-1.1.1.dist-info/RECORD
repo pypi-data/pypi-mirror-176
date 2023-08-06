@@ -1,0 +1,13 @@
+bluearchive/__init__.py,sha256=A2gj9A1a__tQxhjLqlQ5CXl23f7-z7gj2_RiZHUtGhI,111
+bluearchive/api.py,sha256=olaq5UJBv54HkvlxeSrQnCCcMWuE8SvAsbWSQMens-o,2550
+bluearchive/query.py,sha256=DGSVC7jUuTQz7HJhrJl2TXvXsfsUyBS5zdf_A9VZwtM,2136
+bluearchive/types.py,sha256=1GcG2HpQX-S1ek7HGv0xkIORlhkQnddUfhxmuFTwKJo,154
+bluearchive/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bluearchive/models/abc.py,sha256=ipVY8HrEgv6vyydxCI1H_CCls_a1kuVZduS3chGRroQ,371
+bluearchive/models/base.py,sha256=mVDmXE4eipgYF7nT3Nu-w5VzRNHpiDfMLtKmfm5IaMI,295
+bluearchive/models/enums.py,sha256=X8LAl8B0_yXQlv913JoKCJiZtbrvvGZIoU1K_PDGdgI,2510
+bluearchive/models/student.py,sha256=4C4A7CZVI1eUP5FlRs4lVZNfx2huka90vMVhoYy_RIw,10615
+bluearchive-1.1.1.dist-info/METADATA,sha256=X8shIjJykLUHIF4-V0F2rEQ0IY0AxR8cn-BR6yBFQFo,707
+bluearchive-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bluearchive-1.1.1.dist-info/top_level.txt,sha256=QqN0ma-WNQhjrhrb3AZOd2TK8S-kDlIWOFgZ61h4Qok,12
+bluearchive-1.1.1.dist-info/RECORD,,
