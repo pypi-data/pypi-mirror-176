@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+gower/__init__.py
+gower/gower_dist.py
+gower.egg-info/PKG-INFO
+gower.egg-info/SOURCES.txt
+gower.egg-info/dependency_links.txt
+gower.egg-info/not-zip-safe
+gower.egg-info/requires.txt
+gower.egg-info/top_level.txt
