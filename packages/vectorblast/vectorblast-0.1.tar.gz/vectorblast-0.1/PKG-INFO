@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vectorblast
+Version: 0.1
+Home-page: https://github.com/jrcf7/vector_blast
+Author: Mario Ceresa
+Author-email: mrceresa@gmail.com
+License: MIT
+Keywords: blast dna embeddings search fast
+License-File: LICENSE.rst

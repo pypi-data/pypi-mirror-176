@@ -1,0 +1,13 @@
+LICENSE.rst
+README.rst
+setup.cfg
+setup.py
+src/vecb/__init__.py
+src/vecb/config.py
+src/vecb/utils.py
+src/vecb/vecb.py
+src/vectorblast.egg-info/PKG-INFO
+src/vectorblast.egg-info/SOURCES.txt
+src/vectorblast.egg-info/dependency_links.txt
+src/vectorblast.egg-info/entry_points.txt
+src/vectorblast.egg-info/top_level.txt

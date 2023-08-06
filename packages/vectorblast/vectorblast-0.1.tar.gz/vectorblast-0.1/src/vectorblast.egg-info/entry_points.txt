@@ -1,0 +1,2 @@
+[console_scripts]
+vecb = vecb.vecb:main
