@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+bigdickdaddy/__init__.py
+bigdickdaddy.egg-info/PKG-INFO
+bigdickdaddy.egg-info/SOURCES.txt
+bigdickdaddy.egg-info/dependency_links.txt
+bigdickdaddy.egg-info/requires.txt
+bigdickdaddy.egg-info/top_level.txt
