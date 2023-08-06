@@ -1,0 +1,12 @@
+gitit/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gitit/__main__.py,sha256=CLn3bCcdu86Rm3sjZShiMeyH8sv3ycTKDoPg6DIKhi4,1707
+gitit/add/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitit/add/adda.py,sha256=ih6Ythr5lsv87Q9xx33E0OwTnB1i2qj_YwaJY-xC104,1259
+gitit/setenv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitit/setenv/setenv.py,sha256=uACDQ0moB7qtMTHwFp_KRQGQ7P9CU3_Aijs78eJ-mac,1104
+git_it-0.0.8.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+git_it-0.0.8.dist-info/METADATA,sha256=Jehv20X3qZc7krQh6LNwRsHtcVM-9rii989oLSjudmo,1765
+git_it-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+git_it-0.0.8.dist-info/entry_points.txt,sha256=4lf2L5v-RzSTtyVttoH5vs9ExSIItTFsEnw1iG6kEt8,46
+git_it-0.0.8.dist-info/top_level.txt,sha256=ZPAv04y4LTgFsNCP6nPuoCAW1QQ3d0t3icydMXtBfhw,6
+git_it-0.0.8.dist-info/RECORD,,
