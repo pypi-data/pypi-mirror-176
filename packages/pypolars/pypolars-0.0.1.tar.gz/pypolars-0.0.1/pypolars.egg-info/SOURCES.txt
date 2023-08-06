@@ -1,0 +1,6 @@
+setup.py
+pypolars.egg-info/PKG-INFO
+pypolars.egg-info/SOURCES.txt
+pypolars.egg-info/dependency_links.txt
+pypolars.egg-info/requires.txt
+pypolars.egg-info/top_level.txt
