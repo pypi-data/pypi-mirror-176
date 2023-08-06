@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: genetic-lib
+Version: 0.1.1
+Summary: A Library of Linear and Logistic Regression with Genetic algorithm instead of Gradient Descent
+Home-page: https://github.com/Amaaan09/Genetic-pypi
+Author: Amaan Ansari
+Author-email: m.amaan02@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
+# AI Project 
+
+Linear and Logistic Regression both mostly use Gradient Descent as their optimization algorithm
+
+
+This project makes use of **Genetic Algorithm**  instead to optimize the Weights and Biases
+
+Genetic Algorithm follows:-
+
+1. Initialization
+2. Selection 
+3. Crossover 
+4. Mutation 
+5. Termination 
+
+
+To learn more about Genetic Algorithm [click here](https://en.wikipedia.org/wiki/Genetic_algorithm)
+
+Github - [Here](https://github.com/Amaaan09/Genetic-pypi) 
