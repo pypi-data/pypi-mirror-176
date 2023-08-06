@@ -1,0 +1,2 @@
+[console_scripts]
+ggist = ggist_cli_app:cli
