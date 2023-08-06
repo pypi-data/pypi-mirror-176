@@ -1,0 +1,9 @@
+click
+plumbum
+PyYAML
+
+[dev]
+build
+pylint
+coverage
+twine
