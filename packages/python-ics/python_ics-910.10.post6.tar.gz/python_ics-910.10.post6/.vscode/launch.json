@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Generate icsneo40 structs",
+            "type": "python",
+            "request": "launch",
+            "program": "generate_icsneo40_structs.py",
+            "console": "integratedTerminal",
+            "args": ["include/ics/icsnVC40.h", ],
+        },
+        {
+            "name": "Python: Generate test structures",
+            "type": "python",
+            "request": "launch",
+            "program": "generate_icsneo40_structs.py",
+            "console": "integratedTerminal",
+            "args": ["include/ics/test_structs.h", ],
+        },
+        {
+            "name": "Python: test_structs.py",
+            "type": "python",
+            "request": "launch",
+            "program": "test_structs.py",
+            "cwd": "${workspaceFolder}/test",
+            "console": "integratedTerminal",
+            "args": [],
+        },
+        {
+            "name": "Python: extract icsneo40 defines",
+            "type": "python",
+            "request": "launch",
+            "program": "extract_icsneo40_defines.py",
+            "console": "integratedTerminal",
+            "args": ["include/ics/icsnVC40.h", ],
+        },
+    ]
+}
