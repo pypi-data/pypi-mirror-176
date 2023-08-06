@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mongodb_queue/__init__.py
+mongodb_queue/queue.py
+mongodb_queue.egg-info/PKG-INFO
+mongodb_queue.egg-info/SOURCES.txt
+mongodb_queue.egg-info/dependency_links.txt
+mongodb_queue.egg-info/requires.txt
+mongodb_queue.egg-info/top_level.txt

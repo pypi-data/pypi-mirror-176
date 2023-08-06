@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mongodb-queue
+Version: 0.1.0
+Summary: Mongo-based message queue
+Home-page: https://github.com/Medsien/mongodb-queue
+Author: Medsien, Inc.
+Author-email: hello@medsien.com
+License: UNKNOWN
+Keywords: mongo,mongodb,pymongo,queue
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
