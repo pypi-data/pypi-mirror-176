@@ -1,0 +1,20 @@
+[project]
+name="pyqcs"
+authors = [
+    {name="Daniel Knüttel", email="daniel.knuettel@daknuett.eu"}
+]
+description = "A quantum computing simulator."
+requires-python=">=3.4"
+readme="README.rst"
+dependencies=['numpy']
+
+version="3.0.0"
+
+[project.urls]
+repository="https://github.com/daknuett/pyqcs"
+homepage="https://github.com/daknuett/pyqcs"
+
+[build-system]
+requires = ["meson", "toml", "numpy", "ninja", "meson-python"]
+build-backend = 'mesonpy'
+
