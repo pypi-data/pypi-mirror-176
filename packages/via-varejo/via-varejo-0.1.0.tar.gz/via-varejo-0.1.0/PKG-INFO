@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: via-varejo
+Version: 0.1.0
+Summary: library com as funcoes utilitarias
+Author: Jaderson Macedo
+Author-email: jaderson.macedo@viavarejo.com.br
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+
