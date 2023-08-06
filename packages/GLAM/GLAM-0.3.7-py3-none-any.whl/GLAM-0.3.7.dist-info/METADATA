@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GLAM
+Version: 0.3.7
+Summary: Geocoding via LINZ address matching
+Home-page: https://github.com/lmor152/GLAM
+Author: Liam Morris
+Author-email: liam.morris04@gmail.com
+License: MIT Licence
+Keywords: geocode,geocoding,new zealand,nz,address,matching
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: rapidfuzz (==1.7.1)
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
