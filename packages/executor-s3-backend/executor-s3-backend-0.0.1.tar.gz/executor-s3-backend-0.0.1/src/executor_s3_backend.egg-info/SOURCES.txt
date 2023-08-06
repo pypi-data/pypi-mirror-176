@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/executor_s3_backend/__init__.py
+src/executor_s3_backend/_config.py
+src/executor_s3_backend/install.py
+src/executor_s3_backend/serve.py
+src/executor_s3_backend.egg-info/PKG-INFO
+src/executor_s3_backend.egg-info/SOURCES.txt
+src/executor_s3_backend.egg-info/dependency_links.txt
+src/executor_s3_backend.egg-info/requires.txt
+src/executor_s3_backend.egg-info/top_level.txt
