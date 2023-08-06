@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: alpha-bpc
+Version: 0.1.2
+Summary: Python package for the Binary Patch Convolution framework
+Home-page: https://github.com/amirarfan/alpha_bpc
+Author: Amir Arfan
+Author-email: amir.inaamullah.arfan@nmbu.no
+License: MIT license
+Keywords: alpha_bpc
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=========
+Alpha_BPC
+=========
+
+Python package for the Alpha version of Binary Patch Convolution framework
+
+Currently only supports MNIST and F-MNIST using GPUs for convolution
+
+Call help(BPC) for more information about the class and its inputs 
+
+Take a look at `mnist_bpc.py` and `fmnist_bpc.py` in the Github repository for examples of how to use the framework 
+
+
+* Github: https://github.com/amirarfan/alpha_bpc/
+
+
+
+
+
+=======
+History
+=======
+
+ * 0.1.2 - First release for Thesis 
