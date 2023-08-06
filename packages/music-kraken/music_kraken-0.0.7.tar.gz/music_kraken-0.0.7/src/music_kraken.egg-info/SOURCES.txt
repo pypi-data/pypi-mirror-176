@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/music_kraken/__init__.py
+src/music_kraken/__main__.py
+src/music_kraken/download.py
+src/music_kraken/download_links.py
+src/music_kraken/url_to_path.py
+src/music_kraken.egg-info/PKG-INFO
+src/music_kraken.egg-info/SOURCES.txt
+src/music_kraken.egg-info/dependency_links.txt
+src/music_kraken.egg-info/requires.txt
+src/music_kraken.egg-info/top_level.txt
