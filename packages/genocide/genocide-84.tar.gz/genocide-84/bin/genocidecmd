@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+# pylint: disable=E1101,E0611,C0116,C0115,C0413,R0903
+# This file is placed in the Public Domain.
+
+
+"command"
+
+
+## import
+
+
+import sys
+
+
+from genocide.obj import Wd
+from genocide.hdl import Event, Handler, parse
+from genocide.run import command, from_exception, scancls, scan
+
+
+from genocide import cmds, irc, rss
+
+
+## define
+
+
+Wd.workdir = "/var/lib/genocide/"
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+## class
+
+class CLI(Handler):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+class Evt(Event):
+
+    def wait(self):
+        Event.wait(self)
+        if self._exc:
+            cprint(from_exception(self._exc))
+
+## runtime
+
+
+def main():
+    cfg = parse(" ".join(sys.argv[1:]))
+    cli = CLI()
+    command(cli, cfg.otxt, Evt)
+
+
+main()
