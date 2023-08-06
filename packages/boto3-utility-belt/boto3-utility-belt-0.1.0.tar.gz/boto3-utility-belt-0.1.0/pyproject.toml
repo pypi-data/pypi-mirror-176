@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "boto3-utility-belt"
+version = "0.1.0"
+description = ""
+authors = ["Jeremy Axmacher <jeremy@obsoleter.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.24.45"
+pyperclip = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+pre-commit = "^2.20.0"
+moto = "^4.0.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
