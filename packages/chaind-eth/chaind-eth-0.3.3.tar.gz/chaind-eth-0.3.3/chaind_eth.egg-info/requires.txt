@@ -1,0 +1,8 @@
+chaind~=0.3.0
+hexathon~=0.1.7
+chainlib-eth~=0.3.0
+pyxdg~=0.27
+funga-eth~=0.6.1
+
+[erc20]
+eth-erc20~=0.3.2
