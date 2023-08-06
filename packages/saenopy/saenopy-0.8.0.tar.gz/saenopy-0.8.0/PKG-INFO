@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: saenopy
+Version: 0.8.0
+Summary: Semi-elastic fiber optimisation in python.
+License: MIT
+Author: rgerum
+Author-email: 14153051+rgerum@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: imagecodecs (>=2022.9.26,<2023.0.0)
+Requires-Dist: jointforces (>=1.0.1,<2.0.0)
+Requires-Dist: natsort (>=8.2.0,<9.0.0)
+Requires-Dist: nbsphinx (>=0.8.10,<0.9.0); extra == "docs"
+Requires-Dist: numba (>=0.56.4,<0.57.0)
+Requires-Dist: numpy (>=1.23.4,<2.0.0)
+Requires-Dist: openpiv (>=0.24.2,<0.25.0)
+Requires-Dist: pyqt5 (>=5.15.7,<6.0.0)
+Requires-Dist: pyvista (>=0.37.0,<0.38.0)
+Requires-Dist: pyvistaqt (>=0.9.0,<0.10.0)
+Requires-Dist: qimage2ndarray (>=1.9.0,<2.0.0)
+Requires-Dist: qtawesome (>=1.2.1,<2.0.0)
+Requires-Dist: scipy (>=1.9.3,<2.0.0)
+Requires-Dist: sphinx-rtd-theme (>=1.1.1,<2.0.0); extra == "docs"
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+SAENOPY
+=======
+
+[![DOC](https://readthedocs.org/projects/saenopy/badge/)](https://saenopy.readthedocs.io)
+[![PyTest](https://github.com/rgerum/saenopy/actions/workflows/test.yml/badge.svg)](https://github.com/rgerum/saenopy/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+  <img src="saenopy/img/Logo.png" />
+</p>
+
+
+
+SAENOPY a python implementation of the SAENO - Semi-affine Elastic Network Optimizer, originally developed by Julian
+ Steinwachs.
+
+[Documentation](https://saenopy.readthedocs.io)
+
