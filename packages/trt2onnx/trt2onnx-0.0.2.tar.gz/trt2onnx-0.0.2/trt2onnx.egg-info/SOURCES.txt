@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+trt2onnx/__init__.py
+trt2onnx/trt2onnx.py
+trt2onnx.egg-info/PKG-INFO
+trt2onnx.egg-info/SOURCES.txt
+trt2onnx.egg-info/dependency_links.txt
+trt2onnx.egg-info/requires.txt
+trt2onnx.egg-info/top_level.txt
+trt2onnx/core/__init__.py
+trt2onnx/core/convert.py
+trt2onnx/core/element.py
+trt2onnx/core/graph.py
