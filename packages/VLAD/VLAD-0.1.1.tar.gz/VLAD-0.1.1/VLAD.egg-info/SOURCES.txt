@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+VLAD.egg-info/PKG-INFO
+VLAD.egg-info/SOURCES.txt
+VLAD.egg-info/dependency_links.txt
+VLAD.egg-info/requires.txt
+VLAD.egg-info/top_level.txt
+scr/VLAD/Descriptors.py
+scr/VLAD/ImageDataset.py
+scr/VLAD/VLAD.py
+scr/VLAD/__init__.py
+scr/VLAD/utils.py
