@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyreducer/__init__.py
+pyreducer/pyreducer.py
+pyreducer.egg-info/PKG-INFO
+pyreducer.egg-info/SOURCES.txt
+pyreducer.egg-info/dependency_links.txt
+pyreducer.egg-info/not-zip-safe
+pyreducer.egg-info/top_level.txt
