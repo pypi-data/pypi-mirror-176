@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: dash_spinner
+Version: 0.0.1
+Summary: Dash Spinners
+Home-page: UNKNOWN
+Author: Chiranjeevi <chiranjeevi.exf@gmail.com>
+License: MIT
+Description: 
+            Built on top of React and Flask, Dash ties modern UI element spinners to your analytical Python code.
+        
+        Dash Spinner
+        ============
+            Dash Spinners total 35 spinners available. it's build under React
+        
+        Installation
+        ============
+        
+        PyPI
+        ====
+        You can install dash-spinner with pip:
+        .. code-block:: bash
+        
+            pip install dash-spinner
+        
+        Usage
+        =====
+        
+        .. code-block:: bash
+        
+            import dash_spinner
+            from dash import Dash
+            app = Dash(__name__)
+        
+            app.layout = dash_spinner.DashSpinner(
+                                                Size=30,
+                                                Color='#00ff89',
+                                                spinner_type="PushSpinner",
+                                                loading=True
+                                                )
+            if __name__ == '__main__':
+                app.run_server(debug=True)
+        
+        All Dash_Spinners
+        =================
+        
+           ![Dash_Spinners](dash_spinner_image.gif)
+        
+        Keyword arguments for DashSpinner
+        =================================
+        
+        id (string; optional): The ID of this component, used to identify dash components in callbacks. The ID needs to be unique across all of the components in an app.
+        
+        Size(number):Spinner size,10,20,30
+        
+        Color (string): Spinner Color,example('#00ff89')
+        
+        spinner_type(string): Property that determines which spinner to show one of 'BallSpinner','ClapSpinner','BarsSpinner,'CircleSpinner','ClassicSpinner','CombSpinner','CubeSpinner','DominoSpinner','FillSpinner','FireworkSpinner','FlagSpinner','FlapperSpinner','GooSpinner','GridSpinner','GuardSpinner','HeartSpinner','HoopSpinner','ImpulseSpinner','JellyfishSpinner','MagicSpinner','MetroSpinner','PongSpinner','PulseSpinner','PushSpinner','RainbowSpinner','RingSpinner','RotateSpinner','SequenceSpinner','SphereSpinner','SpiralSpinner','SwapSpinner','SwishSpinner','TraceSpinner','WaveSpinner','WhisperSpinner'
+        
+        loading(boolean): Determines if the component is loading or not.
+        
+        
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+include dash_spinner/dash_spinner.min.js
+include dash_spinner/dash_spinner.min.js.map
+include dash_spinner/async-*.js
+include dash_spinner/async-*.js.map
+include dash_spinner/*-shared.js
+include dash_spinner/*-shared.js.map
+include dash_spinner/metadata.json
+include dash_spinner/package-info.json
+include README.md
+include LICENSE
+include package.json
