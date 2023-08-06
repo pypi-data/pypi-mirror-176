@@ -1,0 +1,2 @@
+[console_scripts]
+python_publish_exapmle_script = jjws_package_template.scripts:python_publish_example_script

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jjws_package_template"
+version = "0.0.6"
+authors = [
+  { name="JJWRoeloffs", email="jelleroeloffs@gmail.com" },
+]
+description = "A small example package for testing PyPi"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+python_publish_exapmle_script = "jjws_package_template.scripts:python_publish_example_script"
+
+[project.urls]
+"Homepage" = "https://github.com/JJWRoeloffs/bare_python_publish"
+"Bug Tracker" = "https://github.com/JJWRoeloffs/bare_python_publish/issues"

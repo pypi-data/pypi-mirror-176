@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/jjws_package_template/__init__.py
+src/jjws_package_template.egg-info/PKG-INFO
+src/jjws_package_template.egg-info/SOURCES.txt
+src/jjws_package_template.egg-info/dependency_links.txt
+src/jjws_package_template.egg-info/entry_points.txt
+src/jjws_package_template.egg-info/requires.txt
+src/jjws_package_template.egg-info/top_level.txt
+src/jjws_package_template/example_module/__init__.py
+src/jjws_package_template/example_module/example_file.py
+src/jjws_package_template/scripts/__init__.py
+src/jjws_package_template/scripts/python_publish_example.py
