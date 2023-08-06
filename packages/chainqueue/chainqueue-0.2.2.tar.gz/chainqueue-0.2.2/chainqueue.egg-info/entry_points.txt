@@ -1,0 +1,3 @@
+[console_scripts]
+chainqueue-list = chainqueue.runnable.list:main
+chainqueue-state = chainqueue.runnable.state:main
