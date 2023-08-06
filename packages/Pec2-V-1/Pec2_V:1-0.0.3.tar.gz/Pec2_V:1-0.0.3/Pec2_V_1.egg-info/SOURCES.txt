@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+./requirements/requirements.txt
+./requirements/test_requirements.txt
+Pec2_V_1.egg-info/PKG-INFO
+Pec2_V_1.egg-info/SOURCES.txt
+Pec2_V_1.egg-info/dependency_links.txt
+Pec2_V_1.egg-info/requires.txt
+Pec2_V_1.egg-info/top_level.txt
+my_model/VERSION
+my_model/config.yml

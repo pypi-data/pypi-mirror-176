@@ -1,0 +1,42 @@
+# Package Overview
+package_name: pipe
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict
+target: survived
+
+pipeline_name: pipe
+pipeline_save_file: pipe_m
+
+
+features:
+  - pclass
+  - name
+  - sex
+  - age
+  - sibsp
+  - parch
+  - ticket
+  - fare 
+  - cabin
+  - embarked
+
+# set train/test split
+test_size: 0.2
+
+# to set the random seed
+random_state: 101
+
+
+numerical_vars_with_na:
+  - age
+  - fare
+
+drop_features:
+  - ticket
+  - name
+  - cabin
