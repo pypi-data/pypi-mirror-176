@@ -1,0 +1,27 @@
+
+
+ansible<_:
+  input:
+    type: str
+    description: The input location to run against
+
+  ask-vault-password:
+    type: bool
+    description: ask for vault password
+    default: false
+
+  init<-:
+    help: To be potentially overloaded
+
+  exec:
+    cmd->: flatten ansible existing_context
+
+#  playbook:
+#    type: str
+#    description: Playbook(s)
+
+#  args: ['playbook']
+
+#t->: flatten
+
+c->: ansible --ask-vault-password

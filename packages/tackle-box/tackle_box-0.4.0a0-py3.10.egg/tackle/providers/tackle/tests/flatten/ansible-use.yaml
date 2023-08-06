@@ -1,0 +1,10 @@
+
+i_>: import ansible.yaml
+
+globals:
+  target: 1.2.3.4
+  ssh_key: ~/.ssh/foo
+
+apply:
+
+

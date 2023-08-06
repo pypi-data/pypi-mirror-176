@@ -1,0 +1,44 @@
+
+global_vars:
+  foo: bar
+  inventory:
+
+
+<-:
+  help: Does things
+
+  exec:
+    action:
+      ->: select
+      choices:
+        - Deploy a resource
+        - Deploy a group of resources
+
+
+deploy_ansible<-:
+  help: deploy ansible
+
+
+deploy<-:
+
+  args: path
+
+  exec:
+    global->: tackle ...
+
+    vars:
+      foo: bar
+      stuff: things
+
+    targets->: checkbox --choices inventory.postgres
+
+    ansible:
+      ->: ansible playbook.yaml
+      for: targets
+      kwargs: vars
+      inventory: {{item}}
+
+  init<-:
+    help:
+
+
