@@ -1,0 +1,8 @@
+logger_decorator.py,sha256=c_run6jy8p8aJmOsGJ6BiKr5X5WsBA32dupZynaaN1U,9328
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=2-jAyBITU-ftqISOyUSkFrmrrPVTQSJL8pZVCz7e_ks,252
+tests/test_dec.py,sha256=3-8UIwk85e445Bik7ZKxXv8dA1qdIaR0IwgKxs4LZpw,1440
+logger_decorator-2.2.1.dist-info/METADATA,sha256=XQcJ0Kqw1f5AQgbpz4w9XduOFbMHb9g3pNMB5A9IEf4,271
+logger_decorator-2.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+logger_decorator-2.2.1.dist-info/top_level.txt,sha256=ICWmCrj0arHp5TClRmW35oQ2zA01t-A12PgUjfmm090,23
+logger_decorator-2.2.1.dist-info/RECORD,,
