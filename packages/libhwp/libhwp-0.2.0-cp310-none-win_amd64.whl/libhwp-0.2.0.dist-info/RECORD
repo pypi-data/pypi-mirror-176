@@ -1,0 +1,5 @@
+libhwp-0.2.0.dist-info/METADATA,sha256=Xi7TpDsLCPBlrNxF-CZvcydVJA1YUTcF6nvKg7FIYRI,2179
+libhwp-0.2.0.dist-info/WHEEL,sha256=keLBtIOE7ZgLyd8Cijw37iqv72a2jhfxMdDu8Unr7zo,96
+libhwp/__init__.py,sha256=K8H-Oz59ZxAHklxnaSLnEbX4cewrt5fLaH70fBkwFUU,107
+libhwp/libhwp.cp310-win_amd64.pyd,sha256=ZSLZhftIvFRcrzpMcvDfdSFe4TA3Sksvjw0TClnyNLY,965120
+libhwp-0.2.0.dist-info/RECORD,,
