@@ -1,0 +1,1 @@
+from .pchru import get_hash_uuid
