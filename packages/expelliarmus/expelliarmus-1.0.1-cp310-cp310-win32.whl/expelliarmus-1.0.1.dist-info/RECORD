@@ -1,0 +1,8 @@
+expelliarmus/__init__.py,sha256=pdv2uughNxc0FboEDB9ApT6H2T5MTwpPLpYlYdOYM0M,131
+expelliarmus/expelliarmus.cp310-win32.pyd,sha256=DnP3kh9sxEZGhGwcyFa-Tk2DHsf4HMtiTyri0nX5pq8,14336
+expelliarmus/expelliarmus_wrapper.py,sha256=MMb0D3OoCdlLTevFRCU28uP-6M50GLejDahm01w_jhY,8713
+expelliarmus-1.0.1.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+expelliarmus-1.0.1.dist-info/METADATA,sha256=j2EZt0fYPvtTMKH3rVMnYEE-pDdqUSFtvaH6Tx6pqBQ,2649
+expelliarmus-1.0.1.dist-info/WHEEL,sha256=l5uI7e2vYDQsG8-BdAxXE9BLA-oyyyoK5DyD9-hAApg,98
+expelliarmus-1.0.1.dist-info/top_level.txt,sha256=W5Ux57ruAY9nFWYnbEdY5DcbfRxxU1ESO8_d70M4Tg8,13
+expelliarmus-1.0.1.dist-info/RECORD,,
