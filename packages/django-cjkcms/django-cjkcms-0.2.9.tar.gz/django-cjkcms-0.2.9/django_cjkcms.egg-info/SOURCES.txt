@@ -1,0 +1,7 @@
+README.md
+setup.py
+django_cjkcms.egg-info/PKG-INFO
+django_cjkcms.egg-info/SOURCES.txt
+django_cjkcms.egg-info/dependency_links.txt
+django_cjkcms.egg-info/requires.txt
+django_cjkcms.egg-info/top_level.txt
