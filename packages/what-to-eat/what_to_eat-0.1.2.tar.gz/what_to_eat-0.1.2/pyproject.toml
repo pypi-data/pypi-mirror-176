@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "what-to-eat"
+version = "0.1.2"
+description = "What to eat? CLI tool to interaction with Wolt API"
+authors = ["Kamil Woźniak <jestem.kamil.wozniak@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+what-to-eat = "what_to_eat.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+pydantic = "^1.10.2"
+httpx = "^0.23.0"
+inquirer = "^2.10.1"
+
+[tool.poetry.urls]
+homepage = "https://github.com/Valaraucoo/what-to-eat"
+repository = "https://github.com/Valaraucoo/what-to-eat"
+documentation = "https://github.com/Valaraucoo/what-to-eat"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.118"
+pytest = "^7.2.0"
+mypy = "^0.990"
+factory-boy = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+select = ["E", "F", "Q", "U", "N", "C", "B", "T"]
+ignore = ["T201", "E999", "B008"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+strict_optional = false
+show_error_codes = true
+
+[tool.mypy-app.cache]
+ignore_errors = true
