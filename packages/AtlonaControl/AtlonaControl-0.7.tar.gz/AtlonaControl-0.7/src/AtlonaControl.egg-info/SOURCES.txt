@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/AtlonaControl/__init__.py
+src/AtlonaControl/apiFunctions.py
+src/AtlonaControl/atlonaControl.py
+src/AtlonaControl/classStatus.py
+src/AtlonaControl/main.py
+src/AtlonaControl/utilityFunctions.py
+src/AtlonaControl.egg-info/PKG-INFO
+src/AtlonaControl.egg-info/SOURCES.txt
+src/AtlonaControl.egg-info/dependency_links.txt
+src/AtlonaControl.egg-info/top_level.txt
