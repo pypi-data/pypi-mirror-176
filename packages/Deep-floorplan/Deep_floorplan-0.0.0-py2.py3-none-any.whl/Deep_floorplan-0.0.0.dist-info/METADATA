@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Deep-floorplan
+Version: 0.0.0
+Summary: Deep FloorPlan
+Home-page: UNKNOWN
+Author: Leo Leung
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib (==3.3.2)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: opencv-python (==4.4.0.44)
+Requires-Dist: pdbpp (==0.10.2)
+Requires-Dist: tensorboard (==2.3.0)
+Requires-Dist: tensorflow-gpu (==2.3.0)
+Requires-Dist: tensorflow-model-optimization
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: Pillow (==8.0.1)
+Requires-Dist: gdown (==3.13.0)
+Requires-Dist: Flask (==2.1.2)
+Requires-Dist: Flask-Bcrypt (==0.7.1)
+Requires-Dist: Flask-Classful (==0.14.2)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: Flask-Ext (==0.1)
+Requires-Dist: Flask-Jsonpify (==1.5.0)
+Requires-Dist: Flask-Markdown (==0.3)
+Requires-Dist: Flask-WTF (==0.14.3)
+Requires-Dist: flake8 (==4.0.1)
+Requires-Dist: pytest (==7.0.1)
+Requires-Dist: black (==22.3.0)
+Requires-Dist: isort (==5.10.1)
+Requires-Dist: pytest-cov (==3.0.0)
+Requires-Dist: mypy (==0.961)
+Requires-Dist: pytest-mock (==3.7.0)
+Requires-Dist: pytest-flask (==1.2.0)
+Provides-Extra: linting
+Requires-Dist: black (==22.3.0) ; extra == 'linting'
+Requires-Dist: isort (==5.10.1) ; extra == 'linting'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'linting'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+
+UNKNOWN
+
+
