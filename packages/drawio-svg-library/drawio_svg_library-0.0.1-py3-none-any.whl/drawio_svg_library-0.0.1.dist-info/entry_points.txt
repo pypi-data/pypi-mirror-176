@@ -1,0 +1,2 @@
+[console_scripts]
+drawio-svg-library = drawio_svg_library.cli:app

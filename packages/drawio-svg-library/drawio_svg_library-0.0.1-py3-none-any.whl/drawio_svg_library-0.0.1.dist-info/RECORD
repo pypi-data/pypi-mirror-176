@@ -1,0 +1,9 @@
+drawio_svg_library/__about__.py,sha256=cIgy9df6FxOD99JyMnLf0HdOQ8Y0anZE8YzryZOQpbA,125
+drawio_svg_library/__init__.py,sha256=UUJh9hC3DmvKHzgO_jEfk9LffyI2M-ic0brd1m9qZHk,103
+drawio_svg_library/cli.py,sha256=bsyBIIAd-07oUXO4v0UmhpJ2q0Z8UWFYJr3EoqYHiJY,1461
+drawio_svg_library/core.py,sha256=HmbQl_pvnf_3qq_Dj5ab9M8HIDegab4soWEejVQ8pyA,3359
+drawio_svg_library-0.0.1.dist-info/METADATA,sha256=4uI-dLjT5QH0lRmsbdNflrm6AD7YtripZT9_ybHzKKE,13766
+drawio_svg_library-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+drawio_svg_library-0.0.1.dist-info/entry_points.txt,sha256=aAMyHc_c8EvnJRJ8grHKDruwQj2EJmyJbjqFIUOAfio,66
+drawio_svg_library-0.0.1.dist-info/licenses/LICENSE.txt,sha256=Zq1Q0tvcJUsiA1v_pzSq2rIN-ovqrsZ0iTOUImCo5F0,1095
+drawio_svg_library-0.0.1.dist-info/RECORD,,
