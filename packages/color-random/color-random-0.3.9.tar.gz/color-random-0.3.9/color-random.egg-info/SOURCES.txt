@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+color-random/__init__.py
+color-random.egg-info/PKG-INFO
+color-random.egg-info/SOURCES.txt
+color-random.egg-info/dependency_links.txt
+color-random.egg-info/top_level.txt
