@@ -1,0 +1,6 @@
+README.md
+setup.py
+shahida.egg-info/PKG-INFO
+shahida.egg-info/SOURCES.txt
+shahida.egg-info/dependency_links.txt
+shahida.egg-info/top_level.txt
