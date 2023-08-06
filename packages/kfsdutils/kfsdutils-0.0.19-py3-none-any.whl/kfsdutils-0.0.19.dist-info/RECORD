@@ -1,0 +1,10 @@
+kfsdutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kfsdutils/base.py,sha256=5P6y190N4lO3n7NugjW193uZY2ishtMzLwnjKjKAot4,3750
+kfsdutils/logger.py,sha256=HPdFMjjqhQAwLXZx6YTDw56bcUlfURLpFlFy33CuChs,2478
+kfsdutils/singleton.py,sha256=N8tGRSHrQrQSpZE8ti8IElxEYg5KFa_gPRa-7L1Nju0,307
+kfsdutils/utils.py,sha256=JK0SzMIUu0miZGl90Y_loLsTulnDOW1F365vCgWf7hA,5303
+kfsdutils-0.0.19.dist-info/LICENSE,sha256=q1R4oydfES-iTgYU-T1XTvH3POt9ftqkOzokYcE2GFU,34378
+kfsdutils-0.0.19.dist-info/METADATA,sha256=W-mgSqxZhdBNSWaE683BV3un_kj1f--peB51rKbUaQ0,254
+kfsdutils-0.0.19.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kfsdutils-0.0.19.dist-info/top_level.txt,sha256=9kCbzVh61HmPvp2e8jfV8TNwVXBI2d3PSyj7PBXgKzg,10
+kfsdutils-0.0.19.dist-info/RECORD,,
