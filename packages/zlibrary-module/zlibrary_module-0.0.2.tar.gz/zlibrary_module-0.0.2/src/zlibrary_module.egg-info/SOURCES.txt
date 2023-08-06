@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zlibrary_module/__init__.py
+src/zlibrary_module/zlib.py
+src/zlibrary_module.egg-info/PKG-INFO
+src/zlibrary_module.egg-info/SOURCES.txt
+src/zlibrary_module.egg-info/dependency_links.txt
+src/zlibrary_module.egg-info/top_level.txt
