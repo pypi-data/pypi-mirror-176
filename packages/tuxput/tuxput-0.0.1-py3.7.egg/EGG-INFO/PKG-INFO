@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: tuxput
+Version: 0.0.1
+Summary: The Serverless File Uploader
+Home-page: https://gitlab.com/Linaro/tuxput
+Author: Linaro Limited
+License: UNKNOWN
+Description: # tuxput
+        
+        The Serverless File Uploader
+        
+        tuxput is a python/flask application which provides a file uploading interface
+        to S3, and is designed to be run serverlessly with
+        [Zappa](https://github.com/Miserlou/Zappa).
+        
+        # Configuration
+        
+        Configuration is handled through environment variables. The following
+        configuration variables are used.
+        
+        - `S3_BUCKET`
+          - required: True
+          - description: S3 bucket name containing the files to serve. Example:
+            `storage.staging.lkft.org`
+        - `S3_REGION`
+          - required: True
+          - description: Region containing the S3 bucket. Example:`us-east-1`
+        - `S3_ROOT`
+          - required: False
+          - description: An optional path that can be used to prefix the folder
+            in S3 to where the files will be uploaded.
+        - `SITE_TITLE`
+          - required: False
+          - description: Defaults to `Tuxput`. Set to anything you like for a global
+            site title.
+        - `ALLOW_UPLOAD_OVERWRITE`
+          - required: False
+          - description: boolean, defaults to False.  Allows uploaders to overwrite
+            existing files.
+        - `AUTH_BUCKET`
+          - required: False
+          - description: String that is the name of a separate S3 bucket that contains
+            the AUTH_FILE.
+        - `AUTH_FILE`
+          - required: False
+          - description: String that is the key (filename) of a json file containing
+            tokens and paths to which they are authorized to upload.  Defaults to
+            'tuxput.passwd'
+        
+        # Run Locally
+        
+        To run locally, install tuxput, ensure AWS access is available environmentally,
+        and run:
+        
+        ```shell
+        S3_BUCKET=testing-tuxput.ctt.linaro.org S3_REGION=us-east-1 FLASK_APP=tuxput flask run
+        ```
+        
+        # Run with Zappa
+        
+        This application is intended to be ran and deployed with
+        [Zappa](https://github.com/Miserlou/Zappa) and hosted by AWS [API
+        Gateway](https://aws.amazon.com/api-gateway/) and
+        [Lambda](https://aws.amazon.com/lambda/).
+        
+        To use with Zappa, create an app shim named zappa_init.py.
+        
+        For an example, please see:
+        
+        https://gitlab.com/kspoon-linaro/tuxput-deploy-ctt/
+        
+        
+        # Features
+        
+        ## Auth File
+        
+        Authorization is handled very simply.  Tokens are created and put into a CSV
+        file specified by the `AUTH_FILE` option.  Each entry in the file lists a
+        token and a unix-style file pattern to which the token is allowed to upload.
+        When a client attempts to upload a file, the path will be checked against
+        the authorized paths associated with the token and access will be granted to
+        the first match that is found.
+        
+        If the AUTH_FILE is located in an S3 bucket different from S3_ROOT, you
+        may specify it with the AUTH_BUCKET option.
+        
+        ```
+        token,path
+        qza1234,somecorp/someproduct/*
+        ```
+        
+        Only the 'token' and 'path' fields are currently required.
+        
+        The 'path' setting in this example will allow the user to create any filepath
+        under the `somecorp/someproduct` folder in S3.  Note that the "\*" is required
+        or else the auth rule would restrict the user to just creating the object `somecorp/someproduct`
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Description-Content-Type: text/markdown
