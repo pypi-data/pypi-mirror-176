@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cryptlib/__init__.py
+cryptlib/encstr.py
+cryptlib.egg-info/PKG-INFO
+cryptlib.egg-info/SOURCES.txt
+cryptlib.egg-info/dependency_links.txt
+cryptlib.egg-info/top_level.txt
