@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ct-module
+Version: 0.19
+Summary: This a package for creatring a list of iam user from an environmet
+License-File: licence.txt
