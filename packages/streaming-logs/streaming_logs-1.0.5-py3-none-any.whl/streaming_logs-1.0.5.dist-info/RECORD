@@ -1,0 +1,11 @@
+streaminglogs/__init__.py,sha256=hxC9caaIl--Y_NpvdCaOo-IL3XDWzRGRZKGK6hNzB5w,246
+streaminglogs/activitylog.py,sha256=RlsmFoBQF00QQX4cNAXAgIkC0kgiyeklQ3QMUeWs5G4,791
+streaminglogs/exceptionlog.py,sha256=7IjHYntq_gSfYGQT2YVZ3DXq2WXwEQciSo_HkE1Zd5s,1124
+streaminglogs/genericlog.py,sha256=_BkcV9rDALPJJUpvc5hA4kS7QlPgVPqrDaGreI0c8hc,557
+streaminglogs/logginghandler.py,sha256=VEitVXXRQUpx047hGEwWcCz-mfLLKr283BciOfW8lIU,4367
+streaminglogs/streaminglogsservicecontext.py,sha256=rA_zN2T8M2YIRjIJb1x6pED_LRdF1z4EUPXMu2Hr4Gc,238
+streaming_logs-1.0.5.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+streaming_logs-1.0.5.dist-info/METADATA,sha256=0eZhOIkn6fYAJ-rrTeR3Ngl0usKCeuVRHNVJp0dKkwQ,594
+streaming_logs-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streaming_logs-1.0.5.dist-info/top_level.txt,sha256=hkPXKC3indQNlijlJRwSkqALTWW7YGkpW7rHskVpIOY,14
+streaming_logs-1.0.5.dist-info/RECORD,,
