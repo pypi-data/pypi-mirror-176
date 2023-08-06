@@ -1,0 +1,3 @@
+python-ldap>=3.0
+dnspython
+ply>=3.8
