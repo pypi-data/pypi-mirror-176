@@ -1,0 +1,5 @@
+mj_poetry_example1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mj_poetry_example1/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+mj_poetry_example1-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mj_poetry_example1-0.1.0.dist-info/METADATA,sha256=1hGRe7HO6rHcYbEwfu3Nbq4ATyW6ipq8ll65dqOBaZk,395
+mj_poetry_example1-0.1.0.dist-info/RECORD,,
