@@ -1,0 +1,6 @@
+uvicorn_httparse/__init__.py,sha256=-HEEpZQtRraNbStccqaYXmPxCAPHa5_RABipuMdZcBg,87
+uvicorn_httparse/protocol.py,sha256=Zf21Tpo15cBHT2Z8RhFAdMgMY3CMJzrDWUGHTkwMi-Y,22104
+uvicorn_httparse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvicorn_httparse-0.1.0.dist-info/METADATA,sha256=_l-IlRz12CkW0QWEf3TAH_IRHOVmjYxfLldLPxdu2sA,1143
+uvicorn_httparse-0.1.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+uvicorn_httparse-0.1.0.dist-info/RECORD,,
