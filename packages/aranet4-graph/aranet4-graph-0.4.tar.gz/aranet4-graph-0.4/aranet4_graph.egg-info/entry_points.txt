@@ -1,0 +1,3 @@
+[console_scripts]
+aranet4-graph = aranet4graph:main
+
