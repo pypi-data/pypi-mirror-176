@@ -1,0 +1,6 @@
+jax_autovmap.py,sha256=93JTaC9WFrOhTw76OXevb6bz-c9sU_DpqLW6BWrBAoo,6988
+test_autovmap.py,sha256=yn6IySOO_DS7oj1w1e0AktfHnl5IV11PlQonJwZ1Ra0,3632
+jax_autovmap-0.1.0.dist-info/METADATA,sha256=2lFgqwFEmPlf4lB0_CrmxbpXmZZ1WykOabMY80BIEwI,4241
+jax_autovmap-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jax_autovmap-0.1.0.dist-info/top_level.txt,sha256=E6W2kx1BeRs0QEcoQ2-lKMr627RijhB3nOJ113W4AvQ,27
+jax_autovmap-0.1.0.dist-info/RECORD,,
