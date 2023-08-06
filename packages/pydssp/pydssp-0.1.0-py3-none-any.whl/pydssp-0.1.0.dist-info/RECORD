@@ -1,0 +1,10 @@
+pydssp/__init__.py,sha256=z1HrEvUIE6LrygnBvk9inu7BljIKrC7UwP0h6EouD74,40
+pydssp/main.py,sha256=ZmSUVGhcGhQEammWEs4Mx5mAmgL7BKB1jMAP4yURWJU,1576
+pydssp/pydssp_numpy.py,sha256=CcsQLG4oJUDThfClkenGSzGLDiG6GMHoiEDTbQMOatA,4794
+pydssp/pydssp_torch.py,sha256=WEPSV52seXs-tL76ZxLeZczrtEKNXqoOs9wwAn19p1I,4676
+pydssp-0.1.0.data/scripts/pydssp,sha256=LlqduzrsuHMYMOSBkX6FQ_YYjlfN0RYkPP3xb_lpGcE,1109
+pydssp-0.1.0.dist-info/LICENSE,sha256=bAop_VewfCUosnC8-leFdVl71gvB-vm4BDyOfqCooEM,1072
+pydssp-0.1.0.dist-info/METADATA,sha256=HxNlqM5J-cfkb4hSNr6zD7V2Xd9t1VQxTPL2QPTXJW0,4268
+pydssp-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydssp-0.1.0.dist-info/top_level.txt,sha256=KO4twFxSEyOyeYqM4OKu_cHho7pV5gh5UEKJd4HyboY,7
+pydssp-0.1.0.dist-info/RECORD,,
