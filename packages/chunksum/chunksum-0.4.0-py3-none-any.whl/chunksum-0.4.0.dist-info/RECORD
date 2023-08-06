@@ -1,0 +1,11 @@
+chunksum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chunksum/cdc.py,sha256=azPWXwTur6n8JevGkfnBc2207CKsSoTe814U9tbUBN0,3265
+chunksum/chunksize.py,sha256=aeaINeWfFNcU-6usQV6URDsXTH1w_rAdQOXC0lOVdic,1708
+chunksum/chunksum.py,sha256=meNA8VYefTv4AsD0f9ejrD2ErLPIInqY3UJhlDq2Vgs,6739
+chunksum/cli.py,sha256=RlN-UmRIA4sTc6xn5jIE5t8lIzE_otfabNTy0-IyNxY,2967
+chunksum/parser.py,sha256=mE2fBCBZvh7oGpEUbcs3Tgz8A-_9HK23eztrB1pOE48,1905
+chunksum-0.4.0.dist-info/entry_points.txt,sha256=4YgSbW7Z5TftjOj1PavIBQurb1XEsTrAVkQVd1M1Hc0,46
+chunksum-0.4.0.dist-info/LICENSE,sha256=mAtRveZ1NYzyo4AXHlKaJ6EAsXJpWwGDi8wXfxFZ4NY,1066
+chunksum-0.4.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chunksum-0.4.0.dist-info/METADATA,sha256=aoeVm3V3Issvsk3hzkF4wmZmpZAAApZYRrWX4aO-h6c,2608
+chunksum-0.4.0.dist-info/RECORD,,
