@@ -1,0 +1,3 @@
+[console_scripts]
+alignme=alignme.__main__:main
+
