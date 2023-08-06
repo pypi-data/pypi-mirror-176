@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lora-lang-splitter
+Version: 0.1.0
+Summary: A package to split a text with both Chinese and English. Returns two separate Chinese and English strings.
+License: MIT
+Author: Adrian-Wong
+Author-email: adrian@asklora.ai
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# import
+
+`from lora_lang_splitter import split_eng_cn`
+
+# Usage
+
+`english_text, chinese_text = split_eng_cn("Markov's long 中文 text")`
+
+# Output
+
+`str(english_text), str(chinese_text)`
+
