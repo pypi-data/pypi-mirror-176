@@ -1,0 +1,3 @@
+[kedro.starters]
+starter=getindata_kedro_starters.starters:starters
+

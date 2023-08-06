@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: getindata-kedro-starters
+Version: 0.1.2
+Summary: Starters for kedro projects to simplify pipelines deployment using GetInData plugins
+Home-page: https://github.com/getindata/kedro-starters
+License: Apache-2.0
+Keywords: kedro,kedro starters,mlops
+Author: Michał Bryś
+Author-email: michal.brys@getindata.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Documentation, https://getindata-kedro-starters.readthedocs.io/
+Project-URL: Repository, https://github.com/getindata/kedro-starters
+Description-Content-Type: text/markdown
+
+# Kedro starters by GetInData
+
+In [GetInData](https://getindata.com/) we deploy Kedro-based projects to different environments 
+(on-premise and cloud). This repository hosts the starters with a few deployment recipes, including
+the ones that use [our plugins](https://github.com/search?q=topic%3Akedro-plugin+org%3Agetindata+fork%3Atrue&type=repositories).
+
+## Available starters
+
+* [pyspark-iris-running-on-gke](getindata_kedro_starters/pyspark-iris-running-on-gke/README.md) uses Google Kubernetes Engine to run Spark-powered kedro pipeline in a distributed manner.
+
+## Starters development
+
+1. Clone the repository and switch to `develop`
+1. Run `poetry install`
+1. Run `source $(poetry env info --path)/bin/activate`
+Note: when you use `conda`, you need the extra step of `conda decativate` to avoid conflict between the `conda` and `venv`
+3. Install kedro `pip install kedro==0.18.3`
+4. Run `kedro new -s <name-of-the-starter>`
+
