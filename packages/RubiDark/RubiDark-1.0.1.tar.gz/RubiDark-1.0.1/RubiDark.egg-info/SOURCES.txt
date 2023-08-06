@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+RubiDark/Rubika.py
+RubiDark/Service.py
+RubiDark/__init__.py
+RubiDark/encryption.py
+RubiDark/titelMessages.py
+RubiDark.egg-info/PKG-INFO
+RubiDark.egg-info/SOURCES.txt
+RubiDark.egg-info/dependency_links.txt
+RubiDark.egg-info/top_level.txt
