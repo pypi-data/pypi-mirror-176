@@ -1,0 +1,3 @@
+[console_scripts]
+alignment_tool=alignment_tool.__main__:main
+
