@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "notes-compiler"
+version = "0.3.3"
+description = ""
+authors = ["Manuel Brea <m.brea.carreras@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+notes = "notes_compiler.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Markdown = "^3.4.1"
+markdown-katex = "^202112.1034"
+python3-markdown-extension-graphviz = "^0.1.0"
+Pygments = "^2.13.0"
+pymdown-extensions = "^9.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.pyright]
+venv = ".venv"
+venvPath = "."
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
