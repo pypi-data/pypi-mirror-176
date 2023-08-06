@@ -1,0 +1,14 @@
+README.md
+setup.py
+Image_Processing/__init__.py
+Image_Processing/Processing/Transformation.py
+Image_Processing/Processing/__init__.py
+Image_Processing/Processing/combination.py
+Image_Processing/Utils/__init__.py
+Image_Processing/Utils/io.py
+Image_Processing/Utils/plot.py
+Processamento_de_imagem_Desafio_DIO.egg-info/PKG-INFO
+Processamento_de_imagem_Desafio_DIO.egg-info/SOURCES.txt
+Processamento_de_imagem_Desafio_DIO.egg-info/dependency_links.txt
+Processamento_de_imagem_Desafio_DIO.egg-info/requires.txt
+Processamento_de_imagem_Desafio_DIO.egg-info/top_level.txt
