@@ -1,0 +1,12 @@
+spender/__init__.py,sha256=p0yp7rNePJtzWvsvUG3lVPeRbTo0_O-XmgBbo4CH3B0,2069
+spender/instrument.py,sha256=Lx-f_XZrDO6Xq2cWYpBnHK-8CMKaadHlDUAqr0AGwYo,3919
+spender/model.py,sha256=qUQm16AgRL1hdZyokkluixqmzZr_qnFhQc7Vjks27D8,17701
+spender/util.py,sha256=U-n3sBVBxTU45Z53OZ5w0LQRuEEw6-w_pfCVLarzcQo,3479
+spender/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spender/data/emission_lines.py,sha256=f8a59O0RZYlHRD4xJPqzr1IBRjVZVxwQcsvXfxsBeVw,906
+spender/data/sdss.py,sha256=IABqQSgz2GNIdWhuCHcMZ6HvK-yowz7SXaFFZiq0EmE,17743
+spender-0.1.dist-info/LICENSE,sha256=c5rBtDcm1qxK5vgEmJj3-1R22ZGRAUPm1fiQ5gbomzc,1082
+spender-0.1.dist-info/METADATA,sha256=oXdxa53rqNRy_4Gx9wocpJt5zNA-bpQNhAjoHh8WRTA,2411
+spender-0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+spender-0.1.dist-info/top_level.txt,sha256=m-KORhHHwVWPOlVJOki6UT8tqi1N3g0DTmMUgfKIkys,8
+spender-0.1.dist-info/RECORD,,
