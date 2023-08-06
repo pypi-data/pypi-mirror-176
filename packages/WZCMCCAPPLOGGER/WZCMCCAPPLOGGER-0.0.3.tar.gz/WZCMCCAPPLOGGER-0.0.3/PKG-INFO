@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: WZCMCCAPPLOGGER
+Version: 0.0.3
+Summary: LOG
+Home-page: https://github.com/pypa/sampleproject
+Author: YHQ
+Author-email: 228899059@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+For CMCC  APP璁板綍鐢ㄧ殑
+```angular2
+浣跨敤璇存槑:
+
+import  WZCMCCAPPLOGGER;
+
+
+
+WZCMCCAPPLOGGER.InsertLog();
+
+```
