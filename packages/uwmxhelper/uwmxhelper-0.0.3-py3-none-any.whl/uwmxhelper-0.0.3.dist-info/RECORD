@@ -1,0 +1,11 @@
+uwmxhelper/__init__.py,sha256=o7f53mhRxTP3HiD_BccbFP7mOZkpT4mRG8eRWqE0D20,202
+uwmxhelper/adapt_ts.py,sha256=UNPRALYRR2YFBnBIYEgKbgGw97ykV5SPUtUzhoYStOk,823
+uwmxhelper/dryweatherflow.py,sha256=5AJJQW7xwkMUY5nz97I_SADNY8vqCtAfX-rsoIzDUys,3284
+uwmxhelper/greet.py,sha256=ewZ805K0j84aZHDddIcAOmxV9pRca67Gctm9-n2MwyY,375
+uwmxhelper/nextprime.py,sha256=RYn4OT1X5FXBuh-h73dcY7zapGt7hPzr2hg8eQJJoFY,276
+uwmxhelper/plot_ts.py,sha256=F3A-GX986oX5BpXCQ2MeOhxS1YK7iPkhVhWdtleBJs8,1026
+uwmxhelper/plot_ts_cum.py,sha256=1EfcQeZvyasWu8_7jRPjEzD0Vj9THreUz9DUrcFAMqY,1092
+uwmxhelper-0.0.3.dist-info/METADATA,sha256=i02p4lPKeIzlodwVMLezau_KKyjtBnD9azYCda5cwnY,2657
+uwmxhelper-0.0.3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+uwmxhelper-0.0.3.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+uwmxhelper-0.0.3.dist-info/RECORD,,
