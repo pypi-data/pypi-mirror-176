@@ -1,0 +1,5 @@
+uvicorn_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvicorn_manager/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvicorn_manager-0.0.0.dist-info/METADATA,sha256=5Zf0Px96euYQX2p5QMtFODdwPL-3wTgHZ9jMktss7_Q,246
+uvicorn_manager-0.0.0.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+uvicorn_manager-0.0.0.dist-info/RECORD,,
