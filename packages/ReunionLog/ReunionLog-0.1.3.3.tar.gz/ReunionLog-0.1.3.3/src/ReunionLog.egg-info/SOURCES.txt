@@ -1,0 +1,17 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/OAuth/Authentication.py
+src/OAuth/__init__.py
+src/Report/ReportAbilities.py
+src/Report/ReportEventsDamageDone.py
+src/Report/ReportEventsDeath.py
+src/Report/ReportEventsInterrupts.py
+src/Report/ReportNames.py
+src/Report/__init__.py
+src/ReunionLog.egg-info/PKG-INFO
+src/ReunionLog.egg-info/SOURCES.txt
+src/ReunionLog.egg-info/dependency_links.txt
+src/ReunionLog.egg-info/not-zip-safe
+src/ReunionLog.egg-info/top_level.txt
