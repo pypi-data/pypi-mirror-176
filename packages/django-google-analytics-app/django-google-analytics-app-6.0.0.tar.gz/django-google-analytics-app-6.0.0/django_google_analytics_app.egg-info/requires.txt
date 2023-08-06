@@ -1,0 +1,14 @@
+Django<4.2,>=3.2
+celery<5.2.3
+requests
+beautifulsoup4
+structlog
+
+[:python_version == "3.7"]
+importlib_metadata<5
+
+[lint]
+flake8
+
+[test]
+responses
