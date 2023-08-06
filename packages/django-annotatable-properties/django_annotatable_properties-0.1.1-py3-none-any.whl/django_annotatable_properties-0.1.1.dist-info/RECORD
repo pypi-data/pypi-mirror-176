@@ -1,0 +1,8 @@
+annotatable_properties/__init__.py,sha256=m_Wmku9ekavtt3iwoBXtWx-86qtuHJ420oniOvaOJgY,60
+annotatable_properties/apps.py,sha256=ocGzFG9IpuTRwppzhagCsXzYUDKJ_eBiWaRJ0rmJOsU,175
+annotatable_properties/managers.py,sha256=ecyGPIPzCzqHI4ImGOBjUkhwMMOAsREMjJ1bho6KZBA,5396
+django_annotatable_properties-0.1.1.dist-info/LICENSE,sha256=yfR1s39lel9J8ICDoZETEel9gypdDJThi3d2pGBVr5I,1526
+django_annotatable_properties-0.1.1.dist-info/METADATA,sha256=ipVCPTsbklbLxVKt2AnerDadQdrPjaagU_70m96VuAo,685
+django_annotatable_properties-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_annotatable_properties-0.1.1.dist-info/top_level.txt,sha256=4bXAG-C7D16cqoaLGqxjnTEEQEV8PeEFgF9EgJ8VtgI,23
+django_annotatable_properties-0.1.1.dist-info/RECORD,,
