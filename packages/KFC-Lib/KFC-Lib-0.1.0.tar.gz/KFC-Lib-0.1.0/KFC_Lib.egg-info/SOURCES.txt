@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+KFC_Lib.egg-info/PKG-INFO
+KFC_Lib.egg-info/SOURCES.txt
+KFC_Lib.egg-info/dependency_links.txt
+KFC_Lib.egg-info/top_level.txt
