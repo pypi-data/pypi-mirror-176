@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_cv2_shape_finder/LICENSE
+a_cv2_shape_finder/README.MD
+a_cv2_shape_finder/__init__.py
+a_cv2_shape_finder/requirements.txt
+a_cv2_shape_finder/thirdparty.json
+a_cv2_shape_finder.egg-info/PKG-INFO
+a_cv2_shape_finder.egg-info/SOURCES.txt
+a_cv2_shape_finder.egg-info/dependency_links.txt
+a_cv2_shape_finder.egg-info/requires.txt
+a_cv2_shape_finder.egg-info/top_level.txt

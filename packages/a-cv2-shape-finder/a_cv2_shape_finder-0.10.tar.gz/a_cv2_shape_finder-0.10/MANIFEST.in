@@ -1,0 +1,4 @@
+include a_cv2_shape_finder/requirements.txt
+include a_cv2_shape_finder/thirdparty.json
+include a_cv2_shape_finder/README.MD
+include a_cv2_shape_finder/LICENSE
