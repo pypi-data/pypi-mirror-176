@@ -1,0 +1,6 @@
+[console_scripts]
+moe=moe.cli:main
+
+[moe.plugins]
+random=moe_random.random
+
