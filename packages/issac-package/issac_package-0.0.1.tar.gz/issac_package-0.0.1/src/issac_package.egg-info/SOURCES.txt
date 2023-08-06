@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/issac_package/__init__.py
+src/issac_package/core.py
+src/issac_package.egg-info/PKG-INFO
+src/issac_package.egg-info/SOURCES.txt
+src/issac_package.egg-info/dependency_links.txt
+src/issac_package.egg-info/top_level.txt
