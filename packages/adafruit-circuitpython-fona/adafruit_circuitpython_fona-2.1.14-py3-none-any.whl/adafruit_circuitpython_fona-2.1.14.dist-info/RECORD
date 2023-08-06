@@ -1,0 +1,10 @@
+adafruit_fona/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adafruit_fona/adafruit_fona.py,sha256=SCOTjfgnDY6zTNifaFy4XlogR6_C-WQN8KJAGKManOo,33499
+adafruit_fona/adafruit_fona_network.py,sha256=DC4I_Ey5P0nORFIrzRVacBEheEuc8UtlAmqBT-zTyCQ,2945
+adafruit_fona/adafruit_fona_socket.py,sha256=bLfNovhtZyOIaQ40QlEmt9czWhX4WLp_5OpU12yc0nw,8162
+adafruit_fona/fona_3g.py,sha256=K7Qstk49gx0vNKzInHDtM2CUcahS2p5ffOn0wjc5ewI,10818
+adafruit_circuitpython_fona-2.1.14.dist-info/LICENSE,sha256=F7jJL1qZXhhqw_eTg117BkwtjgoEu1EfrcQ5hDdV1Wo,1103
+adafruit_circuitpython_fona-2.1.14.dist-info/METADATA,sha256=cwt1OnfCjKnMhdX-uaraktB2Vjq59KvLCzXdlNYonUc,3448
+adafruit_circuitpython_fona-2.1.14.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+adafruit_circuitpython_fona-2.1.14.dist-info/top_level.txt,sha256=zwloTdDL5Qfyca3VgUPB1Xb7LxhZM0QGniKyxbgdqVA,14
+adafruit_circuitpython_fona-2.1.14.dist-info/RECORD,,
