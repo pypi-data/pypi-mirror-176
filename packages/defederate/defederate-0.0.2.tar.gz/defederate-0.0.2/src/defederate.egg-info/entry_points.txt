@@ -1,0 +1,2 @@
+[console_scripts]
+defederate = defederate.cli:main

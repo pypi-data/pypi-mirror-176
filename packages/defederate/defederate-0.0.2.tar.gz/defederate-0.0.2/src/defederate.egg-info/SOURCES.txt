@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.cfg
+setup.py
+src/defederate.egg-info/PKG-INFO
+src/defederate.egg-info/SOURCES.txt
+src/defederate.egg-info/dependency_links.txt
+src/defederate.egg-info/entry_points.txt
+src/defederate.egg-info/not-zip-safe
+src/defederate.egg-info/requires.txt
+src/defederate.egg-info/top_level.txt
