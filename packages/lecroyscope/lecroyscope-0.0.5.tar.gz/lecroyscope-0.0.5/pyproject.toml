@@ -1,0 +1,42 @@
+[build-system]
+requires = [
+    "hatchling",
+]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "lecroyscope"
+authors = [
+    { name = "Luis Antonio Obis Aparicio", email = "luis.antonio.obis@gmail.com" },
+]
+description = "An unofficial Python package 🐍📦 to interface with Teledyne LeCroy oscilloscopes and read binary trace files (.trc)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "python-vxi11",
+]
+dynamic = [
+    "version",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+dev = [
+    "pytest", "pre-commit", "uproot", "awkward",
+]
+
+[project.urls]
+"Download" = "https://github.com/lobis/lecroy-scope/releases"
+"Homepage" = "https://github.com/lobis/lecroy-scope"
+"Bug Tracker" = "https://github.com/lobis/lecroy-scope/issues"
+
+[tool.hatch.version]
+path = "src/lecroyscope/version.py"
