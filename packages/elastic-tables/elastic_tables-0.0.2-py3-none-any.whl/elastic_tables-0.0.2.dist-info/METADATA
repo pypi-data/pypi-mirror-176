@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: elastic-tables
+Version: 0.0.2
+Summary: Format text using elastic tabstops
+Keywords: table,tab,tabstop,text,formatting,alignment
+Author-email: Martin Herrmann <martin@famherrmann.de>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Dist: typer
+Project-URL: Source, https://github.com/deffi/elastic-tables
+
+# elastic-tables
+
+Format text using elastic tabstops
+
+[![Python package](https://github.com/deffi/elastic-tables/actions/workflows/python-package.yml/badge.svg)](https://github.com/deffi/elastic-tables/actions/workflows/python-package.yml)
+
+Required Python version is 3.8
+
