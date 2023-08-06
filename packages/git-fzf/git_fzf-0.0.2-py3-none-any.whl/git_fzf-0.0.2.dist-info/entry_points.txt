@@ -1,0 +1,9 @@
+[console_scripts]
+git-iadd=git_fzf.commands.add:run
+git-icommit=git_fzf.commands.commit:run
+git-idiff=git_fzf.commands.diff:run
+git-idifftool=git_fzf.commands.difftool:run
+git-ireset=git_fzf.commands.reset:run
+git-irestore=git_fzf.commands.restore:run
+git-iswitch=git_fzf.commands.switch:run
+
