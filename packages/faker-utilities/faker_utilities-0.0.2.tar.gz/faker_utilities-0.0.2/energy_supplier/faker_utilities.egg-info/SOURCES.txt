@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+energy_supplier/__init__.py
+energy_supplier/es_ES/__init__.py
+energy_supplier/faker_utilities.egg-info/PKG-INFO
+energy_supplier/faker_utilities.egg-info/SOURCES.txt
+energy_supplier/faker_utilities.egg-info/dependency_links.txt
+energy_supplier/faker_utilities.egg-info/not-zip-safe
+energy_supplier/faker_utilities.egg-info/requires.txt
+energy_supplier/faker_utilities.egg-info/top_level.txt
+energy_supplier/pt_PT/__init__.py
