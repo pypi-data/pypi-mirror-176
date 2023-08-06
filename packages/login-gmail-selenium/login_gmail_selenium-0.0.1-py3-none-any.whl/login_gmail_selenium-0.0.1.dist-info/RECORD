@@ -1,0 +1,14 @@
+login_gmail_selenium/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_gmail_selenium/login.py,sha256=lTqkyhena5phHcKfN2a3cWC_229Q2s9pipRaL86cLaA,289
+login_gmail_selenium/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_gmail_selenium/common/constant.py,sha256=fB0fsvAvUPZeulnXxLeCaI3FPk3dpt6ioXM-h7Rtdyg,1101
+login_gmail_selenium/extension/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_gmail_selenium/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_gmail_selenium/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_gmail_selenium/util/helper.py,sha256=sEap7NoYO426M4pTSra2DGkkCFv2FbzNewnzk1f4TS4,2613
+login_gmail_selenium/util/profile.py,sha256=0Lzxb1Ug64M-LvGs1wNL9QlRbrl_CwOUstoG25kvMf8,6369
+login_gmail_selenium-0.0.1.dist-info/LICENSE,sha256=RgGx5bTOjPJ43qvtTKKI6OZymA1_EQe3PghathXubLA,1078
+login_gmail_selenium-0.0.1.dist-info/METADATA,sha256=jOjU0RUFRYWO8pzjINbCVFqr6gxaxSo8sheST5WSLiY,1283
+login_gmail_selenium-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+login_gmail_selenium-0.0.1.dist-info/top_level.txt,sha256=xVdp31gvYMgyFD8S1-ZKAc65c90CSOmvq2rI9q7O-js,21
+login_gmail_selenium-0.0.1.dist-info/RECORD,,
