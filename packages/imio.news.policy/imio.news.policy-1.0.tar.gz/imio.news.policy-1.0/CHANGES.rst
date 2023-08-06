@@ -1,0 +1,23 @@
+Changelog
+=========
+
+
+1.0 (2022-11-15)
+----------------
+
+- Add available languages to prepare for multilingual
+  [laulaz]
+
+- Use collective.z3cform.select2 for taxonomy widget
+  [laulaz]
+
+- Update buildout to use Plone 6.0.0a3 packages versions
+  [boulch]
+
+- Add GenericSetup caching profile [sverbois]
+
+1.0a1 (2022-01-25)
+------------------
+
+- Initial release.
+  [boulch]
