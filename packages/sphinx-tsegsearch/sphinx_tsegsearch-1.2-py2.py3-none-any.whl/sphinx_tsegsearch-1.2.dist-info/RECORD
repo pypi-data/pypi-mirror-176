@@ -1,0 +1,8 @@
+sphinx_tsegsearch/.DS_Store,sha256=LE_WMX_CEKu3MYjDki4aBe_r7RfHJ02QWmYp67yfaSs,6148
+sphinx_tsegsearch/__init__.py,sha256=TEMw7WUlWF5qZkHfBDC6Rvp3Te2wf4KHlr6S5DKiyqU,1339
+sphinx_tsegsearch/static/splitQuery.js,sha256=IQQ9Zmtg2jQbrZEY7oCParP1xAJpS4c1byRXrtaPNbE,6336
+sphinx_tsegsearch/static/tiny_segmenter.js,sha256=eg8VOxO6OhpcnuChPwfkYDDB_pyGlK6SUpDoEd7TANc,20607
+sphinx_tsegsearch/templates/search.html,sha256=Ir6S0YskN53RO4uTHjgCft9lO8pw0yAEFDtb6mRzsqY,156
+sphinx_tsegsearch-1.2.dist-info/WHEEL,sha256=wycAfLpmmoS0r5FEKIVwKB-iEMUiIZXv6P5GBpfA1-Q,87
+sphinx_tsegsearch-1.2.dist-info/METADATA,sha256=TU2Ag2vB78E3TXPikphEyGN5pkzpVStUDgd_b6DHVcA,2312
+sphinx_tsegsearch-1.2.dist-info/RECORD,,
