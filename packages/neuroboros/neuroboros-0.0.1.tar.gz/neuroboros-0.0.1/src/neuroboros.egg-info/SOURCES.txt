@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/neuroboros/__init__.py
+src/neuroboros.egg-info/PKG-INFO
+src/neuroboros.egg-info/SOURCES.txt
+src/neuroboros.egg-info/dependency_links.txt
+src/neuroboros.egg-info/requires.txt
+src/neuroboros.egg-info/top_level.txt
