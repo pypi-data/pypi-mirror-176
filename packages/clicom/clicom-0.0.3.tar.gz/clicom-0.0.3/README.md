@@ -1,0 +1,2 @@
+This package wraps [`Typer`](https://typer.tiangolo.com/) library and adds the ability to run your commands in a loop,
+executing commands one after the other until tying `exit` or invoking keyboard interrupt. 
