@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/rose_colormap/__init__.py
+src/rose_colormap/plotly.py
+src/rose_colormap/rose.py
+src/rose_colormap.egg-info/PKG-INFO
+src/rose_colormap.egg-info/SOURCES.txt
+src/rose_colormap.egg-info/dependency_links.txt
+src/rose_colormap.egg-info/requires.txt
+src/rose_colormap.egg-info/top_level.txt
+test/test_colormap_plotly.py
+test/test_colormap_plt.py
