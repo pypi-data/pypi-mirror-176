@@ -1,0 +1,11 @@
+setup.py
+foxmetrics.egg-info/PKG-INFO
+foxmetrics.egg-info/SOURCES.txt
+foxmetrics.egg-info/dependency_links.txt
+foxmetrics.egg-info/top_level.txt
+meters/__init__.py
+meters/averagemeter.py
+meters/meter_interface.py
+meters/metric.py
+meters/storage_interface.py
+meters/utils.py
