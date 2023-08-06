@@ -1,0 +1,9 @@
+vose/__init__.pxd,sha256=kmO5VOHbe0-Rtah-jXOhTIbIxv4YsBTqQXDYowQEekc,34
+vose/__init__.py,sha256=fD4C4-kxKCs603PolnnDLq_dFmq87jy9gQNbO4-FO_I,29
+vose/sampler.cpython-311-darwin.so,sha256=e3cYOmd-hByNn0FOSmbJiwJoPcKeuakZT-ax1NhsUW4,215450
+vose/sampler.pxd,sha256=c_ym0yhRSFiWcMxvvvA8DdCEiWwHF2fZKyNBx5pvOKE,188
+vose-0.0.1.dist-info/LICENSE,sha256=XGk0GpyPbvKbrRsYTBs_LhHQVAN8aBpnpLJlsGgVepo,1068
+vose-0.0.1.dist-info/METADATA,sha256=dkme2Eq57Oq6NPS5SlkDldOx78lBfKg2DDDsJJVPPTA,8970
+vose-0.0.1.dist-info/WHEEL,sha256=OrIabruwr374a7-d3FLm2CpC7ndsg-1QjWka4SGA4K0,110
+vose-0.0.1.dist-info/top_level.txt,sha256=nPeYWSrmpOnnw3PBB5YLeyHKK6cSB4yaimDG4vDtjPU,5
+vose-0.0.1.dist-info/RECORD,,
