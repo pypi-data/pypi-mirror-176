@@ -1,0 +1,5 @@
+poetry_project_example_pypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_project_example_pypi/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+poetry_project_example_pypi-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+poetry_project_example_pypi-0.1.0.dist-info/METADATA,sha256=cIqsTwaysA68t0I4ts7lpYYmqx_ii1LmxxImfZQzpZk,443
+poetry_project_example_pypi-0.1.0.dist-info/RECORD,,
