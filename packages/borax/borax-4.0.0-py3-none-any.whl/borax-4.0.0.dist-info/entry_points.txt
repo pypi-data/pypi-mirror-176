@@ -1,0 +1,2 @@
+[gui_scripts]
+festival_creator = borax.apps.festival_creator:main
