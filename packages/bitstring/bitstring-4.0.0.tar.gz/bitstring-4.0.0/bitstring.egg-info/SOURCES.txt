@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+bitstring.py
+pyproject.toml
+release_notes.txt
+bitstring.egg-info/PKG-INFO
+bitstring.egg-info/SOURCES.txt
+bitstring.egg-info/dependency_links.txt
+bitstring.egg-info/top_level.txt
+tests/smalltestfile
+tests/test.m1v
