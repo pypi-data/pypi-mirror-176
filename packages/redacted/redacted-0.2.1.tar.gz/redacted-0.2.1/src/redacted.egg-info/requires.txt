@@ -1,0 +1,6 @@
+hypothesis
+pipetools
+pydantic
+faker
+rstr
+setuptools>=65.5.1
