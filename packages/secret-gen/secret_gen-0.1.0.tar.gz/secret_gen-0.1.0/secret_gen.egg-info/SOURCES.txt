@@ -1,0 +1,11 @@
+pyproject.toml
+setup.cfg
+setup.py
+secret_gen/__init__.py
+secret_gen/main.py
+secret_gen.egg-info/PKG-INFO
+secret_gen.egg-info/SOURCES.txt
+secret_gen.egg-info/dependency_links.txt
+secret_gen.egg-info/entry_points.txt
+secret_gen.egg-info/requires.txt
+secret_gen.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+secret-gen = secret_gen.main:main
