@@ -1,0 +1,6 @@
+selenium
+undetected-chromedriver
+urllib3
+psutil
+requests-html
+selenium-wire
