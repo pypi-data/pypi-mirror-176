@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: physics-fields
+Version: 0.0.1
+Home-page: http://github.com/sesquideus/physics-fields
+Author: Martin "Kvík" Baláž
+Author-email: martin.balaz@fmph.uniba.sk
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+

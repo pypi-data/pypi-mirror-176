@@ -1,0 +1,11 @@
+physfields/__init__.py,sha256=dLYthMv5rgdVw0UYSBWA-2Y-7YlwN3j387YMw52Ans4,158
+physfields/scalarfield.py,sha256=X8m333SZQCtgAgNY5JmSWRjPeSd59q-k4Lyj9xInOCY,4220
+physfields/vectorfield.py,sha256=_-EOa_g11W_WAoa26zTkFTOsofdpE59c2nRpH3gAUwE,8607
+physfields/zernike.py,sha256=T8oOUG8JB-1UqFG2LQNA1dg5NPx5iLvZ6ptnJplDUgU,5028
+physics-fields/__init__.py,sha256=-bkqAyNWd4jtlsPMFBXqXjl3MvyFqs7-RSdfu9X3P2o,74
+physics-fields/scalarfield.py,sha256=W2d733RXaPonvqBWBlbUol725F1tFOlQ0TpDotykYgg,2152
+physics-fields/vectorfield.py,sha256=aTGfMhPwagcWADF44K9Qkw-ioI7vQf3uMAaMijgMhOA,3825
+physics_fields-0.0.1.dist-info/METADATA,sha256=Nl8UkEIVL0ULBIYY7d-ohdVAWZjBfEHU5cHGcBAc6o0,267
+physics_fields-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+physics_fields-0.0.1.dist-info/top_level.txt,sha256=Cqbu1PY7YWJAqO6kakwW-KcERU0W1GBNhoH4eEwPIas,11
+physics_fields-0.0.1.dist-info/RECORD,,
