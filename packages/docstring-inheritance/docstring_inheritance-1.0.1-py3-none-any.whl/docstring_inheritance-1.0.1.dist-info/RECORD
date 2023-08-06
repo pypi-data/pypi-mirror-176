@@ -1,0 +1,12 @@
+docstring_inheritance/__init__.py,sha256=1LXPuIRysh2L4ahI1Mx1GDmaxEz9d77y2J17i467wLM,2112
+docstring_inheritance/metaclass.py,sha256=wAc4XyKvmCYZXcFBZRZQ-1hFoHU5CZh6v1Axcn4-0oU,3337
+docstring_inheritance/processors/__init__.py,sha256=Nv2byHStXYpM_0GOT3uZ1hdfE4od1DdiYnHwsT3R-fc,1416
+docstring_inheritance/processors/base.py,sha256=vEDvsE3gk2prdOCSh9Rd03DFFj-B5g58BpcXcTcVva8,9726
+docstring_inheritance/processors/google.py,sha256=XGhRVPMPGyf2KZ9FqmcTevnpUQ2YFO7-xib_toOR7_U,3167
+docstring_inheritance/processors/numpy.py,sha256=gvZ9xQxrxODg9kwehXM0myvvU67fg5ZbQkzVM2JjTVQ,3539
+docstring_inheritance-1.0.1.dist-info/CREDITS.md,sha256=JOcaCPNIbPwKnv6TG_rSUIa4-Ip8JWAw2-Dv3wJJne4,1264
+docstring_inheritance-1.0.1.dist-info/LICENSE.txt,sha256=wHnBzJayEUojGq_vwITaVKjOOHbPCY-NECRhkCAgZx0,1056
+docstring_inheritance-1.0.1.dist-info/METADATA,sha256=yJnEG4ghpLrFgTeNK__EvymMc6czamPm47dDyBvvxjw,9755
+docstring_inheritance-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+docstring_inheritance-1.0.1.dist-info/top_level.txt,sha256=nPGyGSfsRki5T4Ci5Ot6J4ZPcdgQb5v43npIePaoAjU,22
+docstring_inheritance-1.0.1.dist-info/RECORD,,
