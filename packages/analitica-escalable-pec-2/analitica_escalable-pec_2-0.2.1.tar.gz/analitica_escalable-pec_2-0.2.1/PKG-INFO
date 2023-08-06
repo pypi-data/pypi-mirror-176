@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: analitica_escalable-pec_2
+Version: 0.2.1
+Summary: Example model package.
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+Example model package.
