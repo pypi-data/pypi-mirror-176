@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: FinancialMaths
+Version: 0.0.1
+Summary: Calculator for financial mathematics
+Author: murigibrian (Brian Mburu)
+Author-email: <murigibrian18@gmail.com>
+Keywords: python,finance,financial mathematics,annuity,interest rate,discount rate
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+
+# FinancialMaths
+
+
+
+- A simple financial mathematics calculator.
+
+- Contents are mainly from the actuarial notes (CT1)
+
+
+
+## Folder structure:
+
+
+
+1. **InterestRateMethods** &rarr; contains the methods from converting {simple, compunding} {interest, discounting} {norminal, effective} rates
+
+2. **InterestRates.py** &rarr; contains the Rate class which is responsible to the common interest methods.
+
+3. **Annuities** &rarr; contains Annuity class with annuity functions.
+
+4. **VaryAnnuity** &rarr; contains Annuity class with annuity functions. Also contiains varying annuity methods.
+
