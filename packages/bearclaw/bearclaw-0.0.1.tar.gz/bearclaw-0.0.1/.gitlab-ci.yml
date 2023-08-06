@@ -1,0 +1,16 @@
+test:
+  image: registry.gitlab.com/hylkedonker/bearclaw:GRCh37
+  stage: test
+  script:
+    - export DEBIAN_FRONTEND="noninteractive"
+    - pip3 install coverage
+    - cd src
+    - coverage run -m --source=bearclaw unittest discover test
+    - coverage report -m
+    - coverage xml
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: src/coverage.xml
