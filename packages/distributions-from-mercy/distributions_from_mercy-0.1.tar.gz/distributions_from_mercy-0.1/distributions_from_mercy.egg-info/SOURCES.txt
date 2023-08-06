@@ -1,0 +1,11 @@
+licence.txt
+setup.py
+distributions_from_mercy/Binomialdistribution.py
+distributions_from_mercy/Gaussiandistribution.py
+distributions_from_mercy/Generaldistribution.py
+distributions_from_mercy/__init__.py
+distributions_from_mercy.egg-info/PKG-INFO
+distributions_from_mercy.egg-info/SOURCES.txt
+distributions_from_mercy.egg-info/dependency_links.txt
+distributions_from_mercy.egg-info/not-zip-safe
+distributions_from_mercy.egg-info/top_level.txt
