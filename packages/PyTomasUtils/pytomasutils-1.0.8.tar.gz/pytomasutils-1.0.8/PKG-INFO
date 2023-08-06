@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyTomasUtils
+Version: 1.0.8
+Summary: This module has been created by Mattia Tomaselli to help his efforts in computer science at school.
+Project-URL: Homepage, https://github.com/MattyTomas/PyTomasUtils
+Project-URL: Bug Tracker, https://github.com/MattyTomas/PyTomasUtils/issues
+Author-email: Mattia Tomaselli <mattia.tomas07@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PyTomasUtils
+Official Repository of the PyTomasUtils module for Python!
