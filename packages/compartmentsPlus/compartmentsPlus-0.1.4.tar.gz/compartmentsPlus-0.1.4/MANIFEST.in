@@ -1,0 +1,3 @@
+include CompartmentsPlus/* CompartmentPlus/Compartments+.lnk CompartmentsPlus/serverSpinup.bat
+inlcude tests/* tests/testFiles/SimpleSIModel.json test/testFiles/teset.csv
+include README.md
