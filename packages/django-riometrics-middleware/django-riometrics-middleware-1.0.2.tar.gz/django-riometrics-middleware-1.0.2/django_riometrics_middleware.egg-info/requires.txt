@@ -1,0 +1,4 @@
+requests>=2.20.0
+urllib3>=1.23
+pytelegraf==0.3.3
+setuptools
