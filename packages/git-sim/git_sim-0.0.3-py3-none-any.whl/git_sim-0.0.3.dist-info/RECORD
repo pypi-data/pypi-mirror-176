@@ -1,0 +1,17 @@
+git_sim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_sim/__main__.py,sha256=nbR0X8ZRRJ5bnqtJkyX2PbRP4DklPvrMj3sIhdI5O_8,5319
+git_sim/git_sim.py,sha256=sYP2UAGxnlpIouH0HGh8QPLlFAXRQVNJLEllTHKTmHI,1097
+git_sim/git_sim_add.py,sha256=QWKjTD5ape_OogYAArhI52cGRIrtG5ogHjHA-y1XObU,1570
+git_sim/git_sim_base_command.py,sha256=m5mMzvsPESydHq9sZ5LaHT2yXdERBJE6ruARYX1CNLE,17005
+git_sim/git_sim_branch.py,sha256=p8c5-9hMgkFCGsrfuvsbdkj2sWHNA9-qLB3IPz7vAzU,1185
+git_sim/git_sim_reset.py,sha256=zv1F3wEuP-wSWrth41PUh633x1gV66liYqsl6h_e7Ho,3603
+git_sim/git_sim_revert.py,sha256=OeP-0DEUjNjRMYJrcgTJ-hCPNMxToJULq4_n9qdT188,3114
+git_sim/git_sim_status.py,sha256=0XaQmsGoJ97oNEODTMmoCW9tSTX6C6eFiBKO703vdDs,562
+git_sim/git_sim_tag.py,sha256=g4PSBfRBEUngwjmSIbHi18t8HayzoyGsfZ80rtN7p90,1087
+git_sim/logo.png,sha256=VtXYQM6fBsnA77wnk96gnHiHeVqPjzinxRDDFXkaaFE,63319
+git_sim-0.0.3.dist-info/LICENSE,sha256=EP702Mml6WJtHR9_g7DI6Joxj99LmrmNADmcNOTDzPk,1075
+git_sim-0.0.3.dist-info/METADATA,sha256=EoVDDeccNMSWo0yZuYKhyZ1-qgPQ8l78rq-NwX29rHg,9730
+git_sim-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+git_sim-0.0.3.dist-info/entry_points.txt,sha256=hxw1ricZXsUpds7l2zzj7_mvLeUicx1ed7NFjfJzj7g,50
+git_sim-0.0.3.dist-info/top_level.txt,sha256=P4ftirkM6VV4T79A3hgIcTuQiWdFR2e4ctr5phnn-g8,8
+git_sim-0.0.3.dist-info/RECORD,,
