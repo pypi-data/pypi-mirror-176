@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: subprompt
+Version: 0.0.9
+Summary: Substitute Regex in files with prompt confirmation
+Home-page: https://git.augustogunsch.com/augusto/subprompt
+Author: Augusto Lenz Gunsch
+Author-email: augusto@augustogunsch.com
+Project-URL: Bug Tracker, https://git.augustogunsch.com/augusto/subprompt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 6 - Mature
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama (>=0.4.3)
+
+# subprompt
+Interactively change every line matching a regex in multiple files.
+
+## Installation
+Through PyPI:
+```
+python3.9 -m pip install subprompt
+```
+
+## Usage
+```
+usage: subprompt [-h] (-d | -r SUB) [-n N] REGEX FILES [FILES ...]
+
+Modifies lines matched by a regex interactively
+
+positional arguments:
+  REGEX
+  FILES
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -d          delete line
+  -r SUB      replace match with expression
+  -n N        size of lines preview (default=3)
+```
