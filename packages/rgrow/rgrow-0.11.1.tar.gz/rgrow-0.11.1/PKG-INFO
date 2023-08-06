@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rgrow
+Version: 0.11.1
+Requires-Dist: numpy
+License-File: LICENSE
+Summary: Python interface to rgrow.
+Author: Constantine Evans <cevans@costi.eu>
+Author-email: Constantine Evans <cevans@costi.eu>
+License: BSD-3-Clause
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/evansfmm/pyrgrow
+
+[![docs-master](https://img.shields.io/badge/docs-master-blue)](https://cge.frama.io/pyrgrow/)
+
+Repository for PyRgrow.
+
+To install the most recent tagged version, you can use the following:
+
+```sh
+pip install -U pyrgrow --index-url https://framagit.org/api/v4/projects/67113/packages/pypi/simple
+```
+
+The [latest master-branch wheels](https://framagit.org/cge/pyrgrow/-/jobs/artifacts/master/browse/target/wheels?job=build) are also auto-generated..
+
