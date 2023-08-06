@@ -1,0 +1,4 @@
+numpy
+scipy
+os
+shutli
