@@ -1,0 +1,10 @@
+README.md
+setup.py
+corocorona.egg-info/PKG-INFO
+corocorona.egg-info/SOURCES.txt
+corocorona.egg-info/dependency_links.txt
+corocorona.egg-info/entry_points.txt
+corocorona.egg-info/requires.txt
+corocorona.egg-info/top_level.txt
+corona/__init__.py
+corona/app.py

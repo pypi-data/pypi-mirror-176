@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: corocorona
+Version: 0.1.0
+Summary: A covoid-19 in Japan
+Home-page: https://github.com/sho-yoshikawa/corocorona
+Author: syoshika
+Author-email: syoshika@student.42tokyo.jp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# corocorona
+
+display Total number of corona infections
+
+## Getting Started
+
+test package for me!
+
+### Requirements
+
+```
+python >= 3.9
+```
+Nothing more
+
+### Installing
+
+```
+pip install corocorona
+```
+
+### How to use
+
+```
+from printCorona import corona
+printCorona()
+printCorona("埼玉県")
+```
+
+### Display
+
+[東京都]
+累計感染者数： 3,343,691
+(最終更新日：2022-11-11)
+
+[埼玉県]
+累計感染者数： 1,275,759
+(最終更新日：2022-11-11)
+
+## Authors
+
+* **Sho Yoshikawa**
