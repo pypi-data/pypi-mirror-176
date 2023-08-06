@@ -1,0 +1,8 @@
+napari
+nd2
+numpy
+scikit-image
+zarr
+matplotlib
+dask
+imageio_ffmpeg
