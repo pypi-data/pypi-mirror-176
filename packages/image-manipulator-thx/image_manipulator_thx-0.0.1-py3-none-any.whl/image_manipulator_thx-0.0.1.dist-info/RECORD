@@ -1,0 +1,11 @@
+image_manipulator_thx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_manipulator_thx/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_manipulator_thx/processing/combination.py,sha256=LPn5t2hIY3wULRrRZInfNtU7tqUmv5CsBLrUIU2hx_w,851
+image_manipulator_thx/processing/transformation.py,sha256=sPcCkJzigmeK4jG9idAS3kW5_jaAfQZ98YcDc5KR1_Q,361
+image_manipulator_thx/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_manipulator_thx/utils/io.py,sha256=8f2VhODRAvkf6Hm81zxFsSrd3G-AWOMtz6SvbgIDQik,191
+image_manipulator_thx/utils/plot.py,sha256=B4RmWi11rilkzoSyPg5T7ESGENYAxnyXt8tjalBZ-VI,971
+image_manipulator_thx-0.0.1.dist-info/METADATA,sha256=dioXoSb8Hi1OosV6OHZvVPMvoEYLfEcLFiP7WiuwM44,1046
+image_manipulator_thx-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+image_manipulator_thx-0.0.1.dist-info/top_level.txt,sha256=kqQ1-yGnm3QurqI2NWHDK1ygBPZcpWOi01opBlCQtSQ,22
+image_manipulator_thx-0.0.1.dist-info/RECORD,,
