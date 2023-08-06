@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/genetic_lib.egg-info/PKG-INFO
+src/genetic_lib.egg-info/SOURCES.txt
+src/genetic_lib.egg-info/dependency_links.txt
+src/genetic_lib.egg-info/requires.txt
+src/genetic_lib.egg-info/top_level.txt
+src/mypackage/__init__.py
+src/mypackage/genetic_library.py
