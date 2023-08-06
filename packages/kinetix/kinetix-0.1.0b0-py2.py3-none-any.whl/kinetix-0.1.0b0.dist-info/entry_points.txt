@@ -1,0 +1,3 @@
+[console_scripts]
+kinetix=kinetix.runner:main
+
