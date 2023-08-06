@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: evoml
+Version: 0.1.0
+Summary: EvoML Framework
+Home-page: https://github.com/housecricket/evoml
+Author: Dang Trung Anh
+Author-email: dangtrunganh@gmail.com
+License: MIT license
+Keywords: evoml
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=====
+evoml
+=====
+
+
+.. image:: https://img.shields.io/pypi/v/evoml.svg
+        :target: https://pypi.python.org/pypi/evoml
+
+.. image:: https://img.shields.io/travis/housecricket/evoml.svg
+        :target: https://travis-ci.com/housecricket/evoml
+
+.. image:: https://readthedocs.org/projects/evoml/badge/?version=latest
+        :target: https://evoml.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/housecricket/evoml/shield.svg
+     :target: https://pyup.io/repos/github/housecricket/evoml/
+     :alt: Updates
+
+
+
+EvoML Framework
+
+
+* Free software: MIT license
+* Documentation: https://evoml.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+...
+
+=======
+History
+=======
+
+0.1.0 (2022-04-30)
+------------------
+
+* First release on PyPI.
