@@ -1,0 +1,22 @@
+[project]
+name = "pyprobound"
+description = "ProBound model manipulation and scoring interface"
+version = "0.0.13"
+authors = [
+    { name = "Katerina Faltejskova", email = "katerina.faltejskova@uochb.cas.cz" }
+]
+dependencies = [
+    "pyjnius",
+    "numpy",
+    "pandas"
+]
+readme = "readme.md"
+
+[tool.setuptools]
+packages = ["pyProBound"]
+
+[project.urls]
+repository = "https://github.com/Caeph/pyProBound"
+
+[tool.setuptools.package-data]
+pyProBound = ["*.json", "*.jar"]
