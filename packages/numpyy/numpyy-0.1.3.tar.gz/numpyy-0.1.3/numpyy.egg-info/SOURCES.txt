@@ -1,0 +1,8 @@
+LICENSE
+README.md
+numpyy.py
+pyproject.toml
+numpyy.egg-info/PKG-INFO
+numpyy.egg-info/SOURCES.txt
+numpyy.egg-info/dependency_links.txt
+numpyy.egg-info/top_level.txt
