@@ -1,0 +1,17 @@
+dataclass_rest/__init__.py,sha256=lGoGWLLObCQdz6Vvt5MOYf2MvdNz41JNdHqPYjmb6o0,169
+dataclass_rest/base_client.py,sha256=d7KSTFHP8MERqX2lQ4EX4aRwllWLicQ6Zc0eLQHZpaE,1380
+dataclass_rest/boundmethod.py,sha256=IkD9EXkNxe3LXMiKQvZVJvxExXQHhg7Gun0pmk6RI4I,6189
+dataclass_rest/client_protocol.py,sha256=tcGRXIRdHVOnM7or06ERSjEkbx9LbHRzHuSqmH4FAFw,679
+dataclass_rest/exceptions.py,sha256=ahbVUor5R8QTppcfjps83QZQB5is6O4vLxq5_re_0Nk,455
+dataclass_rest/http_request.py,sha256=Gwjf5EiEJe31KOmMuN11jPJNgHo3x1VWUQBItO6FMdE,359
+dataclass_rest/method.py,sha256=ekmnTRX8nYscOwxiqWXdDoFSQPSVQ0f4tBLztgIpSeU,1550
+dataclass_rest/methodspec.py,sha256=y_uVntExW6HbTUqlRXnrL2CBtab6NnZc9XXmimVB2H4,887
+dataclass_rest/parse_func.py,sha256=Oqeien8Ba7ZX0_T8JAxv5blNFHj0oE2DmCqHGl4uDo0,2126
+dataclass_rest/rest.py,sha256=qYDtEiCPnfBWpTBq6LY6GPAtCZYIoz8a8cTgb7frpe8,1136
+dataclass_rest/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclass_rest/http/aiohttp.py,sha256=AdNzPsdwN3PkObLnIzGGyNHyn7dstXam6nOrdQANlJk,2380
+dataclass_rest/http/requests.py,sha256=gOIASAt2ad7QPAVLkvxJozNVOOW44nrMzCoU0Nx-6Os,2152
+dataclass_rest-0.3.1.dist-info/METADATA,sha256=IiIsYEE8PY10E949gLSDB5OEskmN0P0yqCwfVXpwHyQ,3312
+dataclass_rest-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dataclass_rest-0.3.1.dist-info/top_level.txt,sha256=osFYAxU24c2sCKk3Z-z5KBHFpZ40SAoQ2e0BRqjCC1I,15
+dataclass_rest-0.3.1.dist-info/RECORD,,
