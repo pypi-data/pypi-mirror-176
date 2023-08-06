@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: m4b-util
+Version: 0.1.0
+Summary: A collection of command line utilities for creating, editing, and generally working with m4b files.
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+m4b-utils
+---------
+
+A collection of command line utilities for creating, editing, and generally working with m4b files.
+
+
+
