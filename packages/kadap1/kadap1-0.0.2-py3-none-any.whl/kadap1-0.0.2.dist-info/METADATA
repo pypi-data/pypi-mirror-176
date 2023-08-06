@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: kadap1
+Version: 0.0.2
+Summary: Korea Automotive Data Platform
+Home-page: https://github.com/Jongkeun21/kadap-test2
+Author: 이종근(jklee2)
+Author-email: jklee2@katech.re.kr
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: Pillow (>=7.1.2)
+Requires-Dist: PyYAML (>=5.3.1)
+Requires-Dist: Werkzeug (==2.0.3)
+Requires-Dist: flask-restplus (==0.13.0)
+Requires-Dist: ipython
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: matplotlib (>=3.2.2)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: opencv-python (>=4.1.1)
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: psutil
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: seaborn (>=0.11.0)
+Requires-Dist: thop (>=0.1.1)
+Requires-Dist: torch (>=1.7.0)
+Requires-Dist: torchvision (>=0.8.1)
+Requires-Dist: tqdm (>=4.64.0)
+
+# <div align="center">KADaP</div>
+KADaP(Korea Automotive Data Platform)은 도로교통공단에서 제공하는 
+오픈 데이터를 읽어 들일 수 있는 **Data Reader**와 
+YOLOv5를 이용한 **Object Detection**
+을 손쉽게 이용할 수 있도록 패키지 형태로 제공합니다.
+
+
+## <span style="color: #808080">Installation</span>
+**Windows 운영체제** 의 경우 파이썬 개발 환경으로 최신 버전의 Anaconda를 설치하세요. (Python3 버전용)
+
+```bash
+pip install KADaP
+```
+
+KADaP 에 사용되는 추가 모듈 설치가 필요합니다.
+
+```bash
+pip install -r requirements.txt
+```
+
+## <span style="color: #808080">Usage</span>
+```python
+import KADaP as kadap
+```
+
+### 1. Data Reader
+- 제공 데이터
+
+    | 이름 | 설명 |
+    |---|:---:|
+    | `city.py` | 도로교통공단 제공 도시, 군(구) 코드 검색 |
+    | `bicycle.py` | 자전거사고 다발지역 |
+    | `.` | *추가 예정* |
+
+- Example
+1) 도시, 군(구) 코드 검색
+
+```python
+city = kadap.City()
+cityCodes = city.getCityCodes()
+```
+
+2) 자전거사고 다발지역 검색
+
+```python
+"""
+자전거사고 다발지역 API 호출을 위해서 아래 세 가지 필요
+
+1. servicekey --> 도로교통공단에서 발급
+2. 도시, 군(구) 코드
+3. 검색 년도 코드 (12년도 이전, 13년도, ..., 20년도 이후)
+"""
+
+bicycle = kadap.Bicycle()
+
+searchYearCodes = bicycle.getSearchYearCodes()  # 검색 년도 코드 확인
+bicycle.setServicekey(servicekey)               # servicekey 입력
+bicycle.getData(yearCode, cityCode)             # 해당 년도, 해당 지역 정보 검색
+
+```
+
+### 2. Object Detection
+- YOLOv5 모델을 이용한 이미지 내 차량 검출 서비스 제공
+- Example
+
+```python
+"""
+객체 검출을 위해서 아래 네 가지 필요
+
+1. 사용할 가중치 파일 경로 (default로 yolov5s.pt 사용)
+2. 입력 이미지 경로 (단일 이미지 or 이미지 디렉토리)
+3. 입력 이미지 크기
+4. 결과 이미지가 저장 경로
+"""
+
+detect = kadap.Detect()
+detect.run(weights="ROOT/yolov5s.pt", source="ROOT/test/images", project="ROOT/runs/detect", name="exp")
+
+```
+
+
