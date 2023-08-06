@@ -1,0 +1,14 @@
+networkx
+pyvis
+leidenalg
+autocorrect
+spacy<3.4.1,>=3.0.0
+autocorrect
+xlsxwriter
+igraph
+matplotlib
+numpy
+emoji
+
+[coreferee]
+coreferee
