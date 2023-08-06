@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: chunkdup
+Version: 0.2.0
+Summary: Find (partial content) duplicate files.
+Home-page: https://github.com/xyb/chunkdup
+License: MIT
+Author: Xie Yanbo
+Author-email: xieyanbo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: chunksum (>=0.3.0,<0.4.0)
+Project-URL: Bug Tracker, https://github.com/xyb/chunkdup/issues
+Project-URL: Repository, https://github.com/xyb/chunkdup
+Description-Content-Type: text/markdown
+
+# chunkdup
+
+Find (partial content) duplicate files.
+
