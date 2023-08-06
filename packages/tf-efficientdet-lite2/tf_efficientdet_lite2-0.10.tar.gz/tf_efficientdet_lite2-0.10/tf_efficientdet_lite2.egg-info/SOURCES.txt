@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tf_efficientdet_lite2/LICENSE
+tf_efficientdet_lite2/README.MD
+tf_efficientdet_lite2/__init__.py
+tf_efficientdet_lite2/requirements.txt
+tf_efficientdet_lite2/thirdparty.json
+tf_efficientdet_lite2.egg-info/PKG-INFO
+tf_efficientdet_lite2.egg-info/SOURCES.txt
+tf_efficientdet_lite2.egg-info/dependency_links.txt
+tf_efficientdet_lite2.egg-info/requires.txt
+tf_efficientdet_lite2.egg-info/top_level.txt

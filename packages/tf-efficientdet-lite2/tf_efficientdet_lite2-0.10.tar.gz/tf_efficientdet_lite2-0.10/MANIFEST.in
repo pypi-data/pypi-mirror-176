@@ -1,0 +1,4 @@
+include tf_efficientdet_lite2/requirements.txt
+include tf_efficientdet_lite2/thirdparty.json
+include tf_efficientdet_lite2/README.MD
+include tf_efficientdet_lite2/LICENSE

@@ -1,0 +1,9 @@
+a_cv_imwrite_imread_plus
+appdirs
+opencv_python
+pandas
+regex
+requests
+subprocess_pipe
+tensorflow
+tensorflow_hub
