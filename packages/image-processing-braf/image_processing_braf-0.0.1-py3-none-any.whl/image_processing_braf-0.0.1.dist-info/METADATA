@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: image-processing-braf
+Version: 0.0.1
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/BiancaRAF/image_processing
+Author: Professora Karina
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image (>=0.16.1)
+
+# Image Processing
+
+## Description:
+
+The package image_processing_braf is used to:
+
+### Processing:
+
+- Histrogram matching
+- Structural similarity
+- Resize image
+
+### Utils:
+
+- Read image
+- Save image
+- Plot image
+- Plot result
+- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing_braf
+
+```bash
+pip install image_processing_braf
+```
+## Author
+Karina Kato
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
