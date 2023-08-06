@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hubspot_etl_pipeline_automatic_exporter"
+version = "0.0.3"
+authors = [
+    { name = "Wesley Barros", email = "wesleybarros950@gmail.com" }
+]
+description = "The exporter. Run by the cronjob on the server, this will open an automated browser window, login and click the export link on the report page."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "selenium",
+    "python-dotenv",
+    "super-eureka"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wesley950/bookish-disco"
+"Bug Tracker" = "https://github.com/wesley950/bookish-disco/issues"
