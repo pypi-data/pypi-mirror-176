@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ms_imputedhours_core"
+version = "0.0.1"
+description = "Core for several projects (Happeo, Alerts and Capacity)"
+authors = ["Jonathan Rodriguez <jonathan.rodriguez@makingscience.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://bitbucket.org/i2tic/ms-imputedhours-core/src/master/"
+repository = "https://bitbucket.org/i2tic/ms-imputedhours-core/src/master/"
+documentation = "https://bitbucket.org/i2tic/ms-imputedhours-core/src/master/README.md"
+keywords= ["imputedhours"]
+
+[tool.poetry.dependencies]
+python = ">3.7,<4"
+
+[tool.poetry.dev-dependencies]
+coverage = "*"
+tox = "*"
+codecov = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
