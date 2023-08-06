@@ -1,0 +1,17 @@
+py4dgeo-0.5.0.dist-info/top_level.txt,sha256=Hda6A92db-qiPIT5hUPqcZF2jhZNGidN7XyRJHmfs9A,8
+py4dgeo-0.5.0.dist-info/WHEEL,sha256=yYT5hqVhpv22ZIHoyZHrVTr4cxJ2pvMwE_qqI1_vOb8,142
+py4dgeo-0.5.0.dist-info/entry_points.txt,sha256=THd-4GjgSRDomj31l9nzgIw69Il4UhQOY0_rR8tK1ks,82
+py4dgeo-0.5.0.dist-info/RECORD,,
+py4dgeo-0.5.0.dist-info/METADATA,sha256=Hy29IXi57FcwrKKcchxsuR5MSoV7OLHRaT9ZmJorIZY,10090
+py4dgeo-0.5.0.dist-info/LICENSE.md,sha256=_YCib7s_ZErx-plBNERnApMpaFGXlyJ-B6E2jeqA8Lw,1023
+py4dgeo.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+py4dgeo/zipfile.py,sha256=8fQcJAFeSvgnFuseh4-zWoJcjVCZankwfhs4w7SGejk,2689
+py4dgeo/m3c2.py,sha256=ncfbmkeKXMBpyRizFTVAv46PunxzzzIm-2rCJ4Ilx0k,5912
+py4dgeo/fallback.py,sha256=_QtTG_b2ezARKTy1sXdEBnFuwcVdDUPc7UXs6HwNO4Q,5091
+py4dgeo/util.py,sha256=BUSPvKKD5FVG5vE_UOUC-ZGzuygtrP_Ipe3bEAk5MWI,8624
+py4dgeo/logger.py,sha256=smAzx7sQlPIysLSEStvOYpyVGeZOovJ3DGQg1sWAZnc,2237
+py4dgeo/cloudcompare.py,sha256=Y0B4q6dIOxHVQUaWqO3-RrwcjKrX6f34RbGDQWRE8sc,1123
+py4dgeo/segmentation.py,sha256=iSsr4N4LMjCpz6moTCh5fpAXkB4hbbJyCi-Gm-IZwn4,47456
+py4dgeo/epoch.py,sha256=MxmYo7f7ekfRGr72Hg-ejSTiFAZ1Bvo9g2TKWUCRuP8,11834
+py4dgeo/_py4dgeo.cpython-39-x86_64-linux-gnu.so,sha256=BK0-F4ETT1Rd8A1K_56JIUCM7PrOLv41uX4GALSthUU,677736
+py4dgeo/__init__.py,sha256=y14t7GdDoFLbwUV5k9ipYaULehUpPDsKDtxE-ET1eeo,522
