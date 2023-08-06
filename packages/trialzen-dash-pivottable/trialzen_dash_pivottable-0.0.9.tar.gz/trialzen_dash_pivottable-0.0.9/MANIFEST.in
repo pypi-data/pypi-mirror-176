@@ -1,0 +1,5 @@
+include trialzen_dash_pivottable/trialzen_dash_pivottable.min.js
+include trialzen_dash_pivottable/trialzen_dash_pivottable.dev.js
+include trialzen_dash_pivottable/metadata.json
+include trialzen_dash_pivottable/package.json
+include README.md
