@@ -1,0 +1,8 @@
+README.md
+setup.py
+asd21libraries/__init__.py
+asd21libraries/seismic_functions.py
+asd21libraries.egg-info/PKG-INFO
+asd21libraries.egg-info/SOURCES.txt
+asd21libraries.egg-info/dependency_links.txt
+asd21libraries.egg-info/top_level.txt
