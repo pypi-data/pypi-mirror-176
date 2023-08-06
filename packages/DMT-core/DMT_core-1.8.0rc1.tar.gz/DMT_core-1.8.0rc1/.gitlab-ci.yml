@@ -1,0 +1,148 @@
+#to run this locally:
+#login to container registry
+#>docker login registry.gitlab.com
+#run image:
+#>gitlab-runner exec docker run_core
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  WHEEL_LINK: ""
+stages:
+  - format
+  - test
+  - create_release
+  - release
+
+check_format:
+  image: registry.gitlab.com/dmt-development/dmt-core:base
+  stage: format
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /main/
+    - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+      when: manual
+  script:
+    - black --check --diff -v .
+
+test_DMT:
+  image: registry.gitlab.com/dmt-development/dmt-core:base
+  stage: test
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /main/
+    - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+      when: manual
+  needs:
+    - job: check_format
+  script:
+    - pip install --upgrade --upgrade-strategy eager -e .[develop,HDF5,latex,remote]
+    - pytest --cov=DMT/ test/test_core_no_interfaces/
+    - pytest --cov=DMT/ --cov-append test/test_interface_ngspice/test_*.py
+    - pytest --cov=DMT/ --cov-append test/test_interface_xyce/test_*.py
+    - pytest --cov=DMT/ --cov-append test/test_verilogae/test_*.py
+    # Hdev:
+    - git clone https://gitlab.com/metroid120/hdev_simulator.git
+    - cd hdev_simulator/HdevPy #HdevPy depends on DMT_core and therefore is installed here
+    - pip install -e .
+    - cd ..
+    # download the executable and put it into path
+    - wget "https://gitlab.com/metroid120/hdev_simulator/-/jobs/artifacts/master/raw/builddir_docker/hdev?job=build:linux" -O hdev
+    - chmod +x hdev
+    - export PATH=$PATH:$(pwd)
+    # now create the DMT simulation directory
+    - mkdir -p ~/.DMT/simulation_results
+    # run many test
+    - python3 HdevPy/scripts/run_tests.py
+    - cd ..
+    - pytest --cov-report term-missing --cov-report html --cov-report xml --cov=DMT/ --cov-append test/test_interface_hdev/test_*.py | tee coverage_report.txt
+    - coverage=$(python3 -c "import re; match = ''; match=re.search(r'TOTAL.+?([0-9]+)%', open('coverage_report.txt').read()); print(match.group(1))")
+    - anybadge -l coverage -v $coverage -f badge_coverage.svg coverage
+  coverage: "/TOTAL.+?([0-9]+)%/"
+  artifacts:
+    paths:
+      - coverage_report.txt
+      - htmlcov
+      - badge_coverage.svg
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+wheel_to_pypi:
+  image: registry.gitlab.com/dmt-development/dmt-core:base
+  stage: create_release
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^Version/
+  script:
+    - echo "VERSION_NR=$(python3 DMT/external/pypi.py --check_version $CI_COMMIT_TAG)"
+    - sed -i 's/9.9.9/$VERSION_NR/' setup.py
+    - python3 setup.py sdist bdist_wheel
+    - python3 -c "import re; match = re.search(r'(## \[\d.+?)((## \[)|\Z)', open('CHANGELOG').read(), re.DOTALL); print(match.group(1))" | tee current_changes.md
+    # push to pip
+    - TWINE_PASSWORD="$PIP_JOB_TOKEN" TWINE_USERNAME=__token__ python3 -m twine upload --verbose --repository-url https://upload.pypi.org/legacy/  dist/*
+    - echo "WHEEL_LINK=$(python3 DMT/external/pypi.py --wheel_link)" >> wheel_to_pypi.env
+  artifacts:
+    paths:
+      - current_changes.md
+    reports:
+      dotenv: wheel_to_pypi.env
+
+release_job:
+  image: registry.gitlab.com/gitlab-org/release-cli
+  stage: release
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^Version/
+  needs:
+    - job: wheel_to_pypi
+  script:
+    - >
+      release-cli create --name $CI_COMMIT_TAG --description current_changes.md
+      --tag-name $CI_COMMIT_TAG --ref $CI_COMMIT_SHA
+      --assets-link "{\"name\":\"wheel\",\"url\":\"${WHEEL_LINK}\",\"link_type\":\"other\",\"filepath\":\"/assets/DMT_core.whl\"}" 
+  
+pages:
+  image: registry.gitlab.com/dmt-development/dmt-core:base
+  stage: release
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^Version/
+  needs:
+    - job: wheel_to_pypi
+  script:
+    - pip install --upgrade --upgrade-strategy eager -e .[develop,HDF5,latex,remote]
+    - cd doc ; make html
+    - mv build/html/ ../public/
+  artifacts:
+    paths:
+      - public
+  
+sbom:
+  image: registry.gitlab.com/dmt-development/dmt-core:base
+  stage: release
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^Version/
+  needs:
+    - job: wheel_to_pypi
+  script:
+     - pip install --upgrade --upgrade-strategy eager -e .[develop,HDF5,latex,remote]
+     - pip install cyclonedx-bom
+     - cyclonedx-bom -e
+  artifacts:
+    paths:
+      - cyclonedx.xml
+
+build_container:
+  image: docker:20.10.17
+  stage: release
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^Version/
+  needs:
+    - job: wheel_to_pypi
+  services:
+    - docker:dind
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    # build container
+    - docker build -t registry.gitlab.com/dmt-development/dmt-core:full .
+    - docker tag registry.gitlab.com/dmt-development/dmt-core:full registry.gitlab.com/dmt-development/dmt-core:$CI_COMMIT_TAG
+    # push
+    - docker push registry.gitlab.com/dmt-development/dmt-core:full
+    - docker push registry.gitlab.com/dmt-development/dmt-core:$CI_COMMIT_TAG
