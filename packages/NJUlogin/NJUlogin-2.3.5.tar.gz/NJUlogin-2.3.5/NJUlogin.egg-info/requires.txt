@@ -1,0 +1,8 @@
+requests
+opencv-python-headless
+numpy
+lxml
+ddddocr
+pycryptodome
+inputimeout
+user_agents
