@@ -1,0 +1,8 @@
+LICENSE
+README.md
+main.py
+setup.py
+nimbus_pod.egg-info/PKG-INFO
+nimbus_pod.egg-info/SOURCES.txt
+nimbus_pod.egg-info/dependency_links.txt
+nimbus_pod.egg-info/top_level.txt
