@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nama_alamat/__init__.py
+nama_alamat/nama_alamat.py
+nama_alamat.egg-info/PKG-INFO
+nama_alamat.egg-info/SOURCES.txt
+nama_alamat.egg-info/dependency_links.txt
+nama_alamat.egg-info/entry_points.txt
+nama_alamat.egg-info/requires.txt
+nama_alamat.egg-info/top_level.txt
+nama_alamat/preprocessing/__init__.py
+nama_alamat/preprocessing/preprocessing.py
+nama_alamat/preprocessing/dict_files/__init__.py
