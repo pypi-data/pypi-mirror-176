@@ -1,0 +1,3 @@
+[console_scripts]
+tgp=telegram_parser.cli:run
+
