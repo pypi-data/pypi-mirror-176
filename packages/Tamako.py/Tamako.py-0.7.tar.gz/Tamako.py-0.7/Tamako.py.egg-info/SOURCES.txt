@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Tamako/Tamako.py
+Tamako/__init__.py
+Tamako/bivariate.py
+Tamako/determinant_eigen.py
+Tamako/fittedLinear.py
+Tamako/func_solv.py
+Tamako/independent_dependent.py
+Tamako/plot_func.py
+Tamako.py.egg-info/PKG-INFO
+Tamako.py.egg-info/SOURCES.txt
+Tamako.py.egg-info/dependency_links.txt
+Tamako.py.egg-info/requires.txt
+Tamako.py.egg-info/top_level.txt
