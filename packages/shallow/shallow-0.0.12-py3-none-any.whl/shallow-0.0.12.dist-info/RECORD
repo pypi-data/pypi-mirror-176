@@ -1,0 +1,8 @@
+shallow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shallow/tensorflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shallow/torch/__init__.py,sha256=mEou4JqcdVpxPUPkZcLzEwULMyq7YPckEuwq0IR-8aI,12863
+shallow-0.0.12.dist-info/LICENSE,sha256=57Hg44B8O0vMadRGqDYutPTTGkAEQi0lfdvtI7Kzzcs,1070
+shallow-0.0.12.dist-info/METADATA,sha256=k-DPYriTVucY99zcFw6_4nCJtWMi8ZFCxB-8uPy_vzY,492
+shallow-0.0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shallow-0.0.12.dist-info/top_level.txt,sha256=qQHbYORGLzM7QfNrg3WRnG53efQfvx40xCloGGf44hs,8
+shallow-0.0.12.dist-info/RECORD,,
