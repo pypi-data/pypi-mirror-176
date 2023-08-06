@@ -1,0 +1,3 @@
+[console_scripts]
+tum-exam-scripts=tum_exam_scripts.main:app
+
