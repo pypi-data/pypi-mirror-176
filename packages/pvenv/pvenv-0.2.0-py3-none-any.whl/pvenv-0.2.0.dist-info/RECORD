@@ -1,0 +1,12 @@
+pvenv/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+pvenv/main.py,sha256=Agi4wlmqrupmKvs0RWubhNNRIpBO81J4cgsaOkJs8iY,1511
+pvenv/scripts/pvenv.sh,sha256=N58pOnTKZIUULOO_R0zdpaTEQhGB4_fivbJ4sEpoALY,499
+pvenv/subcommands/__init__.py,sha256=bWi6-C-7oEn0S-jN4pUD-Dev3eYL8mCtvy2vJHDx0_8,97
+pvenv/subcommands/invenv.py,sha256=yMAXpN6Ex9dOb1Vvn0xF39SHFBhkaUnHePnoS0imOK8,1192
+pvenv/subcommands/lsvenv.py,sha256=QDGl2g1ti3Cn7cAmDisx46fppl6XrX2CImOgRsmd-wA,318
+pvenv/subcommands/outvenv.py,sha256=vDvCKOcK21YsAmr-oVMt8ISu3RMPYOySwdhkjcvOwUw,543
+pvenv-0.2.0.dist-info/entry_points.txt,sha256=tvB5qZVf_wOQjZ3KZYST2IzY3IGjld-f-QLuY3W9BZA,41
+pvenv-0.2.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pvenv-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pvenv-0.2.0.dist-info/METADATA,sha256=9yE_7gkqXBnVXcHQiMD3BPRhtd4ZiUpLhuFrHmJ7Wt8,2490
+pvenv-0.2.0.dist-info/RECORD,,
