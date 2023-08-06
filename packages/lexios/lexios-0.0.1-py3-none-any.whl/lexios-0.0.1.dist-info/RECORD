@@ -1,0 +1,14 @@
+lexios/__init__.py,sha256=PUCdu5RKaXZvcTuGrmSvRqR4gStxy5J81DUBupwAMrc,262
+lexios/error.py,sha256=xb4q_78RQ0OSUKECvVclkFy-TMXPfXjUruio71VHvr4,51
+lexios/matter.py,sha256=0jc2jY-yatpbh721YZ-GUDpDgNvt-ya3yiXekzgD648,2548
+lexios/system.py,sha256=ZqixL2jmG5051Y3ubAzdkXXmfYc1REZO2z8Ua5TcbsU,131
+lexios/typing.py,sha256=7bOhCCezPjMxrQWimyEX6c-MQZtG4ZFhR8ZZZcKAK3k,73
+lexios/unit.py,sha256=r9oTwO-ryClnkjVMR1ujZfrMcAmQiOOrOFBULstc6O8,519
+lexios/universe.py,sha256=PFcryqQXPNxAIQi3Xom3C-0l59jNzQ2-9R4UfvwCxoQ,464
+lexios/utils.py,sha256=1mOR22LZPHqF5XBh5nxS49G7R9-3IUDvfxcOOH2eysc,494
+lexios/version.py,sha256=t_QiCcOQDjV4pl-PMvif1IH68nAKKe0wdeizhaDsDds,17
+lexios-0.0.1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+lexios-0.0.1.dist-info/METADATA,sha256=MUYurc1zASNuW7GP5FgyV5m35YQI-m6XTzw3BqHbXZQ,2127
+lexios-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lexios-0.0.1.dist-info/top_level.txt,sha256=Mex7jaHcIBtYTZB8wwTkoz2b13uhYzpW3qT6thoMCy8,7
+lexios-0.0.1.dist-info/RECORD,,
