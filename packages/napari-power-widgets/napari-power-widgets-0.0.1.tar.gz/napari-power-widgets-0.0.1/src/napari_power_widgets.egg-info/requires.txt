@@ -1,0 +1,11 @@
+numpy
+pandas
+typing_extensions
+magicgui
+napari
+
+[testing]
+tox
+pytest
+pytest-cov
+pyqt5

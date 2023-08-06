@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-power-widgets = napari_power_widgets:napari.yaml
