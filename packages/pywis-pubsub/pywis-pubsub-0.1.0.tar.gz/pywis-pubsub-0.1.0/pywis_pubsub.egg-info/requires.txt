@@ -1,0 +1,6 @@
+boto3
+click
+jsonschema
+paho-mqtt
+pyyaml
+shapely
