@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+subprocess_pipe/LICENSE
+subprocess_pipe/README.MD
+subprocess_pipe/__init__.py
+subprocess_pipe/requirements.txt
+subprocess_pipe/thirdparty.json
+subprocess_pipe.egg-info/PKG-INFO
+subprocess_pipe.egg-info/SOURCES.txt
+subprocess_pipe.egg-info/dependency_links.txt
+subprocess_pipe.egg-info/top_level.txt

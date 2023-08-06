@@ -1,0 +1,4 @@
+include subprocess_pipe/requirements.txt
+include subprocess_pipe/thirdparty.json
+include subprocess_pipe/README.MD
+include subprocess_pipe/LICENSE
