@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AlgmonDigitalBrain
+Version: 0.0.3
+Summary: add sth
+Home-page: 
+Author: algmon
+Author-email: wei4@algmon.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Algmon Digital Brain
+
+## Features
+
+* innovated framework for agent & metaverse
+
+## Steps for Publishing the AlgmonDigitalBrain Package
+
+1. python -m build
+2. twine upload -r testpypi dist/*
+3. twine upload dist/*
