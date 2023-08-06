@@ -1,0 +1,9 @@
+aiobitrix24/__init__.py,sha256=xDYvc24D0Cum8gjP8-BDA-WLey64JbCXJid7Y1G7idI,90
+aiobitrix24/_bitrix24.py,sha256=lM0UDmPv0qNNuFYFS0MFW0T90Y_jomCt4NNBdbKrtrU,2389
+aiobitrix24/_builders.py,sha256=qad0xSIz5PwpEjOsMwV4H7oTGRShtAdCMAC1NEMsu64,2586
+aiobitrix24/methods.py,sha256=nKbnZ4yHF588hYhUxyio3zsNGhLU8GNIuzvqUnwEOC0,52
+LICENSE,sha256=Alc6qZk2-dHEEZJLZESGbxiU5tsBpYCXuRi3Jso5JxE,1072
+aiobitrix24-0.1.1.dist-info/LICENSE,sha256=Alc6qZk2-dHEEZJLZESGbxiU5tsBpYCXuRi3Jso5JxE,1072
+aiobitrix24-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aiobitrix24-0.1.1.dist-info/METADATA,sha256=nJGOSMVAC2SGL_lk9tgcSZv3KhztTD8ezPoj_gacFys,853
+aiobitrix24-0.1.1.dist-info/RECORD,,
