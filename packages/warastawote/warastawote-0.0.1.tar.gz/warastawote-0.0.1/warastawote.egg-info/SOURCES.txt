@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+warastawote.egg-info/PKG-INFO
+warastawote.egg-info/SOURCES.txt
+warastawote.egg-info/dependency_links.txt
+warastawote.egg-info/top_level.txt
