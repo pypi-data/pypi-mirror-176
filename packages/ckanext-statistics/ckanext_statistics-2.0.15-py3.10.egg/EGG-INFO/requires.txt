@@ -1,0 +1,4 @@
+requests
+tqdm>=4.55.1
+ckanext-ckanpackager
+ckanext-versioned-datastore
