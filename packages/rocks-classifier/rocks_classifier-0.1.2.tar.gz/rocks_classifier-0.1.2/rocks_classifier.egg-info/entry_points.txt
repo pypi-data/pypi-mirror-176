@@ -1,0 +1,9 @@
+[console_scripts]
+rocks_clean_data = rocks_classifier.data.utils:clean_data_dir
+rocks_deploy_bot = rocks_classifier.bot:deploy_bot
+rocks_download_data = rocks_classifier.data.download:download_and_move_datasets
+rocks_process_data = rocks_classifier.data.preprocess:process_data
+rocks_train_model = rocks_classifier.models.train:main
+
+[nbdev]
+rocks_classifier = rocks_classifier._modidx:d
