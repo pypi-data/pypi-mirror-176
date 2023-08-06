@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rttlib
+Version: 0.1
+Summary: Wrapper for the RealTimeTrains API
+Project-URL: Homepage, https://codeberg.org/lyiriyah/rttlib
+Project-URL: Bug tracker, https://codeberg.org/lyiriyah/rttlib/issues
+Author-email: lyiriyah <lyiriyah@tutanota.com>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# rttlib
+Wrapper for the [RealTimeTrains API](https://api.rtt.io).
