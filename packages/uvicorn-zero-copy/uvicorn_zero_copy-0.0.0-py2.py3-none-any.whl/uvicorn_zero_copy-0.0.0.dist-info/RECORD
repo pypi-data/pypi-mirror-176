@@ -1,0 +1,5 @@
+uvicorn_zero_copy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvicorn_zero_copy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvicorn_zero_copy-0.0.0.dist-info/METADATA,sha256=z8QHAJ_Ilo65zIG3DqVMh3xdUNIsEHrCCpfQMVPP_R4,239
+uvicorn_zero_copy-0.0.0.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+uvicorn_zero_copy-0.0.0.dist-info/RECORD,,
