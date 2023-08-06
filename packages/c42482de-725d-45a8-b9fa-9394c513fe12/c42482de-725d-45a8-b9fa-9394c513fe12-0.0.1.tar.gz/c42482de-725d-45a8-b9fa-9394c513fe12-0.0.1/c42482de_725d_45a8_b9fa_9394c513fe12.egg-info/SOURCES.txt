@@ -1,0 +1,7 @@
+setup.py
+c42482de-725d-45a8-b9fa-9394c513fe12/__init__.py
+c42482de-725d-45a8-b9fa-9394c513fe12/ffmpeg.py
+c42482de_725d_45a8_b9fa_9394c513fe12.egg-info/PKG-INFO
+c42482de_725d_45a8_b9fa_9394c513fe12.egg-info/SOURCES.txt
+c42482de_725d_45a8_b9fa_9394c513fe12.egg-info/dependency_links.txt
+c42482de_725d_45a8_b9fa_9394c513fe12.egg-info/top_level.txt
