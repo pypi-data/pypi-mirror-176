@@ -1,0 +1,15 @@
+lectio/__init__.py,sha256=kxW4uQi4yHClv8y65MCjCKU9A8OCIQRKifcRgGtOe-g,23
+lectio/_auth.py,sha256=ce782xx-_O_ttROVPRrw-pDR7HFGRTbEsgGNx_8jeCg,3210
+lectio/_beskeder.py,sha256=DHosC0V6iqc6ATtgG7GRfDDpkM69S_vTKaeWUthky10,2948
+lectio/_informationer.py,sha256=ZxkxkU4Obas8JAmDhGAwQ7aGMesc5aACRDexePSPiLk,1601
+lectio/_lektier.py,sha256=SitsGMjdcfG9d7UNsVdGxmiW8-zsfHu6UsPMgbtSM_E,1834
+lectio/_modul.py,sha256=nSDjZTizcEePnzrfP7DXkrI4FkwipmSX61oggqq1VKk,2914
+lectio/_opgaver.py,sha256=6GD4rYV7ICadPPKA2_4IEK7BNMa9i4WmU-ik8OwGaqk,935
+lectio/_skema.py,sha256=VxIcgVeCGEjCL_C1Y0eAe0WuXOENGD3nheGWUb6aDtw,4022
+lectio/imports.py,sha256=jKNDEwzrFHTA9TcgObmlS5LMCNNtdThPA20Axug9v5E,130
+lectio/lectio.py,sha256=I7wR451iiwjRe_fegNPC6zAgnPKA47FxILD0GE1xRr8,1856
+python_lectio-1.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+python_lectio-1.0.1.dist-info/METADATA,sha256=nsUl7yf2wxKLFQr4AwZly6cdUw7U-qhxFhlU6zxGCOU,3015
+python_lectio-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_lectio-1.0.1.dist-info/top_level.txt,sha256=cEBdhg270zPqkO12RWVj5VeMWFTvRtaLPNimLVPgtQ8,7
+python_lectio-1.0.1.dist-info/RECORD,,
