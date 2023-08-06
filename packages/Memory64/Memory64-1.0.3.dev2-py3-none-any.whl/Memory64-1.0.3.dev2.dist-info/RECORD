@@ -1,0 +1,14 @@
+Memory64/Bin32.py,sha256=x6AkWIH22bg7Uf9yPNJbGe9xCc1tnfyKUPfoCcmMhrY,3162
+Memory64/D3Gui.py,sha256=RLkADUDgCNt1OTDCuSo2mZJsBT6KE3RH3YrSVW-wftk,3268
+Memory64/Function.py,sha256=ySWR_JLY5XZwk694o7L2zDr-zYluxMjjK21d6hcvDrs,6555
+Memory64/Memo.py,sha256=GcaCpZTluiE5-JYMJr_H3_yellsAF85u0AG2cTKIcFw,10113
+Memory64/ModLib.py,sha256=3JUuF0hQZ5jzEszwsj6yUgL2_Fj_vWxZKLKgDw7i2m0,1926
+Memory64/Struct.py,sha256=_cqFAuWtnQaiVeFICwN6zVqLxWUkt14GeM3MikE2bxY,1570
+Memory64/__init__.py,sha256=-2InoS5TIiH4h9EG1ItRoQ5rTFeJjjYDex7kRqL0GPs,838
+Memory64/Libs/Bin32.dll,sha256=FNyNE9ap4s9yon1VPJeY-vXnm54JFIEj3TY2C7K4g0Q,339456
+Memory64/const/__init__.py,sha256=GChyhIZbCgfWRiUTKjIDiZyLSX1R5jTa5EWV8gGzZQY,221
+Memory64-1.0.3.dev2.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+Memory64-1.0.3.dev2.dist-info/METADATA,sha256=WUgvWL0p5T-oWITts6LgLL7L710I41UFZWAPAg4zEoU,5460
+Memory64-1.0.3.dev2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Memory64-1.0.3.dev2.dist-info/top_level.txt,sha256=WGp26fRRtDnyWhaXBy107OHX0yruE3Pi98OEd_1JS7M,9
+Memory64-1.0.3.dev2.dist-info/RECORD,,
