@@ -1,0 +1,13 @@
+README.md
+setup.py
+DescomplicandoACria_oDePacotes_Unimed_marcosmvsfut.egg-info/PKG-INFO
+DescomplicandoACria_oDePacotes_Unimed_marcosmvsfut.egg-info/SOURCES.txt
+DescomplicandoACria_oDePacotes_Unimed_marcosmvsfut.egg-info/dependency_links.txt
+DescomplicandoACria_oDePacotes_Unimed_marcosmvsfut.egg-info/requires.txt
+DescomplicandoACria_oDePacotes_Unimed_marcosmvsfut.egg-info/top_level.txt
+processing/__init__.py
+processing/combination.py
+processing/transformation.py
+utils/__init__.py
+utils/io.py
+utils/plot.py
