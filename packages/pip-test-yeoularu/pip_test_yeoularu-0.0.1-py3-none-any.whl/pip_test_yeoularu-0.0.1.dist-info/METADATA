@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pip-test-yeoularu
+Version: 0.0.1
+Summary: for test pypi deploy
+Home-page: https://github.com/yeoularu/pip-test-yeoularu
+Author: yeoularu
+Author-email: yeoularu@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/yeoularu/pip-test-yeoularu/archive/main.zip
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
