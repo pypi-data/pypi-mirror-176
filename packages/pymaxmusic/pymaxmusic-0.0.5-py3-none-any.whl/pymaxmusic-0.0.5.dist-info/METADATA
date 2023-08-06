@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pymaxmusic
+Version: 0.0.5
+Summary: An interface for communicating between Python and Max/MSP, with a focus on generative music
+Project-URL: Homepage, https://danielims.github.io/pymaxmusic/
+Author-email: Daniel Brown <daniel@intelligentmuscisystems.com>
+License-File: LICENSE.txt
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Allows Python-Max communication, specifically for composing interactive music with Python. 
