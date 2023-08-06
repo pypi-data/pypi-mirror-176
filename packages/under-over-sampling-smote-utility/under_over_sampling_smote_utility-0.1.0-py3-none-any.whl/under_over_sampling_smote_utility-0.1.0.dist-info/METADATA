@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: under-over-sampling-smote-utility
+Version: 0.1.0
+Summary: Package containing utilities to undersample and over sample data set. 
+Author: Monika N
+Requires-Dist: scikit-datasets
+Requires-Dist: sklearn
+Requires-Dist: imblearn
+Requires-Dist: pyyaml
+
