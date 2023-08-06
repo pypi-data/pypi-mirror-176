@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+algorithms_extensions/__init__.py
+algorithms_extensions/loadable.py
+algorithms_extensions/opencv_model.py
+algorithms_extensions/descriptors/__init__.py
+algorithms_extensions/descriptors/descriptor_mxnet.py
+algorithms_extensions/descriptors/tf_unfreezed.py
+mnd_algorithms_extensions.egg-info/PKG-INFO
+mnd_algorithms_extensions.egg-info/SOURCES.txt
+mnd_algorithms_extensions.egg-info/dependency_links.txt
+mnd_algorithms_extensions.egg-info/requires.txt
+mnd_algorithms_extensions.egg-info/top_level.txt
