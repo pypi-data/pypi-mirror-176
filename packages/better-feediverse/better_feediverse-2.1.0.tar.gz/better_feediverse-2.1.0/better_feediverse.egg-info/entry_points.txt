@@ -1,0 +1,2 @@
+[console_scripts]
+better_feediverse = better_feediverse:main
