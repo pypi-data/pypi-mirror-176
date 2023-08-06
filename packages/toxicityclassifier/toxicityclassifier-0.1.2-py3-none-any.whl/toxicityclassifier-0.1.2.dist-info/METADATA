@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: toxicityclassifier
+Version: 0.1.2
+Summary: 
+License: LICENCE.md
+Author: D1ffic00lt
+Author-email: dm.filinov@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# ToxicityClassificator
