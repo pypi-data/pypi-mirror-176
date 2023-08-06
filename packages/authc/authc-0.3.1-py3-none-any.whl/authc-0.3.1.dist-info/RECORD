@@ -1,0 +1,12 @@
+authc/__init__.py,sha256=ztkihDQJCr-dJ2OpuWeR_WeG5ySjtrL2GMK2vKG2zr0,118
+authc/core.py,sha256=O1M7BGbtOJB5lmlKhFUOx_190uvGJpeLNHuPH5EcHOk,2230
+authc/myredis.py,sha256=6Cysc630ms6kkM04ncVCIWFJStWPCmTXjt2u95QMGEU,1810
+authc/sql.py,sha256=1pLQFShqmpiXp15w9P80Za1rvN8nUsF4UKlUptbbTm8,1479
+authc/data/linux,sha256=46FB151mn3EAb_XXCDlb9Jerfp-VfDQLcGULioDdFaE,1268080
+authc/data/m1,sha256=QUBnP5meMHCtoOk0etcnybMKDf0O0eSzd3HB_Yk9ND8,979688
+authc/data/mac,sha256=78TpNtVVaMBxDFU7gWFpakUOuphCCAleNFaS2J8LVpI,1055448
+authc-0.3.1.dist-info/METADATA,sha256=mnkH_0O_UU0Tg1RqCWEBfMZ_6XxorWRhFF61_Z-TABg,463
+authc-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+authc-0.3.1.dist-info/entry_points.txt,sha256=w2wst_MVH_mfP-aVIj4OVeITybELfqSVzvHoRG0uoKk,43
+authc-0.3.1.dist-info/top_level.txt,sha256=ME4fYzzdfspzO_9ymlP2Q50bFce2Hr2pxDgGtGKmpf4,6
+authc-0.3.1.dist-info/RECORD,,
