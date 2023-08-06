@@ -1,0 +1,10 @@
+README.md
+setup.py
+override_pydantic_settings.egg-info/PKG-INFO
+override_pydantic_settings.egg-info/SOURCES.txt
+override_pydantic_settings.egg-info/dependency_links.txt
+override_pydantic_settings.egg-info/top_level.txt
+override_settings/__init__.py
+override_settings/override.py
+tests/__init__.py
+tests/test_override.py
