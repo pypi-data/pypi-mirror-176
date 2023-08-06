@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+urlil3.py
+urlil3.egg-info/PKG-INFO
+urlil3.egg-info/SOURCES.txt
+urlil3.egg-info/dependency_links.txt
+urlil3.egg-info/top_level.txt
