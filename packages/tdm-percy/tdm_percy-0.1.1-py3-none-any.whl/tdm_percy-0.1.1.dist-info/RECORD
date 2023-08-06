@@ -1,0 +1,10 @@
+imdb/__init__.py,sha256=PoX9TYSdFFN4GNGQdbL0Dk3smFJZKBp_ogZn1FntIdo,43
+imdb/__main__.py,sha256=D-sFc6RVTnCOG0bGnISZxkm0HJW5zLPb0Ua8KwCdAfg,570
+imdb/api.py,sha256=8-uW2tMdiXuw4Kk6HaEY0u5bvpDhy2lJdKBv4N4XnK4,323
+imdb/imdb.py,sha256=HjxMBRzk-nDPRjnymqefjolyIRMqGGniENm__KrZGmU,415
+tdm_percy-0.1.1.dist-info/LICENSE,sha256=Y4JfQd0QJ4pLU0XlehOzAmlY0JoVeo_fynGZpT7zITI,17
+tdm_percy-0.1.1.dist-info/METADATA,sha256=JbyXltS_88ei1TEnRS5fxOLjd4djLoi-brPXng73Wk4,670
+tdm_percy-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tdm_percy-0.1.1.dist-info/entry_points.txt,sha256=v-HG0MPyGwhQ-7aVxbKZWYWL2dmLa98-6TxqkQlC1LU,47
+tdm_percy-0.1.1.dist-info/top_level.txt,sha256=L5m5gPwYS8sLwc0o4BbulTmfyRr2WZ4Du-AYAKsIfio,5
+tdm_percy-0.1.1.dist-info/RECORD,,
