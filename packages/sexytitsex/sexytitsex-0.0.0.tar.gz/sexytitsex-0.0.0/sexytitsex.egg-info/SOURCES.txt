@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+sexytitsex/__init__.py
+sexytitsex.egg-info/PKG-INFO
+sexytitsex.egg-info/SOURCES.txt
+sexytitsex.egg-info/dependency_links.txt
+sexytitsex.egg-info/requires.txt
+sexytitsex.egg-info/top_level.txt
