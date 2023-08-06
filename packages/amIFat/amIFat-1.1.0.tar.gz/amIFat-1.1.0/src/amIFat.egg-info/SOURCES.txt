@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/amIFat/__init__.py
+src/amIFat/__main__.py
+src/amIFat/calories.py
+src/amIFat/fat_problems.py
+src/amIFat/howfat.py
+src/amIFat/macros.py
+src/amIFat.egg-info/PKG-INFO
+src/amIFat.egg-info/SOURCES.txt
+src/amIFat.egg-info/dependency_links.txt
+src/amIFat.egg-info/requires.txt
+src/amIFat.egg-info/top_level.txt
+src/amIFatApp/app.py
