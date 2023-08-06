@@ -1,0 +1,10 @@
+LICENSE
+README.md
+RESTApiGen.py
+setup.py
+RESTApiGen.egg-info/PKG-INFO
+RESTApiGen.egg-info/SOURCES.txt
+RESTApiGen.egg-info/dependency_links.txt
+RESTApiGen.egg-info/entry_points.txt
+RESTApiGen.egg-info/requires.txt
+RESTApiGen.egg-info/top_level.txt
