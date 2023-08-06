@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/ytadpole/__init__.py
+src/ytadpole/test.py
+src/ytadpole.egg-info/PKG-INFO
+src/ytadpole.egg-info/SOURCES.txt
+src/ytadpole.egg-info/dependency_links.txt
+src/ytadpole.egg-info/top_level.txt
