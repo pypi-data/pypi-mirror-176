@@ -1,0 +1,8 @@
+python_splitter/__init__.py,sha256=JyQU9EzzbBucm2YOzhPhYX1z5duOxwrjoYBe9EpX6D0,123
+python_splitter/image_grouping.py,sha256=XQPRAS0MARvsHEqy3vJD_GYz3sejzfJVlT3n4o0B8EE,2250
+python_splitter/train_test_split.py,sha256=zJ1DfLYucxAMIVNt2qJVnb6rC1S1bZQQgebp-CTD1Yg,4576
+python_splitter-0.0.3.dist-info/LICENSE,sha256=zLuyRJ_RnrYfj_fJs8SHHMqY6-IedcanmJzXdbX3BOI,1072
+python_splitter-0.0.3.dist-info/METADATA,sha256=6Knibdk11Sg0MwViL9kMTi1z8XrdrjTgGQePuLXsf_o,1355
+python_splitter-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_splitter-0.0.3.dist-info/top_level.txt,sha256=qqt9-bK8DXS23Xc0P_5s_uYeWCIb-w3-pK83pl5Emz0,16
+python_splitter-0.0.3.dist-info/RECORD,,
