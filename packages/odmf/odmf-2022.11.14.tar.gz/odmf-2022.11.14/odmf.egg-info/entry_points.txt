@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        odmf=odmf.odmf:cli
+      

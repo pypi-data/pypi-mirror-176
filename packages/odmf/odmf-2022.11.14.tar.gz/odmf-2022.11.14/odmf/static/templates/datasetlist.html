@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<py:extends href="layout.html" xmlns:py="">
+    <py:block name="scripts">
+        <script>
+            //<![CDATA[
+
+            function popSelect() {
+
+                let options = (data, get_value, get_name) => {
+                    let html = '<option class="firstoption" value="">Please select...</option>\n';
+                    $.each(data, function (index, item) {
+                        html += '<option value="' + get_value(item) + '">' + get_name(item) + '</option>\n';
+                    });
+                    return html
+
+                }
+
+                let vt = $('#vtselect').val()
+                let user = $('#userselect').val()
+                let site = $('#siteselect').val()
+                let date = $('#dateselect').val()
+                let type = $('#typeselect').val()
+                let instrument = $('#instrumentselect').val()
+                let fmt = {
+                    id: x=>x ? x.id : '',
+                    name: x=>x ? x.name : '',
+                    site: x => x ? '#' + x.id + ' (' + x.name + ')' : '#???',
+                    user: x=>x.firstname + ' ' + x.surname,
+                    self: x => x
+                }
+                $.getJSON(
+                        odmf_ref('/dataset/attributes'),
+                        {
+                            valuetype:vt,
+                            user:user,
+                            site:site,
+                            date:date,
+                            dstype:type,
+                            instrument:instrument,
+                        },
+                        data => {
+                            $('#userselect').html(options(data.measured_by, x=>x.username, fmt.user))
+                            $('#vtselect').html(options(data.valuetype, fmt.id, fmt.name)).val(vt);
+                            $('#siteselect').html(options(data.site, fmt.id, fmt.site)).val(site);
+                            $('#instrumentselect').html(options(data.source, fmt.id, fmt.name)).val(instrument)
+                            $('#typeselect').html(options(data.type, fmt.self, fmt.self)).val(type)
+
+                        }
+                );
+                $('#exportrecords').prop('disabled',!(vt && site));
+                setFilter();
+            }
+            function setFilter() {
+                // Linklist to datasets
+                var vt = $('#vtselect').val();
+                var user = $('#userselect').val();
+                var site = $('#siteselect').val();
+                var date = $('#dateselect').val();
+                var type = $('#typeselect').val();
+                var instrument = $('#instrumentselect').val();
+                let limit = $('#limit').val();
+                let page = $('#page').val();
+                $.getJSON(odmf_ref('/dataset/json'),
+                        {
+                            valuetype: vt,
+                            user:user,
+                            site:site,
+                            date:date,
+                            dstype:type,
+                            instrument:instrument,
+                            limit: limit,
+                            page: page
+                        },
+                        function(data){
+                            var items = [];
+                            var templ = '<a href="${conf.root_url}/dataset/ID" class="list-group-item list-group-item-action">LABEL</a>';
+                            $.each( data.datasets, function( index, item ) {
+                                items.push(templ.replace(/ID/, item.id).replace(/LABEL/, item.label));
+                            });
+                            $('#dscount').html(((data.page - 1) * data.limit) + ' - ' + (data.page * data.limit) + ' of ' + data.count + ' datasets');
+                            $('#dslist').html(items.join('\n'));
+                            let pages = Math.ceil(data.count / data.limit)
+                            let options = ''
+                            for (let i = 1; i <= pages; i++) {
+                                options += '<option value="' + i + '">' + i + ' / ' + pages + '</option>'
+                            }
+                            $('#page').html(options)
+                            $('#page').val(data.page)
+                        }
+                );
+            }
+            function clearFilter() {
+                $('.filter').val('')
+                $('#dateselect').val('')
+                popSelect();
+                $('#dslist').html('')
+            }
+
+            function pageChange(e) {
+                let dir = $(e.target).data('dir');
+                let page = $('#page').val()
+                if (dir === '-' && page > 1) {
+                    page--;
+                } else if (dir === '+' && page < $('#page option:last').val()) {
+                    page++;
+                }
+                $('#page').val(page).change()
+                setFilter();
+            }
+
+            $(function() {
+                $('#goto').change(() => {
+                    window.location.href=odmf_ref('/dataset/') + $('#goto').val();
+                });
+                $('#gotods-btn').click(() =>  {
+                    window.location.href=odmf_ref('/dataset/') + $('#goto').val();
+                });
+                $('.filter').change(popSelect)
+                $('.page').click(pageChange)
+
+                popSelect();
+
+            });
+            //]]>
+        </script>
+    </py:block>
+    <py:block name="style">
+        <!-- insert additional styles -->
+    </py:block>
+    <py:block name="sidebar">
+
+        <div class="container-fluid" id="filter-collapse">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend" >
+                    <button class="btn btn-secondary" id="gotods-btn"
+                    >
+                        <i class="fas fa-rocket" />
+                    </button>
+                </div>
+                <input class="form-control" type="number" id="goto" tabindex="1" placeholder="dataset-id"
+                       title="Go directly to a dataset by entering the id" data-toggle="tooltip"/>
+            </div>
+            <div class="">
+                <a href="${conf.root_url}/dataset/new#edit" class="btn btn-secondary w-100">
+                    <i class="fas fa-plus mr-1" />
+                    new dataset
+                </a>
+            </div>
+            <hr/>
+            <div id="filter" class="container" >
+                <div class="mb-1 row border rounded">
+                    <h4 class="col-sm-10"><i class="fas fa-filter fa-sm mr-2" />Filter</h4>
+                    <a class="btn btn-secondary col-sm-2 border-circle text-light" onclick="clearFilter()" title="clear filter" data-toggle="tooltip">
+                        <i class="fas fa-times" />
+                    </a>
+                </div>
+                <div class="form-group mb-1 row">
+                    <label for="vtselect" class="small m-0">Value type</label>
+                    <select id="vtselect" class="form-control form-select filter" tabindex="2"/>
+                </div>
+                <div class="form-group mb-1 row">
+                    <label for="siteselect" class="small m-0">Site</label>
+                    <select id="siteselect" class="form-control form-select filter" tabindex="3"/>
+                </div>
+
+                <div class="form-group mb-1 row">
+                    <label for="userselect" class="small m-0">Creator</label>
+                    <select id="userselect" class="form-control form-select filter" tabindex="4"/>
+                </div>
+                <div class="form-group mb-1 row">
+                    <label for="typeselect" class="small m-0">Type</label>
+                    <select id="typeselect" class="form-control form-select filter" tabindex="5"/>
+                </div>
+
+                <div class="form-group mb-1 row">
+                    <label for="vtselect" class="small m-0">Instrument / source</label>
+                    <select id="instrumentselect" class="form-control form-select filter" tabindex="6"
+                            title="Instument" data-toggle="tooltip"/>
+                </div>
+                <div class="form-group mb-1 row">
+                    <label for="dateselect" class="small m-0">date</label>
+                    <input id="dateselect" type="date" class="form-control form-select filter" value="" tabindex="7" placeholder="date..."
+                           title="Show only sites with a dataset for this date" data-toggle="tooltip"/>
+                </div>
+            </div>
+        </div>
+
+    </py:block>
+    <py:block name="content">
+        <!-- insert main content -->
+
+        <div class="container">
+            <div class="row mt-2 w-100">
+                <div class="container">
+                    <div class="container bg-danger text-white row w-100 border rounded"  py:if="error">
+                        <h1 class="display-3 col-lg-2">Error</h1>
+                        <div class="lead col-lg-10" py:content="markdown(error)"/>
+                    </div>
+
+                </div>
+            </div>
+
+            <ul class="nav bg-light p-1 border mb-1">
+                <li id="dscount" class="nav-item my-auto mx-3 h4">0 datasets</li>
+                <li class="nav-item my-auto mx-3">
+                    <div class="input-group">
+                        <span class="input-group-text">ds per page:</span>
+                        <input class="form-control" type="number" id="limit" value="50" title="Datasets per page" />
+                        <span class="input-group-text">page:</span>
+                        <button class="btn btn-secondary page" data-dir="-" title="last page">&lt;</button>
+                        <select class="form-control form-select page" type="number" id="page" title="Datasets per page" >
+                            <option value="1">1 / 1</option>
+                        </select>
+                        <button class="btn btn-secondary page" data-dir="+" title="next page">&gt;</button>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-auto">
+                    <button id="toggleexport"  data-toggle="dropdown"
+                            class="btn btn-secondary dropdown-toggle"
+                            aria-haspopup="true" aria-expanded="false"
+                    >
+                        export
+                    </button>
+                    <div class="dropdown-menu" id="exportdiv" aria-labelledby="toggleexport">
+                        <div class="dropdown-item">
+                            <h4 class="">Export records from all data sets</h4>
+                            <button id="exportrecords" disabled="disabled" class="btn btn-info"
+                                    title="Only available when valuetype and site are selected. Beware multi-instrument and multi-level situations."
+                                    data-toggle="tooltip"
+                            >
+                                export records
+                            </button>
+                            <span >
+                                    <input type="checkbox" id="exportrecordswitherror"
+                                           title="Check, if you want to have records mark as error exported also"
+                                           data-toggle="tooltip"
+                                    />
+                            include error records
+                        </span>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div id="dslist" class="overflow-auto list-group">
+            </div>
+
+        </div>
+    </py:block>
+
+</py:extends>
+
