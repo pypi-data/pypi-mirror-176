@@ -1,0 +1,13 @@
+aioconnection/__init__.py,sha256=F0b9dpOoP-HHBSazQjEDNoBNQw2lKVnTIEpuCkoJHe4,151
+aioconnection/__main__.py,sha256=7NBsuM3wBHCZS1qD1BGJelOqLqw3RlEs9sMHCLgemV4,3836
+aioconnection/protocol.py,sha256=sNrhIPYuRbATuhV0DpY-yRTK1s8_dlw6nYJEGraaLd8,6066
+aioconnection/utils.py,sha256=_uZyTs7eCvTKYNzpdESuWOAbXInGAAO4xjDj72twQQk,78
+aioconnection/transport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioconnection/transport/serialport/__init__.py,sha256=hz7NU-oGKwPRxUg_secuhGHxmx1WT9Fn3rDOnFB-RHs,315
+aioconnection/transport/serialport/core.py,sha256=YnYtGOURg3ss4JDtkQdO1BbsiXMc3BsHQZ0yOuG_HSo,10020
+aioconnection/transport/serialport/transport.py,sha256=VNRacOjmkYb714rYQ103OPanNvTJUO1MJUVcGSN46vo,5842
+aioconnection-0.1.0.dist-info/LICENSE,sha256=KOI2v5c_M5MQQkVqxM4BBqmkZnNAh6PYV-3Q9pTInWE,1096
+aioconnection-0.1.0.dist-info/METADATA,sha256=zKF5szFk_iCicla-qlfkWvClWFGYsAz1p2JO-PfX8k0,790
+aioconnection-0.1.0.dist-info/WHEEL,sha256=AiyVnrmrEuW_cPqhPlarzpb5qtD8ITcBeZKvhXXgyN4,98
+aioconnection-0.1.0.dist-info/top_level.txt,sha256=AvMLNfAMAdyTsRY--I6X5S70SLUcDAYMYbPmuFGHXSs,14
+aioconnection-0.1.0.dist-info/RECORD,,
