@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: airflow-tm1
+Version: 0.0.9
+Summary: A package to simplify connecting to the TM1 REST API from Apache Airflow
+Author-email: Alexander Sutcliffe <sutcliffe.alex@gmail.com>
+Requires-Dist: tm1py ~= 1.1
+Requires-Dist: apache-airflow ~= 2.1
+Requires-Dist: pytest ; extra == "tests"
+Provides-Extra: tests
