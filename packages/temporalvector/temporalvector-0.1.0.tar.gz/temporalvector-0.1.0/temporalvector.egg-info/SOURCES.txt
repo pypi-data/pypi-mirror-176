@@ -1,0 +1,10 @@
+README.md
+setup.py
+temporalvector/__init__.py
+temporalvector/temporal_enums.py
+temporalvector/temporal_vector.py
+temporalvector.egg-info/PKG-INFO
+temporalvector.egg-info/SOURCES.txt
+temporalvector.egg-info/dependency_links.txt
+temporalvector.egg-info/requires.txt
+temporalvector.egg-info/top_level.txt

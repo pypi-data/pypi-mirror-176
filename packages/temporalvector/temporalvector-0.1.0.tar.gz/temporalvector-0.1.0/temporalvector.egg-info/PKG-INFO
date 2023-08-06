@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: temporalvector
+Version: 0.1.0
+Summary: Temporally aware vector of values that can be aggregated using different methods over differenttime periods
+Home-page: https://git.jetbrains.space/cmckay/advanced-simulation/pkg_temporal_vector.git
+Author: Chris McKay
+Author-email: crmckay55@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
