@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: PyQwidgets
+Version: 0.2.0
+Summary: This mini-framework will help you create a widget!
+Author: Georg8528
+Author-email: zadvornow2908@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Чего нового?
+
+• Виджет (Новое информационное окно вызывается метадом QInfo)
+• Убрали надпись из консоли << PyQwidgets Version 0.1.5 >>
+---------------------------------------
+Привет, в данном описание я разкажу про библеотеку PyQwidgets.
+
+PyQwidgets это мини-фрейворк который поможет вам создовать виджеты разных типов.
+С помощью PyQwidgets вы сможете создовать: Окно ошибки, окно предупреждения, окно информации, прогресс бары
+и многое другое. Данный мини-фреймворк был написан частично на tkinter.
+При этом PyQwidgets можно использовать где угодно например вы создали консольное приложение на python
+и вы хотите чтобы пользователь вводил пороль и если пороль не правильный то вы используете окно ошибки.
+
+Довайте расмотрим пару виджетов PyQwidgets.
+
+Первый виджет:
+---------------------------------------
+
+from PyQwidgets import * # Импортируем иодуль
+
+Widget_1 = QError("Error", "Error 1000-7") # Создаём виджет
+
+---------------------------------------
+
+Итак довайте этот код разберём.
+Мы создали переменную под названием Widget_1 и присвоили к этой переменной окно ошибки.
+QError принимает два аргумента, первый это название окна а второй это сообщение в окне или же описание ошибки.
+
+Второй виджет:
+--------------------------------------- 
+
+from PyQwidgets import *
+
+Widget_1 = QError("Error", "Error 1000-7")
+
+Widget_2 = QWarning("Warning", "Warning: This file can be dangerous!") 
+
+--------------------------------------- 
+
+Тут тоже самое что и с первом виджетом только это окно предупреждения.
+
+Третий виджет:
+--------------------------------------- 
+from PyQwidgets import *
+
+Widget_1 = QError("Error", "Error 1000-7")
+
+Widget_2 = QWarning("Warning", "Warning: This file can be dangerous!")
+
+Widget_3 = Info("Information", "Info: PyQwidgets version 0.1.5")
+--------------------------------------- 
+
+Тут все тоже самое только это окно информации.
+
+Надеюсь вы все поняли как использовать. (:
+
+
+
+
+
+
