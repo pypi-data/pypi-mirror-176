@@ -1,0 +1,4 @@
+## Include
+include README.md COPYING COPYING.lesser NOTICE requirements.txt
+global-include *.py *.tl *.tsv *.txt
+recursive-include AyiinXd *.py
