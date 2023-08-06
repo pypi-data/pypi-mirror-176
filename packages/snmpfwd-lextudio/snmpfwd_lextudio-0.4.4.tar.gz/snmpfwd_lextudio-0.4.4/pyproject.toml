@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "snmpfwd-lextudio"
+version = "0.4.4"
+description = "SNMP Proxy Forwarder can act as an application-level firewall or SNMP protocol translator that let SNMPv1/v2c entities to talk to SNMPv3 ones or vice-versa."
+authors = ["Lex Li <support@lextudio.com>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/lextudio/snmpfwd"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Communications",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Networking :: Monitoring"
+]
+readme = "README.md"
+
+packages = [
+    { include = "snmpfwd" },
+]
+include = ["docs", "tests", "examples"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pysnmp-lextudio = ">=4.4.3"
+pycryptodomex = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.3.0"
+pytest = "^6.2.5"
+codecov = "^2.1.12"
+pytest-codecov = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+snmpfwd-client = "snmpfwd.scripts.snmpfwdclient:main"
+snmpfwd-server = "snmpfwd.scripts.snmpfwdserver:main"
