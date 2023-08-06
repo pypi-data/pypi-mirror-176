@@ -1,0 +1,15 @@
+atelier/atelier-ai.code-workspace,sha256=vP_bs0Zi8loKejaxetNnnBWAVRqKR4d6cNU3KLvq584,67
+atelier/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atelier/data/datasource.py,sha256=CHHqidvgw3xyAQf1QhYgSZC1TXW7LE0c0CQ1XB-O1lc,3521
+atelier/data/io.py,sha256=0SqUrWNa3VDBXYxlwigbdBq8YLMOezjC-eLuBhmBodo,7160
+atelier/data/s3_glacier.py,sha256=r1hm2galqtnJBjj-Smkpmi7UioXz65v4G1E2R147PY0,18591
+atelier/data/split.py,sha256=keozNdUYcdG73qDLIpB0m0E3Py9jlS5V_smWYYzw_fs,5716
+atelier/utils/datetimes.py,sha256=2M5jRrCSWnfV6-YZ0E6EDXFubFVqkvdLi_fg6LezaKA,4119
+atelier/utils/logging.py,sha256=KkpstqlbnHobqge0f3ns0KXoHNJDdVfpIhE3_M_g6Q8,3265
+atelier/workflow/__init__.py,sha256=GRFd9sLNorGHiC1yDiy27knE2vRlBcqlGut77S29JKw,1662
+atelier/workflow/operators.py,sha256=GkxveJjjBpgGSHbki83SsGuiNWdWO0jQ7-qnQ6B0jVE,14459
+atelier/workflow/pipeline.py,sha256=s2JJwUybfRf1D6gIX-5zn7Uf5GvbV2Dj5tPfWHjT8ds,8448
+atelier_ai-0.1.10.dist-info/LICENSE,sha256=iMTV1wW9GPrhcDvO1OVdZQEFohYBtCoFKGL2VQ7iJUY,1110
+atelier_ai-0.1.10.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atelier_ai-0.1.10.dist-info/METADATA,sha256=IoXlqXge1RAA0IYT_cyH7_E1GVENbR3FECSs3VeiIUI,3863
+atelier_ai-0.1.10.dist-info/RECORD,,
