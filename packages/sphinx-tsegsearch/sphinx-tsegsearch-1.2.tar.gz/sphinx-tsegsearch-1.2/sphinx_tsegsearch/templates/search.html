@@ -1,0 +1,5 @@
+{%- extends "!search.html" %}
+{% block extrahead %}
+{{ super() }}
+<script src="{{ pathto('_static/splitQuery.js', 1) }}"></script>
+{% endblock extrahead %}
