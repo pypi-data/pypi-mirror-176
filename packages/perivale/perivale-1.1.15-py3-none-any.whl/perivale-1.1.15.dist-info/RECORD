@@ -1,0 +1,16 @@
+perivale/__init__.py,sha256=sT3u8Z8Hs7E69HpDDzCge9tEzVHZpFKkRzFq61Hc68M,221
+perivale/buffer.py,sha256=oY5ZaLDMrpUPlOaFK--nbxLmcRJyjrLahH31K3tk95k,9970
+perivale/errors.py,sha256=FS2g-qLSDeTxnGvKat4X2fl1zBSrIZFZcsB-aTtbG7E,625
+perivale/excerpt.py,sha256=hSq24XiJI5KviFyBtHMsmCJy3rrFK0BBse6wibfX8Pc,767
+perivale/position.py,sha256=C0uyce50WFFvx6l0Qz0mT5V_IfOLBheoLaE4mjLuGd4,287
+perivale/helpers/__init__.py,sha256=2eYaBUagUoUeZlImVJRvKmOvYMNOTp-jsD3KN1xQA8g,426
+perivale/helpers/in_range.py,sha256=vcG1kLf7N_HMiOz_m1JnjleMwlf3r1yXESM5b6FDFNA,311
+perivale/helpers/parse_escape_code.py,sha256=yDoODXTYKoGkUxGlMzwZvQQ01F6q_ga967756INzy-g,1792
+perivale/helpers/parse_expression.py,sha256=-a8j6rOM0YWnOrDbJlqkgzcqp5JJad04gSWMZ_5iJuI,2353
+perivale/helpers/parse_identifier.py,sha256=Vq_ocWRXY239Dqu8qeoUhcT05YA2L0D0eduMEwct_zs,1807
+perivale/helpers/parse_integer.py,sha256=6ZLrL_38m0U4qMO3Ij8ZK4CwG6InAXvohKmioC0Raq4,2943
+perivale-1.1.15.dist-info/LICENSE,sha256=qtLyrXsl817ltxI0csgwDD7nvifJuQkRQdtnsjVOxyQ,1056
+perivale-1.1.15.dist-info/METADATA,sha256=ovThMmMLeRXGgAQ6uDhPTzSOHY2W4sSkP9j0P1KnZYs,3858
+perivale-1.1.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+perivale-1.1.15.dist-info/top_level.txt,sha256=nuzkK3RuU50Cq6Ppg7q-k006u1O_JaaLhyLGa0netVk,9
+perivale-1.1.15.dist-info/RECORD,,
