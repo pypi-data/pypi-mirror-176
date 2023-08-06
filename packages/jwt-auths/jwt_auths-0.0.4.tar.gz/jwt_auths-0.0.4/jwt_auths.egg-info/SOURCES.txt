@@ -1,0 +1,11 @@
+README.md
+setup.py
+jwt_auth/__init__.py
+jwt_auth/authentication.py
+jwt_auth/request.py
+jwt_auth/response.py
+jwt_auths.egg-info/PKG-INFO
+jwt_auths.egg-info/SOURCES.txt
+jwt_auths.egg-info/dependency_links.txt
+jwt_auths.egg-info/requires.txt
+jwt_auths.egg-info/top_level.txt
