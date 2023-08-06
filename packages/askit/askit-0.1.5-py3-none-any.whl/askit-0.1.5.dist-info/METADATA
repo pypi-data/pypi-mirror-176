@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: askit
+Version: 0.1.5
+Summary: Ask OpenAI your question right inside your terminal
+Author: Phil Harper
+Author-email: phil@imrge.co
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.25.0,<0.26.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# AskAI
+
+Ask OpenAI your question from the command line and get a response. Super janky right now.
+
+# Installation
+
+    pip install askit
+
+# Add API key first time use
+
+    ask api your-openai-key-goes-here
+
+# Usage
+
+    ask it "Is this a well formulated question for openAI?"
+
+# Notes
+You need to have your question in a string format, and you must end your question with a question mark or it won't work.
+
+"Questions must look like this?"
+
+This is super janky. Feedback welcomed.
