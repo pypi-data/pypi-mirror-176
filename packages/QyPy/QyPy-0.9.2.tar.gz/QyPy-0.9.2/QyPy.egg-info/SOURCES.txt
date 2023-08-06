@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+QyPy.egg-info/PKG-INFO
+QyPy.egg-info/SOURCES.txt
+QyPy.egg-info/dependency_links.txt
+QyPy.egg-info/not-zip-safe
+QyPy.egg-info/top_level.txt
+query/Q.py
+query/Query.py
+query/__init__.py
+query/test.py
+query/test_file.py
