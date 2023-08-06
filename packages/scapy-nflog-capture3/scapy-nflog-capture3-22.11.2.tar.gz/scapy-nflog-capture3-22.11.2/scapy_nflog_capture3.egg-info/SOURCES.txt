@@ -1,0 +1,10 @@
+COPYING
+README.md
+nflog_cffi.py
+scapy_nflog.py
+setup.py
+__pycache__/_cffi__x11d28b3fx52abb3c3.c
+scapy_nflog_capture3.egg-info/PKG-INFO
+scapy_nflog_capture3.egg-info/SOURCES.txt
+scapy_nflog_capture3.egg-info/dependency_links.txt
+scapy_nflog_capture3.egg-info/top_level.txt
