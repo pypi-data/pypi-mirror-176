@@ -1,0 +1,13 @@
+marlin_pytorch/__init__.py,sha256=LGjWuyJqj7ZhoLM-o03FTOUtzFhk4iqy3PjEjDYxtJ4,182
+marlin_pytorch/version.txt,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+marlin_pytorch/model/__init__.py,sha256=ASSppEkjZGmqrQVTZr6E5q6pRa8lwgfMtGoNdcMqH0w,49
+marlin_pytorch/model/decoder.py,sha256=eer7C9a4Smj7poRPbTqnUfPPUaLW_XhK_bUz9m2vEig,3458
+marlin_pytorch/model/encoder.py,sha256=tziwMZOrAZBNA1bPyhFwEeg2sHkG8E93FPjqOL3BXTo,2817
+marlin_pytorch/model/marlin.py,sha256=l5HDawAzQq82VjVH_3cAP_DsdIYFicxwlaBj4vHVPoc,7407
+marlin_pytorch/model/positional_embedding.py,sha256=ueRnVhiECV5MS0B5yYYlLdj9XnmggKGh37RjyCmXZkA,1672
+marlin_pytorch/model/util.py,sha256=DfBZ3x-WYJfTx51-Qby6RhrxzSpG95iNss-K3dGWgd8,10013
+marlin_pytorch-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+marlin_pytorch-0.1.0.dist-info/METADATA,sha256=Rz52I9NqmzVYmHrMAquOdyEAVz2_Dd992niYLPW1xaU,4905
+marlin_pytorch-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+marlin_pytorch-0.1.0.dist-info/top_level.txt,sha256=_depPnLIKNFiO7yb-ZWO25f79akXsuvhrUI9b_LvUXk,15
+marlin_pytorch-0.1.0.dist-info/RECORD,,
