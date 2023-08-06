@@ -1,0 +1,20 @@
+{
+    "iteration_formats": {
+        "c-string": "%0{padding}d",
+        "f-string": "$F",
+        "glob": "*",
+        "first-last": "{first:\\d+}-{last:\\d+}",
+        "first-last-padding": "{first:\\d+}-{last:\\d+}%0{padding:\\d+}d",
+        "padding-first-last": "%0{padding:\\d+}d{first:\\d+}-{last:\\d+}"
+    },
+    "compressed_filepath_types": {
+        "JohnPath": {
+            "parent_class": "CompressedFilepath",
+            "filepath_attributes_parsing": [
+                "{dirname}/{filename}{frame_separator:[\\.\\_\\s\\-]+}{frame_padding}{ext}",
+                "{filename}{frame_separator:[\\.\\_\\s\\-]+}{frame_padding}{ext}"
+            ],
+            "str_repr_format": ""
+        }
+    }
+}
