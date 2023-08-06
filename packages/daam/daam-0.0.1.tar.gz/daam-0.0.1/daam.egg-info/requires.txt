@@ -1,0 +1,7 @@
+transformers
+diffusers
+spacy
+gradio
+ftfy
+transformers
+pandas
