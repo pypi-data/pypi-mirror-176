@@ -1,0 +1,10 @@
+meters/__init__.py,sha256=gdP6-NfcaH1dpoh1S8JZjkGJQtRGReWTWomf2oMqpjE,92
+meters/averagemeter.py,sha256=SDtd62Cq6cN-93FWUgcgp0X-QobEpQm-7b9Uc4Ac5LA,1819
+meters/meter_interface.py,sha256=CvZrGq6vE-o_i7mKGiMXrsgAYPoZxBRrrs-4mdEAl44,3646
+meters/metric.py,sha256=DZCI3_XHgyx3YliXZmt4vezuhU_qnwTXY5R6PVQMzrI,810
+meters/storage_interface.py,sha256=GqVOSx09JC58ipsXkTfv0vxolIKB34-TY641YVVskmU,2756
+meters/utils.py,sha256=UGTtrIUBmcbp2nQf5Il0g2dA5mpODQp3IiaIDCKky0U,1654
+foxmetrics-1.0.dist-info/METADATA,sha256=SHHHQZvYZTZ_ADJrDtcc47ouQj6QediuohY7IQnyaJA,159
+foxmetrics-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+foxmetrics-1.0.dist-info/top_level.txt,sha256=yOSJ4lHyaIhApMgknn7tAQQZrnNTKumevaK-zl-CCFU,7
+foxmetrics-1.0.dist-info/RECORD,,
