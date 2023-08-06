@@ -1,0 +1,3 @@
+[console_scripts]
+viddur=v2conf.__main__:entry_point
+
