@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikipedia_summary.py,sha256=swmqIjZDvC4J3WGVUc7hIp0RiPHr68RtbH_rcJh4BRs,229
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model/wikipediapage.py,sha256=_4b_-4OxQut3M1bbE-vMDZzIOS6JeLCCpadn-RMEwY8,254
+wikiutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikiutil/fetcher.py,sha256=eLk4ubjTKlLfThA-tmxq28O3NQbb67HRZb8iYYqCHKo,1527
+wikipediasummary-1.0.dist-info/METADATA,sha256=TypKcy9MJug4GQc8j8Kd-IrZA7-5JnqcmTXF4hjvRug,1228
+wikipediasummary-1.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+wikipediasummary-1.0.dist-info/licenses/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+wikipediasummary-1.0.dist-info/RECORD,,
