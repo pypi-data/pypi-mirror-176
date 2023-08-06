@@ -1,0 +1,8 @@
+
+#license_type: mit
+
+date->: date_now "%B %Y"
+
+#author:
+#  ->: print Who are the license holders
+#  if: author is not defined and license_type in ['mit']

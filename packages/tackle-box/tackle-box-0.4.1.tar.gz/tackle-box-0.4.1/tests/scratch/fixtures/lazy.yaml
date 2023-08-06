@@ -1,0 +1,2 @@
+
+pre_commit_list->: yamldecode "{{http_get('https://raw.githubusercontent.com/pre-commit/pre-commit.com/main/all-repos.yaml')}}"

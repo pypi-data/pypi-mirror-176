@@ -1,0 +1,18 @@
+global->: tackle ...
+
+vars:
+  foo: bar
+  stuff: things
+
+#targets->: checkbox --choices inventory.postgres
+#ansible:
+#  ->: ansible playbook.yaml
+#  for: targets
+#  kwargs: vars
+#  inventory: {{item}}
+
+ansible:
+  ->: ansible playbook.yaml
+  for: checkbox(choices=inventory.postgres)
+  kwargs: vars
+  inventory: {{item}}

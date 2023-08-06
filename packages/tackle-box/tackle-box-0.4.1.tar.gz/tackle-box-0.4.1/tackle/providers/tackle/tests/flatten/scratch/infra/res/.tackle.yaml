@@ -1,0 +1,13 @@
+global->: tackle ...
+
+vars:
+  ssh_key: bar
+  ssh_password: things
+
+targets->: checkbox --choices inventory.postgres
+
+ansible:
+  ->: ansible playbook.yaml
+  for: targets
+  kwargs: vars
+  inventory: {{item}}
