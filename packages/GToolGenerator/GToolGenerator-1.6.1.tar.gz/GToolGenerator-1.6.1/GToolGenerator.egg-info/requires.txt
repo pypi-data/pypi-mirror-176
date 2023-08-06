@@ -1,0 +1,5 @@
+requests
+Pillow
+beatifulsoup4
+lxml
+Flask
