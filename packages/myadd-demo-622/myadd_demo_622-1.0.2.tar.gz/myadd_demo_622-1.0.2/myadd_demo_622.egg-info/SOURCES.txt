@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+myadd_demo_622.egg-info/PKG-INFO
+myadd_demo_622.egg-info/SOURCES.txt
+myadd_demo_622.egg-info/dependency_links.txt
+myadd_demo_622.egg-info/top_level.txt
+pypi_demo_xdd/__init__.py
+pypi_demo_xdd/my_add.py
+pypi_demo_xdd/test.py
