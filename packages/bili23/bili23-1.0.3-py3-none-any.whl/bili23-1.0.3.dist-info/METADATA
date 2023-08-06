@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bili23
+Version: 1.0.3
+Summary: 下载 Bilibili 视频/番剧/电影/纪录片 等资源
+Home-page: https://github.com/ScottSloan/Bili23-Downloader-CLI
+Author: Scott Sloan
+Author-email: scottsloan@petalmail.com
+License: MIT License
+Project-URL: Home Page, https://github.com/ScottSloan/Bili23-Downloader-CLI
+Project-URL: Bug Tracker, https://github.com/ScottSloan/Bili23-Downloader-CLI/issues
+Keywords: pip,bilibili,video-downloader,cli
+Platform: any
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: colorama
+
+UNKNOWN
+
