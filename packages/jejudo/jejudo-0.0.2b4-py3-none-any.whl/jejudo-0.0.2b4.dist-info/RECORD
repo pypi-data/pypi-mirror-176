@@ -1,0 +1,10 @@
+jejudo/__init__.py,sha256=hZ60PukuWUHiq5_QGaQ4K8Ww8eqN0td16K_ZUUD7dgw,121
+jejudo/_version.py,sha256=cVURuOzlo89c0MNf0KLuoxrPINVx9Hg87ukYeHwRGMg,23
+jejudo/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jejudo/core/jejudo.py,sha256=dVAyQ_2rv3xRlvfV47jaW-2LVVGz38cSZyCI7oD9Lck,9259
+jejudo/core/work/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jejudo/core/work/math.py,sha256=KoHlT_Sor1bIvmmx1fug7VPJT9NJkd99lyn6uC5Oddw,1868
+jejudo-0.0.2b4.dist-info/METADATA,sha256=U91LV-tX18RvQCQrM2BSEn0J9I573VjbG4aXBE5i3-M,368
+jejudo-0.0.2b4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jejudo-0.0.2b4.dist-info/top_level.txt,sha256=GiHaf1FoUtcBrSOdx0Fc72exMlNUf9t317-V84X_8A0,7
+jejudo-0.0.2b4.dist-info/RECORD,,
