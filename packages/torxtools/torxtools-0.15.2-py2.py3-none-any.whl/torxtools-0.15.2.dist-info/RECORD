@@ -1,0 +1,13 @@
+torxtools/__init__.py,sha256=-srH-zq3YA_Q4aFThQr-LF5lQnTyXyjxZtd9ll-N7Ic,80
+torxtools/argtools.py,sha256=0TXOko6eQ1jZJdJes44eEiYxK8mbqRh3s8YUWNo1aZU,3120
+torxtools/cfgtools.py,sha256=-4p1xdJAEryK16l87rSTx-vOfKg2muwd3uNiAvFd6C8,1916
+torxtools/ctxtools.py,sha256=TmCvRGR-08ReFsryrVwWKT2LliUId9ZudP3FvsfltMA,1759
+torxtools/dicttools.py,sha256=uNiXwS39QDqQOr6b7Qxk0Z2L_mTfyqeKZ-p8ixdH_Rk,1514
+torxtools/pathtools.py,sha256=Tn3qixUOBT392jW6_K5oN0OS0nd79ZbgVPJDe9zxsH8,1234
+torxtools/xdgtools.py,sha256=3FcJ7GHLP6Wz2uPVjn_ew7-joyXqZ13mcy8DVB6GC9I,1594
+torxtools-0.15.2.dist-info/LICENSE,sha256=YIR6fHMUIJn3AIj5TtAB50cytEaccHH_TrrvapFiyk8,1086
+torxtools-0.15.2.dist-info/METADATA,sha256=l2C8m3gj7xig7gisAH7BQ95m8-8qrmMXwv46SoDbHDQ,2298
+torxtools-0.15.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+torxtools-0.15.2.dist-info/top_level.txt,sha256=ojtjFEyjpBie2sIv6jwK4PId1cKMaOdEONYFOwnmRX0,10
+torxtools-0.15.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+torxtools-0.15.2.dist-info/RECORD,,
