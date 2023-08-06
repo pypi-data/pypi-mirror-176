@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: termcolor-util
+Version: 2022.11.1
+Summary: wrapper functions over termcolor
+License: BSD
+Author: Bogdan Mustiata
+Author-email: bogdan.mustiata@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: termcolor (>=2.1.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+`termcolor_util` is a set of functions on top of termcolor for every
+single color.
+
+Installation
+============
+
+    pip install termcolor_util
+
+Functions
+=========
+
+    def yellow(text: str, bold=False, underline=False) -> str: ...
+
+    def green(text: str, bold=False, underline=False) -> str: ...
+
+    def blue(text: str, bold=False, underline=False) -> str: ...
+
+    def red(text: str, bold=False, underline=False) -> str: ...
+
+    def gray(text: str, bold=False, underline=False) -> str: ...
+
+    def cyan(text: str, bold=False, underline=False) -> str: ...
+
+    def magenta(text: str, bold=False, underline=False) -> str: ...
+
+    def white(text: str, bold=False, underline=False) -> str: ...
+
+Beside colors, there is a function for directly printing on the stderr.
+
+    def eprint(*args) -> None: ...
+
