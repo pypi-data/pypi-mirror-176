@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+iostypingsound/audio_extractor.py
+iostypingsound/ios_keys.py
+iostypingsound/main.py
+iostypingsound/process_manager.py
+iostypingsound/root.py
+iostypingsound.egg-info/PKG-INFO
+iostypingsound.egg-info/SOURCES.txt
+iostypingsound.egg-info/dependency_links.txt
+iostypingsound.egg-info/entry_points.txt
+iostypingsound.egg-info/requires.txt
+iostypingsound.egg-info/top_level.txt
+iostypingsound/setup/ios-video-recording.mp4
