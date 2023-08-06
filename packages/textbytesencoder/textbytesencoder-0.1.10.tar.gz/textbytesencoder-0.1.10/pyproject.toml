@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "textbytesencoder"
+version = "0.1.10"
+description = "Module encoding and encrypting text by key"
+authors = ["D1ffic00lt <dm.filinov@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://github.com/D1ffic00lt/textbytesencoder"
+repository = "https://github.com/D1ffic00lt/textbytesencoder"
+documentation = "https://github.com/D1ffic00lt/textbytesencoder"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
