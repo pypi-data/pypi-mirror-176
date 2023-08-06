@@ -1,0 +1,10 @@
+click
+plumbum
+PyYAML
+
+[dev]
+pylint
+coverage
+twine
+
+[dev_windows]
