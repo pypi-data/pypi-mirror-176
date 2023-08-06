@@ -1,0 +1,11 @@
+include new_test_new_new/new_test_new_new.min.js
+include new_test_new_new/new_test_new_new.min.js.map
+include new_test_new_new/async-*.js
+include new_test_new_new/async-*.js.map
+include new_test_new_new/*-shared.js
+include new_test_new_new/*-shared.js.map
+include new_test_new_new/metadata.json
+include new_test_new_new/package-info.json
+include README.md
+include LICENSE
+include package.json
