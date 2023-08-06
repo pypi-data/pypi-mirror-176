@@ -1,0 +1,181 @@
+{
+  "src/lib/components/TouchableComponent.react.js": {
+    "description": "",
+    "displayName": "TouchableComponent",
+    "methods": [
+      {
+        "name": "updateActive",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "isActive",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "swipedTop",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          },
+          {
+            "name": "x",
+            "type": null
+          },
+          {
+            "name": "y",
+            "type": null
+          },
+          {
+            "name": "isFlick",
+            "type": null
+          },
+          {
+            "name": "velocity",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "swipedLeft",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          },
+          {
+            "name": "x",
+            "type": null
+          },
+          {
+            "name": "y",
+            "type": null
+          },
+          {
+            "name": "isFlick",
+            "type": null
+          },
+          {
+            "name": "velocity",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "swipedBottom",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          },
+          {
+            "name": "x",
+            "type": null
+          },
+          {
+            "name": "y",
+            "type": null
+          },
+          {
+            "name": "isFlick",
+            "type": null
+          },
+          {
+            "name": "velocity",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "swipedRight",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          },
+          {
+            "name": "x",
+            "type": null
+          },
+          {
+            "name": "y",
+            "type": null
+          },
+          {
+            "name": "isFlick",
+            "type": null
+          },
+          {
+            "name": "velocity",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "touchData",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": ""
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "n_clicks": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
