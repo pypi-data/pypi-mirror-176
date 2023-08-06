@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GGTS
+Version: 0.0.2
+Summary: This library allows to compress, visualize, generate and process sequences of geographic locations.
+Home-page: https://github.com/AlbaranezJavier/GGTS
+Author: Javier Albaráñez Martínez
+Author-email: j.albar@geodb.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# GGTS
