@@ -1,0 +1,154 @@
+from copy import deepcopy
+
+from typing import Optional, Dict, Any, List
+
+from src.tabs import abstract_tab
+from src.tabs.data_report import constants
+from src.tabs.data_report import aggregation_chart
+from src.tabs.data_report import metric
+from src.tabs.data_report import markdown
+
+
+class DataReport(abstract_tab.Tab):
+    ID = "REPORT"
+
+    BLANK: Dict[str, Any] = {
+        "activeFilterGroup": "",
+        "color": None,
+        "configuration": {},
+        "name": "",
+        "type": ID,
+    }
+
+    def __init__(
+        self,
+        title: str,
+        name: Optional[str] = None,
+        colour: Optional[str] = None,
+        config: Optional[Dict[str, Any]] = None,
+    ):
+        super().__init__()
+
+        self.title = title
+
+        if config is not None:
+            self._config = config
+        else:
+            self.reset()
+
+        self.config["colour"] = colour.upper() if colour is not None else colour
+        self.config["configuration"]["title"] = title
+        self.config["name"] = name
+
+    @classmethod
+    def from_text(
+        cls,
+        text: str,
+        title: str,
+        name: Optional[str] = None,
+        colour: Optional[str] = None,
+    ):
+        if colour is not None:
+            assert colour in constants.colours
+        data_report = cls(title=title)
+        data_report.config = {
+            "name": name,
+            "type": "REPORT",
+            "color": colour.upper() if colour is not None else colour,
+            "configuration": {
+                "title": title,
+                "content": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "appBlock",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "attrs": {"textAlign": "left"},
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": text,
+                                        }
+                                    ],
+                                }
+                            ],
+                        }
+                    ],
+                },
+            },
+            "activeFilterGroup": "",
+        }
+        return data_report
+
+    @classmethod
+    def from_markdown(
+        cls,
+        text: str,
+        title: str,
+        name: Optional[str] = None,
+        colour: Optional[str] = None,
+    ):
+        data_report = cls(title=title)
+        md = markdown.MarkDown()
+        content = md.parse(text)
+        data_report.config = {
+            "name": name,
+            "type": "REPORT",
+            "color": colour.upper() if colour is not None else colour,
+            "configuration": {
+                "title": title,
+                "content": {
+                    "type": "doc",
+                    "content": content,
+                },
+            },
+            "activeFilterGroup": "",
+        }
+        return data_report
+
+    def add_markdown(self, text: str):
+        md = markdown.MarkDown()
+        content = md.parse(text)
+        config = self.config["configuration"]
+        if "content" not in config:
+            self.config["configuration"]["content"] = {
+                "type": "doc",
+                "content": [],
+            }
+        self.config["configuration"]["content"]["content"] += content
+
+    def add_aggregation(
+        self,
+        groupby: List[Dict[str, Any]],
+        metric: List[Dict[str, Any]],
+        title: Optional[str] = None,
+        page_size: int = 20,
+        show_frequencies: bool = False,
+        sort_direction: str = "Descending",
+    ):
+        chart = aggregation_chart.aggregation_chart(
+            groupby=groupby,
+            metric=metric,
+            title=title,
+            page_size=page_size,
+            show_frequencies=show_frequencies,
+            sort_direction=sort_direction,
+        )
+        self.config["configuration"]["content"]["content"] += chart
+
+    def add_metric(
+        self,
+        query: List[Dict[str, Any]],
+        title: Optional[str] = None,
+        show_frequencies: bool = False,
+        sort_direction: str = "Descending",
+    ):
+        chart = metric.metric(
+            query=query,
+            title=title,
+            show_frequencies=show_frequencies,
+            sort_direction=sort_direction,
+        )
+        self.config["configuration"]["content"]["content"] += chart
