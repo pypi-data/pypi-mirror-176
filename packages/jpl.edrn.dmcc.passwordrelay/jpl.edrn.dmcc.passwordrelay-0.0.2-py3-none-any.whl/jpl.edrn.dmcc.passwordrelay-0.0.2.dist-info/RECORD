@@ -1,0 +1,15 @@
+jpl.edrn.dmcc.passwordrelay-0.0.2-py3.10-nspkg.pth,sha256=mRTcVOU-Xx0qGihUTA87Bt9_b1Z_2BnR0tsGui4-8cw,3393
+jpl/edrn/dmcc/passwordrelay/VERSION.txt,sha256=pd00ZUajhDYpNrl6TC9dotPSUwQ-qWeap7l9iVUN_b0,6
+jpl/edrn/dmcc/passwordrelay/__init__.py,sha256=nW9ejqf_LyqZpKvvF2QYnhrUJ_g4xssbpJ7FLp6LZBo,183
+jpl/edrn/dmcc/passwordrelay/constants.py,sha256=Wvg0v1TYX1xJ2_cCy0t2FVY-PW6jm04iZZYbfeQm3pU,354
+jpl/edrn/dmcc/passwordrelay/main.py,sha256=lCQE6hxySy_lvWdn0EqeqGBVeaPte9q4UcXl0zmkz88,1521
+jpl/edrn/dmcc/passwordrelay/server.py,sha256=2EO209anzJcJoNyb629p85UH5sBfFu9hx4TnGrp2MHE,1270
+jpl/edrn/dmcc/passwordrelay/utils.py,sha256=PbxsTl17MNjsIpbk6aqbZF7iIxpaAOjGlhX9ibLvO1k,2072
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/LICENSE.md,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/METADATA,sha256=oIPfDngubomAu5rlFaLn-8WbR06GfRfMwpAZAKTyyeI,4803
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/entry_points.txt,sha256=1o1QWOJ7i2_GoYyKMprScBqZ0L_5hUex5LXKzCiJ0Kw,77
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/namespace_packages.txt,sha256=nfUbkldDTg-M69F6_ZLmq088MXYa7WqecAe0Vo2tuJU,27
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/top_level.txt,sha256=KN9Ibet7qP2OqsRtyrgT9MaAv9E5ReIRj_8l7Awd3WI,4
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jpl.edrn.dmcc.passwordrelay-0.0.2.dist-info/RECORD,,
