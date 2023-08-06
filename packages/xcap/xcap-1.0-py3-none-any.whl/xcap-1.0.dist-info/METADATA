@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xcap
+Version: 1.0
+Home-page: https://github.com/0xNev/PyCaptcha
+Author: N
+Author-email: dev@0x04.xyz
+License: MIT
+Keywords: test
+License-File: LICENSE
+Requires-Dist: selenium (==4.1.5)
+Requires-Dist: webdriver-manager (==3.7.1)
+
