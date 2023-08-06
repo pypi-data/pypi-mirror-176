@@ -1,0 +1,13 @@
+schuylkill/__init__.py,sha256=jN2x1iRxmMY1LFwYpoBxD891NDomhYhuSxGSuFIa2Z8,204
+schuylkill/exact.py,sha256=sDzImeHeX9GWK18YPN2PaylggGzeKep7Xn2w2p3smY0,3145
+schuylkill/fuzzy.py,sha256=2XHP5lGBvXTihifKC8LU2Vyuc5nqOlt2RE0mLBDpMOw,5732
+schuylkill/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schuylkill/tests/test_exact.py,sha256=BhxyhRn7tCSS79p-2hn5oXrW3WX6r2uu10l7RTueTrQ,2817
+schuylkill/tests/test_fuzzy.py,sha256=I5bIdOOGSQ7IeVUWzVxpsI7t3pYiANLJgO0I6YbBuX8,2007
+schuylkill/tests/test_utils.py,sha256=lCzYHBCfSSAPnJ2SRdqHHn1WAgPRwlx3jsWmU2Ggz18,2265
+schuylkill/tf_idf.py,sha256=pQSGKm1CXwZaN57RQz1x40DNj7WOezNsYPLUR8gBCSg,6119
+schuylkill/utils.py,sha256=mpe-DIX01v4EEKNdKoEIU5w59apvHaStg9Hzn2-oMUs,3879
+schuylkill-0.1.2.dist-info/LICENSE,sha256=HwRPgGVug4rj5VctPpyZzSeN60rPDAefvFwasA6QbiM,1103
+schuylkill-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+schuylkill-0.1.2.dist-info/METADATA,sha256=FQMTmR4p6cZFuk0PSYtDUn0aUGOlwjCyL6MtrLXzKdo,721
+schuylkill-0.1.2.dist-info/RECORD,,
