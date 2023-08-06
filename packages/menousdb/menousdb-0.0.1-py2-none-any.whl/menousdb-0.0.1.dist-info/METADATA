@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: menousdb
+Version: 0.0.1
+Summary: Alternative to SQL
+Home-page: UNKNOWN
+Author: Menous Technologies
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Menous DB
+
+## MenousDB Features:
+
+1. SQL version
+2. No SQL (JSON) Version
+3. Runs an API server on the Local Network which allows multiple devices accessibility i.e being suitable for servers
+4. Encryption of the data being stored locally
+5. Authentication while accessing the database
+6. Python Software Development Kit
+7. Web Client
+8. Command Line Interface Client
+9. Open Source Project
+
+
+## Installation
+
+
