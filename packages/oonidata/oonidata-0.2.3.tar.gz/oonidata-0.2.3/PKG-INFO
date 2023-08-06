@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: oonidata
+Version: 0.2.3
+Summary: 
+Author: Arturo Filastò
+Author-email: arturo@filasto.net
+Requires-Python: >=3.7,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: boto3 (>=1.24)
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: clickhouse-driver (>=0.2)
+Requires-Dist: cryptography (>=38.0.3)
+Requires-Dist: importlib-metadata (>=1.0); python_version < "3.8"
+Requires-Dist: lxml (>=4.9)
+Requires-Dist: lz4 (>=4.0)
+Requires-Dist: mashumaro (>=3.0)
+Requires-Dist: maxminddb (>=2.2)
+Requires-Dist: orjson (>=3.8)
+Requires-Dist: pyOpenSSL (>=22.1)
+Requires-Dist: requests (>=2.27)
+Requires-Dist: tqdm (>=4.64)
