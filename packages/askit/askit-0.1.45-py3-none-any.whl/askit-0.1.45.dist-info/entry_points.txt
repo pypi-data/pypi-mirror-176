@@ -1,0 +1,3 @@
+[console_scripts]
+ask=askit.main:app
+
