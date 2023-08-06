@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Reajuste Salarial/Reajuste Salarial.py
+Reajuste Salarial/__init__.py
+Reajuste_Salarial.egg-info/PKG-INFO
+Reajuste_Salarial.egg-info/SOURCES.txt
+Reajuste_Salarial.egg-info/dependency_links.txt
+Reajuste_Salarial.egg-info/top_level.txt
