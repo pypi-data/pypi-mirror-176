@@ -1,0 +1,4 @@
+[
+  "tests/test_json.py::test_json_get",
+  "tests/test_json.py::test_json_get_with_lists"
+]
