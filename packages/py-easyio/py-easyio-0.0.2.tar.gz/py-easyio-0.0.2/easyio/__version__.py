@@ -1,0 +1,7 @@
+__title__ = 'py-easyio'
+__version__ = '0.0.2'
+__description__ = 'A simple and easy way to read and write excel files.'
+__author__ = 'Icebear'
+__author_email__ = '969549808@qq.com'
+__url__ = 'https://github.com/iiicebearrr/easy-io'
+__license__ = 'Apache 2.0'
