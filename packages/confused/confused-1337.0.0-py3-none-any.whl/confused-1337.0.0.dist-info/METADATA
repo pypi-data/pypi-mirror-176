@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: confused
+Version: 1337.0.0
+Summary: Dependecy Confusion POC
+Home-page: UNKNOWN
+Author: Zeyad Abulaban
+Author-email: zeyad@sitech.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+# PySitech
+## An Awesome Calculator!
+### Usage
+```python
+pip install confused
+```
+Then Simply:
+```python
+import pysitech
+print(pysitech.calc(12,5))
+# Output
+17
+```
+Please don't be confused :(
+
+
