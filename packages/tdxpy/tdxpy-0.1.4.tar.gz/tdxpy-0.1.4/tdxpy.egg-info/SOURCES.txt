@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+tdxpy.egg-info/PKG-INFO
+tdxpy.egg-info/SOURCES.txt
+tdxpy.egg-info/dependency_links.txt
+tdxpy.egg-info/requires.txt
+tdxpy.egg-info/top_level.txt
