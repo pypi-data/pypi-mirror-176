@@ -1,0 +1,2 @@
+[console_scripts]
+nadeocr = nadeocr.__main__:run
