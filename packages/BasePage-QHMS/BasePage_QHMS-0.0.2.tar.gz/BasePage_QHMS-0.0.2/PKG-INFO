@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: BasePage_QHMS
+Version: 0.0.2
+Summary: Base_page for selenium automation
+Home-page: UNKNOWN
+Author: SimonPoon (simon_poon)
+Author-email: <simon.poon@qhms.com>
+License: UNKNOWN
+Keywords: python,automation,appium,selenium,pytest,automation framework
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# python_selenium_ctrl
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Simon Poon from BuPA (c) 2022
+Need to work with Seleium framework and pytest
+
+# Other Code
+
+
+
