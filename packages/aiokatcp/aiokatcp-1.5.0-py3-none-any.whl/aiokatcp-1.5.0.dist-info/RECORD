@@ -1,0 +1,15 @@
+aiokatcp/__init__.py,sha256=Bf9Zmp92qb9zlswq8df4biVJIJzrjQ2srzyCFQmW2oI,2277
+aiokatcp/client.py,sha256=M54TuTFty1VGMiUbxybXYIVvncgixw_0EV7D_th4nLs,39419
+aiokatcp/connection.py,sha256=QS08XiMtOK64avKeoS7lyVdIsmadYWLuM2AAX24FHOc,12817
+aiokatcp/core.py,sha256=v3Uj_2E-gifFqI_p2L5feQjBWiUDGTqSTb1AXCql7_0,20118
+aiokatcp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiokatcp/sensor.py,sha256=EAnhCB1FSJivy9hwD9ApHWVNDDLmRgub_0bML1T2bRs,35508
+aiokatcp/server.py,sha256=wUIr73oKgDo7e0feVgaQegI6fFanpOjMv-OtuIuyBeA,41616
+aiokatcp/tools/__init__.py,sha256=Iqqd-Y_0Zc8NZIsRacZQ-igMe0NEitlCaa__2cx2vjE,59
+aiokatcp/tools/katcpcmd.py,sha256=bQwQ4gCJKYnQI1OcvQjKIOrWVXRWDbyu1Tlkt8c9nqw,4105
+aiokatcp-1.5.0.dist-info/LICENSE.txt,sha256=HBpGp-jmE1MjWrJ8hARR_JTn43qBjMuPoFOuvKByCsY,1486
+aiokatcp-1.5.0.dist-info/METADATA,sha256=5SEDEE34rRpKbkBY9Gqsg8qeJWI0mb6_-wKzK6NeuqA,2297
+aiokatcp-1.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiokatcp-1.5.0.dist-info/entry_points.txt,sha256=zU5XARbDI9zO7VoREm4ayi_OGQM9yPPqemWec4s7yz0,58
+aiokatcp-1.5.0.dist-info/top_level.txt,sha256=Yj0GxNuYIEsa1jV3Ep4xZkYOj_fX_OVn4EFUFRhFzVs,9
+aiokatcp-1.5.0.dist-info/RECORD,,
