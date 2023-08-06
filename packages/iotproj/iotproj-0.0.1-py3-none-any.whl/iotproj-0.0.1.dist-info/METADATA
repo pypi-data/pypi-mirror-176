@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: iotproj
+Version: 0.0.1
+Summary: Test project
+Home-page: https://github.com/bombark/iotproj
+Author: Felipe Bombardelli
+Author-email: felipebombardelli@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+

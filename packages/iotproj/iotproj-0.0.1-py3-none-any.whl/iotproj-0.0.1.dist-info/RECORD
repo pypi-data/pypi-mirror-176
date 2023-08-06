@@ -1,0 +1,9 @@
+iotproj/__init__.py,sha256=dhuIhcbmctWUETf571wzlEN7rVnlwrupNWRxdM6uSQo,56
+iotproj/iotproj_cli.py,sha256=SycjJmZKCvLbf-6K2Lu2JIO_wg_xu5JJyK4zZCIzVAE,4337
+iotproj/iotproj_lib.py,sha256=aoFHa4Dee0tUsHP3GRla6qfkXHuByA6oV26ff5zSESQ,12603
+iotproj-0.0.1.dist-info/LICENSE,sha256=q1MrLkJy1UdB8NPf07HkJ5oeHzjnLvETQo_qAuCbv2M,1063
+iotproj-0.0.1.dist-info/METADATA,sha256=KUXERk6X37Jv9RFN6HM9F__ODjS2_Ia4NWq9QMHwvRg,614
+iotproj-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iotproj-0.0.1.dist-info/entry_points.txt,sha256=eV7y49pBvsYaJlfdVNYUL0GEu2BmXnYPumqvA_EBtX8,41
+iotproj-0.0.1.dist-info/top_level.txt,sha256=_wrT3T58QL7XD4bUNpPVYiHDIcZ2RYIg7tYI4lw0gn4,8
+iotproj-0.0.1.dist-info/RECORD,,
