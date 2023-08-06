@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tobit_reg"
+version = "0.0.1"
+authors = [
+  { name="Samit Ahlawat", email="samit.ahlawat@gmail.com" },
+]
+description = "Tobit (Censored) Regression"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/samitahlawat/tobit_reg"
+"Bug Tracker" = "https://github.com/samitahlawat/tobit_reg/issues"
+
