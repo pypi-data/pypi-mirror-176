@@ -1,0 +1,15 @@
+botoplus/__init__.py,sha256=zbtjvuTEgVJL-TmdTTMGyJb44E8KH8YCdNZTxJMzELc,31
+botoplus/__main__.py,sha256=ffsdJS6N5GS8V4ZFtj7wi31Y-SO6Ida9UMXpHGtFcGE,255
+botoplus/account.py,sha256=ltYvuimKzZ5EV1M1054kqtwpXoIItlTO7O3IzY2mlvQ,2733
+botoplus/botoplus.py,sha256=R8-OK8V5RcajmC0w0pXPYJ1NI1OTY0Q7uDlwTj7493o,1290
+botoplus/identity.py,sha256=mxl99447RNSJU3VsfnQgYhisKs2Z19bi8gBzhdLYSEk,2038
+botoplus/paginator.py,sha256=RGdoHHujQBYNmwKqkzclrqboXg2uf885AqEO1nvSZY4,2404
+botoplus/paginators.py,sha256=Peu-SsOiSB8fPnCoE2e_NnoUBBsagPcHKZnidWLF2ss,2619
+botoplus/region.py,sha256=9HOpd29OJz73XCnLvq_SV9KIGZpl6iNgljQeDT8v7po,2496
+botoplus/validation.py,sha256=ABOKZsxAYi8nZusTNNH8ScyaCPyYPJtnFp8TJUf9410,1876
+botoplus-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+botoplus-0.3.1.dist-info/METADATA,sha256=sfEuGdFZ4MfBEIKakvuc_8N-faO0tYqDqe5-CG6mQN0,4101
+botoplus-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+botoplus-0.3.1.dist-info/entry_points.txt,sha256=5mClJS2mbbf3Sy59s_WoEKb-aYb2SeCdmoA900aIlDk,51
+botoplus-0.3.1.dist-info/top_level.txt,sha256=1IIBqWzX-mjyQC0xK-gIMQLMHAIuvkm0bxNItBiC7a4,9
+botoplus-0.3.1.dist-info/RECORD,,
