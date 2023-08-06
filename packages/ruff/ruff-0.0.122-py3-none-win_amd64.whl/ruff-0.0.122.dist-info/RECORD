@@ -1,0 +1,7 @@
+ruff-0.0.122.dist-info/METADATA,sha256=EEEzAKbReARqgAxG301E0Y_I3JaczQPaggZ3IyqqiVI,47151
+ruff-0.0.122.dist-info/WHEEL,sha256=D6IsqhQR-eRvKoIdFFPAlZdCtQs6yNmahIUl-bOlkUs,94
+ruff-0.0.122.dist-info/license_files/LICENSE,sha256=nzNmvYmuOUWAC2CC8SGP_1mMoHruTYw4PS24SbCUIi8,1091
+ruff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruff/__main__.py,sha256=MdAnmPa2ATQ2Al5Xr1Vi5qJiWIWhplx2cPCCd7NV6O8,190
+ruff-0.0.122.data/scripts/ruff.exe,sha256=fLy45d3y_Vqg_7jzzEsRe6UOlRI2lnKhelkhI5n2xag,7828992
+ruff-0.0.122.dist-info/RECORD,,
