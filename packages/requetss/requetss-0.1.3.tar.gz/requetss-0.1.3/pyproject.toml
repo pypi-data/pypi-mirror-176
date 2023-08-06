@@ -1,0 +1,18 @@
+[project]
+name = "requetss"
+version = "0.1.3"
+authors = [
+  { name="zer0ul", email="zer0ul@vulnium.com" },
+]
+description = "Security project that aims to check how many developers install typoed libraries."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+requetss.py
+requetss.egg-info/PKG-INFO
+requetss.egg-info/SOURCES.txt
+requetss.egg-info/dependency_links.txt
+requetss.egg-info/top_level.txt
