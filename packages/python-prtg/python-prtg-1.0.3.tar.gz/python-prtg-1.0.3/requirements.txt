@@ -1,0 +1,7 @@
+build
+twine
+pip
+pytest-cov
+pytest
+flake8-annotations
+flake8

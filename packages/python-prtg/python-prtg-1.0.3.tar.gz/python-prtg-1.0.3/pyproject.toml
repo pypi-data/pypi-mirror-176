@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65.5", "setuptools-scm>=7.0.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-prtg"
+dynamic = ["version"]
+authors = [
+  { name="Arend Hummeling", email="arendhum@gmail.com" },
+]
+description = "Mini package to help writing output read by the prtg advanced ssh sensor"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/arend-public/libs/python-prtg"
+"Bug Tracker" = "https://gitlab.com/arend-public/libs/python-prtg/-/issues"
+[tool.setuptools_scm]
+version_scheme = "release-branch-semver"

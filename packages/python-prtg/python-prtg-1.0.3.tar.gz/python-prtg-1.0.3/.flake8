@@ -1,0 +1,10 @@
+[flake8]
+ignore = ANN101
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    generate_random_text.py,
+    node_modules
+max-complexity = 10
+max-line-length = 121

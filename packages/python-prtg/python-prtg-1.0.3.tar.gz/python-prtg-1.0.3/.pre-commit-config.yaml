@@ -1,0 +1,11 @@
+default_stages:
+  - commit
+repos:
+  - repo: https://github.com/dafyddj/commitlint-pre-commit-hook
+    rev: v2.3.0
+    hooks:
+      - id: commitlint
+        name: Check commit message using commitlint
+        description: Lint commit message against @commitlint/config-conventional rules
+        stages: [commit-msg]
+        additional_dependencies: ['@commitlint/config-conventional@16.0.0']

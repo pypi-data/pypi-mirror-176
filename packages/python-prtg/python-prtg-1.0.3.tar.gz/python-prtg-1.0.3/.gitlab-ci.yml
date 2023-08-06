@@ -1,0 +1,129 @@
+include:
+  - template: Security/SAST.gitlab-ci.yml
+
+stages:
+  - build:ci
+  - test
+  - release
+  - build:deploy
+  - deploy
+
+.node:
+  image: node:19
+  interruptible: true
+  before_script: []
+  except:
+    - tags
+
+node:build:
+  extends: .node
+  stage: build:ci
+  script:
+    - yarn install
+  needs: []
+  artifacts:
+    name: "${CI_JOB_NAME}-${CI_COMMIT_REF_SLUG}"
+    expire_in: 1 day
+    paths:
+      - node_modules
+  cache:
+    policy: pull-push
+    key: "yarn-${CI_COMMIT_REF_SLUG}"
+    paths:
+      - node_modules
+
+.test:
+  stage: test
+  interruptible: true
+  artifacts: {}
+  cache: {}
+  needs: []
+
+sast:
+  extends: .test
+
+python:pytest:
+  image: python:3.11
+  extends: .test
+  script:
+    - pip install --editable .
+    - pip install pytest pytest-cov
+    - pytest
+    - coverage report
+    - coverage xml
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+python:flake8:
+  image: python:3.11
+  extends: .test
+  script:
+    - pip install --editable .
+    - pip install flake8 flake8-annotations
+    - flake8
+
+node:commitlint:
+  extends: .node
+  script:
+    - echo "${CI_COMMIT_TITLE}\n\n${CI_COMMIT_DESCRIPTION}" | npx commitlint
+  needs:
+    - node:build
+  cache: {}
+  artifacts: {}
+  except:
+    - tags
+
+node:publish:
+  stage: release
+  extends: .node
+  script:
+    - node_modules/.bin/semantic-release
+  artifacts: {}
+  cache: {}
+  dependencies:
+    - node:build
+  only:
+    - main
+
+
+build:
+  image: python:3.11
+  stage: build:deploy
+  interruptible: true
+  artifacts:
+    name: "python-prtg-${CI_COMMIT_TAG}"
+    expire_in: 7 days
+    paths:
+      - dist
+  cache: {}
+  script:
+    - pip install --upgrade pip build
+    - python -m build
+
+.deploy:
+  image: python:3.11
+  stage: deploy
+  interruptible: false
+  artifacts: {}
+  cache: {}
+  dependencies:
+    - build
+  only:
+    - tags
+  before_script:
+    - pip install --upgrade pip twine
+
+gitlab:
+  extends: .deploy
+  script:
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+
+pypi:
+  extends: .deploy
+  script:
+    - TWINE_PASSWORD=${PYPI_TOKEN} TWINE_USERNAME=__token__ python -m twine upload dist/*
+

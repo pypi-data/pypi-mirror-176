@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-prtg
+Version: 1.0.3
+Summary: Mini package to help writing output read by the prtg advanced ssh sensor
+Author-email: Arend Hummeling <arendhum@gmail.com>
+Project-URL: Homepage, https://gitlab.com/arend-public/libs/python-prtg
+Project-URL: Bug Tracker, https://gitlab.com/arend-public/libs/python-prtg/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python PRTG
+Mini package to help writing output read by the prtg advanced ssh sensor
+
+## WIP
