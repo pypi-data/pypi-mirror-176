@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/__init__.py
+libname/hello.py
+mjhelloworldsawesome1.egg-info/PKG-INFO
+mjhelloworldsawesome1.egg-info/SOURCES.txt
+mjhelloworldsawesome1.egg-info/dependency_links.txt
+mjhelloworldsawesome1.egg-info/top_level.txt
