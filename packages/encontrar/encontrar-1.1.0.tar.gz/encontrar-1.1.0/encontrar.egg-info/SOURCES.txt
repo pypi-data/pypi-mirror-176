@@ -1,0 +1,8 @@
+README.md
+setup.py
+encontrar/__init__.py
+encontrar/locate.py
+encontrar.egg-info/PKG-INFO
+encontrar.egg-info/SOURCES.txt
+encontrar.egg-info/dependency_links.txt
+encontrar.egg-info/top_level.txt
