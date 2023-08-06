@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/File-Find_PIXEL-MASTER/FF_Additional_UI.py
+src/File-Find_PIXEL-MASTER/FF_Files.py
+src/File-Find_PIXEL-MASTER/FF_Help_UI.py
+src/File-Find_PIXEL-MASTER/FF_Main_UI.py
+src/File-Find_PIXEL-MASTER/FF_Search.py
+src/File-Find_PIXEL-MASTER/FF_Search_UI.py
+src/File-Find_PIXEL-MASTER/FFkit.py
+src/File-Find_PIXEL-MASTER/File-Find.py
+src/File-Find_PIXEL-MASTER/setup.py
+src/File_Find.egg-info/PKG-INFO
+src/File_Find.egg-info/SOURCES.txt
+src/File_Find.egg-info/dependency_links.txt
+src/File_Find.egg-info/top_level.txt
