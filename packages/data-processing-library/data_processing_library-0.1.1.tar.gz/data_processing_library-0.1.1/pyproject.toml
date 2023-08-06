@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "data-processing-library"
+version = "0.1.1"
+license = "MIT"
+description = "Simple data processing library"
+authors = ["DFilyushin <Dmitriy.Filyushin@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "data_processing_library"}]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
