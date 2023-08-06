@@ -1,0 +1,12 @@
+my_hours.txt
+site/
+https:/
+sandbox/
+_notebooks/
+.ipynb_checkpoints
+__pycache__
+.DS_Store
+build/
+dist/
+dLux.egg-info/
+docs/notebooks/files
