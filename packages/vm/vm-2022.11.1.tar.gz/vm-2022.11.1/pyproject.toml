@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "vm"
+version = "2022.11.1"
+description = "version manager manages versions and patches files"
+authors = ["Bogdan Mustiata <bogdan.mustiata@gmail.com>"]
+license = "BSD"
+packages= [
+  { include = "version_manager/**/*.py" },
+  { include = "version_manager/py.typed" }
+]
+readme = "README.md"
+
+[tool.poetry.scripts]
+vm = 'version_manager.__main__:main'
+version-manager = 'version_manager.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+colorama = "0.4.6"
+PyYAML = "6.0"
+termcolor-util = "2022.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
