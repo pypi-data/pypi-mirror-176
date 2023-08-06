@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+achakra/__init__.py
+achakra/achakra.py
+tdm_aneesh.egg-info/PKG-INFO
+tdm_aneesh.egg-info/SOURCES.txt
+tdm_aneesh.egg-info/dependency_links.txt
+tdm_aneesh.egg-info/requires.txt
+tdm_aneesh.egg-info/top_level.txt
