@@ -1,0 +1,16 @@
+themachinethatgoesping-0.3.7.dist-info/RECORD,,
+themachinethatgoesping-0.3.7.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+themachinethatgoesping-0.3.7.dist-info/WHEEL,sha256=vX1iIdscYkM6gn15ZDZQKu6j_CXVpMsVWrOlZ-qKtB0,93
+themachinethatgoesping-0.3.7.dist-info/METADATA,sha256=dJRCm6kmUGeaziEPG4jE32LU1VjAq4EPfDZWdiWhB00,21581
+themachinethatgoesping/echosounders.cpython-39-darwin.so,sha256=Sic34WOPvrBvhvi0qyOPs-HDjDPQlG1B-xT89tAj2Js,5465760
+themachinethatgoesping/tools.cpython-39-darwin.so,sha256=RzMp1vHrt5W3NJX3kptEo46tXYWpXd97QdR9iSE9-XY,1256072
+themachinethatgoesping/__init__.py,sha256=31rXq7TmNHFomCxbsSI9za859RxpxR5pT9snV_1tcq0,1709
+themachinethatgoesping/navigation.cpython-39-darwin.so,sha256=xC7wwFV-DRHIU84I_6KMV6KoCI8Br6QhEencUVrnnsE,2343760
+themachinethatgoesping/tools_ext/__init__.py,sha256=5exFdq8PrNUGfzpQJ_H-7njo20NcCOm5KyzfnbkekO4,214
+themachinethatgoesping/tools_ext/timeconv_ext.py,sha256=R9ZSAAYwvaRQmWDu3Rhuq_hA4e02BF67XgHRtNczGIY,2231
+themachinethatgoesping/gridding/__init__.py,sha256=S5i_1i1bFD7EJNSrYJyjFMlGJYL8Fs_uyWQeJ-T94I8,241
+themachinethatgoesping/gridding/echogrid.py,sha256=1H6DAUG3fQp-SiSYxLBjG0EL6b0uuuoDI51Lq0ILUHk,14520
+themachinethatgoesping/gridding/forwardgridder.py,sha256=X9xFJFof9tHb49VwtVMMQMctB5V4tEwV6XuVQFZoLT4,15684
+themachinethatgoesping/gridding/functions/__init__.py,sha256=-zEPPo7n3FrN5wQgMaa0F5OTVKK3s2m1hNV7IHq_mkA,58
+themachinethatgoesping/gridding/functions/helperfunctions.py,sha256=SOenEIjHNrrY_LOr3WoSM2UwOMB0H_w6aOmRY0Dhnrg,837
+themachinethatgoesping/gridding/functions/gridfunctions.py,sha256=GVPeJV54lORLWqfXnVWFfwMbQHrOuxFw_fweyEFt09U,6682
