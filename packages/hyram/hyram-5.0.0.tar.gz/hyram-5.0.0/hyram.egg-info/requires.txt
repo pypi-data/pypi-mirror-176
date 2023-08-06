@@ -1,0 +1,4 @@
+numpy
+matplotlib
+scipy
+coolprop>=6.3
