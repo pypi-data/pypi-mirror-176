@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: clicom
+Version: 0.0.3
+Summary: 
+License: MIT
+Author: limonyellow
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: all
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: rich (>=10.11.0,<13.0.0)
+Requires-Dist: shellingham (>=1.3.0,<2.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+This package wraps [`Typer`](https://typer.tiangolo.com/) library and adds the ability to run your commands in a loop,
+executing commands one after the other until tying `exit` or invoking keyboard interrupt. 
