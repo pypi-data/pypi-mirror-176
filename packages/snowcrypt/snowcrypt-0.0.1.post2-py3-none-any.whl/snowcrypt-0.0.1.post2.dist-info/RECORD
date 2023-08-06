@@ -1,0 +1,12 @@
+snowcrypt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowcrypt/_version.py,sha256=J2_P7MxrteMejzdW5XrkKQOOg0C6r5960aEDDpLrlAk,278
+snowcrypt/decrypt.py,sha256=gYdZhaXJJzHM3ITKLQ3x11e9IVn3LI_Y4cjqzhpsS0Q,12670
+snowcrypt/main.py,sha256=gWqCVUnFCgd6H8qU6rPVK5v7PzAzDNtqwXNLWMZ0q5A,2542
+snowcrypt/parser.py,sha256=J0FQpVGooETqLkp-3PmWFJbWmuFQjLVG1oXGjJq1sMg,809
+snowcrypt/tinytag.py,sha256=fFOBvGIjAU8qBWJuNiLXWpMdqHuhKwKNS0CIQd4J7D0,23287
+snowcrypt-0.0.1.post2.dist-info/LICENSE,sha256=9j3wcv0U6mfTdqNbV_I6Tml22jGZgLXoiaAELuFBPb0,11343
+snowcrypt-0.0.1.post2.dist-info/METADATA,sha256=Ea1rfV8eSN5vZG0EociF-ctWK7cBAXf139sWCZtuj-E,342
+snowcrypt-0.0.1.post2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+snowcrypt-0.0.1.post2.dist-info/entry_points.txt,sha256=CMiRu10ItaEimfyn5s-Th1pB23FJStgUWmv37T-GN_c,51
+snowcrypt-0.0.1.post2.dist-info/top_level.txt,sha256=1rsg-A-9nCu1AreHO7ih4D-qqGw-1uUpSw3qZ6_Olb4,10
+snowcrypt-0.0.1.post2.dist-info/RECORD,,
