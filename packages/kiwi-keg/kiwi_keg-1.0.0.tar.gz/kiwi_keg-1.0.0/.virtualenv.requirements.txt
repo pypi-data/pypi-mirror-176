@@ -1,0 +1,18 @@
+#
+# Requirement files for Python Virtual Environments
+#
+
+# Shell interface for docopt, the command-line interface description language
+docopt
+
+# KIWI - Appliance Builder API
+kiwi
+
+# YAML file parsing
+PyYAML
+
+# markup support
+anymarkup
+
+#xml parsing
+lxml
