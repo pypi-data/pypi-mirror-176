@@ -1,0 +1,17 @@
+alfred/__init__.py,sha256=ZahYZXCKOXCcwUzmC-cON9fRuHH0i2nYRLCTgQLfPSg,508
+alfred/cli.py,sha256=xxoYiXHVj1YnrP8gjypY_b5X5xTH0Db8UOvIeyD7u7s,4245
+alfred/decorator.py,sha256=ZluzULuPA9nEb4tte7YBt2qMlhhgQHHBIwxzVH7GvxM,1052
+alfred/exceptions.py,sha256=nSRzGWu_NnK2j8IIuPX5CRycuV9KgDFQ6wxItUqgdc0,208
+alfred/lib.py,sha256=M-dnsLwuI72pAAHDVPpAcwh1BhM7v4XvRtsoXB_0v4A,1714
+alfred/logger.py,sha256=hdX1V3SByQ84hayehFlhWfRZKn70_k8GZ-WmPX8mAew,153
+alfred/main.py,sha256=HfpdAiKpFGAtcns3b_D_z929iBplsz0fPNXVoA3A8bs,8149
+alfred/os.py,sha256=TCmWt-GB2ltY3AH5cAUc0eRxuaCiN8rJEFgh9VHuV0E,619
+alfred/type.py,sha256=KnAZG_JUnMZfzeiR5x4hzeWqmhziyYWmpYjFbjxAYPk,1497
+alfred/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfred/resources/cmd.py,sha256=KPdGxkA9LHoNZcxZ9uswKa_OSDBMJVYiGUlmHTLqgFk,129
+alfred_cli-1.2.0.dist-info/LICENSE,sha256=ueUux9TUvfRxgVWXFjZQAcgt8B2O-S_L30JnVvDajTE,1072
+alfred_cli-1.2.0.dist-info/METADATA,sha256=BsLb3-GgvUBgWtYB6KIMn6XxelWr6799jrxy5e4ihnU,11346
+alfred_cli-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alfred_cli-1.2.0.dist-info/entry_points.txt,sha256=q8WdFItrO_DPjCADLqseZjjs41BiL-HcEtFu6_xaABo,42
+alfred_cli-1.2.0.dist-info/top_level.txt,sha256=ciQlts3Jwu5HdzhiQYDhjDGMoxlI9_CcqBEgc6PBE5U,7
+alfred_cli-1.2.0.dist-info/RECORD,,
