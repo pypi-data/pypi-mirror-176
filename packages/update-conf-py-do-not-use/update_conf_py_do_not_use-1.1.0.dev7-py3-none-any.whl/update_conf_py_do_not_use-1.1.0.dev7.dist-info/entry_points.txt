@@ -1,0 +1,2 @@
+[console_scripts]
+update-conf-py-do-not-use = update_conf_py_do_not_use:run
