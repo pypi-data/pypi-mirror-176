@@ -1,0 +1,12 @@
+wordgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordgen/cli.py,sha256=7a-L1Txm9s7SQdlha5lbHOy_RjpwwwZ2eD--qUk-YLk,2602
+wordgen/data/courses/colemak_DHm,sha256=o7g6ID1dr1Vc1-xjA-_NgWPBuvEWVyUlksy06siK59E,96
+wordgen/data/words/english.txt,sha256=yuIvMJpr_ypYrOg2KeE_4-W7n2ze6-uj9xurDDWuRQE,5839
+wordgen/data.py,sha256=60jRs_lK6n99XJijtgjOB4HHIXtha9hftxdLQAQ3J7s,1174
+wordgen/exceptions.py,sha256=aaUuJaZnPqdRMDBJ67xk9768LVbcv19r1ROum2Toma4,251
+wordgen/words.py,sha256=_5Vp9aptqRA3HzSOAjVAHL23OKLCZMd0O6spz_69RS8,2225
+wordgen-2022.1.0.dist-info/entry_points.txt,sha256=vfiP54EQ8lklr5v2t9zgnmsuk4KJG3ZLOK3pDw0GUiw,43
+wordgen-2022.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+wordgen-2022.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wordgen-2022.1.0.dist-info/METADATA,sha256=qDgjEnPbm7JZ0zl2g4g9i0uMawgw781pV_D5MYNK9aw,3686
+wordgen-2022.1.0.dist-info/RECORD,,
