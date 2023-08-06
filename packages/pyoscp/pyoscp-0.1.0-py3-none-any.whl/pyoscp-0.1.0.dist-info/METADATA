@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pyoscp
+Version: 0.1.0
+Summary: Python library for the Open Smart Charging Protocol (OSCP)
+Home-page: https://github.com/NOWUM/pyoscp
+License: MIT
+Keywords: ev,charging,OpenAPI,Swagger,REST
+Author: Florian Maurer
+Author-email: maurer@fh-aachen.de
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flask (>=2.2.2,<3.0.0)
+Requires-Dist: flask-restx (>=1.0.3,<2.0.0)
+Requires-Dist: importlib_metadata (>=4.0.0); python_version < "3.8"
+Requires-Dist: packaging (>=21.3,<22.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Project-URL: Repository, https://github.com/NOWUM/pyoscp
+Description-Content-Type: text/markdown
+
+# pyOSCP
+
+Python Rest-Interface for Open Smart Charging Protocol (OSCP) 2.0 built on Flask-RESTX, providing a OpenAPI interface.
+
+OSCP is not as widely used as OCPI or OCPP which are much more a business standard.
+It can be used to communicate flexibilities and capacities, having a typical negotiation process.
+
+As version 1.x used a SOAP Approach, this can still be seen from the protocol.
+The Registration between the participants uses a handshake and needs to have an open port on both sides.
+
+To reduce reimplementation, an academic implementation is provided here, which furthermore allows to integrate with a new RESERVATIONS endpoint, if needed.
+
+Currently, is no other public Python Implementation for the OSCProtocol.
+The documentation of the protocol can be found here (https://www.openchargealliance.org/protocols/oscp-20/ - requires mail-registration)
+
+## Install Instructions
+
+`pip install pyoscp`
+
+or after cloning the repository, one can run `pip install -e .` to work locally with the package.
+
+## Package information
+
+```
+oscp
+├── __init__.py
+├── *_endpoints.py      # <- contains REST Endpoint Descriptions
+├── json_models.py      # <- contains JSON Schemas in Flask-RestX
+└── RegistrationManager # <- contains stubs which have to be inherited and implemented
+```
+
+## Configuration
+
+`main.py` contains an example of how to use this project.
+The managers are meant to be understood as interfaces, which must be implemented according to the business logic which is not part of this communications module.
+
+An example architecture would use a background job to schedule answers (for example for the commands module) while saving the data from the post/patch requests in a seperate database, which is used for communication between the background job and the Flask app.

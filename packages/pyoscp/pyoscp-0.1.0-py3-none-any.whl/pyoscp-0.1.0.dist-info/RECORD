@@ -1,0 +1,14 @@
+oscp/RegistrationManager.py,sha256=TqlBCCHAwztYKyU-BBEYI1egMW1K7qwFDtoS0SkBwNw,15910
+oscp/__init__.py,sha256=TbG4fiZRibyotSs7Gg60mjUgfwpIZYTI6Du8ZaqrtIk,2443
+oscp/co_endpoints.py,sha256=lcrSWSxKtVcbC3noU2woGUq8wzUvRkvJBuBc6HFIqFM,2294
+oscp/cp_endpoints.py,sha256=bFqy62RsbsADm1BxutY8c1IJ2jgUO4Sf73bxSCIbjOY,4689
+oscp/ep_endpoints.py,sha256=m-QKsNFKMm3ffhMVI-3fjbYU-jV753iZXoha12gGWwM,1347
+oscp/ep_models.py,sha256=M7CBfBBYb-gTEsFJWksYn7q0MJ3FC6QHc3idnCCUxcc,1324
+oscp/epc_endpoints.py,sha256=Ym2KaR-1EQ9Q0OB7qmMae651Xoz-yxgogxjxZrNqxgQ,1411
+oscp/fp_endpoints.py,sha256=o6DxXjYEpX71OONBKWMxGTVLCPVKyoEqGiqurI1t_Qc,1794
+oscp/json_models.py,sha256=P_AARymRWV3AHf65WbeJq0XkDk4f7dI57cGJZzweAXc,8653
+oscp/registration.py,sha256=ajblliMyXOnpQwMpQOzDk87wsSUFTQ1e6uvgmXABEpo,4774
+pyoscp-0.1.0.dist-info/LICENSE,sha256=jZ3saRgcexoyn4MbCDbxrzvj-l6tvpA__U4KJrDX1tk,1071
+pyoscp-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyoscp-0.1.0.dist-info/METADATA,sha256=HOmL_SioLGAAVqNfIur7-b8u--5T3O7ijXPJsKBDx8E,3083
+pyoscp-0.1.0.dist-info/RECORD,,
