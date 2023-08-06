@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_prj_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_prj_name/azure_key_vault.py,sha256=zC88dlCuJP6vTgCskSnAkdb6pgVzVl_dTXR0mdTSIYg,1263
+my_prj_name/helloworld.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_prj_name/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+mypackage_sdm-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+mypackage_sdm-0.0.1.dist-info/METADATA,sha256=k5EN2Sy7IiFeluuU6i-Zy0bUt5xgoiChbVhO60QiX8w,465
+mypackage_sdm-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypackage_sdm-0.0.1.dist-info/top_level.txt,sha256=2LEO0uKLKaYYjBw8X4BmS41eDbPdQkmG3YSC0VWRnXs,21
+mypackage_sdm-0.0.1.dist-info/RECORD,,
