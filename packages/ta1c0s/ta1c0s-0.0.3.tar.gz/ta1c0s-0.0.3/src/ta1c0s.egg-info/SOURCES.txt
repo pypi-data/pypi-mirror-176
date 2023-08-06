@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ta1c0s/__init__.py
+src/ta1c0s/example.py
+src/ta1c0s.egg-info/PKG-INFO
+src/ta1c0s.egg-info/SOURCES.txt
+src/ta1c0s.egg-info/dependency_links.txt
+src/ta1c0s.egg-info/top_level.txt
