@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: readalongs
+Version: 0.2.20221114
+Summary: ReadAlong Studio
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: chevron (==0.14.0)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: coloredlogs (==10.0)
+Requires-Dist: fastapi (==0.78.0)
+Requires-Dist: Flask (>=2.0.0)
+Requires-Dist: Flask-Session (==0.3.2)
+Requires-Dist: flask-socketio (==4.3.2)
+Requires-Dist: g2p (>=0.5.20210825)
+Requires-Dist: lxml (==4.9.1)
+Requires-Dist: networkx (==2.5)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: pydub (==0.23.1)
+Requires-Dist: pympi-ling (==1.69)
+Requires-Dist: python-slugify (==5.0.0)
+Requires-Dist: soundswallower (~=0.4.1)
+Requires-Dist: webvtt-py (==0.4.2)
+Requires-Dist: werkzeug (==2.0.3)
+
+ReadAlong Studio, Audiobook alignment for Indigenous languages
