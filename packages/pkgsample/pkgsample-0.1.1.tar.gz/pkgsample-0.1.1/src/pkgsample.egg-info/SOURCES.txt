@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+src/pkgsample/__init__.py
+src/pkgsample/add.py
+src/pkgsample/add_cli.py
+src/pkgsample.egg-info/PKG-INFO
+src/pkgsample.egg-info/SOURCES.txt
+src/pkgsample.egg-info/dependency_links.txt
+src/pkgsample.egg-info/entry_points.txt
+src/pkgsample.egg-info/requires.txt
+src/pkgsample.egg-info/top_level.txt

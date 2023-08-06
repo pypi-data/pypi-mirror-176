@@ -1,0 +1,2 @@
+[console_scripts]
+pkgsample_add = pkgsample.add_cli:add_main
