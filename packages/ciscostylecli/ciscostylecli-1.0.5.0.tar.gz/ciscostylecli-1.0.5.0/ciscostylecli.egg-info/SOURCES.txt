@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CiscoStyleCli/CiscoStyleCli.py
+CiscoStyleCli/__init__.py
+ciscostylecli.egg-info/PKG-INFO
+ciscostylecli.egg-info/SOURCES.txt
+ciscostylecli.egg-info/dependency_links.txt
+ciscostylecli.egg-info/top_level.txt
+ciscostylecli.egg-info/zip-safe
