@@ -1,0 +1,13 @@
+README.md
+pytest_failed_screenshot.py
+setup.py
+pytest_ui_failed_screenshot.egg-info/PKG-INFO
+pytest_ui_failed_screenshot.egg-info/SOURCES.txt
+pytest_ui_failed_screenshot.egg-info/dependency_links.txt
+pytest_ui_failed_screenshot.egg-info/entry_points.txt
+pytest_ui_failed_screenshot.egg-info/requires.txt
+pytest_ui_failed_screenshot.egg-info/top_level.txt
+test/__init__.py
+test/test_case.py
+test/debug/__init__.py
+test/debug/test2.py

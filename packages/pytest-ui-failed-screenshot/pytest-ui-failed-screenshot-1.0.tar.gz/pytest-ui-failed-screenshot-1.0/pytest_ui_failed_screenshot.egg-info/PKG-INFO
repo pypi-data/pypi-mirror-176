@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pytest-ui-failed-screenshot
+Version: 1.0
+Summary: UI自动测试失败时自动截图，并将截图加入到测试报告中
+Home-page: https://github.com/Jakilo1996/PytestUIFailedScreenshot
+Author: Jakilo
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Requires-Python:  >=3
