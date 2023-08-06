@@ -1,0 +1,13 @@
+README.md
+setup.py
+ImageUnimedmarcosmvsfut.egg-info/PKG-INFO
+ImageUnimedmarcosmvsfut.egg-info/SOURCES.txt
+ImageUnimedmarcosmvsfut.egg-info/dependency_links.txt
+ImageUnimedmarcosmvsfut.egg-info/requires.txt
+ImageUnimedmarcosmvsfut.egg-info/top_level.txt
+processing/__init__.py
+processing/combination.py
+processing/transformation.py
+utils/__init__.py
+utils/io.py
+utils/plot.py
