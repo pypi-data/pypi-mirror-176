@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+kuqezeze/__init__.py
+kuqezeze/guess_module.py
+kuqezeze/main.py
+kuqezeze.egg-info/PKG-INFO
+kuqezeze.egg-info/SOURCES.txt
+kuqezeze.egg-info/dependency_links.txt
+kuqezeze.egg-info/top_level.txt
