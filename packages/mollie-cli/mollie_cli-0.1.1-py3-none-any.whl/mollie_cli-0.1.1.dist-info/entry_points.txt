@@ -1,0 +1,2 @@
+[console_scripts]
+mollie-cli = mollie_cli.commandline:main
