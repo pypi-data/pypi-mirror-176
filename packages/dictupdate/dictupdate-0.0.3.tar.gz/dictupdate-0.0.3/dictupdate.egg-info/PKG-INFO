@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dictupdate
+Version: 0.0.3
+Summary: Nested Dict Update With operation like insert , deleter , updater ,search 
+Home-page: https://github.com/automation-lib/dict_updater
+Author: Chetan
+Author-email: chetankolhe72@gmail.com
+Keywords: dict updater,json update,recursive dict updater,recursive json updater,dict updater,nested dicts
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dict Updater
+It used to update any nested dict and list object . Also provide the option 
+to update nested dictionary within the list by searching mechanism . 
+
+### Feature Offer : 
+- Update the dictionary object .
+- Delete nested dictionary value .
+- Append nested list object .
+
+
+### How to Install the library 
+```bash
+pip install dictupdate
+```
+
+### Example 
+#### Updating simple dictionary object 
+```python
+from dictupdate import DictUpdater
+
+# source to update 
+source = {
+    "a" : {
+        "b": "value_need_to_update"
+    }
+}
+
+# target to update
+target = {
+    "a":{
+        "b": "existing value updated",
+        "c": "new value added"
+    }
+}
+
+dict_update = DictUpdater.update(
+    data=source,
+    update_value=target
+)
+
+print(dict_update)
+```
+#### Output :
+```
+{'a': {'b': 'existing value updated', 'c': 'new value added'}}
+```
+
+#### Updating Recursive 
+
+
+
+
+
+
