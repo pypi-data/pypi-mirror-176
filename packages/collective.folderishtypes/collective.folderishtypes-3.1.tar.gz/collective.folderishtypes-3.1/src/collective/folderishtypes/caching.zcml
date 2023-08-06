@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cache="http://namespaces.zope.org/cache">
+
+  <include package="z3c.caching" />
+  <include package="z3c.caching" file="meta.zcml" />
+
+  <!-- configure folderishtypes for itemView ruleset instead of folderView -->
+  <cache:ruleset
+      ruleset="plone.content.itemView"
+      for="collective.folderishtypes.interfaces.IFolderishDocument"
+      />
+  <cache:ruleset
+      ruleset="plone.content.itemView"
+      for="collective.folderishtypes.interfaces.IFolderishEvent"
+      />
+  <cache:ruleset
+      ruleset="plone.content.itemView"
+      for="collective.folderishtypes.interfaces.IFolderishNewsItem"
+      />
+
+</configure>

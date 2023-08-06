@@ -1,0 +1,6 @@
+include *.rst
+include .tx/config
+exclude *.sh
+recursive-include docs *
+recursive-include src *
+recursive-exclude src *.pyc *.pyo
