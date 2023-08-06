@@ -1,0 +1,2 @@
+[console_scripts]
+pyjion = pyjion.__main__:main
