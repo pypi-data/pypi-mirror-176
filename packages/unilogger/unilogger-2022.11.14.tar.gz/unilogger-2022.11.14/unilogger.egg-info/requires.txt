@@ -1,0 +1,11 @@
+umodbus
+aiohttp
+BeautifulSoup4
+aioserial
+pyyaml
+lxml
+pyserial
+asteval
+pandas
+tables
+openpyxl
