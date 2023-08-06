@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: webscrape-cd
+Version: 1.0
+Summary: FOSS Contact detail extractor 
+Home-page: https://github.com/CrownCrafter/webscrapecd
+Author: Ayush Mudunuru
+Author-email: ayush.mudunuru@gmail.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: googlesearch
+Requires-Dist: urllib.request
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: csv
+Requires-Dist: re
+
+# Webscrape-cd
+A FOSS webscraping software that extracts contact details from google searches
