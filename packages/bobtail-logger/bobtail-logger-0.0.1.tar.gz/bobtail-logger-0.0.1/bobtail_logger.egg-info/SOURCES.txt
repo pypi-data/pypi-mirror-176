@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bobtail_logger/__init__.py
+bobtail_logger/logger.py
+bobtail_logger.egg-info/PKG-INFO
+bobtail_logger.egg-info/SOURCES.txt
+bobtail_logger.egg-info/dependency_links.txt
+bobtail_logger.egg-info/requires.txt
+bobtail_logger.egg-info/top_level.txt
