@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rubbergulab-twine-hash-gumbo
+Version: 0.0.1
+Summary: A package rubbergulab_twine_hash_gumbo.
+Home-page: https://github.com/rahulbhadani/rubbergulab_twine_hash_gumbo
+Author: Rahul Bhadani
+Author-email: rahulbhadani@arizona.edu
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Communications
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+
+# rubbergulab_twine_hash_gumbo
+
+Copyright Rahul Bhadani
+
+
