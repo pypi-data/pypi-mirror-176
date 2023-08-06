@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: secret-gen
+Version: 0.1.0
+Summary: Password generator
+Author: Grumnik
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+
