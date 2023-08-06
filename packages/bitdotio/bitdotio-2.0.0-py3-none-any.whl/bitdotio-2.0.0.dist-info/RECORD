@@ -1,0 +1,13 @@
+bit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bit/bit.py,sha256=TZXPX9KThk05nsmwJhXl2DXlbCTWc319RRMoPpKWKkk,3968
+bitdotio/__init__.py,sha256=puJZ8s-lwLWiBNDPuxwb7vMtt4uwc3WtjRj5xCoSQwU,97
+bitdotio/_bitdotio.py,sha256=0NQnL8pc3f1PeVI_4tKXOVoeGh_QO2cmRfCkSJpsHSM,6388
+bitdotio/_version.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+bitdotio/api_client.py,sha256=o5uUzCA4uy4YGF9lEjvg18AebUM8qqtK2hO1aB0rZSE,1596
+bitdotio/utils.py,sha256=Qdljj64GpKWmOaHghOC8f07j2VwOdxe4sQEqBeFYqzg,656
+bitdotio-2.0.0.dist-info/LICENSE,sha256=MB-09HqJqjimdiVQeePmD8gxFYlJfddEYoCZtsaSCmA,1063
+bitdotio-2.0.0.dist-info/METADATA,sha256=qHSoaToDLwUld4sEn3nn0W18OlQzpwuqoZSo4bqUV9I,11535
+bitdotio-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bitdotio-2.0.0.dist-info/entry_points.txt,sha256=ub7PTtaJ4KFiPj3qo8FT0Da8bV2n9jWD9k4NayK7Vuc,37
+bitdotio-2.0.0.dist-info/top_level.txt,sha256=FYFzF3qBtoq5i1OR1b5w4vlBAIqppQ3No-U3bbJFHCw,13
+bitdotio-2.0.0.dist-info/RECORD,,
