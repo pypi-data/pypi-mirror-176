@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pennylane-forest
+Version: 0.25.0
+Summary: pennylane-forest is now pennylane-rigetti
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: pennylane-rigetti
+
+# pennylane-forest is now pennylane-rigetti
+
+This package has been renamed. Use `pip install pennylane-rigetti` instead.
+
+New package: https://pypi.org/project/pennylane-rigetti/
+
+
