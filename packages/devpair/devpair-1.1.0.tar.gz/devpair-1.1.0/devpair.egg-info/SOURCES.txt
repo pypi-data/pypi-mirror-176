@@ -1,0 +1,14 @@
+LICENSE
+README.md
+devpair.py
+setup.py
+app/__init__.py
+app/cli.py
+app/manager.py
+app/test_manager.py
+devpair.egg-info/PKG-INFO
+devpair.egg-info/SOURCES.txt
+devpair.egg-info/dependency_links.txt
+devpair.egg-info/entry_points.txt
+devpair.egg-info/requires.txt
+devpair.egg-info/top_level.txt
