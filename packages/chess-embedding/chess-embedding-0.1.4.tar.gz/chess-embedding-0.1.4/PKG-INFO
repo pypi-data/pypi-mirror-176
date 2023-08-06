@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: chess-embedding
+Version: 0.1.4
+Summary: A library for manipulating, learning and searching on chess positions.
+License: GPLv3
+Author: Patrick Frank
+Author-email: patr.frank@gmx.de
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Pre-processors
+Requires-Dist: chess (>=1.9.3,<2.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.6.2,<4.0.0)
+Requires-Dist: numpy (>=1.23.4,<2.0.0)
+Requires-Dist: tensorflow (>=2.10.0,<3.0.0)
