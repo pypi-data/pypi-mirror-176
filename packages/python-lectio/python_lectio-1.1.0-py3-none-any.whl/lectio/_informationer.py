@@ -1,0 +1,28 @@
+from .imports import *
+
+def informationer(self):
+    resp = self.session.get(f"https://www.lectio.dk/lectio/{self.skoleId}/FindSkemaAdv.aspx")
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    informationerDict = {}
+
+    for section in soup.find_all("section", {"class": "island"}):
+        sectionName = section.find("span", {"class": "islandHeader"}).text.lower().replace(" ", "_")
+        informationerDict[sectionName] = {}
+        select = section.find("select")
+        if select != None:
+            for option in select.find_all("option"):
+                informationerDict[sectionName][option.text] = option.get("value")
+
+    return informationerDict
+
+def fåElev(self, elevId):
+    resp = self.session.get(f"https://www.lectio.dk/lectio/{self.skoleId}/SkemaNy.aspx?type=elev&elevid={elevId}")
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    elev = {
+        "navn": soup.find("div", {"class": "maintitle"}).text.replace("Eleven ", "").replace(" - Skema", ""),
+        "billede": soup.find("img", {"id": "s_m_HeaderContent_picctrlthumbimage"}).get("src")
+    }
+
+    return elev
