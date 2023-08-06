@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dreams
+Version: 0.0.2.9
+Summary: Library for getting educative url video's
+Home-page: https://github.com/reinanbr/dreams
+Author: Reinan Br
+Author-email: slimchatuba@gmail.com
+License: BSD v3
+Keywords: video link api porn
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: mechanicalsoup
+Requires-Dist: requests
+
+UNKNOWN
+
