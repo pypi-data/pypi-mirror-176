@@ -1,0 +1,17 @@
+tdsreduction/__init__.py,sha256=rDo-pE_i4wWniHD7on3Z8GTI9E8vZ7_Vbm8YlNL1g74,143
+tdsreduction/bias.py,sha256=Nuw5-ciSaNr1pvFYrly8Yu0mZOG6fjRImnYp_PfMYGE,4518
+tdsreduction/corrections.py,sha256=cGXvjQFuhBpUdBP9hkZNLDVgGrOTSfIeIyCWwS7Qk5Y,9411
+tdsreduction/cosmics.py,sha256=Afjfl1O0ezGwbm16jmt4I6zJjUQjmGa8WPaNiXkogug,4127
+tdsreduction/dark.py,sha256=4DqkuTZdldwfIISoKP9XR-1TZ49-2M0m3tDWMvJxSCg,4887
+tdsreduction/dispersion.py,sha256=BS6a7lD3Yx56wPhzu9mHzlZqBlOf16wEGhqfCMwy7Q8,13997
+tdsreduction/distorsion.py,sha256=P7LWugk6RUQVF4ZP2GPBevzXVINR9ctznoBeok3dcus,5656
+tdsreduction/flat.py,sha256=gExgFduaXZX0mgMYBrL6XRu2t-EuUY_S5aRXHNkpFro,3294
+tdsreduction/genfuncs.py,sha256=SXfx2oCFXGitTBJmnITHDqd4WdOf8Px5TbDTyRA7B10,2139
+tdsreduction/geometry.py,sha256=QgKKYhlIHjUqVCPO1SbxHAm77emjuduEtvq8hLo1HZ8,9060
+tdsreduction/pipeline.py,sha256=AePBoMBhOhLyC8VX645S3Mj5Yf3StcrC9_pa8D4woYE,10514
+tdsreduction/sky.py,sha256=oRneC_6OKSq5NgmcYKP149GQfnCbapOgu0PqA0EiCOQ,3052
+tdsreduction-0.1.0.dev1.dist-info/LICENSE,sha256=elEk6h8aCaHiNjkEUoYsGNal96mGE2jPw_jhQQHlrzo,1072
+tdsreduction-0.1.0.dev1.dist-info/METADATA,sha256=95Yah0YGDNiOg8_9zr4mZhm9F3c_PswJYpaMCFDl62c,1042
+tdsreduction-0.1.0.dev1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tdsreduction-0.1.0.dev1.dist-info/top_level.txt,sha256=ayRS6ziGnFALVXmiHqQRxwVLYGjYGoY4izPPIEHGKJA,13
+tdsreduction-0.1.0.dev1.dist-info/RECORD,,
