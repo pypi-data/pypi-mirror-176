@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: boto3-utility-belt
+Version: 0.1.0
+Summary: 
+Author: Jeremy Axmacher
+Author-email: jeremy@obsoleter.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.24.45,<2.0.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
