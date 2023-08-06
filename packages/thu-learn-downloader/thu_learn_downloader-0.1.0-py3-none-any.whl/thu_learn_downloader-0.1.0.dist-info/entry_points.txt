@@ -1,0 +1,3 @@
+[console_scripts]
+build=thu_learn_downloader.build:run
+
