@@ -1,0 +1,13 @@
+jiama/cli.py,sha256=tqndjuabRM_3B0rbePsitQedv0_veiOJOk0JW4RMUOY,2208
+jiama/client.py,sha256=INRb2aWz4AyLYTT70zLAszBZsn4JJcNfpwcWcanMBO0,3166
+jiama/constant.py,sha256=YkoNj6PswHKtgpA99a_9K8BO9ZWhhLmwMcwJ5gFptv8,1237
+jiama/manage.py,sha256=CivptugVbs6dzDDjYGQspBlrJsSutSot77Y_RIcpY8g,1003
+jiama/rmq.py,sha256=L2vZpMrFC4HHQhm-acG9XCjbGv8ofPvAABypwvwBPCg,3981
+jiama/server.py,sha256=dVV6rx_FO0Jfk9ak7Hmn8ohP8bRFOuScItdkenAn29k,3099
+jiama/util.py,sha256=r2wpbPty2tQVGYdXP_MNyRtm51uSHPrugh5x-RVuZG0,2049
+jiama-0.8.1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+jiama-0.8.1.dist-info/METADATA,sha256=TrXTex7h-zN01I9gSxoQnXSDAzIlmasR-YqpgyKCSVQ,3989
+jiama-0.8.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jiama-0.8.1.dist-info/entry_points.txt,sha256=NAS9RzjYXHAy80HRg2Pxm4_DId_jSMt0qkIYvIunHII,42
+jiama-0.8.1.dist-info/top_level.txt,sha256=XN5iUMIZSTqulA4a23NrLOWTppWK5ndGqgYMqGzBtew,6
+jiama-0.8.1.dist-info/RECORD,,
