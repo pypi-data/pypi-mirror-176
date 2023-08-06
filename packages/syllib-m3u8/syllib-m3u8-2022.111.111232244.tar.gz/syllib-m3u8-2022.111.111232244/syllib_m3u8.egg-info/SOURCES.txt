@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+syllib_m3u8.egg-info/PKG-INFO
+syllib_m3u8.egg-info/SOURCES.txt
+syllib_m3u8.egg-info/dependency_links.txt
+syllib_m3u8.egg-info/top_level.txt
