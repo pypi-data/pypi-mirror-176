@@ -1,0 +1,4 @@
+include README.md
+include .gitignore
+include src/simplepygamemenus/rect.png
+include src/simplepygamemenus/font.ttf
