@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: keypartx
+Version: 0.1.14
+Summary: A Graph-based Perception(Text) Representation
+Home-page: https://github.com/pengKiina/KeypartX
+Author: Peng Yang
+Author-email: pyseptimo@outlook.com
+License: MIT
+Keywords: text representation,text mining,nlp,topic modeling,emoji,image,perception
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: coreferee_spacy
+License-File: LICENCE.txt
