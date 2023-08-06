@@ -1,0 +1,14 @@
+pyrefact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrefact/__main__.py,sha256=6pXwneZ0yZfX8n0APSTul-dL0VZ3Iw1VJ8zh-NykVFM,127
+pyrefact/abstractions.py,sha256=ZwBSgJiG5a9OgTbLcRqooCdMiVYR2FgwNf_8ZiysmSo,19096
+pyrefact/completion.py,sha256=NFx5LEqRuyVxWT_YpCmtLn3L0F5hXhZ_osaP_0rSUw8,2148
+pyrefact/constants.py,sha256=jYhZpsO2M-P06UbWgU4fCK8sDUs90EKXChO3_RPZ-eI,5931
+pyrefact/fixes.py,sha256=-KphXfSVUkJCDGdc44k_iAsN_Ef6epznLGrvmMNoh1o,40912
+pyrefact/main.py,sha256=8-HZYltOa4-qklEs2C-HyA7nyYgJN3kW1WCN1FW3qrw,4675
+pyrefact/parsing.py,sha256=Jykh8Q2BvDAz_KLHX2m1YgJSrNNHYE54p0NKdI6XsXc,16272
+pyrefact/processing.py,sha256=0eZLmshPxoLDYvcZG5H0RbPOrgJe7k9nh85-iLqLf90,3256
+pyrefact-18.dist-info/LICENSE,sha256=VtYxu4K4xe--JOpiccEDatS7M_tOZgTjOIAUUgGrTaM,1069
+pyrefact-18.dist-info/METADATA,sha256=jlIYryI0jpX_9UtHBx-Of0CCD_P3_ORfau-3lgkGIbA,1950
+pyrefact-18.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyrefact-18.dist-info/top_level.txt,sha256=TRkGmgGqFRZxwozAFp5w_t_28VB6GLXgUv-_rKuw2YU,9
+pyrefact-18.dist-info/RECORD,,
