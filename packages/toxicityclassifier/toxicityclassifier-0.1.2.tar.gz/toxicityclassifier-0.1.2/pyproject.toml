@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "toxicityclassifier"
+version = "0.1.2"
+description = ""
+authors = ["D1ffic00lt <dm.filinov@gmail.com>"]
+license = "LICENCE.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
