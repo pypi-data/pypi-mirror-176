@@ -1,0 +1,2 @@
+[console_scripts]
+wodoo = wodoo.__main__:main
