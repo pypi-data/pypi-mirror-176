@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.coverage
+.pytest_cache/
+.idea
