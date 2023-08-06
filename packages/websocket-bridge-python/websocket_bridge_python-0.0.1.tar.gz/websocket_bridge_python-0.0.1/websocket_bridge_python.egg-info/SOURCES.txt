@@ -1,0 +1,7 @@
+setup.py
+websocket_bridge_python/websocket_bridge.py
+websocket_bridge_python.egg-info/PKG-INFO
+websocket_bridge_python.egg-info/SOURCES.txt
+websocket_bridge_python.egg-info/dependency_links.txt
+websocket_bridge_python.egg-info/requires.txt
+websocket_bridge_python.egg-info/top_level.txt
