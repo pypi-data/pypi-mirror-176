@@ -1,0 +1,9 @@
+keycloak_django_utils/__init__.py,sha256=YEAX0dJk44EZ4QdgMZQURpqSo7estOrtKWx5fnWx22U,138
+keycloak_django_utils/authentication.py,sha256=cqI3KxT9cfDKtpaZMDH899Y1XcmB1tyAyaJc8tDf-AI,734
+keycloak_django_utils/jwt.py,sha256=b1ZRQyLRJnYjcInBj6Sei7L7-2ohKl71VeVjcWM9xFE,1250
+keycloak_django_utils/permissions.py,sha256=3-s0gpQU9tswPfa2DBjmP2gR-L_linqym7oMRSv-2L4,1570
+keycloak_django_utils-0.3.0.dist-info/LICENSE,sha256=pEJ1VMjhgQ5C5mwVL0qVYh3T9JUz4lxr3FVb8qVtZQE,1070
+keycloak_django_utils-0.3.0.dist-info/METADATA,sha256=GgehMWAdtYAUW80wDe40y0MznZvMrKW6inO8Em_NLDs,2243
+keycloak_django_utils-0.3.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+keycloak_django_utils-0.3.0.dist-info/top_level.txt,sha256=1fWfMhZNeDGxgsDgwl-ykK-Hu4_p9dCPxmHN7GA5FCM,22
+keycloak_django_utils-0.3.0.dist-info/RECORD,,
