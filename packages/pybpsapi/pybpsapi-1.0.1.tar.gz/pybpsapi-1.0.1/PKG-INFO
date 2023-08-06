@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pybpsapi
+Version: 1.0.1
+Summary: This package is a Python wrapper for the BPS API. It supports all the five endpoints of the API, and also contains a good circular-checking system.
+Keywords: api,bps,bpsapi,python,python3,wrapper
+Requires-Python: >=3.6
+Requires-Dist: requests
