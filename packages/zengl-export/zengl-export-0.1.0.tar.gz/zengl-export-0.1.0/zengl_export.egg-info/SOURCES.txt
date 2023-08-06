@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+zengl-export.cpp
+./zengl-export.cpp
+zengl_export.egg-info/PKG-INFO
+zengl_export.egg-info/SOURCES.txt
+zengl_export.egg-info/dependency_links.txt
+zengl_export.egg-info/requires.txt
+zengl_export.egg-info/top_level.txt
