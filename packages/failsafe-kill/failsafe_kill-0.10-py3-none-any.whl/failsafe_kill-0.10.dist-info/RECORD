@@ -1,0 +1,10 @@
+failsafe_kill/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+failsafe_kill/README.MD,sha256=j6m30vXydl-TshJvUGG9imf5u5_3h1nJK3M_tll6yLI,762
+failsafe_kill/__init__.py,sha256=WAx70zMvRGxmbE5WkHUMqgfMhWcFsZoUUi3HszSixjU,431
+failsafe_kill/requirements.txt,sha256=kfBgqa1LOesijZU3KS-rGdJS-u0GwWnQ_ctKkFYPVnY,8
+failsafe_kill/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+failsafe_kill-0.10.dist-info/LICENSE.rst,sha256=mUm-wCZOuzvKLxt9Gac_Zo5cah8QOM0gqn2Z-AluELM,1148
+failsafe_kill-0.10.dist-info/METADATA,sha256=FCFifHoiY_7DhW_Ysl4789vcNW4R_roClxaMnfVvDPs,1645
+failsafe_kill-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+failsafe_kill-0.10.dist-info/top_level.txt,sha256=Hded1Ix38QLVOp1l1U5otIYhc2tO5MxjKHgb4Tnzg8o,14
+failsafe_kill-0.10.dist-info/RECORD,,
