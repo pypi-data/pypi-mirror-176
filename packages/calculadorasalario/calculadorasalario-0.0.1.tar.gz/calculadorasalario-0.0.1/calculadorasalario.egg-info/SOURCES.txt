@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+calculadorasalario.egg-info/PKG-INFO
+calculadorasalario.egg-info/SOURCES.txt
+calculadorasalario.egg-info/dependency_links.txt
+calculadorasalario.egg-info/top_level.txt
+calculosalario/calcpagamento.py
