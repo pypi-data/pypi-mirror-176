@@ -1,0 +1,16 @@
+openupgradelib/__init__.py,sha256=4-0ICRCuU06Gs5wTpOnyKRvmJY-bmLPm9Gq0lzsgS2w,660
+openupgradelib/openupgrade.py,sha256=zFnTseqKeuiHrST0x6fvlot11Ei6aJWswqn4DF7UeAY,116103
+openupgradelib/openupgrade_120.py,sha256=w9AiYAmhaw3u8toKv2Mr71GDdOZO7bYPLaXqyDUjVIA,15575
+openupgradelib/openupgrade_130.py,sha256=v8LR51o1lWVSP8yBZ5VLtU6WzCBGRh3StrtcGVADV3U,7100
+openupgradelib/openupgrade_160.py,sha256=tUV6EW0VAeEYVwhRxFi5z9UjhEwQull5jz8UkzhHGvU,1921
+openupgradelib/openupgrade_70.py,sha256=ZwjStkeNv9o8SoHwHcV1tVq8edWRiq5JWM9UxdbAZAE,2541
+openupgradelib/openupgrade_80.py,sha256=5Ou7XM0d0wT1GaGaCRDWT-JA-vKMz9ORbDjm6FCFwY4,4729
+openupgradelib/openupgrade_90.py,sha256=IVXT9R55X95qJXKZf-MDxVe_rpQIKxsI00McF1AzqoQ,4635
+openupgradelib/openupgrade_merge_records.py,sha256=bWkdq_M4QDGRQBfeXmhE46uNKOuKOQtlzMub3NvUADY,35967
+openupgradelib/openupgrade_tools.py,sha256=cp8wflXj8rjb8cE8yEZLamIk71XAOMjPStUn9An1qJg,8527
+openupgradelib-3.4.0.dist-info/AUTHORS.rst,sha256=pSlgPsRkJzrljBOArSPHkKZTCa4sIDc4mopKGX59B_o,938
+openupgradelib-3.4.0.dist-info/LICENSE,sha256=2lWcRAHjsQhqavGNnR30Ymxq3GJ9BaYL_dnfGO_-WFA,34500
+openupgradelib-3.4.0.dist-info/METADATA,sha256=mLz4CDkKS5y30ZkHKy3VhlpcuCix0vGH4O5Y6Cnmhz8,9792
+openupgradelib-3.4.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+openupgradelib-3.4.0.dist-info/top_level.txt,sha256=qOfd1T9eMazK1R1rgZBi3HSQ2gaS7JZYvQ0EZpXvqI0,15
+openupgradelib-3.4.0.dist-info/RECORD,,
