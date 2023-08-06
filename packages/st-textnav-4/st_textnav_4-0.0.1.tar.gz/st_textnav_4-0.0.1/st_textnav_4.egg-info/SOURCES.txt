@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+event_interface/__init__.py
+st_textnav_4/__init__.py
+st_textnav_4.egg-info/PKG-INFO
+st_textnav_4.egg-info/SOURCES.txt
+st_textnav_4.egg-info/dependency_links.txt
+st_textnav_4.egg-info/requires.txt
+st_textnav_4.egg-info/top_level.txt
