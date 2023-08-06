@@ -1,0 +1,8 @@
+opaquepy-0.3.3.dist-info/RECORD,,
+opaquepy-0.3.3.dist-info/WHEEL,sha256=VCgI3oAHpbER3at1pdnksPhkpDosdwB_Gq3l8AyvxhM,147
+opaquepy-0.3.3.dist-info/METADATA,sha256=rAgZPdupWxsBf7I7ZeitXRrh-xntM5t2IauJp_CExNo,621
+opaquepy/_opaquepy.cpython-310-darwin.so,sha256=ZWZ2Nu72__S7tbTsKQoCykb4ZWTaLSbpRWWBC8STCQs,1608510
+opaquepy/lib.py,sha256=WXSxBIth3s3NCBQFdpHqDs_EQ3hjuK49tia91Wlyd_4,3312
+opaquepy/__init__.py,sha256=FAhxwlsnkMjjOHErCYJS2zD0FYH9AB-cRZu53Z8d7GU,320
+opaquepy/_opaquepy.pyi,sha256=eGNyNGcgD0qC8TTW0ETBjyl-UeUKXU3korN5qkJroOM,751
+opaquepy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
