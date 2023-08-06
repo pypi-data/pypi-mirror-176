@@ -1,0 +1,12 @@
+tomeks_torrent_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomeks_torrent_manager/main.py,sha256=eJM8jK6-8Az2akbYAC0e7FgfehhQVgYGLca4q9VmyJw,565
+tomeks_torrent_manager/pull_torrent_info/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomeks_torrent_manager/pull_torrent_info/database.py,sha256=uc32I_XZBfXv8aIEH4ree1x-FgNfzSm9lDaIc54Kmqs,334
+tomeks_torrent_manager/pull_torrent_info/download_from_transmission.py,sha256=g4ZpCtvV6pFOx_Gw4YAJMv5ifczdXcXamoX7-HTSsUI,2264
+tomeks_torrent_manager/pull_torrent_info/download_from_website.py,sha256=2zWzppVYQy5_I9OiR-1BW_tJf3t43RQtyN3Qi5cL7s0,9862
+tomeks_torrent_manager/pull_torrent_info/download_rss_feeds.py,sha256=78DbC-GhD9kjgSHuZIaqNVR-GIJi4j7w2Ji3rIUKVAE,3853
+tomeks_torrent_manager/pull_torrent_info/utils.py,sha256=j2Foxm727mAAzxyMZaiSMPU8CW9ovQbtyOhyxOJF3fQ,467
+tomeks_torrent_manager-0.0.5.dist-info/METADATA,sha256=b37PpgbJPsuHi3-3666_ED7Jt8UBVCaK5IUbkq0qE9w,1471
+tomeks_torrent_manager-0.0.5.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+tomeks_torrent_manager-0.0.5.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tomeks_torrent_manager-0.0.5.dist-info/RECORD,,
