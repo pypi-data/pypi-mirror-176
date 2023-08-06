@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Firetail_Lambda.egg-info/PKG-INFO
+Firetail_Lambda.egg-info/SOURCES.txt
+Firetail_Lambda.egg-info/dependency_links.txt
+Firetail_Lambda.egg-info/requires.txt
+Firetail_Lambda.egg-info/top_level.txt
+firetail_lambda/__init__.py
+firetail_lambda/version.py
+tests/test_firetail.py
