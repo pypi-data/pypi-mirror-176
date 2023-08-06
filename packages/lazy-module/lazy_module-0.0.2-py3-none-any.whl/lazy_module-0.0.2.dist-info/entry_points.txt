@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+lazy_module = lazy_module._modidx:d
+
