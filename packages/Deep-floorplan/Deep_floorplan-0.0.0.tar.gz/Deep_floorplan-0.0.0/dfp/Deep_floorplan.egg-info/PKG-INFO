@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Deep-floorplan
+Version: 0.0.0
+Summary: Deep FloorPlan
+Home-page: UNKNOWN
+Author: Leo Leung
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: testing
+Provides-Extra: linting
