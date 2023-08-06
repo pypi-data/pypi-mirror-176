@@ -1,0 +1,9 @@
+bgrm/__main__.py,sha256=-m53Mkbdyz6KiCRP4D_4fTiCiqZcDmw1b3LdLI3VKec,66
+bgrm/bgrm.py,sha256=z-U-zbqDPIP81USlyfGcCG-7pO-pcNuLBHFrrxvGnxo,592
+bgrm/cam.py,sha256=YFzLSaG0XnljOwGdnSHVhe_BDheCM5Xtx7kivGbBjuY,3769
+bgrm/settings.py,sha256=-c9p7WoZBsA1TfwHvoTismNwP7srpVrXCQFUoRzkdwo,2861
+bgrm/virt_cam.py,sha256=0mcvOLUDsMKInlQQK401an-hvPNiFRP5UzSXAb3Qw3o,1340
+bgrm-8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bgrm-8.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+bgrm-8.dist-info/METADATA,sha256=YQeb39IND-tWmZX1SL-Ji1NdU4RCOseF78cqlwDS4I0,2533
+bgrm-8.dist-info/RECORD,,
