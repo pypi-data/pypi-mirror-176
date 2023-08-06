@@ -1,0 +1,3 @@
+[console_scripts]
+diagrams-net-automation=diagrams_net_automation.main:app
+
