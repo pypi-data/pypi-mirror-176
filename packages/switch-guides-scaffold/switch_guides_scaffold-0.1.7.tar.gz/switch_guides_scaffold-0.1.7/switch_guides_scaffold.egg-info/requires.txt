@@ -1,0 +1,6 @@
+switch-guides
+click
+click-help-colors
+click_spinner
+pydantic==1.9.0
+jinja2

@@ -1,0 +1,36 @@
+import switch_api as sw
+
+class {{name}}(sw.pipeline.{{task_type}}):
+    @property
+    def id(self) -> uuid.UUID:
+        return uuid.UUID("{{uuid}}")
+
+    @property
+    def mapping_entities(self) -> typing.List[MAPPING_ENTITIES]:
+        return ["{{readings_type}}"]
+
+    @property
+    def description(self) -> str:
+        return "{{description}}"
+
+    @property
+    def author(self) -> str:
+        return "{{author}}"
+
+    @property
+    def version(self) -> str:
+        return "0.1.0"
+
+    {% if task_type == "IntegrationTask" %}
+    def process_file(self, api_inputs, file_path_to_process: str):
+        pass
+
+    def process_stream(self, api_inputs, stream_to_process):
+        pass
+
+    def process(self, api_inputs, integration_settings: dict):
+        pass
+    {% else %}
+    def process_queue(self, api_inputs: ApiInputs, messages: List):
+        pass
+    {% endif %}
