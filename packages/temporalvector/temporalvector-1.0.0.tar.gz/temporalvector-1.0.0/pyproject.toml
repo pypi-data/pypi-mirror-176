@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "temporalvector"
+version = "1.0.0"
+authors = [
+  { name="Chris McKay", email="crmckay55@gmail.com" },
+]
+description = "Temporally aware vector of values that can be aggregated using different methods over different time periods"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/crmckay55/sim_pkg_temporal_vector.git"
