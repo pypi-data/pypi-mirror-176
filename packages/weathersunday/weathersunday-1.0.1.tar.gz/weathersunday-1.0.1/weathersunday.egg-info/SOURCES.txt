@@ -1,0 +1,5 @@
+setup.py
+weathersunday.egg-info/PKG-INFO
+weathersunday.egg-info/SOURCES.txt
+weathersunday.egg-info/dependency_links.txt
+weathersunday.egg-info/top_level.txt
