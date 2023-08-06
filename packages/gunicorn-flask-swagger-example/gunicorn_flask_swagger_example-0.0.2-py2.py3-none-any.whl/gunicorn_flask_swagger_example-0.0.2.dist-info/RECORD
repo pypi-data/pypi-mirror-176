@@ -1,0 +1,12 @@
+gfse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gfse/app.py,sha256=YWNSl4vXBg8wto4HneykTYvu1Tuw2qcKfwAiuk4kc58,1162
+gfse/version.py,sha256=dm9XehhhjbkUswx_sXZns5xmAo2OxafGhABs36kdWj8,176
+gfse/api/__init__.py,sha256=OzltbN6ndgZ8djlPfy8uVrM8ZT9Cm0aGveopu6HFyOo,3030
+gfse/api/error_handler.py,sha256=k9lsVSJDmxdqz9DJ8ANzjtPvZOV-u2cZEd1I3qKtrgo,417
+gfse/api/routes.py,sha256=pXG9I9XlwfAb8GHneK0pBckrbqsB4jKwiqovfaI707o,91
+gfse/config/swagger.yaml,sha256=axef3UhbI2a1KHbgeT6vrkvyzhZ2SayULZBXkQXrUMU,618
+gunicorn_flask_swagger_example-0.0.2.dist-info/METADATA,sha256=2lPV2GqNi5wc236msXlqUNKajl3UQd_WyDKh9ynNZfY,1689
+gunicorn_flask_swagger_example-0.0.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+gunicorn_flask_swagger_example-0.0.2.dist-info/entry_points.txt,sha256=I7oKWwpQkbDXHQcjjxRtw9oLd8XO4WfSAqSTOYu0-Zs,39
+gunicorn_flask_swagger_example-0.0.2.dist-info/top_level.txt,sha256=ds39XfP-cf8GWq6GbAaQLa0br1fJ6Sef9LDINI7QjlA,5
+gunicorn_flask_swagger_example-0.0.2.dist-info/RECORD,,
