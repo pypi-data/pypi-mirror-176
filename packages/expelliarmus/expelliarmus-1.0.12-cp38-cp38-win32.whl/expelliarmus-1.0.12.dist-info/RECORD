@@ -1,0 +1,10 @@
+expelliarmus.cp38-win32.pyd,sha256=yBglHiO9ceMku4Vnepki2eVK0pZ6X27MLy9gVpW3Cq4,18944
+expelliarmus/muggle/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+expelliarmus/muggle/muggle.py,sha256=5JDb_l968uBXr6UP_X0dQG3F1dzcwWcz_EILwCjIwvQ,3411
+expelliarmus/wizard/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+expelliarmus/wizard/wizard.py,sha256=A6fn6ftH9qR9x1XJGF8hdOCvSNYWxLFguOW_2OPYlkA,3784
+expelliarmus-1.0.12.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+expelliarmus-1.0.12.dist-info/METADATA,sha256=etKux68xkXpdE8fb7vHRgB9X0OzM49_bTpZJ30z3wC4,4745
+expelliarmus-1.0.12.dist-info/WHEEL,sha256=f5A3Ypo9PM0E06rgvH7-s12WthkA89SedEqLArPnjKU,96
+expelliarmus-1.0.12.dist-info/top_level.txt,sha256=W5Ux57ruAY9nFWYnbEdY5DcbfRxxU1ESO8_d70M4Tg8,13
+expelliarmus-1.0.12.dist-info/RECORD,,
