@@ -1,0 +1,12 @@
+revivelink_bypass/__init__.py,sha256=EfsWCh4DReZvmwspAmGWkJMhTZbtyQzEs6ix2rIW8gI,45
+revivelink_bypass/link.py,sha256=Ar7cjkK-V95_Uk552CrPkIfvKuCSz8DtAV3YCDwESds,1617
+revivelink_bypass/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revivelink_bypass/version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+revivelink_bypass/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revivelink_bypass/tests/conftest.py,sha256=7bV_j3HoUkRCWXdWnqHjeRKntixUKqgxJdHAXmoEkSo,834
+revivelink_bypass/tests/link_test.py,sha256=c8Gv8rGiL7o0uDAarl1HhDXTV1ZGF0pNz9J_0XVL2nQ,605
+revivelink_bypass-0.0.2.dist-info/LICENSE,sha256=hQuyyEy2qnpy10GmWTu9oslyjFTKEEvSGl-C4n868lk,1071
+revivelink_bypass-0.0.2.dist-info/METADATA,sha256=mzkbq_OBCuOzGVW3jjJZU5PpdPpdME6l0N7BMXU8Ixg,3852
+revivelink_bypass-0.0.2.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+revivelink_bypass-0.0.2.dist-info/top_level.txt,sha256=QvziS4gEoUuW-Xmb7Z3jmbdb753Vdv2awCuAJZwq3bQ,18
+revivelink_bypass-0.0.2.dist-info/RECORD,,
