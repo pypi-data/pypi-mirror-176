@@ -1,0 +1,13 @@
+redtape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redtape/__main__.py,sha256=9NzW8k4VinA1HkBxZmHMWNJJur_SpiBDJ5_6c0tY15o,70
+redtape/__version__.py,sha256=r4xAFihOf72W9TD-lpMi6ntWSTKTP2SlzKP1ytkjRbI,22
+redtape/admin.py,sha256=_HXt7cXIvCKieXtHv_izrgW5J4k2dblGHKauoCzgez0,26407
+redtape/cli.py,sha256=JQBc-L5r_Hzo2n9TPjTfhc7jGaLcEnBo0LsBXLlNWs4,10659
+redtape/connectors.py,sha256=RCXw9evZjh9N3rH74eI5s7hkdaKxYOyauaftGmFAkT4,17315
+redtape/specification/__init__.py,sha256=-hPbsFgiRZVgzzh3xLW5PqUyxxx1ydtrPo306BYIgyM,6635
+redtape/specification/models.py,sha256=0k4unCBx-70mGlmCTgDenYEMkFq-im3MkjTdgCKIbzw,21141
+redtape_py-0.3.1.dist-info/entry_points.txt,sha256=AUU0hCxBBDGEy0orJtJvmod9D7rooTpChJZjt5-q0Ms,44
+redtape_py-0.3.1.dist-info/LICENSE,sha256=8yx5JCe-4cW52JiqVrMlA990r7tuac2foiUryhV9dfY,1073
+redtape_py-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+redtape_py-0.3.1.dist-info/METADATA,sha256=s2Q8WKXe2cP3mhHY0N3DH-35nqZ2H7WpQ7to5CiAuSQ,6760
+redtape_py-0.3.1.dist-info/RECORD,,
