@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: BinaryTK_CardboardDog
+Version: 0.0.1
+Summary: A binary toolkit
+Author: CardboardDog
+Project-URL: Homepage, https://github.com/CardboardDog/Binary-TK
+Project-URL: Bug Tracker, https://github.com/CardboardDog/Binary-TK/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE

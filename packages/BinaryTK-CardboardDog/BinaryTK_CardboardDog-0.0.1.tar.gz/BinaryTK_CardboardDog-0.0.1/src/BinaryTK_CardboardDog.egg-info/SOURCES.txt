@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/BinaryTK_CardboardDog/Character.py
+src/BinaryTK_CardboardDog/Integer.py
+src/BinaryTK_CardboardDog/__init__.py
+src/BinaryTK_CardboardDog.egg-info/PKG-INFO
+src/BinaryTK_CardboardDog.egg-info/SOURCES.txt
+src/BinaryTK_CardboardDog.egg-info/dependency_links.txt
+src/BinaryTK_CardboardDog.egg-info/top_level.txt
