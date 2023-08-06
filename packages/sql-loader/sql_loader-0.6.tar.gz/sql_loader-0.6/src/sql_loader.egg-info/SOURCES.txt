@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/sql_loader/__init__.py
+src/sql_loader.egg-info/PKG-INFO
+src/sql_loader.egg-info/SOURCES.txt
+src/sql_loader.egg-info/dependency_links.txt
+src/sql_loader.egg-info/requires.txt
+src/sql_loader.egg-info/top_level.txt
