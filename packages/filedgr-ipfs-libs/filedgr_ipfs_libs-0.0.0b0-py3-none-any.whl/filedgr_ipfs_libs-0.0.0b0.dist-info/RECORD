@@ -1,0 +1,9 @@
+filedgr_lib_ipfs/__init__.py,sha256=Pbwxb6aI3hVOCiSlKga6MGzd6Xy1jOCnNFS414-ynxs,26
+filedgr_lib_ipfs/ipfs_client.py,sha256=r49fsSyphPhNn6vLdnaLFMKPym1Y_7wQJ1HRbRdlm9o,2429
+filedgr_lib_ipfs/my_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filedgr_lib_ipfs/my_io/my_file_io.py,sha256=biaYxONnVtAhZ620arIOQISyRAPXOYTTIhwDfNQatDs,508
+filedgr_ipfs_libs-0.0.0b0.dist-info/LICENSE,sha256=p9hA58TwE1lKhiCXPwtqRvDcR0-x7EcSogTmugKDxyI,1063
+filedgr_ipfs_libs-0.0.0b0.dist-info/METADATA,sha256=gye16vAPcwedkYbaq83VWDzMCeK7R_Qn5I-NtnlaqfY,1055
+filedgr_ipfs_libs-0.0.0b0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+filedgr_ipfs_libs-0.0.0b0.dist-info/top_level.txt,sha256=60fMAod3vTnnilRwgLi9KQ65LwJVj8182kqpm2wla9Y,17
+filedgr_ipfs_libs-0.0.0b0.dist-info/RECORD,,
