@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: git_smudge
+Version: 0.0.1
+Summary: A powerful filter driver for Git which can automatically apply local changes to the working tree of a repository
+Home-page: https://ktpanda.org/software/git_smudge
+Author: Katie Rust
+Author-email: katie@ktpanda.org
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+git_smudge
+==========
+
+A powerful filter driver for Git which can automatically apply local changes to the
+working tree of a repository.
+
+Installing
+----------
+
+Run
+
+```
+pip3 install git-smudge
+```
+
+Setting up a filter
+-------------------
+
+TODO: More documentation here
