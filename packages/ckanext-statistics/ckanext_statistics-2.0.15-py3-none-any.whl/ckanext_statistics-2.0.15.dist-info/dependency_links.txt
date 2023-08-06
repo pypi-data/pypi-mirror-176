@@ -1,0 +1,2 @@
+git+https://github.com/NaturalHistoryMuseum/ckanext-ckanpackager@v2.1.3#egg=ckanext-ckanpackager
+git+https://github.com/NaturalHistoryMuseum/ckanext-versioned-datastore@v3.6.2#egg=ckanext-versioned-datastore
