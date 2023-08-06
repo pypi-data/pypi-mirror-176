@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pymcfunction"
+version = "0.1.6"
+description = "PyMCFunction is a tool to write Minecraft datapacks in Python."
+authors = ["PaddeCraft <paddecraft@gmail.com>"]
+include = [
+    "LICENSE",
+]
+readme = "README.md"
+repository = "https://github.com/PaddeCraft/PyMCFunction"
+keywords = ["python", "minecraft", "toml", "cli"]
+
+[tool.poetry.scripts]
+pymcfunction = "pymcfunction.cli:app"
+pyfunction = "pymcfunction.cli:app"
+pmf = "pymcfunction.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.6.1"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+requests = "^2.28.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
