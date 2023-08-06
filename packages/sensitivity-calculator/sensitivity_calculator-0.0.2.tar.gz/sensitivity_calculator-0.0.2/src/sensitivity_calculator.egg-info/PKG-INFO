@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sensitivity-calculator
+Version: 0.0.2
+Summary: Calculates senstivities, noise curves, and map simulations for telescopes
+Author: Ari Mirsky
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Provides-Extra: testing
+License-File: LICENSE
+
+UNKNOWN
+
