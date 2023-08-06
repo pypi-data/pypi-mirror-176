@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gtas-python-core
+Version: 0.5.14
+Summary: Gmarket Test Automation Solution
+Home-page: http://github.ebaykorea.com/test-automation/gtas_python_core
+Author: taeshik.kim
+Author-email: taeshkim@gmarket.com
+License: UNKNOWN
+Keywords: gmarket
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3
+
+# GTAS
+Gmarket Test Automation Service Python Library
+
+# 솔루션 구조
+QET-705 - 기본 구조 작성
+
+gtas-python-kit을 패키징으로 배포하는 코드
+hello wolrd Class 모듈 작성
+
+class GtasTest
+method say Hello
+consol output "Hello python"
+
+해당 패키지를 설치한 후
+메소드 사용 시 Hello Wold를 콘솔 아웃할수있게 구현
+
+
