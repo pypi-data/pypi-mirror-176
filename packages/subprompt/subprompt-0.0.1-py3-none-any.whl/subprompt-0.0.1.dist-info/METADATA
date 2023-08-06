@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: subprompt
+Version: 0.0.1
+Summary: Substitute Regex in files with prompt confirmation
+Home-page: https://git.augustogunsch.com/augusto/subprompt
+Author: Augusto Lenz Gunsch
+Author-email: augusto@augustogunsch.com
+Project-URL: Bug Tracker, https://git.augustogunsch.com/augusto/subprompt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 6 - Mature
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: colorama (>=0.4.3)
+
+# subprompt
+Substitute every match of a regex in multiple files - with confirmation prompts. Usage:
+```
+subprompt [REGEX] [SUB] [FILES...]
+```
