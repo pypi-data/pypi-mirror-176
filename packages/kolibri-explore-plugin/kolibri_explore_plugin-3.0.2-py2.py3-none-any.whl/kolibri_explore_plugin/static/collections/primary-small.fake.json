@@ -1,0 +1,29 @@
+{
+  "channels": [
+    {
+      "id": "1e378725d3924b47aa5e1260628820b5",
+      "include_node_ids": [
+        "77e92e9eca3b52578725c0bd4a4afa98",
+        "b66d9fce1b795b7b9a2c3ac03770d9b9"
+      ],
+      "exclude_node_ids": [],
+      "version": 0
+    },
+    {
+      "id": "1520f018610256549c98ca0140cceebe",
+      "include_node_ids": [
+        "aa9d72374abd54dfa615c95408edda1b",
+        "dd87f9794d655f09a495759d878750b4"
+      ],
+      "exclude_node_ids": [],
+      "version": 0
+    }
+  ],
+  "channel_list_hash": "a81c659ad095eedcfda78024c8dc21c2",
+  "metadata": {
+    "title": "2 GB",
+    "subtitle": "Small",
+    "description": "Primary",
+    "required_gigabytes": 2
+  }
+}
