@@ -1,0 +1,10 @@
+dict_merger/__init__.cpython-38-darwin.so,sha256=6_TQsMrwmzP9xjRL4R8ugRZQVv_hzl6onm1MzG7jbMk,137240
+dict_merger/__init__.py,sha256=FujiFJrhE1TWBixvyD-ctt_OgYP7b4oUnwksUCPZFkc,91
+dict_merger/dynamic_merger.cpython-38-darwin.so,sha256=x2GqZMZhrsySLQeFD_TK9MNeyjQ_1y0mhaj2tFCnJ-Q,230104
+dict_merger/dynamic_merger.py,sha256=QAlYVH8-UFPYEcdliuIJ5zHph6Z8Tl9vR3yU_HKoXXo,1732
+dict_merger/static_merger.cpython-38-darwin.so,sha256=nJRC1jsJTR5gE5jVokYEK75Lf1QViGb657q2Zl_X5aE,195848
+dict_merger-0.0.2.1.dist-info/LICENSE,sha256=LgORJdhj2dyiV4gxw2sxTprAt8-UQZ8jsgG_dbySDUY,1062
+dict_merger-0.0.2.1.dist-info/METADATA,sha256=6SSs8e1xWb6xnkf2avaqbXGYiiZv88LtHBIQsbs8j6E,1925
+dict_merger-0.0.2.1.dist-info/WHEEL,sha256=Wgfr5Vr8lFqfrkWuzmFxIg16kZ46eY6pp4Dwt_ZkQz4,109
+dict_merger-0.0.2.1.dist-info/top_level.txt,sha256=K_rTNnX5vFDhQBU-4Qy4yv0x8gdCxIvc4mzRYHL4JCc,12
+dict_merger-0.0.2.1.dist-info/RECORD,,
