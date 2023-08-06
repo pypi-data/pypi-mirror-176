@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PyQwidgets
+Version: 0.1.5
+Summary: This mini-framework will  help you create a widget!
+Author: Georg8528
+Author-email: zadvornow2908@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Hello, in this description we will briefly get acquainted with PyQwidgets.
+
+Let's start by importing the libraries.
+
+from PyQwidgets import *
+
+And so we imported the library, now add an error.
+
+from PyQwidgets import *
+
+error = QError("Name window", "Error message")
+
+Let's take a closer look, "error" we created a variable.
+"QError" called a method that makes an error window.
+"Name window" is written in double quotes,
+this is the name of the error window, after "Name window" comes "Error message"
+this is a message in the window that describes the error itself 
+
+
+
