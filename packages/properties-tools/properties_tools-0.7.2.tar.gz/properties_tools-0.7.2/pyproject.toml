@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "properties-tools"
+version = "0.7.2"
+description = "Collection of command line tools to work with properties files (diff-like, patch-like)"
+homepage = "https://github.com/essembeh/properties-tools"
+authors = ["Sébastien MB <seb@essembeh.org>"]
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Utilities",
+    "Topic :: Software Development"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+pylint = "^2.15.5"
+pytest = "^7.2.0"
+pytest-dotenv = "^0.5.2"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.scripts]
+properties-diff = 'properties_tools.diff:run'
+properties-patch = 'properties_tools.patch:run'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
