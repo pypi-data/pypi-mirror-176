@@ -1,0 +1,11 @@
+devpair.py,sha256=Q4L6X7Aew4ILeVjX3i2_iUqGGrCQZw_DuGEZnRl1Jjk,94
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/cli.py,sha256=zmaSiq8XXWVCekQtKJbtLhQiZZWstJ23IHwYhYVK5p8,1119
+app/manager.py,sha256=c57gn1-HynZ-EvkCdF7Srbwzsa0pfdoql8-AMNUUjm8,6932
+app/test_manager.py,sha256=1P9RQQ2FIxxwmpb_nKs6Blo9UXO-jjkxebxGew3QOsU,3833
+devpair-1.1.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+devpair-1.1.0.dist-info/METADATA,sha256=cGXQZNIIbwi65n5BlQWQzw1Ov5WL3jdT97JTCzFEUso,4455
+devpair-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+devpair-1.1.0.dist-info/entry_points.txt,sha256=LIcQhOXnwGfy_gWk7nsk0RqspEyWV-hDflv3vOQ7bjA,64
+devpair-1.1.0.dist-info/top_level.txt,sha256=lRUPgIW5PHvT66WYBIzENQNKq97CY-QYBF80HAkO0Ss,12
+devpair-1.1.0.dist-info/RECORD,,
