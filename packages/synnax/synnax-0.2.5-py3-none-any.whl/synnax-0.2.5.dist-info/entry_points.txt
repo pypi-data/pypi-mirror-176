@@ -1,0 +1,6 @@
+[console_scripts]
+credentials=synnax.cli.login:credentials
+login=synnax.cli.login:login
+root=synnax.cli.ingest:ingestion
+tsconvert=synnax.cli.util:convert_timestamp_precision
+
