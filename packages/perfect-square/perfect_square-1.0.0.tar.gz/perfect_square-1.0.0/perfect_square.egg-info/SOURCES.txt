@@ -1,0 +1,6 @@
+perfect_square.py
+setup.py
+perfect_square.egg-info/PKG-INFO
+perfect_square.egg-info/SOURCES.txt
+perfect_square.egg-info/dependency_links.txt
+perfect_square.egg-info/top_level.txt
