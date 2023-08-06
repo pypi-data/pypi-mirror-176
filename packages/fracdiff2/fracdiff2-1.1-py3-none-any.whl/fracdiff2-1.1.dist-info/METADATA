@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fracdiff2
+Version: 1.1
+Summary: Fractional Differentiation framework for time series.
+Author: Philippe Remy
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
