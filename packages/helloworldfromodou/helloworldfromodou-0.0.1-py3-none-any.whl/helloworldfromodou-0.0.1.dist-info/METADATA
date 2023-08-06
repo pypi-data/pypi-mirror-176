@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: helloworldfromodou
+Version: 0.0.1
+Summary: Say Hello world
+Home-page: https://github.com/Modiao/setup_pytest
+Author: Modou Diao
+Author-email: diaomodou06@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: blessings (==1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+## Hello World
+
+This is an example project demonstrating how to piblish public module to PyPI.
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install helloworldfromodou
+```
+
+## Usage 
+
+``` python
+from helloworldfromodou import say_hello
+
+# Generate "Hello, world!"
+say_hello()
+
+# Generate "Hello, Everybody!
+say_hello("Everybody")
+```
+
+# Developing Hello World fromodou
+
+To install helloworldfromodou, along with the tools you need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e ".[dev]"
+```
+
+
