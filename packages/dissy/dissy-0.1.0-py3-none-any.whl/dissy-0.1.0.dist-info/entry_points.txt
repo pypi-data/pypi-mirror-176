@@ -1,0 +1,3 @@
+[console_scripts]
+dissy=dissy.app:main
+
