@@ -1,0 +1,9 @@
+route53targets/__init__.py,sha256=tbLCu3Cgb8Mky0U_6ZZJuqAfcr2431jAH8tQ6PCOgz8,6289
+route53targets/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+route53targets/_jsii/__init__.py,sha256=hwwuXwVa2_2S3TnZU4Ntb0dnO1QI9kYb__iDjksOzAc,451
+route53targets/_jsii/cdk-library-route53targets@0.0.62.jsii.tgz,sha256=Myd3izmEM31OrecHRJzOk1curstKHHoioY3rlDenJec,16009
+renovosolutions.aws_cdk_route53targets-0.0.62.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renovosolutions.aws_cdk_route53targets-0.0.62.dist-info/METADATA,sha256=YRm28BJyjWauV0iUbtnYI-TAq6wpnyFQ-mzMjRWmPXc,3482
+renovosolutions.aws_cdk_route53targets-0.0.62.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renovosolutions.aws_cdk_route53targets-0.0.62.dist-info/top_level.txt,sha256=AXJbRYOW5M7Jc2h6KFNCLWH6SHDHt2_qI47Xo9Z5EjE,15
+renovosolutions.aws_cdk_route53targets-0.0.62.dist-info/RECORD,,
