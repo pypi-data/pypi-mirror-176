@@ -1,0 +1,2 @@
+[console_scripts]
+styled = styled.__main__:main
