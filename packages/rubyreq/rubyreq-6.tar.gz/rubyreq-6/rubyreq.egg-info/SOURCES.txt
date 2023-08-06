@@ -1,0 +1,11 @@
+README.md
+setup.py
+./rubyreq/__init__.py
+./rubyreq/__main__.py
+rubyreq/__init__.py
+rubyreq/__main__.py
+rubyreq.egg-info/PKG-INFO
+rubyreq.egg-info/SOURCES.txt
+rubyreq.egg-info/dependency_links.txt
+rubyreq.egg-info/requires.txt
+rubyreq.egg-info/top_level.txt
