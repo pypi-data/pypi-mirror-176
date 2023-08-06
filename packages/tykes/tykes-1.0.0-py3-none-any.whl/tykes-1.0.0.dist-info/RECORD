@@ -1,0 +1,16 @@
+tykes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tykes/__main__.py,sha256=96hijzV1jpTyDC0Pd-u5JCOde-PVHxzKSo4D8gyyNVs,87
+tykes/cli.py,sha256=7CSn9xt2LX5e6vKRO_OB1q9MxFFAWlZYrrxMtJOSQ0w,2251
+tykes/color.py,sha256=UwBeIdl-uh4UaZkAGvztlNKp4tb_xMfk_kN56lkrbGQ,183
+tykes/farkle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tykes/farkle/main.py,sha256=tjq01ROxEd9nTIeSkJQzJkTkdTaLdyiAF6icSlPWh_g,4860
+tykes/farkle/utils.py,sha256=Mf2-VUTmszam96bnDSUv3Ju-5i8yljTfk8_KWbl8nTM,3051
+tykes/flood/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tykes/flood/main.py,sha256=9WH2JT1jRIJ6v0NVQyoaQJuTXq_1zUjgwgrM13DXuvk,9442
+tykes/maze.py,sha256=EAS82iudkPLxj6OlF6oBo_nu-q29gxvLkS0U9E06bhc,12299
+tykes/memory.py,sha256=ypsRJ_B58wW-V7RqEk8anZVlZgP4n5PLJ4FOn8AX1Fo,14253
+tykes/utils.py,sha256=hkmwwqwc12GNiRoKy8xnORz8HDTFUuip8BLswUFLTwA,7944
+tykes-1.0.0.dist-info/LICENSE,sha256=a1HaLuE0Mh4IPuMiCwUv_G7ZdeaiRK9kg6Mce_X60BU,34668
+tykes-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+tykes-1.0.0.dist-info/METADATA,sha256=R-fv66_j_e7VW_VUjxoRLAN8aFr2g5-D9svTOOAJShM,898
+tykes-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tykes
+Version: 1.0.0
+Summary: A python project designed to provide low-stimulation games to young children.
+License: GPL-3.0-or-later
+Author: Ian Wernecke
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arcade (>=2.6.16,<3.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: pygame (>=2.1.2,<3.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Tikes
+
+This python package is designed to distribute a few simple, low stimulation games for kids.
+
+The intent is to introduce kids to games and interactive media in a safe, controllable
+environment.
+
+I love you, son.
+
+
