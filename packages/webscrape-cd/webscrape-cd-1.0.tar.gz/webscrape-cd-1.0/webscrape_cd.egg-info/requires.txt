@@ -1,0 +1,6 @@
+googlesearch
+urllib.request
+bs4
+requests
+csv
+re

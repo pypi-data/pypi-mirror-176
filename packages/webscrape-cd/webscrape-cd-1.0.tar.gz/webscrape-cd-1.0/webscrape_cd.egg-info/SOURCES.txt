@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cdpackage/__init__.py
+webscrape_cd.egg-info/PKG-INFO
+webscrape_cd.egg-info/SOURCES.txt
+webscrape_cd.egg-info/dependency_links.txt
+webscrape_cd.egg-info/requires.txt
+webscrape_cd.egg-info/top_level.txt
