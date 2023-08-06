@@ -1,0 +1,5 @@
+setup.py
+dtree_id3.egg-info/PKG-INFO
+dtree_id3.egg-info/SOURCES.txt
+dtree_id3.egg-info/dependency_links.txt
+dtree_id3.egg-info/top_level.txt
