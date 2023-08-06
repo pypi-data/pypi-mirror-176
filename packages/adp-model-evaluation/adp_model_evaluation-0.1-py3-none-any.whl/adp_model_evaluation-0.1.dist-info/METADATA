@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: adp-model-evaluation
+Version: 0.1
+Summary: adding problem model evaluation package
+Home-page: https://github.com/thoilene/adding_problem_model_evaluation
+Author: Thomas Ilene
+Author-email: thomas.ilene@web.de
+Project-URL: Bug Tracker, https://github.com/thoilene/adding_problem_model_evaluation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Package adding_problem_model_evaluation
+
+The documentation for this package is on the link below: 
+
+[adding_problem_model_evaluation documentation](https://github.com/thoilene/adding_problem_model_evaluation/blob/main/README.md)
