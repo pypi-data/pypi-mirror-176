@@ -1,0 +1,13 @@
+pkglog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkglog/__main__.py,sha256=UZW6TCjNzilaI2F-noRG60qUZqP85qiSwEf1Dd17Uvw,66
+pkglog/pkglog.py,sha256=4PTdkH1GP0ahYoRIkRY4W04OdhvijHq9BMVVAOgIEAA,10695
+pkglog/parsers/apt.py,sha256=OOOWhuUz6F-FuY4Wt9v2eJ2ruBmtwHOsGpB1oTGJtUM,1103
+pkglog/parsers/dnf.py,sha256=cFhxdxVgHylKpuccH3lWrlSGwhs1wbixvYmqfAlvHa0,1298
+pkglog/parsers/pacman.py,sha256=laXfz6sC6FcnblwzHNyt0IGAWD6Yb_jSDslQCPAbEJY,784
+pkglog/parsers/zypper.py,sha256=MzXFHspWYIAWopQWCiqJqEn1KXL36z4uTWn9sVPuRV4,1234
+pkglog-1.17.data/data/share/pkglog/README.md,sha256=bGLfM528kAE4Aigl3rlugdm95s02MLbLt9xYcyy1Ssk,7650
+pkglog-1.17.dist-info/METADATA,sha256=giHIeSL6YJH0gAIw-rpGmOY1pZhD6712I8D-Fdy4XCs,8069
+pkglog-1.17.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+pkglog-1.17.dist-info/entry_points.txt,sha256=cqI0_reS5GvCc28cRWtczX1f-CAtZsjUCkYmmXx7rN8,46
+pkglog-1.17.dist-info/top_level.txt,sha256=RzcFKPdgppK5BdkJbjxnMsHrYWD1y-bRaZRs0qY_9cg,22
+pkglog-1.17.dist-info/RECORD,,
