@@ -1,0 +1,16 @@
+include AUTHORS LICENSE pyproject.toml *.md
+
+# Stubs
+include src/nspyre/gui/images/*.png
+include src/nspyre/gui/images/favicon.ico
+include src/nspyre/gui/style/style.qss
+
+# Tests
+recursive-include tests *.py
+
+# Documentation
+include docs/Makefile docs/make.bat docs/requirements.txt
+recursive-include docs *.css
+recursive-include docs *.png
+recursive-include docs *.py
+recursive-include docs *.rst

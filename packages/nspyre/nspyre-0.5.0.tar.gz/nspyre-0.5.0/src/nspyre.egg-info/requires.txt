@@ -1,0 +1,23 @@
+numpy>=1.23.1
+rpyc>=5.2.3
+
+[:platform_machine != "aarch64" and platform_machine != "armv7l"]
+pyqt6==6.2.3
+pyqt6-qt6==6.2.3
+pyqtgraph>=0.13.1
+
+[dev]
+pre-commit
+sphinx
+sphinx-copybutton
+sphinx_rtd_theme
+
+[extras]
+xdelta3
+
+[tests]
+pytest
+pytest-cov
+psutil
+lantz
+pint
