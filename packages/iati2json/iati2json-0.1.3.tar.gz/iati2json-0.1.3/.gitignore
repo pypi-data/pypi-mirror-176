@@ -1,0 +1,7 @@
+/target
+test.json
+.ve
+__pycache__
+iati2json/*.so
+_build
+/dist
