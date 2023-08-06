@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+/home/runner/work/pe-parse/pe-parse/pe-parser-library/src/buffer.cpp
+/home/runner/work/pe-parse/pe-parse/pe-parser-library/src/parse.cpp
+/home/runner/work/pe-parse/pe-parse/pe-parser-library/src/unicode_codecvt.cpp
+/home/runner/work/pe-parse/pe-parse/pepy/pepy.cpp
+pe-parser-library/include/pe-parse/nt-headers.h
+pe-parser-library/include/pe-parse/parse.h
+pe-parser-library/include/pe-parse/to_string.h
+pepy/README.md
+pepy.egg-info/PKG-INFO
+pepy.egg-info/SOURCES.txt
+pepy.egg-info/dependency_links.txt
+pepy.egg-info/top_level.txt
