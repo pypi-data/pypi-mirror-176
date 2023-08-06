@@ -1,0 +1,5 @@
+test-packages-bad/__init__.py,sha256=6Fe4w0gK0Mx8UXcl8e0fa_-3sInok8JlrVhVK-9w3k8,167
+test_packages_bad-9.9.9.dist-info/METADATA,sha256=LsLLe8nFRXtSN4Cru8Xxt0hoUDhZpmJVRvxsSz37FSA,1165
+test_packages_bad-9.9.9.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+test_packages_bad-9.9.9.dist-info/top_level.txt,sha256=akwfBTWYJMWozpvO8iZiGzGpuZABrprdVuthYjZxlKo,18
+test_packages_bad-9.9.9.dist-info/RECORD,,
