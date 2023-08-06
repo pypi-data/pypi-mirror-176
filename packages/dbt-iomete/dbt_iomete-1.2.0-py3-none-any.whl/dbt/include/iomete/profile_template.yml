@@ -1,0 +1,27 @@
+fixed:
+  type: iomete
+prompts:
+  account_number:
+    hint: 'iomete account number'
+  host:
+    hint: 'e.g., us-west-2.iomete.com'
+  lakehouse:
+    hint: 'cluster name that dbt will connect'
+  schema:
+    hint: 'default schema that dbt will build objects in'
+  user:
+    hint: 'iomete username'
+  password:
+    hint: 'iomete user password'
+    hide_input: true
+  connect_timeout:
+    default: 120
+    hint: 'connection timeout in seconds'
+    type: 'int'
+  connect_retries:
+    default: 0
+    type: 'int'
+  threads:
+    hint: '1 or more'
+    type: 'int'
+    default: 1
