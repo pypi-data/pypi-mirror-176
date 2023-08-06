@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gts-engine
+Version: 0.1.1
+Summary: gts_engine
+Home-page: https://github.com/IDEA-CCNL/GTS-Engine
+Author: pankunhao
+Author-email: pankunhao@gmail.com
+License: MIT Licence
+Platform: any
+License-File: LICENSE
+
+git_engine development suite: a powerful NLU training system
