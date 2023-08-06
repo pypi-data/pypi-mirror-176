@@ -1,0 +1,16 @@
+{% load i18n %}
+<form method="get">
+  {% for field in filter.form %}
+    <div class="pb-2">
+      <label class="font-bold">{{ field.label }}</label>
+      <div class="mt-2">
+        {{ field }}
+        {% if field.help_text %}
+          <p class="text-xs pt-2 text-gray-600">{{ field.help_text }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <button class="button bg-primary text-accent mt-2 w-full" type="submit">{% trans "Filter" %}</button>
+</form>
+
