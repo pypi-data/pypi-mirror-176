@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: IPYNBrenderer-test
+Version: 0.0.1
+Summary: A small python package
+Home-page: https://github.com/jiyamaryjoseph/IPYNBrenderer_test
+Author: jiyamaryjoseph
+Author-email: jiyamaryjoseph@outlook.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/jiyamaryjoseph/IPYNBrenderer_test/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Provides-Extra: testing
+License-File: LICENSE
+
+# IPYNB renderer python package
+
+<!-- Documentation: https://c17hawke.github.io/IPYNBrenderer/
+project board - https://github.com/users/c17hawke/projects/11/views/1
+
+
+[![image](https://user-images.githubusercontent.com/34603575/195835461-9d41ffb5-1cf6-43fe-af03-19029b26b637.png)](https://c17hawke.github.io/IPYNBrenderer/) -->
