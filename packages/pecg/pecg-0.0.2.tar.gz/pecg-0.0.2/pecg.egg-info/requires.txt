@@ -1,0 +1,8 @@
+numpy
+mne
+scipy
+
+[testing]
+setuptools
+pytest
+pytest-cov
