@@ -1,0 +1,5 @@
+rapidfuzz==1.7.1
+pandas
+numpy
+scipy
+tqdm
