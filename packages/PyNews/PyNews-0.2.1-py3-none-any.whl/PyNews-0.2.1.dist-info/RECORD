@@ -1,0 +1,12 @@
+pynews/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynews/__main__.py,sha256=eDofwTRKD-x4uvE0Tq8SLV_vdw5eqh2mgxJIpILwiNY,64
+pynews/constants.py,sha256=splS52MzPHuZ303vSeoB7HvfM08uk3lWu504ni3GAjI,370
+pynews/parser.py,sha256=56O6rhk9lgzIHhZOz0NO_TCVZ_Yxpz08dSUSL4CdcRk,1895
+pynews/pynews.py,sha256=QSGQB0RK7kiZXrizI1sLqWvixUQBWb6c9yAu9cnEx6o,1201
+pynews/utils.py,sha256=gPsovxFxgYFQuCP_YRvM_rcnJK0mtuWZFlHeqTQhaBk,2294
+PyNews-0.2.1.dist-info/LICENSE,sha256=lqkNuRjnE9KhP8KVnl-v-cMZvOC7Jqs-sJfVZdxgTok,1081
+PyNews-0.2.1.dist-info/METADATA,sha256=DgyR1QIyDxKXCXxu-Ezhx18lmIrHmzP8RH06Sq7uCkc,2202
+PyNews-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PyNews-0.2.1.dist-info/entry_points.txt,sha256=w9Ne76s1Nz4f6OCKwnPxzTKaQ-3KfAe9_Q8u4gS2YT4,46
+PyNews-0.2.1.dist-info/top_level.txt,sha256=Mt4apzMacCh-tPrLmZX797gJIp3_h0y9IYNexiOZR1A,7
+PyNews-0.2.1.dist-info/RECORD,,
