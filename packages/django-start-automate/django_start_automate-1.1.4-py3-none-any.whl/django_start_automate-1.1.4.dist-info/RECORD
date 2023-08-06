@@ -1,0 +1,13 @@
+djstartlib/__init__.py,sha256=fQRSZiSx9xJZuVggajQ1RvLvMf0K1vDWBsbyyElLiHQ,82
+djstartlib/app_manager.py,sha256=bdnFF2WyZMYkI2JnZRtthUYW7DgzUGPrttqnm9CssF4,3209
+djstartlib/djstart_interface.py,sha256=KwO8Ynhri9we4txpQ3FDfgfwCgalVKFRa6jK_-xA_g0,557
+djstartlib/hellper.py,sha256=KnTcc0MpoUJTsqRU7s7CZvKXUCBQ0R2vJhftjs49Q0g,3391
+djstartlib/main.py,sha256=c6BpHO7JPYpt3ERY4XtXel039H35DJTTi6wgFOIP-TA,1135
+djstartlib/project_manager.py,sha256=W-jMSnAQNPmtJs5ZwUzyVklSlx5WDBtjtotxF_E1va8,4028
+djstartlib/version.py,sha256=b1sWgPln97BgGBHaWlO7Eeh5UxP_MWDLBEN3owopPtA,1288
+django_start_automate-1.1.4.dist-info/LICENSE,sha256=_qSipsA_YEKXo845jnvUkQ7rMvA0tlaUne63Z2mbNDM,1068
+django_start_automate-1.1.4.dist-info/METADATA,sha256=chU8yu3lBUEiN4f3gx-vIs7amaBDWS4ACNfgFWWcuxk,3750
+django_start_automate-1.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_start_automate-1.1.4.dist-info/entry_points.txt,sha256=aCzHD24CJE1xlFj1ZD2a0s3kJUdSlDKRbSHa6lF2PQI,95
+django_start_automate-1.1.4.dist-info/top_level.txt,sha256=9XRU3fA0jdBgIWuWt111RxNYFW7ASRlgQOrcsYJy4fQ,11
+django_start_automate-1.1.4.dist-info/RECORD,,
