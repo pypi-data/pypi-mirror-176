@@ -1,0 +1,2 @@
+[console_scripts]
+pymonto = montoenletra.__main__:main

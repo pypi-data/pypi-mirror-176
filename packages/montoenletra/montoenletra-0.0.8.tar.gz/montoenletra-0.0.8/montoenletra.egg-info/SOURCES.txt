@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+montoenletra/__init__.py
+montoenletra/__main__.py
+montoenletra/config.py
+montoenletra/functions.py
+montoenletra.egg-info/PKG-INFO
+montoenletra.egg-info/SOURCES.txt
+montoenletra.egg-info/dependency_links.txt
+montoenletra.egg-info/entry_points.txt
+montoenletra.egg-info/requires.txt
+montoenletra.egg-info/top_level.txt
+test/test.py
