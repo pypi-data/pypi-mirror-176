@@ -1,0 +1,10 @@
+wica/__init__.py,sha256=ZrB4oAevAo7b2EBmHP8bopQD3HYw4650w6crBYrr1ZA,382
+wica/examples.py,sha256=T5uqSEHboeMFUvlcpLy7_Oj-v9aUOzskIFHGCYftP2s,2978
+wica/exceptions.py,sha256=3MR-5PblKybxem37slNKW8ojxFGNcu7mJYoz9aSLkIA,165
+wica/sseclient.py,sha256=n7FFuMU3ZMvOXihOTWGxrk1c1yqg6KMAKMPd__Z0R2I,9303
+wica/utils.py,sha256=1dexDdOWPy1X1kcwz8YCaNUcFhO6NX1EwpSmsruM_BM,1784
+wica/wica.py,sha256=2s1IRPzMv2y3cnBw-FilZVK6TDjF41ZLuKpufRi7A3E,15683
+py_wica-1.0.3.dist-info/LICENSE,sha256=dTAH8Z0_7ClEanL1057LNqhD-XbDDKEG-Ei43c2dWS8,34449
+py_wica-1.0.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+py_wica-1.0.3.dist-info/METADATA,sha256=wFALDSkfH7vsWBFTFu-3K7HugPmENFOiwTm04RZyQSI,1237
+py_wica-1.0.3.dist-info/RECORD,,
