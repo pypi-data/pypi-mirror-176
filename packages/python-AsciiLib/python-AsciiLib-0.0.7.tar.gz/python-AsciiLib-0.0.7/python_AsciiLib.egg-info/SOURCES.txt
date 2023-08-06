@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LISCENSE.txt
+MANIFEST.in
+README.md
+setup.py
+AsciiLib/AsciiLib.py
+AsciiLib/__init__.py
+python_AsciiLib.egg-info/PKG-INFO
+python_AsciiLib.egg-info/SOURCES.txt
+python_AsciiLib.egg-info/dependency_links.txt
+python_AsciiLib.egg-info/requires.txt
+python_AsciiLib.egg-info/top_level.txt

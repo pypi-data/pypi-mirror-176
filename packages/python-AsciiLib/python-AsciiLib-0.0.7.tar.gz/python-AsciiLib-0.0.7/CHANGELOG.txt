@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.1 (11/9/2022)
+-----------------
+- Initial Release
+
+0.0.3 (11/14/2022)
+------------------
+- New functions and general improvements
