@@ -1,0 +1,2 @@
+[console_scripts]
+macswitch = asmac:main
