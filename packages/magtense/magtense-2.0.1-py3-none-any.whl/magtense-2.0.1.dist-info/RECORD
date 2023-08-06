@@ -1,0 +1,17 @@
+magtense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magtense/halbach.py,sha256=Gzx-38TJRH4mt9-Veq_Ot5yPVgMTyH2UHcpLAA1g-Jg,10324
+magtense/magstatics.py,sha256=Rhmt0HOoHj0OIT74p3buJXPWHjimczXN0OtZeKWZgxg,28963
+magtense/micromag.py,sha256=--RLl1eNorzT9pgVx0sCmk_nkzNG1aRE-ZWM72RCfTI,8591
+magtense/utils.py,sha256=6gzjKrtJtOhwAqfEQobsVfOjgRCp_AcKUJ8OZW5AjcI,27256
+magtense/lib/magtensesource.cp310-win_amd64.pyd,sha256=lShUwWAv1vkx5Ijkg4L00DSMf_myM9NDSM0ZikBb5WA,74727424
+magtense/lib/magtensesource.cp39-win_amd64.pyd,sha256=relXFiUH_coF1e_CAjhXMBTPpyHzFhCitBdSxiPSZQQ,74729984
+magtense/lib/magtensesource.cpython-310-x86_64-linux-gnu.so,sha256=iL2kw7RcY11HzplJvtRBq-VAenviZGewn58qBFjsJiE,1501584
+magtense/lib/magtensesource.cpython-39-x86_64-linux-gnu.so,sha256=3K7gBxviySgqATjQs1KnTl0yzTMnWxZrTD53fnej1KM,1501400
+magtense/mat/Fe_mur_100_Ms_2_1.csv,sha256=odMR8M7CGD2L0egu2pUx5gEvHY1sMuigmXYhwkh50JY,2744
+magtense/mat/Fe_mur_20_Ms_2_1.csv,sha256=XsAKxNKEeJFPQh7XsgFp1eJSS6zDbbuKmeF8YNzhLYk,2690
+magtense/mat/Fe_mur_4000_Ms_2_1.csv,sha256=uf4KI8hUfUxhNvwbo3ha6bLY6EweD9cBFGfwu0Zy19E,2831
+magtense/mat/data_stateFcn.csv,sha256=-7fJ3dP7hnf47snMlml9l6XVRTzOFmEHhGedzr0MqrQ,9495
+magtense-2.0.1.dist-info/METADATA,sha256=sEHSGczm2HMQBIu7a-8calu162ky6c7kGqOG5o2dNgU,3957
+magtense-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magtense-2.0.1.dist-info/top_level.txt,sha256=_5827VkqIST9ZfpnBDc4fMxnHqHYrI-yDWAyG4---2g,9
+magtense-2.0.1.dist-info/RECORD,,
