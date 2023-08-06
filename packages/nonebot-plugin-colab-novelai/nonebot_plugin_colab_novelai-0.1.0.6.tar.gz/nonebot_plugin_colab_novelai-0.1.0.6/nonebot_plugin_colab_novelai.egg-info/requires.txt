@@ -1,0 +1,12 @@
+nonebot-adapter-onebot>=2.1.5
+nonebot2>=2.0.0b4
+asyncer>=0.0.2
+selenium>=4.6.0
+av>=10.0.0
+pyyaml>=6.0
+httpx>=0.23.0
+webdav4>=0.9.8
+webdriver-manager>=3.8.4
+selenium-stealth>=1.0.6
+nonebot-plugin-apscheduler>=0.1.4
+packaging>=21.3
