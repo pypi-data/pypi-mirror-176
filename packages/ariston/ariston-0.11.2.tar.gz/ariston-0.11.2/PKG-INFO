@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ariston
+Version: 0.11.2
+Summary: Ariston module
+Author-email: Tamás Füstös <fustom@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+# python-ariston-api
+A Python module for controlling Ariston devices with cloud polling.
+The following devices are currently supported:
+- Ariston Alteas One 24
+- Ariston Velis Evo
+- Ariston Lydos Hybrid
+- Ariston Genus One
+
