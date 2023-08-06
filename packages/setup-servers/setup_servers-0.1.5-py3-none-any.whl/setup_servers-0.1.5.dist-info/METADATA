@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: setup-servers
+Version: 0.1.5
+Author: Shahim Essaid
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: click
+Requires-Dist: filelock
+Requires-Dist: pyyaml
+Requires-Dist: docker
+Requires-Dist: pydevd-pycharm (~=222.4345.23)
+Provides-Extra: build
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: pycharm
+Requires-Dist: pydevd-pycharm (~=222.4345.23) ; extra == 'pycharm'
+
