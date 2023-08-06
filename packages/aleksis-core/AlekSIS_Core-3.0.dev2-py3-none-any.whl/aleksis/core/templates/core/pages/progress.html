@@ -1,0 +1,10 @@
+{% extends "core/vue_base.html" %}
+{% load i18n static %}
+
+{% block browser_title %}
+  {% trans "Progress" %}
+{% endblock %}
+
+{% block content %}
+  <router-view></router-view>
+{% endblock %}

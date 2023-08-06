@@ -1,0 +1,11 @@
+{# -*- engine:django -*- #}
+{% extends "core/vue_base.html" %}
+{% load i18n %}
+
+
+{% block browser_title %}{% blocktrans %}About AlekSIS®{% endblocktrans %}{% endblock %}
+{% block page_title %}{% blocktrans %}AlekSIS® – The Free School Information System{% endblocktrans %}{% endblock %}
+
+{% block content %}
+  <router-view></router-view>
+{% endblock %}

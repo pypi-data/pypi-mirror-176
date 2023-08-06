@@ -1,0 +1,78 @@
+{
+  "en": {
+    "notifications": {
+      "more_information": "More information",
+      "no_notifications": "No notifications available yet."
+    },
+    "alerts": {
+      "page_cached": "This page may contain outdated information since there is no internet connection."
+    },
+    "celery_progress": {
+      "progress_title": "Loading ...",
+      "error_message": "The operation couldn't be finished successfully.",
+      "success_message": "The operation has been finished successfully.",
+      "running_tasks": "1 running task | {number} running tasks"
+    },
+    "actions": {
+      "back": "Back",
+      "search": "Search"
+    },
+    "about": {
+      "about_aleksis": "About AlekSIS®",
+      "licenced_under": "Licenced under",
+      "licence_type": "Licence Type",
+      "free_software": "Free Software",
+      "open_source": "Open Source",
+      "proprietary": "Proprietary",
+      "licence_consists_of": "The licence consists of",
+      "about_aleksis_1": "This platform is powered by AlekSIS®, a web-based school information system (SIS) which can be used to manage and/or publish organisational artifacts of educational institutions. AlekSIS is free software and can be used by anyone.",
+      "about_aleksis_2": "AlekSIS® is a registered trademark of the AlekSIS open source project, represented by Teckids e.V.",
+      "website_of_aleksis": "Website of AlekSIS",
+      "source_code": "Source Code",
+      "licence_information": "Licence Information",
+      "licence_information_1": "The core and the official apps of AlekSIS are licenced under the EUPL, version 1.2 or later. For licence information from third-party apps, if installed, refer to the respective components below. The licences are marked like this:",
+      "free_open_source_licence": "Free/Open Source Licence",
+      "other_licence": "Other Licence",
+      "full_licence_text": "Full Licence Text",
+      "more_information_eupl": "More information about the EUPL"
+    }
+  },
+  "de": {
+    "notifications": {
+      "more_information": "Mehr Informationen",
+      "no_notifications": "Keine Benachrichtigungen verfügbar."
+    },
+    "alerts": {
+      "page_cached": "Diese Seite enthält vielleicht veraltete Informationen, da es keine Internetverbindung gibt."
+    },
+    "celery_progress": {
+      "progress_title": "Wird geladen ...",
+      "error_message": "Der Vorgang konnte nicht erfolgreich beendet werden.",
+      "success_message": "Der Vorgang wurde erfolgreich beendet.",
+      "running_tasks": "1 laufende Aufgabe | {number} laufende Aufgaben"
+    },
+    "actions": {
+      "back": "Zurück",
+      "search": "Suchen"
+    },
+    "about": {
+      "about_aleksis": "Über AlekSIS®",
+      "licenced_under": "Lizensiert unter",
+      "licence_type": "Lizenztyp",
+      "free_software": "Freie Software",
+      "open_source": "Open Source",
+      "proprietary": "Proprietär",
+      "licence_consists_of": "Die Lizenz besteht aus",
+      "about_aleksis_1": "Diese Plattform wird mit AlekSIS®, einem webbasierten Schulinformationssystem (SIS), welches für die Verwaltung und/oder Veröffentlichung von Bildungseinrichtungen verwendet werden kann. AlekSIS ist freie Software und kann von jedem benutzt werden.",
+      "about_aleksis_2": " AlekSIS® ist eine eingetragene Wortmarke des Open-Source-Projektes AlekSIS, vertreten durch den Teckids e.V.",
+      "website_of_aleksis": "Website von AlekSIS",
+      "source_code": "Quellcode",
+      "licence_information": "Lizenzinformationen",
+      "licence_information_1": " Der Core und die offiziellen Apps von AlekSIS sind unter der EUPL, Version 1.2 oder später, lizenziert. Für Lizenzinformationen zu Apps von Drittanbietern, wenn installiert, siehe direkt bei der jeweiligen App weiter unten auf dieser Seite. Die Lizenzen sind wie folgt markiert:",
+      "free_open_source_licence": "Freie/Open Source Lizenz",
+      "other_licence": "Andere Lizenz",
+      "full_licence_text": "Kompletter Lizenztext",
+      "more_information_eupl": "Weitere Informationen über die EUPL"
+    }
+  }
+}
