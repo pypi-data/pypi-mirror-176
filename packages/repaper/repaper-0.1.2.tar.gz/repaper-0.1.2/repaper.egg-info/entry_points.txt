@@ -1,0 +1,3 @@
+[console_scripts]
+repaper = repaper.cli:main
+
