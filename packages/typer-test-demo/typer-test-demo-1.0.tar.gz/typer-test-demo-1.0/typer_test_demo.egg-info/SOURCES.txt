@@ -1,0 +1,9 @@
+README.md
+setup.py
+cli/main.py
+typer_test_demo.egg-info/PKG-INFO
+typer_test_demo.egg-info/SOURCES.txt
+typer_test_demo.egg-info/dependency_links.txt
+typer_test_demo.egg-info/entry_points.txt
+typer_test_demo.egg-info/requires.txt
+typer_test_demo.egg-info/top_level.txt
