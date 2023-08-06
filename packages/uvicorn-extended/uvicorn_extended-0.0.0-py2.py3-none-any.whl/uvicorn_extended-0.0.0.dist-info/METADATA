@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: uvicorn-extended
+Version: 0.0.0
+Summary: Uvicorn with batteries! :battery:
+Author-email: Marcelo Trylesinski <marcelotryle@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown
+
+# Uvicorn Worker
