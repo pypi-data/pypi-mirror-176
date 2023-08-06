@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lzlzhn
+Version: 2022.11.16.1823.3
+Summary: 一个很会玩的第三方库,更新版本号与更新/修复个数有关
+Home-page: http://zlteam.top
+Author: 梦醒孤漠吃饺子
+Author-email: liuniandexiaohuo@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: pyperclip
+Requires-Dist: PyAutoGUI
+Requires-Dist: pygame
+Requires-Dist: qrcode
+Requires-Dist: MyQR
+Requires-Dist: PyQt5
+Requires-Dist: PyQt5-stubs
+
+HELLO! 感谢你下载我的第三方库！十分感谢！官网：http://zlteam.top 注册登录后点击lzlzhn第三方库按钮即可
+
+
