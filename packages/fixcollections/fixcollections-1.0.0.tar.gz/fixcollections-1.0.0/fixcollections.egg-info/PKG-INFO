@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fixcollections
+Version: 1.0.0
+Summary: Compatibility fix for collections.abc api break made in Python 3.10
+Home-page: https://github.com/vivainio/fix-py-collections
+Author: Ville M. Vainio
+Author-email: ville.vainio@basware.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

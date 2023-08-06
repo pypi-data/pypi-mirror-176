@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+fixcollections.py
+setup.py
+fixcollections.egg-info/PKG-INFO
+fixcollections.egg-info/SOURCES.txt
+fixcollections.egg-info/dependency_links.txt
+fixcollections.egg-info/top_level.txt
