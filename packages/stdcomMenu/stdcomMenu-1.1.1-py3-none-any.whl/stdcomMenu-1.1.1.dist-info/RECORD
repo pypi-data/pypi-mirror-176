@@ -1,0 +1,13 @@
+bin/stecMenu.py,sha256=y-C6TV5BdaAfsYRhAT9tLPj9jjpKF50tBCLFFtHsF30,310
+bin/stecMenuBuilder.py,sha256=a8x73lRlQYQzciyo7kWm7BGkV2NT1e0lTLJfnxeV4dM,532
+stdcomMenu/__init__.py,sha256=pWbDHe15jSiPBzsGQVLBW8-o5Cn3pNZgLJSD_trLC0o,367
+stdcomMenu/builder.py,sha256=N6vtaNrQvudCaWAPsMjB6O6pqNhwu-iW3nKII0cXeYg,4917
+stdcomMenu/config.py,sha256=44VIpFIO0jkpkdXElS3heUbVZ4iI7RZzs28DjjpJnx8,2620
+stdcomMenu/menu.py,sha256=pJTp5oLQyTNDRuECbslUb_81EDZffFbbZHRubqquSaY,3807
+stdcomMenu/stdcOperator.py,sha256=a0rsdcdZuBzFL42lbgMjW8dtyiTNwic45tAJl34Dng4,2284
+stdcomMenu/stdmenu.py,sha256=MkqvKdZS0cZ0wn9bqZ0msqSqT12AViw6DvhQoixosB4,9811
+stdcomMenu-1.1.1.dist-info/LICENSE.txt,sha256=PZ0x_S7D80QdtuZImVTgvpmwdxjHZkVAugNUFYK8YWI,1069
+stdcomMenu-1.1.1.dist-info/METADATA,sha256=f795CXCqoHaeAmSSwDhrTZkHJj1W2Zh5I3aVMLrVlh4,818
+stdcomMenu-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stdcomMenu-1.1.1.dist-info/top_level.txt,sha256=7-ah5ICWTzOLMCY6OwhKRsX4jKrYAMaq7QfSRDC2cLU,15
+stdcomMenu-1.1.1.dist-info/RECORD,,
