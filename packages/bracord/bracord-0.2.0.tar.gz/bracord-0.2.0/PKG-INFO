@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bracord
+Version: 0.2.0
+Summary: A Disnake framework written in Python that speeds the development of Discord bots.
+Home-page: https://github.com/mrfellox/bracord
+License: MIT
+Keywords: discord,disnake,framework
+Author: MrFellox
+Author-email: jfernandohernandez28@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: disnake (>=2.7.0,<3.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Project-URL: Documentation, https://github.com/mrfellox/bracord
+Project-URL: Repository, https://github.com/mrfellox/bracord
+Description-Content-Type: text/markdown
+
+# Bracord
+A [Disnake](https://github.com/DisnakeDev/Disnake) framework written in Python that speeds the development of Discord bots.
