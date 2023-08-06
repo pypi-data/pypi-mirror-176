@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: cryptochaos
+Version: 1.0.0
+Summary: Simple encryption/decryption algorithms based on chaotic maps.
+Home-page: https://github.com/Eggie-Wu/CryptoChaos
+Author: Eggie Wu
+Author-email: qihan.wu@mail.mcgill.ca
+Project-URL: Bug Reports, https://github.com/Eggie-Wu/CryptoChaos/issues
+Project-URL: Source, https://github.com/Eggie-Wu/CryptoChaos
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# CryptoChaos
+Simple encryption/decryption algorithms based on chaotic maps.
+
+Try
+```
+pip install cryptochaos
+```
+Then, import by
+```
+from cryptochaos import logistic
+```
+To encrypt, try
+```
+encrypted_text = logistic.logistic_encrypt(plain_text, r)
+```
+where plain_text is some string, and r is a float such that 3.6 < r < 4.0.
+
+To decrypt, try
+```
+decrypted_text = logistic.logistic_decrypt(encrypted_text, r)
+```
