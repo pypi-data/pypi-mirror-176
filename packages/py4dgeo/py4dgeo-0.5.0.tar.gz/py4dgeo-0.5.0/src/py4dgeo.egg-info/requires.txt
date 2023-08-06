@@ -1,0 +1,7 @@
+dateparser
+laspy[lazrs]<3.0,>=2.0
+matplotlib
+numpy
+requests
+seaborn
+xdg
