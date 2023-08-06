@@ -1,0 +1,15 @@
+anicli_api/__init__.py,sha256=A_6hmLk3cb6Z7haECuVVrxhUGrjyHDbIDr5p0g1Tyo0,78
+anicli_api/__version__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+anicli_api/_http.py,sha256=WDlZ3QkpaFLiHddeKI5ET7IhPTRg_jKU-YM9LKZO208,2186
+anicli_api/decoders.py,sha256=eN_ZXhWGbvQj6LJF7Nr7C7tRjtdRszR4YlZ9S-DzHnM,10373
+anicli_api/exceptions.py,sha256=FWeI3wuvrwc8kRKk37lsJwxsD1tCEfnIkW0jtoXcwsw,84
+anicli_api/extractors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anicli_api/extractors/__template__.py,sha256=kVZ4ZoLDAeutUUuMWktgLjDJEnY-hHRYvr1DrN71F-I,2110
+anicli_api/extractors/animego.py,sha256=vv4EuC8dM91ZCus-NqVyX8xeOmMcoKAluDQz0S6CUfU,11265
+anicli_api/extractors/base.py,sha256=uoCZU_zRanKOtED0Cd7JmgNUzP-1DxxAcoZNJSWOvM4,10335
+anicli_api/loader.py,sha256=zqJSgQ170myBy0zPEvYT7dsLRK88J5dGsbfaroUebLw,3300
+anicli_api/random_useragent.py,sha256=gJehzKx4QsPQJc02SsQTqRu874r9jLU-fnn5Urx9QTQ,2371
+anicli_api/re_models.py,sha256=qtt5Yc3cPA0-PiTR4gjjEFfnAb26ulX_mmGDBvs1ZxY,6679
+anicli_api-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+anicli_api-0.1.0.dist-info/METADATA,sha256=9ANw7IQMU5Q49RUtQayd_00_Z96xpwqnc2EevLzQsdU,3574
+anicli_api-0.1.0.dist-info/RECORD,,
