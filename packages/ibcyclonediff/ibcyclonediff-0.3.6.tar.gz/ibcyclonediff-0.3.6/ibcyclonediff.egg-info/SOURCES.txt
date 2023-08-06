@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+ibcyclonediff/__init__.py
+ibcyclonediff/cli.py
+ibcyclonediff/cyclonedx_parser.py
+ibcyclonediff/output.py
+ibcyclonediff/spdx_parser.py
+ibcyclonediff/version.py
+ibcyclonediff.egg-info/PKG-INFO
+ibcyclonediff.egg-info/SOURCES.txt
+ibcyclonediff.egg-info/dependency_links.txt
+ibcyclonediff.egg-info/entry_points.txt
+ibcyclonediff.egg-info/requires.txt
+ibcyclonediff.egg-info/top_level.txt
