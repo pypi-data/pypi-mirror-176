@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dm_nevis
+Version: 1.0.1
+Summary: A benchmark for continual learning.
+Home-page: https://github.com/deepmind/dm_nevis
+Author: DeepMind Large-Scale Continual Learning (LSCL) Team
+Author-email: nevis@deepmind.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+See official DeepMind repository [dm_nevis](https://github.com/deepmind/dm_nevis).
