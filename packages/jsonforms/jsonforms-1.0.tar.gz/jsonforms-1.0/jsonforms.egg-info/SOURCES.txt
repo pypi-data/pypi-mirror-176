@@ -1,0 +1,8 @@
+setup.py
+jsonforms/__init__.py
+jsonforms/main.py
+jsonforms.egg-info/PKG-INFO
+jsonforms.egg-info/SOURCES.txt
+jsonforms.egg-info/dependency_links.txt
+jsonforms.egg-info/not-zip-safe
+jsonforms.egg-info/top_level.txt
