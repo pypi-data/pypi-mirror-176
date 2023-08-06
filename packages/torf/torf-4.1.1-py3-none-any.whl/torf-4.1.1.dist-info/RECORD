@@ -1,0 +1,13 @@
+torf/__init__.py,sha256=jTeeU-KvpbFrnrceE2YMU4o_40ac3eFpoOAKM6n2JAw,891
+torf/_errors.py,sha256=XnjMrupmpcKMzvth0rhIRGpq5DI_MQ-H--m6WGtjzYk,9830
+torf/_generate.py,sha256=IiVs4LX7NhcfNO2dHspAQueAEZJQPkRT7Rux1JUMMBs,17476
+torf/_magnet.py,sha256=geguyHBoa6szpuUV7WaACapVB-NChK_b_t0sXHK5Dv0,13957
+torf/_reuse.py,sha256=I5zvcpp4smabTQr41vyAT8tJT2c-Od2XijhlT68caLU,7132
+torf/_stream.py,sha256=G-fs4WEGrvKi4IojsepZlDnG6SCPtUg8JljIvJ8MO1E,28607
+torf/_torrent.py,sha256=qhSWymgzl8dd3b2I7tLUFQMf2n7lzgC5jvj_CwkWKig,67025
+torf/_utils.py,sha256=pRCRMbizLaWAIMqy98Yj98fraVgw7JHJBnnqmcqv3Qg,26007
+torf-4.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+torf-4.1.1.dist-info/METADATA,sha256=pX2v_qU5SOVwHVv8LA8poPMQ-pRr-r8lhVrzx7PHfg0,3039
+torf-4.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+torf-4.1.1.dist-info/top_level.txt,sha256=Lv8Jd9ianx3c0oXtSDnOuRWXGTPHyDfw4MmAWR4p-AU,5
+torf-4.1.1.dist-info/RECORD,,
