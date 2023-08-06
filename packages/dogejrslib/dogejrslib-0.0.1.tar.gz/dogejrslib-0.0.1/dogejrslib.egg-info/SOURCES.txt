@@ -1,0 +1,8 @@
+README.md
+setup.py
+dogejrslib/__init__.py
+dogejrslib/dogejrsfuncs.py
+dogejrslib.egg-info/PKG-INFO
+dogejrslib.egg-info/SOURCES.txt
+dogejrslib.egg-info/dependency_links.txt
+dogejrslib.egg-info/top_level.txt
