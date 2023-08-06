@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytest_ogsm_plugin
+Version: 1.1
+Summary: pytest终端输出中的. F，以✔、×代替
+Home-page: https://github.com/cw010/pytest_ogsm_plugin
+Author: cw
+Author-email: cwalk.t@gmail.com
+License: proprietary
+Keywords: pytest,py.test,pytest_ogsm_plugin
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.9
+
+pytest终端输出中的. F，以✔、×代替
+
