@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chainqueue
+Version: 0.2.4
+Summary: Generic blockchain transaction queue control
+Home-page: https://git.defalslfy.org/chainqueue,git
+Author: Louis Holbrook
+Author-email: dev@holbrook.no
+License: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Keywords: dlt,cryptocurrency,ethereum
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Provides-Extra: postgres
+Provides-Extra: sqlite
+License-File: LICENSE
