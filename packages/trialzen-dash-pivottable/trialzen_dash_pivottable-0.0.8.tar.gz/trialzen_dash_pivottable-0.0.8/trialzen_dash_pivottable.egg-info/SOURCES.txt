@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+trialzen_dash_pivottable/PivotTable.py
+trialzen_dash_pivottable/_imports_.py
+trialzen_dash_pivottable/metadata.json
+trialzen_dash_pivottable/package.json
+trialzen_dash_pivottable/trialzen_dash_pivottable.dev.js
+trialzen_dash_pivottable/trialzen_dash_pivottable.min.js
+trialzen_dash_pivottable.egg-info/PKG-INFO
+trialzen_dash_pivottable.egg-info/SOURCES.txt
+trialzen_dash_pivottable.egg-info/dependency_links.txt
+trialzen_dash_pivottable.egg-info/requires.txt
+trialzen_dash_pivottable.egg-info/top_level.txt
