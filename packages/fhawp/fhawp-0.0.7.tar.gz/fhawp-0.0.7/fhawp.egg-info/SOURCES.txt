@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+fhawp.egg-info/PKG-INFO
+fhawp.egg-info/SOURCES.txt
+fhawp.egg-info/dependency_links.txt
+fhawp.egg-info/top_level.txt
