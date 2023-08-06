@@ -1,0 +1,1 @@
+def exponer(a, b): return (a ** b)
