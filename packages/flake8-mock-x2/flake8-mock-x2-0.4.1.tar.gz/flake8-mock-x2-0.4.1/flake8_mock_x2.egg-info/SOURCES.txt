@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+flake8_mock.py
+setup.cfg
+setup.py
+flake8_mock_x2.egg-info/PKG-INFO
+flake8_mock_x2.egg-info/SOURCES.txt
+flake8_mock_x2.egg-info/dependency_links.txt
+flake8_mock_x2.egg-info/entry_points.txt
+flake8_mock_x2.egg-info/not-zip-safe
+flake8_mock_x2.egg-info/requires.txt
+flake8_mock_x2.egg-info/top_level.txt
