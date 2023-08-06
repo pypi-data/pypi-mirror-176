@@ -1,0 +1,3 @@
+[console_scripts]
+cosmotile=cosmotile.__main__:main
+
