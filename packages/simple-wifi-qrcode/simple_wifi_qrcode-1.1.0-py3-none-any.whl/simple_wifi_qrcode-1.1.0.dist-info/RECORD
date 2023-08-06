@@ -1,0 +1,10 @@
+simple_wifi_qrcode/__init__.py,sha256=jmv11lhYtreYxVdw60V31LQ-KjeCHs09NIMySodPT-w,92
+simple_wifi_qrcode/__main__.py,sha256=LjkLpgDB_AqIFtIXFGHBfjOhmQYNa9Mj5nZ7kSyFS2g,1521
+simple_wifi_qrcode/qrcode.py,sha256=5Y-pncwuHtf75JXq7fDVDTk0r14afJJeoSb9KnrvxDI,1147
+simple_wifi_qrcode/wifi.py,sha256=eBk6Rp_dJJmS0aQ3DxJGzz0GIF1mzTWESAVTOnmGJEY,730
+simple_wifi_qrcode-1.1.0.dist-info/LICENSE,sha256=M8RSnJJvClrbbCQXonIQ9WKz7VaeNWNzgZ9GW61vmyw,1097
+simple_wifi_qrcode-1.1.0.dist-info/METADATA,sha256=5b0m5bmxvUrRuXbZUWhaq0xQKSouU8BtRmPm8h-B-dg,3107
+simple_wifi_qrcode-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+simple_wifi_qrcode-1.1.0.dist-info/entry_points.txt,sha256=l7brG7OkKCIFCVFK-bg-PGdDDbmUtMdFTUe9qzgaUMU,72
+simple_wifi_qrcode-1.1.0.dist-info/top_level.txt,sha256=kaFffO4APYneNLtX4CE4p5JacTmHBdJGb8Cz42LQCMw,19
+simple_wifi_qrcode-1.1.0.dist-info/RECORD,,
