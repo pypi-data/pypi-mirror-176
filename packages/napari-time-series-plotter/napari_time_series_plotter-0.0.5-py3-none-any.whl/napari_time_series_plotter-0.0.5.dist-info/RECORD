@@ -1,0 +1,16 @@
+napari_time_series_plotter/__init__.py,sha256=g96aqD0LIa1Gm6jOLMHWcd9vFbitmN1U66uVMVa9_mc,71
+napari_time_series_plotter/_version.py,sha256=EivbSCh5ex60JlECLbZ0YLuk2H7SdgNi_RS5L5QARmM,176
+napari_time_series_plotter/dock_widget.py,sha256=oKKDySXLpXpFErvzoZE-QTs7otkWGJ0p_xUjxe0Kz38,2810
+napari_time_series_plotter/napari.yaml,sha256=u6SR325cJdYBR-sFSvdXwOufEL5ZIEOfvBpw--CSGBA,337
+napari_time_series_plotter/utils.py,sha256=LIhbKXzBGsipqclhvUa8XgSyYWyuCrDDmTETw_Dv4yw,5759
+napari_time_series_plotter/widgets.py,sha256=_ZX1IS45VWIoGjY___f57cCSqaGOhiTJj3bcpzCXB0Y,20274
+napari_time_series_plotter/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_time_series_plotter/_tests/test_dock_widget.py,sha256=dy_yLNMejjhwxx1_StfI2b4JjBqXZxWYAyUTpiDKIv8,1947
+napari_time_series_plotter/_tests/test_utils.py,sha256=rsfb409WSE5LyiRXWNi5y6vd2e0dlwO7OTDtOGSloBo,6064
+napari_time_series_plotter/_tests/test_widgets.py,sha256=1lJhZDuBPtfinT8whrzLvg8XD7aWshbQ1xCFd5XpVZc,12185
+napari_time_series_plotter-0.0.5.dist-info/LICENSE,sha256=hwEbdrkudY3eCGSnhJZTTbCZ13YJh9q5-NmZgsnzLkQ,1510
+napari_time_series_plotter-0.0.5.dist-info/METADATA,sha256=8_jdSoceVx1uv48oDSqLmAA-2QpAcHQNjAaTPBUVZ6k,7966
+napari_time_series_plotter-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napari_time_series_plotter-0.0.5.dist-info/entry_points.txt,sha256=E_ayfTHuliIXT4oUVEUtE_L8qW0JbKR-Nzkogk8HObw,86
+napari_time_series_plotter-0.0.5.dist-info/top_level.txt,sha256=jurVygGFNFRUtSV0lsLm8uHWfpIDCfnmgEqLC0wGxEs,27
+napari_time_series_plotter-0.0.5.dist-info/RECORD,,
