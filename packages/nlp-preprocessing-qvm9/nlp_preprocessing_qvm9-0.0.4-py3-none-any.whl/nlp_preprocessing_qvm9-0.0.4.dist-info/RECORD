@@ -1,0 +1,14 @@
+text/__init__.py,sha256=p16Xw-8A8NafaW0Yfir2XKV05eftwVDtoDJcogZDFsM,104
+text/__main__.py,sha256=yiirrSlXZASwkmT39OV8LozT54vSgAbAoH3oFyLnJQo,237
+text/accent_typing_formatter.py,sha256=F0EQnyU3hOD6ReiXQt30zeOLMe925MAZcS39xRIXYp0,5644
+text/const.py,sha256=vxddPRz7bm9kxy7EMv8wGIiFrloq0qBphXAtgnIovCs,2312
+text/extract_human.py,sha256=z1ic-cJxe-pRJoXqLJFaH9Am1cRQYzbHLympduebB64,1775
+text/preprocess.py,sha256=mAjKOxE2LMEiMyLm5EDBtUMaPSd0SiiKx37Ngzx_3_M,11819
+text/unicode_converter.py,sha256=vo-Pr1ckVKmyPXKz2mcqjU4gQR6qhTcS9nhDtJPOnfA,2373
+text/utils.py,sha256=mGsHJIBqkfjKjvR-vCvQ_fqLjN0LeRBRh28ss1y7MKg,1536
+nlp_preprocessing_qvm9-0.0.4.dist-info/LICENSE,sha256=LXCzJ5v4r_hlQhAx-5p-VpRR8FEBEDmbyl1Sw5mj4e0,1120
+nlp_preprocessing_qvm9-0.0.4.dist-info/METADATA,sha256=kgMUiDF9Fni-v8v1pnFDYPcTQI-xT8ihPc5PepjEuCc,2103
+nlp_preprocessing_qvm9-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nlp_preprocessing_qvm9-0.0.4.dist-info/entry_points.txt,sha256=KPyk2AfMaYRxu3EP-46T6kGw79OajtcnlUek7f4_ufw,50
+nlp_preprocessing_qvm9-0.0.4.dist-info/top_level.txt,sha256=ueaOG-o-WxnKay-YtzpUtz2q-qJQSEkC4JmC4HoS5zM,5
+nlp_preprocessing_qvm9-0.0.4.dist-info/RECORD,,
