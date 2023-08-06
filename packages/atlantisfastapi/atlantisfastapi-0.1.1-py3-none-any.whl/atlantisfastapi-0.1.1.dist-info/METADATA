@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: atlantisfastapi
+Version: 0.1.1
+Summary: atlantisfastapi
+Author-email: Atlantis Labs <r00tail@protonmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: coderfastapi (~=0.3)
+
+# Atlantis Labs - FastAPI
