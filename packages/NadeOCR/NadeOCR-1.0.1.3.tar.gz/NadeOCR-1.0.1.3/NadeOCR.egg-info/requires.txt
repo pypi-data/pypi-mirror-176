@@ -1,0 +1,7 @@
+google-cloud-vision
+manga_ocr
+pynput
+pyperclip
+PyQt5
+PySide6
+screeninfo

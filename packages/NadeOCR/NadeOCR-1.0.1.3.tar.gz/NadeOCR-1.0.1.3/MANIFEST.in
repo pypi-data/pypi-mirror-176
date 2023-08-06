@@ -1,0 +1,3 @@
+include nadeocr/settings/config.ini
+include nadeocr/resources/assets/icon_loading.ico
+include nadeocr/resources/assets/icon.ico
