@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: digital-eval
+Version: 1.2.0
+Summary: Evaluate Mass Digitalization Data
+Author: Universitäts- und Landesbibliothek Sachsen-Anhalt
+Author-email: development@bibliothek.uni-halle.de
+Maintainer: Uwe Hartwig
+Maintainer-email: uwe.hartwig@bibliothek.uni-halle.de
+Project-URL: Homepage, https://github.com/ulb-sachsen-anhalt/digital-eval
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
