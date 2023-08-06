@@ -1,0 +1,38 @@
+[tool.black]
+# https://www.python.org/dev/peps/pep-0008/#maximum-line-length
+line-length = 79
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 79
+
+[tool.pytest.ini_options]
+addopts = "--cov"
+
+[tool.bandit.assert_used]
+skips = ['**/*_test.py', '**/test_*.py']
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+  "import-error",
+]
+
+[tool.pylint."BASIC"]
+good-names-rgxs = "[_A-Za-z_][_A-Za-z0-9]?"
+# https://pylint.pycqa.org/en/latest/user_guide/configuration/all-options.html#good-names-rgxs
+# https://github.com/PyCQA/pylint/pull/3186
+# https://github.com/PyCQA/pylint/issues/3086
+# https://github.com/PyCQA/pylint/issues/2970
+# https://github.com/PyCQA/pylint/issues/2018
+# https://stackoverflow.com/a/66784120
+
+[tool.pyright]
+reportMissingImports = false
+reportMissingModuleSource = false
