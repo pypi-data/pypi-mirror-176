@@ -1,0 +1,31 @@
+version = "1.0.1"
+
+[build-system]
+requires = [ "setuptools>=61.0.0", "wheel", "requests",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "set_bottom"
+version = "1.0.1"
+description = "Write text to the bottom line of a TTY"
+readme = "README.md"
+classifiers = [ "License :: OSI Approved :: MIT License", "Programming Language :: Python", "Programming Language :: Python :: 3",]
+keywords = [ "set_bottom", "write_bottom", "bottombar", "loadingbar" ]
+dependencies = ["tomli; python_version < \"3.11\"",]
+requires-python = ">=3.6"
+
+[[project.authors]]
+name = "James Mattison"
+email = "james.mattison7@gmail.com"
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+dev = [ "black", "bumpver", "isort", "pip-tools", "pytest",]
+
+[project.urls]
+Homepage = "https://github.com/james-mattison"
+
+[project.scripts]
+bar = "bar.__main__:main"
