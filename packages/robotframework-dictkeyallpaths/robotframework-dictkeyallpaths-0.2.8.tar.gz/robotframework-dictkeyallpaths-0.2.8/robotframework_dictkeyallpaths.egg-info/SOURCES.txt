@@ -1,0 +1,10 @@
+LICENSE.txt
+README
+setup.cfg
+setup.py
+DictAllPaths/__init__.py
+DictAllPaths/getDictAllPaths.py
+robotframework_dictkeyallpaths.egg-info/PKG-INFO
+robotframework_dictkeyallpaths.egg-info/SOURCES.txt
+robotframework_dictkeyallpaths.egg-info/dependency_links.txt
+robotframework_dictkeyallpaths.egg-info/top_level.txt
