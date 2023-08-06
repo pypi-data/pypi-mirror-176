@@ -1,0 +1,3 @@
+recursive-include CompartmentPlus *
+recursive-inlcude tests * 
+include README.md
