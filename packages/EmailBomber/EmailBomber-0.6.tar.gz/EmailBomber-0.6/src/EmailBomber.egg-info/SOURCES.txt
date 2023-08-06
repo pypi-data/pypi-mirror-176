@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/EmailBomber/__init__.py
+src/EmailBomber.egg-info/PKG-INFO
+src/EmailBomber.egg-info/SOURCES.txt
+src/EmailBomber.egg-info/dependency_links.txt
+src/EmailBomber.egg-info/top_level.txt
+src/EmailBomber/example/__init__.py
+src/EmailBomber/example/email_sender.py
