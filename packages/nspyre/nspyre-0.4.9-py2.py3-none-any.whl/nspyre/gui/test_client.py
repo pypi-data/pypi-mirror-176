@@ -1,0 +1,7 @@
+from nspyre.inserv import InservGateway
+
+if __name__ == '__main__':
+    ig = InservGateway()
+    sg = ig.local1._devs['fake_tcpip_sg']
+    sg.offset = 1
+    print(sg.offset)
