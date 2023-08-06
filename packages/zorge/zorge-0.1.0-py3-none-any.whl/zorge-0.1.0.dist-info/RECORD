@@ -1,0 +1,9 @@
+zorge/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+zorge/contracts.py,sha256=YVpnobP6ZYQV6mIspJ_Pg4yipVUnWZ3OcXomByqO0Ss,3599
+zorge/di/__init__.py,sha256=OJQMxsMFpVAMtRsEF-re7PBt6EuTICWmRM3c_Li0Smg,84
+zorge/di/container.py,sha256=K9OdHFetBBCWKpxGBgK6jYR3a-OllcHphZNuL2xzCSw,5602
+zorge/di/generic.py,sha256=0nsTVISl2H54QReMemUJIQZh55vQUNs6BJj7g7ErVrQ,338
+zorge/di/provider.py,sha256=N6FPTnwZh9LdycD_fG3J581Brdy722la6hhbsIELZIk,3518
+zorge-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zorge-0.1.0.dist-info/METADATA,sha256=yVRwyQUO5QOA8QbFeNGDgy4xZJzaRUghWdvd-aAfnUo,232
+zorge-0.1.0.dist-info/RECORD,,
