@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lora-lang-splitter"
+version = "0.1.0"
+description = "A package to split a text with both Chinese and English. Returns two separate Chinese and English strings."
+authors = ["Adrian-Wong <adrian@asklora.ai>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lora_lang_splitter"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
