@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+auto_feature_engineering.egg-info/PKG-INFO
+auto_feature_engineering.egg-info/SOURCES.txt
+auto_feature_engineering.egg-info/dependency_links.txt
+auto_feature_engineering.egg-info/requires.txt
+auto_feature_engineering.egg-info/top_level.txt
+autofe/__init__.py
+autofe/autofe.py
+tests/demo.py
