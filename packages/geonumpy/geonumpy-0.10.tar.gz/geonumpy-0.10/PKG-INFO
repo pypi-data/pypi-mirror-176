@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: geonumpy
+Version: 0.10
+Summary: combine geo crs and mat with numpy array
+Home-page: http://imagepy.org/
+Author: YXDragon
+Author-email: yxdragon@imagepy.org
+License: BSD 3-Clause
+License-File: LICENSE
