@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: effluent
+Version: 1.0.3
+Summary: Pipe discharge model
+Author: Pål Næverlid Sævik
+Author-email: paal.naeverlid.saevik@hi.no
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: h5netcdf
+Requires-Dist: holoviews
+
