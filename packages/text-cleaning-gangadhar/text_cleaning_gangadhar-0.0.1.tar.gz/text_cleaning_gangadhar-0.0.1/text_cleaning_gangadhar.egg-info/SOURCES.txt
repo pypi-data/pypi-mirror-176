@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+text_cleaning_gangadhar/__init__.py
+text_cleaning_gangadhar/textclean.py
+text_cleaning_gangadhar/vocab.txt
+text_cleaning_gangadhar.egg-info/PKG-INFO
+text_cleaning_gangadhar.egg-info/SOURCES.txt
+text_cleaning_gangadhar.egg-info/dependency_links.txt
+text_cleaning_gangadhar.egg-info/requires.txt
+text_cleaning_gangadhar.egg-info/top_level.txt
