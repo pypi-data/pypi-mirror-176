@@ -1,0 +1,18 @@
+Change Log
+==========
+
+0.0.1 (2022-11-07)
+-------------------
+- Added the functionality to perform opetions of reading the csv and converting it to dat
+
+0.1.1 (2022-11-08)
+-------------------
+- [MINOR] Handled the columns error if no columns list is defined
+
+0.1.2 (2022-11-08)
+-------------------
+- [PATCH] Handled the columns error if no columns list is defined
+
+0.2.0 (2022-11-14)
+-------------------
+- Added new functionality to convert dat to csv

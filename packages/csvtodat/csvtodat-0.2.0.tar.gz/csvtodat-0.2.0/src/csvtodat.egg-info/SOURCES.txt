@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+src/__init__.py
+src/csvtodat.py
+src/csvtodat.egg-info/PKG-INFO
+src/csvtodat.egg-info/SOURCES.txt
+src/csvtodat.egg-info/dependency_links.txt
+src/csvtodat.egg-info/requires.txt
+src/csvtodat.egg-info/top_level.txt
