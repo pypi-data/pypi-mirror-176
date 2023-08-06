@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pestuary
+Version: 1.0.8
+License-File: LICENSE
+Requires-Dist: estuary-client
+Requires-Dist: requests
+Requires-Dist: instantcli
+
