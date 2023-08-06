@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: modelstar
+Version: 0.3.1
+Summary: DevOps for User Defined Functions and Stored Procedures in Data Warehouses
+Home-page: https://modelstar.io
+License: Apache-2.0
+Keywords: snowflake,forecast,UDF,Stored Procedure
+Author: Adithya Krishnan
+Author-email: krishsandeep@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: joblib (>=1.2.0,<2.0.0)
+Requires-Dist: jsonschema (>=4.16.0,<5.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: snowflake-connector-python (>=2.7.12,<3.0.0)
+Requires-Dist: tabulate (>=0.8.10,<0.9.0)
+Project-URL: Repository, https://github.com/modelstar-labs
+Description-Content-Type: text/markdown
+
+# Command line interface to work with modelstar
+
+## Installation
+
+```shell
+pip install mdoelstar
+```
+
+## Project initialization
+
+```shell
+modelstar init <project_name>
+``` 
+
+Creates a folder named as `<project_name>`. With a project template of the required files and folders. 
+
+## Add snowflake credentials
+
+Inside the project folder change the values in `modelstar.config.yaml` to the ones of your snowflake account information. 
+
+## Create a session and test the credectials with the configuration given in the modelstar.config.yaml
+
+```shell
+modelstar use <session_config_name>
+``` 
+
+## Register a forecasting function to your data warehouse
+
+```shell
+modelstar register forecast:univariate_time_series_forecast
+```
+
+## (Optional) Create a table to run this forecast function for.
+
+Modelstar provides some sample data that you can create a table out of in your data warehouse to test this procedure.
+
+```shell
+modelstar create table sample_data/sales.csv:SALES
+```
