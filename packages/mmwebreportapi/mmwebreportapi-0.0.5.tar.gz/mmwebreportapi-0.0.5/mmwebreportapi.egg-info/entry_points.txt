@@ -1,0 +1,2 @@
+[console_scripts]
+mm = mmwebreport.main.main:Main
