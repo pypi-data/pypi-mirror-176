@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0114,C0115,C0116,C0209,C0413
+
+
+__version__ = "105"
+
+
+"write your own commands"
+
+
+import sys
+
+
+from operbot.obj import Wd, cdir, update
+from operbot.hdl import Cfg, Command, Handler, command, parse, scan
+from operbot.utl import permission
+
+from operbot import cmds, irc, rss
+
+
+Wd.workdir = "/var/lib/operbot/"
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+def ver(event):
+    event.reply("OPERBOT %s" % __version__)
+
+
+def main():
+    cdir(Wd.workdir)
+    try:
+        permission(Wd.workdir, "operbot")
+    except PermissionError:
+        pass
+    Command.add(ver)
+    txt = ' '.join(sys.argv[1:])
+    cfg = parse(txt)
+    update(Cfg, cfg)
+    cli = CLI()
+    command(cli, cfg.otxt)
+
+
+main()
