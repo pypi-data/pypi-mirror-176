@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tobit_reg
+Version: 0.0.1
+Summary: Tobit (Censored) Regression
+Project-URL: Homepage, https://github.com/samitahlawat/tobit_reg
+Project-URL: Bug Tracker, https://github.com/samitahlawat/tobit_reg/issues
+Author-email: Samit Ahlawat <samit.ahlawat@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This package performs Tobit type 1 regression with support for censoring output at upper and lower bounds. 
+
+Support for Tobit type-2 and type-3 regressions will be added in subsequent releases.
