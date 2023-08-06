@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyOSCmd/Color.py
+PyOSCmd/PyOSCmd.py
+PyOSCmd/__init__.py
+PyOSCmd.egg-info/PKG-INFO
+PyOSCmd.egg-info/SOURCES.txt
+PyOSCmd.egg-info/dependency_links.txt
+PyOSCmd.egg-info/top_level.txt
