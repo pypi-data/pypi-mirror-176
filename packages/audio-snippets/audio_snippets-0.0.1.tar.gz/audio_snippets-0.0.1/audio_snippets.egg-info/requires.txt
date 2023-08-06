@@ -1,0 +1,8 @@
+pip
+packaging
+librosa
+plotly
+torch_snippets
+soundfile
+
+[dev]
