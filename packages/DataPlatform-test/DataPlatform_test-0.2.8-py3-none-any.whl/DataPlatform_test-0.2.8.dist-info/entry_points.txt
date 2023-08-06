@@ -1,0 +1,2 @@
+[console_scripts]
+test = DataPlatform_test.main:call_funcs

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: DataPlatform-test
+Version: 0.2.8
+Summary: DataPlatform package. Including crawl images by queries from search engine, download images and generate training tsv, etc.
+Author: aaa
+Author-email: aaa@gmail.com
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: fire
+
