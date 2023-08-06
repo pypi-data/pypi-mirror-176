@@ -1,0 +1,23 @@
+repos:
+- repo: https://github.com/pycqa/flake8
+  rev: 5.0.4
+  hooks:
+    - id: flake8
+      additional_dependencies: ["flake8-bugbear==22.10.27"]
+- repo: https://github.com/pycqa/bandit
+  rev: 1.7.4
+  hooks:
+    - id: bandit
+      additional_dependencies: ["bandit[toml]"]
+      args: ["-c", "pyproject.toml"]
+- repo: https://github.com/ambv/black
+  rev: 22.10.0
+  hooks:
+    - id: black
+- repo: https://github.com/kynan/nbstripout
+  rev: 0.6.0
+  hooks:
+    - id: nbstripout
+      types: ["jupyter"]
+      args: ["--drop-empty-cells",
+             "--extra-keys 'metadata.language_info.version cell.metadata.jp-MarkdownHeadingCollapsed cell.metadata.pycharm'"]
