@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pancho"
+version = "0.1.0"
+description = "Commands processor"
+authors = ["smairon <man@smairon.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+zorge = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
