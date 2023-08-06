@@ -1,0 +1,3 @@
+[console_scripts]
+f5mkupy=f5mkupy.cli:cli
+
