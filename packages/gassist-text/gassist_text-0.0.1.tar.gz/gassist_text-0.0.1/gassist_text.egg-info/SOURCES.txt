@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gassist_text/__init__.py
+gassist_text/assistant_helpers.py
+gassist_text/browser_helpers.py
+gassist_text/textinput.py
+gassist_text.egg-info/PKG-INFO
+gassist_text.egg-info/SOURCES.txt
+gassist_text.egg-info/dependency_links.txt
+gassist_text.egg-info/top_level.txt
