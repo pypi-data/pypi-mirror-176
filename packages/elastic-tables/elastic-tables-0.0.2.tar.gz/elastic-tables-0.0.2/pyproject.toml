@@ -1,0 +1,48 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+
+name = "elastic-tables"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file="LICENSE"}
+authors = [{name = "Martin Herrmann", email = "martin@famherrmann.de"}]
+keywords = ["table", "tab", "tabstop", "text", "formatting", "alignment"]
+dependencies = ["typer"]
+dynamic = ["version", "description"]
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Filters",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Source = "https://github.com/deffi/elastic-tables"
+
+[project.scripts]
+elastic-tables = "elastic_tables.cli.cli:main"
+
+[tool.flit.module]
+name = "elastic_tables"
+
+[tool.flit.sdist]
+exclude = [".github", ".idea"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
