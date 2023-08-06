@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/Keep41834.egg-info/PKG-INFO
+src/Keep41834.egg-info/SOURCES.txt
+src/Keep41834.egg-info/dependency_links.txt
+src/Keep41834.egg-info/not-zip-safe
+src/Keep41834.egg-info/top_level.txt
+src/locate_path_tmorales/__init__.py
+src/locate_path_tmorales/locator.py
+src/tests/__init__.py
