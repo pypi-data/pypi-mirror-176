@@ -1,0 +1,16 @@
+pyutils/__init__.py,sha256=xKR5-qehNN4K4O_bCn2i1oHJYyAQgAKFKuOr0X49NEw,69
+pyutils/autoupgrade.py,sha256=aJrUQVhEpZqX22_QIk0828K0O0xOsJrtSPEB4-NCQYw,4622
+pyutils/executor.py,sha256=R-MCkxoEnSFzbV3hSoz4Cacru_HT-gTgR3nkgJf3RFo,16974
+pyutils/fsext.py,sha256=9QBWnLQt_Z5ZnZGCRMIvR-BgaeOTfq8zhtJTU_3T_aU,8397
+pyutils/shorthand.py,sha256=DVfzEmlNrcaeSiIH0Gm6xlzzUbnuOppI4wmbPTsEdaM,658
+pyutils/simplelogger.py,sha256=hrcBYzvs-2mY6QiB7NToHW-IA5eNCH4_Lt6_rDtZcXk,1878
+pyutils/templite.py,sha256=XWyavGoqtG3MpqfQ1oNpSAlFWHBIGSxavtmWgEn4jTo,5375
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_autoupgrade.py,sha256=dmG7zr0nLe0Q7qQBnh0BazVeeL1aXKgfHQLILtw1-Sw,1426
+tests/test_executor.py,sha256=nTdxSBSdwif3x3xIF0y79EIpYb9WkgKr6LustLsRTXo,2626
+tests/test_fsext.py,sha256=XTHyPW7OEPGpaze3GSaE9kAbVz1Eb6TswIKRFyS1dhk,2837
+pyutils_basstal-0.2.9.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+pyutils_basstal-0.2.9.dist-info/METADATA,sha256=DuOcoIJJllIp_i_2sJN8f-SxKq8mjidV6c-ViZJuYp4,1549
+pyutils_basstal-0.2.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyutils_basstal-0.2.9.dist-info/top_level.txt,sha256=hk93_XCswnKMQcxpWOMcpDGll8LyJZj7mxLma9jiIWw,14
+pyutils_basstal-0.2.9.dist-info/RECORD,,
