@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dbtq
+Version: 0.0.1
+Summary: Query compiled dbt models locally
+Author: Ethan Brown
+Author-email: ethan.w.brown@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: psycopg2[binary]
+Requires-Dist: rich
+Requires-Dist: rich-tools
+Requires-Dist: sqlalchemy
+Requires-Dist: typer[all]
+
+# dbtq
+
+Query compiled dbt models locally
+
+## Installation
+
+```
+pip install dbtq
+```
+
+## Usage
+
+```
+dbtq query path/to/my/file.sql
+```
