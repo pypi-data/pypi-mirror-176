@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: parangonar
+Version: 0.0.4
+Summary: Symbolic music alignment
+Home-page: https://github.com/sildater/parangonar
+Author: Silvan Peter
+License: Apache 2.0
+Keywords: match alignment midi performance score
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: partitura (>=1.1.0)
+Requires-Dist: python-hiddenmarkov
+
+
+# parangonar
+
+a python library for note alignment of symbolic music.

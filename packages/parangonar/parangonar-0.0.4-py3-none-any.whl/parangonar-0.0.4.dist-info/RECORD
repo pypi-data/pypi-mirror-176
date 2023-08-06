@@ -1,0 +1,11 @@
+parangonar/__init__.py,sha256=cIKxI7h_wST9_BelDXLSB5otTlhEvBrExjIW2PPCktg,216
+parangonar/evaluate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parangonar/match/__init__.py,sha256=sKxKll-wFCoSRu240sllrMg6F35fk9c_98VBdMCoMhs,499
+parangonar/match/dtw.py,sha256=62K_m_XhMTm36G3msHWeOxGY8x7tyulFHCBuHwShbVc,4742
+parangonar/match/matchers.py,sha256=oT-OT_2vmvT8KxpFQNkDrlcEn-56bOa7h53qycMb3S0,101
+parangonar/match/preprocessors.py,sha256=RnCPCJZOIN1XD3rwqFh_hR45t21B7YJoEPxRWvyASEk,9619
+parangonar-0.0.4.dist-info/LICENSE,sha256=UPhl6YESfmx5710pD0wkFQbnCKQB9jZeEO8_OkXaXv0,11630
+parangonar-0.0.4.dist-info/METADATA,sha256=N2kibXCTeRHg42U49L_j1ctYVmOHSKASG9ONz_VtrBQ,587
+parangonar-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parangonar-0.0.4.dist-info/top_level.txt,sha256=d8j1ODuAoMKAY83V6u5uXhyhQ9JiLdzRGnoUvZoY9kQ,11
+parangonar-0.0.4.dist-info/RECORD,,
