@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/watchlistinator.egg-info/PKG-INFO
+src/watchlistinator.egg-info/SOURCES.txt
+src/watchlistinator.egg-info/dependency_links.txt
+src/watchlistinator.egg-info/top_level.txt
