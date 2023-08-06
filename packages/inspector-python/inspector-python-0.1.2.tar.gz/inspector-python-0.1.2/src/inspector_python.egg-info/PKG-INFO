@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: inspector-python
+Version: 0.1.2
+Summary: Connect your Python application to Inspector
+Home-page: https://inspector.dev/
+Author: Antonio Bruno
+Author-email: antoniobruno82@gmail.com
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: tests
+License-File: LICENSE
+
+UNKNOWN
+
