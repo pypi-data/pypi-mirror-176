@@ -1,0 +1,15 @@
+mesa
+pandas
+networkx
+numpy
+cartopy
+
+[all]
+twine
+tox
+sphinx
+
+[dev]
+twine
+tox
+sphinx
