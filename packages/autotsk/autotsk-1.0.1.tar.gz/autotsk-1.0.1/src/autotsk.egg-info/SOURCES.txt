@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+src/autotsk/Controller.py
+src/autotsk/__init__.py
+src/autotsk/__main__.py
+src/autotsk.egg-info/PKG-INFO
+src/autotsk.egg-info/SOURCES.txt
+src/autotsk.egg-info/dependency_links.txt
+src/autotsk.egg-info/entry_points.txt
+src/autotsk.egg-info/top_level.txt
