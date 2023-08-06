@@ -1,0 +1,1639 @@
+[
+  {
+    "testMeta": {
+      "title": "${title}",
+      "id": "1"
+    },
+    "payload":{
+      "name": "${name}",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-唯一识别码 → 等于 → ${uuid}",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "uuid",
+                            "parameter": {
+                              "operator": "equal",
+                              "value": "${uuid}"
+                            },
+                            "property_type": "String",
+                            "constraint": {
+
+                            },
+                            "to_string": "唯一识别码 → 等于 → ${uuid}",
+                            "description": {
+                              "property": "唯一识别码",
+                              "value": "等于 → ${uuid}",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "website",
+                "inputValue": "${website}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-文本包含",
+      "id": "2",
+      "dataMeta": "employeeNumber->10000",
+      "assertMeta": "$.employeeNumber->10000"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-文本包含",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-唯一识别码 → 包含 → BMW",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "uuid",
+                            "parameter": {
+                              "operator": "contains",
+                              "value": "BMW"
+                            },
+                            "property_type": "String",
+                            "constraint": {
+
+                            },
+                            "to_string": "唯一识别码 → 包含 → BMW",
+                            "description": {
+                              "property": "唯一识别码",
+                              "value": "包含 → BMW",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "employeeNumber",
+                "operator": "equal",
+                "inputValue": "${employeeNumber}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-文本不为空",
+      "id": "3",
+      "dataMeta": "homeAddress->浙江湖州",
+      "assertMeta": "$.homeAddress->浙江湖州"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-文本不为空",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-唯一识别码 → 不为空",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "uuid",
+                            "parameter": {
+                              "operator": "not_empty",
+                              "value": "",
+                              "dateFrom": "",
+                              "dateTo": "",
+                              "dateType": ""
+                            },
+                            "property_type": "String",
+                            "constraint": {
+
+                            },
+                            "to_string": "唯一识别码 → 不为空",
+                            "description": {
+                              "property": "唯一识别码",
+                              "value": "不为空",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "homeAddress",
+                "inputValue": "${homeAddress}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-数字等于",
+      "id": "4",
+      "dataMeta": "company->上海科技有限公司",
+      "assertMeta": "$.company->上海科技有限公司"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-数字等于",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-定价 → 等于 → ${price}",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "price",
+                            "parameter": {
+                              "operator": "equal",
+                              "value": "${price}"
+                            },
+                            "property_type": "Decimal",
+                            "constraint": {
+
+                            },
+                            "to_string": "定价 → 等于 → ${price}",
+                            "description": {
+                              "property": "定价",
+                              "value": "等于 → ${price}",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "company",
+                "inputValue": "${company}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-数字大于",
+      "id": "5",
+      "dataMeta": "qq->12345678",
+      "assertMeta": "$.qq->12345678"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-数字大于",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-定价 → 大于 → 1000",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "price",
+                            "parameter": {
+                              "operator": "greater_than",
+                              "value": 1000
+                            },
+                            "property_type": "Decimal",
+                            "constraint": {
+
+                            },
+                            "to_string": "定价 → 大于 → 1000",
+                            "description": {
+                              "property": "定价",
+                              "value": "大于 → 1000",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "qq",
+                "inputValue": "${qq}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-数字小于",
+      "id": "6",
+      "dataMeta": "country->中国",
+      "assertMeta": "$.country->中国"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-数字小于",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-定价 → 小于 → 500000",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "price",
+                            "parameter": {
+                              "operator": "less_than",
+                              "value": 500000
+                            },
+                            "property_type": "Decimal",
+                            "constraint": {
+
+                            },
+                            "to_string": "定价 → 小于 → 500000",
+                            "description": {
+                              "property": "定价",
+                              "value": "小于 → 500000",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "country",
+                "inputValue": "${country}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-数字区间",
+      "id": "7",
+      "dataMeta": "officeAddress->上海徐家汇",
+      "assertMeta": "$.officeAddress->上海徐家汇"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-数字区间",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-定价 → 区间 → 300000 - 500000",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "price",
+                            "parameter": {
+                              "operator": "between",
+                              "value": 300000,
+                              "value2": 500000
+                            },
+                            "property_type": "Decimal",
+                            "constraint": {
+
+                            },
+                            "to_string": "定价 → 区间 → 300000 - 500000",
+                            "description": {
+                              "property": "定价",
+                              "value": "区间 → 300000 - 500000",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "officeAddress",
+                "inputValue": "${officeAddress}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-数字不为空",
+      "id": "8",
+      "dataMeta": "employeeNumber->10000",
+      "assertMeta": "$.employeeNumber->10000"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-数字不为空",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-定价 → 不为空",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "price",
+                            "parameter": {
+                              "operator": "not_empty",
+                              "value": "",
+                              "dateFrom": "",
+                              "dateTo": "",
+                              "dateType": ""
+                            },
+                            "property_type": "Decimal",
+                            "constraint": {
+
+                            },
+                            "to_string": "定价 → 不为空",
+                            "description": {
+                              "property": "定价",
+                              "value": "不为空",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "company",
+                "inputValue": "${company}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  },
+  {
+    "testMeta": {
+      "title": "在用商品-属性判断:系统属性-日期时间等于本年",
+      "id": "9",
+      "dataMeta": "industry->建筑业",
+      "assertMeta": "$.industry->建筑业"
+    },
+    "payload":{
+      "name": "在用商品-属性判断:系统属性-日期时间等于本年",
+      "status": "draft",
+      "definition": {
+        "setting": {
+          "includeHistoricalMembers": true,
+          "Restartable": false,
+          "listThrottle": 400
+        },
+        "startCriteria": {
+          "id": 0,
+          "filters": {
+            "logicalOperator": "and",
+            "subFilters": [
+              {
+                "logicalOperator": "and",
+                "conditions": [
+                  {
+                    "category": "goods.list",
+                    "parameter": {
+                      "operator": "in",
+                      "differentList": true,
+                      "value": "${staticGroupId}"
+                    },
+                    "property": "in",
+                    "description": {
+                      "property": "在用商品群组",
+                      "value": "${staticGroupName}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "subject": "product",
+          "isTemplate": false
+        },
+        "triggerType": "EnrollFromList",
+        "steps": [
+          {
+            "id": "1",
+            "name": "开始\n已选在用商品群组: ${staticGroupName}",
+            "nextSteps": [
+              {
+                "nextStep": "3"
+              }
+            ],
+            "stepType": "delay",
+            "stepTimeout": 1
+          },
+          {
+            "id": "3",
+            "name": "属性判断\n在用商品属性-交易时间 → 等于 → 本年",
+            "nextSteps": [
+              {
+                "nextStep": "6",
+                "label": "是",
+                "criteria": {
+                  "id": 0,
+                  "filters": {
+                    "version": 2,
+                    "logicalOperator": "and",
+                    "subFilters": [
+                      {
+                        "logicalOperator": "and",
+                        "conditions": [
+                          {
+                            "category": "goods.prop",
+                            "property": "dateDeal",
+                            "parameter": {
+                              "operator": "equal",
+                              "dateFrom": "0-year",
+                              "dateTo": "any",
+                              "dateType": "dynamic"
+                            },
+                            "property_type": "DateTime",
+                            "constraint": {
+
+                            },
+                            "to_string": "交易时间 → 等于 → 本年",
+                            "description": {
+                              "property": "交易时间",
+                              "value": "等于 → 本年",
+                              "constraint": {
+                                "descStr": "",
+                                "descArr": [
+
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "complex",
+                  "subject": "product"
+                }
+              },
+              {
+                "nextStep": "9",
+                "isDefault": true,
+                "label": "否"
+              }
+            ],
+            "stepType": "branch",
+            "nodeType": "conditionNode",
+            "isTemplate": false
+          },
+          {
+            "id": "6",
+            "name": "客户属性\n",
+            "nextSteps": [
+              {
+                "nextStep": "8"
+              }
+            ],
+            "stepType": "action",
+            "nodeType": "attributeNode",
+            "isTemplate": false,
+            "action": {
+              "actionType": "modify_property",
+              "actionBody": {
+                "property": "industry",
+                "inputValue": "${industry}"
+              }
+            }
+          },
+          {
+            "id": "8",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          },
+          {
+            "id": "9",
+            "name": "结束",
+            "nextSteps": [
+
+            ],
+            "stepType": "done",
+            "nodeType": "endNode",
+            "success": true
+          }
+        ],
+        "startStep": "3",
+        "positions": {
+          "1": {
+            "top": 30,
+            "left": 427.5
+          },
+          "3": {
+            "top": 142.5,
+            "left": 427.5
+          },
+          "6": {
+            "top": 255,
+            "left": 354.375
+          },
+          "8": {
+            "top": 367.5,
+            "left": 354.375
+          },
+          "9": {
+            "top": 255,
+            "left": 500.625
+          }
+        }
+      },
+      "editorVersion": "2.0"
+    }
+  }
+]
