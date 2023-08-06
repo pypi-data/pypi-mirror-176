@@ -1,0 +1,11 @@
+
+[dev]
+pylocked[test]
+mypy~=0.990
+ipython~=8.6
+build
+
+[test]
+pytest~=7.2
+pytest-asyncio~=0.20
+black~=22.10

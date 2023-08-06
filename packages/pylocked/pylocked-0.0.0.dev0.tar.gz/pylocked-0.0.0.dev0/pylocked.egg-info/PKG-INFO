@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pylocked
+Version: 0.0.0.dev0
+Summary: pyLocked provides utility classes to `[R]Lock` resources.
+Author-email: Eyal Halpern Shalev <eyalsh@gmail.com>
+Requires-Python: >=3.10
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
