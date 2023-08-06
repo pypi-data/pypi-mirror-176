@@ -1,0 +1,14 @@
+matplotlib
+numpy
+scipy
+pandas
+fsspec
+pyyaml
+requests
+aiohttp
+intake
+intake-xarray==0.6.1
+pydantic
+exifread
+distinctipy
+ipython
