@@ -1,0 +1,7 @@
+blinker
+Jinja2
+Markdown
+markdown-full-yaml-metadata
+MarkupSafe
+PyYAML
+slug
