@@ -1,0 +1,9 @@
+lazy_module/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+lazy_module/_modidx.py,sha256=ve5t0MDQwQnyVZrs11viYV2EIb1PDKuVMYUjA1oClkY,1520
+lazy_module/core.py,sha256=hXQ3h9SeuZ6WVVG1K0TuVZ_zU1LinM_YlMJGXptPYr4,1120
+lazy_module-0.0.3.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+lazy_module-0.0.3.dist-info/METADATA,sha256=-xdXMGS7x0QHn71Cb6DizBYjn-1AY3JH_fx0nE19ctY,1654
+lazy_module-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lazy_module-0.0.3.dist-info/entry_points.txt,sha256=DXG_4z3XNVIO1kEauoapeurhpjZt_GXsbehpyWoNS5M,65
+lazy_module-0.0.3.dist-info/top_level.txt,sha256=COg8e8SCTsfK_uLGEoxp-gqZCOHtX29CXITEADKUurw,12
+lazy_module-0.0.3.dist-info/RECORD,,
