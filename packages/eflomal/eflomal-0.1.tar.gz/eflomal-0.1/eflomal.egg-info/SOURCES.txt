@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+align.py
+eflomal
+makepriors.py
+mergefiles.py
+pyproject.toml
+setup.py
+eflomal.egg-info/PKG-INFO
+eflomal.egg-info/SOURCES.txt
+eflomal.egg-info/dependency_links.txt
+eflomal.egg-info/requires.txt
+eflomal.egg-info/top_level.txt
+python/eflomal/eflomal.c
+python/eflomal/eflomal.pyx
