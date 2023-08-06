@@ -1,0 +1,10 @@
+napari_owncloud/__init__.py,sha256=aPUE52gMsyYDP7M0Bj2xuFKY4lEWuIZAJBIjp2xNeS0,102
+napari_owncloud/_dock_widget.py,sha256=nRzJOO9xP_RWyISiL4wJBRGH3L_MuMH8rsFcBg_VDn0,9712
+napari_owncloud/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_owncloud/_tests/test_dock_widget.py,sha256=ZHYuykwEKa2HyjZY59s_k7FdTgETqwIChAYicmZVdQo,700
+napari_owncloud-0.1.0.dist-info/LICENSE,sha256=WsxT5HMBaQEsfI0oymP9qsgwzxIjx-2yhtMgKL9JfCY,1520
+napari_owncloud-0.1.0.dist-info/METADATA,sha256=wGCOoe20EtnNAzYPOu90A4MW0HsqH_5x46xqjvqWUa4,4732
+napari_owncloud-0.1.0.dist-info/WHEEL,sha256=tIy8_2ZxPExwRKcXlg4jzESby3jB9aLsFLrFCKKh88M,92
+napari_owncloud-0.1.0.dist-info/entry_points.txt,sha256=eZGilboglN6cPz9WEcascl1nZ-QsOT29JrxgYVDLNj8,50
+napari_owncloud-0.1.0.dist-info/top_level.txt,sha256=3b5x1SjkZsiD8Wmi3Mu3xYttAWE7klWeRStHDvOc9Vc,16
+napari_owncloud-0.1.0.dist-info/RECORD,,
