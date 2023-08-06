@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+Jestspectation.egg-info/PKG-INFO
+Jestspectation.egg-info/SOURCES.txt
+Jestspectation.egg-info/dependency_links.txt
+Jestspectation.egg-info/top_level.txt
+jestspectation/__any.py
+jestspectation/__containers.py
+jestspectation/__float_approx.py
+jestspectation/__init__.py
+jestspectation/__jestspectation_base.py
+jestspectation/__str_match.py
+jestspectation/py.typed

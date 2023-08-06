@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Jestspectation
+Version: 0.2.0
+Summary: Pattern matching helper classes designed to be similar to Jest expect matchers, but modified to suit a Pythonic style of programming.
+Home-page: https://github.com/MiguelGuthridge/FL-Studio-Api-Stubs
+Author: Miguel Guthridge
+Author-email: hdsq@outlook.com.au
+Project-URL: Online Documentation, https://github.com/MiguelGuthridge/Jestspectation
+Project-URL: Bug Tracker, https://github.com/MiguelGuthridge/Jestspectation/issues
+Keywords: jest,pattern,matching,pytest
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Requires-Python: >=3.9.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jestspectation
+
+Pattern matching helper classes designed to be similar to Jest's expect
+matchers, but modified to suit a Pythonic style of programming.
+
+## Basic Usage
+
+```py
+import jestspectation as expect
+assert {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+} == {
+    "a": 1,
+    "b": expect.Any(int),
+    "c": expect.FloatApprox(2.5, magnitude=0.5)
+}
+```
+
+## Installation
+
+```sh
+pip install jestspectation
+```
