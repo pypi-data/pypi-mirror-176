@@ -1,0 +1,6 @@
+tensorflow
+pandas
+importlib_resources
+gensim
+SimpleITK
+matplotlib
