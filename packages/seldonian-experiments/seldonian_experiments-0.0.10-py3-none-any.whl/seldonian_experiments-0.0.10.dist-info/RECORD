@@ -1,0 +1,13 @@
+experiments/__init__.py,sha256=JS-n5JTLkeUrW4kWpJD6_JrG20My-yyQK9A7HT_GqZc,80
+experiments/experiments.py,sha256=1lbkwrssrcG7KtyrC_H4V2rPl6CWXYzbt9zjbYDup-4,34389
+experiments/generate_plots.py,sha256=swjix-MI9SxEJjhwoN_GzGk1Hc906SEprFf6XY4KPsQ,26025
+experiments/utils.py,sha256=-LIWW5tkY3oNidt08ygmb2Jt5oVrzmTDDsXJ2BpcgXA,3520
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=EHeuDtRwr20mVKH6v1TmiYlb888-AWcFk4Qb-g2r6Jg,2941
+tests/test_experiments.py,sha256=nWLLpEj9iSv3HBqag-VQR2kOWtMUfHztwL9jB7wx5s0,496
+tests/test_generate_plots.py,sha256=YoASBBihcrgxbOWv7nhYqABwFzdU6vakmFKQC-U3JI0,3618
+seldonian_experiments-0.0.10.dist-info/LICENSE,sha256=R1HA7hL_wIcHCe5SkGHubl0m82GTPrXpqDqwRfIqwaE,1527
+seldonian_experiments-0.0.10.dist-info/METADATA,sha256=RXv_l569Ok49Rq-UQifgdmYq3FM49N9pudpVw0q4Hd0,989
+seldonian_experiments-0.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+seldonian_experiments-0.0.10.dist-info/top_level.txt,sha256=jO4UF6biDY3GCOGeJ1IM9mwQKbmgvPC46qElNy4dotk,12
+seldonian_experiments-0.0.10.dist-info/RECORD,,
