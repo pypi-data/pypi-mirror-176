@@ -1,0 +1,6 @@
+numpy
+photutils
+astropy
+pebble
+tqdm
+scipy

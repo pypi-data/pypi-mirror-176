@@ -1,0 +1,143 @@
+# Using Broadreduce
+
+To operate Broadreduce on a set of files, you will need to have an input file with the following format:
+
+```
+filename1  arc
+filename2  flat
+filename3  sci
+filename4  sci
+```
+
+You can have an arbitarily large number of arc, flat, and science files (though only a few arcs and flats are recommended), and the number of science files can be as high as you want. Make sure to keep things consistent though; calibration frames should all be from the same night as the science frames.
+
+```
+import broadreduce
+
+br = broadreduce.BroadReduce(input_file, params=params)
+br.pipe()
+```
+
+## Params
+
+The BroadReduce pipeline needs a lot of tweakable parameters to properly process a set of spectra using the broad slit. Below, all of the parameters are described, and defaults are given (tuned for Keck LRIS spectroscopy)
+
+```
+"VERBOSE": True, 
+    Whether or not to print outputs during the run
+
+"DETECTOR": 2,
+    Which detector to process on (LRIS files have 4 hdus). 
+
+"X_OVERSCAN": np.array([546, 575]),
+    The overscan region to pull bias values from for bias 
+    subtraction
+
+"TEMP_DIR": "tempdir_DF44/",
+    The directory to place outputs and temperary files
+
+"PLOTTING_DIR": "tempdir_DF44/pngs/",
+    The directory to place plots
+
+"SOLAR_SPEC_FN": "../bass2000spec.ascii",
+    The filename for the solar spectrum template for 
+    wavelength solution fitting
+
+"X_GUESSES": np.array([125, 212, 300, 415, 540, 1680, 1750]) / 2,
+    Guesses for emission lines in the arc lamp frame
+    (physical x-position: check your binning!)
+    In this case binning was 2, hence the division
+
+"WAVELENGTHS": [3256, 3302.75, 3345.57, 3403.652, 3467.0, 4046.563, 4077.831],
+    The corresponding wavelengths for the arc frame emission
+    lines.
+
+"SKY_MOD_SMOOTHING": 2,
+    How much to smooth the sky models by when tweaking the
+    sky frame solutions.
+
+"PREBINNING": 2,
+    How much to bin the frames by in wavelength before 
+    running through the pipeline. Since the broad slit 
+    frames are so oversampled, it isn't harmful to bin
+    a little bit beforehand.
+
+(It is recommended to not change these unless you really
+know what you are doing)
+
+"INTERPTYPE": "cubic",
+    The interpolation type when determining the y-distortion
+    map.
+"DSUB": 0.2,
+    How fine to make the output by when generating the 
+    y-distortion map
+"SAMPLING": 2
+    How much to sample by when generating the y-distortion
+    map.
+
+
+The following are now parameters that allows the user to turn
+various components of the pipeline on or off. To run the 
+whole pipeline, set all of these to True
+
+If you want to keep the temporary files at the end,
+set DELETE_TEMPFILES to False
+
+"PROCESS_RAW": True, 
+"CLEAN_COSMIC_RAYS": True,
+"MAKE_MASTERS": True,
+"PREBIN_FRAMES": True,
+"FIND_SLITS": True,
+"GEN_YDIST": True,
+"GEN_SKYMODEL": True,
+"WAVELENGTH_SOLN": True,
+"SUBTRACT_SKY": True,
+"RECTIFY_FRAMES": True,
+"SUBTRACT_POLY": True,
+"FINAL_BIN": True,
+"DELETE_TEMPFILES": False,
+```
+
+## Common Issues
+___
+### My wavelength solutions look really bad!
+An common solution to this is apply some pre-binning. Double it and run the pipeline again, and that will probabily fix it.
+___
+### Everything fails right away!
+Did you check your values for the overscan region, as well as the values for your arc frames? The binning can completely throw those off and crash the pipeline.
+
+(Yes, the binning should probably be baked in and be read from the FITS header, but that's for future me (or someone else) to do.)
+___
+### My outputs look really bad!
+The most likely culprit here is that the slit finding algorithm is failing. Luckily, it is trivial for the user to find their own slits and apply them directly to the pipeline.
+
+BroadReduce has its own built-in script `slitfinder.py` that opens a GUI to find slits from a flat frame. It can then print out the slits in the exact format used by the pipeline, which can be implemented directly this way, where the `flat_slits` and `flat_slitprofiles` are arrays found and printed out directly by the script:
+
+```
+br = BroadReduce(input_file, params={...})
+br.params["FIND_SLITS"] = False
+
+br.flat_slits = [(267, 974), (496, 736)]
+br.flat_slitprofiles = [([0, 267.4], [0, 974.7]), 
+                        ([0, 496.2], [0, 736.6])]
+
+br.pipe()
+```
+
+## Finding Redshifts
+
+Now that the pipeline has run to conclusion, you will be given a lot of output diagnostic plots, and three output files. (Note that if you are running the code in a jupyter notebook, all of these things will still be accessible in the BroadReduce object.)
+
+```
+tempdir/DATA_PRODUCTS.fits
+tempdir/metadata.br
+tempdir/params.br
+```
+
+BroadReduce has a built-in redshift widget GUI to find the redshift of the Ca H+K lines. It can be run this way:
+
+```
+z_widget.py DATA_PRODUCTS PARAMS METADATA
+```
+
+Within the GUI the user can use sliders to shift the Ca H+K lines around to match their location within the output spectra. It will print redshift as well as radial velocity.
