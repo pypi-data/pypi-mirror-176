@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+LiveCaptionLinux/__init__.py
+LiveCaptionLinux/__main__.py
+LiveCaptionLinux/recognizeAudioStream.py
+LiveCaptionLinux.egg-info/PKG-INFO
+LiveCaptionLinux.egg-info/SOURCES.txt
+LiveCaptionLinux.egg-info/dependency_links.txt
+LiveCaptionLinux.egg-info/entry_points.txt
+LiveCaptionLinux.egg-info/requires.txt
+LiveCaptionLinux.egg-info/top_level.txt
+tests/test_init.py

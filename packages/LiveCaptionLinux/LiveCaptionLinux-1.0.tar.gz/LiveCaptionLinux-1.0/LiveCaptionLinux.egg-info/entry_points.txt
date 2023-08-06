@@ -1,0 +1,3 @@
+[console_scripts]
+LiveCaptionLinux = LiveCaptionLinux.__main__:init
+
