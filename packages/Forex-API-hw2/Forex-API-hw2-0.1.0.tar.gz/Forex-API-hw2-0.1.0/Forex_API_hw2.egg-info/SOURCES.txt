@@ -1,0 +1,9 @@
+README.md
+setup.py
+Forex_API_hw2.egg-info/PKG-INFO
+Forex_API_hw2.egg-info/SOURCES.txt
+Forex_API_hw2.egg-info/dependency_links.txt
+Forex_API_hw2.egg-info/requires.txt
+Forex_API_hw2.egg-info/top_level.txt
+hw1_forexAPI_library/__init__.py
+hw1_forexAPI_library/forex_api.py
