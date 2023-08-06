@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: text-cleaning-gangadhar
+Version: 0.0.1
+Summary: text cleaning
+Author: Gangadhara Reddy Velagala
+Author-email: <gv2310@columbia.edu>
+Keywords: python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: pandas
+Requires-Dist: wordninja
+Requires-Dist: en-core-web-lg
+
+text clean before feeding to a sequence to sequence model
