@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: uvicorn-trailers
+Version: 0.1.0
+Summary: ASGI Trailers extension for Uvicorn 🚂
+Author-email: Marcelo Trylesinski <marcelotryle@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Requires-Dist: asgi-types==0.1.0
+Requires-Dist: httptools>=0.5.0
+Requires-Dist: uvicorn>=0.19.0
+Description-Content-Type: text/markdown
+
+# Uvicorn Trailers
