@@ -1,0 +1,4 @@
+include a_cv2_split_images_into_equal_parts/requirements.txt
+include a_cv2_split_images_into_equal_parts/thirdparty.json
+include a_cv2_split_images_into_equal_parts/README.MD
+include a_cv2_split_images_into_equal_parts/LICENSE

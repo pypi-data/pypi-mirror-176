@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_cv2_split_images_into_equal_parts/LICENSE
+a_cv2_split_images_into_equal_parts/README.MD
+a_cv2_split_images_into_equal_parts/__init__.py
+a_cv2_split_images_into_equal_parts/requirements.txt
+a_cv2_split_images_into_equal_parts/thirdparty.json
+a_cv2_split_images_into_equal_parts.egg-info/PKG-INFO
+a_cv2_split_images_into_equal_parts.egg-info/SOURCES.txt
+a_cv2_split_images_into_equal_parts.egg-info/dependency_links.txt
+a_cv2_split_images_into_equal_parts.egg-info/requires.txt
+a_cv2_split_images_into_equal_parts.egg-info/top_level.txt
