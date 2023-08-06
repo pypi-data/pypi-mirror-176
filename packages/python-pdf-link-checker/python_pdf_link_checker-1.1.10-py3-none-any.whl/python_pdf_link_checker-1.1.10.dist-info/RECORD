@@ -1,0 +1,10 @@
+pdf_link_checker/__init__.py,sha256=qkAG52hzlIBI94vD4X9B9ZKfkjVWW-FSwhYGDWb_XM0,514
+pdf_link_checker/main.py,sha256=EfiqKZv82q4fKLSvMFQYVodsEFzS71I3N1qkFFKiJcM,5559
+pdf_link_checker/pdf_link_check.py,sha256=kLKiHAs4YhRd459EjpfQTE5kwaux73k9Dj3WU7ll9Cw,4584
+pdf_link_checker/record.py,sha256=X0H23LaPTZ7pxhpB4he1X3BA6-J40hVetXHJ7fTrE0k,457
+pdf_link_checker/utils.py,sha256=mzfhG2UxPb5q2AnK7fuIOeBWxyQqZnJgEcOPnTnMrbk,190
+python_pdf_link_checker-1.1.10.dist-info/entry_points.txt,sha256=6OYA7ATOGgPjKHj7UxnviiqWocdLTWt9Z00Sb1vgoFo,62
+python_pdf_link_checker-1.1.10.dist-info/LICENSE,sha256=b35VDu_TxctTaPZXjh96ML4Ihgy0e7hEjKuMOdr3Q7Y,2687
+python_pdf_link_checker-1.1.10.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+python_pdf_link_checker-1.1.10.dist-info/METADATA,sha256=u6-iMKnXuWo9GIFZALIoJB3lxleLCF0O2Cw8eOBYQow,3951
+python_pdf_link_checker-1.1.10.dist-info/RECORD,,
