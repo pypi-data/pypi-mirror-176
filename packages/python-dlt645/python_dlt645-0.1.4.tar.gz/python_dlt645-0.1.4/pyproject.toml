@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "python-dlt645"
+version = "0.1.4"
+description = "A basic DL/T645-2007 communication implementation"
+authors = ["Stefan 'hr' Berder <stefan@measureofquality.com>"]
+license = "MIT"
+readme = "README.rst"
+packages = [{include = "dlt645"}]
+homepage = "https://github.com/gams/python-dlt645"
+repository = "https://github.com/gams/python-dlt645"
+documentation = "https://python-dlt645.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyserial = {version = "^3.5", optional = true}
+
+[tool.poetry.extras]
+cli = ["pyserial"]
+
+[tool.poetry.scripts]
+dlt645_addr = { callable = "dlt645.cli:getaddr", extras = ["cli"] }
+dlt645_aen = { callable = "dlt645.cli:getaen", extras = ["cli"] }
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+pre-commit = "^2.20.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+sphinx = "^5.3.0"
+bumpr = "^0.3.8"
+
+[tool.black]
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+py_version = 39
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
