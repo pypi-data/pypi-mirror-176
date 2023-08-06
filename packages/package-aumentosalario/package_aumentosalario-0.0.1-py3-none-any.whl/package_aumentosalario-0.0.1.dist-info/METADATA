@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: package-aumentosalario
+Version: 0.0.1
+Summary: My short description
+Home-page: https://github.com/TarsilaNascMartins/desafio-simple-package-template
+Author: Tarsila Martins
+Author-email: tarsilawho@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# package_aumentosalario
+
+Description. 
+The package package_name is used to:
+	- 
+	-
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_aumentosalario
+
+```bash
+pip install package_aumentosalario
+```
+
+## Usage
+
+```python
+from package_aumentosalario import file1_name
+file1_name.my_function()
+```
+
+## Author
+Tarsila Martins
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
