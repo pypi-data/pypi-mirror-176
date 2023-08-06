@@ -1,0 +1,14 @@
+scicom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scicom/letters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scicom/letters/run.py,sha256=jBS8-B8Eqepbs_lvt1zlJamzqbKTAps0iKcgvOAyUTc,51
+scicom/letters/letters/SimpleContinuousModule.py,sha256=SR3swQ3Ev3g_jNl6iCzhAn-c-1tHzw1OhRLFurSAe3k,1194
+scicom/letters/letters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scicom/letters/letters/model.py,sha256=E2G5WXehWA0HbJ4OBLq1UHpyfsxTSQAvTh0wut5jAJ8,2726
+scicom/letters/letters/randomletter.py,sha256=WB0Jqmv-X07mwLFTDmkdsVG-J4HsgPHDlYcP2hYzupg,4830
+scicom/letters/letters/server.py,sha256=krTBA-_4RhDTt72RQJlytaes9UDI4-Ic2IybozeNtdA,3166
+scicom-0.0.2.dist-info/AUTHORS.rst,sha256=TMt3nga1F8Rnv2AzSpsKFW8-CaUGgJ7Q0TZSYnWxy-0,183
+scicom-0.0.2.dist-info/LICENSE.md,sha256=3jH3AP1wnbA2AgV1jydFOKOi3x-K5emBYamrVfMyVGc,1086
+scicom-0.0.2.dist-info/METADATA,sha256=ygZaIhjuUd1mH-rREvRRbbkCWv1pPKCAKFQydEs-TWk,2349
+scicom-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scicom-0.0.2.dist-info/top_level.txt,sha256=UtB7TQKcU-d7f5i1hToYPs2-Zs5Desie1qERq7GWC3E,7
+scicom-0.0.2.dist-info/RECORD,,
