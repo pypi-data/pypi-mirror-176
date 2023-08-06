@@ -1,0 +1,12 @@
+makeqr/__init__.py,sha256=sKP2Y3oViuKFLtd6UzUvlIFci0pinA5edG2TKqfLrFA,407
+makeqr/__main__.py,sha256=uLKBDKx4SwJrKbcCRsVXBotZXMne6DrKDCzQMAL_wPw,171
+makeqr/cli_app.py,sha256=B5WimmUHEx13KMTF_ovUJn9MgVQnLCWxDsXCidKvi1c,6026
+makeqr/constants.py,sha256=B516KqcGw9VKULnU1RoAy6iHQGWPzX3QEVuu5_FZNQE,824
+makeqr/makeqr.py,sha256=zrlq1XQ7C1VlTpptzn4zDPB_QTICtOdH-pSK0u-52CI,2139
+makeqr/models.py,sha256=9tm8ODhNEmnk4FZZiSNmhpUzJaOnDsXHiTxqUXqW_7A,5023
+makeqr/typing.py,sha256=CeWYIScbFtxrEZBp9u1k5h3bGNODYC2HaIX0DsLmzA8,184
+makeqr/utils.py,sha256=2vmMghv_NE8fu6HocRRwhmgWBN8DP-xgMg5vtHxss6U,1144
+makeqr-4.0.1.dist-info/entry_points.txt,sha256=ykjFRVCL8rxMUY8ki0Bhk3yn9NSFlaAhPvpzMNUDMio,47
+makeqr-4.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+makeqr-4.0.1.dist-info/METADATA,sha256=d7Sa1gYuAmv2HvGFWwaYYjMuIHxgQKiQT_j_S9UnCEk,1585
+makeqr-4.0.1.dist-info/RECORD,,
