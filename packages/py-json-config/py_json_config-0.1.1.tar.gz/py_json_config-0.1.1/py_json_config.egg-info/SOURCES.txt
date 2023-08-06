@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+py_json_config/__init__.py
+py_json_config.egg-info/PKG-INFO
+py_json_config.egg-info/SOURCES.txt
+py_json_config.egg-info/dependency_links.txt
+py_json_config.egg-info/not-zip-safe
+py_json_config.egg-info/top_level.txt
