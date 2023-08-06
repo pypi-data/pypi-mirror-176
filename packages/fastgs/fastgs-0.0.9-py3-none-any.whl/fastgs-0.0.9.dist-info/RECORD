@@ -1,0 +1,16 @@
+fastgs/__init__.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+fastgs/_modidx.py,sha256=ifSTPmaWngYEdNQHusyxXmCIOOpncAEnviDeBEZ4lds,8849
+fastgs/geospatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgs/geospatial/sentinel.py,sha256=QBeub3rR45TUOoXgALSyYc_sFb6qYE3w4o4HIFT5bTo,3787
+fastgs/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgs/vision/core.py,sha256=OKzupdtlc_IJO0O8oxiK0HLD_Qy826SDWBiyuo7Prts,2383
+fastgs/vision/data.py,sha256=-QffEAT92DbX756D-kadO4lK9Un6Ld90rIivuJpMP3Y,1869
+fastgs/vision/io.py,sha256=5c8bMwHmF4XRESST0Bm91AXglPCCa_HyEPpOoTBBwB4,982
+fastgs/vision/learner.py,sha256=NxzxnGzs4q8UBeiveLBfrwmeP1_IuJ4MgIn16X_ecnc,2532
+fastgs/vision/testio.py,sha256=v9UWMgq7d2XRyY2O3qygojhTT4J-7ua0R6sWQRud1VY,1867
+fastgs-0.0.9.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+fastgs-0.0.9.dist-info/METADATA,sha256=7HQTusor0s1znIykuF7UnYZbBxQmiZWY-qMOYc9Ha_8,3479
+fastgs-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastgs-0.0.9.dist-info/entry_points.txt,sha256=nNXGpEuGjdg9q_USH4KTYAyCfPlBWxDYeWgdqJZWps4,34
+fastgs-0.0.9.dist-info/top_level.txt,sha256=wJeozUxzUlJLm5zx1PXSMUZfN7TOIWnkjJtm3YfWHzo,7
+fastgs-0.0.9.dist-info/RECORD,,
