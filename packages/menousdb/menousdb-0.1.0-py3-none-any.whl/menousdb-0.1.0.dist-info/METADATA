@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: menousdb
+Version: 0.1.0
+Summary: An alternative implementation of No-SQL
+Author: Menous Technologies (Snehashish Laskar)
+Author-email: <admin@menoutech.com>
+Keywords: python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+# Menous DB
+
+## MenousDB Features:
+
+1. SQL version
+2. No SQL (JSON) Version
+3. Runs an API server on the Local Network which allows multiple devices accessibility i.e being suitable for servers
+4. Encryption of the data being stored locally
+5. Authentication while accessing the database
+6. Python Software Development Kit
+7. Web Client
+8. Command Line Interface Client
+9. Open Source Project
+
+
+## Installation
