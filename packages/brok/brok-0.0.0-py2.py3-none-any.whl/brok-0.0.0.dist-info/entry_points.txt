@@ -1,0 +1,2 @@
+[console_scripts]
+brok = brok.main:main
