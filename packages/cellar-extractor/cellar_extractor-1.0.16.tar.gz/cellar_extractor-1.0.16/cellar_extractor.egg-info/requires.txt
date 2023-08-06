@@ -1,0 +1,5 @@
+bs4
+SPARQLWrapper==2.0.0
+requests==2.26.0
+pandas
+lxml==4.6.3
