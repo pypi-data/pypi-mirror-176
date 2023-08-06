@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: injectool
+Version: 2.0.4
+Summary: Dependency injection tool
+Project-URL: Homepage, https://github.com/eumis/injectool
+Keywords: di,dependency,injection,ioc,inversion of control,inject
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# injectool
+
+[![Build Status](https://travis-ci.com/eumis/injectool.svg?branch=dev)](https://travis-ci.com/eumis/injectool)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/04a2ab0640b64f288fc89e80b6460c52)](https://www.codacy.com/gh/eumis/injectool/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eumis/injectool&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/04a2ab0640b64f288fc89e80b6460c52)](https://www.codacy.com/gh/eumis/injectool/dashboard?utm_source=github.com&utm_medium=referral&utm_content=eumis/injectool&utm_campaign=Badge_Coverage)
+[![image](https://img.shields.io/pypi/v/injectool.svg)](https://python.org/pypi/injectool)
+[![image](https://img.shields.io/pypi/pyversions/injectool.svg)](https://python.org/pypi/injectool)
+[![image](https://img.shields.io/pypi/l/injectool.svg)](https://python.org/pypi/injectool)
+[![Downloads](https://static.pepy.tech/personalized-badge/injectool?period=total&units=international_system&left_color=grey&right_color=orange&left_text=Downloads)](https://pepy.tech/project/injectool)
+
+Dependency injection tool
+
+## Installation
+
+Install using pip:
+
+`pip install injectool`
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2017-present, eumis (Eugen Misievich)
