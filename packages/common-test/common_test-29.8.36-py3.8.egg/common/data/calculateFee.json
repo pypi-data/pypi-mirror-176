@@ -1,0 +1,1 @@
+ {"appId": "tripdev", "content": "{\"badgeNumber\":\"202208190106\",\"extObject\":null,\"ffpNo\":\"633010771016\",\"grantStatus\":1,\"grantTime\":\"2022-08-19 16:42:00\",\"typeCode\":\"brave\",\"userId\":\"31951859\",\"userName\":\"cc\"}", "exchange": "ectrip-exchange-dev", "routingKey": "muBadgeGrant", "salesChannel": "6102", "sign": "bf82b76c6395430af07fb980577d5741"}
