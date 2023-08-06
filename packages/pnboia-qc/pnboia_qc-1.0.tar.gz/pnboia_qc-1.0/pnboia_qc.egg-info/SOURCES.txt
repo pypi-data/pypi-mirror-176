@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pnboia_qc/__init__.py
+pnboia_qc/pnboia_limits.py
+pnboia_qc/qc_checks.py
+pnboia_qc.egg-info/PKG-INFO
+pnboia_qc.egg-info/SOURCES.txt
+pnboia_qc.egg-info/dependency_links.txt
+pnboia_qc.egg-info/not-zip-safe
+pnboia_qc.egg-info/requires.txt
+pnboia_qc.egg-info/top_level.txt
+scripts/pnboia_qc-run
+tests/__init__.py
