@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: asgi-trailers
+Version: 0.1.0
+Summary: Streaming response with trailers support for ASGI! 🚀
+Author-email: Marcelo Trylesinski <marcelotryle@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ASGI Trailers
