@@ -1,0 +1,10 @@
+name: napari-cryofibsem-monitor
+schema_version: 0.1.0
+contributions:
+  commands:
+  - id: napari-cryofibsem-monitor.ExampleQWidget
+    title: Monitor
+    python_name: napari_cryofibsem_monitor._dock_widget:ExampleQWidget
+  widgets:
+  - command: napari-cryofibsem-monitor.ExampleQWidget
+    display_name: Monitor
