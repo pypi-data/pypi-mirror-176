@@ -1,0 +1,7 @@
+picocom
+python3-pip
+python3-venv
+socat
+tox
+vagrant
+virtualbox
