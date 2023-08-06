@@ -1,0 +1,2 @@
+[console_scripts]
+decode = decode.skeleton:main
