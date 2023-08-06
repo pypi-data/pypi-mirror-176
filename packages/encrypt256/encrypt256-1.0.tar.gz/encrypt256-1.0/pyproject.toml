@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "encrypt256"
+version = "1.0"
+description = "一个 字符串|字节串|文件 加密器"
+
+dependencies = ["pycryptodome"]
+keywords = []
+
+readme = "README.md"
+authors = [{name = "jutooy", email = "jutooy@qq.com"}]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = []
+
+[project.scripts]
+
+[project.urls]
