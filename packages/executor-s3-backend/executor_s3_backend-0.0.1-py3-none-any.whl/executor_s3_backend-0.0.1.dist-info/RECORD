@@ -1,0 +1,8 @@
+executor_s3_backend/__init__.py,sha256=ZQiHiBIe7XEUMcuCkfG6bb02xPg9d_auZ9M9A9hg0LA,2608
+executor_s3_backend/_config.py,sha256=PiwuoJosDKAbPoF1AdtPSAx0oa-j0rzGxZAZ4c3nas4,925
+executor_s3_backend/install.py,sha256=DNLT9RMWrI0mTNsKxNu6XMguzpBwhCgEw8mb4ynBnIo,1066
+executor_s3_backend/serve.py,sha256=aWIuTC6dUHQ4EcHVU78ZkWNDdRdSJ5yMGuC2_sM-ALQ,1653
+executor_s3_backend-0.0.1.dist-info/METADATA,sha256=SrcuWaSHJpmDwiIScd_i_9zlmkXVqELyw2jwlfgvruU,1024
+executor_s3_backend-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+executor_s3_backend-0.0.1.dist-info/top_level.txt,sha256=2eXgeboSAcHQNb2YrWYThI3clS58ZRtCSrLahZb98qQ,20
+executor_s3_backend-0.0.1.dist-info/RECORD,,
