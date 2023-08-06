@@ -1,0 +1,7 @@
+matplotlib
+nibabel
+numpy
+pandas
+pydicom
+python-gdcm
+pylibjpeg-libjpeg
