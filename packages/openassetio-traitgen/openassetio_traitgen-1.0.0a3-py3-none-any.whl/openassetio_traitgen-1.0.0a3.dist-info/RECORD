@@ -1,0 +1,17 @@
+openassetio_traitgen/__init__.py,sha256=GEINa7IetMIzxYJx7rPOXWuheRU-scgZdOFD01PdZOk,6892
+openassetio_traitgen/__main__.py,sha256=OaL6jIx1Gfl8hZab3ql4OwRjMSGjYUsXUtwMJU09eUA,5418
+openassetio_traitgen/datamodel.py,sha256=6TS--LpwU5hCJ6j35yJxrAqrbdfpQGKpdxBDiIS_VpI,5640
+openassetio_traitgen/parser.py,sha256=uKl3AYB8t6PshVR0tSOPo82q6sT3j0RsBmoK7nMvG-8,7601
+openassetio_traitgen/schema.json,sha256=GfOboWTPSH856pWWX_ZZHu_MD_CvdD-MdUkRnGkAizI,8935
+openassetio_traitgen/generators/__init__.py,sha256=f8BdEkJOLEspHKJO9dBgXsf0s6EkufTJ_04h-vU7Wno,2550
+openassetio_traitgen/generators/helpers.py,sha256=hXvKQ3aOjXJjUUA3I34izLTrW9zB7hxsjpglisj8j-4,2643
+openassetio_traitgen/generators/python.py,sha256=4KdYKTHbgtAJfMhcn_scTldHRwbLuPq2t9LJulJpUBI,9442
+openassetio_traitgen/templates/python/__init__.py.in,sha256=LleI8lHIVAPy5ZLTU0Jfaf1DN2miwOcsIS2_wCRLMlI,337
+openassetio_traitgen/templates/python/specifications.py.in,sha256=5OE5Cbin-c4Qh1btZ8lAuTs3_W2MA33N0vq8j7SAX1U,2033
+openassetio_traitgen/templates/python/traits.py.in,sha256=S5Z5bc5jtUMq_uD5DRRVnz4P3Q0RdAhxcMtEz9gJX08,2079
+openassetio_traitgen-1.0.0a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openassetio_traitgen-1.0.0a3.dist-info/METADATA,sha256=0d8PNTrn-LlfJr4SH61Bo1veEyHNKQdApyYbbGNR9xs,1979
+openassetio_traitgen-1.0.0a3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openassetio_traitgen-1.0.0a3.dist-info/entry_points.txt,sha256=RuJ1lsRXK60a40w8h8uaYlOGrAB5H_X5xqwBUHUXn3M,76
+openassetio_traitgen-1.0.0a3.dist-info/top_level.txt,sha256=LP_fPcpotVr6kf_reHoo3MVJ2RyLoh1Vs3y3gSHbvjE,21
+openassetio_traitgen-1.0.0a3.dist-info/RECORD,,
