@@ -1,0 +1,48 @@
+homeCase_homepageCreateCase:
+  url: /homeCase/homepageCreateCase
+  method: post
+  datatype: json
+  module: 全球通登录
+
+caseInfo_page:
+  url: /caseInfo/page
+  method: post
+  datatype: json
+  module: 订单详情
+
+check_order:
+  url: reschedule/check
+  method: get
+  datatype: params
+  module: 改升校验
+
+rescheduled:
+  url: shopping/rescheduled
+  method: post
+  datatype: json
+  module: 改升重新查询航班
+
+rescheduled_return:
+  url: shopping/rescheduled/return
+  method: post
+  datatype: json
+  module: 往返重新查询航班
+
+
+query_confirmInfo:
+  url: reschedule/queryConfirmInfo
+  method: post
+  datatype: json
+  module: 查询确认新航班信息
+
+reschedule_rebooking:
+  url: reschedule/rebooking
+  method: post
+  datatype: json
+  module: 修改订单
+
+create_getBagCaseInfo:
+  url: create/getBagCaseInfo/{compen_caseId}
+  method: get
+  datatype: json
+  module: 修改订单
