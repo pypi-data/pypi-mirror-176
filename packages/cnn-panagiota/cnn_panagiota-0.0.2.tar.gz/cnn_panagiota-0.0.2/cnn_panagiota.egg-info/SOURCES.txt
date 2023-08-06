@@ -1,0 +1,9 @@
+README.md
+setup.py
+cnn_panagiota/__init__.py
+cnn_panagiota/final_cnn.py
+cnn_panagiota.egg-info/PKG-INFO
+cnn_panagiota.egg-info/SOURCES.txt
+cnn_panagiota.egg-info/dependency_links.txt
+cnn_panagiota.egg-info/requires.txt
+cnn_panagiota.egg-info/top_level.txt
