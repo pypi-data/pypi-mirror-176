@@ -1,0 +1,11 @@
+rsksymplexmethod/__init__.py,sha256=7ZkNDCHzv2uRFNRmbbZGEN-OWxDNLUvy9IAvCtjKg2k,88
+rsksymplexmethod/dual.py,sha256=DvVgahjIThXW6z7MkJINGZKAASjhYYV3SUNHDN4-Pyw,3775
+rsksymplexmethod/initial.py,sha256=v6A074k_LE7Abf0xbOG-v7qsGiGtMrj30XzYuM5Eids,3895
+rsksymplexmethod/main.py,sha256=vB2tXe78RU4Y1Nrjr_9cbZ0WuM8J88ZYi_a20Ide900,4029
+rsksymplexmethod/symplex.py,sha256=gyLmb80YuCwV29-IinHmeg15OJGCzXO2OoZz2z2kBBc,2116
+rsksymplexmethod/utils.py,sha256=LacbQkLSlWapcmmVLGwZiwGxJwL7Tmei9NN8hTsdeUw,1255
+rsksymplexmethod-0.1.dist-info/LICENSE.txt,sha256=yqgsA5bEwHL8GikZVbwl1fzKJknJrXi47Gp9dTIz04k,1073
+rsksymplexmethod-0.1.dist-info/METADATA,sha256=2QzU_Xkv6golem9TRqg1d6dED_GVBf6YhjA_H75hwqU,866
+rsksymplexmethod-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rsksymplexmethod-0.1.dist-info/top_level.txt,sha256=tWOeeIOypB3-GZM3dsOdgFX4Qd_I3ASzDrzl7c9Tbso,17
+rsksymplexmethod-0.1.dist-info/RECORD,,
