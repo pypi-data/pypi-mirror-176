@@ -1,0 +1,11 @@
+include LICENSE
+include README.md
+exclude .flake8
+exclude tox.ini
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests *
+include *.yaml
+include .bumpversion.cfg
+recursive-include actions_test *.py
