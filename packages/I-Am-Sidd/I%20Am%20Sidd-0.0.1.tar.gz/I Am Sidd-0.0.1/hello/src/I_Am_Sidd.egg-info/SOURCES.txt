@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hello/src/I_Am_Sidd.egg-info/PKG-INFO
+hello/src/I_Am_Sidd.egg-info/SOURCES.txt
+hello/src/I_Am_Sidd.egg-info/dependency_links.txt
+hello/src/I_Am_Sidd.egg-info/top_level.txt
+hello/src/sidd.py
+hello/src/I_Am_Sidd.egg-info/SOURCES.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: I Am Sidd
+Version: 0.0.1
+Summary: Hello Siddhartha Package
+Author: Siddhartha Purwar
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+__This is Siddharth first package__
