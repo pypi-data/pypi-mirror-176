@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: QyPy
+Version: 0.7.2
+Summary: Allows filters iterable of dictionary by another dictionary
+Home-page: https://github.com/mkalioby/QyPy/
+Download-URL: https://github.com/mkalioby/QyPy/
+Author: Mohamed El-Kalioby
+Author-email: mkalioby@mkalioby.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Filters List of Dictionaries by a query dictionary
