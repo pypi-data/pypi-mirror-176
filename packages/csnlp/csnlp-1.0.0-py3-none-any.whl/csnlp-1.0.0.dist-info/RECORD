@@ -1,0 +1,14 @@
+csnlp/__init__.py,sha256=0ZZmFSF5l_WlnBCba9JiVJYeUK55wq71rXDOItJCO8g,48
+csnlp/debug.py,sha256=TFCFhmqoTWC7PrWDGc1gl8CTur0bqq9gpuBEKuh2QzA,5626
+csnlp/math.py,sha256=X-wuj14s50RIellq-DZGENAQOBirQFuTyfdJtKqTk3s,4271
+csnlp/nlp.py,sha256=Fu3T7kmW1wZtV3V3oa-UIs9DTIGyRGH_MdRQoUe5N3M,27255
+csnlp/solutions.py,sha256=WvfHpGmq9F8wLDi3BXJ75zYU__rZkXciTEqXK61rwII,4649
+csnlp/util.py,sha256=sXVNOEcuHuomShu_rmPn04xyL2d4aI1FSxiChWdZOLI,7308
+csnlp/wrappers/__init__.py,sha256=jPfU5UHbXgocKirMpmY8FkC4hhQs1uAamY3pDLLchDQ,149
+csnlp/wrappers/differentiable_nlp.py,sha256=1b7EsFxXb1mVZJaSEf7CJt_J0x_GFNrTV-gSO_7ZktM,12607
+csnlp/wrappers/wrapper.py,sha256=odESJMQXn4IcimEN03SqvjzUadMxFZn0Js61W8Xkgkg,1253
+csnlp-1.0.0.dist-info/LICENSE,sha256=s2Xt7NXV5Jga1mE-z8xYD2gpdvyQH-HROtHM_okB504,1093
+csnlp-1.0.0.dist-info/METADATA,sha256=fsNvdWR4ZEk8sADM_f5iO0yt6TyZtzhykaotRqw-7Hk,4714
+csnlp-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+csnlp-1.0.0.dist-info/top_level.txt,sha256=rAgs3HGprTgx2zydGny2dqzh8vZu4XUI2zITmdUV2IE,6
+csnlp-1.0.0.dist-info/RECORD,,
