@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/InMemDB.egg-info/PKG-INFO
+src/InMemDB.egg-info/SOURCES.txt
+src/InMemDB.egg-info/dependency_links.txt
+src/InMemDB.egg-info/top_level.txt
+src/inmemdb/InMemDB.py
+src/inmemdb/__init__.py
