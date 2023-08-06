@@ -1,0 +1,13 @@
+coverage
+GH-IO-stubs
+GH-Util-stubs
+Grasshopper-stubs
+pytest
+pytest-cov
+rich
+Rhino-stubs
+setuptools
+Sphinx
+sphinx-bootstrap-theme
+twine
+wheel
