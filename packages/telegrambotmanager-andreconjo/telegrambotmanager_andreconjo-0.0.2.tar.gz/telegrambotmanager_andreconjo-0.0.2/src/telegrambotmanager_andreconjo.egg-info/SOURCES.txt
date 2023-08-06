@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/telegrambotmanager_andreconjo/__init__.py
+src/telegrambotmanager_andreconjo/bot.py
+src/telegrambotmanager_andreconjo/config.py
+src/telegrambotmanager_andreconjo/manager_bot.py
+src/telegrambotmanager_andreconjo.egg-info/PKG-INFO
+src/telegrambotmanager_andreconjo.egg-info/SOURCES.txt
+src/telegrambotmanager_andreconjo.egg-info/dependency_links.txt
+src/telegrambotmanager_andreconjo.egg-info/requires.txt
+src/telegrambotmanager_andreconjo.egg-info/top_level.txt

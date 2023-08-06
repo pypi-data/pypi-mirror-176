@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "pyTelegramBotAPI>=4.7.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegrambotmanager_andreconjo"
+version = "0.0.2"
+authors = [
+  { name="André Conjo", email="andrehconjo@gmail.com" },
+]
+description = "Package for managing and moderating groups on telegram"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ["pyTelegramBotAPI"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
