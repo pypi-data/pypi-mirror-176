@@ -1,0 +1,17 @@
+asgiref<4.0.0,>=3.2.10
+coreapi<3.0.0,>=2.3.3
+django-templated-mail<2.0.0,>=1.1.1
+djangorestframework-simplejwt<5.0.0,>=4.3.0
+social-auth-app-django<5.0.0,>=4.0.0
+
+[:python_version < "3.8"]
+importlib-metadata<2.0,>=1.0
+
+[test]
+pytest<7.0.0,>=6.0.2
+codecov<3.0.0,>=2.0.16
+coverage<6.0,>=5.3
+pytest-cov<3.0.0,>=2.10.1
+pytest-django<4.0.0,>=3.10.0
+pytest-pythonpath<0.8.0,>=0.7.3
+djet<0.3.0,>=0.2.2
