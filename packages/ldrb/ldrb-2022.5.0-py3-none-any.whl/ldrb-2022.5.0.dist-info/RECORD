@@ -1,0 +1,10 @@
+ldrb/__init__.py,sha256=OmhoF3Dg3NCe87m_BH8SKMBDwuGQ1XHzgcBxZeTmvsQ,726
+ldrb/calculus.py,sha256=tHxwPv6Fiu7XdpYjJAiYEovgM7d-OTwAqu0ECWfQtHI,8619
+ldrb/ldrb.py,sha256=ROeDOw4ZYPNTwkUbUR0-9UlKXhGTE1yuMbvOla2p6Gg,28851
+ldrb/save.py,sha256=3dXA7tjGbmGfOTcqeStWUpSMaKT8F9Bx1Sr718PPEZw,9553
+ldrb/utils.py,sha256=-IecUuIuMvGrqbOW92CFQFqkxl__0hduH1-GUsyGw64,18081
+ldrb-2022.5.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+ldrb-2022.5.0.dist-info/METADATA,sha256=fHGjpPedOzCQmOk8Ag9ZnwqSsY_QdepIwpYHX7cfvfo,4631
+ldrb-2022.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ldrb-2022.5.0.dist-info/top_level.txt,sha256=x2EeQXRDlukjWZyfEuJ_TvPSa6lVTYmSX7DR8ukJc2s,5
+ldrb-2022.5.0.dist-info/RECORD,,
