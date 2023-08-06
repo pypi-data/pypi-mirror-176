@@ -1,0 +1,13 @@
+- 0.1.3
+	* Add command for adding MIME Multipart comments
+- 0.1.2
+	* Task assignments
+	* Make assignment settable with mod command
+- 0.1.1
+	* MIME message log for issues
+- 0.1.0
+	* Tools for:
+		- Add issue
+		- Modify issue states and tags
+		- List all issues
+		- Show single issue data
