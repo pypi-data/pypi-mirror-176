@@ -1,0 +1,35 @@
+import switch_api as sw
+
+class {{name}}(sw.pipeline.{{task_type}}):
+    @property
+    def id(self) -> uuid.UUID:
+        return uuid.UUID("{{uuid}}")
+
+    @property
+    def mapping_entities(self) -> typing.List[MAPPING_ENTITIES]:
+        return ["{{readings_type}}"]
+
+    @property
+    def description(self) -> str:
+        return "{{description}}"
+
+    @property
+    def author(self) -> str:
+        return "{{author}}"
+
+    @property
+    def version(self) -> str:
+        return "0.1.0"
+
+    def process_file(self, api_inputs, file_path_to_process: str):
+        
+        # Reading the csv file
+        df: pd.DataFrame = pd.read_csv(
+            file_path_to_process
+        )
+
+        # Declaring the operations required
+        {% for code_block in code_blocks%}
+        {{code_block}}
+        {%endfor%}
+
