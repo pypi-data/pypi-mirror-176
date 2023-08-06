@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+brok/__init__.py
+brok/__main__.py
+brok/main.py
+brok.egg-info/PKG-INFO
+brok.egg-info/SOURCES.txt
+brok.egg-info/dependency_links.txt
+brok.egg-info/entry_points.txt
+brok.egg-info/top_level.txt
