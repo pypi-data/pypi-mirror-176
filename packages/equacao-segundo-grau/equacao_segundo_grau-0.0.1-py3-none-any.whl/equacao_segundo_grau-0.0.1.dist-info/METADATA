@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: equacao-segundo-grau
+Version: 0.0.1
+Summary: Calcula o resultado para equações do segundo grau
+Home-page: https://github.com/GenildoPraca/equacao-segundo-grau-package.git
+Author: Genildo
+Author-email: genildo.praca@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# equacao_segundo_grau
+
+Description. 
+The package equacao_segundo_grau is used to:
+	- Calcular o resultado de uma equaÃ§Ã£o do segundo grau
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install equacao_segundo_grau
+
+```bash
+pip install equacao_segundo_grau
+```
+
+## Usage
+
+```python
+from equacao_segundo_grau import baskara
+baskara.calcular(a, b, c)
+```
+
+## Author
+Genildo
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
