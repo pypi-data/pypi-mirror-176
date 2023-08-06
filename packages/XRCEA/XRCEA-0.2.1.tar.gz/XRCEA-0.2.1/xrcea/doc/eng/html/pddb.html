@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Powder difraction database &#8212; XRCEA 0.2 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Core functions" href="core.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="Core functions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">XRCEA 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Powder difraction database</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-pddb">
+<span id="powder-difraction-database"></span><h1>Powder difraction database<a class="headerlink" href="#module-pddb" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="pddb.introduce">
+<code class="sig-prename descclassname">pddb.</code><code class="sig-name descname">introduce</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pddb.introduce" title="Permalink to this definition">¶</a></dt>
+<dd><p>Entry point. Declares menu items.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="pddb.terminate">
+<code class="sig-prename descclassname">pddb.</code><code class="sig-name descname">terminate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pddb.terminate" title="Permalink to this definition">¶</a></dt>
+<dd><p>unloader</p>
+</dd></dl>
+
+<div class="section" id="module-pddb.pddb">
+<span id="core-functions"></span><h2>Core functions<a class="headerlink" href="#module-pddb.pddb" title="Permalink to this headline">¶</a></h2>
+<p>db interface</p>
+<dl class="py class">
+<dt id="pddb.pddb.Database">
+<em class="property">class </em><code class="sig-prename descclassname">pddb.pddb.</code><code class="sig-name descname">Database</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database" title="Permalink to this definition">¶</a></dt>
+<dd><p>Powder diffraction database class</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>string</em>) – Path to database.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="pddb.pddb.Database.execute">
+<code class="sig-name descname">execute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">command</span></em>, <em class="sig-param"><span class="n">commit</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database.execute" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>command</strong> (<em>string</em>) – SQL command</p></li>
+<li><p><strong>commit</strong> (<em>boolean</em>) – Whether to commit results.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pddb.pddb.Database.select_bruqa">
+<code class="sig-name descname">select_bruqa</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">req</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database.select_bruqa" title="Permalink to this definition">¶</a></dt>
+<dd><p>Select bruto equation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> (<em>string</em>) – Request</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of cards</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pddb.pddb.Database.select_bruto">
+<code class="sig-name descname">select_bruto</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">req</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database.select_bruto" title="Permalink to this definition">¶</a></dt>
+<dd><p>Select bruto equation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> (<em>string</em>) – Request</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of cards</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pddb.pddb.Database.select_cards">
+<code class="sig-name descname">select_cards</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">req</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database.select_cards" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> (<em>string</em>) – Query to select cards</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of cards.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pddb.pddb.Database.select_reflex">
+<code class="sig-name descname">select_reflex</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">req</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.Database.select_reflex" title="Permalink to this definition">¶</a></dt>
+<dd><p>Select by reflex</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> (<em>string</em>) – Request</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of cards</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="pddb.pddb.formula_markup">
+<code class="sig-prename descclassname">pddb.pddb.</code><code class="sig-name descname">formula_markup</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fstr</span></em>, <em class="sig-param"><span class="n">wiki</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.formula_markup" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>fstr</strong> (<em>string</em>) – formula string</p></li>
+<li><p><strong>wiki</strong> (<em>boolean</em>) – print wiki (deprecated)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>formula</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="pddb.pddb.switch_number">
+<code class="sig-prename descclassname">pddb.pddb.</code><code class="sig-name descname">switch_number</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">number</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.pddb.switch_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds defis to number.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>number</strong> (<em>integer</em>) – number in database</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-pddb.browser">
+<span id="gui"></span><h2>GUI<a class="headerlink" href="#module-pddb.browser" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="pddb.browser.Browser">
+<em class="property">class </em><code class="sig-prename descclassname">pddb.browser.</code><code class="sig-name descname">Browser</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">db</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.browser.Browser" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt id="pddb.browser.Browser.add_colored">
+<code class="sig-name descname">add_colored</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">row</span></em>, <em class="sig-param"><span class="n">c</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.browser.Browser.add_colored" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a card to colored</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pddb.browser.Browser.search">
+<code class="sig-name descname">search</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">query</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pddb.browser.Browser.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run search</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Powder difraction database</a><ul>
+<li><a class="reference internal" href="#module-pddb.pddb">Core functions</a></li>
+<li><a class="reference internal" href="#module-pddb.browser">GUI</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="core.html"
+                        title="previous chapter">Core functions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/pddb.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="Core functions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">XRCEA 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Powder difraction database</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019-2020, Serhii Lysovenko.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
