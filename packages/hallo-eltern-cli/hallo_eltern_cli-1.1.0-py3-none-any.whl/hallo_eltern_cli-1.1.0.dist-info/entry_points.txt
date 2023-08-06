@@ -1,0 +1,3 @@
+[console_scripts]
+hallo-eltern-cli=hallo_eltern_cli.cli:run
+
