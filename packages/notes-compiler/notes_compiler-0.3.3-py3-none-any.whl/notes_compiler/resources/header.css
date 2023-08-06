@@ -1,0 +1,28 @@
+header,
+footer {
+  display: grid;
+  width: 100%;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+}
+
+.link-before {
+  width: 100%;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.link-index {
+  width: 100%;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.link-after {
+  width: 100%;
+  text-align: right;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
