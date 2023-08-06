@@ -1,0 +1,2 @@
+[autotsk]
+autotsk = autotsk.__main__:main
