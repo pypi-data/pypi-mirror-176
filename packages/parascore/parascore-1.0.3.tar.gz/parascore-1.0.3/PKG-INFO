@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: parascore
+Version: 1.0.3
+Summary: Parascore toolkit
+Home-page: UNKNOWN
+Author: Lingfeng Shen
+Author-email: lshen30@jh.edu
+License: MIT
+Description: UNKNOWN
+Keywords: Paraphrase metric
+Platform: UNKNOWN
+Requires-Python: >=3.6
