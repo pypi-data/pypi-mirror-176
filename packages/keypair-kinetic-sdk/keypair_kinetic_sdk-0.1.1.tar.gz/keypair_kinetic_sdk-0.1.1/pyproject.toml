@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "keypair-kinetic-sdk"
+version = "0.1.1"
+description = ""
+authors = ["Antoni Oktha Fernandes <37358597+DesKaOne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "keypair_kinetic_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+solana = "^0.28.0"
+bip-utils = "^2.7.0"
+pybase64 = "^1.2.3"
+pybip39 = "^0.1.0"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
