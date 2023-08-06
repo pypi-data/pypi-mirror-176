@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eodFunc
+Version: 0.1
+Summary: work with the EODHistorical API
+Project-URL: Homepage, https://github.com/dmars12345/eodFunc
+Author-email: dylan marsella <dylanmarsella1@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+test
