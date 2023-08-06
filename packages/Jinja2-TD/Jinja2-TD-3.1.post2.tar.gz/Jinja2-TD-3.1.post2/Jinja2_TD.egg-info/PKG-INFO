@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Jinja2-TD
+Version: 3.1.post2
+Summary: Jinja2 template dependency insight
+Home-page: https://github.com/louisdevie/jinja2-td
+Author: Louis DEVIE
+License: MIT License
+Keywords: jinja,jinja2,template,dependency
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE_JINJA2
+
+# Jinja2-TD
+
+Provides information about Jinja2 template dependencies.
+
+## Example
+
+```python
+...
+
+my_template = env.get_template("my_template.j2")
+
+...
+
+template_info = env.dependencies.get_template("my_template.j2")
+
+parent = template_info.get_parent()
+if parent is not None:
+   print("This template extends", parent.target.name)
+else:
+   print("This template doesn't extend another")
+```
+
+[Go read the docs!](https://jinja2-td.readthedocs.io)
+
