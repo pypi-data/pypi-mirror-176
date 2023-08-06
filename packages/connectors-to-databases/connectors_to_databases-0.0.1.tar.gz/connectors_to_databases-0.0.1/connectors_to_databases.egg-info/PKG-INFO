@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: connectors-to-databases
+Version: 0.0.1
+Summary: Python module for connect with PostgreSQL 
+Home-page: https://github.com/k0rsakov/connectors_to_databases
+Author: k0rsakov
+Author-email: korsakov.iyu@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/k0rsakov/connectors_to_databases/archive/refs/heads/main.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
