@@ -1,0 +1,14 @@
+pyrefact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrefact/__main__.py,sha256=6pXwneZ0yZfX8n0APSTul-dL0VZ3Iw1VJ8zh-NykVFM,127
+pyrefact/abstractions.py,sha256=JGStHz4NZPBGzVwQbup6EzQhU6FpUQ6f8gUDpyDgGYE,19102
+pyrefact/completion.py,sha256=NFx5LEqRuyVxWT_YpCmtLn3L0F5hXhZ_osaP_0rSUw8,2148
+pyrefact/constants.py,sha256=jYhZpsO2M-P06UbWgU4fCK8sDUs90EKXChO3_RPZ-eI,5931
+pyrefact/fixes.py,sha256=hJOkWVy7hE7Gbu2mR_fXHNq7pz_PFGnAQ8aXT0oyrUA,41025
+pyrefact/main.py,sha256=zbxO-fm7tDLoqPiUvr3znzunaNAw754KRdjdMH6f5QE,4677
+pyrefact/parsing.py,sha256=K8eG3_Ne1tBxLkHhwrqIE-EjY8lYOeeToeAt9zOsvPo,16527
+pyrefact/processing.py,sha256=0eZLmshPxoLDYvcZG5H0RbPOrgJe7k9nh85-iLqLf90,3256
+pyrefact-20.dist-info/LICENSE,sha256=VtYxu4K4xe--JOpiccEDatS7M_tOZgTjOIAUUgGrTaM,1069
+pyrefact-20.dist-info/METADATA,sha256=6zoA0klKU_39H6gQKVGRtQt2AGPA8ggFo6ZwyOJ7XcU,1950
+pyrefact-20.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyrefact-20.dist-info/top_level.txt,sha256=TRkGmgGqFRZxwozAFp5w_t_28VB6GLXgUv-_rKuw2YU,9
+pyrefact-20.dist-info/RECORD,,
