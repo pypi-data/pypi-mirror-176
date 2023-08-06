@@ -1,0 +1,28 @@
+{
+    "_name": "span_cls_relabel",
+    "config": {
+        "train":{
+            "input_map": {  
+                 "word_ids": "word_ids",
+                 "offsets": "offsets",
+                 "entities_info": "entities_info",
+            },
+            "data_set": {                   # for different stage, this processor will process different part of data
+                 "train": ['train', 'valid', 'test'],
+                 "predict": ['predict'],
+            },
+            "output_map": {
+                 "label_ids": "label_ids",
+                 # for span relation extract relabel, deliver should be {"entity_id": {"start": start, "end": end}}, which the start and end should be the index of the token level
+                 "processed_entities_info": "processed_entities_info",
+            },
+            "drop": "none", # 'longer'/'shorter'/'none', if entities is overlap, will remove by rule
+            "vocab": "label_vocab", # usually provided by the "token_gather" module
+            "entity_priority": [],
+            "priority_trigger": 1, # if the overlap entity abs(length_a - length_b)<=priority_trigger, will trigger the entity_priority strategy, otherwise use the drop rule
+            "mask_fill": -100,
+            "mask_first_sent": false,  # when we use this module to resolve the MRC like SQuAD we should mask the first sentence(quesiotn) for anwering
+            "null_to_zero_index": false,  # if cannot find the entity, set to point to the first(zero) index token
+        }
+    }
+}
