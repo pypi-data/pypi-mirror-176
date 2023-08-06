@@ -1,0 +1,17 @@
+pyyaml==6.0
+
+[dev]
+coverage[toml]
+pytest
+pytest-asyncio
+pytest-cov
+flake8
+flake8-docstrings
+black
+isort
+requests
+hypothesis
+mypy
+bandit
+pylint
+twine
