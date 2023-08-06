@@ -1,0 +1,9 @@
+inquirer
+fastapi
+uvicorn
+configobj
+SQLAlchemy
+pydantic
+psutil
+requests
+fastapi-utils
