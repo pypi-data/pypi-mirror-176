@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: PyNews
+Version: 0.2.2
+Summary: PyNews is a simple Python CLI to browse news from HN website
+Home-page: https://github.com/mazulo/pynews_cli
+Download-URL: https://github.com/mazulo/pynews_cli/archive/master.zip
+Author: Patrick Mazulo
+Author-email: pmazulo@gmail.com
+Maintainer: Patrick Mazulo
+Maintainer-email: pmazulo@gmail.com
+License: MIT
+Keywords: pynews cli shell news hackernews
+Platform: windows linux
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Shells
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+==========
+pynews-cli
+==========
+
+A Python CLI to browse news from Hacker News (and others, in the near future). Also is a Python implementation of the awesome `hn-cli <https://github.com/rafaelrinaldi/hn-cli>`_.
+
+Installing
+----------
+
+Via pip
+
+.. code-block:: bash
+
+    $ pip install pynews
+
+You can also clone this project and install via setup.py
+
+.. code-block:: bash
+
+    $ git clone git@github.com:mazulo/pynews_cli.git
+    $ cd pynews_cli/
+    $ python setup.py install
+
+
+Usage Example
+-------------
+
+- Get Top Stories:
+
+.. code-block:: bash
+
+    $ pynews -t 10 # or
+    $ pynews --top-stories 10
+    # This will show the 10 first *top* stories from the list of 500.
+
+- Get New Stories:
+
+.. code-block:: bash
+
+    $ pynews -n 10 # or
+    $ pynews --news-stories
+    # This will show the 10 first *new* stories from the list of 500.
+
+See it in action
+----------------
+
+.. image:: http://wstaw.org/m/2016/02/16/GIFrecord_2016-02-16_014532.gif
+   :height: 552px
+   :width: 610px
+   :alt: Usage
+   :align: center
