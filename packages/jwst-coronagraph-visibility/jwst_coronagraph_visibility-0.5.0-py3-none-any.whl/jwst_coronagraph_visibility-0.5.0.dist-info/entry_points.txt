@@ -1,0 +1,2 @@
+[gui_scripts]
+jwst-coronagraph-visibility-gui = jwst_coronagraph_visibility.gui:run
